@@ -1,4 +1,4 @@
-# Tavola nuova: Note Del Traduttore, pagina 1 di 2
+# Tavola nuova: Note Del Traduttore, pagina 1 di 3
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
@@ -21,6 +21,21 @@ testi:
   x: 227
   y: 420
   righe:
+  - '     Frontespizio -- La poesia "Una caraffa di'
+  - vino. Un coscio d'agnello. E tu! Accanto a me. Che
+  - fischi nell'oscurità" è di Walt Kelly, l'autore
+  - del fumetto Pogo, ed era detta da uno dei suoi
+  - 'personaggi: lo racconta Greg Hill stesso'
+  - nell'intervista alla Norton Cabal, in fondo al
+  - libro, dove svela anche la provenienza di molti
+  - altri ritagli. È a sua volta la parodia della
+  - quartina più famosa del Rubaiyat di Omar Khayyam
+  - 'nella versione inglese di FitzGerald: "una brocca'
+  - di vino, una pagnotta di pane, e tu accanto a me
+  - che canti nel deserto". E Omar Khayyam Ravenhurst,
+  - guarda caso, è il nome sacro di Kerry Thornley,
+  - coautore dei Principia.
+  - ''
   - '     00004 -- Pentabarf. In inglese "barf" vuol'
   - 'dire vomitare: il nome dei Cinque Comandamenti'
   - nasconde una piccola volgarità che il Pentaconato,
@@ -45,18 +60,3 @@ testi:
   - ''
   - '     00022 -- Polipadre: in inglese Polyfather,'
   - che fa il verso allo Holy Father, il Santo Padre.
-  - ''
-  - '     00026 -- Gioco di parole intraducibile: Cow ='
-  - Mucca, Cao = singolare di Caos (sic).
-  - ''
-  - '     00033 -- "Da non confondersi con The Apple'
-  - 'Corps Ltd. di quei quattro cantanti": e neanche'
-  - con quella roba i-qualcosa...
-  - ''
-  - '     00033 -- KSC sta per Keepers of the Sacred'
-  - Chao, i Tenutari del Sacro Chao. Ho lasciato la
-  - sigla inglese perché è quella che si mette dopo il
-  - nome, e TSC non avrebbe fatto la stessa figura.
-  - ''
-  - '     00034 -- I giorni della settimana discordiana'
-  - in originale sono Sweetmorn (Dolcegiorno),

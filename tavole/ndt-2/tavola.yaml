@@ -1,4 +1,4 @@
-# Tavola nuova: Note Del Traduttore, pagina 2 di 2
+# Tavola nuova: Note Del Traduttore, pagina 2 di 3
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
@@ -18,6 +18,20 @@ testi:
   x: 227
   y: 330
   righe:
+  - '     00026 -- Gioco di parole intraducibile: Cow ='
+  - Mucca, Cao = singolare di Caos (sic).
+  - ''
+  - '     00033 -- "Da non confondersi con The Apple'
+  - 'Corps Ltd. di quei quattro cantanti": e neanche'
+  - con quella roba i-qualcosa...
+  - ''
+  - '     00033 -- KSC sta per Keepers of the Sacred'
+  - Chao, i Tenutari del Sacro Chao. Ho lasciato la
+  - sigla inglese perché è quella che si mette dopo il
+  - nome, e TSC non avrebbe fatto la stessa figura.
+  - ''
+  - '     00034 -- I giorni della settimana discordiana'
+  - in originale sono Sweetmorn (Dolcegiorno),
   - Boomtime (Bottodì), Pungenday (Pungendì),
   - Prickle-Prickle (Gratta-gratta) e Setting Orange
   - (Arancia Calante). Le stagioni sono Chaos,
@@ -44,13 +58,3 @@ testi:
   - tagliarla in due.
   - ''
   - '     00055 -- ERIS letto al contrario è SIRE:'
-  - '"sire, signore", ma anche il maschio da monta e il'
-  - verbo "generare"; da qui il simbolismo sessuale.
-  - 'Spostando la prima lettera alla fine è RISE:'
-  - '"crescita". Eros letto al contrario è sorE:'
-  - '"avvilito".'
-  - ''
-  - '     00059 -- Sri Syadasti viene dal syadvada'
-  - giainista, la dottrina secondo cui di ogni cosa si
-  - può dire soltanto che "in un certo senso è". La
-  - salmodia ne declina tutte le combinazioni.
