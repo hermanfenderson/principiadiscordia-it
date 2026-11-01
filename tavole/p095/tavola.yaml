@@ -1,0 +1,218 @@
+# Tavola p095 (originale: postfazione Loompanics, intervista pag. 3 di 9) — Intervista alla Norton Cabal
+# Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p095.md
+# STATO: completa
+# NUOVE TRADUZIONI: intestazione corrente "NORTON CABAL INTERVIEW" -> "INTERVISTA ALLA CABALA NORTON" (uguale su p093-p103;
+#   nel titolo di p093 il testo dice "CABALA NORTON"). "G. Skripto" e piede "79/11/26 -3- Loompanics" originali.
+# DIFFERENZE: L'italiano è più lungo: dattiloscritto stretto (scala_x 0.94); corpo e interlinea (44.5) originali,
+#   spazio tra le battute 86 (originale 89-91).
+#   Battute di dialogo con il nome a sinistra e le righe seguenti rientrate di 4 battute, come nell'originale;
+#   corsivo del testo (_..._) reso con sottolineatura. Filetti originali intatti.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 45 (passo 27 = macchina da scrivere passo 10), grassetto 0.5.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 95
+
+cancella:
+  - [1150, 118, 1760, 175]     # NORTON CABAL INTERVIW
+  - [65, 250, 1800, 2760]     # testo
+
+testi:
+  - font: CourierPrime-Regular.ttf    # intestazione corrente
+    corpo: 45
+    grassetto: 0.5
+    allinea: destra
+    x: 1738
+    y: 163
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 300
+    righe:
+      - "G.H. Hill:  Da allora ho rinunciato all'anarchia. Troppe"
+      - "    regole -- odiare il governo e tutta quella roba."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 430
+    righe:
+      - "IGNOTUM PER IGNOTIUS:  È come odiare le proprie fantasie."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 516
+    righe:
+      - "Malik:     [L'anarchia] è anche alzarsi in piedi e andare"
+      - "    avanti, che a governare sia la fantasia o no. La condizione"
+      - "    è la stessa."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 692
+    righe:
+      - "Occupant:  Il Fratello ha bisogno di vino!"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 778
+    righe:
+      - "Malik:     Questa discussione l'abbiamo già fatta, Reverendo"
+      - "    Dottor Fratello. Ma prima il vino, poi i luoghi comuni:"
+      - "    riempi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 952
+    righe:
+      - "Gypsie [a Hill]:  E il pacifismo?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 1038
+    righe:
+      - "Hill:      Non sono sicuro di essere mai stato pacifista. Mal²"
+      - "    non lo era, Malik sì. Personalmente accettavo la legittima"
+      - "    difesa, ma non riuscivo mai a conciliarla con l'ideale."
+      - "    Alla fine ho rinunciato anche a quello. In realtà ho"
+      - "    semplicemente rinunciato all'idealismo."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 1302
+    righe:
+      - "Ignotius:  L'idealismo vive con le regole. Il realismo vive con"
+      - "    le pietre."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 1433
+    righe:
+      - "Hill:      Già. Con le pietre vado più d'accordo."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 1519
+    righe:
+      - "Malik:     Mal² una volta mi disse che il pacifismo era un"
+      - "    dilemma. Se tutti fossero pacifisti, allora tutto sarebbe"
+      - "    perfetto. Ma nessuno diventerà pacifista se non lo sono io"
+      - "    per primo. Ma se io lo sono e qualcun altro no, allora"
+      - "    resto fregato. Disse che in quella circostanza c'erano"
+      - "    cinque possibilità. La prima era bombardare i contadini col"
+      - "    napalm e la seconda era giustiziare i propri genitori. La"
+      - "    terza era l'ipocrisia, la quarta la vigliaccheria e la"
+      - "    quinta ingoiare il dilemma. Gli Zenarchici sono addestrati"
+      - "    a ingoiare dilemmi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 2006
+    righe:
+      - "Occupant:  Anche altri Erisiani lo sono, quelli POEE per"
+      - "    esempio."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 2136
+    righe:
+      - "Ignotius:  È una caratteristica della prospettiva Discordiana."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 2222
+    righe:
+      - "Hill:      Ma naturalmente l'addestramento contraddice i"
+      - "    principi Discordiani."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 2352
+    righe:
+      - "Malik:     E allora? Le contraddizioni sono nulla per i"
+      - "    Discordiani."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 125
+    y: 2483
+    righe:
+      - "Occupant:  Dilemma, schilemma. [a Gypsie]: E tu che ne pensi,"
+      - "    bella signora? I tuoi pensieri non ce li fai sentire."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 2614
+    righe:
+      - "Gypsie:    Adesso faccio la giornalista, parla tu."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 125
+    y: 2700
+    righe:
+      - "Occupant:  Più tardi, allora?"
+
+linee:                         # sottolineature del dattiloscritto
+  - [1267, 2487, 1315, 2490]

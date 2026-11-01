@@ -1,0 +1,182 @@
+# Tavola p093 (originale: postfazione Loompanics, pag. 1 di 9) — Postfazione speciale / Intervista alla Cabala Norton
+# Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p093.md
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (tutto da testo/it/loompanics/p093.md)
+# DIFFERENZE: il simbolo (K) cerchiato è quello della scansione, lasciato al suo posto.
+#   Il titolo segue il testo ("INTERVISTA ALLA CABALA NORTON"); l'intestazione corrente delle pagine
+#   seguenti è invece "INTERVISTA ALLA CABALA NORTON" (scelta di coordinamento): da uniformare in revisione.
+#   L'italiano è più lungo: dattiloscritto stretto (scala_x 0.94), corpo, interlinea (44.5) e
+#   spazio tra i paragrafi appena ridotto (84 invece di 89); righe giustificate a spazi come nel dattiloscritto.
+#   Piede "79/11/26 -1- Loompanics" e filetti originali intatti.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 45 (passo 27 = macchina da scrivere passo 10 dell'originale), grassetto 0.7;
+#   corsivo del testo (_..._) reso con sottolineatura, come nel dattiloscritto.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 93
+
+cancella:
+  - [100, 100, 1600, 228]     # intestazione, righe 1-3
+  - [100, 228, 776, 300]     # riga 4 a sinistra del (K)
+  - [844, 228, 1600, 300]     # riga 4 a destra del (K)
+  - [440, 545, 1240, 612]     # titolo, tra i filetti
+  - [250, 640, 1450, 700]     # firma
+  - [20, 770, 1680, 2700]     # testo
+
+testi:
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    x: 575
+    y: 138
+    righe:
+      - "POSTFAZIONE SPECIALE"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    x: 210
+    y: 184
+    righe:
+      - "all'Edizione Loompanics dei Principia Discordia"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    x: 440
+    y: 230
+    righe:
+      - "G.H. Hill, San Francisco, 1979"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    allinea: destra
+    x: 738
+    y: 276
+    righe:
+      - "Tutti i Riti Rovesciati"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    x: 882
+    y: 276
+    righe:
+      - "Ristampate Quel Che Vi Pare"
+
+  - font: CourierPrime-Regular.ttf    # titolo tra i due filetti (restano)
+    corpo: 45
+    grassetto: 0.5
+    x: 444
+    y: 589
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    x: 281
+    y: 680
+    righe:
+      - "di Gypsie Skripto, Corrispondente Speciale"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 40
+    y: 815
+    righe:
+      - "    Sono  passati  dieci anni da quando incontrai il misterioso"
+      - "Malaclypse il Giovane. Collaboravo con i giornali underground e"
+      - "passai  dal Tempio Principale POEE al 555 di Battery Street per"
+      - "tentare di ottenere un'intervista."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 40
+    y: 1032
+    righe:
+      - "    Lo  trovai  nella  casella  postale  del  Tempio, intento a"
+      - "ultimare la  nuova  Quarta  Edizione  dei  Principia.  Sembrava"
+      - "spazientito  dalla  mia presenza e insisteva di non avere né il"
+      - "tempo né la voglia  di  rispondere  alle  domande  cretine  dei"
+      - "giornalisti.   Imperterrita,   lo   investii   di  domande:  se"
+      - "preferisse  la  Panama  Red  o  l'Acapulco  Gold,  come   cazzo"
+      - "facessimo  a stare dentro una minuscola casella postale e altre"
+      - "cose  degne  di   una   giovane   scrittrice   hippy   ingenua,"
+      - "semianalfabeta  e  fuggita da scuola. Mi chiese se mi andava di"
+      - "prendere mescalina e scopare tutta la notte, disse  che  sapeva"
+      - "trasformarsi  in  unicorno  e  che  forse  sulla  copertina dei"
+      - "Principia c'era posto per una piccola intervista, se mi  andava"
+      - "di  lavorare per il Pupù Maggiore, così dissi certo, OK, non ho"
+      - "mai preso mescalina in una casella postale prima d'ora."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 40
+    y: 1695
+    righe:
+      - "    Risultò  che  ero  stata  tra  le  ultime  persone a vedere"
+      - "Malaclypse.  Come  rivelarono  i  numeri  successivi  del  Pupù"
+      - "Maggiore,  egli  sarebbe  scomparso  e  degli  affari  POEE  si"
+      - "sarebbero occupati i suoi discepoli  della  Cabala  Norton.  Al"
+      - "Professor   Ignotum   P.   Ignotius,   Dipartimento  di  Realtà"
+      - "Comparate, fu affidata la Custodia dello  Scrupolo  POEE  e  il"
+      - "Rev. Dr. Occupant divenne Tenutario della Casella. Le copie dei"
+      - "Principia appena pubblicate furono distribuite  da  Mad  Malik,"
+      - "Disorganizzatore d'Isolato, che aveva contatti di distribuzione"
+      - "con i Bavariati d'Alluminio. I rapporti pratici rimasero  nelle"
+      - "mani dell'artista concettuale G. Hill."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 40
+    y: 2224
+    righe:
+      - "    Quando  i  1000 Principia furono esauriti, il Pupù Maggiore"
+      - "cessò le pubblicazioni, il Tempio Principale chiuse e la Cabala"
+      - "sembrò  semplicemente evaporare. Alla fine fu chiusa persino la"
+      - "casella. Ma negli anni mi accorsi che le copie  continuavano  a"
+      - "circolare   e  che  ogni  tanto  spuntavano  dal  nulla  Cabale"
+      - "Discordiane indipendenti (e spuntano ancora). E mi chiedevo che"
+      - "fine avesse fatto Malaclypse."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 40
+    y: 2575
+    righe:
+      - "    Quando   lessi   la  trilogia  di  Illuminatus,  decisi  di"
+      - "ritrovare e  intervistare  gli  abitanti  della  Cabala  Joshua"
+      - "Norton della Società Discordiana."
+
+linee:                         # sottolineature del dattiloscritto
+  - [966, 188, 1206, 191]
+  - [1236, 188, 1476, 191]
+  - [1131, 1081, 1357, 1084]
+  - [40, 1526, 265, 1529]
+  - [548, 1570, 646, 1574]
+  - [674, 1570, 875, 1574]
+  - [1537, 1744, 1636, 1746]
+  - [40, 1788, 240, 1791]
+  - [40, 2010, 265, 2014]
+  - [548, 2228, 773, 2231]
+  - [1309, 2228, 1408, 2231]
+  - [1436, 2228, 1636, 2231]
+  - [1030, 2579, 1306, 2582]

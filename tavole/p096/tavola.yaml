@@ -1,0 +1,243 @@
+# Tavola p096 (originale: postfazione Loompanics, intervista pag. 4 di 9) — Intervista alla Norton Cabal
+# Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p096.md
+# STATO: completa
+# NUOVE TRADUZIONI: intestazione corrente "NORTON CABAL INTERVIEW" -> "INTERVISTA ALLA CABALA NORTON" (uguale su p093-p103;
+#   nel titolo di p093 il testo dice "CABALA NORTON"). "G. Skripto" e piede "79/11/26 -4- Loompanics" originali.
+# DIFFERENZE: L'italiano è più lungo: dattiloscritto stretto (scala_x 0.94); corpo e interlinea (44.5) originali,
+#   spazio tra le battute 89 (originale 89-91).
+#   Battute di dialogo con il nome a sinistra e le righe seguenti rientrate di 4 battute, come nell'originale;
+#   corsivo del testo (_..._) reso con sottolineatura. Filetti originali intatti.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 45 (passo 27 = macchina da scrivere passo 10), grassetto 0.5.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 96
+
+cancella:
+  - [145, 82, 800, 135]     # NORTON CABAL INTERVIEW
+  - [98, 209, 1800, 2675]     # testo
+
+testi:
+  - font: CourierPrime-Regular.ttf    # intestazione corrente
+    corpo: 45
+    grassetto: 0.5
+    x: 158
+    y: 122
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 259
+    righe:
+      - "Gypsie:    Forse. Più tardi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 348
+    righe:
+      - "Occupant:  Stai sorridendo."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 437
+    righe:
+      - "Gypsie:    Ehi, amico, più tardi. [a Hill]: Tutto questo non ti"
+      - "    fa sentire un po' schizo?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 570
+    righe:
+      - "Hill:      Va bene così, sono per metà dei Gemelli."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 660
+    righe:
+      - "Gypsie:    E l'altra metà?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 748
+    righe:
+      - "Hill:      Toro. Il che fa di me uno schizo testardo."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 838
+    righe:
+      - "Ignotius:  Io sono della Balena."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 926
+    righe:
+      - "Occupant:  Io scelgo Satiro."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 1016
+    righe:
+      - "Malik:     Gli spiriti non hanno segno."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 1104
+    righe:
+      - "Hill:      Un personaggio può avere un segno, se io voglio così."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 1194
+    righe:
+      - "Occupant:  Beh, io posso avere un segno se io lo voglio, e"
+      - "    andate a farvi fottere tutti e due."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 1327
+    righe:
+      - "Malik:     Su, Greg, sei tu che credi che noi siamo tuoi"
+      - "    personaggi...."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 1460
+    righe:
+      - "Occupant:  Eri abitato da Malaclypse il Giovane. È lui che ti ha"
+      - "    fatto creare dei ruoli, e quei ruoli li interpretiamo noi"
+      - "    spiriti."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 1638
+    righe:
+      - "Ignotius:  Un rapporto pagano perfettamente normale."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 1728
+    righe:
+      - "Hill:      Beh, puoi vederla così se vuoi, ma ho creato Mal²"
+      - "    secondo le mie specifiche, proprio come ho concepito tutti"
+      - "    voi altri."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 1906
+    righe:
+      - "Occupant:  Eris non l'hai inventata tu. È stata Lei a farti"
+      - "    credere di aver creato lo spirito di Malaclypse."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 2039
+    righe:
+      - "Hill:      Oh, stronzate! E poi l'ho cambiata tanto che i Greci"
+      - "    non la riconoscerebbero mai."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 2172
+    righe:
+      - "Occupant:  Era quello che Lei voleva!"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 158
+    y: 2262
+    righe:
+      - "Ignotius:  Le divinità cambiano le cose in continuazione."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 2350
+    righe:
+      - "Malik:     Quello che non capisci è che uno spirito ha una"
+      - "    propria identità."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 158
+    y: 2484
+    righe:
+      - "Hill:      Nossignore. Uno spirito è il prodotto di una"
+      - "    definizione e quello che qui dà le definizioni sono io. La"
+      - "    tua identità è quella che dico io. Tanto per dimostrartelo,"
+      - "    adesso ti cambio nome."
+
+linee:                         # sottolineature del dattiloscritto
+  - [1249, 1198, 1297, 1200]
+  - [1529, 1910, 1652, 1912]

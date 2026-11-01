@@ -1,0 +1,92 @@
+# Tavola p103 — Quinta Edizione: frontespizio
+# Testo: testo/it/loompanics/p103.md
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (testo di testo/it/loompanics/p103.md)
+# DIFFERENZE: "PRINCIPIA DISCORDIA" (gotico), "ODD# ∞", "San Francisco" e il Ⓚ cerchiato sono
+#   identici in italiano e restano quelli della scansione. "Tutti i Riti Rovesciati" parte dove
+#   partiva "All Rites Reversed" stretto a scala_x 0.92, sborda di poco a destra.
+#   "DICHIARAZIONE FINALE" è più lunga di "FINAL STATEMENT": gotico ridotto con `adatta`.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: gotico in UnifrakturMaguntia (l'originale è un Old English più largo e ornato);
+#   romano in Old Standard (l'originale è un romano tipo Souvenir/Times da trasferibili).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 103
+
+cancella:
+  - [38, 178, 385, 242]       # Fifth Edition (ODD# ∞ resta)
+  - [815, 545, 890, 592]      # or
+  - [200, 632, 1512, 698]     # A CATTERPILLAR'S PRAISE TO THE BUTTERFLY
+  - [695, 888, 1018, 963]     # being the
+  - [270, 968, 1386, 1070]    # FINAL STATEMENT (gotico)
+  - [498, 1072, 1197, 1141]   # of Malaclypse the Younger
+  - [405, 2106, 1322, 2181]   # published by Joshua Norton Cabal
+  - [855, 2205, 1386, 2273]   # All Rites Reversed (San Francisco e Ⓚ restano)
+
+testi:
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 64
+    scala_x: 0.9
+    x: 45
+    y: 229
+    righe: ["Quinta Edizione"]
+
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 64
+    allinea: centro
+    x: 852
+    y: 582
+    righe: ["ovvero"]
+
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 67
+    adatta: 1300
+    allinea: centro
+    x: 856
+    y: 688
+    righe: ["LODE DI UN BRUCO ALLA FARFALLA"]
+
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 60
+    allinea: centro
+    x: 856
+    y: 941
+    righe: ["essendo  questa  la"]
+
+  - font: UnifrakturMaguntia-Book.ttf
+    corpo: 100
+    grassetto: 1
+    adatta: 1300
+    allinea: centro
+    x: 850
+    y: 1050
+    righe: ["DICHIARAZIONE  FINALE"]
+
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 58
+    allinea: centro
+    x: 848
+    y: 1122
+    righe: ["di Malaclypse il Giovane"]
+
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 60
+    allinea: centro
+    x: 863
+    y: 2160
+    righe: ["pubblicata dalla Cabala Joshua Norton"]
+
+  - font: OldStandard-Regular.ttf
+    grassetto: 0.5
+    corpo: 64
+    scala_x: 0.92
+    x: 866
+    y: 2264
+    righe: ["Tutti i Riti Rovesciati"]

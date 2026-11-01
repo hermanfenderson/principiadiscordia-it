@@ -9,7 +9,7 @@
 # REFUSI CORRETTI: "i TURNI" -> "I TURNI"; "ft. Brage" -> "FT. BRAGG".
 # NdT ESCLUSE: "*affonda" e "**In un certo senso siamo..." (note a piè di pagina del
 #   vecchio sito che traducevano le immagini: qui le scritte sono ricomposte).
-# FONT: titolo in Poppins Bold (font di sistema, OFL, percorso assoluto): nessun font
+# FONT: titolo in Poppins Bold (font di sistema, OFL, (ora copiato in strumenti/font)): nessun font
 #   di strumenti/font somiglia al bastone geometrico nero di "SINK".
 
 pagina_pdf: 81

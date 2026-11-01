@@ -1,0 +1,199 @@
+# Tavola p101 — Intervista alla Norton Cabal (G. Skripto), pag. 9 del dattiloscritto, con nota
+# Testo: testo/it/loompanics/p101.md
+# STATO: completa
+# NUOVE TRADUZIONI: intestazione corrente "NORTON CABAL INTERVIW" -> "INTERVISTA ALLA CABALA NORTON".
+# DIFFERENZE: il "[nota: ...]" del testo è composto come nota a piè di pagina con asterisco, come
+#   nell'originale (asterisco dopo "un paio d'anni prima."; il filetto della nota resta dalla
+#   scansione). Corpo stretto a scala_x 0.91, interlinea 44.7, stacco tra le battute 40.2 px; la nota
+#   a scala_x 0.86 per stare nelle 5 righe dell'originale. Sottolineati come nell'originale:
+#   Illuminatus, Cosmic Trigger, Principia, Prima Edizione dei Principia (parola per parola).
+#   "…" reso con "..." da macchina da scrivere.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 48 + grassetto 0.5 (passo originale 27 px); intestazione nello
+#   stesso font; "G. Skripto", filetti e piede "79/11/26 -9- Loompanics" restano dalla scansione.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 101
+
+cancella:
+  - [1075, 108, 1660, 168]    # intestazione (G. Skripto resta)
+  - [12, 228, 1665, 2320]    # dattiloscritto
+  - [12, 2492, 1630, 2725]    # nota a piè di pagina (il filetto resta)
+
+testi:
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    x: 1645
+    y: 156
+    allinea: destra
+    grassetto: 0.5
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 278
+    grassetto: 0.5
+    righe:
+      - "    cinque anni perché Dell lo pubblicasse... forse è"
+      - "    significativo. La Società Discordiana del 1969 era una"
+      - "    rete postale fra scrittori indipendenti di vario genere."
+      - "    La Cabala Norton eravamo soltanto io e i miei personaggi,"
+      - "    e usavo le altre cabale come una specie di laboratorio."
+      - "    In cambio, gli altri Discordiani mi sottoponevano la loro"
+      - "    roba per sentire che ne pensavo. Buttavamo dentro idee e"
+      - "    chiunque poteva tirar fuori qualsiasi cosa. Era uno"
+      - "    stufato di concetti. Scambiarci idee e tecniche allargava"
+      - "    gli orizzonti e incoraggiava tutti noi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 765
+    grassetto: 0.5
+    righe:
+      - "    Di Illuminatus mi piace il surrealismo. Un metodo di"
+      - "    scrittura molto efficace."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 895
+    grassetto: 0.5
+    righe:
+      - "Ignotius:  Mi hanno citato male. Peggio ancora, non ero"
+      - "    nemmeno in quella scena e, se ci fossi stato, avrei detto"
+      - "    qualcos'altro."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 1069
+    grassetto: 0.5
+    righe:
+      - "Dexter [a Ignotius]:  In quella scena c'ero io."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 1154
+    grassetto: 0.5
+    righe:
+      - "Ignotius:  Ah, ecco cos'era?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 1239
+    grassetto: 0.5
+    righe:
+      - "Dexter:    Ha confuso i nostri nomi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 1324
+    grassetto: 0.5
+    righe:
+      - "Hill:      Ha fatto confusione anche su di me, in Cosmic"
+      - "    Trigger. Bob dice che mentre Oswald comprava il fucile"
+      - "    dell'assassinio, la mia ragazza stampava la prima"
+      - "    edizione dei Principia con la Xerox di Jim Garrison. Non"
+      - "    era la mia ragazza, era quella di Kerry; non era la Prima"
+      - "    Edizione dei Principia, erano alcune riflessioni"
+      - "    Discordiane precedenti; non era la Xerox di Garrison, era"
+      - "    il suo ciclostile; e non era poco prima che sparassero a"
+      - "    Kennedy, ma un paio d'anni prima.*"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 1767
+    grassetto: 0.5
+    righe:
+      - "    La Prima Edizione dei Principia, per inciso, fu"
+      - "    riprodotta alla Xerox Corp quando la xerografia era una"
+      - "    tecnologia nuova. Fu durante il mio secondo viaggio a New"
+      - "    Orleans, nel 1965. Lavoravo per un tizio di Bourbon"
+      - "    Street che di giorno faceva il venditore della Xerox."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 2030
+    grassetto: 0.5
+    righe:
+      - "Dexter:    Penso che George Dorn si sia fatto rompere troppo"
+      - "    le palle da Hagbard. Se qualcuno mi punta un'arma contro,"
+      - "    sono più propenso ad andarmene o ad ammazzare il figlio"
+      - "    di puttana."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 2249
+    grassetto: 0.5
+    righe:
+      - "Occupant:  Dovresti essere pacifista."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.91
+    interlinea: 44.7
+    x: 31
+    y: 2334
+    grassetto: 0.5
+    righe:
+      - "Dexter:    Parlo in senso figurato, naturalmente. Domani ti"
+      - "    racconto il resto."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 22
+    y: 2524
+    grassetto: 0.5
+    righe:
+      - "    * Ho verificato ulteriormente la cosa con il Sig. Thornley."
+      - "Dice che la donna in questione non era la sua ragazza, era"
+      - "soltanto un'amica, e che non era un paio d'anni prima che"
+      - "sparassero a Kennedy, ma doveva essere un paio d'anni dopo"
+      - "(comunque prima che Garrison indagasse su Thornley). --GS"
+
+linee:
+  - [214, 772, 500, 775]    # sottolineatura
+  - [1341, 1331, 1496, 1334]    # sottolineatura
+  - [136, 1376, 317, 1379]    # sottolineatura
+  - [476, 1465, 710, 1468]    # sottolineatura
+  - [1498, 1510, 1627, 1513]    # sottolineatura
+  - [136, 1554, 343, 1557]    # sottolineatura
+  - [371, 1554, 448, 1557]    # sottolineatura
+  - [476, 1554, 710, 1557]    # sottolineatura
+  - [214, 1774, 343, 1777]    # sottolineatura
+  - [371, 1774, 579, 1777]    # sottolineatura
+  - [607, 1774, 684, 1777]    # sottolineatura
+  - [712, 1774, 946, 1777]    # sottolineatura

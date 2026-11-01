@@ -1,0 +1,154 @@
+# Tavola p102 — Intervista alla Norton Cabal (G. Skripto), pag. 10 (ultima) del dattiloscritto
+# Testo: testo/it/loompanics/p102.md
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: l'intestazione corrente nel testo è "INTERVISTA ALLA CABALA NORTON — G. Skripto";
+#   si usa "INTERVISTA ALLA CABALA NORTON" per uniformità con le pagine 93-101. Spazio sufficiente:
+#   dattiloscritto a scala_x 0.94, interlinea e stacchi come l'originale. Sottolineati
+#   "immaginare" e "oso" come nell'originale. "# # #" ricomposto centrato sotto il testo.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 48 + grassetto 0.5 (passo originale 27 px); intestazione nello
+#   stesso font; "G. Skripto", filetti e piede "79/11/26 -10- Loompanics" restano dalla scansione.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 102
+
+cancella:
+  - [75, 140, 700, 192]    # intestazione (G. Skripto resta)
+  - [70, 265, 1720, 1720]    # dattiloscritto e # # #
+
+testi:
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    x: 83
+    y: 178
+    grassetto: 0.5
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 312
+    grassetto: 0.5
+    righe:
+      - "Gypsie [a Hill]:  Hai davvero tradotto poesia erotica"
+      - "    etrusca?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 446
+    grassetto: 0.5
+    righe:
+      - "Hill:      Certo, ma ho usato uno pseudonimo. L'ho firmata"
+      - "    «Robert Anton Wilson»."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 580
+    grassetto: 0.5
+    righe:
+      - "[Si sente un colpo rapido alla porta]"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 670
+    grassetto: 0.5
+    righe:
+      - "Gypsie:    Mi resta solo una domanda..."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 759
+    grassetto: 0.5
+    righe:
+      - "Dexter:    Vado io."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 848
+    grassetto: 0.5
+    righe:
+      - "Gypsie:    ...quello che voglio sapere davvero è come"
+      - "    facciamo a stare tutti dentro una casella postale così"
+      - "    minuscola?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 1027
+    grassetto: 0.5
+    righe:
+      - "Dexter [a Gypsie]:  È un telegramma per te, da Mal²."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 1117
+    grassetto: 0.5
+    righe:
+      - "Gypsie:    Per me?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 1206
+    grassetto: 0.5
+    righe:
+      - "[Rumore di carta strappata]"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    interlinea: 44.7
+    x: 84
+    y: 1295
+    grassetto: 0.5
+    righe:
+      - "Gypsie [leggendo]:  «Se dicessi a tutti come si fa a vivere"
+      - "    dentro una casella postale, allora tutti smetterebbero"
+      - "    di pagare i padroni di casa e andrebbero a vivere nelle"
+      - "    loro caselle postali. Farebbero crollare l'edificio!"
+      - "    Riuscite a immaginare, uffici postali che crollano in"
+      - "    tutto il paese, l'emisfero, il PIANETA! L'intero"
+      - "    sistema mondiale delle comunicazioni verrebbe"
+      - "    distrutto. No, no, non devo dirlo. Non oso!"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    x: 900
+    y: 1743
+    allinea: centro
+    grassetto: 0.5
+    righe:
+      - "# # #"
+
+linee:
+  - [490, 1481, 758, 1484]    # sottolineatura
+  - [1247, 1615, 1327, 1618]    # sottolineatura

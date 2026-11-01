@@ -1,0 +1,161 @@
+# Tavola p094 (originale: postfazione Loompanics, intervista pag. 2 di 9) — Intervista alla Norton Cabal
+# Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p094.md
+# STATO: completa
+# NUOVE TRADUZIONI: intestazione corrente "NORTON CABAL INTERVIEW" -> "INTERVISTA ALLA CABALA NORTON" (uguale su p093-p103;
+#   nel titolo di p093 il testo dice "CABALA NORTON"). "G. Skripto" e piede "79/11/26 -2- Loompanics" originali.
+# DIFFERENZE: L'italiano è più lungo: dattiloscritto stretto (scala_x 0.94); corpo e interlinea (44.5) originali,
+#   spazio tra le battute 89 (originale 89-91).
+#   I tre puntini centrali restano quelli della scansione; stacco tra racconto e dialogo ridotto.
+#   Battute di dialogo con il nome a sinistra e le righe seguenti rientrate di 4 battute, come nell'originale;
+#   corsivo del testo (_..._) reso con sottolineatura. Filetti originali intatti.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 45 (passo 27 = macchina da scrivere passo 10), grassetto 0.5.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 94
+
+cancella:
+  - [100, 82, 760, 135]     # NORTON CABAL INTERVIEW
+  - [52, 344, 1800, 2665]     # testo
+
+testi:
+  - font: CourierPrime-Regular.ttf    # intestazione corrente
+    corpo: 45
+    grassetto: 0.5
+    x: 113
+    y: 121
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 394
+    righe:
+      - "    Mentre attraversavo Nob in tram a fune, diretta all'ufficio"
+      - "postale della Stazione «O» di San Francisco, non potevo fare a"
+      - "meno di meravigliarmi della mano della Dea nell'assegnare gli"
+      - "indirizzi ai Suoi avamposti. Mal² mi aveva detto che il buon"
+      - "Lord Omar archiviava sempre tutto sotto la «O» di Out Of File"
+      - "(«Fuori Archivio»)."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 706
+    righe:
+      - "    «Maya è meravigliosa», stavo pensando quando bussai alla"
+      - "porticina di metallo e fui accolta calorosamente da un'enorme"
+      - "barba che si presentò come il Professor Ignotius. Mi fece"
+      - "entrare in un ampio salotto rivestito di legno e ornato di"
+      - "arazzi, dove altri tre ridevano e si passavano una damigiana di"
+      - "vino. Quello solare con la tunica era il Reverendo Dottor"
+      - "Occupant, quello in ordine, in cachi e jeans, era Mad Malik e la"
+      - "damigiana di vino sosteneva di essere Hill. Accesi il"
+      - "registratore…."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 1240
+    righe:
+      - "GYPSIE SKRIPTO [in risposta a una domanda]:  …1969, ma solo per"
+      - "    poco. Mi sa che non vi ho incrociati, ragazzi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 1373
+    righe:
+      - "MAD MALIK:  Non c'è da stupirsi, allora faceva praticamente"
+      - "    tutto da solo. Noi eravamo soltanto suoi discepoli e di"
+      - "    solito eravamo in giro a sbrigare commissioni. Lavoravi per"
+      - "    il Pupù?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 1596
+    righe:
+      - "Gypsie:    Beh, per una notte, comunque. L'intervista è nei"
+      - "    Principia."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 1729
+    righe:
+      - "REV. DR. OCCUPANT:  Malik era l'unico a cui permettesse di"
+      - "    scrivere per il Pupù o di comparire sulla carta intestata."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    x: 112
+    y: 1862
+    righe:
+      - "Gypsie:    Avevi [Malik] più autorità degli altri?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 1952
+    righe:
+      - "Malik:     No, [ma mi era permesso parlare sul Pupù] perché"
+      - "    [Malaclypse il Giovane] odiava la politica. Era furioso con"
+      - "    Johnson e Nixon per il Viet Nam, perché stava trasformando"
+      - "    il rinascimento in una rivoluzione politica e gli stava"
+      - "    rubando la scena e i sacri fulmini. Così mi istruì nella"
+      - "    Zenarchia, che aveva imparato da Omar, e io ero"
+      - "    l'anarco-pacifista ufficiale della Cabala. Ero anche il"
+      - "    collegamento con l'Antica Setta dei Profeti Illuminati di"
+      - "    Baviera, i Discordiani di Chicago. In seguito Omar attivò lo"
+      - "    Hung Mung Cong Tong e l'ELF, secondo principi zenarchici, e"
+      - "    anche l'Operazione Fotticervello. C'ero dentro anch'io."
+      - "    Anche se all'epoca sul Pupù Maggiore mi spacciavo per un"
+      - "    cavolo cremato, per sviare l'FBI."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 45
+    grassetto: 0.5
+    scala_x: 0.94
+    interlinea: 44.5
+    x: 112
+    y: 2574
+    righe:
+      - "Gypsie [a Hill]:  Dato che l'hai scritto tu, devo dedurne che"
+      - "    sei anarchico?"
+
+linee:                         # sottolineature del dattiloscritto
+  - [1381, 576, 1454, 579]
+  - [1483, 576, 1530, 579]
+  - [1559, 576, 1657, 579]
+  - [290, 1510, 388, 1514]
+  - [214, 1644, 439, 1647]
+  - [620, 1778, 718, 1780]
+  - [1305, 1956, 1403, 1958]
+  - [797, 2445, 896, 2448]
+  - [924, 2445, 1124, 2448]

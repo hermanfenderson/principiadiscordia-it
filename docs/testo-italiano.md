@@ -23,11 +23,11 @@ entrarono nel nostro continuum spazio temporale con la stessa discrezione furtiv
 Nel 1968, praticamente nessuno aveva mai sentito parlare di questo libro meraviglioso.
 Nel 1970, centinaia di persone da costa a costa ne parlavano e si interrogavano sull'identità del suo misterioso autore, Malaclipse il Giovane.
 Voci si diffondevano lungo il continente, da New York a Los Angeles, da Seattle a St. Joe. Uno aveva sentito dire che Malaclipse era in realtà Alan Watts.
-No, diceva un'altra leggenda, i -- the Principia erano in realtà un'opera dell'ordine Sufi.
+No, diceva un'altra leggenda -- i Principia erano in realtà un'opera dell'ordine Sufi.
 Un terzo mito, molto suggestivo, sosteneva che Malaclipse fosse un nome d'arte per Richard M. Nixon,
 che avrebbe presumibilmente composto i Principia durante i pochi momenti di lucidità.
 Ciascuna di queste trame mi divertiva e ho fatto anche io la mia parte per aiutare a diffonderle.
-Sono stato anche molto attento a non contraddirre mai le voci occasionali che avessi scritto in realtà io il tutto durante un viaggio d'acido.
+Sono stato anche molto attento a non contraddire mai le voci occasionali che avessi scritto in realtà io il tutto durante un viaggio d'acido.
 
 La leggenda, il mistero, il culto crebbero lentamente. A metà degli anni settanta, migliaia di persone, alcune lontane fino ad Hong Kong e in Australia,
 stavano parlando dei Principia, e considerato che l'originale era andato fuori stampa in quel periodo,
@@ -44,15 +44,15 @@ Quando la Illuminatus trilogy apparve nel 1975, il mio co-autore, Bob Shea, e io
 da persone incuriosite dalle citazioni tratte dai Principia con cui erano decorati i capoversi di diversi capitoli. Molti, che avevano già sentito parlare dei Principia o visto delle copie, chiedevano se l'avessimo scritto io e Shea, o se ce ne fossero copie disponibili. Altri scrivevano per chiedere se fossero reali, o se fossero semplicemente qualcosa che avevamo inventato come H.P. Lovecraft aveva fatto per il Necronomicon.
 Rispondevamo secondo l'umore del momento, alle volte dicendo la verità, alle volte spargendo le più ignobili bugie e panzane che potessimo escogitare fnord.
 
-Perchè nò? sentivamo che questo libro era un vero Classico (literatus immortalis) e che, poichè la presunta intelligentsia non l'aveva ancora scoperto, il modo migliore per mantenere la sua legenda viva era di incoraggiare la mitologia e e le controversie su di esso.
-Insistentemente, persone mi scrissero per chiedermi se lo avesse scritto Timothy Leary, cosa che ho quasi sempre confermato, tranne il venerdì, quando sono più stravagante, in cui dicevi che mi era stato trasmetto da un'intelligenza canina -- vasta, fredda e distaccata -- dalla Stella del Cane, Sirio.
+Perchè no? sentivamo che questo libro era un vero Classico (literatus immortalis) e che, poichè la presunta intelligentsia non l'aveva ancora scoperto, il modo migliore per mantenere la sua leggenda viva era di incoraggiare la mitologia e le controversie su di esso.
+Insistentemente, persone mi scrissero per chiedermi se lo avesse scritto Timothy Leary, cosa che ho quasi sempre confermato, tranne il venerdì, quando sono più stravagante, in cui dicevo che mi era stato trasmesso da un'intelligenza canina -- vasta, fredda e distaccata -- dalla Stella del Cane, Sirio.
 
 Ora, finalmente, la verità può essere raccontata.
 
 In realtà, i Principia sono
 il lavoro di un antropologo viaggiatore nel tempo del ventitreesimo secolo. Egli si sta facendo passare in questo momento, per lo specialista di computer, bon vivant e filosofo chiamato Gregory Hill. Ha anche tradotto con un altro pseudonimo diversi volumi di poesia erotica etrusca e nel diciottesimo secolo era il misterioso Uomo in Nero che diede a Jefferson il disegno del Grande Sigillo degli Stati Uniti.
 
-Posso dire da fonte certa che egli è uno dei più esperti viaggiatori del tempo della galassia e che ha visitato la Terra molte volte in passato, utilizzando identità di copertura quali Zenone di Elea, Norton l'Imperatore, il Conte di Cagliostro, Guglielmo d'Acquitania, ecc...
+Posso dire da fonte certa che egli è uno dei più esperti viaggiatori del tempo della galassia e che ha visitato la Terra molte volte in passato, utilizzando identità di copertura quali Zenone di Elea, Norton l'Imperatore, il Conte di Cagliostro, Guglielmo d'Aquitania, ecc...
 Se affronto con lui questo tema, diventa molto evasivo e cerca di convincermi di essere semplicemente un altro terrestre del ventesimo secolo e che le mie idee sulla sua origine extraterrestre ed extratemporale
 
 ---
@@ -63,7 +63,7 @@ Se affronto con lui questo tema, diventa molto evasivo e cerca di convincermi di
 
 sono deliri. Aha! Non mi lascio ingannare così facilmente. Dopo tutto, un antropologo viaggiatore del tempo direbbe proprio questo per poterci osservare senza che la sua presenza causi uno shock culturale.
 
-Sono consapevole che ha acconsentito a scrivere la Postfazione di questa edizione. Probabilmente contradirrà tutto quello che vi ho detto, ma non credete a una parola di quello che dice fnord. Egli è maestro di impassibilità, di satira verosimile, di presa per i fondelli filosofica e di tutte le branche della guerriglia ontologica.
+Sono consapevole che ha acconsentito a scrivere la Postfazione di questa edizione. Probabilmente contraddirà tutto quello che vi ho detto, ma non credete a una parola di quello che dice fnord. Egli è maestro di impassibilità, di satira verosimile, di presa per i fondelli filosofica e di tutte le branche della guerriglia ontologica.
 
 Per il maggior beneficio per la Testa, questo libro andrebbe letto assieme a The Illuminoids di Neal Wilgus (Sun Press, Albuquerque, NM) e Zen senza Maestri Zen di Camden Benares (And/Or Press, Berkeley, California). "Stiamo operando a diversi livelli", come usava dire Ken Kesey.
 
@@ -110,7 +110,7 @@ Il Libro dell'Utero 1;5
 
 *PDF 14 · `testo/it/06.md`*
 
-Alcuni estratti da un intervista con Malaclypse il giovane, a cura di Papa Pupù dell'Herald-News-Sun-Tribune-Journal-Dispatch-Post della Grande Area Metropolitana di Yorba Linda e del Bollettino della Cabala della Società Discordiana di San Francisco e del Rapporto Intergalattico.
+Alcuni estratti da un'intervista con Malaclypse il giovane, a cura di Papa Pupù dell'Herald-News-Sun-Tribune-Journal-Dispatch-Post della Grande Area Metropolitana di Yorba Linda e del Bollettino della Cabala della Società Discordiana di San Francisco e del Rapporto Intergalattico.
 
 =================================
 
@@ -120,7 +120,7 @@ MAL-2: Qualche volta prendo l'umorismo seriamente. Qualche volta prendo la serie
 
 PM: Forse sei semplicemente pazzo.
 
-M2: Certo che si! Ma non rifiutare i miei insegnamenti come se fossero falsi solo perche' sono pazzo. Il motivo per cui sono pazzo è che essi sono veri.
+M2: Certo che sì! Ma non rifiutare i miei insegnamenti come se fossero falsi solo perché sono pazzo. Il motivo per cui sono pazzo è che essi sono veri.
 
 PM: Eris è vera?
 
@@ -292,7 +292,7 @@ v Copertina
 
 24 Sacerdoti POEE
 
-26 La Affermazione Erisiane
+26 La Affermazione Erisiana
 
 27 Certificato di Legionario
 
@@ -302,7 +302,7 @@ v Copertina
 
 29 Rito Battesimale
 
-31 Il Giuramento MIsterico
+31 Il Giuramento Misterico
 
 32 La Società Discordiana
 
@@ -328,15 +328,15 @@ v Copertina
 
 43 Mandala
 
-44 Cosmologia (Libro dell' Utero)
+44 Cosmologia (Libro dell'Utero)
 
 46 Gli Ordini di Discordia
 
-47 Entropy (Norbert Weiner)
+47 Entropy (Norbert Wiener)
 
 48 L'Illuminazione di Zarathud
 
-49 il Sacro Cao (testo)
+49 Il Sacro Cao (testo)
 
 52 Trasformatore Guazza/Buglio
 
@@ -488,7 +488,7 @@ Ascoltando questo, l'uomo fu illuminato.
 
 LA RIVELAZIONE
 
-10. Trema la terra e i rombano i cieli;  
+10. Trema la terra e rombano i cieli;  
 gli animali della natura pascono assieme e   
 le nazioni degli uomini pascono separate; sgorga calore dai vulcani,  
 mentre altrove l'acqua diventa ghiaccio e poi si scioglie,  
@@ -522,7 +522,7 @@ Allora, entrò nella stanza uno scimpanzé, peloso e grigio sul muso, in posizio
 
 "Signori," disse, "Perché la luna di Pickering gira in orbita inversa? Signori, avete capezzoli sul petto, producono latte? e che cosa, di grazia, signori, si deve fare della legge di Heisenberg?" Fece una pausa. "QUALCUNO DOVEVA METTERE TUTTA QUESTA CONFUSIONE QUI!"
 
-E con ciò svelò la sua pergamena. era un diagramma, simile a uno yin-yang con un pentagono da una parte e una mela dall'altra. Quindi esplose e i due persero conoscenza.
+E con ciò svelò la sua pergamena. Era un diagramma, simile a uno yin-yang con un pentagono da una parte e una mela dall'altra. Quindi esplose e i due persero conoscenza.
 
 ERIS - Dea del Caos, Discordia e Confusione
 
@@ -540,9 +540,9 @@ Sono venuta a dirvi che siete liberi. Molte ere fa, la coscienza di me abbandon�
 
 Vi siete costruiti un'armatura sensoriale con cui vi siete rivestiti e la vostra visione è limitata, i vostri movimenti sono goffi e dolorosi, la pelle livida, e il vostro spirito bruciato dal sole.
 
-Io sono il caos. Io sono la sostanza dalla quale i vostri artisti e scienziati costruiscono ritmi. Io sono lo spirito con cui i vostri bambini e clown rideno in un'anarchia felice. Io sono il caos. Io sono viva, e vi dico che siete liberi.
+Io sono il caos. Io sono la sostanza dalla quale i vostri artisti e scienziati costruiscono ritmi. Io sono lo spirito con cui i vostri bambini e clown ridono in un'anarchia felice. Io sono il caos. Io sono viva, e vi dico che siete liberi.
 
-Durante i mesi successivi studiarono filosofia e teologia e appresero che Eris Discordia era sopratutto temuta dagli antichi per il suo carattere devastante. In effetti, il concetto stesso di caos era ancora considerato equivalente a quello di lotta e trattato con una valenza negativa. "Nessuna meraviglia che le cose siano incasinate", conclusero, "hanno capito tutto alla rovescia." Scoprirono che il principio di disordine aveva la stessa significatività del principio d'ordine.
+Durante i mesi successivi studiarono filosofia e teologia e appresero che Eris Discordia era soprattutto temuta dagli antichi per il suo carattere devastante. In effetti, il concetto stesso di caos era ancora considerato equivalente a quello di lotta e trattato con una valenza negativa. "Nessuna meraviglia che le cose siano incasinate", conclusero, "hanno capito tutto alla rovescia." Scoprirono che il principio di disordine aveva la stessa significatività del principio d'ordine.
 
 Con questo in mente, studiarono quello strano yin-yang. Mentre meditavano un pomeriggio, una voce si manifestò loro:
 
@@ -604,7 +604,7 @@ Oh, essa ruppe la Sacra Coppa del Punch e fece colare il suo nettare;
 
 Il Suo Corpo della Mela è forte!
 
-\* "Limbo peak" si riferisce all' Old Limbo Peak, comunemente chiamato dai Greci "Ol' Limb' Peak"
+\* "Limbo peak" si riferisce all'Old Limbo Peak, comunemente chiamato dai Greci "Ol' Limb' Peak"
 
 [immagine: Custer.png]
 
@@ -689,11 +689,11 @@ Cabala di King Kong
 
 Ciò che sappiamo a proposito di ERIS (non troppo)
 
-I romani hanno lasciato un suo ritratto per i posteri - E' mostrata come una donna grottesca con uno sguardo pallido e spettrale, gli occhi in fiamme, l'abito strappato e lacerato come a nascondere un pugnale nel petto. In realtà, la maggior parte delle donne apparirebbe pallido e spettrale, se nascondesse un freddo pugnale nel petto.
+I romani hanno lasciato un suo ritratto per i posteri - E' mostrata come una donna grottesca con uno sguardo pallido e spettrale, gli occhi in fiamme, l'abito strappato e lacerato come a nascondere un pugnale nel petto. In realtà, pallide e spettrali, se nascondesse un freddo pugnale nel petto.
 
 La sua genealogia ci viene dai Greci ed è estremamente confusa. Ella era gemella di Ares e figlia di Zeus e Era; oppure era figlia di Nix, dea della notte (che era figlia o moglie di Chaos, o entrambe le cose) e il fratello di Nix, Erebo, i cui fratelli e sorelle erano, tra gli altri, Morte, Fato, Scherno e Amicizia. E che Ella generò Oblio, Litigi, Bugie e un gruppetto di dei e dee di quel genere.
 
-Un giorno Mal-2 consultò la sua Ghiandola Pineale e chiese a Eris se Ella avesse veramente creato tutte quelle cose orribili. Ella gli disse che gli Antici Greci le erano sempre piaciuti ma che non potevano essere considerati affidabili in fatto di storia.
+Un giorno Mal-2 consultò la sua Ghiandola Pineale e chiese a Eris se Ella avesse veramente creato tutte quelle cose orribili. Ella gli disse che gli Antichi Greci le erano sempre piaciuti ma che non potevano essere considerati affidabili in fatto di storia.
 "Sai", aggiunse, "erano vittime di indigestioni"
 
 Ciò basti a dire che Eris non è odiosa o dannosa. Ma è maliziosa, e può diventare un pò stronza alle volte.
@@ -716,7 +716,7 @@ La Legge dei Cinque
 
 La legge dei Cinque è uno dei più antichi misteri Erisiani. Esso fu rivelato per la prima volta al buon Lord Omar ed è uno dei più grandi contributi che provenga dal Tempio Nascosto del Gesù Allegro.
 
-La POEE sottoscrive la Legge dei Cinque della setta di Omar. E POEE riconosce anche il Santo 23 (2 +3 = 5) che fu aggiunto dal Vescovo Dr. Mordecai Malignatus, KNS, nella sua setta Discordiana, l'antico Oracolo Illuminato di Baviera.
+La POEE sottoscrive la Legge dei Cinque della setta di Omar. E POEE riconosce anche il Santo 23 (2+3=5) che fu aggiunto dal Vescovo Dr. Mordecai Malignatus, KNS, nella sua setta Discordiana, l'antico Oracolo Illuminato di Baviera.
 
 La legge dei Cinque afferma semplicemente che: TUTTE LE COSE AVVENGONO IN GRUPPI DI CINQUE, O SONO DIVISIBILI PER O MULTIPLE DI CINQUE, O SONO IN QUALCHE MODO DIRETTAMENTE O INDIRETTAMENTE RICONDUCIBILI A 5.
 
@@ -742,15 +742,15 @@ timore di avventurarsi fuori di notte.
 
 IL MITO DELLA MELA DELLA DISCORDIA
 
-Sembra che Zeus stava preparando un banchetto nuziale per Peleo e Tetis e non voleva invitare Eris a causa della sua reputazione come attacabrighe.\*
+Sembra che Zeus stava preparando un banchetto nuziale per Peleo e Tetis e non voleva invitare Eris a causa della sua reputazione come attaccabrighe.\*
 
 Questo fece infuriare Eris, e perciò Ella preparò una mela di oro puro\*\* sulla quale era iscritto KALLISTI ("alla Più Bella") e il giorno della festa la fece rotolare nella sala del banchetto e quindi se ne andò da sola a gustarsi gioiosamente un hot dog.
 
 A quel punto, tre delle dee invitate, Atena, Era e Afrodite, affermarono, ciascuna, che la mela, considerata l'iscrizione, apparteneva a una di loro. E cominciarono a combattere prendendosi a pugni tra loro e con tutto cio' che avevano intorno.
 
-Alla fine Zeus calmò la situazione e dichiarò che doveva essere scelto un arbitro, il che era un suggerimento ragionevole, e tutti furono d'accordo. Egli le mandò da un pastore di Troia, il cui nome era Paride (Paris) perche la madre si era fatta un sacco di galli e aveva sposato un francese; ma ciascuna delle subdole dee cercò di battere in astuzia le altre arrivando prima e cercando di corromperlo.
+Alla fine Zeus calmò la situazione e dichiarò che doveva essere scelto un arbitro, il che era un suggerimento ragionevole, e tutti furono d'accordo. Egli le mandò da un pastore di Troia, il cui nome era Paride (Paris) perché la madre si era fatta un sacco di galli e aveva sposato un francese; ma ciascuna delle subdole dee cercò di battere in astuzia le altre arrivando prima e cercando di corromperlo.
 
-Atena gli offrì eroiche vittorie militari, Era una enorme ricchezza, e Afrodite la più bella donna della Terra. Essendo un giovane ragazzo Troiano sano, Paride scelse immediatamente il dono di Afrodite e cosiì lei ebbe la mela e lui la fregatura.
+Atena gli offrì eroiche vittorie militari, Era una enorme ricchezza, e Afrodite la più bella donna della Terra. Essendo un giovane ragazzo Troiano sano, Paride scelse immediatamente il dono di Afrodite e così lei ebbe la mela e lui la fregatura.
 
 ---
 
@@ -768,7 +768,7 @@ Ci credi?
 
 \* Questa è chiamata DOTTRINA DELL'AFFRONTO ORIGINALE
 
-\*\* Non c'e' accordo tra gli storici se quella mela era di oro metallico o di acapulco.
+\*\* Non c'è accordo tra gli storici se quella mela era di oro metallico o di acapulco.
 
 \*\*\* In realtà c'erano cinque dee, ma i Greci non conoscevano la legge dei Cinque.
 
@@ -779,7 +779,7 @@ Ci credi?
 
 quella nella quale la Storia per come la conosciamo comincia a
 
-svolgersi, in cui tutto cio' che accade emerge
+svolgersi, in cui tutto ciò che accade emerge
 
 in Forma corporale, più o meno, e questi tempi sono
 
@@ -938,11 +938,11 @@ POEE (pronunciato "POEE") è l'acronimo di PARATHEO-ANAMETAMISTICA DELL'ERIS ESO
 
 MIA ALTA REVERENZA MALACLYPSE IL GIOVANE, AB, DD, KSC, è l'Alto Sacerdote del POEE, e POEE è fondata sulle sue rivelazioni episcopali della Dea. Egli è chiamato [L'Onnibenevolente Polipadre della Verginità in Oro].
 
-TIl TEMPIO PRINCIPALE POEE è la Cabala Joshua Norton della Società Discordiana, che è collocata nella ghiandola pineale di Mal-2 e può essere trovata individuando nel tempo e nello spazio i resti di Mal-2.
+Il TEMPIO PRINCIPALE POEE è la Cabala Joshua Norton della Società Discordiana, che è collocata nella ghiandola pineale di Mal-2 e può essere trovata individuando nel tempo e nello spazio i resti di Mal-2.
 
 POEE non ha tesoreria, leggi locali, articoli, guide, eccezion fatta per la ghiandola pineale di Mal-2 e ha un solo scrupolo --che Mal-2 conservi il suo porta chiavi.
 
-POEE non è registrato, incorporato o legato in altro modo con lo Stato, e pertanto lo Stato non riconosce la POEE o le ordinazioni POEE, il che è del resto giusto, perchè POEE non riconosce lo Stato.
+POEE non è registrato, incorporato o legato in altro modo con lo Stato, e pertanto lo Stato non riconosce la POEE o le ordinazioni POEE, il che è del resto giusto, perché POEE non riconosce lo Stato.
 
 POEE ha 5 GRADI:
 
@@ -980,15 +980,15 @@ POEE E I SUOI SACERDOTI
 
 [immagine: AngelHorns.gif]
 
-Se ti piace l'Erisianesimo per come è stato rappresentato da Mal-2, allora potresti desiderare di avviare la tua CABALA POEE come SACERDOTE POEE e poter fare un sacco di cose POEE-pretesche. Una "Cabala POEE" è esattamente cioò che pensi che sia.
+Se ti piace l'Erisianesimo per come è stato rappresentato da Mal-2, allora potresti desiderare di avviare la tua CABALA POEE come SACERDOTE POEE e poter fare un sacco di cose POEE-pretesche. Una "Cabala POEE" è esattamente ciò che pensi che sia.
 
 Il Sommo Sacerdote non ha richieste specifiche per i suoi Sacerdoti, anche se si aspetta cose abbastanza buone da loro. Il Compito del Polipadre è indicare, non insegnare. Ogni tanto, può anche ascoltare.
 
-Se dovessi scoprire che le tue personali rivelazioni da parte della Dea sono diventate sostanzialmente differenti dalle rivelazioni di Mal-2, allora forse la Dea ha in serbo per te un ruolo da Vescovo e dovresti considerare la possibilità di creare una tua propria setta da zero, senza ostacolo alcuno. I Vescovi non competono l'un l'altro, e rinmangolo a tutti gli effetti Sacerdoti POEE comunque (sempre che io riesca a scovarli). Il succo è che i Vescovi stanno tracciando sentieri differenti per raggiungere la vetta della montagna Erisiana. Consulta la [immagine: CautionInserts.png] sezione "Società Discordiana"
+Se dovessi scoprire che le tue personali rivelazioni da parte della Dea sono diventate sostanzialmente differenti dalle rivelazioni di Mal-2, allora forse la Dea ha in serbo per te un ruolo da Vescovo e dovresti considerare la possibilità di creare una tua propria setta da zero, senza ostacolo alcuno. I Vescovi non competono l'un l'altro, e rimangono a tutti gli effetti Sacerdoti POEE comunque (sempre che io riesca a scovarli). Il succo è che i Vescovi stanno tracciando sentieri differenti per raggiungere la vetta della montagna Erisiana. Consulta la [immagine: CautionInserts.png] sezione "Società Discordiana"
 
 ORDINAZIONE SACERDOTALE POEE
 
-Non ci sono particolari requisiti per l'Ordinazione, perchè se vuoi essere un Sacerdote POEE, allora senza dubbio possiedi i requisiti. Chi mai potrebbe sapere meglio di te se dovresti o meno essere Ordinato?
+Non ci sono particolari requisiti per l'Ordinazione, perché se vuoi essere un Sacerdote POEE, allora senza dubbio possiedi i requisiti. Chi mai potrebbe sapere meglio di te se dovresti o meno essere Ordinato?
 
 Un SACERDOTE o SACERDOTESSA ORDINATO/A è definito come "chiunque sia in possesso di un Certificato di Ordinazione emesso dall'Ufficio del Polipadre."
 
@@ -1055,7 +1055,7 @@ COME AVVIARE UNA CABALA POEE
 
 SENZA AVERE A CHE FARE COL POLIPADRE
 
-Se non riuscite a rintracciare il Polipadre, oppure benché lo abbiate rintracciato non volete avere nulla a che fare con lui, ciò non di meno siete ancora autorizzati a creare la vostra CABALA POEE e fare Cose Pretesche, utilizzando i Principia Discordia come guida. Il Vostro Grado Ufficiale sarà CAPPELLANO POEE della LEGIONE DELLA DISCORDIA DINAMICA, che equivale strettamente a SACERDOTE POE, eccezion fatta per il mancato possesso di un Certificato di Ordinazione. Le parole che stai leggendo valgono per ordinazione.
+Se non riuscite a rintracciare il Polipadre, oppure benché lo abbiate rintracciato non volete avere nulla a che fare con lui, ciò non di meno siete ancora autorizzati a creare la vostra CABALA POEE e fare Cose Pretesche, utilizzando i Principia Discordia come guida. Il Vostro Grado Ufficiale sarà CAPPELLANO POEE della LEGIONE DELLA DISCORDIA DINAMICA, che equivale strettamente a SACERDOTE POEE, eccezion fatta per il mancato possesso di un Certificato di Ordinazione. Le parole che stai leggendo valgono per ordinazione.
 
 COME DIVENTARE UN CAPPELLANO POEE
 
@@ -1085,11 +1085,11 @@ Ufficio dello Stato della California per l'arredo e l'alloggio.
 
 = Il Rito Battesimale POEE =
 
-Questo Rito Misterico non è necessario per l'iniziazione, ma viene offerto da molti Sacerdoti POEE ai proseliti che desiderino una cerimona formale.
+Questo Rito Misterico non è necessario per l'iniziazione, ma viene offerto da molti Sacerdoti POEE ai proseliti che desiderino una cerimonia formale.
 
-1) I Sacerdoti e quattro Fratelli sono disposti in forma di pentagono con l'Iniziato al centro di fronte ai Sacerdoti. Se possibile, i Fratelli all'immediata destra e sinistra del Sacerdote dorebbero essere Diaconi. L'Iniziato deve essere completamente nudo, per dimostrare di essere veramente un essere umano e non qualcos'altro mascherato tipo un cavolo o qualcosa del genere.
+1) I Sacerdoti e quattro Fratelli sono disposti in forma di pentagono con l'Iniziato al centro di fronte ai Sacerdoti. Se possibile, i Fratelli all'immediata destra e sinistra del Sacerdote dovrebbero essere Diaconi. L'Iniziato deve essere completamente nudo, per dimostrare di essere veramente un essere umano e non qualcos'altro mascherato tipo un cavolo o qualcosa del genere.
 
-2) Tutte le persone nell'assemblea e il pentagono, a eccezione del Sacerdote assumono una posizione accovacciata per tornare in piedi. Questo va ripetuto quattro volte. Questa danza è simbolica dell'umiltà di noi Erisiani.
+2) Tutte le persone nell'assemblea e il pentagono, a eccezione del Sacerdote, assumono una posizione accovacciata per tornare in piedi. Questo va ripetuto quattro volte. Questa danza è simbolica dell'umiltà di noi Erisiani.
 
 3) Il Sacerdote inizia:
 
@@ -1111,7 +1111,7 @@ Io, (Nome Sacro completo dei Titoli Mistici, gradi, designazioni, uffici, ecc...
 
 5) ALLORA RIPETI ASSIEME A ME:
 
-(Il Sacerdote conduce l'Iniziato nella recita dell'AFFERMAZIONE ERISIANA). Il Sacerdote continua: PERTANTO IO DICHIARO TE DISCEPOLO POEE (nome) , LEGIONARIO DELLA DISCORDIA DINAMICA, AVE ERIS! AVE AVE! AVE SI!
+(Il Sacerdote conduce l'Iniziato nella recita dell'AFFERMAZIONE ERISIANA). Il Sacerdote continua: PERTANTO IO DICHIARO TE DISCEPOLO POEE (nome), LEGIONARIO DELLA DISCORDIA DINAMICA, AVE ERIS! AVE AVE! AVE SI!
 
 4) Tutti i presenti gioiscono grandemente. Il nuovo Fratello apre una grande damigiana di vino e ne offre a tutti i presenti.
 
@@ -1185,11 +1185,11 @@ LA SOCIETA' DISCORDIANA
 
 La Società Discordiana non si definisce.
 
-Penso ad essa alle volte come una dis-organizzazione di Freaks Erisiani E' stato anche chiamato un teatro mentale di guerriglia. IL Vescovo Fattorecasuale, Direttore delle Purghe della setta "Movimento della Nostra Gente del Mondo sommerso" di Larchmont, preferisce "La più Grande Associazione Mondiale di Qualsiasi-cosa-sia-che-siamo." Lady Mal pensa che sia da definirsi un THINK TANK RINASCIMENTALE. Fang il Non-Lavato, WKC, non ne parla. Puoi pensare di essa ciò che credi.
+Penso ad essa alle volte come una dis-organizzazione di Freaks Erisiani. E' stata anche chiamata un teatro mentale di guerriglia. Il Vescovo Fattorecasuale, Direttore delle Purghe della setta "Movimento della Nostra Gente del Mondo sommerso" di Larchmont, preferisce "La più Grande Associazione Mondiale di Qualsiasi-cosa-sia-che-siamo." Lady Mal pensa che sia da definirsi un THINK TANK RINASCIMENTALE. Fang il Non-Lavato, WKC, non ne parla. Puoi pensare di essa ciò che credi.
 
 UN VESCOVO DELLA SOCIETA' DISCORDIANA è uno che preferisce la totale autonomia e creare la sua propria setta Discordiana secondo la direzione che la Dea gli indica. Parla per se stesso e per coloro che apprezzano ciò che dice.
 
-LA LEGIONE DELLA DISCORDIA DINAMICA: Un Legionario della Discordia Dinamica p qualcuno che oreferisca non creare la sua setta.
+LA LEGIONE DELLA DISCORDIA DINAMICA: Un Legionario della Discordia Dinamica è qualcuno che preferisca non creare la sua setta.
 
 Se vuoi essere nella Società Discordiana,
 
@@ -1201,7 +1201,7 @@ hanno una Cabala *one-man band*
 Alcuni lavorano assieme  
 Alcuni non spiegano mai
 
-fa ciò che ti pare
+fa' ciò che ti pare
 
 e parlacene
 
@@ -1274,7 +1274,7 @@ STAGIONI
 
 4) Burocrazia - Apostolo Patrono Zarathud
 
-5) La Vendetta - Apostolo Patrono Malaclypse il Vecchio
+5) Le Conseguenze - Apostolo Patrono Malaclypse il Vecchio
 
 Giorni della Settimana\*
 
@@ -1332,7 +1332,7 @@ Cadono il cinquantesimo
 
 giorno della Stagione
 
-C] GIORNO DI SAN TUBO - occorre ogni 4 anni (1+4=5) a viene inserito
+C] GIORNO DI SAN TUBO - occorre ogni 4 anni (1+4=5) e viene inserito
 tra il 59mo e il 60mo giorno della Stagione del Chaos
 
 Gen  1  2  3  4  5
@@ -1603,7 +1603,7 @@ DG BD PD GG AC
 
 67 68 69 70 71
 
-72 73  1  2  3 Vdt
+72 73  1  2  3 Csg
 
 4  5  6  7  8
 
@@ -1633,9 +1633,9 @@ DG BD PD GG AC
 
 69 70 71 72 73
 
-San Tubo nel 3166]
+San Tubo nel 3138]
 
-\*Sacro documento delle rane (antico poema Erisiano): "Settantatre dì han Chaos, Discordia, Confusione, Burocrazia e Vendetta.
+\*Sacro documento delle rane (antico poema Erisiano): "Settantatre dì han Chaos, Discordia, Confusione, Burocrazia e Conseguenze.
 
 ---
 
@@ -1653,7 +1653,7 @@ Ciò non è distintivo dell'
 
 Erisianesimo, ovviamente.
 
-immagino che Papa Paolo VI
+Immagino che Papa Paolo VI
 
 non sia il figlio del Sig. e della Sig.ra VI...
 
@@ -1728,17 +1728,17 @@ HBT; Il Vangelo secondo Fred, 3:1
 
 UN SERMONE SU AMORE ED ETICA
 
-Un giorno Mal-2 chiese allo spirito messaggero San Gulik di invocare la Dea e richiedere la Sua presenza per un consiglio disperato. Poco dopo la radio si accese da sola, e una eterea voce femminile, disseSI?
+Un giorno Mal-2 chiese allo spirito messaggero San Gulik di invocare la Dea e richiedere la Sua presenza per un consiglio disperato. Poco dopo la radio si accese da sola, e una eterea voce femminile, disse SI?
 
 "Oh! Eris! Madre Benedetta dell'Uomo! Regina del Caos! Figlia di Discordia! Concubina di Confusione! Oh! Signora Magnifica, Ti imploro di alleggerire il grave fardello che pesa sul mio cuore!"
 
 CHE C'E', MAL? NON SEMBRA TU STIA MOLTO BENE.
 
-"Sono pieno di paura e tormentato da terribili visionidi dolore. Ovunque le persone si feriscono vicendevolmente, il pianeta rigurgita di ingiustizie, intere società depredano gruppi della loro stessa gente, le madri imprigionano i figli, i bimbi periscono e i fratell si fanno guerra. O, dolore."
+"Sono pieno di paura e tormentato da terribili visioni di dolore. Ovunque le persone si feriscono vicendevolmente, il pianeta rigurgita di ingiustizie, intere società depredano gruppi della loro stessa gente, le madri imprigionano i figli, i bimbi periscono e i fratelli si fanno guerra. O, dolore."
 
 QUAL E' IL PROBLEMA, SE E' CIO' CHE VOLETE FARE?
 
-"Ma nessunovuole! Tutti detestano questa situazione."
+"Ma nessuno vuole! Tutti detestano questa situazione."
 
 OH. BEH, ALLORA SMETTETELA.
 
@@ -1786,7 +1786,7 @@ Cocciuto Eremita dell'Europa Medievale e Criminale Caosofo Biblista. Soprannomin
 
 5. MALACLYPSE IL VECCHIO
 
-Saggio pellegrino dell'Antica Mediterrania ("Med-Terra" o media terra), [immagine: ElderMalaclypse.gif]che inseguì una Stella a 5 punte, per i vicoli di Roma, Damasco, Baghdad, Gerusalemme, la Mecca e il Cairo, recando un cartello che poteva sembrare leggersi "DOOM - APOCALISSE". (Ma era un fraintendimento. Il cartello in realtà diceva "DUMB - FESSO". Mal-1 è un Non-Prophet.) Patrono e omonimo di Mal-2. Patrono della Stagione di Vendetta. Festa: 24 Ott.
+Saggio pellegrino dell'Antica Mediterrania ("Med-Terra" o media terra), [immagine: ElderMalaclypse.gif]che inseguì una Stella a 5 punte, per i vicoli di Roma, Damasco, Baghdad, Gerusalemme, la Mecca e il Cairo, recando un cartello che poteva sembrare leggersi "DOOM - APOCALISSE". (Ma era un fraintendimento. Il cartello in realtà diceva "DUMB - FESSO". Mal-1 è un Non-Prophet.) Patrono e omonimo di Mal-2. Patrono della Stagione delle Conseguenze. Festa: 24 Ott.
 
 Tutte le affermazioni sono vere in un certo senso, false in un certo senso, prive di senso in un certo senso, vere e false in un certo senso, vere e prive di senso in un certo senso, false e prive di senso in un certo senso, e vere, false e prive di senso in un certo senso. Servizio Pubblico di chiarimento offerto dalla Scuola Sri Syadasti di Saggezza Spirituale, Wilmette.
 
@@ -1800,7 +1800,7 @@ Gli insegnamenti della Scuola Sri Syadasti di Saggezza Spirituale sono veri in u
 
 [immagine: FeelGoofy.gif]\*
 
-L'ONESTO LIBRO DELA VERITA' (THE HONEST BOOK OF TRUTH)
+L'ONESTO LIBRO DELLA VERITA' (THE HONEST BOOK OF TRUTH)
 
 ovvero una BIBBIA del Movimento Erisiano
 
@@ -1820,7 +1820,7 @@ IL LIBRO DELLE SPIEGAZIONI, Capitolo 1
 
 2. E l'Angelo di Eris ordinò al Lord: Vai costì e dissotterra la Verità, acciocché tu la conosca e, conoscendola, tu la diffonda e, diffondendola, tu ci sguazzi dentro, e sguazzandoci dentro, tu giaccia in essa e, giacendo nella Verità, tu possa diventare un Poeta della Parola e un Dicitore di Detti -- una Ispirazione per tutti gli Uomini e uno Scriba per gli Dei.
 
-3. Allora Omar giunse al Sacro Tumulo, che era a Est di Mullah, e colà scavò per cinque giorni e cinque notti nela sabbia, ma senza trovare il libro.
+3. Allora Omar giunse al Sacro Tumulo, che era a Est di Mullah, e colà scavò per cinque giorni e cinque notti nella sabbia, ma senza trovare il libro.
 
 4. Al termine dei cinque giorni e delle cinque notti di scavo, avvenne che Omar fosse esausto. Pose il badile sul fianco e si accucciò nella sabbia, utilizzando come cuscino uno Scrigno d'Oro che aveva scoperto durante il primo giorno dei suoi lavori.
 
@@ -1828,9 +1828,9 @@ IL LIBRO DELLE SPIEGAZIONI, Capitolo 1
 
 6. Il quinto giorno del suo sonno, Lord Omar cadde in Trance, e in quello stato un Sogno, e in esso un Messaggero di Nostra Signora che gli disse di un Sacro Boschetto laddove era nascosto uno Scrigno d'Oro.
 
-7. E l'Angelo di Eris ordinò al Lord: Vai costì e solleva il Nascondiglio, acciocché tu lo possegga e, possedendola, tu lo condivida e, condividendolo, tu lo ami, e amandolo, tu abiti in esso e, abitando nel Nascondiglio, tu possa diventare un Poeta della Parola e un Dicitore di Detti -- una Ispirazione per tutti gli Uomini e uno Scriba per gli Dei.
+7. E l'Angelo di Eris ordinò al Lord: Vai costì e solleva il Nascondiglio, acciocché tu lo possegga e, possedendolo, tu lo condivida e, condividendolo, tu lo ami, e amandolo, tu abiti in esso e, abitando nel Nascondiglio, tu possa diventare un Poeta della Parola e un Dicitore di Detti -- una Ispirazione per tutti gli Uomini e uno Scriba per gli Dei.
 
-8. Ma Omar si lamentò, dicendo all'Angelo : Che è 'sta stronzata, coso? Che mi interessa della Parola e dei Detti? Che mi frega di essere Ispirazione per tutti gli uomini? Che ci guadagna uno ad essere lo Scriba degli Dei quando gli Scribi dei Governi non fanno niente e hanno paghe migliori?
+8. Ma Omar si lamentò, dicendo all'Angelo: Che è 'sta stronzata, coso? Che mi interessa della Parola e dei Detti? Che mi frega di essere Ispirazione per tutti gli uomini? Che ci guadagna uno ad essere lo Scriba degli Dei quando gli Scribi dei Governi non fanno niente e hanno paghe migliori?
 
 9. E, invero, l'Angelo si infuriò e Omar fu abbattuto a Terra da una Mano Invisibile e non si rialzò per cinque giorni e cinque notti.
 
@@ -1908,13 +1908,13 @@ rivelato a Lord Omar
 
 - I -
 
-1. Prima del principio vi era il Cao non-esistente, bilanciato nell'Oblio dala Perfetta Controtirospinta di Guazza e Buglio.
+1. Prima del principio vi era il Cao non-esistente, bilanciato nell'Oblio dalla Perfetta Controtirospinta di Guazza e Buglio.
 
 2. Quand'ecco che per un Atto di Casualità, la Guazza cominciò gradualmente a sovrastare il Buglio -- e il Chaos Primigenio venne così ad essere.
 
 3. Così, al principio vi era il Cao Primigenio, bilanciato sull'orlo dell'Oblio dalla Perfetta Controtirospinta di Guazza e Buglio.
 
-4. Quand'ecco, per la Legge dell'Inversione Negativa,\*\* il Buglio rapidamente sottomise il Buglio e Tutto andò in rovina.
+4. Quand'ecco, per la Legge dell'Inversione Negativa,\*\* il Buglio rapidamente sottomise la Guazza e Tutto andò in rovina.
 
 5. E allora emerse la Forza Attiva della Discordia, la Sottile Manifestazione del Chao Non-esistente, a guidare il Tutto sul Sentiero che riconduceva all'Oblio - che poteva non essere perduto tra i Precetti dell'Ordine nella Regione di Thud.
 
@@ -1938,9 +1938,9 @@ rivelato a Lord Omar
 
 -2-
 
-10. Durante e dopo la Caduta del Consolidamento della Burocrazia ci fu la Vendetta, un Era di Disordine in cui il calcolo, il computo e le stime furono messe da parte dai Figli di Eris in Accettazione e Preparazione del Ritorno di Oblio a cui avrebbe fatto seguito la Riptezione dell'Assurdità Universale. Inoltre, la Venuta di Vendetta fu una Resurrezione, oltre che di se stessa, del Caos fluidificatore della libertà. AVE ERIS!
+10. Durante e dopo la Caduta del Consolidamento della Burocrazia ci furono le Conseguenze, un'Era di Disordine in cui il calcolo, il computo e le stime furono messe da parte dai Figli di Eris in Accettazione e Preparazione del Ritorno di Oblio a cui avrebbe fatto seguito la Ripetizione dell'Assurdità Universale. Inoltre, la Venuta delle Conseguenze fu una Resurrezione, oltre che di se stesse, del Caos fluidificatore della libertà. AVE ERIS!
 
-11. E così fu avviato il Pattern Eristico che ripeterebbe se stesso cinque per per Settantatre Volte dopo di che non succederebbe nulla.
+11. E così fu avviato il Pattern Eristico che ripeterebbe se stesso cinque per Settantatre Volte dopo di che non succederebbe nulla.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -1948,7 +1948,7 @@ rivelato a Lord Omar
 
 \*\* LA LEGGE DELL'INVERSIONE NEGATIVA afferma che se qualcosa non accade allora avverrà l'esatto opposto, ma esattamente in maniera opposta a ciò che non è avvenuto.
 
-NOTA: E' in coerenza a questo testo del Libro dell'Utero, che il POEE ha basato il suo Calendario Erisiano dividendolo in 5 stagioni di 73 giorni ciascuno. Ognuno dei Cinque Apostoli di Eris è patrono di una Stagione. Un diagramma di Stagioni, Patroni, Giorni della Settimana, Festività e un convertitore perpetuo al Calendario Gragoriano sono inclusi in questa edizione dei Principia.
+NOTA: E' in coerenza a questo testo del Libro dell'Utero, che il POEE ha basato il suo Calendario Erisiano dividendolo in 5 stagioni di 73 giorni ciascuno. Ognuno dei Cinque Apostoli di Eris è patrono di una Stagione. Un diagramma di Stagioni, Patroni, Giorni della Settimana, Festività e un convertitore perpetuo al Calendario Gregoriano sono inclusi in questa edizione dei Principia.
 
 [immagine: DullButSincere.gif]\*
 
@@ -1968,7 +1968,7 @@ I CINQUE ORDINI DI DISCORDIA ("LORO")
 
 Gen. in Comando Pandaemonium
 
-I semi degli ORDINI DI DISCORDIA furono impiantati da Facciagrigia nei suoi primi discepoli. Essi formano lo scheletro del Movimento Aneristico, che sovra-enfatizza il Principio di Ordine in modo antagonistico al suo necessario complemento, il Principio di Disordine. Gli Ordini sono composti di persone strafatti di autorità, sicurezza e controllo; in altri termini, sono accecati dall'Illusione Aneristica. Non sanno di appartenere agli Ordini di Discordia. Ma noi lo sappiamo.
+I semi degli ORDINI DI DISCORDIA furono impiantati da Facciagrigia nei suoi primi discepoli. Essi formano lo scheletro del Movimento Aneristico, che sovra-enfatizza il Principio di Ordine in modo antagonistico al suo necessario complemento, il Principio di Disordine. Gli Ordini sono composti di persone strafatte di autorità, sicurezza e controllo; in altri termini, sono accecati dall'Illusione Aneristica. Non sanno di appartenere agli Ordini di Discordia. Ma noi lo sappiamo.
 
 1. L'Ordine Militare dei CAVALIERI DEL TEMPIO A CINQUE FACCE. Per tutti i soldati e i burocrati del mondo.
 
@@ -1976,7 +1976,7 @@ I semi degli ORDINI DI DISCORDIA furono impiantati da Facciagrigia nei suoi prim
 
 3. L'Ordine Accademico dell'ASSOCIAZIONE DELLA CICUTA. Comunemente essi si trovano nelle scuole e nelle università e dominano molte di esse.
 
-4. L'Ordine Sociale del COMITATO CIVICO DEI CITTADINI PREOCCUPATI. Che è per lo più una version più ruspante degli Ordini più professionali, militari, politici, accademici e sacri.
+4. L'Ordine Sociale del COMITATO CIVICO DEI CITTADINI PREOCCUPATI. Che è per lo più una versione più ruspante degli Ordini più professionali, militari, politici, accademici e sacri.
 
 5. Il Sacro Ordine della LEGA DELLA DIFFAMAZIONE. Non si sa molto della L.D.D. ma essa è molto antica e molto probabilmente fu fondata da Facciagrigia in persona. E' cosa assodata che essa ha oggi un dominio assoluto su tutte le chiese organizzate del mondo. Si crede anche che siano in realtà cavoli travestiti da persone.
 
@@ -1988,7 +1988,7 @@ del potere costituito oppure quella
 
 avversa ad esso--purché sia
 
-una bandiera .
+una bandiera.
 
 [immagine: Military.gif]\*\*\*
 
@@ -2016,7 +2016,7 @@ La tendenza dell'entropia ad aumentare in sistemi isolati si esprime con la seco
 
 Essa tuttavia si applica a un sistema chiuso, a qualcosa che sia un sistema isolato, non a una singola parte. In tale sistema potrebbero esserci parti che prendendo la loro energia dal tutto, si stiano muovendo almeno temporaneamente nella direzione opposta; in essi l'ordine sta aumentando e il caos diminuendo.
 
-I vortici che ruotano in direzione opposta alla corrente principale sono chianati"enclave". E uno di essi è la vita, in particolare la vita unaman che in un universo in movimento inesorabile verso il caos si muove verso un incremento di ordine.
+I vortici che ruotano in direzione opposta alla corrente principale sono chianati"enclave". E uno di essi è la vita, in particolare la vita umana che in un universo in movimento inesorabile verso il caos si muove verso un incremento di ordine.
 
 [immagine: PlanetaryPi.gif]\*
 
@@ -2049,13 +2049,13 @@ SE IL TELEFONO SUONA OGGI... INNAFFIALO!
 
 Prima di diventare un eremita, Zarathud era un giovane Sacerdote, che provava grande diletto a farsi gioco dei suoi oppositori al cospetto dei suoi seguaci.
 
-Un giorno Zarathud condusse i suoi studeni a un piacevole pascolo a lì si incontrò con il Sacro Cao [N.d.t. gioco di parole con cow - mucca intraducibile] mentre Ella stava felicemente pascolando.
+Un giorno Zarathud condusse i suoi studenti a un piacevole pascolo e lì si incontrò con il Sacro Cao [N.d.t. gioco di parole con cow - mucca intraducibile] mentre Ella stava felicemente pascolando.
 
-"Dimmi, o sciocca bestia" chiese il Sacerdote con tono di comando, "perchè non ti dedichi a fare qualcosa di degno di nota? Qual'è lo scopo della tua vita, in ogni caso?"
+"Dimmi, o sciocca bestia" chiese il Sacerdote con tono di comando, "perché non ti dedichi a fare qualcosa di degno di nota? Qual è lo scopo della tua vita, in ogni caso?"
 
-Masticando l'erba saporita, il Sacro Cao risposte "MU".\*
+Masticando l'erba saporita, il Sacro Cao rispose "MU".\*
 
-Ascoltando ciò, nessuno fu illuminato. Principalmete perchè nessuno capiva il Cinese.
+Ascoltando ciò, nessuno fu illuminato. Principalmente perché nessuno capiva il Cinese.
 
 \* "MU" è l'ideogramma cinese per NIENTE
 
@@ -2080,7 +2080,7 @@ A SEGUIRE UN PO' DI PSICO-METAFISICA.
 
 Se non ti emoziona la filosofia, la cosa migliore è saltare questa parte.
 
-Il Principio Aneristico è quello dell'ORDINE APPARTENTE; il Principio Eristico è quello del DISORDINE APPARENTE. Entrambi, ordine e disordine sono concetti definiti dall'uomo e sono divisioni artificiali del PURO CAOS, che si trova a un livello di maggiore profondità di quello al quale è fatta questa distinzione.
+Il Principio Aneristico è quello dell'ORDINE APPARENTE; il Principio Eristico è quello del DISORDINE APPARENTE. Entrambi, ordine e disordine sono concetti definiti dall'uomo e sono divisioni artificiali del PURO CAOS, che si trova a un livello di maggiore profondità di quello al quale è fatta questa distinzione.
 
 Utilizzando quell'apparato capace di definire concetti che chiamiamo "mente" guardiamo alla realtà con quelle idee-a-proposito-della-realtà che le nostre culture ci forniscono. Le idee-a-proposito-della-realtà sono erroneamente etichettate "realtà" e i non illuminati sono in eterno perplessi del fatto che altra gente, specialmente altre culture, vedano la "realtà" differentemente. Semplicemente le idee-a-proposito-della-realtà son diverse. La Vera (Vera con la V maiuscola) realtà è a un livello più profondo di quello del concetto.
 
@@ -2096,13 +2096,13 @@ Guardiamo al mondo attraverso finestre su cui abbiamo applicato griglie (concett
 
 Una cultura è un gruppo di persone con griglie abbastanza simili. Attraverso una finestra vediamo il caos lo mettiamo in relazione coi punti della nostra griglia e tramite essi lo comprendiamo. L'ORDINE è la GRIGLIA. Questo è il Principio Aneristico.
 
-La filosofia occidentale si è occupata tradizionalmente del contrastare a una griglia un'altra griglia, e implementare griglie nella speranza di trovarne una perfetta che possa tener conto di tutta la realtà ed essere, di conseguenza (dicono gli occidentali non illuminati) Vera. Questa è un illusione: è ciò che noi Erisiani chiamiamo l'ILLUSIONE ANERISTICA. Alcune grigle sono più utili di altre, alcune più belle di altre, alcune più piacevoli di altre, ecc... ma nessuna può essere più Vera delle altre.
+La filosofia occidentale si è occupata tradizionalmente del contrastare a una griglia un'altra griglia, e implementare griglie nella speranza di trovarne una perfetta che possa tener conto di tutta la realtà ed essere, di conseguenza (dicono gli occidentali non illuminati) Vera. Questa è un illusione: è ciò che noi Erisiani chiamiamo l'ILLUSIONE ANERISTICA. Alcune griglie sono più utili di altre, alcune più belle di altre, alcune più piacevoli di altre, ecc... ma nessuna può essere più Vera delle altre.
 
 il DISORDINE è semplicemente informazioni scorrelate viste attraverso una qualche griglia in particolare. Ma come "relazione", anche nessuna-relazione è un concetto. Maschio, così come femmina, sono una idea collegata al sesso. Dire "maschile è l'assenza di femminile" o viceversa è semplicemente una questione di definizione, metafisicamente arbitraria. Il concetto artificiale di nessuna-relazione è il PRINCIPIO ERISTICO.
 
 La convinzione che l'affermazione "l'ordine è vero e il disordine è falso" sia falsa o in qualche modo sbagliata è l'ILLUSIONE ANERISTICA. Dire la medesima cosa del disordine, è l'ILLUSIONE ERISTICA.
 
-Il punto è che la verità (con la v minuscola) è materia da definirsi relativamete alla griglia che si sta usando in un determinato momento e che la Verità (con la V maiuscola), la realtà metafisica, è interamente scorrelata alle griglie. Adotta una griglia e attraverso essa un po' del caos appare ordinato e un po' di esso disordinato. Adotta un'altra griglia e il medesimo caos appare differentemente ordinato o disordinato.
+Il punto è che la verità (con la v minuscola) è materia da definirsi relativamente alla griglia che si sta usando in un determinato momento e che la Verità (con la V maiuscola), la realtà metafisica, è interamente scorrelata alle griglie. Adotta una griglia e attraverso essa un po' del caos appare ordinato e un po' di esso disordinato. Adotta un'altra griglia e il medesimo caos appare differentemente ordinato o disordinato.
 
 La Realtà è l'originale delle macchie di Rorschach.
 
@@ -2177,7 +2177,7 @@ GIUDIZIO E' ARRIVATO
 
 >       E Cinque Giorni Prima di quella Occasione, l'Apostolo Malaclypse il Vecchio camminerà per le strade di Whittier con un cartello che in tutte le lingue significherà: "GIORNO DEL GIUDIZIO", come avviso dell'imminente Giorno del Giudizio a tutti gli uomini. Ed Egli segnalerà questo evento cercando i Poveri e distribuendo loro preziose spillette di Mao e Whittier sarà nota per quei cinque giorni come la Regione di Thud.
 
-Come servizio di pubblica utilità per tutta l'umanità e alla civiltà in generale e per noi in particolare, il Corpo della Mela d'Oro ha concluso che pianificare un simile pellegrinagio sia sufficiente e che sia prudente [immagine: QuietNight.gif]non andarci affatto.
+Come servizio di pubblica utilità per tutta l'umanità e alla civiltà in generale e per noi in particolare, il Corpo della Mela d'Oro ha concluso che pianificare un simile pellegrinaggio sia sufficiente e che sia prudente [immagine: QuietNight.gif]non andarci affatto.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -2202,7 +2202,7 @@ Real?
 
 DAVVERO questi 5 ciotoli formano un pentagono?
 
-I prevenuti dall'Illusione Aneristica direbbero di si. Coloro che sono prevenuti dall'Illusione Eristica direbbero di no. Collegali con tratti incrociati e formano una stella.
+I prevenuti dall'Illusione Aneristica direbbero di sì. Coloro che sono prevenuti dall'Illusione Eristica direbbero di no. Collegali con tratti incrociati e formano una stella.
 
 Una Mente Illuminata potrà vedere entrambe le cose, eppure non insisterà a sostenere che una delle due sia vera o che nessuna di esse sia vera. Stelle, pentagoni e disordine sono tutte sue creazioni e può fare con esse ciò che desidera. Ciò è vero persino per il concetto del numero 5.
 
@@ -2218,7 +2218,7 @@ del Capitano
 
 Valentino?
 
-La realtà reale è lì, ma tutto ciò che SAI riguardo "essa" è nella tua mente e tua è la possibilità di fare con essa ciò che vuoi. La concettualizzazione è un arte, e L'ARTISTA SEI TU.
+La realtà reale è lì, ma tutto ciò che SAI riguardo "essa" è nella tua mente e tua è la possibilità di fare con essa ciò che vuoi. La concettualizzazione è un'arte, e L'ARTISTA SEI TU.
 
 Detenere la verità genera detenuti.
 
@@ -2263,11 +2263,11 @@ CINQUE TONNELLATE DI LINO!
 
 DOGMA III - STORIA #2, "COSMOGONIA"
 
-which is not the same as DOGMA I - METAFISICA #2, "COSMOLOGIA" (Libro dell' Utero)
+which is not the same as DOGMA I - METAFISICA #2, "COSMOLOGIA" (Libro dell'Utero)
 
 In principio era il VUOTO ed egli aveva due figlie; una (la piccola) era quella dell'ESSERE, chiamata ERIS, e una (la grande) era quella del NON-ESSERE, chiamata ANERIS. (Al giorno d'oggi, la verità fondamentale che Aneris sia la più grande è evidente a tutti coloro che comparino il grande numero di cose che non esistono con il numero relativamente più piccolo di cose che esistono.)
 
-Eris nacque in cinta, e dopo 55 anni (le Dee hanno un perido di gestazione inusualmente lungo-- più lungo persino di quello degli elefanti), la Sua gravidanza generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE, BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato, Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove cose. E giurò che non importava quanti delle sue creature Aneris avrebbe rubato, Ella ne avrebbe partoriti altri. E, in cambio, Aneris giurò che non importava quante cose Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose non-esistenti per lei. (E al giorno d'oggi, le cose appaiono e scompaiono esattamente in questo modo.)[immagine: PointyFinger.gif]
+Eris nacque in cinta, e dopo 55 anni (le Dee hanno un periodo di gestazione inusualmente lungo-- più lungo persino di quello degli elefanti), la Sua gravidanza generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE, BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato, Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove cose. E giurò che non importava quanti delle sue creature Aneris avrebbe rubato, Ella ne avrebbe partoriti altri. E, in cambio, Aneris giurò che non importava quante cose Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose non-esistenti per lei. (E al giorno d'oggi, le cose appaiono e scompaiono esattamente in questo modo.)[immagine: PointyFinger.gif]
 
 ---
 
@@ -2275,9 +2275,9 @@ Eris nacque in cinta, e dopo 55 anni (le Dee hanno un perido di gestazione inusu
 
 *PDF 72 · `testo/it/64.md`*
 
-Sulle prime, le cose generate da Eris erano in uno stato di caos e andavano in tutte le direzioni, ma via via Ella cominciò a giocare con esse e metterle in ordine semplicemente per vedere cosa sarebbe successo. Alcune cose belle vennero fuori da questo gioco e per i successivi cinque zilioni di anni Ella si divertì a creare ordine. E così Ella raggruppò alcune cose con altre e alcuin gruppi con altri e grandi gruppi con piccoli gruppi e tutte le possibili combinazioni finché Ella aveva costruito un grande schema e ciò La deliziò.
+Sulle prime, le cose generate da Eris erano in uno stato di caos e andavano in tutte le direzioni, ma via via Ella cominciò a giocare con esse e metterle in ordine semplicemente per vedere cosa sarebbe successo. Alcune cose belle vennero fuori da questo gioco e per i successivi cinque zilioni di anni Ella si divertì a creare ordine. E così Ella raggruppò alcune cose con altre e alcuni gruppi con altri e grandi gruppi con piccoli gruppi e tutte le possibili combinazioni finché Ella aveva costruito un grande schema e ciò La deliziò.
 
-Intenta a stabilire l'ordine, Ella finalmnente un giorno notò il disordine (che prima non era visibile in ragione del fatto che tutto prima era caos). C'erano molti modi in cui il caos era ordinato e molti modi in cui non lo era.
+Intenta a stabilire l'ordine, Ella finalmente un giorno notò il disordine (che prima non era visibile in ragione del fatto che tutto prima era caos). C'erano molti modi in cui il caos era ordinato e molti modi in cui non lo era.
 
 "Hah," Ella pensò, "Ecco un nuovo gioco."
 
@@ -2293,13 +2293,13 @@ Ora per tutto quel tempo, Vuoto era in qualche modo disturbato. Egli si sentiva 
 
 Quando le sorelle sentirono ciò, esse affrontarono Vuoto e lo scongiurarono di non dimenticarsi di loro che erano le sue Primogenite. Allora Vuoto così decretò:
 
-Che questo fratello, poiché non aveva forma, avrebbe vissuto con Aneris nel Non-Essere e poi la avrebbe lasciata così da poter giocare con l'ordine ed il disordine; vivendo con Eris nellEssere. Ma Eris si riempì di dolore al sentire questo e cominciò a singhiozzare.
+Che questo fratello, poiché non aveva forma, avrebbe vissuto con Aneris nel Non-Essere e poi la avrebbe lasciata così da poter giocare con l'ordine ed il disordine; vivendo con Eris nell'Essere. Ma Eris si riempì di dolore al sentire questo e cominciò a singhiozzare.
 
-"Perché ti scoraggi?" chiese Vuoto, "Avrai anche tu una parte del tuo nuovo fratello." "Ma Padre, Aneris e io abbbiamo sempre litigato, ed ella me lo porterà via non appena lo scoprirà, facendolo tornare nel Non-Essere." "Capisco,"rispose Vuoto, "Allora decreto quanto segue:
+"Perché ti scoraggi?" chiese Vuoto, "Avrai anche tu una parte del tuo nuovo fratello." "Ma Padre, Aneris e io abbiamo sempre litigato, ed ella me lo porterà via non appena lo scoprirà, facendolo tornare nel Non-Essere." "Capisco,"rispose Vuoto, "Allora decreto quanto segue:
 
 "Quando tuo fratello lascerà la residenza dell'Essere non tornerà di nuovo a risiedere nel Non-Essere ma tornerà da me, Nulla, da cui proviene. Voi ragazze potete bisticciare quanto vi pare, ma Mio figlio è vostro fratello e Noi siamo tutti parte di Me."
 
-Ed è per questo che noi uomini non esistiamo finchè iniziamo ad esistere; e allora giochiamo col nostro mondo di cose esistenti e le ordiniamo e disordiniamo e ciò avviene finché non torniamo alla non-esistenza dall'esistenza, e quella spiritualità senz nome ritorna al Vuoto, come un bambino stanco torna a casa da un circo particolarmente selvaggio.
+Ed è per questo che noi uomini non esistiamo finchè iniziamo ad esistere; e allora giochiamo col nostro mondo di cose esistenti e le ordiniamo e disordiniamo e ciò avviene finché non torniamo alla non-esistenza dall'esistenza, e quella spiritualità senza nome ritorna al Vuoto, come un bambino stanco torna a casa da un circo particolarmente selvaggio.
 
 [immagine: EverythingIsTrue.gif]\*
 
@@ -2317,7 +2317,7 @@ UN RITO MISTERICO POEE - LA SALMODIA DI SRI SYADASTIAN
 
 Scritta, in un certo senso, da Mal-2
 
-A differenza delle canzoni, le salmodie non sono cantate ma salmodiate. Questa qui in particolare migliora molto con luso di un capo che ripete solo la parte in sanscrito, mentre tutti gli altri salmodiano quella in italiano. E' inotre appropriato essere in una condizione tranquilla della mente e sedere immobili, per esempio nella posizione del Ranuncolo. E' anche di aiuto essere fatti come copertoni.
+A differenza delle canzoni, le salmodie non sono cantate ma salmodiate. Questa qui in particolare migliora molto con l'uso di un capo che ripete solo la parte in sanscrito, mentre tutti gli altri salmodiano quella in italiano. E' inoltre appropriato essere in una condizione tranquilla della mente e sedere immobili, per esempio nella posizione del Ranuncolo. E' anche di aiuto essere fatti come copertoni.
 
 RUB-A-DUB-DUB
 
@@ -2359,7 +2359,7 @@ Classificazione dei Santi
 
 1. SANTO DI SECONDA CLASSE
 
-Riservato a tutti gli essere umani che meritino la Santità. Esempio: San Norton I, Imperatore degli Stati Uniti e Protettore del Messico (la sua tomba vicino San Francisco è un santuario ufficiale del POEE .)
+Riservato a tutti gli esseri umani che meritino la Santità. Esempio: San Norton I, Imperatore degli Stati Uniti e Protettore del Messico (la sua tomba vicino San Francisco è un santuario ufficiale del POEE.)
 
 LE SEGUENTI CATEGORIE SONO RISERVATE A ESSERI DI FANTASIA CHE NON ESSENDO REALI, SONO PIU' CAPACI DI PERFEZIONE.
 
@@ -2401,11 +2401,11 @@ che è possibile rimpicciolire
 
 = SULL' OCCULTISMO =
 
-I maghi, specialmente dopo le influenze Gnostiche e della Cabbala hanno ricercato un grado maggiore di conoscenza attraverso l'assimilazione e il controllo degli opposti universali-- bene/male, positivo/negativo, maschio/femmina, ecc. Ma a causa della crescente pomposità dei rituali ereditati dagli antichi metodi degli sciamani, gli occultisti sono rimasti ciechi di fronte a quella che forse sono le più importanti delle coppie di opposti apparenti: ORDINE/DISORDINE and SERIO/SCHERZOSO.
+I maghi, specialmente dopo le influenze Gnostiche e della Cabbala hanno ricercato un grado maggiore di conoscenza attraverso l'assimilazione e il controllo degli opposti universali-- bene/male, positivo/negativo, maschio/femmina, ecc. Ma a causa della crescente pomposità dei rituali ereditati dagli antichi metodi degli sciamani, gli occultisti sono rimasti ciechi di fronte a quella che forse sono le più importanti delle coppie di opposti apparenti: ... e SERIO/SCHERZOSO.
 
-I maghi e i primi scienziati, hanno approcciato se stessi e la loro disciplina in un modo strutturato e sobrio, trascurando in tal modo un essenziale bilanciamento metafisico. Quando i maghi imparano ad approcciare la filosofia come un'arte malleabile anziché una Verità immutabile e ad apprezzare l'assurdità degli sforzi del genere umano, allora sono capaci di perseguire la loro arte con cuore più leggero e forser raggiungere una comprensione più chiara di essa, e di conseguenza guadagnare maggori poteri magici. IL CAOS E' ENERGIA.
+I maghi e i primi scienziati, hanno approcciato se stessi e la loro disciplina in un modo strutturato e sobrio, trascurando in tal modo un essenziale bilanciamento metafisico. Quando i maghi imparano ad approcciare la filosofia come un'arte malleabile anziché una Verità immutabile e ad apprezzare l'assurdità degli sforzi del genere umano, allora sono capaci di perseguire la loro arte con cuore più leggero e forse raggiungere una comprensione più chiara di essa, e di conseguenza guadagnare maggiori poteri magici. IL CAOS E' ENERGIA.
 
-[immagine: Wizard.gif]Questa è una sfida fondamentale a tutti i concetti di base dell'occultismo occindentale e il POEE è umilmete orgoglioso di offrire la prima rivoluzione nell'occultismo dai tempi di Salomone.
+[immagine: Wizard.gif]Questa è una sfida fondamentale a tutti i concetti di base dell'occultismo occidentale e il POEE è umilmente orgoglioso di offrire la prima rivoluzione nell'occultismo dai tempi di Salomone.
 
 [immagine: Demonology.gif]\*
 
@@ -2419,11 +2419,11 @@ I maghi e i primi scienziati, hanno approcciato se stessi e la loro disciplina i
 
 SISTEMA ASTROLOGICO POEE
 
-1. Il giorno del tuo prossimo compleanni, ritorna al tuo luogo di nascita e, precisamente a mezzanotte, annotando la tua ora di natale e la data di osservazione, conta tutte le stelle visibili.
+1. Il giorno del tuo prossimo compleanno, ritorna al tuo luogo di nascita e, precisamente a mezzanotte, annotando la tua ora di natale e la data di osservazione, conta tutte le stelle visibili.
 
-2. Una volta fatto questo, scrivimi e ti dirà cosa fare dopo.
+2. Una volta fatto questo, scrivimi e ti dirò cosa fare dopo.
 
-Il teorema da dimostrare Tè che se un numero pari di persone si siede casualmente attorno a un tavolo tondo che abbia segnaposti con i loro nomi, , è sempre possibile ruotare il tavolo finchè almeno due persone non siano di fronte ai loro segnaposti. Procediamo per assurdo. "Sia N il numero pari di persone e siano i loro nomi sostituiti con interi da 0 a N-1 in modo che i segnaposti siano piazzati in sequenza attorno al tavolo. Se un ospite D originariamente siede al posto del segnaposto P, allora il tavolo deve essere ruotato di R posti perchè egli sia seduto nella posizione corretta dove R=P-D, a meno che sia negativo, in tal caso essendfo R=P-D+N. La collezione di valori di D (e di P) per tutti gli ospiti sono gli interi da 0 a N-1, ciascuno preso una volta, ma lo stesso si può dire per la collezioni di valori di R, altrimenti due delegati sarebbero seduti correttamente al medesimo momento. Sommando le suddette equazioni, una per ciascun ospite, si ottiene S-S+NK, dove K è un intero e S=N(N-1)/2, la somma degli interi da 0 a N-1. Da ciò segue che N=2K+1, un numeri dispari." Il che contraddice l'assunto originale.
+Il teorema da dimostrare è che se un numero pari di persone si siede casualmente attorno a un tavolo tondo che abbia segnaposti con i loro nomi, è sempre possibile ruotare il tavolo finchè almeno due persone non siano di fronte ai loro segnaposti. Procediamo per assurdo. "Sia N il numero pari di persone e siano i loro nomi sostituiti con interi da 0 a N-1 in modo che i segnaposti siano piazzati in sequenza attorno al tavolo. Se un ospite D originariamente siede al posto del segnaposto P, allora il tavolo deve essere ruotato di R posti perchè egli sia seduto nella posizione corretta dove R=P-D, a meno che sia negativo, in tal caso essendo R=P-D+N. La collezione di valori di D (e di P) per tutti gli ospiti sono gli interi da 0 a N-1, ciascuno preso una volta, ma lo stesso si può dire per la collezione di valori di R, altrimenti due delegati sarebbero seduti correttamente al medesimo momento. Sommando le suddette equazioni, una per ciascun ospite, si ottiene S-S+NK, dove K è un intero e S=N(N-1)/2, la somma degli interi da 0 a N-1. Da ciò segue che N=2K+1, un numero dispari." Il che contraddice l'assunto originale.
 
 "Ho risolto in realtà questo problema alcuni anni fa," scrive Rybicki, "per un problema differente ma del tutto equivalente, una generalizzazione del problema delle "otto regine" in difesa per una scacchiera cilindrica in cui l'attacco diagonale è consentito in una sola direzione."
 
@@ -2440,9 +2440,9 @@ Il teorema da dimostrare Tè che se un numero pari di persone si siede casualmen
 
 LA MALEDIZIONE DI FACCIAGRIGIA E
 
-L'INTRODDUZIONE  DELNEGATIVISMO
+L'INTRODUZIONE DEL NEGATIVISMO
 
-Scegliere l'ordine rispetto al disordine o il disordine rispetto all'ordine significa accettare un "trip" fato sia di aspetti creativi che distruttivi. Ma decidere di scegliere il fattore creativo rispetto al distruttivo è un trip tutto creativo composto sia di ordine che di disordine. Per ottenere ciò, si deve non solo accettare il disordine creativo, insieme e pariteticamente all'ordine creativo, ma anche voler rifiutare l'ordine distruttivo come un ugualmente indesiderabile disordine distruttivo.
+Scegliere l'ordine rispetto al disordine o il disordine rispetto all'ordine significa accettare un "trip" fatto sia di aspetti creativi che distruttivi. Ma decidere di scegliere il fattore creativo rispetto al distruttivo è un trip tutto creativo composto sia di ordine che di disordine. Per ottenere ciò, si deve non solo accettare il disordine creativo, insieme e pariteticamente all'ordine creativo, ma anche voler rifiutare l'ordine distruttivo come un ugualmente indesiderabile disordine distruttivo.
 
 La Maledizione di Facciagrigia include la divisione della vita in ordine/disordine come polarità essenziale positivo/negativo, invece che costruire le fondamenta di un gioco in cui siano i fattori creativo/distruttivo gli assi essenziali positivo/negativo. In questo modo ha portato l'uomo a tollerare gli aspetti distruttivi dell'ordine ed escluderlo dal partecipare efficacemente agli usi creativi del disordine. La civilizzazione riflette questa sfortunata divisione.
 
@@ -2460,15 +2460,15 @@ Cerca il Sacro Cao - e in esso troverai la follia di tutto l'ORDINE/DISORDINE. S
 
 RITUALE MAGICO ERISIANO - LA MALEDIZIONE DEL TACCHINO
 
-Svelato dall' Apostolo Dr. Van Van Mojo come specifica contromisura alla malvagia Maledizione di Facciagrigia, LA MALEDIZIONE DEL TACCHINO è qui trasmessa agli Erisiani ovunque si trovino semplicemente per loro protezione.
+Svelato dall'Apostolo Dr. Van Van Mojo come specifica contromisura alla malvagia Maledizione di Facciagrigia, LA MALEDIZIONE DEL TACCHINO è qui trasmessa agli Erisiani ovunque si trovino semplicemente per loro protezione.
 
-La Maledizione del Tacchino funziona. E' saldamente basata sul fatto che Facciagrigia e i suoi seguaci hanno bisogno di un ambiente aneristico per funzionare e che una tempestiva introduzione di vibrazioni eristiche li neutralizzerà alle fondamenta. La Maledizione del Tacchino è progettata semplicemente per neutralizzare le vibrazioni negative aneristiche e se introdotta in un ambiente aneristico neutro o positivo (per esempio un poeta che stia lavorando sulla metrica) si dimostrerà innocuo o nel caso peggiore semplicemente fastidioso. Non è progettato per essere utilizzato contro le vibrazioni negative eristiche, anche se può essere utilizzato come veicolo eristico per portare vibrazioni positive in un ambiente eristico malcondotto. In questo caso sarà una responsabilità del Mago Eristico di forgiare le vibrazioni positive se si desidera ottenere un qualche risultato. ATTENZIONE- tutta la magia è potente e richiede coraggio e integrità svolgere il ruolo di mago. Questo rituale, se usato scorrettamente, può ritorcersi contro chi lo esegue. Una motivazione positiva è essenziale per auto-protezione.
+La Maledizione del Tacchino funziona. E' saldamente basata sul fatto che Facciagrigia e i suoi seguaci hanno bisogno di un ambiente aneristico per funzionare e che una tempestiva introduzione di vibrazioni eristiche li neutralizzerà alle fondamenta. La Maledizione del Tacchino è progettata semplicemente per neutralizzare le vibrazioni negative aneristiche e se introdotta in un ambiente aneristico neutro o positivo (per esempio un poeta che stia lavorando sulla metrica) si dimostrerà innocuo o nel caso peggiore semplicemente fastidioso. Non è progettato per essere utilizzato contro le vibrazioni negative eristiche, anche se può essere utilizzato come veicolo eristico per portare vibrazioni positive in un ambiente eristico malcondotto. In questo caso sarà una responsabilità del Mago Eristico di forgiare le vibrazioni positive se si desidera ottenere un qualche risultato. ATTENZIONE - tutta la magia è potente e richiede coraggio e integrità svolgere il ruolo di mago. Questo rituale, se usato scorrettamente, può ritorcersi contro chi lo esegue. Una motivazione positiva è essenziale per auto-protezione.
 
 PER LANCIARE LA MALEDIZIONE DEL TACCHINO:
 
-Prendi una postura eretta come se fossi John L. Sullivan che si prepara a un incontro di pugliato.
+Prendi una postura eretta come se fossi John L. Sullivan che si prepara a un incontro di pugilato.
 Fronteggia il grigiofaccista che vuoi corto circuitare o rivolgiti alla direzione della vibrazione aneristica negativa che intendi neutralizzare.
-Inizia ad agitare le braccia in una qualche maniera elaborata e fai gesti con le mani come se fossi Mandrake che abbarnca una gigantessa sexy. Canta, ad ata voce e nitidamente:
+Inizia ad agitare le braccia in una qualche maniera elaborata e fai gesti con le mani come se fossi Mandrake che abbranca una gigantessa sexy. Canta, ad alta voce e nitidamente:
 
 GOBBLE, GOBBLE, GOBBLE, GOBBLE, GOBBLE!
 
@@ -2484,16 +2484,16 @@ I risultati saranno immediatamente evidenti.
 
 PRIMI RUDIMENTI PER EVANGELIZZATORI ERISIANI di Lord Omar
 
-L'APPROCCIO SOCRATICO è il più efficace nel confronto con l'ignorante. Si dice "approccio socratico" quando si argomenta ponendo domande. Si approccia l'innocente e si chiede semplicemente "Lo sapevi che il nome di Dio è ERIS e che è donna?" Se dovesse rispondere "Si."
+L'APPROCCIO SOCRATICO è il più efficace nel confronto con l'ignorante. Si dice "approccio socratico" quando si argomenta ponendo domande. Si approccia l'innocente e si chiede semplicemente "Lo sapevi che il nome di Dio è ERIS e che è donna?" Se dovesse rispondere "Sì."
 allora probabilmente si tratta di un compagno Erisiano e te ne puoi disinteressare. Se dicesse
 "No." allora rapidamente procedi con:
 
-L'ASSERZIONE ALLA CIECA e digli "Beh, una donna, e il Suo nome è ERIS!" osservando astutamente se il soggetto si è convinto. Se lo fosse, fallo aderire tramite giuramento alla Legione della Discordia Dinamica prima che cambi idea. Se dovesse non apparire convinto, allora prcedi con:
+L'ASSERZIONE ALLA CIECA e digli "Beh, una donna, e il Suo nome è ERIS!" osservando astutamente se il soggetto si è convinto. Se lo fosse, fallo aderire tramite giuramento alla Legione della Discordia Dinamica prima che cambi idea. Se dovesse non apparire convinto, allora procedi con:
 
 UN POCHINO DI FEDE: "Ma devi avere Fede! Tutto è perduto senza Fede! Di certo mi dispiacerebbe per te se non avessi Fede." E quindi aggiungi:  
-L'ARGOMENTO DELLA PAURA e con voce nefasta chiedi "Lo sai cosa succede a chi nega l'esistenza della Dea?" Se esita, non dirgli che sarà per certo reincarnato in una preziosa spilletta di Mao e distribuito ai poveri nella Regione di Thud (il che sarebbe una cosa brutta da dire) , semplicemente scuoti la testa tristemente e asciugandoti una lacrima dagli occhi, passa a:
+L'ARGOMENTO DELLA PAURA e con voce nefasta chiedi "Lo sai cosa succede a chi nega l'esistenza della Dea?" Se esita, non dirgli che sarà per certo reincarnato in una preziosa spilletta di Mao e distribuito ai poveri nella Regione di Thud (... dire), semplicemente scuoti la testa tristemente e asciugandoti una lacrima dagli occhi, passa a:
 
-IL PIANO DELLA CAUSA PRIMA in cui fai riferimento a tutta la discordia e la confusione nel mondo esclamando "Beh, chi diavolo pensi abbia fatto tutto questo, sapientone?" Se dicesse, "Nessuno, semplicemente forze impersonali." allora rispondi rapidamente con :
+IL PIANO DELLA CAUSA PRIMA in cui fai riferimento a tutta la discordia e la confusione nel mondo esclamando "Beh, chi diavolo pensi abbia fatto tutto questo, sapientone?" Se dicesse, "Nessuno, semplicemente forze impersonali." allora rispondi rapidamente con:
 
 L'ARGOMENTO DELLA GINNASTICA SEMANTICA e digli che ha assolutamente ragione e che queste forze impersonali sono femmina e che il Loro nome è ERIS. Se, meraviglia delle meraviglie, rimanesse ancora ostinato, utilizza come ultima risorsa:
 
@@ -2517,7 +2517,7 @@ SCOPO: Affondare oggetti o cose...in acqua, nel fango o in qualsiasi cosa in cui
 
 REGOLE: Affondare è consentito in tutti i modi. Ad oggi blocchi di fango di dieci libbre sono stati utilizzati per affondare un barattolo di tabacco. E' preferibile una pozza d'acqua o un buco per buttarci le cose dentro. Ma fiumi - baie - golfi - mi azzarderei a dire addirittura oceani possono essere usati.
 
-i TURNI sono assegnati come segue: comincia chi butta la roba in aria per primo.
+I TURNI sono assegnati come segue: comincia chi butta la roba in aria per primo.
 
 DOVERI: E' responsabilità di tutti i giocatori di "AFFONDA" di aiutare a trovare altri oggetti da affondare una volta che un oggetto sia stato affondato.
 
@@ -2529,7 +2529,7 @@ Columbus, Ohio!"
 [immagine: PeaceCorps.gif]\*\*
 
 \*affonda  
-\*\*In un certo senso siamo una specie di corpo della pace, Maggiore A. Lincoln German, scuola di tecniche speciali di guerra, berretti verdi, ft. Brage
+\*\*In un certo senso siamo una specie di corpo della pace, Maggiore A. Lincoln German, scuola di tecniche speciali di guerra, berretti verdi, Ft. Bragg
 
 ---
 
@@ -2601,7 +2601,7 @@ Capitolo 1, LA LETTERA AI PARANOICI
 
 4. Oh come le oscurità si accalcano, l'una contro l'altra, nei vostri cuori! Che cosa vi spaventa di più di ciò che avete perso?
 
-5. In verità, in verità vi dico, tutti i Mnistri Sinistri degli Illuminati di Baviera quand'anche lavorassero assieme in moltitudine, non potrebbero sommuovere la terra con tribolazone quanto hanno fatto i vostri avverrtimenti senza fondamento.
+5. In verità, in verità vi dico, tutti i Ministri Sinistri degli Illuminati di Baviera quand'anche lavorassero assieme in moltitudine, non potrebbero sommuovere la terra con tribolazione quanto hanno fatto i vostri avvertimenti senza fondamento.
 
 [immagine: PersistantRumor.gif]\*
 
@@ -2642,7 +2642,7 @@ circa 10.000 anni prima di Cristo. E' probabile che sia lui a trasmettere gli in
 Conan di Cimmeria dopo che Conan divenne re di Aquilonia. Essi furono portati per primi da Conan nell'emisfero occidentale e insegnati ai sacerdoti Maya (Conan è
 Quetzlcoatl). Ciò avvenne il 4 Ahua, 8 Cumhu, data Maya. Rifondati da Abdul
 Alhazred nella famigerata Al Azif, circa nell'800 d.C. (Al Azif fu tradotto in
-Latino da Olaus Wormius, 1132 d.C., come il Necronomicon.) Nel 1090 d.C. avvenne la fondazione della Setta Ismaeliana (Hashishim) da parte di Hassan i Sabbah, con gli insegnamenti segreti basati su Alhazred, Pelias and Kull. La fondazione degli Illuminati di Baviera, da parte di Adam Weishaupt, avvenne il 1 Maggio 1776 sulla base del lavoro degli altri. Weishaupt lo portò negli Stati Uniti durante il periodo
+Latino da Olaus Wormius, 1132 d.C., come il Necronomicon.) Nel 1090 d.C. avvenne la fondazione della Setta Ismaeliana (Hashishim) da parte di Hassan i Sabbah, con gli insegnamenti segreti basati su Alhazred, Pelias e Kull. La fondazione degli Illuminati di Baviera, da parte di Adam Weishaupt, avvenne il 1 Maggio 1776 sulla base del lavoro degli altri. Weishaupt lo portò negli Stati Uniti durante il periodo
 in cui impersonava George Washington; ed era lui l'uomo in nero che fornì il disegno del Grande Sigillo a Jefferson in giardino
 quella notte. La tradizione illuminata è ora, naturalmente, nelle mani della Antica Setta degli Illuminati di Baviera (A.S.I.B.), con sede qui negli Stati Uniti.
 
@@ -2650,7 +2650,7 @@ I nostri insegnamenti non sono, non credo ci sia bisogno di ricordartelo, dispon
 Non credo di fare alcun danno nell'ammettere che essi sono nascosti nel
 Finnegan's Wake di Joyce, nel Nova Express di Burroughs, e nella traduzione di Re Giacomo della Sacra Bibbia (ma non nella versione Latina o Ebraica), e nel Blue Book. Per non parlare degli scritti privati di Ben Franklin (!), ma stiamo ancora tenendoli nascosti.
 
-Considerando gli accadimenti recenti--sai di ciò di cui sto parlando--si è deciso di raccontare un po' di più delle nostre organizzazioni di facciata. La tua pubblicazione è quindi tempestiva: quindi menziona che in aggiunta ai vecchi fronti quali i Massoni, le Banche Rothchild , e il Federal Reserve System, abbiamo ora un controllo rilevante sul Federal Bureau of Investigation (da quando Hoover
+Considerando gli accadimenti recenti--sai di ciò di cui sto parlando--si è deciso di raccontare un po' di più delle nostre organizzazioni di facciata. La tua pubblicazione è quindi tempestiva: quindi menziona che in aggiunta ai vecchi fronti quali i Massoni, le Banche Rothchild, e il Federal Reserve System, abbiamo ora un controllo rilevante sul Federal Bureau of Investigation (da quando Hoover
 è morto lo scorso anno, ma questo è ancora un segreto), gli Studenti per una Società Democratica, il Partito Comunista degli USA, la Associazione Anarchica Americana, la Camera di Commercio giovanile, la Black Lotus Society, il Partito Repubblicano, la Società "John
 Dillinger è morto per Te", e le Ragazze del Fuoco di Bivacco. E' ancora utile continuare la finzione sostenuta dai membri della John Birch Society, ovvero che stiamo cercando di dominare il mondo; in questo modo non sarà rivelato che abbiamo completato in genere il controllo economico e politico diverse generazioni fa e che stiamo giocando un pochino col mondo finché la civilizzazione avanzi abbastanza per la fase cinque.
 
@@ -2669,17 +2669,17 @@ La posizione del nostro Quartier Generale negli Stati Uniti, per inciso è stata
 Dealy Lama. Sono acclusi piani per lo sviluppo di potenziali nuove sedi. Ti prego di verificare e aggiungere tutti i commenti che riterrai pertinenti,
 specie riguardo la propensione Eristica del sito del Pentagono.
 
-Ah, abbiamo buone notizie per te, Fratello Mal! Hai presente quel genio Zambiano della cibernetica che si è unito a noi?? Beh, ha segretamente coordinato i computers dell'FBI col Sistema di Zurigo e i nostri teoretici sono in estasi con le informazioni raccolte. Guarda se voi gente là fuori poteste evitare di farvi esplodere per ancora due sole generazioni alla fine ce la faremo. Dopo 20.000 anni il sogno di Kull si realizzerà! A stento riesco a crederci. Ma il risultatp è certo, dandoci un po' di tempo. I nostri nipoti, Mal! Se la civilizzazione ce la farà a superare questa crisi, i nostri nipoti vivranno in un mondo di autentica libertà e autentica armonia e autentica soddisfazione. Spero solo di essere ancora vivo per vederlo,
+Ah, abbiamo buone notizie per te, Fratello Mal! Hai presente quel genio Zambiano della cibernetica che si è unito a noi? Beh, ha segretamente coordinato i computers dell'FBI col Sistema di Zurigo e i nostri teoretici sono in estasi con le informazioni raccolte. Guarda se voi gente là fuori poteste evitare di farvi esplodere per ancora due sole generazioni alla fine ce la faremo. Dopo 20.000 anni il sogno di Kull si realizzerà! A stento riesco a crederci. Ma il risultato è certo, dandoci un po' di tempo. I nostri nipoti, Mal! Se la civilizzazione ce la farà a superare questa crisi, i nostri nipoti vivranno in un mondo di autentica libertà e autentica armonia e autentica soddisfazione. Spero solo di essere ancora vivo per vederlo,
 Mal, il successo nelle nostre mani. Ventimila anni....!
 
-Ah, mi sento straffato solo a pensarci. Buona fortuna per i
+Ah, mi sento strafatto solo a pensarci. Buona fortuna per i
 Principia. Ewige Blumenkraft! AVE ERIS.
 
 MAD MALIK[immagine: Squirrel.gif]
 
 PS: RISERVATO - Da non pubblicarsi nei Principia.
-Ti restituiamo i due cifrari Zwack per le comunicazioni classsificate.
-Di seguito la tua copia. NON DIVULGARE QUESTA INFORMATION - SICUREZZA E-5.
+Ti restituiamo i due cifrari Zwack per le comunicazioni classificate.
+Di seguito la tua copia. NON DIVULGARE QUESTA INFORMAZIONE - SICUREZZA E-5.
 
 [immagine: Cypher.gif]
 
@@ -2707,9 +2707,9 @@ A questo scopo, POEE propone il gioco alternativo del NONSENSE COME SALVEZZA. Sa
 
 Perciò proponiamo che l'uomo sviluppi il suo amore innato per il disordine e giochi con la Dea Eris. E che sappia che è un gioco gioioso e in questo modo POSSA ESSERE REVOCATA LA MALEDIZIONE DI FACCIAGRIGIA.
 
-Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perchè gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quini con buone intenzioni nell'animo e amore nel suo essere.
+Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perchè gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quindi con buone intenzioni nell'animo e amore nel suo essere.
 
-E quando gli uomini diventeranno liberi allora l'umanità sarà libera..
+E quando gli uomini diventeranno liberi allora l'umanità sarà libera.
 
 Che tu sia libero dalla Maledizione di Facciagrigia.
 

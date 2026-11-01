@@ -6,7 +6,7 @@
 # REFUSI CORRETTI: "Perchè nò?" -> "Perchè no?"; "legenda" -> "leggenda"; "la mitologia e e le" -> "la mitologia e le";
 #   "in cui dicevi" -> "in cui dicevo"; "trasmetto" -> "trasmesso"; "d'Acquitania" -> "d'Aquitania"
 # NdT ESCLUSE: nessuna
-# FONT: composizione tipografica (Helvetica): FreeSans di sistema (GNU FreeFont) con percorso assoluto,
+# FONT: composizione tipografica (Helvetica): FreeSans di sistema (GNU FreeFont) con (ora copiato in strumenti/font),
 #   nessun grottesco in strumenti/font. Testo giustificato: una voce per riga (spazi capillari U+200A,
 #   ultima parola allineata a destra sul margine), sillabazione italiana.
 # Coordinate in pixel sulla scansione a 360 dpi (1764 x 2842).
