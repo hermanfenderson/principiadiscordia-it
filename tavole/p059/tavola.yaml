@@ -5,6 +5,7 @@
 # DIFFERENZE: scritta a mano "MEANWHILE, at the Chinese laundromat..." dalla nota del sito ("Nel frattempo, alla lavanderia
 #   automatica cinese..."), con la prima parola in maiuscolo come nell'originale; "(HBT)" dopo "dal Libro dell'Onesta Verità"
 #   presente nel testo italiano e non nell'originale: mantenuto
+# NUOVA RESA: v. 4 "underpowered" -> "sottosopraffece" (scelta di Herman Fenderson, con NdT)
 # REFUSI CORRETTI: "dala Perfetta" -> "dalla Perfetta"; v. 4 "il Buglio rapidamente sottomise il Buglio" -> "... sottomise
 #   la Guazza" (l'originale: "the Podge swiftly underpowered the Hodge"; Hodge = Guazza, Podge = Buglio) — da confermare
 # NdT ESCLUSE: nessuna
@@ -105,8 +106,8 @@ testi:
     y: 1541
     righe:
       - "4. Quand'ecco, per la Legge dell'Inversione Negativa,**"
-      - "il Buglio rapidamente sottomise la Guazza e Tutto andò"
-      - "in rovina."
+      - "il Buglio rapidamente sottosopraffece la Guazza e Tutto"
+      - "andò in rovina."
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
