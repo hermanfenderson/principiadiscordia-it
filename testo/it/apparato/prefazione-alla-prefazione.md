@@ -36,7 +36,7 @@ Altre parole, come FNORD e WOW!, hanno rifiutato di farsi tradurre. Ho rispettat
 
 Quanto alle note del traduttore, le ho confinate in appendice, dove potranno esercitare indisturbate la loro funzione di disturbare. Il lettore che desideri conoscere i dettagli delle mie scelte potrà andarvi a cercare spiegazioni. Non garantisco che le troverà.
 
-Il traduttore, per inciso, è un apprendista patafisico. La patafisica è la scienza delle soluzioni immaginarie, e da lì alla Dea Eris il passo era talmente breve che sarebbe stato scortese non compierlo. Quanto a chi sia Herman Fenderson, se ne parlerà in fondo al libro. Sempre che ci arrivi.
+Il traduttore, per inciso, è un apprendista patafisico. La patafisica è la scienza delle soluzioni immaginarie, e da lì alla Dea Eris il passo era talmente breve che sarebbe stato scortese non compierlo. Quanto a chi sia Herman Fenderson, se ne parlerà in fondo al libro. Sempre che ci si arrivi.
 
 Rimane una questione, forse l’unica sulla quale vale la pena essere seri.
 
