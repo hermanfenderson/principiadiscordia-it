@@ -19,7 +19,7 @@ cancella:
   - [698, 2233, 924, 2290]     # WORDS (il bordo del libro resta)
   - [764, 2293, 834, 2346]     # Of
   - [694, 2354, 944, 2415]     # WISDOM
-  - [1320, 2310, 1760, 2640]   # FIND PEACE WITH A CONTENTED CHAO
+  - [1320, 2310, 1760, 2640]   # FIND PEACE WITH A CONTENTED CAO
 
 testi:
   - font: SpecialElite-Regular.ttf          # titolo a mano

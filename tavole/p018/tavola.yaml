@@ -1,0 +1,123 @@
+# Tavola p018 (originale 00003) — Il Sacro Chao (illustrazione)
+# Pagina del vecchio sito: 10 (testo/it/10.md, solo immagine storico/immagini-it/SacredChao2.png)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (citazione e titolo dalla tavola di Mauro SacredChao2.png:
+#   "TI DICO: UNO DEVE / AVERE ANCORA UN CAOS / DENTRO DI SE PER PARTORIRE / UNA STELLA DANZANTE!", "IL SACRO CAO")
+# DIFFERENZE: "-Nietzsche" e il disegno (anello, Chao, pentagono, mela KALLISTI) restano dalla scansione.
+#   Titolo "IL SACRO" / "CAO" come nell'immagine di Mauro (l'indice di p017 dice "Sacro Chao", come testo/it/09.md).
+# REFUSI CORRETTI: "UNA STELI A DANZANTE!" -> "UNA STELLA DANZANTE!" (refuso dell'immagine di Mauro);
+#   "DI SE" lasciato senza accento come nell'immagine.
+# NdT ESCLUSE: nessuna
+# FONT: citazione in Special Elite (lettere a mano con grazie, irregolari), scala_x 0,88
+#   perché l'ultima riga non tocchi "-Nietzsche"; titolo in Old Standard Bold
+#   ispessito (grassetto 4), vicino al Clarendon dell'originale, lettera per lettera lungo gli archi originali.
+# Coordinate in pixel sulla scansione a 360 dpi (1770 x 2932). Citazione inclinata di 19 gradi.
+
+pagina_pdf: 18
+
+cancella:
+  # citazione, titolo "THE SACRED" e "CHAO": lettera per lettera (anello e disegno restano)
+  - [1005,  419,  1057,  481]
+  - [1111,  431,  1222,  512]
+  - [976,  436,  1018,  501]
+  - [928,  448,  975,  506]
+  - [864,  464,  946,  531]
+  - [1079,  469,  1121,  525]
+  - [1006,  483,  1072,  551]
+  - [805,  489,  866,  550]
+  - [979,  501,  1021,  561]
+  - [749,  503,  820,  567]
+  - [935,  522,  975,  582]
+  - [726,  525,  760,  571]
+  - [896,  538,  933,  588]
+  - [801,  546,  904,  620]
+  - [629,  552,  678,  601]
+  - [694,  554,  707,  564]
+  - [770,  570,  815,  625]
+  - [546,  571,  609,  633]
+  - [606,  571,  641,  617]
+  - [701,  571,  711,  582]
+  - [939,  583,  1011,  651]
+  - [699,  596,  750,  657]
+  - [496,  603,  558,  653]
+  - [888,  607,  925,  661]
+  - [647,  608,  704,  667]
+  - [833,  610,  888,  679]
+  - [458,  615,  515,  667]
+  - [418,  625,  470,  686]
+  - [619,  625,  676,  689]
+  - [375,  637,  428,  698]
+  - [763,  637,  835,  710]
+  - [565,  638,  628,  703]
+  - [949,  655,  974,  696]
+  - [323,  657,  368,  720]
+  - [714,  658,  768,  720]
+  - [503,  666,  558,  723]
+  - [673,  673,  738,  734]
+  - [857,  682,  937,  745]
+  - [460,  683,  516,  736]
+  - [657,  684,  694,  743]
+  - [436,  691,  476,  748]
+  - [609,  696,  669,  758]
+  - [817,  697,  878,  761]
+  - [386,  698,  445,  762]
+  - [970,  701,  981,  712]
+  - [764,  707,  821,  775]
+  - [558,  713,  607,  775]
+  - [735,  723,  781,  792]
+  - [355,  724,  400,  782]
+  - [515,  724,  563,  785]
+  - [497,  739,  535,  796]
+  - [462,  748,  506,  803]
+  - [655,  748,  712,  814]
+  - [595,  769,  667,  840]
+  - [411,  772,  449,  820]
+  - [367,  774,  413,  834]
+  - [575,  787,  612,  844]
+  - [545,  795,  588,  847]
+  - [481,  807,  548,  873]
+  - [445,  827,  498,  888]
+  - [870,  834,  950,  965]
+  - [957,  834,  1047,  964]
+  - [393,  842,  454,  899]
+  - [1063,  842,  1153,  973]
+  - [1128,  864,  1244,  1013]
+  - [668,  877,  791,  1024]
+  - [1039,  884,  1045,  889]
+  - [1225,  913,  1361,  1061]
+  - [565,  925,  708,  1079]
+  - [1305,  974,  1433,  1106]
+  - [481,  990,  614,  1127]
+  - [683,  1996,  787,  2123]
+  - [1136,  2011,  1227,  2142]
+  - [838,  2033,  943,  2169]
+  - [1004,  2040,  1094,  2173]
+
+testi:
+  - font: SpecialElite-Regular.ttf        # citazione a mano, inclinata
+    corpo: 72
+    scala_x: 0.88
+    grassetto: 0.5
+    interlinea: 67
+    rotazione: 19
+    x: 338
+    y: 716
+    righe:
+      - "TI DICO: UNO DEVE"
+      - "AVERE ANCORA UN CAOS"
+      - "DENTRO DI SE PER PARTORIRE"
+      - "UNA STELLA DANZANTE!"
+
+  # IL SACRO (arco sopra l'anello)
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: 34.6, x: 620, y: 1083, righe: ["I"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: 26.1, x: 675, y: 1043, righe: ["L"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: 11.5, x: 811, y: 984, righe: ["S"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: 1.2, x: 902, y: 964, righe: ["A"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: -9.5, x: 1016, y: 962, righe: ["C"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: -19.9, x: 1113, y: 978, righe: ["R"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: -30.8, x: 1216, y: 1015, righe: ["O"]}
+
+  # CAO (arco sotto l'anello)
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: -18.5, x: 720, y: 2126, righe: ["C"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: -1.9, x: 893, y: 2172, righe: ["A"]}
+  - {font: OldStandard-Bold.ttf, corpo: 165, scala_x: 0.92, grassetto: 4, rotazione: 15.1, x: 1086, y: 2167, righe: ["O"]}

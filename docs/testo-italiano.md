@@ -256,7 +256,7 @@ i Introduzione
 
 v Copertina
 
-3 Il Sacro Chao (Illustrazione)
+3 Il Sacro Cao (Illustrazione)
 
 4 I Cinque Comandamenti (Il Pentaconato)
 
@@ -576,7 +576,7 @@ di Lord Omar
 
 STROFA
 
-Il mio cervello ha meditato sulla rotazione del Chao;
+Il mio cervello ha meditato sulla rotazione del Cao;
 
 E' in bilico sul tavolo dove i Capi di Stato Maggiore sono ora
 
@@ -992,13 +992,13 @@ Non ci sono particolari requisiti per l'Ordinazione, perché se vuoi essere un S
 
 Un SACERDOTE o SACERDOTESSA ORDINATO/A è definito come "chiunque sia in possesso di un Certificato di Ordinazione emesso dall'Ufficio del Polipadre."
 
-Cerca nel Chao se vuoi essere saggio
+Cerca nel Cao se vuoi essere saggio
 
 Trova diletto nel Suo Gran Retaggio!
 
-Cerca nel Chao se sapere tu vuoi
+Cerca nel Cao se sapere tu vuoi
 
-cosa del Chao capire non puoi!
+cosa del Cao capire non puoi!
 
 (HBT; Il Libro del Consiglio, 1:1)
 
@@ -1235,7 +1235,7 @@ di nuovo! Helter skelter!
 
 IL CORPO DELLA MELA D'ORO
 
-Il Corpo della Mela d'Oro\* è una posizione onoraria per i Tenutari del Sacro Chao (Keepers of The Sacred Chao), acciocché essi possano mettere "KSC" dopo i loro nomi.
+Il Corpo della Mela d'Oro\* è una posizione onoraria per i Tenutari del Sacro Cao (Keepers of The Sacred Chao), acciocché essi possano mettere "KSC" dopo i loro nomi.
 
 [immagine: TravelAgent.gif]Ciò dice poco,
 
@@ -1916,9 +1916,9 @@ rivelato a Lord Omar
 
 4. Quand'ecco, per la Legge dell'Inversione Negativa,\*\* il Buglio rapidamente sottosopraffece la Guazza e Tutto andò in rovina.
 
-5. E allora emerse la Forza Attiva della Discordia, la Sottile Manifestazione del Chao Non-esistente, a guidare il Tutto sul Sentiero che riconduceva all'Oblio - che poteva non essere perduto tra i Precetti dell'Ordine nella Regione di Thud.
+5. E allora emerse la Forza Attiva della Discordia, la Sottile Manifestazione del Cao Non-esistente, a guidare il Tutto sul Sentiero che riconduceva all'Oblio - che poteva non essere perduto tra i Precetti dell'Ordine nella Regione di Thud.
 
-6. Per quanto era Attiva, la Forza della Discordia entrò nello Stato di Confusione, e in esso copulò con la Regina e generò ERIS, Nostra Signora della Discordia e Palese Manifestazione del Chao Non-esistente.
+6. Per quanto era Attiva, la Forza della Discordia entrò nello Stato di Confusione, e in esso copulò con la Regina e generò ERIS, Nostra Signora della Discordia e Palese Manifestazione del Cao Non-esistente.
 
 7. E sotto Eris la Confusione si stabilizzò, e fu pertanto chiamata Burocrazia; mentre sotto la Burocrazia Eris si stabilizzò e fu chiamata da allora Discordia.
 

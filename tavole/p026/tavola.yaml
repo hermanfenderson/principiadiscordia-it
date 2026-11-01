@@ -20,7 +20,7 @@ cancella:
   - [368, 728, 1410, 779]      # titolo (restano i filetti sopra e sotto)
   - [990, 788, 1420, 852]      # by Lord Omar
   - [150, 930, 1745, 2210]     # inno
-  - [1740, 1000, 1762, 1065]    # punto e virgola di "The Chao;"
+  - [1740, 1000, 1762, 1065]    # punto e virgola di "The Cao;"
   - [150, 2290, 1745, 2430]    # nota
   - [1745, 1320, 1820, 2770]   # scritta verticale
   - [170, 2662, 1720, 2830]    # citazione di Custer
@@ -78,7 +78,7 @@ testi:
     y: 984
     righe:
       - "STROFA"
-      - "Il mio cervello ha meditato sulla rotazione del Chao;"
+      - "Il mio cervello ha meditato sulla rotazione del Cao;"
       - "E' in bilico sul tavolo dove i Capi"
       - "     di Stato Maggiore sono ora"
       - "Raccolti a discutere sul lancio della Bomba;"
