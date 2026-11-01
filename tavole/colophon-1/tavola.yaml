@@ -1,4 +1,4 @@
-# Tavola nuova: Principia Discordia, pagina 1 di 1
+# Tavola nuova: Principia Discordia -- Edizione Italiana, pagina 1 di 1
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/colophon.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
@@ -11,7 +11,7 @@ testi:
   y: 260
   allinea: centro
   righe:
-  - PRINCIPIA DISCORDIA
+  - PRINCIPIA DISCORDIA -- EDIZIONE ITALIANA
   sottolineato: true
   distanza_sottolineatura: 9
   spessore_sottolineatura: 6
@@ -50,7 +50,10 @@ testi:
   - la fonte e condivida allo stesso modo.
   - ''
   - '     Il testo integrale è libero su'
-  - principiadiscordia.hermanfenderson.com
+  - principiadiscordia.hermanfenderson.com; tavole,
+  - caratteri e programmi con cui è stato composto il
+  - libro sono su
+  - github.com/hermanfenderson/principiadiscordia-it
   - ''
   - '     Prima edizione italiana, stagione delle'
   - Conseguenze, anno 3192 (2026).

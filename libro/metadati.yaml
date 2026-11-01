@@ -1,0 +1,16 @@
+# Metadati del libro: da usare per StreetLib/KDP, EPUB e sito.
+titolo: "Principia Discordia"
+sottotitolo: "Edizione italiana. Ovvero Come trovai la Dea e Cosa le feci Quando la trovai"
+autore: "Malaclypse il Giovane (Gregory Hill)"
+contributori:
+  - {nome: "Lord Omar Khayyam Ravenhurst (Kerry Thornley)", ruolo: autore}
+  - {nome: "Robert Anton Wilson", ruolo: introduzione}
+  - {nome: "Herman Fenderson", ruolo: traduttore}
+lingua: it
+lingua_originale: en
+licenza_traduzione: "CC BY-SA 4.0"
+formato: "A5 (148 x 210 mm), brossura, interni in bianco e nero su carta crema"
+pagine: 110
+parole_chiave: [Discordianesimo, Eris, Discordia, Illuminatus, controcultura, Robert Anton Wilson, Greg Hill, Kerry Thornley, caos, satira religiosa]
+# KDP: per i titoli di pubblico dominio tradotti chiede l'etichetta "(Translated)" nel campo titolo,
+# e traduttore e autore originale tra i contributori.

@@ -24,7 +24,9 @@ RADICE = Path(__file__).resolve().parent.parent
 DPI = 360
 MM = DPI / 25.4
 PAGINA = (round(148 * MM), round(210 * MM))   # A5
-INTERNO, ESTERNO, ALTO, BASSO = 10 * MM, 7 * MM, 7 * MM, 7 * MM  # margini di sicurezza
+# margini di sicurezza: interno 16 mm (StreetLib chiede almeno 0,63" sotto le 500 pagine;
+# KDP 9,6 mm sotto le 150), esterno, alto e basso 7 mm (KDP: almeno 6,4 mm senza abbondanza)
+INTERNO, ESTERNO, ALTO, BASSO = 16 * MM, 7 * MM, 7 * MM, 7 * MM
 
 
 def contenuto(tavola: Image.Image):
