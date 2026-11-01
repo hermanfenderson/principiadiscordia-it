@@ -2124,7 +2124,7 @@ per il discordiano, sono uguali all'occhio
 
 Il BUGLIO del Sacro Cao è rappresentato come la Mela d'Oro di Discordia che rappresenta il Principio Eristico del Disordine. La scritta su di essa, "KALLISTI" è in greco "ALLA PIU' BELLA" e si riferisce a un vecchio mito che riguarda la Dea. Ma i Greci avevano una comprensione limitata del Disordine e pensavano a esso come a un principio negativo.
 
-[immagine: 5Pentagon.gif]Il Pentagono rappresenta il Principio Aneristico dell'Ordine e rappresenta il BUGLIO. Il Pentagono contiene di versi riferimenti; da una parte può servire a rappresentare la geometria, una delle prime forme di studio di un ordine formale che abbia raggiunto livelli di sviluppo elevati;\* dall'altro specificatamente è conforme alla LEGGE DEI CINQUE.
+[immagine: 5Pentagon.gif]Il Pentagono rappresenta il Principio Aneristico dell'Ordine e rappresenta la GUAZZA. Il Pentagono contiene di versi riferimenti; da una parte può servire a rappresentare la geometria, una delle prime forme di studio di un ordine formale che abbia raggiunto livelli di sviluppo elevati;\* dall'altro specificatamente è conforme alla LEGGE DEI CINQUE.
 
 LA VERITA' E' QUINTUPLA MA GLI UOMINI HANNO UN SOLO NOME PER ESSA.
 

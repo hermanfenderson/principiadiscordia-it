@@ -1,0 +1,140 @@
+# Tavola p038 (originale 00023) — Modulo di Adesione
+# Pagina del vecchio sito: 30 (testo/it/30.md, che è solo l'immagine storico/immagini-it/form.png)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna: tutte le scritte seguono form.png di Herman, tranne
+#   "over 6th" -> "oltre la 6ª" (Herman: "Oltre la V", con le classi in cifre romane: qui restano le cifre 1-6
+#   dell'originale) e "I would rather" -> "Preferirei..." a capo come nell'originale.
+# DIFFERENZE: Herman omette "History:" al punto 5 e "Professional:/Medical:" diventano "Percorso
+#   professionale." e una frase sola: seguito Herman. Sottotitolo: Herman scrive "Al Movimento Eristico"
+#   (l'inglese è "Erisian Movement", altrove "Movimento Erisiano"): seguito Herman, da rivedere.
+#   "(se temporaneo, ...)" senza parentesi, come nell'originale.
+# REFUSI CORRETTI: "Illiminati" -> "Illuminati"; "Q.I. 150.200" -> "Q. I.: 150-200" (cifre originali)
+# NdT ESCLUSE: nessuna
+# Si conservano: filetti, cornice, caselle [ [, puntini, cifre, "1."..."7.", "no", "acc.", "Rev. Mungo",
+#   il numero 6-713, il triangolo con le fiamme, il pallino del riquadro e il numero di pagina.
+# Font: corpo del modulo in Old Standard 49 + grassetto 1 (Bodoni da modulo); titolo Old Standard Bold
+#   allargato (l'originale è un Bodoni "fat face", nessun font della cartella è altrettanto nero);
+#   intestazione in Jost; timbri e riquadro in Courier Prime Bold. Il timbro sbiadito "PROPRIETÀ DEL
+#   DIPARTIMENTO DI GEOLOGIA" è reso con effetto timbro: più leggibile dell'originale, quasi illeggibile.
+# Timbro capovolto: "IL MITTENTE ASPETTA!" lettera per lettera sull'arco originale (cerchio di centro
+#   (144, 1497) e raggio 1008), "Rispondi / via cavo" capovolto a 197,6 gradi (Herman: "Rispondi via cavo").
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 38
+
+cancella:
+  - [55, 70, 730, 205]   # timbro sbiadito PROPERTY OF / GEOLOGY (sopra il numero 6-713)
+  - [412, 200, 872, 288]   # timbro sbiadito DEPARTMENT
+  - [795, 288, 872, 325]   # coda della T di DEPARTMENT
+  - [600, 285, 795, 340]   # OFFICIAL
+  - [450, 338, 960, 392]   # DISCORDIAN SOCIETY
+  - [605, 390, 800, 432]   # HAIL ERIS
+  - [340, 495, 1338, 568]   # titolo (la linea della fiamma a x 1342 resta)
+  - [195, 585, 1340, 645]   # sottotitolo fino al triangolo
+  - [1340, 588, 1585, 632]   # SOCIETY sopra il tratteggio del triangolo (le righe sopra e sotto restano)
+  - [220, 695, 520, 752]   # Today's date
+  - [948, 695, 1332, 752]   # Yesterday's date
+  - [222, 800, 1770, 985]   # punto 2
+  - [190, 1030, 340, 1088]   # Name
+  - [920, 1030, 1190, 1090]   # Holy Name
+  - [230, 1182, 415, 1236]   # Address
+  - [235, 1258, 1795, 1332]   # If temporary...
+  - [204, 1384, 488, 1446]   # Description:
+  - [553, 1384, 681, 1428]   # Born:
+  - [768, 1396, 842, 1446]   # yes
+  - [1063, 1384, 1190, 1446]   # Eyes:
+  - [1397, 1384, 1520, 1428]   # other
+  - [1590, 1384, 1764, 1446]   # Height:
+  - [350, 1430, 472, 1480]   # fl. oz. (i puntini restano)
+  - [518, 1430, 1168, 1490]   # Last time you had a haircut:
+  - [1416, 1430, 1598, 1486]   # Reason:
+  - [236, 1484, 348, 1530]   # Race:
+  - [449, 1484, 568, 1530]   # horse
+  - [652, 1484, 808, 1530]   # human
+  - [855, 1484, 977, 1538]   # I. Q.:
+  - [1574, 1498, 1679, 1532]   # over
+  - [190, 1588, 1252, 1650]   # History: Education - highest grade completed (le cifre 1-6 restano)
+  - [1570, 1592, 1768, 1640]   # over 6th
+  - [230, 1641, 1770, 1845]   # resto del punto 5
+  - [186, 1905, 1258, 1968]   # Sneaky questions...
+  - [230, 1958, 1766, 2021]   # I would rather...
+  - [228, 2008, 1242, 2066]   # caterpillers... because (i puntini restano)
+  - [228, 2058, 1015, 2118]   # I have ceased raping little children
+  - [1103, 2072, 1183, 2118]   # yes
+  - [1386, 2072, 1538, 2110]   # reason
+  - [185, 2165, 625, 2216]   # SELF-PORTRAIT
+  - [140, 2232, 782, 2532]   # timbro capovolto SENDER WAITING! Answer by wire
+  - [95, 2680, 575, 2742]   # For Office Use Only-
+  - [725, 2685, 806, 2742]   # rej.
+  - [825, 2683, 990, 2732]   # burned
+  - [1255, 2385, 1585, 2432]   # LICK HERE!
+  - [1250, 2528, 1605, 2632]   # (You may be one of the lucky 25)
+
+testi:
+  - {font: "Oswald-VF.ttf", corpo: 58, peso: 200, scala_x: 1.15, grassetto: 0, rotazione: -8, effetto: timbro, x: 262, y: 135, righe: ["PROPRIETÀ DEL"]}   # timbro sbiadito
+  - {font: "Oswald-VF.ttf", corpo: 58, peso: 200, scala_x: 1.15, grassetto: 0, rotazione: -5.7, effetto: timbro, x: 75, y: 195, righe: ["DIPARTIMENTO DI GEOLOGIA"]}
+  - {font: "Jost-Regular.ttf", corpo: 42, grassetto: 1, allinea: centro, x: 707, y: 333, righe: ["UFFICIALE"]}   # intestazione
+  - {font: "Jost-Regular.ttf", corpo: 52, grassetto: 1, allinea: centro, x: 702, y: 381, righe: ["SOCIETA' DISCORDIANA"]}
+  - {font: "Jost-Medium.ttf", corpo: 38, grassetto: 1, allinea: centro, x: 703, y: 423, righe: ["AVE ERIS"]}
+  - {font: "OldStandard-Bold.ttf", corpo: 66, grassetto: 3, scala_x: 1.12, allinea: centro, x: 841, y: 548, righe: ["Modulo di Adesione"]}   # titolo
+  - {font: "OldStandard-Italic.ttf", corpo: 50, grassetto: 1, x: 204, y: 632, righe: ["Al Movimento Eristico della "]}   # sottotitolo
+  - {font: "OldStandard-Regular.ttf", corpo: 52, grassetto: 1, x: 827, y: 628, righe: ["SOCIETA' DISCORDIANA"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 225, y: 737, righe: ["Data di oggi"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 953, y: 737, righe: ["Data di ieri"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 227, y: 846, righe: ["Scopo della richiesta: --associazione a: a. Legione della Discordia"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 237, y: 906, righe: ["Dinamica   b. POEE   c. Illuminati di Baviera   d. Tutti i precedenti"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 239, y: 966, righe: ["e. Nessuno dei precedenti   f. Altro--"]}
+  - {font: "OldStandard-Italic.ttf", corpo: 49, grassetto: 1, x: 1012, y: 966, righe: ["prego specificare!"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 196, y: 1074, righe: ["Nome"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 928, y: 1074, righe: ["Nome Sacro"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 238, y: 1223, righe: ["Indirizzo"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.89, x: 241, y: 1314, righe: ["Se temporaneo, indicare un indirizzo a cui sia possibile inoltrare la corrispondenza"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 208, y: 1424, righe: ["Descrizione:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 557, y: 1424, righe: ["Nato:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 776, y: 1424, righe: ["sì"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.95, x: 1067, y: 1424, righe: ["Occhi:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 1401, y: 1424, righe: ["altro"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.95, x: 1594, y: 1424, righe: ["Altezza:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 362, y: 1471, righe: ["Kg"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.95, x: 523, y: 1471, righe: ["Data dell'ultimo taglio di capelli:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 1421, y: 1471, righe: ["Motivazione:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.88, x: 240, y: 1522, righe: ["Razza:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.85, x: 453, y: 1522, righe: ["equina"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 657, y: 1522, righe: ["umana"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 859, y: 1522, righe: ["Q. I.:"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.85, x: 1578, y: 1522, righe: ["sopra"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 196, y: 1631, righe: ["Istruzione - classe completata"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.9, x: 1575, y: 1631, righe: ["oltre la 6ª"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, interlinea: 49.7, x: 241, y: 1681, righe: ["Percorso professionale. Utilizzando un'altra risma di carta indicare", "tutti i lavori dai quali si è stati licenziati dal 1937. Su un foglio", "separato etichettato “confidenziale” elencare i principali episodi", "psicotici sperimentati nelle ultime 24 ore."]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 192, y: 1949, righe: ["Domande a trabocchetto per valutare i tratti della personalità"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 238, y: 2000, righe: ["Preferirei... a. vivere in una baracca b. suonare in un gruppo rock"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, scala_x: 0.95, x: 238, y: 2049, righe: ["c. mangiare lombrichi. Ho tatuaggi osceni perché"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 235, y: 2100, righe: ["Ho smesso di brutalizzare minori"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 1113, y: 2100, righe: ["sì"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 1391, y: 2100, righe: ["motivo"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 189, y: 2208, righe: ["AUTORITRATTO"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -140.5, x: 787, y: 2252, righe: ["I"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -142.6, x: 759, y: 2274, righe: ["L"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -146.7, x: 702, y: 2317, righe: ["M"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -148.8, x: 672, y: 2336, righe: ["I"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -150.8, x: 642, y: 2355, righe: ["T"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -152.9, x: 611, y: 2372, righe: ["T"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -154.9, x: 579, y: 2388, righe: ["E"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -157.0, x: 547, y: 2403, righe: ["N"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -159.0, x: 514, y: 2417, righe: ["T"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -161.1, x: 481, y: 2430, righe: ["E"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -165.2, x: 413, y: 2451, righe: ["A"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -167.3, x: 379, y: 2461, righe: ["S"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -169.3, x: 344, y: 2468, righe: ["P"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -171.4, x: 309, y: 2475, righe: ["E"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -173.4, x: 274, y: 2480, righe: ["T"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -175.5, x: 238, y: 2484, righe: ["T"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -177.6, x: 203, y: 2487, righe: ["A"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 56, rotazione: -179.6, x: 167, y: 2488, righe: ["!"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 58, rotazione: 197.6, allinea: centro, x: 432, y: 2352, righe: ["Rispondi"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 58, rotazione: 197.6, allinea: centro, x: 417, y: 2267, righe: ["via cavo"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 102, y: 2723, righe: ["Per Uso Interno -"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 730, y: 2723, righe: ["resp."]}
+  - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 845, y: 2723, righe: ["bruciato"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 54, allinea: centro, x: 1421, y: 2424, righe: ["LECCA QUI!"]}
+  - {font: "CourierPrime-Bold.ttf", corpo: 38, interlinea: 46, allinea: centro, x: 1428, y: 2570, righe: ["(Potresti essere uno", "dei fortunati 25)"]}
