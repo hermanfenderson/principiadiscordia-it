@@ -67,6 +67,17 @@ def blocco(d, x, y, t, f, larghezza, interlinea, colore=INCHIOSTRO) -> int:
     return y
 
 
+def frontespizio(togli: list[str]) -> Image.Image:
+    """La tavola p013 ricomposta senza le scritte da togliere in copertina."""
+    from componi import componi
+    spec = yaml.safe_load((RADICE / "tavole" / "p013" / "tavola.yaml").read_text(encoding="utf-8"))
+    spec["testi"] = [el for el in spec["testi"] if not set(el.get("righe", [])) & set(togli)]
+    cartella = RADICE / "build" / "copertina" / "p013-copertina"
+    cartella.mkdir(parents=True, exist_ok=True)
+    (cartella / "tavola.yaml").write_text(yaml.safe_dump(spec, allow_unicode=True), encoding="utf-8")
+    return Image.open(componi(cartella))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pagine", type=int, default=130)
@@ -88,7 +99,7 @@ def main():
     margine = px(0.375)
 
     # ---- prima: il frontespizio italiano (tavola p013), ritagliato al formato
-    front = Image.open(RADICE / "build" / "tavole" / "p013.png")
+    front = frontespizio(testi["prima"].get("togli", []))
     # tutta la pagina dentro l'area sicura (0,125 pollici dal taglio), centrata
     alt = px(ALTEZZA - 0.25)
     front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
