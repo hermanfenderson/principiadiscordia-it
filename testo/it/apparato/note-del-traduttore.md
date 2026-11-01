@@ -15,4 +15,4 @@ NOTE DEL TRADUTTORE
 
 00048 -- Sacro Cao: gioco di parole con cow (mucca), intraducibile.
 
-00055 -- ERIS letto al contrario è SIRE: "Maitresse". Spostando la prima lettera alla fine è RISE: "crescita". Eros letto al contrario è sorE: "avvilito".
+00055 -- ERIS letto al contrario è SIRE: "sire, signore". Spostando la prima lettera alla fine è RISE: "crescita". Eros letto al contrario è sorE: "avvilito".
