@@ -1,0 +1,40 @@
+# Tavola nuova: Note Del Traduttore, pagina 1 di 1
+# Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
+# per cambiare il testo si corregge la sorgente e si rilancia.
+# STATO: completa
+
+pagina_pdf: null
+testi:
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 913
+  y: 260
+  allinea: centro
+  righe:
+  - NOTE DEL TRADUTTORE
+  sottolineato: true
+  distanza_sottolineatura: 9
+  spessore_sottolineatura: 6
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  interlinea: 60
+  x: 227
+  y: 420
+  righe:
+  - '     00026 -- Gioco di parole intraducibile: Cow ='
+  - Mucca, Cao = singolare di Caos (sic).
+  - ''
+  - '     00033 -- "Da non confondersi con The Apple'
+  - 'Corps Ltd. di quei quattro cantanti": e neanche'
+  - con quella roba i-qualcosa...
+  - ''
+  - '     00047 -- Nel testo originale è "plants"'
+  - (piante) e non "planets" (pianeti).
+  - ''
+  - '     00048 -- Sacro Cao: gioco di parole con cow'
+  - (mucca), intraducibile.
+  - ''
+  - '     00055 -- ERIS letto al contrario è SIRE:'
+  - '"Maitresse". Spostando la prima lettera alla fine'
+  - 'è RISE: "crescita". Eros letto al contrario è'
+  - 'sorE: "avvilito".'
