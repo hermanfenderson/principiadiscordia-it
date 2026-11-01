@@ -25,6 +25,7 @@ python3 strumenti/copertina.py --pagine 114       # copertina stesa -> build/cop
 python3 strumenti/libro.py --ricomponi            # tutte le tavole + PDF di stampa A5 (build/libro/)
 python3 strumenti/libro.py --anteprima --copertina  # + PDF leggero da sfogliare con copertina
 python3 strumenti/verifica_accessibili.py         # controllo dei testi accessibili
+python3 strumenti/epub.py                         # EPUB accessibile -> build/epub/ (prima: libro.py e copertina.py)
 python3 strumenti/impagina.py testo/it/apparato/note-del-traduttore.md ndt   # rigenera le tavole dattiloscritte
 python3 strumenti/pagina_herman.py                # rigenera la pagina "Chi (non) è Herman Fenderson"
 python3 strumenti/pagine_apertura.py              # rigenera occhiello e frontespizio

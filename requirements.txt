@@ -2,3 +2,4 @@ pillow
 numpy
 pyyaml
 img2pdf
+markdown
