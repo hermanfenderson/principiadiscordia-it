@@ -9,6 +9,9 @@
 #   Paragrafi del dattiloscritto riallineati (18 righe contro 19); ultimo paragrafo con scala_x 0.96.
 # REFUSI CORRETTI: "si svelò per la prima volta al Corpo della Mela d'Oro per la prima volta" ->
 #   tolta la ripetizione finale "per la prima volta"; "pellegrinagio" -> "pellegrinaggio".
+# REFUSI CORRETTI (revisione 2026): "per tutta l'umanità e alla civiltà in generale e per noi in particolare" ->
+#   "per tutta l'umanità e la civiltà in generale, e per noi in particolare" (come l'inglese "to all mankind and
+#   civilization in general, and to us in particular")
 # NdT ESCLUSE: nessuna
 # FONT: dattiloscritto IBM Plex Mono 52; corsivo Courier Prime Italic 50; titoletto e timbro in
 #   Old Standard (l'originale è un tondo tipografico tipo Century).
@@ -108,7 +111,7 @@ testi:
     y: 2198
     righe:
       - "Come servizio di pubblica utilità per tutta l'umanità"
-      - "e alla civiltà in generale e per noi in particolare,"
+      - "e la civiltà in generale, e per noi in particolare,"
       - "il Corpo della Mela d'Oro ha concluso che pianificare"
       - "un simile pellegrinaggio sia sufficiente e che sia"
       - "prudente non andarci affatto."

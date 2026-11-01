@@ -7,6 +7,8 @@
 #   come nell'originale "5. SANTO A CINQUE STELLE" / "I Cinque Apostoli di Eris.";
 #   motto a mano: aggiunti i punti fermi alla fine delle frasi, come nell'originale
 # REFUSI CORRETTI: "gli essere umani" -> "gli esseri umani"; "POEE .)" -> "POEE.)"
+# REFUSI CORRETTI (revisione 2026): "la sua tomba vicino San Francisco" -> "vicino a San Francisco" ("San" passa
+#   alla riga successiva)
 # NdT ESCLUSE: nessuna
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 pagina_pdf: 75
@@ -41,8 +43,8 @@ testi:
     righe:
       - "Riservato a tutti gli esseri umani che meritino la"
       - "Santità. Esempio: San Norton I, Imperatore degli Stati"
-      - "Uniti e Protettore del Messico (la sua tomba vicino San"
-      - "Francisco è un santuario ufficiale del POEE.)"
+      - "Uniti e Protettore del Messico (la sua tomba vicino a"
+      - "San Francisco è un santuario ufficiale del POEE.)"
 
   - font: CourierPrime-Italic.ttf    # corsivo
     corpo: 52

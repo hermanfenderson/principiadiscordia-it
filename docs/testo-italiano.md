@@ -21,10 +21,10 @@ o il grande saggio di Mendel sulla genetica. I Principia Discordia
 entrarono nel nostro continuum spazio temporale con la stessa discrezione furtiva di un gatto che strisci su un davanzale.
 
 Nel 1968, praticamente nessuno aveva mai sentito parlare di questo libro meraviglioso.
-Nel 1970, centinaia di persone da costa a costa ne parlavano e si interrogavano sull'identità del suo misterioso autore, Malaclipse il Giovane.
-Voci si diffondevano lungo il continente, da New York a Los Angeles, da Seattle a St. Joe. Uno aveva sentito dire che Malaclipse era in realtà Alan Watts.
+Nel 1970, centinaia di persone da costa a costa ne parlavano e si interrogavano sull'identità del suo misterioso autore, Malaclypse il Giovane.
+Voci si diffondevano lungo il continente, da New York a Los Angeles, da Seattle a St. Joe. Uno aveva sentito dire che Malaclypse era in realtà Alan Watts.
 No, diceva un'altra leggenda -- i Principia erano in realtà un'opera dell'ordine Sufi.
-Un terzo mito, molto suggestivo, sosteneva che Malaclipse fosse un nome d'arte per Richard M. Nixon,
+Un terzo mito, molto suggestivo, sosteneva che Malaclypse fosse un nome d'arte per Richard M. Nixon,
 che avrebbe presumibilmente composto i Principia durante i pochi momenti di lucidità.
 Ciascuna di queste trame mi divertiva e ho fatto anche io la mia parte per aiutare a diffonderle.
 Sono stato anche molto attento a non contraddire mai le voci occasionali che avessi scritto in realtà io il tutto durante un viaggio d'acido.
@@ -83,7 +83,7 @@ Darra Bazar, Kohat
 
 *PDF 13 · `testo/it/05.md`*
 
-SUA GRANDE NARCOTICITA' MALACLIPSE IL GIOVANE
+SUA GRANDE NARCOTICITA' MALACLYPSE IL GIOVANE
 
 [immagine: NotJunkMail.png]
 
@@ -689,7 +689,7 @@ Cabala di King Kong
 
 Ciò che sappiamo a proposito di ERIS (non troppo)
 
-I romani hanno lasciato un suo ritratto per i posteri - E' mostrata come una donna grottesca con uno sguardo pallido e spettrale, gli occhi in fiamme, l'abito strappato e lacerato come a nascondere un pugnale nel petto. In realtà, pallide e spettrali, se nascondesse un freddo pugnale nel petto.
+I romani hanno lasciato un suo ritratto per i posteri - E' mostrata come una donna grottesca con uno sguardo pallido e spettrale, gli occhi in fiamme, l'abito strappato e lacerato come a nascondere un pugnale nel petto. In realtà, la maggior parte delle donne apparirebbe pallida e spettrale, se nascondesse un freddo pugnale nel petto.
 
 La sua genealogia ci viene dai Greci ed è estremamente confusa. Ella era gemella di Ares e figlia di Zeus e Era; oppure era figlia di Nix, dea della notte (che era figlia o moglie di Chaos, o entrambe le cose) e il fratello di Nix, Erebo, i cui fratelli e sorelle erano, tra gli altri, Morte, Fato, Scherno e Amicizia. E che Ella generò Oblio, Litigi, Bugie e un gruppetto di dei e dee di quel genere.
 
@@ -1852,9 +1852,9 @@ CAOS CONVENZIONALE
 
 FACCIAGRIGIA
 
-Nell'anno 1166 a.C., un frustrato, gobbo nel cervello chiamato Facciagrigia, si ficcò in testa che l'Universo era privo di senso dell'umorismo almeno quanto ne mancava lui, e cominciò a predicare che il gioco era peccato perché contraddiceva la via dell'Ordine Serio. "Guarda tutto l'ordine che c'è attorno a te," diceva. E con ciò, ingannava uomini onesti facendogli credere che la realtà altro non sia altro che una specie di camicia di forza e non la felice avventura che gli uomini conoscevano.
+Nell'anno 1166 a.C., un frustrato, gobbo nel cervello chiamato Facciagrigia, si ficcò in testa che l'Universo era privo di senso dell'umorismo almeno quanto ne mancava lui, e cominciò a predicare che il gioco era peccato perché contraddiceva la via dell'Ordine Serio. "Guarda tutto l'ordine che c'è attorno a te," diceva. E con ciò, ingannava uomini onesti facendogli credere che la realtà altro non sia che una specie di camicia di forza e non la felice avventura che gli uomini conoscevano.
 
-Non è al giorno d'oggi chiaro perché gli uomini in quel particolare momento fossero così creduloni, visto che nessuno in assoluto pensò di osservare tutto il disordine che li circondava concludendo così l'esatto contrario. Ma, in ogni caso, Facciagrigia e i suoi seguaci prendevano il gioco del vivere più seriamente di quanto prendessero la stessa vita e erano noti anche per distruggere altri esseri viventi i cui modi di vivere differissero dai loro.
+Non è al giorno d'oggi chiaro perché gli uomini in quel particolare momento fossero così creduloni, visto che nessuno in assoluto pensò di osservare tutto il disordine che li circondava concludendo così l'esatto contrario. Ma, in ogni caso, Facciagrigia e i suoi seguaci prendevano il gioco del vivere più seriamente di quanto prendessero la stessa vita ed erano noti anche per distruggere altri esseri viventi i cui modi di vivere differissero dai loro.
 
 Lo sfortunato risultato di questo è che la specie umana da allora ha sofferto di uno sbilanciamento psicologico e spirituale. Lo sbilanciamento causa frustrazione, e la frustrazione causa paura. E la paura causa un cattivo trip. E l'uomo di oggi è in un cattivo trip da un bel po' di tempo.
 
@@ -1948,7 +1948,7 @@ rivelato a Lord Omar
 
 \*\* LA LEGGE DELL'INVERSIONE NEGATIVA afferma che se qualcosa non accade allora avverrà l'esatto opposto, ma esattamente in maniera opposta a ciò che non è avvenuto.
 
-NOTA: E' in coerenza a questo testo del Libro dell'Utero, che il POEE ha basato il suo Calendario Erisiano dividendolo in 5 stagioni di 73 giorni ciascuno. Ognuno dei Cinque Apostoli di Eris è patrono di una Stagione. Un diagramma di Stagioni, Patroni, Giorni della Settimana, Festività e un convertitore perpetuo al Calendario Gregoriano sono inclusi in questa edizione dei Principia.
+NOTA: E' in coerenza a questo testo del Libro dell'Utero, che il POEE ha basato il suo Calendario Erisiano dividendolo in 5 stagioni di 73 giorni ciascuna. Ognuno dei Cinque Apostoli di Eris è patrono di una Stagione. Un diagramma di Stagioni, Patroni, Giorni della Settimana, Festività e un convertitore perpetuo al Calendario Gregoriano sono inclusi in questa edizione dei Principia.
 
 [immagine: DullButSincere.gif]\*
 
@@ -2177,7 +2177,7 @@ GIUDIZIO E' ARRIVATO
 
 >       E Cinque Giorni Prima di quella Occasione, l'Apostolo Malaclypse il Vecchio camminerà per le strade di Whittier con un cartello che in tutte le lingue significherà: "GIORNO DEL GIUDIZIO", come avviso dell'imminente Giorno del Giudizio a tutti gli uomini. Ed Egli segnalerà questo evento cercando i Poveri e distribuendo loro preziose spillette di Mao e Whittier sarà nota per quei cinque giorni come la Regione di Thud.
 
-Come servizio di pubblica utilità per tutta l'umanità e alla civiltà in generale e per noi in particolare, il Corpo della Mela d'Oro ha concluso che pianificare un simile pellegrinaggio sia sufficiente e che sia prudente [immagine: QuietNight.gif]non andarci affatto.
+Come servizio di pubblica utilità per tutta l'umanità e la civiltà in generale, e per noi in particolare, il Corpo della Mela d'Oro ha concluso che pianificare un simile pellegrinaggio sia sufficiente e che sia prudente [immagine: QuietNight.gif]non andarci affatto.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -2267,7 +2267,7 @@ which is not the same as DOGMA I - METAFISICA #2, "COSMOLOGIA" (Libro dell'Utero
 
 In principio era il VUOTO ed egli aveva due figlie; una (la piccola) era quella dell'ESSERE, chiamata ERIS, e una (la grande) era quella del NON-ESSERE, chiamata ANERIS. (Al giorno d'oggi, la verità fondamentale che Aneris sia la più grande è evidente a tutti coloro che comparino il grande numero di cose che non esistono con il numero relativamente più piccolo di cose che esistono.)
 
-Eris nacque incinta, e dopo 55 anni (le Dee hanno un periodo di gestazione inusualmente lungo-- più lungo persino di quello degli elefanti), la Sua gravidanza generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE, BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato, Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove cose. E giurò che non importava quanti delle sue creature Aneris avrebbe rubato, Ella ne avrebbe partoriti altri. E, in cambio, Aneris giurò che non importava quante cose Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose non-esistenti per lei. (E al giorno d'oggi, le cose appaiono e scompaiono esattamente in questo modo.)[immagine: PointyFinger.gif]
+Eris nacque incinta, e dopo 55 anni (le Dee hanno un periodo di gestazione inusualmente lungo-- più lungo persino di quello degli elefanti), la Sua gravidanza generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE, BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato, Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove cose. E giurò che non importava quante delle sue creature Aneris avrebbe rubato, Ella ne avrebbe partorite altre. E, in cambio, Aneris giurò che non importava quante cose Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose non-esistenti per lei. (E al giorno d'oggi, le cose appaiono e scompaiono esattamente in questo modo.)[immagine: PointyFinger.gif]
 
 ---
 
@@ -2359,7 +2359,7 @@ Classificazione dei Santi
 
 1. SANTO DI SECONDA CLASSE
 
-Riservato a tutti gli esseri umani che meritino la Santità. Esempio: San Norton I, Imperatore degli Stati Uniti e Protettore del Messico (la sua tomba vicino San Francisco è un santuario ufficiale del POEE.)
+Riservato a tutti gli esseri umani che meritino la Santità. Esempio: San Norton I, Imperatore degli Stati Uniti e Protettore del Messico (la sua tomba vicino a San Francisco è un santuario ufficiale del POEE.)
 
 LE SEGUENTI CATEGORIE SONO RISERVATE A ESSERI DI FANTASIA CHE NON ESSENDO REALI, SONO PIU' CAPACI DI PERFEZIONE.
 
@@ -2401,7 +2401,7 @@ che è possibile rimpicciolire
 
 = SULL' OCCULTISMO =
 
-I maghi, specialmente dopo le influenze Gnostiche e della Cabbala hanno ricercato un grado maggiore di conoscenza attraverso l'assimilazione e il controllo degli opposti universali-- bene/male, positivo/negativo, maschio/femmina, ecc. Ma a causa della crescente pomposità dei rituali ereditati dagli antichi metodi degli sciamani, gli occultisti sono rimasti ciechi di fronte a quella che forse sono le più importanti delle coppie di opposti apparenti: ... e SERIO/SCHERZOSO.
+I maghi, specialmente dopo le influenze Gnostiche e della Cabbala hanno ricercato un grado maggiore di conoscenza attraverso l'assimilazione e il controllo degli opposti universali-- bene/male, positivo/negativo, maschio/femmina, ecc. Ma a causa della crescente pomposità dei rituali ereditati dagli antichi metodi degli sciamani, gli occultisti sono rimasti ciechi di fronte a quelle che forse sono le più importanti delle coppie di opposti apparenti: ... e SERIO/SCHERZOSO.
 
 I maghi e i primi scienziati, hanno approcciato se stessi e la loro disciplina in un modo strutturato e sobrio, trascurando in tal modo un essenziale bilanciamento metafisico. Quando i maghi imparano ad approcciare la filosofia come un'arte malleabile anziché una Verità immutabile e ad apprezzare l'assurdità degli sforzi del genere umano, allora sono capaci di perseguire la loro arte con cuore più leggero e forse raggiungere una comprensione più chiara di essa, e di conseguenza guadagnare maggiori poteri magici. IL CAOS E' ENERGIA.
 
@@ -2597,7 +2597,7 @@ Capitolo 1, LA LETTERA AI PARANOICI
 
 2. Avete scacciato i vostri fratelli come diavoli e ora vi lamentate che siete rimasti a lottare da soli.
 
-3. L'intero Caos una volta era il tuo regno; e in verità eravate i padroni dell'intero Pentaverso, ma ora siete doloranti in angoli bui, cantucci e sprofondi.
+3. L'intero Caos una volta era il vostro regno; e in verità eravate i padroni dell'intero Pentaverso, ma ora siete doloranti in angoli bui, cantucci e sprofondi.
 
 4. Oh come le oscurità si accalcano, l'una contro l'altra, nei vostri cuori! Che cosa vi spaventa di più di ciò che avete perso?
 

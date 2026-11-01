@@ -1,3 +1,4 @@
+# REVISIONE: nel timbro «LICENZA DI ESPORTAZIONE / NON RICHIESTA» le due righe si toccavano: interlinea 125 -> 150 (dopo 'adatta', che porta il corpo a 102: passo 85 -> 102 px) e timbro alzato di 10 px (y 470 -> 460) per non avvicinarlo alla riga sotto.
 # Tavola p082 (originale 00067) — Catena di Sant'Antonio (Fronte di Liberazione dell'Ufficio Postale)
 # Pagina del vecchio sito: 74 (testo/it/74.md)
 # STATO: completa
@@ -35,13 +36,13 @@ testi:
   - font: Oswald-VF.ttf                    # timbro di gomma
     corpo: 150
     peso: 420
-    interlinea: 125
+    interlinea: 150
     scala_x: 0.85
     effetto: timbro
     rotazione: -3
     adatta: 1000
     x: 875
-    y: 470
+    y: 460
     righe: ["LICENZA DI ESPORTAZIONE", "NON RICHIESTA"]
 
   - font: IBMPlexMono-Medium.ttf

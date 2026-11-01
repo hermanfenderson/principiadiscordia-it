@@ -1,3 +1,4 @@
+# REVISIONE: «facciq»: non era un residuo di scansione (la zona è tutta dentro la cancellatura) ma la virgoletta di chiusura dopo «piccole.» che cadeva proprio sotto l'asta della «a» di «faccia»; la riga 3 è ora un elemento a sé spostato a destra di 22 px (x 107, inizia a x 112 come «badly» nell'originale a x 102), così la virgoletta cade nello spazio tra «faccia» e «male». Cancellature invariate.
 # REVISIONE: citazione di Galbraith con interlinea 75 invece di 70 (prima riga alzata di 5 px, y 291): le virgolette di chiusura dopo "piccole." non toccano più la "a" di "faccia".
 # Tavola p032 (originale 00017) — Il mito della Mela della Discordia
 # Pagina del vecchio sito: 24 (testo/it/24.md) + inizio di 25 (testo/it/25.md)
@@ -32,6 +33,12 @@ testi:
     righe:
       - "“SCOPRIRAI che lo STATO è il tipo di"
       - "ORGANIZZAZIONE che, benché faccia male le cose"
+
+  - font: PatrickHand-Regular.ttf          # citazione, riga 3 (rientrata come "badly" nell'originale)
+    corpo: 86
+    x: 107
+    y: 441
+    righe:
       - "grandi, fa male anche quelle piccole.”"
 
   - font: IBMPlexMono-Medium.ttf

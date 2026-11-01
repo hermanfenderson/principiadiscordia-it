@@ -6,7 +6,8 @@
 #   la riga "*La grecità classica" in fondo al testo/it è una didascalia del vecchio sito, non composta;
 #   la citazione latina "DIRUIT AEDIFICAT MUTAT QUADRATA ROTUNDUS --Horace" resta com'è.
 # REFUSI CORRETTI: "Antici Greci" -> "Antichi Greci"; aggiunto l'asterisco di rimando dopo "Ghiandola Pineale"
-#   (da segnalare, non corretto: "la maggior parte delle donne apparirebbe pallido e spettrale" -> "pallide e spettrali"?)
+# REFUSI CORRETTI (revisione 2026): "la maggior parte delle donne apparirebbe pallido e spettrale" -> "pallida e
+#   spettrale" (accordo con "la maggior parte", coerente con "se nascondesse" che segue)
 # NdT ESCLUSE: nessuna
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 
@@ -63,7 +64,7 @@ testi:
       pallido e spettrale, gli occhi in fiamme, l'abito
       strappato e lacerato come a nascondere un pugnale nel
       petto. In realtà, la maggior parte delle donne
-      apparirebbe pallido e spettrale, se nascondesse un
+      apparirebbe pallida e spettrale, se nascondesse un
       freddo pugnale nel petto.
 
   - font: IBMPlexMono-Medium.ttf

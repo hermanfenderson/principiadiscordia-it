@@ -1,3 +1,4 @@
+# REVISIONE: il cerchio del (K) toccava la «n» di «San Francisco»: le prime tre righe dell'intestazione alzate (basi 138/184/230 -> 132/178/223, sottolineatura di «Principia Discordia» da y 188 a 182) così la terza riga resta staccata sia dal cerchio (~5 px) sia dai discendenti e dalla sottolineatura della riga sopra.
 # Tavola p093 (originale: postfazione Loompanics, pag. 1 di 9) — Postfazione speciale / Intervista alla Cabala Norton
 # Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p093.md
 # STATO: completa
@@ -29,7 +30,7 @@ testi:
     corpo: 45
     grassetto: 0.5
     x: 575
-    y: 138
+    y: 132
     righe:
       - "POSTFAZIONE SPECIALE"
 
@@ -37,7 +38,7 @@ testi:
     corpo: 45
     grassetto: 0.5
     x: 210
-    y: 184
+    y: 178
     righe:
       - "all'Edizione Loompanics dei Principia Discordia"
 
@@ -45,7 +46,7 @@ testi:
     corpo: 45
     grassetto: 0.5
     x: 440
-    y: 230
+    y: 223
     righe:
       - "G.H. Hill, San Francisco, 1979"
 
@@ -167,8 +168,8 @@ testi:
       - "Norton della Società Discordiana."
 
 linee:                         # sottolineature del dattiloscritto
-  - [966, 188, 1206, 191]
-  - [1236, 188, 1476, 191]
+  - [966, 182, 1206, 185]
+  - [1236, 182, 1476, 185]
   - [1131, 1081, 1357, 1084]
   - [40, 1526, 265, 1529]
   - [548, 1570, 646, 1574]

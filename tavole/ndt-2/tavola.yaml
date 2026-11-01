@@ -2,6 +2,8 @@
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
+# REFUSI CORRETTI (revisione 2026): nessuno in questa pagina; righe ripartite di nuovo per le correzioni di ndt-1
+#   (la fine della nota 00004 passa qui) e ndt-3 (la nota 00039 passa intera a -3-)
 
 pagina_pdf: null
 testi:
@@ -18,6 +20,9 @@ testi:
   x: 227
   y: 330
   righe:
+  - l'apostolo eremita che lo scoprì, deve il nome a
+  - Zarathustra.
+  - ''
   - '     00010 -- FNORD. Parola senza significato, o'
   - con tutti i significati. La trilogia Illuminatus!
   - ne ha fatto la parola che tutti hanno sotto gli
@@ -55,6 +60,3 @@ testi:
   - (Arancia Calante). Le stagioni sono Chaos,
   - Discord, Confusion, Bureaucracy e The Aftermath,
   - qui diventate le Conseguenze.
-  - ''
-  - '     00039 -- Hung Mung è un personaggio del'
-  - Zhuangzi, il classico taoista, da cui viene anche

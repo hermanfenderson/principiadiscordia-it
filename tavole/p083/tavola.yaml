@@ -1,3 +1,4 @@
+# REVISIONE: mano che regge la pianta: la zona per la parte alta di DOWN [1546,2598,1668,2612] tagliava il contorno destro della mano, ristretta a [1558,2606,1668,2612]; BASSI I PREZZI abbassato di 8 px (base 2652 -> 2660) perché non si fonda più col fondo della mano (10 px di bianco; il fondo della mano resta quello della scansione, che nell'originale è fuso con PRICES DOWN). «Maria Joanna» ruotata di -12° invece di -15°: la «a» finale non tocca più il bordo della gonna (circa 10 px).
 # REVISIONE: tolto il residuo del bordo superiore di KEEP (righe 2436-2440) con strisce che non toccano scarpe e foglia; TIENI ricomposto a corpo 48 (scala_x 1.08, base 2476) sotto il fondo delle scarpe.
 # Tavola p083 (originale 00068) — Incarnazioni (Avatars)
 # Pagina del vecchio sito: 75 (testo/it/75.md) + immagine storico/immagini-it/Avatars.png
@@ -58,7 +59,7 @@ cancella:
   - [1560, 2439, 1581, 2441]
   - [1614, 2436, 1668, 2441]
   - [1176, 2611, 1668, 2660]    # PRICES DOWN (sotto il contorno della mano)
-  - [1546, 2598, 1668, 2612]    # parte alta di DOWN, oltre la fine della mano
+  - [1558, 2606, 1668, 2612]    # parte alta di DOWN, oltre la fine della mano (non tocca il contorno destro della mano)
   - [1355, 2098, 1374, 2121]    # punto finale di SEEDS.
   - [925, 2675, 1715, 2900]     # citazione della Genesi
 
@@ -179,7 +180,7 @@ testi:
   - font: OldStandard-Bold.ttf               # sulla gonna, in diagonale
     corpo: 46
     grassetto: 1
-    rotazione: -15
+    rotazione: -12
     adatta: 215
     x: 1462
     y: 2172
@@ -197,7 +198,7 @@ testi:
     adatta: 485
     allinea: centro
     x: 1423
-    y: 2652
+    y: 2660
     righe: ["BASSI  I  PREZZI"]
 
   - font: OldStandard-Bold.ttf

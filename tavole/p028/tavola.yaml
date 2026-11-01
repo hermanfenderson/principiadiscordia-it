@@ -1,3 +1,4 @@
+# REVISIONE: «CABALA DI KING KONG» aveva le lettere fuse: ora una lettera per elemento con 3 px di spaziatura, grassetto 1 -> 0.8, scala_x 1.12 -> 1.04 (stesso corpo e linea di base; lettere tutte staccate, larghezza 460 px invece di 436).
 # Tavola p028 (originale 00013) — "Pulisciti il culo con ciò che è scritto" / Il Cielo è giù
 # Pagina del vecchio sito: 20 (testo/it/20.md)
 # STATO: completa
@@ -60,13 +61,134 @@ testi:
     y: 1555
     righe: ["--Josh \"Aneto\""]
 
+  # CABALA DI KING KONG: una lettera per elemento per poterle spaziare (componi.py non ha la crenatura)
   - font: Anton-Regular.ttf                # timbro nero
     corpo: 50
-    grassetto: 1
-    scala_x: 1.12
+    grassetto: 0.8
+    scala_x: 1.04
     x: 392
     y: 1626
-    righe: ["CABALA DI KING KONG"]
+    righe: ["C"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 420
+    y: 1626
+    righe: ["A"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 448
+    y: 1626
+    righe: ["B"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 476
+    y: 1626
+    righe: ["A"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 504
+    y: 1626
+    righe: ["L"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 528
+    y: 1626
+    righe: ["A"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 571
+    y: 1626
+    righe: ["D"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 600
+    y: 1626
+    righe: ["I"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 630
+    y: 1626
+    righe: ["K"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 657
+    y: 1626
+    righe: ["I"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 672
+    y: 1626
+    righe: ["N"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 701
+    y: 1626
+    righe: ["G"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 744
+    y: 1626
+    righe: ["K"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 772
+    y: 1626
+    righe: ["O"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 800
+    y: 1626
+    righe: ["N"]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 0.8
+    scala_x: 1.04
+    x: 829
+    y: 1626
+    righe: ["G"]
 
   - font: CourierPrime-Italic.ttf
     corpo: 25

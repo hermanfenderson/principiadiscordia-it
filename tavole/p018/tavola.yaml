@@ -1,3 +1,4 @@
+# REVISIONE: citazione di Nietzsche con interlinea 78 invece di 67 («CAOS» toccava quasi «PARTORIRE», l'accento di «SÉ» la riga sopra); prima riga spostata di poco in su (x 338 -> 333, y 716 -> 702) per tenere il blocco centrato nello spazio dell'originale; resta staccata da «-Nietzsche» e dal titolo (almeno 11 px).
 # Tavola p018 (originale 00003) — Il Sacro Chao (illustrazione)
 # Pagina del vecchio sito: 10 (testo/it/10.md, solo immagine storico/immagini-it/SacredChao2.png)
 # STATO: completa
@@ -98,10 +99,10 @@ testi:
     corpo: 72
     scala_x: 0.88
     grassetto: 0.5
-    interlinea: 67
+    interlinea: 78
     rotazione: 19
-    x: 338
-    y: 716
+    x: 333
+    y: 702
     righe:
       - "TI DICO: UNO DEVE"
       - "AVERE ANCORA UN CAOS"

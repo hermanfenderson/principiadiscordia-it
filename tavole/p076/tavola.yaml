@@ -7,6 +7,8 @@
 #   tipografico più pesante); scritta a mano verticale resa su 6 righe come l'originale
 # REFUSI CORRETTI: "forser" -> "forse"; "maggori" -> "maggiori"; "occindentale" -> "occidentale";
 #   "umilmete" -> "umilmente"; "ORDINE/DISORDINE and SERIO/SCHERZOSO" -> "... e SERIO/SCHERZOSO"
+# REFUSI CORRETTI (revisione 2026): "quella che forse sono le più importanti delle coppie" -> "quelle che forse
+#   sono..." (accordo con "coppie")
 # NdT ESCLUSE: nessuna
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 pagina_pdf: 76
@@ -53,7 +55,7 @@ testi:
       - "positivo/negativo, maschio/femmina, ecc. Ma a causa"
       - "della crescente pomposità dei rituali ereditati dagli"
       - "antichi metodi degli sciamani, gli occultisti sono"
-      - "rimasti ciechi di fronte a quella che forse sono le"
+      - "rimasti ciechi di fronte a quelle che forse sono le"
       - "più importanti delle coppie di opposti apparenti:"
       - "ORDINE/DISORDINE e SERIO/SCHERZOSO."
 

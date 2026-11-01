@@ -1,17 +1,17 @@
 ---
 tavola: ndt-3
-alt: "Terza e ultima pagina delle note del traduttore: testo dattiloscritto con le note alle pagine da 00044 a 00059."
+alt: "Terza e ultima pagina delle note del traduttore: testo dattiloscritto con le note alle pagine da 00039 a 00059."
 ---
 
 ## Descrizione
 
-Pagina di solo testo, in carattere da macchina da scrivere su una colonna, con il numero di pagina «-3-» centrato in alto. In cima la fine della nota cominciata nella pagina precedente, poi sei note, ciascuna in un capoverso rientrato che comincia con il numero della pagina originale a cui si riferisce. Il fondo della pagina è vuoto.
+Pagina di solo testo, in carattere da macchina da scrivere su una colonna, con il numero di pagina «-3-» centrato in alto. Sette note, ciascuna in un capoverso rientrato che comincia con il numero della pagina originale a cui si riferisce. Il fondo della pagina è vuoto.
 
 ## Testo
 
 -3-
 
-la scena di pagina 00052.
+00039 -- Hung Mung è un personaggio dello Zhuangzi, il classico taoista, da cui viene anche la scena di pagina 00052.
 
 00044 -- "Il Buglio rapidamente sottosopraffece la Guazza": l'originale dice "<span lang="en">underpowered</span>", il contrario di "<span lang="en">overpowered</span>" (sopraffare). Per la Legge dell'Inversione Negativa, il Buglio non sopraffà la Guazza: la sottosopraffà.
 

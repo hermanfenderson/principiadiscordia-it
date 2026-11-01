@@ -2,6 +2,8 @@
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
+# REFUSI CORRETTI (revisione 2026): "intervista alla Norton Cabal" -> "intervista alla Cabala Norton" (come il titolo delle pagine
+#   dell'intervista); nota 00000: aggiunta la frase su Hill e la testina greca della Selectric (intervista, p099)
 
 pagina_pdf: null
 testi:
@@ -26,7 +28,7 @@ testi:
   - nell'oscurità" è di Walt Kelly, l'autore del
   - fumetto Pogo, ed era detta da uno dei suoi
   - 'personaggi: lo racconta Greg Hill stesso'
-  - nell'intervista alla Norton Cabal, in fondo al
+  - nell'intervista alla Cabala Norton, in fondo al
   - libro, dove svela anche la provenienza di molti
   - altri ritagli. È a sua volta la parodia della
   - quartina più famosa del Rubaiyat di Omar Khayyam
@@ -41,7 +43,9 @@ testi:
   - 'la chi al posto della sigma: dovrebbe essere'
   - kallisti, "alla più bella", la scritta sulla mela
   - d'oro di Eris (00017). Sulle mele disegnate più
-  - avanti il libro la scrive giusta. L'errore è
+  - avanti il libro la scrive giusta. Nell'intervista
+  - Greg Hill ne dà la colpa a Eris e alla testina
+  - greca della sua Selectric IBM. L'errore è
   - 'dell''originale e l''ho lasciato: correggere i'
   - Principia sarebbe un atto d'ordine.
   - ''
@@ -58,5 +62,3 @@ testi:
   - 'dire vomitare: il nome dei Cinque Comandamenti'
   - nasconde una piccola volgarità che il Pentaconato,
   - più educato, ha perso per strada. Zarathud,
-  - l'apostolo eremita che lo scoprì, deve il nome a
-  - Zarathustra.

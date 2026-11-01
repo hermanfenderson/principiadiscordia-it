@@ -6,6 +6,7 @@
 #   "\*Riempitivo noioso ma sincero" è resa come timbro al posto dell'originale
 # REFUSI CORRETTI: "un Era" -> "un'Era"; "Riptezione" -> "Ripetizione"; "cinque per per Settantatre" -> "cinque per
 #   Settantatre"; "Calendario Gragoriano" -> "Calendario Gregoriano"
+# REFUSI CORRETTI (revisione 2026): "5 stagioni di 73 giorni ciascuno" -> "ciascuna" (riferito alle stagioni: "73 days each")
 # NdT ESCLUSE: nessuna
 # Il corpo è stretto a scala_x 0.95; il filetto sopra le note resta quello originale.
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
@@ -223,7 +224,7 @@ testi:
     scala_x: 0.95
     x: 146.0
     y: 2251.2
-    righe: ["ciascuno. Ognuno dei Cinque Apostoli di Eris è patrono"]
+    righe: ["ciascuna. Ognuno dei Cinque Apostoli di Eris è patrono"]
 
   - font: CourierPrime-Italic.ttf
     corpo: 52

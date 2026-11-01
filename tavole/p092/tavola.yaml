@@ -1,3 +1,4 @@
+# REVISIONE: un raggio del disegno toccava la «c» di «Semplici»: la riga «Voglio Conoscere le Cinque Semplici Azioni» spostata di 11 px verso la riga sotto (x 807 -> 796), stesso corpo; ora la punta del raggio ne dista circa 8 px.
 # REVISIONE: (a) riquadro gotico centrato sul riquadro (y 1580) con adatta 1000, cancellati i residui di discendenti tra cancellatura e filetto; (b) cancellata la F ornata, i bordi alti della prima riga e il punto di "scheme.", "Faccia a faccia..." ricomposto intero in Old Standard corpo 43 sulle basi originali (1003/963/922); (c) "in un" spostato alla terza riga ("in un Solo Fine Settimana!") lontano dalla fiamma, cancellato il punto della i di "Single"; (d) colonna IGIENE / OPERA LIRICA iniziata a y 1614 (adatta 842) per staccarla dai raggi tagliati. Scritte bianche non toccate.
 # Tavola p092 (senza numero; IV edizione) — Le Parole degli Illuminati (collage, stampato ruotato)
 # Pagina del vecchio sito: 84 (testo/it/84.md: solo l'immagine originale WordsoftheIllumined.gif)
@@ -966,7 +967,7 @@ testi:
   - {font: "Jost-Medium.ttf", corpo: 34, allinea: "centro", adatta: 160, rotazione: -90, x: 1077, y: 1257, righe: ["V I S I O N E"]}
   - {font: "Jost-Medium.ttf", corpo: 38, allinea: "centro", adatta: 245, rotazione: -90, x: 1032, y: 1228, righe: ["C O N O S C E N Z A"]}
   - {font: "Kalam-Bold.ttf", corpo: 120, rotazione: -90, x: 786, y: 960, righe: ["Sì,"]}
-  - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, rotazione: -90, x: 807, y: 1112, righe: ["Voglio Conoscere le Cinque Semplici Azioni"]}
+  - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, rotazione: -90, x: 796, y: 1112, righe: ["Voglio Conoscere le Cinque Semplici Azioni"]}
   - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, scala_x: 0.89, rotazione: -90, x: 715, y: 1001, righe: ["che Mi Trasformeranno in un “Mago Mentale”"]}
   - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, allinea: "centro", rotazione: -90, x: 626, y: 1557, righe: ["in un Solo Fine Settimana!"]}
   - {font: "UnifrakturMaguntia-Book.ttf", corpo: 56, allinea: "centro", adatta: 1000, rotazione: -90, x: 434, y: 1580, righe: ["Principia Discordia ovvero Come trovai la Dea"]}

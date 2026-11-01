@@ -2,6 +2,7 @@
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
+# REFUSI CORRETTI (revisione 2026): nota 00039 "un personaggio del Zhuangzi" -> "dello Zhuangzi"
 
 pagina_pdf: null
 testi:
@@ -18,6 +19,8 @@ testi:
   x: 227
   y: 330
   righe:
+  - '     00039 -- Hung Mung è un personaggio dello'
+  - Zhuangzi, il classico taoista, da cui viene anche
   - la scena di pagina 00052.
   - ''
   - '     00044 -- "Il Buglio rapidamente'

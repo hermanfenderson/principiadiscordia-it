@@ -1,3 +1,4 @@
+# REVISIONE: il timbro storto «MILITARE» toccava il numero di pagina 00046 con la E finale: spostato a sinistra di 18 px (x 1210 -> 1192), stesso corpo e rotazione; ora ne dista circa 15 px.
 # Tavola p061 (originale 00046) — I Cinque Ordini di Discordia
 # Pagina del vecchio sito: 53 (testo/it/53.md)
 # STATO: completa
@@ -186,7 +187,7 @@ testi:
     sottolineato: true
     distanza_sottolineatura: 6
     spessore_sottolineatura: 4
-    x: 1210
+    x: 1192
     y: 2800
     righe: ["MILITARE"]
 

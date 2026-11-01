@@ -4,7 +4,8 @@
 # NUOVE TRADUZIONI: nessuna (timbro "DO NOT BEND" -> "NON PIEGARE" dalla nota del sito)
 # DIFFERENZE: il testo italiano è più lungo: corpo stretto a scala_x 0.91 e interlinea 58 (orig. 60), scende ~120 px più in basso;
 #   il titolo spaziato dell'originale è reso senza spaziatura (non ci starebbe) e stretto a scala_x 0.84
-# REFUSI CORRETTI: nessuno (lasciato "altro non sia altro che" come nel testo: da rivedere, ripetizione probabile)
+# REFUSI CORRETTI (revisione 2026): "altro non sia altro che" -> "altro non sia che" (tolta la ripetizione);
+#   "e erano noti" -> "ed erano noti"
 # NdT ESCLUSE: nessuna
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 
@@ -54,7 +55,7 @@ testi:
       - "perché contraddiceva la via dell'Ordine Serio. \"Guarda"
       - "tutto l'ordine che c'è attorno a te,\" diceva. E con ciò,"
       - "ingannava uomini onesti facendogli credere che la realtà"
-      - "altro non sia altro che una specie di camicia di forza e"
+      - "altro non sia che una specie di camicia di forza e"
       - "non la felice avventura che gli uomini conoscevano."
 
   - font: IBMPlexMono-Medium.ttf
@@ -70,7 +71,7 @@ testi:
       - "che li circondava concludendo così l'esatto contrario."
       - "Ma, in ogni caso, Facciagrigia e i suoi seguaci"
       - "prendevano il gioco del vivere più seriamente di quanto"
-      - "prendessero la stessa vita e erano noti anche per"
+      - "prendessero la stessa vita ed erano noti anche per"
       - "distruggere altri esseri viventi i cui modi di vivere"
       - "differissero dai loro."
 

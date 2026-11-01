@@ -11,6 +11,8 @@
 # REFUSI CORRETTI: "Mnistri" -> "Ministri"; "tribolazone" -> "tribolazione";
 #   "avverrtimenti" -> "avvertimenti"; tolto il "!" dopo "apprezzato" (residuo della
 #   posizione dell'immagine sul vecchio sito), messo il punto.
+# REFUSI CORRETTI (revisione 2026): versetto 3 "era il tuo regno; e in verità eravate" -> "era il vostro regno"
+#   (tutto al voi, come il resto della lettera)
 # NdT ESCLUSE: nessuna
 # FONT: domande in Old Standard (tipografia scolastica con grazie); timbro in Oswald
 #   pesante con effetto timbro; nota a mano in Kalam Bold.
@@ -90,7 +92,7 @@ testi:
     x: 152
     y: 1752
     testo: >-
-      3. L'intero Caos una volta era il tuo regno; e in verità eravate i padroni dell'intero Pentaverso, ma ora siete doloranti in angoli bui, cantucci e sprofondi.
+      3. L'intero Caos una volta era il vostro regno; e in verità eravate i padroni dell'intero Pentaverso, ma ora siete doloranti in angoli bui, cantucci e sprofondi.
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
     interlinea: 58

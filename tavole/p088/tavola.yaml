@@ -1,3 +1,4 @@
+# REVISIONE: l'impronta digitale era tagliata dritta in alto dalla cancellatura del corpo (fino a y 1582): ora il corpo si cancella fino a y 1549 e l'ultima riga inglese solo a sinistra di x 900, impronta intera; per lasciarle posto lo stacco tra i paragrafi passa da 58 a 50 px (paragrafi a y 863, 1129, 1539 invece di 871, 1145, 1563). La virgola originale di «Love,» (attaccata all'impronta) è cancellata e «Con affetto,» è composto con la sua virgola, che finisce a x 1195, circa 30 px dall'impronta.
 # Tavola p088 (originale 00073) — Lettera degli Illuminati (seconda pagina)
 # Pagina del vecchio sito: 80 (testo/it/80.md); segue la lettera di p087
 # STATO: completa
@@ -16,8 +17,10 @@ pagina_pdf: 88
 
 cancella:
   - [345, 375, 775, 420]        # MALIK to Mal-2 pg. 2
-  - [345, 455, 1810, 1582]      # corpo della lettera
-  - [1125, 1650, 1207, 1695]    # Love (la virgola resta, attaccata all'impronta)
+  - [345, 455, 1810, 1549]      # corpo della lettera (sopra l'impronta)
+  - [345, 1549, 900, 1582]      # ultima riga (Ewige Blumenkraft! HAIL ERIS.), a sinistra dell'impronta
+  - [1125, 1650, 1207, 1695]    # Love
+  - [1200, 1674, 1216, 1692]    # virgola di Love, (senza toccare l'impronta)
   - [350, 2075, 1700, 2200]     # PS
 
 testi:
@@ -50,7 +53,7 @@ testi:
     scala_x: 0.94
     interlinea: 36
     x: 355
-    y: 871
+    y: 863
     righe:
       - "    La posizione del nostro Quartier Generale negli Stati Uniti, per inciso è"
       - "stata quasi scoperta; e per questo siamo stati costretti a spostarci per la"
@@ -64,7 +67,7 @@ testi:
     scala_x: 0.94
     interlinea: 36
     x: 355
-    y: 1145
+    y: 1129
     righe:
       - "    Ah, abbiamo buone notizie per te, Fratello Mal! Hai presente quel genio"
       - "Zambiano della cibernetica che si è unito a noi? Beh, ha segretamente coordinato"
@@ -82,7 +85,7 @@ testi:
     scala_x: 0.94
     interlinea: 36
     x: 355
-    y: 1563
+    y: 1539
     righe:
       - "    Ah, mi sento strafatto solo a pensarci. Buona fortuna per i Principia."
       - "Ewige Blumenkraft! AVE ERIS."
@@ -91,9 +94,9 @@ testi:
     corpo: 32
     scala_x: 0.94
     allinea: destra
-    x: 1207
+    x: 1203
     y: 1687
-    righe: ["Con affetto"]
+    righe: ["Con affetto,"]
 
   - font: CourierPrime-Bold.ttf
     corpo: 32
