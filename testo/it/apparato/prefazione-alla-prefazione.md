@@ -61,4 +61,5 @@ In ogni caso, eccolo qui.
 Ave Eris. Fnord?
 
 Herman Fenderson
-Arancia Calante, 13 delle Conseguenze, 3192
+Arancia Calante, tredicesimo giorno
+della stagione delle Conseguenze, anno 3192

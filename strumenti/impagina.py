@@ -68,7 +68,7 @@ def main():
     firma = data = None
     if args.firma:
         ultimo = paragrafi.pop().split("\n")
-        firma, data = ultimo[0].strip(), (ultimo[1].strip() if len(ultimo) > 1 else "")
+        firma, data = ultimo[0].strip(), [r.strip() for r in ultimo[1:] if r.strip()]
 
     # righe con il loro tipo: testo o vuota
     righe = []
@@ -96,7 +96,7 @@ def main():
     pagine.append(corrente)
 
     # la firma deve stare sull'ultima pagina: altrimenti una pagina in più
-    spazio_firma = 5 * INTERLINEA
+    spazio_firma = 6 * INTERLINEA
     ultima_y = (PRIMA_RIGA if len(pagine) == 1 else PRIMA_RIGA_SEGUENTI) + (len(pagine[-1]) - 1) * INTERLINEA
     if firma and ultima_y + spazio_firma > ULTIMA_RIGA + 120:
         pagine.append([])
@@ -122,8 +122,8 @@ def main():
             testi.append({"font": "Kalam-Bold.ttf", "corpo": 92, "x": 1700, "y": yf, "rotazione": 4,
                           "allinea": "destra", "righe": [firma]})
             if data:
-                testi.append({"font": FONT, "corpo": CORPO, "x": 1797, "y": yf + 120,
-                              "allinea": "destra", "righe": [data]})
+                testi.append({"font": FONT, "corpo": CORPO, "interlinea": INTERLINEA, "x": 1797, "y": yf + 120,
+                              "allinea": "destra", "righe": data})
         spec = {"pagina_pdf": None, "testi": testi}
         intestazione = (f"# Tavola nuova: {titolo.title()}, pagina {n} di {len(pagine)}\n"
                         f"# Generata da strumenti/impagina.py a partire da {args.sorgente.resolve().relative_to(RADICE)}:\n"

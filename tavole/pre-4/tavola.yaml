@@ -62,8 +62,10 @@ testi:
   - Herman Fenderson
 - font: IBMPlexMono-Medium.ttf
   corpo: 52
+  interlinea: 60
   x: 1797
   y: 2600
   allinea: destra
   righe:
-  - Arancia Calante, 13 delle Conseguenze, 3192
+  - Arancia Calante, tredicesimo giorno
+  - della stagione delle Conseguenze, anno 3192
