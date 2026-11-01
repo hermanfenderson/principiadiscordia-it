@@ -62,13 +62,35 @@ def pagina(tavola: Image.Image | None, numero: int, nome: str) -> Image.Image:
     return foglio
 
 
+def anteprima_con_copertina(pagine: list[str], uscita: Path):
+    """Sfogliabile con la prima di copertina in apertura e la quarta in chiusura."""
+    cop = Image.open(RADICE / "build" / "copertina" / "copertina-ocra.png").convert("RGB")
+    dpi = 300
+    ab, pw, ph = round(0.125 * dpi), round(148 / 25.4 * dpi), round(210 / 25.4 * dpi)
+    dorso = cop.width - 2 * ab - 2 * pw
+    tmp = uscita / "pagine"
+    cop.crop((ab + pw + dorso, ab, ab + 2 * pw + dorso, ab + ph)).save(tmp / "000-prima.jpg", quality=85, dpi=(dpi, dpi))
+    cop.crop((ab, ab, ab + pw, ab + ph)).save(tmp / "999-quarta.jpg", quality=85, dpi=(dpi, dpi))
+    Image.new("RGB", (pw, ph), (255, 255, 255)).save(tmp / "000-bianca.jpg", quality=85, dpi=(dpi, dpi))
+    b = str(tmp / "000-bianca.jpg")
+    seq = [str(tmp / "000-prima.jpg"), b] + pagine + ([b] if len(pagine) % 2 else []) + [b, str(tmp / "999-quarta.jpg")]
+    a5 = (img2pdf.mm_to_pt(148), img2pdf.mm_to_pt(210))
+    pdf = uscita / "principia-discordia-con-copertina.pdf"
+    pdf.write_bytes(img2pdf.convert(seq, layout_fun=img2pdf.get_layout_fun(a5, fit=img2pdf.FitMode.into)))
+    print(pdf, len(seq), "pagine")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ricomponi", action="store_true")
     ap.add_argument("--anteprima", action="store_true", help="PDF leggero da sfogliare (150 dpi, JPEG)")
+    ap.add_argument("--copertina", action="store_true",
+                    help="con --anteprima: aggiunge prima e quarta di copertina (da build/copertina/copertina-ocra.png)")
     args = ap.parse_args()
     ordine = yaml.safe_load((RADICE / "libro" / "ordine.yaml").read_text(encoding="utf-8"))["pagine"]
     uscita = RADICE / "build" / "libro"
+    import shutil
+    shutil.rmtree(uscita / "pagine", ignore_errors=True)  # niente pagine vecchie con numerazione diversa
     (uscita / "pagine").mkdir(parents=True, exist_ok=True)
     file_pagine, mancanti, ridotte = [], [], []
     for i, nome in enumerate(ordine, 1):
@@ -98,6 +120,8 @@ def main():
         anteprima = uscita / "principia-discordia-a5-anteprima.pdf"
         anteprima.write_bytes(img2pdf.convert(leggere, layout_fun=img2pdf.get_fixed_dpi_layout_fun((150, 150))))
         print(anteprima)
+        if args.copertina:
+            anteprima_con_copertina(leggere, uscita)
     print(f"{pdf}: {len(file_pagine)} pagine")
     if mancanti:
         print("tavole in lavorazione:", " ".join(mancanti))
