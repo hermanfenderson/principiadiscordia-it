@@ -21,7 +21,7 @@ from pathlib import Path
 
 import numpy as np
 import yaml
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 RADICE = Path(__file__).resolve().parent.parent
 PDF = RADICE / "sorgenti" / "loompanics.pdf"
@@ -170,6 +170,13 @@ def incolla(base: Image.Image, strato: Image.Image, x: int, y: int, ancora: str 
     base.paste(unito, (x, y))
 
 
+def incolla_bianco(base: Image.Image, strato: Image.Image, x: int, y: int):
+    """Come incolla, ma schiarendo: per il testo bianco su fondo nero."""
+    regione = base.crop((x, y, x + strato.width, y + strato.height))
+    unito = Image.fromarray(np.maximum(np.asarray(regione), np.asarray(strato)), "L")
+    base.paste(unito, (x, y))
+
+
 # ---------------------------------------------------------------- tavola
 
 def componi(cartella: Path, prova: bool = False) -> Path:
@@ -182,6 +189,9 @@ def componi(cartella: Path, prova: bool = False) -> Path:
     d = ImageDraw.Draw(base)
     for zona in spec.get("cancella", []):
         d.rectangle(zona, fill=255)
+    for zona in spec.get("annerisci", []):
+        # per le scritte bianche su fondo nero: si ripristina il nero e poi si compone in bianco
+        d.rectangle(zona, fill=0)
     for im in spec.get("immagini", []):
         # immagine incollata: file relativo alla radice, (x, y) = angolo in alto a sinistra
         figura = Image.open(RADICE / im["file"]).convert("L")
@@ -195,7 +205,10 @@ def componi(cartella: Path, prova: bool = False) -> Path:
         strato, (ax, ay) = strato_testo(el, base.size)
         # (x, y) = dove cade l'inizio della linea di base della prima riga,
         # anche per il testo ruotato
-        incolla(base, strato, round(el["x"] - ax), round(el["y"] - ay))
+        if el.get("colore") == "bianco":
+            incolla_bianco(base, ImageOps.invert(strato), round(el["x"] - ax), round(el["y"] - ay))
+        else:
+            incolla(base, strato, round(el["x"] - ax), round(el["y"] - ay))
     for linea in spec.get("linee", []):
         d.rectangle(linea, fill=0)
     USCITA.mkdir(parents=True, exist_ok=True)

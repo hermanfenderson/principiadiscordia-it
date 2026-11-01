@@ -1,0 +1,265 @@
+# Tavola p091 (senza numero; IV edizione) — Società Discordiana: lo sapevate di avere una Ghiandola
+#   Pineale asimmetrica?
+# Pagina del vecchio sito: 83 (testo/it/83.md)
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere):
+#   scritta a mano "POEE is a bridge from PISCES to AQUARIUS" -> "La POEE è un ponte / dai PESCI /
+#     all'ACQUARIO" (vecchio sito: PiscesToAquarius.gif in inglese; i simboli astrologici restano);
+#   didascalia del cannone "HAIL ERIS / ALL HAIL DISCORDIA" -> "AVE ERIS / TUTTI SALUTINO DISCORDIA"
+#     (formule già usate in testo/it/07 e 66); "POEE" resta.
+# DIFFERENZE: il timbro "POEE" in alto a destra (vecchio sito: POEELetters.gif), il cannone, la greca
+#   e i simboli dei Pesci e dell'Acquario restano intatti.
+# REFUSI CORRETTI: nessuno ("perchè" lasciato come nel testo, come in p089)
+# NdT ESCLUSE: nessuna
+# FONT: titolo Anton spaziato (grottesco nero condensato); sottotitolo Jost Medium; dattiloscritto
+#   IBM Plex Mono 52 (corpo con scala_x 0.94 per tenere 37 battute nella colonna); scritta a mano Kalam
+#   Bold; didascalia del cannone Oswald.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 91
+
+stili:
+  macchina: &macchina {font: IBMPlexMono-Medium.ttf, corpo: 52}
+
+cancella:
+  - [180, 340, 1000, 600]      # DISCORDIAN SOCIETY / DEDICATED TO...
+  - [180, 710, 1720, 775]      # DID YOU KNOW...
+  - [480, 895, 1545, 1925]     # corpo
+  - [790, 2090, 1660, 2234]    # POEE is a bridge (riga 1)
+  - [760, 2234, 1345, 2428]    # from PISCES / to AQUARIUS (i simboli restano)
+  # didascalia del cannone (POEE resta): strisce attorno alle lettere
+  - [559, 2345, 561, 2354]
+  - [559, 2361, 561, 2367]
+  - [562, 2342, 564, 2357]
+  - [562, 2361, 564, 2370]
+  - [565, 2341, 567, 2359]
+  - [565, 2363, 567, 2372]
+  - [568, 2341, 570, 2349]
+  - [568, 2352, 570, 2372]
+  - [571, 2342, 573, 2352]
+  - [571, 2354, 573, 2372]
+  - [574, 2343, 576, 2353]
+  - [574, 2356, 576, 2370]
+  - [577, 2359, 579, 2367]
+  - [468, 2344, 470, 2371]
+  - [471, 2342, 473, 2373]
+  - [474, 2344, 476, 2372]
+  - [509, 2342, 511, 2370]
+  - [512, 2342, 514, 2372]
+  - [515, 2342, 517, 2372]
+  - [518, 2342, 520, 2349]
+  - [518, 2354, 520, 2361]
+  - [518, 2366, 520, 2372]
+  - [521, 2342, 523, 2349]
+  - [521, 2354, 523, 2360]
+  - [521, 2366, 523, 2372]
+  - [524, 2342, 526, 2349]
+  - [524, 2366, 526, 2372]
+  - [527, 2343, 529, 2370]
+  - [530, 2342, 532, 2372]
+  - [533, 2342, 535, 2371]
+  - [536, 2342, 538, 2368]
+  - [539, 2342, 541, 2371]
+  - [542, 2344, 544, 2372]
+  - [549, 2343, 551, 2370]
+  - [552, 2342, 554, 2372]
+  - [555, 2343, 557, 2370]
+  - [446, 2359, 448, 2373]
+  - [449, 2346, 451, 2373]
+  - [452, 2343, 454, 2370]
+  - [455, 2343, 457, 2366]
+  - [458, 2343, 460, 2371]
+  - [461, 2348, 463, 2373]
+  - [464, 2362, 466, 2372]
+  - [478, 2345, 480, 2370]
+  - [481, 2343, 483, 2373]
+  - [484, 2344, 486, 2373]
+  - [487, 2364, 489, 2373]
+  - [490, 2366, 492, 2373]
+  - [493, 2367, 495, 2373]
+  - [425, 2345, 427, 2373]
+  - [428, 2344, 430, 2374]
+  - [431, 2345, 433, 2372]
+  - [434, 2355, 436, 2362]
+  - [437, 2345, 439, 2372]
+  - [440, 2344, 442, 2373]
+  - [443, 2345, 445, 2372]
+  - [630, 2377, 632, 2405]
+  - [633, 2376, 635, 2407]
+  - [636, 2378, 638, 2405]
+  - [639, 2395, 641, 2406]
+  - [642, 2382, 644, 2407]
+  - [645, 2377, 647, 2405]
+  - [648, 2376, 650, 2400]
+  - [651, 2376, 653, 2401]
+  - [654, 2378, 656, 2406]
+  - [657, 2389, 659, 2407]
+  - [527, 2381, 529, 2390]
+  - [527, 2397, 529, 2404]
+  - [530, 2379, 532, 2393]
+  - [530, 2397, 532, 2406]
+  - [533, 2378, 535, 2395]
+  - [533, 2399, 535, 2408]
+  - [536, 2377, 538, 2385]
+  - [536, 2389, 538, 2408]
+  - [539, 2378, 541, 2388]
+  - [539, 2390, 541, 2407]
+  - [542, 2381, 544, 2388]
+  - [542, 2393, 544, 2405]
+  - [545, 2383, 547, 2402]
+  - [548, 2380, 550, 2405]
+  - [551, 2378, 553, 2407]
+  - [554, 2377, 556, 2384]
+  - [554, 2401, 556, 2408]
+  - [557, 2377, 559, 2388]
+  - [557, 2396, 559, 2408]
+  - [560, 2379, 562, 2390]
+  - [560, 2395, 562, 2406]
+  - [563, 2382, 565, 2388]
+  - [563, 2396, 565, 2403]
+  - [566, 2382, 568, 2402]
+  - [569, 2379, 571, 2405]
+  - [572, 2377, 574, 2407]
+  - [575, 2377, 577, 2384]
+  - [575, 2401, 577, 2408]
+  - [578, 2377, 580, 2408]
+  - [581, 2379, 583, 2406]
+  - [584, 2382, 586, 2403]
+  - [587, 2378, 589, 2405]
+  - [590, 2377, 592, 2407]
+  - [593, 2377, 595, 2405]
+  - [596, 2377, 598, 2402]
+  - [599, 2377, 601, 2405]
+  - [602, 2379, 604, 2407]
+  - [605, 2382, 607, 2389]
+  - [605, 2401, 607, 2405]
+  - [608, 2378, 610, 2406]
+  - [611, 2377, 613, 2407]
+  - [614, 2378, 616, 2407]
+  - [617, 2378, 619, 2385]
+  - [617, 2400, 619, 2407]
+  - [620, 2378, 622, 2406]
+  - [623, 2380, 625, 2404]
+  - [626, 2384, 628, 2401]
+  - [463, 2380, 465, 2406]
+  - [466, 2378, 468, 2408]
+  - [469, 2379, 471, 2408]
+  - [472, 2402, 474, 2408]
+  - [475, 2402, 477, 2408]
+  - [478, 2402, 480, 2408]
+  - [494, 2380, 496, 2406]
+  - [497, 2378, 499, 2408]
+  - [500, 2379, 502, 2408]
+  - [503, 2379, 505, 2386]
+  - [503, 2401, 505, 2408]
+  - [506, 2379, 508, 2407]
+  - [509, 2381, 511, 2406]
+  - [512, 2385, 514, 2402]
+  - [378, 2381, 380, 2408]
+  - [381, 2379, 383, 2410]
+  - [384, 2380, 386, 2410]
+  - [387, 2393, 389, 2410]
+  - [390, 2403, 392, 2410]
+  - [393, 2403, 395, 2410]
+  - [409, 2381, 411, 2407]
+  - [412, 2379, 414, 2410]
+  - [415, 2380, 417, 2409]
+  - [418, 2391, 420, 2397]
+  - [421, 2381, 423, 2407]
+  - [424, 2379, 426, 2409]
+  - [427, 2380, 429, 2409]
+  - [430, 2396, 432, 2410]
+  - [433, 2382, 435, 2409]
+  - [436, 2379, 438, 2407]
+  - [439, 2379, 441, 2402]
+  - [442, 2380, 444, 2407]
+  - [445, 2384, 447, 2409]
+  - [448, 2397, 450, 2409]
+  - [453, 2380, 455, 2407]
+  - [456, 2379, 458, 2408]
+  - [459, 2381, 461, 2406]
+  - [517, 2379, 519, 2405]
+  - [520, 2379, 522, 2407]
+  - [523, 2380, 525, 2405]
+  - [340, 2398, 342, 2410]
+  - [343, 2384, 345, 2411]
+  - [346, 2381, 348, 2410]
+  - [349, 2380, 351, 2403]
+  - [352, 2380, 354, 2408]
+  - [355, 2383, 357, 2411]
+  - [358, 2393, 360, 2411]
+  - [361, 2381, 363, 2408]
+  - [364, 2380, 366, 2410]
+  - [367, 2381, 369, 2410]
+  - [370, 2403, 372, 2410]
+  - [373, 2403, 375, 2410]
+  - [376, 2404, 378, 2410]
+
+testi:
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 188, y: 414, righe: ["S"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 231, y: 414, righe: ["O"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 275, y: 414, righe: ["C"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 318, y: 414, righe: ["I"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 345, y: 414, righe: ["E"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 384, y: 414, righe: ["T"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 422, y: 414, righe: ["A"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 467, y: 414, righe: ["'"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 520, y: 414, righe: ["D"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 565, y: 414, righe: ["I"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 592, y: 414, righe: ["S"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 634, y: 414, righe: ["C"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 678, y: 414, righe: ["O"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 722, y: 414, righe: ["R"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 765, y: 414, righe: ["D"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 810, y: 414, righe: ["I"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 837, y: 414, righe: ["A"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 881, y: 414, righe: ["N"]}
+  - {font: Anton-Regular.ttf, corpo: 66, grassetto: 1, x: 926, y: 414, righe: ["A"]}
+
+  - {font: Jost-Medium.ttf, corpo: 40, x: 191, y: 487, righe: ["DEDICATA ALLA COMPRENSIONE"]}
+  - {font: Jost-Medium.ttf, corpo: 40, x: 193, y: 538, righe: ["AVANZATA DELLE MANIFESTAZIONI"]}
+  - {font: Jost-Medium.ttf, corpo: 40, x: 192, y: 589, righe: ["PARAFISICHE DEL CAOS DI OGNI GIORNO"]}
+
+  - {<<: *macchina, scala_x: 0.89, x: 187, y: 762, righe: ["LO SAPEVATE DI AVERE UNA GHIANDOLA PINEALE ASIMMETRICA?"]}
+
+  - <<: *macchina
+    scala_x: 0.94
+    interlinea: 60.2
+    x: 489
+    y: 945
+    righe:
+      - "Beh, probabilmente ne hai una ed è un"
+      - "peccato perchè le Ghiandole Pineali"
+      - "asimmetriche hanno corrotto lo"
+      - "Spirito Libero dell'Uomo, e ridotto"
+      - "la Vita a un casino frustrante,"
+      - "infelice e privo di speranza."
+  - <<: *macchina
+    scala_x: 0.94
+    interlinea: 60.5
+    x: 490
+    y: 1368
+    righe:
+      - "Fortunatamente hai di fronte a te un"
+      - "manuale che ti mostrerà come scoprire"
+      - "la tua salvezza attraverso"
+  - {<<: *macchina, scala_x: 0.94, allinea: centro, x: 1008, y: 1548, righe: ["ERIS, LA DEA DELLA CONFUSIONE."]}
+  - <<: *macchina
+    scala_x: 0.94
+    interlinea: 60.2
+    x: 490
+    y: 1609
+    righe:
+      - "Ti consiglierà su come bilanciare la"
+      - "tua Ghiandola Pineale e raggiungere"
+      - "l'illuminazione spirituale. E ti"
+      - "insegnerà come trasformare il tuo"
+      - "squallido casino in uno bello,"
+      - "gioioso e splendido."
+
+  - {font: Kalam-Bold.ttf, corpo: 92, x: 800, y: 2192, righe: ["La POEE è un ponte"]}
+  - {font: Kalam-Bold.ttf, corpo: 92, x: 790, y: 2304, righe: ["dai PESCI"]}
+  - {font: Kalam-Bold.ttf, corpo: 92, x: 772, y: 2408, righe: ["all'ACQUARIO"]}
+
+  - {font: Oswald-VF.ttf, corpo: 38, peso: 350, allinea: centro, x: 502, y: 2372, righe: ["AVE ERIS"]}
+  - {font: Oswald-VF.ttf, corpo: 38, peso: 350, scala_x: 0.86, allinea: centro, x: 502, y: 2409, righe: ["TUTTI SALUTINO DISCORDIA"]}

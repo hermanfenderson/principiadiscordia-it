@@ -5,7 +5,7 @@
 #   "over 6th" -> "oltre la 6ª" (Herman: "Oltre la V", con le classi in cifre romane: qui restano le cifre 1-6
 #   dell'originale) e "I would rather" -> "Preferirei..." a capo come nell'originale.
 # DIFFERENZE: Herman omette "History:" al punto 5 e "Professional:/Medical:" diventano "Percorso
-#   professionale." e una frase sola: seguito Herman. Sottotitolo: Herman scrive "Al Movimento Eristico"
+#   professionale." e una frase sola: seguito Herman. Sottotitolo: Herman scriveva "Al Movimento Eristico", uniformato in "Erisiano" (decisione del traduttore)
 #   (l'inglese è "Erisian Movement", altrove "Movimento Erisiano"): seguito Herman, da rivedere.
 #   "(se temporaneo, ...)" senza parentesi, come nell'originale.
 # REFUSI CORRETTI: "Illiminati" -> "Illuminati"; "Q.I. 150.200" -> "Q. I.: 150-200" (cifre originali)
@@ -77,7 +77,7 @@ testi:
   - {font: "Jost-Regular.ttf", corpo: 52, grassetto: 1, allinea: centro, x: 702, y: 381, righe: ["SOCIETA' DISCORDIANA"]}
   - {font: "Jost-Medium.ttf", corpo: 38, grassetto: 1, allinea: centro, x: 703, y: 423, righe: ["AVE ERIS"]}
   - {font: "OldStandard-Bold.ttf", corpo: 66, grassetto: 3, scala_x: 1.12, allinea: centro, x: 841, y: 548, righe: ["Modulo di Adesione"]}   # titolo
-  - {font: "OldStandard-Italic.ttf", corpo: 50, grassetto: 1, x: 204, y: 632, righe: ["Al Movimento Eristico della "]}   # sottotitolo
+  - {font: "OldStandard-Italic.ttf", corpo: 50, grassetto: 1, x: 204, y: 632, righe: ["Al Movimento Erisiano della "]}   # sottotitolo
   - {font: "OldStandard-Regular.ttf", corpo: 52, grassetto: 1, x: 827, y: 628, righe: ["SOCIETA' DISCORDIANA"]}
   - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 225, y: 737, righe: ["Data di oggi"]}
   - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 953, y: 737, righe: ["Data di ieri"]}

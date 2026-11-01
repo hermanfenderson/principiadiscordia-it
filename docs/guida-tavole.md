@@ -39,6 +39,8 @@ testi:
     colonne: 49           # a capo automatico a N caratteri (oppure `righe:` esplicite)
     testo: >-
       testo italiano...
+annerisci:                # rettangoli riempiti di nero (fondi neri da riscrivere in bianco)
+  - [175, 2395, 630, 2825]
 linee:                    # rettangoli neri (filetti, sottolineature lunghe)
   - [225, 976, 986, 984]
 ```
@@ -57,6 +59,7 @@ Opzioni di un elemento di testo:
 | `effetto: timbro` | inchiostro irregolare da timbro di gomma |
 | `peso: 300` | solo per i font variabili (Oswald, EB Garamond, Caveat) |
 | `inchiostro: false` | niente ammorbidimento dei bordi |
+| `colore: bianco` | testo bianco su fondo nero (con `annerisci:` per ripristinare il nero sotto) |
 
 ## Font (in `strumenti/font/`, tutti a licenza libera)
 
