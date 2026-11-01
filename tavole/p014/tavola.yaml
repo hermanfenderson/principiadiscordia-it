@@ -7,7 +7,7 @@
 #   il testo italiano lo sposta in testa ("a cura di Papa Pupù dell'..."): composto come nel testo.
 #   PAPA PUPU' in maiuscolo perché tutta la coda dell'intestazione è in maiuscolo corsivo nell'originale.
 # REFUSI CORRETTI: "un intervista" -> "un'intervista"; "Certo che si!" -> "Certo che sì!"; "perche'" -> "perché";
-#   "Malaclypse il giovane": lasciato come nel testo (altrove il testo usa "Malaclipse il Giovane")
+#   "Malaclypse il giovane": lasciato come nel testo (altrove il testo usa "Malaclypse il Giovane")
 # NdT ESCLUSE: nessuna
 # Interlinea ridotta (56 invece di 60) e righe vuote tra i gruppi dimezzate: l'italiano è più lungo.
 # La riga di "=" è ribattuta più in basso perché l'intestazione italiana occupa sei righe invece di cinque.

@@ -32,28 +32,35 @@ DPI = 360
 
 # ---------------------------------------------------------------- base
 
-def pagina_base(numero_pdf: int) -> Image.Image:
-    """Estrae la pagina dal PDF e la porta a inchiostro nero su carta bianca."""
-    cache = RADICE / "build" / "base" / f"{numero_pdf:03d}.png"
+def pagina_base(numero_pdf: int, canale: str | None = None) -> Image.Image:
+    """Estrae la pagina dal PDF e la porta a inchiostro nero su carta bianca.
+
+    canale="rosso": per le pagine su carta colorata (la copertina gialla Loompanics) si usa
+    solo il canale rosso, in cui il giallo è quasi bianco e l'inchiostro resta nero.
+    """
+    cache = RADICE / "build" / "base" / (f"{numero_pdf:03d}.png" if not canale else f"{numero_pdf:03d}-{canale}.png")
     if cache.exists():
         return Image.open(cache).convert("L")
-    img = livelli(scansione(numero_pdf))
+    if canale == "rosso":
+        img = livelli(scansione(numero_pdf, colore=True).getchannel("R"), nero=70, bianco=175)
+    else:
+        img = livelli(scansione(numero_pdf))
     cache.parent.mkdir(parents=True, exist_ok=True)
     img.save(cache)
     return img
 
 
-def scansione(numero_pdf: int) -> Image.Image:
-    """La pagina del PDF così com'è, in scala di grigi a 360 dpi."""
+def scansione(numero_pdf: int, colore: bool = False) -> Image.Image:
+    """La pagina del PDF così com'è, in scala di grigi (o a colori) a 360 dpi."""
     if not PDF.exists():
         sys.exit("Manca sorgenti/loompanics.pdf: lancia prima  sh sorgenti/scarica.sh")
     with tempfile.TemporaryDirectory() as tmp:
         subprocess.run(
-            ["pdftoppm", "-r", str(DPI), "-gray", "-png",
+            ["pdftoppm", "-r", str(DPI), *([] if colore else ["-gray"]), "-png",
              "-f", str(numero_pdf), "-l", str(numero_pdf), str(PDF), f"{tmp}/p"],
             check=True,
         )
-        img = Image.open(next(Path(tmp).glob("p-*.png"))).convert("L")
+        img = Image.open(next(Path(tmp).glob("p-*.png"))).convert("RGB" if colore else "L")
         img.load()
     return img
 
@@ -182,7 +189,7 @@ def incolla_bianco(base: Image.Image, strato: Image.Image, x: int, y: int):
 def componi(cartella: Path, prova: bool = False) -> Path:
     spec = yaml.safe_load((cartella / "tavola.yaml").read_text(encoding="utf-8"))
     if spec.get("pagina_pdf"):
-        base = pagina_base(spec["pagina_pdf"])
+        base = pagina_base(spec["pagina_pdf"], spec.get("canale"))
     else:
         # tavola nuova, senza originale: pagina bianca delle stesse dimensioni
         base = Image.new("L", tuple(spec.get("dimensioni", [1827, 2962])), 255)
@@ -223,13 +230,13 @@ def componi(cartella: Path, prova: bool = False) -> Path:
     else:
         base.save(destinazione, dpi=(DPI, DPI))
         if spec.get("pagina_pdf"):
-            confronto(spec["pagina_pdf"], base, cartella.name)
+            confronto(spec["pagina_pdf"], base, cartella.name, spec.get("canale"))
     return destinazione
 
 
-def confronto(numero_pdf: int, tavola: Image.Image, nome: str):
+def confronto(numero_pdf: int, tavola: Image.Image, nome: str, canale: str | None = None):
     """Affianca originale e tavola a mezza risoluzione, per la revisione."""
-    originale = pagina_base(numero_pdf)
+    originale = pagina_base(numero_pdf, canale)
     w, h = tavola.width // 2, tavola.height // 2
     foglio = Image.new("L", (w * 2 + 30, h), 255)
     foglio.paste(originale.resize((w, h)), (0, 0))

@@ -3,6 +3,7 @@
 
 prima:
   timbro: "TRADOTTO DA HERMAN FENDERSON"
+  etichetta: ["EDIZIONE ITALIANA", "TRADOTTO DA HERMAN FENDERSON"]   # versione "spirale"
   togli: ["NON E' POSTA SPAZZATURA"]   # scritte del frontespizio da non riportare in copertina
 
 frontespizio:   # pagina 1 del libro (strumenti/pagine_apertura.py)

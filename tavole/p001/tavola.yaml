@@ -1,0 +1,52 @@
+# Tavola p001 — Copertina dell'edizione Loompanics (1980), gialla con la spirale
+# Pagina del vecchio sito: nessuna (la copertina Loompanics non era tradotta)
+# STATO: proposta
+# NUOVE TRADUZIONI: tutte le scritte tranne il titolo; sottotitolo e "In cui è spiegata..." come in p013
+# DIFFERENZE: "PRINCIPIA DISCORDIA" lasciato com'è (latino); il resto ricomposto in FreeSans Bold
+#   Oblique / Bold, il grottesco dell'originale. "WHEREIN IS EXPLAINED..." passa da tre a quattro righe.
+# La scansione è su carta gialla: si usa il canale rosso (canale: rosso), in cui il giallo è bianco.
+# Coordinate in pixel sulla scansione a 360 dpi (1877 x 2884).
+
+pagina_pdf: 1
+canale: rosso
+
+cancella:
+  - [0, 0, 40, 2884]            # bordo della scansione
+  - [600, 840, 1200, 1085]      # • OR • / How I Found Goddess...
+  - [150, 2430, 1700, 2700]     # THE MAGNUM OPIATE... / WHEREIN IS EXPLAINED...
+
+testi:
+  - font: FreeSansBold.ttf
+    corpo: 50
+    allinea: centro
+    x: 901
+    y: 887
+    righe: ["•  OVVERO  •"]
+
+  - font: FreeSansBoldOblique.ttf
+    corpo: 56
+    interlinea: 59
+    allinea: centro
+    x: 901
+    y: 959
+    righe: ["Come trovai la Dea", "e Cosa le feci", "Quando la trovai"]
+
+  - font: FreeSansBoldOblique.ttf
+    corpo: 68
+    allinea: centro
+    adatta: 1450
+    x: 917
+    y: 2494
+    righe: ["LA MAGNUM OPIATE DI MALACLYPSE IL GIOVANE"]
+
+  - font: FreeSansBold.ttf
+    corpo: 43
+    interlinea: 49
+    allinea: centro
+    x: 917
+    y: 2575
+    righe:
+      - "IN CUI È SPIEGATA"
+      - "ASSOLUTAMENTE QUALSIASI COSA"
+      - "CHE VALGA LA PENA DI SAPERE"
+      - "A PROPOSITO ASSOLUTAMENTE DI TUTTO"

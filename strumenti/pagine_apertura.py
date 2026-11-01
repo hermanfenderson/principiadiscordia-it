@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """Genera le tavole di apertura del libro.
 
-  tavole/frontespizio   pagina 1: autore, titolo gotico e sottotitolo del frontespizio Loompanics,
+  tavole/occhiello      pagina 1: solo autore e titolo (lettering della copertina Loompanics), a un terzo dell'altezza
+  tavole/frontespizio   pagina 3: autore, titolo gotico e sottotitolo del frontespizio di Hill (p013),
                         più "edizione italiana" e il traduttore (testi in libro/copertina.yaml)
-  tavole/copertina-bn   pagina 3: la prima di copertina in bianco e nero, cioè la tavola p013
-                        senza le scritte tolte in copertina e con il timbro del traduttore
 
-Uso:  python3 strumenti/pagine_apertura.py   (poi componi.py sulle due cartelle, o libro.py --ricomponi)
+Uso:  python3 strumenti/pagine_apertura.py   (poi componi.py sulle cartelle, o libro.py --ricomponi)
 """
 from pathlib import Path
 
@@ -30,7 +29,7 @@ def main():
 
     # ---- pagina 1: frontespizio italiano
     scrivi("frontespizio",
-           "# Tavola nuova: frontespizio dell'edizione italiana (pagina 1 del libro)\n"
+           "# Tavola nuova: frontespizio dell'edizione italiana (pagina 3 del libro)\n"
            "# Generata da strumenti/pagine_apertura.py: titolo gotico ritagliato dalla tavola p013\n"
            "# (tavole/apparato/titolo-gotico.png), sottotitolo nei caratteri di p013, testi da libro/copertina.yaml.\n"
            "# STATO: proposta\n\n",
@@ -55,17 +54,19 @@ def main():
                "linee": [[CENTRO - 160, 1440, CENTRO + 160, 1446]],
            })
 
-    # ---- pagina 3: la prima di copertina, in bianco e nero
-    p013 = yaml.safe_load((RADICE / "tavole" / "p013" / "tavola.yaml").read_text(encoding="utf-8"))
-    togli = set(testi["prima"].get("togli", []))
-    p013["testi"] = [el for el in p013["testi"] if not set(el.get("righe", [])) & togli]
-    p013["testi"].append({"font": "Oswald-VF.ttf", "corpo": 74, "peso": 500, "effetto": "timbro",
-                          "rotazione": -14, "x": 690, "y": 1700, "righe": [testi["prima"]["timbro"]]})
-    scrivi("copertina-bn",
-           "# Tavola nuova: la prima di copertina in bianco e nero (pagina 3 del libro)\n"
-           "# Generata da strumenti/pagine_apertura.py a partire da tavole/p013: non modificarla a mano.\n"
-           "# STATO: completa\n\n", p013)
-
+    # ---- pagina 1: occhiello, solo autore e titolo a un terzo dell'altezza
+    scrivi("occhiello",
+           "# Tavola nuova: occhiello (pagina 1 del libro), autore e titolo a un terzo dell'altezza\n"
+           "# Generata da strumenti/pagine_apertura.py: non modificarla a mano.\n"
+           "# STATO: proposta\n\n",
+           {
+               "pagina_pdf": None,
+               "testi": [{"font": "Jost-Bold.ttf", "corpo": 52, "allinea": "centro", "x": CENTRO, "y": 860,
+                          "righe": [f["autore"]]}],
+               # il titolo disegnato a mano della copertina Loompanics (ritagliato da p001)
+               "immagini": [{"file": "tavole/apparato/titolo-loompanics.png", "x": CENTRO - 500, "y": 930,
+                             "larghezza": 1000}],
+           })
 
 if __name__ == "__main__":
     main()

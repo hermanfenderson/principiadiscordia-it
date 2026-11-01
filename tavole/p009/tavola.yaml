@@ -59,17 +59,17 @@ testi:
   - {<<: *tondo, x: 1649, y: 1219, allinea: destra, righe: ["da"]}
   - {<<: *tondo, x: 214, y: 1284, righe: ["costa \u200aa \u200acosta ne \u200aparlavano \u200ae \u200asi \u200ainterrogavano \u200asull'identità"]}
   - {<<: *tondo, x: 1649, y: 1284, allinea: destra, righe: ["del"]}
-  - {<<: *tondo, x: 214, y: 1348, righe: ["suo \u200a\u200a\u200a\u200amisterioso \u200a\u200a\u200aautore, \u200a\u200a\u200a\u200aMalaclipse \u200a\u200a\u200a\u200ail \u200a\u200a\u200aGiovane. \u200a\u200a\u200a\u200aVoci \u200a\u200a\u200a\u200asi"]}
+  - {<<: *tondo, x: 214, y: 1348, righe: ["suo \u200a\u200a\u200a\u200amisterioso \u200a\u200a\u200aautore, \u200a\u200a\u200a\u200aMalaclypse \u200a\u200a\u200a\u200ail \u200a\u200a\u200aGiovane. \u200a\u200a\u200a\u200aVoci \u200a\u200a\u200a\u200asi"]}
   - {<<: *tondo, x: 1649, y: 1348, allinea: destra, righe: ["dif-"]}
   - {<<: *tondo, x: 214, y: 1413, righe: ["fondevano lungo il \u200acontinente, da New York a Los \u200aAngeles,"]}
   - {<<: *tondo, x: 1649, y: 1413, allinea: destra, righe: ["da"]}
-  - {<<: *tondo, x: 214, y: 1477, righe: ["Seattle a St. \u200aJoe. Uno aveva sentito dire \u200ache Malaclipse era"]}
+  - {<<: *tondo, x: 214, y: 1477, righe: ["Seattle a St. Joe. Uno aveva sentito dire che Malaclypse era"]}
   - {<<: *tondo, x: 1649, y: 1477, allinea: destra, righe: ["in"]}
   - {<<: *tondo, x: 214, y: 1541, righe: ["realtà \u200aAlan \u200a\u200aWatts. \u200aNo, \u200a\u200adiceva \u200aun'altra \u200aleggenda \u200a\u200a-- \u200ai"]}
   - {<<: *corsivo, x: 1649, y: 1541, allinea: destra, righe: ["Principia"]}
   - {<<: *tondo, x: 214, y: 1606, righe: ["erano \u200ain \u200arealtà \u200aun'opera \u200adell'ordine \u200aSufi. \u200aUn \u200aterzo \u200a\u200amito,"]}
   - {<<: *tondo, x: 1649, y: 1606, allinea: destra, righe: ["molto"]}
-  - {<<: *tondo, x: 214, y: 1670, righe: ["suggestivo, \u200a\u200asosteneva \u200a\u200ache \u200a\u200aMalaclipse \u200a\u200afosse \u200aun \u200a\u200anome"]}
+  - {<<: *tondo, x: 214, y: 1670, righe: ["suggestivo, \u200a\u200asosteneva \u200a\u200ache \u200a\u200aMalaclypse \u200a\u200afosse \u200aun \u200a\u200anome"]}
   - {<<: *tondo, x: 1649, y: 1670, allinea: destra, righe: ["d'arte"]}
   - {<<: *tondo, x: 214, y: 1735, righe: ["per \u200a\u200a\u200aRichard \u200a\u200a\u200aM. \u200a\u200aNixon, \u200a\u200a\u200ache \u200a\u200a\u200aavrebbe \u200a\u200a\u200apresumibilmente"]}
   - {<<: *tondo, x: 1649, y: 1735, allinea: destra, righe: ["com-"]}

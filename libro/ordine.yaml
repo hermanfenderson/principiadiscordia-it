@@ -3,9 +3,9 @@
 
 pagine:
   # apertura dell'edizione italiana (tavole generate da strumenti/pagine_apertura.py)
-  - frontespizio   # 1: titolo, sottotitolo, edizione italiana, traduttore
-  - colophon-1     # 2: colophon, sul retro del frontespizio
-  - copertina-bn   # 3: la prima di copertina in bianco e nero
+  - occhiello      # 1: autore e titolo
+  - colophon-1     # 2: colophon, sul retro dell'occhiello
+  - frontespizio   # 3: autore, titolo, sottotitolo, edizione italiana, traduttore
   - bianca         # 4
   # la prefazione alla prefazione di Herman Fenderson
   - pre-1

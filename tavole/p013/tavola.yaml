@@ -31,7 +31,7 @@ testi:
     allinea: centro
     x: 889
     y: 175
-    righe: ["SUA GRANDE NARCOTICITA' MALACLIPSE IL GIOVANE"]
+    righe: ["SUA GRANDE NARCOTICITA' MALACLYPSE IL GIOVANE"]
 
   - font: Oswald-VF.ttf                    # timbro storto (testo di NotJunkMail.png)
     corpo: 64

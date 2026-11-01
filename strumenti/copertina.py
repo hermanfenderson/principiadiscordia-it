@@ -32,7 +32,7 @@ FORMATI = {  # larghezza, altezza in pollici
 LARGHEZZA, ALTEZZA = FORMATI["a5"]
 ABBONDANZA = 0.125
 SPESSORE_CARTA = {"bianca": 0.002252, "crema": 0.0025}
-VARIANTI = {"bianca": (255, 255, 255), "ocra": (241, 225, 141)}  # ocra = il fondo del vecchio sito
+VARIANTI = {"bianca": (255, 255, 255), "ocra": (208, 146, 12)}  # ocra = il giallo della copertina Loompanics (mediana della scansione)
 INCHIOSTRO = (20, 18, 16)
 
 
@@ -76,6 +76,24 @@ def blocco(d, x, y, t, f, larghezza, interlinea, colore=INCHIOSTRO) -> int:
     return y
 
 
+def etichetta(righe: list[str]) -> Image.Image:
+    """Etichetta di carta incollata sulla copertina, timbrata a mano (RGBA, già ruotata)."""
+    from componi import timbro as effetto_timbro
+    f = font("Oswald-VF.ttf", 46)
+    f.set_variation_by_axes([500])
+    larga = max(round(f.getlength(r)) for r in righe) + 90
+    alta = 60 * len(righe) + 56
+    strato = Image.new("L", (larga, alta), 255)
+    d = ImageDraw.Draw(strato)
+    for i, r in enumerate(righe):
+        d.text((larga // 2, 28 + 48 + i * 60), r, font=f, fill=0, anchor="ms")
+    strato = effetto_timbro(strato)
+    e = Image.new("RGBA", (larga, alta), (250, 247, 236, 255))
+    e.paste(INCHIOSTRO + (255,), (0, 0), strato.point(lambda v: 255 - v))
+    ImageDraw.Draw(e).rectangle([10, 10, larga - 11, alta - 11], outline=INCHIOSTRO + (255,), width=4)
+    return e.rotate(8, expand=True, resample=Image.BICUBIC, fillcolor=(0, 0, 0, 0))
+
+
 def frontespizio(togli: list[str]) -> Image.Image:
     """La tavola p013 ricomposta senza le scritte da togliere in copertina."""
     from componi import componi
@@ -93,6 +111,8 @@ def main():
     ap.add_argument("--carta", choices=SPESSORE_CARTA, default="crema")
     ap.add_argument("--variante", choices=VARIANTI, default="ocra")
     ap.add_argument("--formato", choices=FORMATI, default="a5")
+    ap.add_argument("--prima", choices=["disegno", "spirale"], default="disegno",
+                    help="disegno: il frontespizio di Hill (p013) col timbro; spirale: la copertina Loompanics (p001) con l'etichetta")
     args = ap.parse_args()
     global LARGHEZZA, ALTEZZA
     LARGHEZZA, ALTEZZA = FORMATI[args.formato]
@@ -110,23 +130,36 @@ def main():
     y0 = px(ABBONDANZA)
     margine = px(0.375)
 
-    # ---- prima: il frontespizio italiano (tavola p013), ritagliato al formato
-    front = frontespizio(testi["prima"].get("togli", []))
-    # tutta la pagina dentro l'area sicura (0,125 pollici dal taglio), centrata
-    alt = px(ALTEZZA - 0.25)
-    front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
-    tela.paste(tinta(front, carta), (x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)))
-    # timbro del traduttore, nello stile di "NON E' POSTA SPAZZATURA"
-    t = testi["prima"]["timbro"]
-    f = font("Oswald-VF.ttf", 62)
-    f.set_variation_by_axes([500])
-    strato = Image.new("L", (round(f.getlength(t)) + 40, 110), 255)
-    ImageDraw.Draw(strato).text((20, 85), t, font=f, fill=0, anchor="ls")
-    from componi import timbro as effetto_timbro
-    strato = effetto_timbro(strato)
-    strato = strato.rotate(-14, expand=True, fillcolor=255, resample=Image.BICUBIC)
-    maschera = strato.point(lambda v: 255 - v)
-    tela.paste(INCHIOSTRO, (x_prima + px(LARGHEZZA) - strato.width - px(0.3), y0 + px(ALTEZZA * 0.555)), maschera)
+    # ---- prima
+    alt = px(ALTEZZA - 0.25)  # tutta la pagina dentro l'area sicura (0,125 pollici dal taglio), centrata
+    if args.prima == "disegno":
+        # il frontespizio italiano di Hill (tavola p013) col timbro del traduttore
+        front = frontespizio(testi["prima"].get("togli", []))
+        front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
+        tela.paste(tinta(front, carta), (x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)))
+        # timbro del traduttore, nello stile di "NON E' POSTA SPAZZATURA"
+        t = testi["prima"]["timbro"]
+        f = font("Oswald-VF.ttf", 62)
+        f.set_variation_by_axes([500])
+        strato = Image.new("L", (round(f.getlength(t)) + 40, 110), 255)
+        ImageDraw.Draw(strato).text((20, 85), t, font=f, fill=0, anchor="ls")
+        from componi import timbro as effetto_timbro
+        strato = effetto_timbro(strato)
+        strato = strato.rotate(-14, expand=True, fillcolor=255, resample=Image.BICUBIC)
+        maschera = strato.point(lambda v: 255 - v)
+        tela.paste(INCHIOSTRO, (x_prima + px(LARGHEZZA) - strato.width - px(0.3), y0 + px(ALTEZZA * 0.555)), maschera)
+    else:
+        # la copertina gialla Loompanics in italiano (tavola p001), con l'etichetta dell'edizione italiana
+        from componi import componi
+        front = Image.open(componi(RADICE / "tavole" / "p001"))
+        k = alt / front.height
+        front = front.resize((round(front.width * k), alt), Image.LANCZOS)
+        fx, fy = x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)
+        tela.paste(tinta(front, carta), (fx, fy))
+        e = etichetta(testi["prima"]["etichetta"])
+        # sull'angolo in basso a destra della spirale (in p001: x 328-1468, y 1185-2370)
+        cx, cy = fx + round(1330 * k), fy + round(2215 * k)
+        tela.paste(e, (cx - e.width // 2, cy - e.height // 2), e)
 
     # ---- dorso
     if dorso >= px(0.25):
@@ -177,7 +210,7 @@ def main():
 
     uscita = RADICE / "build" / "copertina"
     uscita.mkdir(parents=True, exist_ok=True)
-    nome = f"copertina-{args.variante}"
+    nome = f"copertina-{args.variante}" + ("" if args.prima == "disegno" else f"-{args.prima}")
     tela.save(uscita / f"{nome}.png", dpi=(DPI, DPI))
     anteprima = tela.copy()
     da = ImageDraw.Draw(anteprima)

@@ -1,0 +1,18 @@
+# Tavola nuova: occhiello (pagina 1 del libro), autore e titolo a un terzo dell'altezza
+# Generata da strumenti/pagine_apertura.py: non modificarla a mano.
+# STATO: proposta
+
+pagina_pdf: null
+testi:
+- font: Jost-Bold.ttf
+  corpo: 52
+  allinea: centro
+  x: 913
+  y: 860
+  righe:
+  - MALACLYPSE IL GIOVANE
+immagini:
+- file: tavole/apparato/titolo-loompanics.png
+  x: 413
+  y: 930
+  larghezza: 1000

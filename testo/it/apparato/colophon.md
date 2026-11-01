@@ -1,7 +1,7 @@
 ---
 titolo: "Colophon"
 autore: Herman Fenderson
-collocazione: pagina 2, sul retro del frontespizio
+collocazione: pagina 2, sul retro dell'occhiello
 note: BOZZA. ISBN e "finito di stampare" li aggiungono StreetLib o KDP; qui solo le altre informazioni.
 ---
 
