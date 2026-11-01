@@ -3,12 +3,12 @@ titolo: "Note del traduttore"
 autore: Herman Fenderson
 collocazione: appendice, prima di "Chi (non) è Herman Fenderson"
 fonte: le NdT della traduzione storica (testo/it/), tolte dalle tavole e riunite qui, più le note aggiunte nella revisione del 2026; i numeri sono quelli delle pagine originali
-stato: BOZZA delle note nuove (frontespizio, 00004, 00010, 00014, 00022, 00033 KSC, 00034, 00039, 00049, 00059), da rivedere
+stato: BOZZA delle note nuove (00000 copertina, 00004, 00010, 00014, 00022, 00033 KSC, 00034, 00039, 00049, 00059), da rivedere
 ---
 
 NOTE DEL TRADUTTORE
 
-Frontespizio -- La poesia "Una caraffa di vino. Un coscio d'agnello. E tu! Accanto a me. Che fischi nell'oscurità" è di Walt Kelly, l'autore del fumetto Pogo, ed era detta da uno dei suoi personaggi: lo racconta Greg Hill stesso nell'intervista alla Norton Cabal, in fondo al libro, dove svela anche la provenienza di molti altri ritagli. È a sua volta la parodia della quartina più famosa del Rubaiyat di Omar Khayyam nella versione inglese di FitzGerald: "una brocca di vino, una pagnotta di pane, e tu accanto a me che canti nel deserto". E Omar Khayyam Ravenhurst, guarda caso, è il nome sacro di Kerry Thornley, coautore dei Principia.
+00000 -- La poesia "Una caraffa di vino. Un coscio d'agnello. E tu! Accanto a me. Che fischi nell'oscurità" è di Walt Kelly, l'autore del fumetto Pogo, ed era detta da uno dei suoi personaggi: lo racconta Greg Hill stesso nell'intervista alla Norton Cabal, in fondo al libro, dove svela anche la provenienza di molti altri ritagli. È a sua volta la parodia della quartina più famosa del Rubaiyat di Omar Khayyam nella versione inglese di FitzGerald: "una brocca di vino, una pagnotta di pane, e tu accanto a me che canti nel deserto". E Omar Khayyam Ravenhurst, guarda caso, è il nome sacro di Kerry Thornley, coautore dei Principia.
 
 00004 -- Pentabarf. In inglese "barf" vuol dire vomitare: il nome dei Cinque Comandamenti nasconde una piccola volgarità che il Pentaconato, più educato, ha perso per strada. Zarathud, l'apostolo eremita che lo scoprì, deve il nome a Zarathustra.
 
