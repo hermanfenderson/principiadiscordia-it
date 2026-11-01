@@ -146,31 +146,31 @@ def main():
     fd = font("CourierPrime-Bold.ttf", 46)
     for battuta in q["citazione"]:
         y = blocco(d, x, y, battuta, fd, larghezza, 56) - 10
-    testo(d, (x + larghezza, y + 10), q["fonte_citazione"], font("CourierPrime-Italic.ttf", 36), "rs")
+    testo(d, (x + larghezza, y + 10), q["fonte_citazione"], font("CourierPrime-Italic.ttf", 38), "rs")
     y += 110
     d.rectangle([x, y - 40, x + larghezza, y - 36], fill=INCHIOSTRO)
-    y = blocco(d, x, y + 20, q["presentazione"], font("OldStandard-Regular.ttf", 40), larghezza, 50)
+    y = blocco(d, x, y + 20, q["presentazione"], font("OldStandard-Regular.ttf", 44), larghezza, 56)
     # traduttore: struzzo a sinistra, nota a destra
     y += 30
     struzzo = Image.open(RADICE / "tavole" / "apparato" / "struzzo-00010.png")
     ls = round(larghezza * 0.42)
     struzzo = struzzo.resize((ls, round(struzzo.height * ls / struzzo.width)), Image.LANCZOS)
     tela.paste(tinta(struzzo, carta), (x, y))
-    ff = font("Kalam-Bold.ttf", 30)
-    blocco(d, x, y + struzzo.height + 45, q["didascalia"], ff, ls, 36)
-    blocco(d, x + ls + 40, y + 30, q["traduttore"], font("OldStandard-Italic.ttf", 36), larghezza - ls - 40, 44)
+    ff = font("Kalam-Bold.ttf", 34)
+    blocco(d, x, y + struzzo.height + 48, q["didascalia"], ff, ls, 41)
+    blocco(d, x + ls + 40, y + 30, q["traduttore"], font("OldStandard-Italic.ttf", 41), larghezza - ls - 40, 51)
     # piede: licenza a sinistra, spazio per il codice a barre KDP a destra (2 x 1,2 pollici)
     yb = y0 + px(ALTEZZA) - margine
     bx0, by0 = x + larghezza - px(2.0), yb - px(1.2)
     d.rectangle([bx0, by0, x + larghezza, yb], fill=(255, 255, 255), outline=(170, 170, 170), width=2)
     testo(d, ((bx0 + x + larghezza) // 2, (by0 + yb) // 2), "codice a barre", font("Jost-Regular.ttf", 28), "mm", (150, 150, 150))
-    fp = font("Jost-Regular.ttf", 28)
-    yp = by0 + 30
+    fp = font("Jost-Regular.ttf", 34)
+    yp = by0 + 34
     for r in q["piede"]:
         for rr in a_capo(r, fp, bx0 - x - 40):
             testo(d, (x, yp), rr, fp, "ls")
-            yp += 36
-        yp += 8
+            yp += 43
+        yp += 10
 
     uscita = RADICE / "build" / "copertina"
     uscita.mkdir(parents=True, exist_ok=True)
