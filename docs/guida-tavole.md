@@ -83,7 +83,7 @@ Se nessuno va bene, si usa il più vicino e lo si segnala nelle note.
 ## Regole
 
 1. **Testo italiano:** quello di `testo/it/` del file indicato nella mappa, parola per parola. Si correggono solo i refusi evidenti (lettere doppie, spazi mancanti), e vanno elencati nelle note.
-2. **Tavole già tradotte da Mauro:** se la pagina del vecchio sito usava un'immagine di `storico/immagini-it/`, quella contiene la sua traduzione delle scritte: si usa quella formulazione.
+2. **Tavole già tradotte da Herman Fenderson:** se la pagina del vecchio sito usava un'immagine di `storico/immagini-it/`, quella contiene la sua traduzione delle scritte: si usa quella formulazione.
 3. **Scritte dentro le immagini mai tradotte:** si traducono, si compongono, e si elencano nelle note come *traduzione nuova da rivedere*.
 4. **Cancellare senza danneggiare:** i rettangoli coprono solo testo. Se una scritta è intrecciata al disegno e un rettangolo lo rovinerebbe, si usano più rettangoli piccoli; se non basta, si lascia l'inglese e si segnala *da ritoccare a mano*.
 5. **Stessa impaginazione:** stessi margini, corpo e interlinea dell'originale (`righe.py` dà base e passo). L'italiano è più lungo dell'inglese: prima si usa lo spazio libero, poi si stringe con `scala_x` (non sotto 0,85) o si riduce l'interlinea; non si cambia il corpo del dattiloscritto.

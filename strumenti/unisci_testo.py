@@ -29,7 +29,7 @@ def corpo(file: Path) -> tuple[str, str]:
 
 def main():
     L = ["# Principia Discordia — testo italiano", "",
-         "La traduzione di Mauro Minenna com'è oggi in `testo/it/`, riunita in un unico file nell'ordine del libro (edizione Loompanics).",
+         "La traduzione di Herman Fenderson com'è oggi in `testo/it/`, riunita in un unico file nell'ordine del libro (edizione Loompanics).",
          "Ogni sezione indica la pagina originale, la pagina del PDF e il file da cui viene. Le immagini sono indicate col nome del file.",
          "Questo file si rigenera con `python3 strumenti/unisci_testo.py`: le correzioni vanno fatte nei file di `testo/it/`.", ""]
     for n, pdf, etichetta in ORDINE:

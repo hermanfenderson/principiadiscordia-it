@@ -1,11 +1,12 @@
 # Principia Discordia — edizione italiana
 
-Traduzione italiana dei *Principia Discordia* di Malaclypse il Giovane (Greg Hill) e Lord Omar Khayyam Ravenhurst (Kerry Thornley), a cura di Mauro Minenna.
+Traduzione italiana dei *Principia Discordia* di Malaclypse il Giovane (Greg Hill) e Lord Omar Khayyam Ravenhurst (Kerry Thornley), tradotti da Herman Fenderson, apprendista patafisico.
 
 La traduzione è nata anni fa sul sito [principiadiscordia.hermanfenderson.com](http://principiadiscordia.hermanfenderson.com). Questo repository la porta a un'edizione completa in **facsimile**: ogni pagina ricomposta in italiano come il collage originale, per la stampa, per l'ebook e per un nuovo sito.
 
 ## Decisioni prese
 
+- **Firma della traduzione:** Herman Fenderson. Nel libro nessuno firma col proprio nome, e il traduttore non fa eccezione.
 - **Formato:** facsimile. Ogni pagina dell'originale diventa una tavola ricomposta in italiano.
 - **Edizione di riferimento:** Loompanics Unlimited (IV e V edizione riunite, 1980), dalla scansione su Wikisource/Wikimedia Commons.
 - **Introduzione di Robert Anton Wilson:** inclusa.
