@@ -1,3 +1,4 @@
+# REVISIONE: 'IL' nel dito: corpo 78->66, scala_x 1.7, base 396, I e L composte separate con uno spazio: la L non poggia più sul contorno inferiore; 'TONN.'/'LINO' sul peso: corpo 36/44, grassetto 2, lettere spaziate, punto composto a parte: leggibili e grandi come TONS FLAX, dentro la faccia del peso. Disegno non toccato.
 # Tavola p067 (originale 00052) — Il Trasformatore Guazza/Buglio
 # Pagina del vecchio sito: 59 (testo/it/59.md)
 # STATO: completa
@@ -1101,7 +1102,8 @@ cancella:
 testi:
   - {font: "LondrinaOutline-Regular.ttf", corpo: 174, grassetto: 3, scala_x: 0.9, x: 737, y: 468, righe: ["TRASFORMATORE"]}   # titolo
   - {font: "LondrinaOutline-Regular.ttf", corpo: 188, grassetto: 3, scala_x: 0.9, x: 737, y: 654, righe: ["GUAZZA/BUGLIO"]}
-  - {font: "LondrinaOutline-Regular.ttf", corpo: 78, grassetto: 3, scala_x: 1.5, allinea: centro, x: 316, y: 402, righe: ["IL"]}   # nel dito
+  - {font: "LondrinaOutline-Regular.ttf", corpo: 66, grassetto: 3, scala_x: 1.7, allinea: centro, x: 284, y: 396, righe: ["I"]}   # nel dito
+  - {font: "LondrinaOutline-Regular.ttf", corpo: 66, grassetto: 3, scala_x: 1.7, allinea: centro, x: 335, y: 396, righe: ["L"]}
   # ARIA CALDA lettera per lettera lungo il fondo del palloncino
   - {font: "ArchitectsDaughter-Regular.ttf", corpo: 44, grassetto: 2, scala_x: 0.95, rotazione: -58.7, x: 453, y: 635, righe: ["A"]}
   - {font: "ArchitectsDaughter-Regular.ttf", corpo: 44, grassetto: 2, scala_x: 0.95, rotazione: -43.8, x: 468, y: 660, righe: ["R"]}
@@ -1118,8 +1120,9 @@ testi:
   - {font: "ArchitectsDaughter-Regular.ttf", corpo: 54, grassetto: 2, scala_x: 1.05, allinea: centro, x: 918, y: 1636, righe: ["CAOS"]}
   - {font: "CourierPrime-Bold.ttf", corpo: 146, scala_x: 0.58, rotazione: 90, x: 224, y: 1664, righe: ["ANERISTICO"]}   # verticale
   - {font: "CourierPrime-Bold.ttf", corpo: 140, scala_x: 0.58, rotazione: -90, x: 1592, y: 1336, righe: ["ERISTICO"]}
-  - {font: "ArchitectsDaughter-Regular.ttf", corpo: 33, grassetto: 1, rotazione: 42, x: 1354, y: 2318, righe: ["TONN."]}
-  - {font: "ArchitectsDaughter-Regular.ttf", corpo: 36, grassetto: 1, scala_x: 0.68, rotazione: 46, x: 1366, y: 2360, righe: ["L I N O"]}
+  - {font: "ArchitectsDaughter-Regular.ttf", corpo: 36, grassetto: 2, scala_x: 0.6, rotazione: 45, x: 1361, y: 2318, righe: ["T O N N"]}
+  - {font: "ArchitectsDaughter-Regular.ttf", corpo: 36, grassetto: 2, scala_x: 0.6, rotazione: 45, x: 1422, y: 2257, righe: ["."]}
+  - {font: "ArchitectsDaughter-Regular.ttf", corpo: 44, grassetto: 2, scala_x: 0.62, rotazione: 43, x: 1361, y: 2366, righe: ["L I N O"]}
   - {font: "Oswald-VF.ttf", corpo: 70, peso: 500, scala_x: 0.98, x: 229, y: 2732, righe: ["REGISTRAZIONE DI 28 GIORNI"]}   # in fondo
   - font: CourierPrime-Italic.ttf
     corpo: 25

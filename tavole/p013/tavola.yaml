@@ -1,3 +1,4 @@
+# REVISIONE: timbro "NON E' POSTA SPAZZATURA" ridotto (corpo 70 -> 64) e spostato a sinistra (x 1150 -> 1115): ora finisce a x 1660, 110 px dal bordo destro (l'originale a 1713).
 # Tavola p013 — Copertina (frontespizio illustrato)
 # Pagina del vecchio sito: 5 (testo/it/05.md); immagini di Mauro: NotJunkMail.png, JugofWine.png
 # STATO: completa
@@ -33,11 +34,11 @@ testi:
     righe: ["SUA GRANDE NARCOTICITA' MALACLIPSE IL GIOVANE"]
 
   - font: Oswald-VF.ttf                    # timbro storto (testo di NotJunkMail.png)
-    corpo: 70
+    corpo: 64
     peso: 600
     scala_x: 0.86
     rotazione: -24
-    x: 1150
+    x: 1115
     y: 290
     righe: ["NON E' POSTA SPAZZATURA"]
 

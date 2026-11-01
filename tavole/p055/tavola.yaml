@@ -1,3 +1,4 @@
+# REVISIONE: paragrafo in corsivo in alto (5 righe) e riga 'che benché non sia...' a scala_x 0.85 invece di 0.88; 'Egli è un Principe' riallineato a x 929.6: righe entro x=1748.
 # Tavola p055 (originale 00040) — I Cinque Apostoli di Eris (3-5), seguito
 # Pagina del vecchio sito: 47 (testo/it/47.md); le prime parole ("Tutte le") stanno in fondo a p054
 # STATO: completa
@@ -29,7 +30,7 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
+    scala_x: 0.85
     x: 187.0
     y: 311.0
     righe: ["affermazioni sono vere in un certo senso, false in un certo"]
@@ -37,7 +38,7 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
+    scala_x: 0.85
     x: 187.0
     y: 370.0
     righe: ["senso, prive di senso in un certo senso, vere e false in un"]
@@ -45,7 +46,7 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
+    scala_x: 0.85
     x: 187.0
     y: 429.0
     righe: ["certo senso, vere e prive di senso in un certo senso, false"]
@@ -53,7 +54,7 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
+    scala_x: 0.85
     x: 187.0
     y: 488.0
     righe: ["e prive di senso in un certo senso, e vere, false e prive"]
@@ -61,7 +62,7 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
+    scala_x: 0.85
     x: 187.0
     y: 547.0
     righe: ["di senso in un certo senso."]
@@ -69,7 +70,7 @@ testi:
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
     scala_x: 0.88
-    x: 950.8
+    x: 929.6
     y: 547.0
     righe: ["Egli è un Principe ed Esperto"]
 
@@ -139,10 +140,10 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
+    scala_x: 0.85
     x: 187.0
     y: 901.0
-    righe: ["che benchè non sia la stessa persona, è lo stesso Apostolo."]
+    righe: ["che benché non sia la stessa persona, è lo stesso Apostolo."]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52

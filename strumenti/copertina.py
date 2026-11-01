@@ -165,9 +165,12 @@ def main():
     d.rectangle([bx0, by0, x + larghezza, yb], fill=(255, 255, 255), outline=(170, 170, 170), width=2)
     testo(d, ((bx0 + x + larghezza) // 2, (by0 + yb) // 2), "codice a barre", font("Jost-Regular.ttf", 28), "mm", (150, 150, 150))
     fp = font("Jost-Regular.ttf", 34)
-    yp = by0 + 34
-    for r in q["piede"]:
-        for rr in a_capo(r, fp, bx0 - x - 40):
+    # piede allineato in basso: l'ultima riga sulla stessa linea del fondo del riquadro
+    righe_piede = [a_capo(r, fp, bx0 - x - 40) for r in q["piede"]]
+    altezza = sum(len(g) for g in righe_piede) * 43 + (len(righe_piede) - 1) * 10 - 43
+    yp = yb - 8 - altezza
+    for gruppo in righe_piede:
+        for rr in gruppo:
             testo(d, (x, yp), rr, fp, "ls")
             yp += 43
         yp += 10

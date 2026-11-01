@@ -1,3 +1,4 @@
+# REVISIONE: riandati a capo i due paragrafi (stesso numero di righe): 'più' e 'leggero/sono' spostati alla riga successiva; righe entro x=1750.
 # Tavola p076 (originale 00061) — Sull'Occultismo
 # Pagina del vecchio sito: 68 (testo/it/68.md)
 # STATO: completa
@@ -52,8 +53,8 @@ testi:
       - "positivo/negativo, maschio/femmina, ecc. Ma a causa"
       - "della crescente pomposità dei rituali ereditati dagli"
       - "antichi metodi degli sciamani, gli occultisti sono"
-      - "rimasti ciechi di fronte a quella che forse sono le più"
-      - "importanti delle coppie di opposti apparenti:"
+      - "rimasti ciechi di fronte a quella che forse sono le"
+      - "più importanti delle coppie di opposti apparenti:"
       - "ORDINE/DISORDINE e SERIO/SCHERZOSO."
 
   - font: IBMPlexMono-Medium.ttf    # dattiloscritto
@@ -69,11 +70,11 @@ testi:
       - "bilanciamento metafisico. Quando i maghi imparano ad"
       - "approcciare la filosofia come un'arte malleabile"
       - "anziché una Verità immutabile e ad apprezzare"
-      - "l'assurdità degli sforzi del genere umano, allora sono"
-      - "capaci di perseguire la loro arte con cuore più leggero"
-      - "e forse raggiungere una comprensione più chiara di"
-      - "essa, e di conseguenza guadagnare maggiori poteri"
-      - "magici. IL CAOS E' ENERGIA."
+      - "l'assurdità degli sforzi del genere umano, allora"
+      - "sono capaci di perseguire la loro arte con cuore più"
+      - "leggero e forse raggiungere una comprensione più"
+      - "chiara di essa, e di conseguenza guadagnare maggiori"
+      - "poteri magici. IL CAOS E' ENERGIA."
 
   - font: IBMPlexMono-Medium.ttf    # dattiloscritto
     corpo: 52

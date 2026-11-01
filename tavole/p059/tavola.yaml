@@ -1,3 +1,4 @@
+# REVISIONE: versetti 1, 4, 5, 6, 7 riandati a capo entro 53 colonne (v. 6 a scala_x 0.92 per restare su 4 righe; v. 7 su 4 righe come l'originale); v. 8 e 9 riportati alle linee di base originali (2626, 2778): nessuna riga oltre x≈1735.
 # Tavola p059 (originale 00044) — Dogma I, Cosmologia: il Libro dell'Utero (1-9)
 # Pagina del vecchio sito: 51 (testo/it/51.md)
 # STATO: completa
@@ -9,8 +10,8 @@
 # REFUSI CORRETTI: "dala Perfetta" -> "dalla Perfetta"; v. 4 "il Buglio rapidamente sottomise il Buglio" -> "... sottomise
 #   la Guazza" (l'originale: "the Podge swiftly underpowered the Hodge"; Hodge = Guazza, Podge = Buglio) — da confermare
 # NdT ESCLUSE: nessuna
-# Il corpo è stretto a scala_x 0.95; i versetti 1-7 partono alle stesse linee di base dell'originale, 8-9 alzati di ~25 px
-#   (il v. 7 italiano occupa una riga in meno).
+# Il corpo è stretto a scala_x 0.95 (v. 6 a 0.92); tutti i versetti partono alle stesse linee di base dell'originale
+#   (il v. 7 occupa 4 righe come nell'originale).
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 
 pagina_pdf: 59
@@ -73,8 +74,8 @@ testi:
     y: 906
     righe:
       - "1. Prima del principio vi era il Cao non-esistente,"
-      - "bilanciato nell'Oblio dalla Perfetta Controtirospinta di"
-      - "Guazza e Buglio."
+      - "bilanciato nell'Oblio dalla Perfetta"
+      - "Controtirospinta di Guazza e Buglio."
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
@@ -105,9 +106,9 @@ testi:
     x: 157
     y: 1541
     righe:
-      - "4. Quand'ecco, per la Legge dell'Inversione Negativa,**"
-      - "il Buglio rapidamente sottosopraffece la Guazza e Tutto"
-      - "andò in rovina."
+      - "4. Quand'ecco, per la Legge dell'Inversione"
+      - "Negativa,** il Buglio rapidamente sottosopraffece la"
+      - "Guazza e Tutto andò in rovina."
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
@@ -116,23 +117,23 @@ testi:
     x: 157
     y: 1746
     righe:
-      - "5. E allora emerse la Forza Attiva della Discordia, la"
-      - "Sottile Manifestazione del Cao Non-esistente, a guidare"
-      - "il Tutto sul Sentiero che riconduceva all'Oblio - che"
-      - "poteva non essere perduto tra i Precetti dell'Ordine"
-      - "nella Regione di Thud."
+      - "5. E allora emerse la Forza Attiva della Discordia,"
+      - "la Sottile Manifestazione del Cao Non-esistente, a"
+      - "guidare il Tutto sul Sentiero che riconduceva"
+      - "all'Oblio - che poteva non essere perduto tra i"
+      - "Precetti dell'Ordine nella Regione di Thud."
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
     interlinea: 60
-    scala_x: 0.95
+    scala_x: 0.92
     x: 157
     y: 2078
     righe:
-      - "6. Per quanto era Attiva, la Forza della Discordia entrò"
-      - "nello Stato di Confusione, e in esso copulò con la"
-      - "Regina e generò ERIS, Nostra Signora della Discordia e"
-      - "Palese Manifestazione del Cao Non-esistente."
+      - "6. Per quanto era Attiva, la Forza della Discordia"
+      - "entrò nello Stato di Confusione, e in esso copulò con"
+      - "la Regina e generò ERIS, Nostra Signora della Discordia"
+      - "e Palese Manifestazione del Cao Non-esistente."
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
@@ -142,15 +143,16 @@ testi:
     y: 2349
     righe:
       - "7. E sotto Eris la Confusione si stabilizzò, e fu"
-      - "pertanto chiamata Burocrazia; mentre sotto la Burocrazia"
-      - "Eris si stabilizzò e fu chiamata da allora Discordia."
+      - "pertanto chiamata Burocrazia; mentre sotto la"
+      - "Burocrazia Eris si stabilizzò e fu chiamata da"
+      - "allora Discordia."
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
     interlinea: 60
     scala_x: 0.95
     x: 157
-    y: 2600
+    y: 2626
     righe:
       - "8. A proposito, avvenne che la Stabilizzazione della"
       - "Burocrazia si estinse per una mancanza di carta."
@@ -160,7 +162,7 @@ testi:
     interlinea: 60
     scala_x: 0.95
     x: 157
-    y: 2756
+    y: 2778
     righe:
       - "9. E ciò fu, secondo la Legge delle Leggi."
 

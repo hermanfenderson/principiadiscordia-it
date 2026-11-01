@@ -1,3 +1,4 @@
+# REVISIONE: "HO CHI ZEN": l'apostrofo di "E'" (che in Patrick Hand sale 24 px sopra le maiuscole) toccava la "I" di CHI facendola leggere "CHJ"; "E" e apostrofo ora sono elementi separati, con l'apostrofo abbassato di 24 px all'altezza delle maiuscole. Stessa posizione e corpo.
 # Tavola p033 (originale 00018) — fine del mito della Mela, King Kong, Le Ere
 # Pagina del vecchio sito: 25 (testo/it/25.md)
 # STATO: completa
@@ -144,4 +145,7 @@ testi:
     interlinea: 92
     x: 1360
     y: 2408
-    righe: ["HO CHI ZEN", "E'", "KING CONG"]
+    righe: ["HO CHI ZEN", "", "KING CONG"]
+
+  - {font: PatrickHand-Regular.ttf, corpo: 118, x: 1324, y: 2500, righe: ["E"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 118, x: 1376, y: 2524, righe: ["'"]}   # apostrofo abbassato all'altezza delle maiuscole

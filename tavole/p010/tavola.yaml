@@ -44,11 +44,11 @@ testi:
   - {<<: *tondo, x: 158, y: 690, righe: ["mento, alle volte dicendo la verità, \u200aalle volte spargendo le"]}
   - {<<: *tondo, x: 1597, y: 690, allinea: destra, righe: ["più"]}
   - {<<: *tondo, x: 158, y: 754, righe: ["ignobili bugie e panzane che potessimo escogitare fnord."]}
-  - {<<: *tondo, x: 216, y: 891, righe: ["Perchè \u200ano? \u200asentivamo che \u200aquesto \u200alibro \u200aera un \u200avero"]}
+  - {<<: *tondo, x: 216, y: 891, righe: ["Perché \u200ano? \u200asentivamo che \u200aquesto \u200alibro \u200aera un \u200avero"]}
   - {<<: *tondo, x: 1597, y: 891, allinea: destra, righe: ["Clas-"]}
   - {<<: *tondo, x: 158, y: 956, righe: ["sico"]}
   - {<<: *corsivo, x: 288, y: 956, righe: ["(literatus \u200a\u200a\u200a\u200aimmortalis)"]}
-  - {<<: *tondo, x: 826, y: 956, righe: ["e \u200a\u200a\u200a\u200ache, \u200a\u200a\u200apoichè \u200a\u200a\u200a\u200ala \u200a\u200a\u200a\u200apresunta"]}
+  - {<<: *tondo, x: 826, y: 956, righe: ["e \u200a\u200a\u200a\u200ache, \u200a\u200a\u200apoiché \u200a\u200a\u200a\u200ala \u200a\u200a\u200a\u200apresunta"]}
   - {<<: *tondo, x: 1597, y: 956, allinea: destra, righe: ["in-"]}
   - {<<: *tondo, x: 158, y: 1020, righe: ["telligentsia non \u200al'aveva ancora scoperto, il \u200amodo migliore"]}
   - {<<: *tondo, x: 1597, y: 1020, allinea: destra, righe: ["per"]}

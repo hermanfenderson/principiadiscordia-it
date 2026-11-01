@@ -1,3 +1,4 @@
+# REVISIONE: titolo "Il / Segreto / d'Oro" con interlinea 138 (era 122) e prima base a y 226: la coda della g non entra più nella O.
 # Tavola p089 (originale 00074) — Parte Quinta: Il Segreto d'Oro / Il nonsense come salvezza
 # Pagina del vecchio sito: 81 (testo/it/81.md)
 # STATO: completa
@@ -79,9 +80,9 @@ testi:
   - font: EBGaramond-VF.ttf
     corpo: 134
     peso: 600
-    interlinea: 122
+    interlinea: 138
     x: 918
-    y: 235
+    y: 226
     righe: ["Il", "Segreto", "d'Oro"]
 
   - font: IBMPlexMono-Medium.ttf
@@ -121,7 +122,7 @@ testi:
     x: 55
     y: 1691
     testo: >-
-      Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perchè gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quindi con buone intenzioni nell'animo e amore nel suo essere.
+      Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perché gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quindi con buone intenzioni nell'animo e amore nel suo essere.
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52

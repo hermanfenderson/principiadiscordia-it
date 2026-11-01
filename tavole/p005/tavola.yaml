@@ -1,3 +1,4 @@
+# REVISIONE: paragrafi riimpaginati con a capo ottimizzato (minima spaziatura in eccesso) e scala_x per riga tra 0.97 e 1.04: niente più spazi enormi ("Loompanics del leggendario...", "Per questa nuova ristampa..."); un rigo in meno per i paragrafi 1-3, chiusa risalita a y 1606.
 # Tavola p005 — Prefazione alla nuova edizione Loompanics (pagina dell'editore)
 # Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p005.md
 # STATO: completa
@@ -7,7 +8,7 @@
 #   per elemento: componi.py non giustifica) e senza corsivo (Jost non ha corsivo e componi.py non inclina): «Quinta Edizione»,
 #   (Omar Khayyam Ravenhurst), (Malaclypse il Giovane) in tondo; chiusa in Jost Bold tondo.
 #   Corpo 55 (Jost ha l'occhio più piccolo dell'Helvetica), interlinea 56 come l'originale; Jost è più
-#   stretto dell'Helvetica spaziata dell'originale: allargato con scala_x 1.04 e grassetto 0.6. Titolo ridotto (adatta) alla
+#   stretto dell'Helvetica spaziata dell'originale: allargato con scala_x 1.04 (0.97-1.04 riga per riga, vedi REVISIONE) e grassetto 0.6. Titolo ridotto (adatta) alla
 #   larghezza del titolo inglese.
 # REFUSI CORRETTI: nessuno
 # NdT ESCLUSE: nessuna
@@ -20,7 +21,7 @@ cancella:
   - [130, 280, 1710, 1600]     # tutto il testo
 
 testi:
-  - font: Jost-Bold.ttf    # titolo
+  - font: Jost-Bold.ttf
     corpo: 67
     adatta: 1470
     allinea: centro
@@ -29,11 +30,10 @@ testi:
     righe:
       - "PREFAZIONE ALLA NUOVA EDIZIONE LOOMPANICS"
 
-  # --- paragrafo: Siamo orgogliosi di presentare la second...
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
+    scala_x: 0.97
     x: 237
     y: 430
     righe:
@@ -42,8 +42,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 438
+    scala_x: 0.97
+    x: 393
     y: 430
     righe:
       - "orgogliosi"
@@ -51,8 +51,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 733
+    scala_x: 0.97
+    x: 637
     y: 430
     righe:
       - "di"
@@ -60,8 +60,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 831
+    scala_x: 0.97
+    x: 697
     y: 430
     righe:
       - "presentare"
@@ -69,8 +69,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1135
+    scala_x: 0.97
+    x: 949
     y: 430
     righe:
       - "la"
@@ -78,8 +78,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1227
+    scala_x: 0.97
+    x: 1004
     y: 430
     righe:
       - "seconda"
@@ -87,8 +87,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1479
+    scala_x: 0.97
+    x: 1208
     y: 430
     righe:
       - "ristampa"
@@ -96,17 +96,17 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 486
+    scala_x: 0.97
+    x: 1414
+    y: 430
     righe:
       - "Loompanics"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 559
+    scala_x: 1.01
+    x: 187
     y: 486
     righe:
       - "del"
@@ -114,8 +114,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 718
+    scala_x: 1.01
+    x: 279
     y: 486
     righe:
       - "leggendario"
@@ -123,8 +123,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1095
+    scala_x: 1.01
+    x: 583
     y: 486
     righe:
       - "classico"
@@ -132,8 +132,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1367
+    scala_x: 1.01
+    x: 785
     y: 486
     righe:
       - "underground"
@@ -141,18 +141,18 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 542
+    scala_x: 1.01
+    x: 1111
+    y: 486
     righe:
       - "PRINCIPIA"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 480
-    y: 542
+    scala_x: 1.01
+    x: 1381
+    y: 486
     righe:
       - "DISCORDIA,"
 
@@ -160,7 +160,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 826
+    x: 187
     y: 542
     righe:
       - "la"
@@ -169,7 +169,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 902
+    x: 258
     y: 542
     righe:
       - "bibbia"
@@ -178,7 +178,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1092
+    x: 443
     y: 542
     righe:
       - "del"
@@ -187,7 +187,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1203
+    x: 548
     y: 542
     righe:
       - "Discordianesimo."
@@ -196,7 +196,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1656
+    x: 995
     y: 542
     righe:
       - "Il"
@@ -205,8 +205,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 187
-    y: 598
+    x: 1052
+    y: 542
     righe:
       - "Discordianesimo,"
 
@@ -214,8 +214,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 629
-    y: 598
+    x: 1500
+    y: 542
     righe:
       - "fondato"
 
@@ -223,7 +223,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 836
+    x: 187
     y: 598
     righe:
       - "sul"
@@ -232,7 +232,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 927
+    x: 279
     y: 598
     righe:
       - "culto"
@@ -241,7 +241,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1067
+    x: 421
     y: 598
     righe:
       - "di"
@@ -250,7 +250,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1138
+    x: 494
     y: 598
     righe:
       - "Eris,"
@@ -259,7 +259,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1269
+    x: 627
     y: 598
     righe:
       - "la"
@@ -268,7 +268,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1334
+    x: 694
     y: 598
     righe:
       - "dea"
@@ -277,7 +277,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1448
+    x: 809
     y: 598
     righe:
       - "greca"
@@ -286,7 +286,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1608
+    x: 971
     y: 598
     righe:
       - "del"
@@ -295,8 +295,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 187
-    y: 654
+    x: 1072
+    y: 598
     righe:
       - "caos"
 
@@ -304,8 +304,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 314
-    y: 654
+    x: 1207
+    y: 598
     righe:
       - "e"
 
@@ -313,8 +313,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 360
-    y: 654
+    x: 1263
+    y: 598
     righe:
       - "della"
 
@@ -322,8 +322,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 494
-    y: 654
+    x: 1405
+    y: 598
     righe:
       - "confusione,"
 
@@ -331,7 +331,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 790
+    x: 187
     y: 654
     righe:
       - "fu"
@@ -340,7 +340,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 853
+    x: 255
     y: 654
     righe:
       - "inventato"
@@ -349,7 +349,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1085
+    x: 490
     y: 654
     righe:
       - "da"
@@ -358,7 +358,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1163
+    x: 572
     y: 654
     righe:
       - "Kerry"
@@ -367,7 +367,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1306
+    x: 719
     y: 654
     righe:
       - "Thornley"
@@ -376,7 +376,7 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1528
+    x: 944
     y: 654
     righe:
       - "(Omar"
@@ -385,16 +385,42 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 187
-    y: 710
+    x: 1120
+    y: 654
     righe:
-      - "Khayyam Ravenhurst) e Greg Hill (Malaclypse il Giovane)."
+      - "Khayyam"
 
-  # --- paragrafo: I PRINCIPIA DISCORDIA furono scritti da ...
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
+    x: 1355
+    y: 654
+    righe:
+      - "Ravenhurst)"
+
+  - font: Jost-Regular.ttf
+    corpo: 55
+    grassetto: 0.6
+    scala_x: 1.04
+    x: 1654
+    y: 654
+    righe:
+      - "e"
+
+  - font: Jost-Regular.ttf
+    corpo: 55
+    grassetto: 0.6
+    scala_x: 1.04
+    x: 187
+    y: 710
+    righe:
+      - "Greg Hill (Malaclypse il Giovane)."
+
+  - font: Jost-Regular.ttf
+    corpo: 55
+    grassetto: 0.6
+    scala_x: 0.97
     x: 237
     y: 780
     righe:
@@ -403,8 +429,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 312
+    scala_x: 0.97
+    x: 267
     y: 780
     righe:
       - "PRINCIPIA"
@@ -412,8 +438,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 631
+    scala_x: 0.97
+    x: 524
     y: 780
     righe:
       - "DISCORDIA"
@@ -421,8 +447,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 983
+    scala_x: 0.97
+    x: 812
     y: 780
     righe:
       - "furono"
@@ -430,8 +456,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1201
+    scala_x: 0.97
+    x: 975
     y: 780
     righe:
       - "scritti"
@@ -439,8 +465,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1390
+    scala_x: 0.97
+    x: 1110
     y: 780
     righe:
       - "da"
@@ -448,8 +474,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1511
+    scala_x: 0.97
+    x: 1183
     y: 780
     righe:
       - "Hill"
@@ -457,8 +483,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1654
+    scala_x: 0.97
+    x: 1276
     y: 780
     righe:
       - "e"
@@ -466,17 +492,17 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 836
+    scala_x: 0.97
+    x: 1320
+    y: 780
     righe:
       - "comprendevano"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 624
+    scala_x: 1.02
+    x: 187
     y: 836
     righe:
       - "materiale"
@@ -484,8 +510,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 891
+    scala_x: 1.02
+    x: 420
     y: 836
     righe:
       - "di"
@@ -493,8 +519,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 986
+    scala_x: 1.02
+    x: 485
     y: 836
     righe:
       - "Thornley."
@@ -502,8 +528,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1252
+    scala_x: 1.02
+    x: 717
     y: 836
     righe:
       - "Questa"
@@ -511,8 +537,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1469
+    scala_x: 1.02
+    x: 900
     y: 836
     righe:
       - "religione"
@@ -520,44 +546,44 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 892
+    scala_x: 1.02
+    x: 1128
+    y: 836
     righe:
       - "strana"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 356
-    y: 892
+    scala_x: 1.02
+    x: 1285
+    y: 836
     righe:
       - "e"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 414
-    y: 892
+    scala_x: 1.02
+    x: 1331
+    y: 836
     righe:
       - "significativa"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 725
-    y: 892
+    scala_x: 1.02
+    x: 1627
+    y: 836
     righe:
       - "ha"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 810
+    scala_x: 1.01
+    x: 187
     y: 892
     righe:
       - "conquistato"
@@ -565,8 +591,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1113
+    scala_x: 1.01
+    x: 471
     y: 892
     righe:
       - "il"
@@ -574,8 +600,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1169
+    scala_x: 1.01
+    x: 516
     y: 892
     righe:
       - "cuore"
@@ -583,8 +609,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1334
+    scala_x: 1.01
+    x: 666
     y: 892
     righe:
       - "e"
@@ -592,8 +618,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1392
+    scala_x: 1.01
+    x: 711
     y: 892
     righe:
       - "la"
@@ -601,8 +627,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1460
+    scala_x: 1.01
+    x: 768
     y: 892
     righe:
       - "mente"
@@ -610,8 +636,8 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1636
+    scala_x: 1.01
+    x: 928
     y: 892
     righe:
       - "di"
@@ -619,36 +645,36 @@ testi:
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 948
+    scala_x: 1.01
+    x: 991
+    y: 892
     righe:
       - "molte"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 358
-    y: 948
+    scala_x: 1.01
+    x: 1136
+    y: 892
     righe:
       - "persone,"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 608
-    y: 948
+    scala_x: 1.01
+    x: 1357
+    y: 892
     righe:
       - "e"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 676
-    y: 948
+    scala_x: 1.01
+    x: 1403
+    y: 892
     righe:
       - "Loompanics"
 
@@ -656,108 +682,71 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1003
-    y: 948
-    righe:
-      - "Unlimited"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1272
-    y: 948
-    righe:
-      - "è"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1340
-    y: 948
-    righe:
-      - "orgogliosa"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1636
-    y: 948
-    righe:
-      - "di"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
     x: 187
-    y: 1004
+    y: 948
     righe:
-      - "mantenerla in circolazione."
+      - "Unlimited è orgogliosa di mantenerla in circolazione."
 
-  # --- paragrafo: Per questa nuova ristampa abbiamo aggiun...
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
+    scala_x: 1.01
     x: 237
-    y: 1074
+    y: 1018
     righe:
       - "Per"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 404
-    y: 1074
+    scala_x: 1.01
+    x: 331
+    y: 1018
     righe:
       - "questa"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 648
-    y: 1074
+    scala_x: 1.01
+    x: 500
+    y: 1018
     righe:
       - "nuova"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 880
-    y: 1074
+    scala_x: 1.01
+    x: 656
+    y: 1018
     righe:
       - "ristampa"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1171
-    y: 1074
+    scala_x: 1.01
+    x: 871
+    y: 1018
     righe:
       - "abbiamo"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1470
-    y: 1074
+    scala_x: 1.01
+    x: 1093
+    y: 1018
     righe:
       - "aggiunto"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 1130
+    scala_x: 1.01
+    x: 1317
+    y: 1018
     righe:
       - "un'Introduzione"
 
@@ -765,8 +754,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 613
-    y: 1130
+    x: 187
+    y: 1074
     righe:
       - "mai"
 
@@ -774,8 +763,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 748
-    y: 1130
+    x: 300
+    y: 1074
     righe:
       - "pubblicata"
 
@@ -783,8 +772,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1049
-    y: 1130
+    x: 579
+    y: 1074
     righe:
       - "prima"
 
@@ -792,8 +781,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1237
-    y: 1130
+    x: 744
+    y: 1074
     righe:
       - "di"
 
@@ -801,8 +790,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1333
-    y: 1130
+    x: 818
+    y: 1074
     righe:
       - "Robert"
 
@@ -810,8 +799,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1540
-    y: 1130
+    x: 1003
+    y: 1074
     righe:
       - "Anton"
 
@@ -819,8 +808,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 187
-    y: 1186
+    x: 1172
+    y: 1074
     righe:
       - "Wilson,"
 
@@ -828,8 +817,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 402
-    y: 1186
+    x: 1385
+    y: 1074
     righe:
       - "uno"
 
@@ -837,8 +826,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 522
-    y: 1186
+    x: 1502
+    y: 1074
     righe:
       - "dei"
 
@@ -846,89 +835,89 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 627
-    y: 1186
+    x: 1606
+    y: 1074
     righe:
       - "più"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 733
-    y: 1186
+    scala_x: 1.01
+    x: 187
+    y: 1130
     righe:
       - "grandi"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 918
-    y: 1186
+    scala_x: 1.01
+    x: 358
+    y: 1130
     righe:
       - "profeti"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1104
-    y: 1186
+    scala_x: 1.01
+    x: 529
+    y: 1130
     righe:
       - "del"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1207
-    y: 1186
+    scala_x: 1.01
+    x: 621
+    y: 1130
     righe:
       - "Discordianesimo,"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1654
-    y: 1186
+    scala_x: 1.01
+    x: 1045
+    y: 1130
     righe:
       - "e"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 1242
+    scala_x: 1.01
+    x: 1092
+    y: 1130
     righe:
       - "una"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 305
-    y: 1242
+    scala_x: 1.01
+    x: 1195
+    y: 1130
     righe:
       - "Postfazione"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 610
-    y: 1242
+    scala_x: 1.01
+    x: 1479
+    y: 1130
     righe:
       - "nuova"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 783
-    y: 1242
+    scala_x: 1.01
+    x: 1637
+    y: 1130
     righe:
       - "di"
 
@@ -936,8 +925,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 862
-    y: 1242
+    x: 187
+    y: 1186
     righe:
       - "zecca"
 
@@ -945,8 +934,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1030
-    y: 1242
+    x: 345
+    y: 1186
     righe:
       - "(mai"
 
@@ -954,8 +943,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1165
-    y: 1242
+    x: 472
+    y: 1186
     righe:
       - "pubblicata"
 
@@ -963,8 +952,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1448
-    y: 1242
+    x: 745
+    y: 1186
     righe:
       - "prima)"
 
@@ -972,8 +961,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1636
-    y: 1242
+    x: 923
+    y: 1186
     righe:
       - "di"
 
@@ -981,8 +970,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 187
-    y: 1298
+    x: 992
+    y: 1186
     righe:
       - "Greg"
 
@@ -990,8 +979,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 339
-    y: 1298
+    x: 1138
+    y: 1186
     righe:
       - "Hill,"
 
@@ -999,8 +988,8 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 466
-    y: 1298
+    x: 1260
+    y: 1186
     righe:
       - "l'autore"
 
@@ -1008,89 +997,89 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 667
-    y: 1298
+    x: 1455
+    y: 1186
     righe:
       - "originale."
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 922
-    y: 1298
+    scala_x: 1.0
+    x: 187
+    y: 1242
     righe:
       - "Sono"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1073
-    y: 1298
+    scala_x: 1.0
+    x: 324
+    y: 1242
     righe:
       - "inclusi"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1253
-    y: 1298
+    scala_x: 1.0
+    x: 490
+    y: 1242
     righe:
       - "anche"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1425
-    y: 1298
+    scala_x: 1.0
+    x: 646
+    y: 1242
     righe:
       - "la"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 1492
-    y: 1298
+    scala_x: 1.0
+    x: 703
+    y: 1242
     righe:
       - "«Quinta"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 187
-    y: 1354
+    scala_x: 1.0
+    x: 905
+    y: 1242
     righe:
       - "Edizione»,"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 469
-    y: 1354
+    scala_x: 1.0
+    x: 1170
+    y: 1242
     righe:
       - "mai"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 581
-    y: 1354
+    scala_x: 1.0
+    x: 1272
+    y: 1242
     righe:
       - "pubblicata"
 
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
-    scala_x: 1.04
-    x: 858
-    y: 1354
+    scala_x: 1.0
+    x: 1532
+    y: 1242
     righe:
       - "prima,"
 
@@ -1098,72 +1087,17 @@ testi:
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
-    x: 1040
-    y: 1354
-    righe:
-      - "e"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1094
-    y: 1354
-    righe:
-      - "un"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1179
-    y: 1354
-    righe:
-      - "collage"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1379
-    y: 1354
-    righe:
-      - "di"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1451
-    y: 1354
-    righe:
-      - "Greg"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
-    x: 1601
-    y: 1354
-    righe:
-      - "Hill"
-
-  - font: Jost-Regular.ttf
-    corpo: 55
-    grassetto: 0.6
-    scala_x: 1.04
     x: 187
-    y: 1410
+    y: 1298
     righe:
-      - "(anch'esso inedito)."
+      - "e un collage di Greg Hill (anch'esso inedito)."
 
-  # --- paragrafo: A chi volesse saperne di più sulla stori...
   - font: Jost-Regular.ttf
     corpo: 55
     grassetto: 0.6
     scala_x: 1.04
     x: 237
-    y: 1480
+    y: 1368
     righe:
       - "A"
 
@@ -1172,7 +1106,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 301
-    y: 1480
+    y: 1368
     righe:
       - "chi"
 
@@ -1181,7 +1115,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 399
-    y: 1480
+    y: 1368
     righe:
       - "volesse"
 
@@ -1190,7 +1124,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 598
-    y: 1480
+    y: 1368
     righe:
       - "saperne"
 
@@ -1199,7 +1133,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 816
-    y: 1480
+    y: 1368
     righe:
       - "di"
 
@@ -1208,7 +1142,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 889
-    y: 1480
+    y: 1368
     righe:
       - "più"
 
@@ -1217,7 +1151,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 993
-    y: 1480
+    y: 1368
     righe:
       - "sulla"
 
@@ -1226,7 +1160,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1126
-    y: 1480
+    y: 1368
     righe:
       - "storia"
 
@@ -1235,7 +1169,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1282
-    y: 1480
+    y: 1368
     righe:
       - "e"
 
@@ -1244,7 +1178,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1337
-    y: 1480
+    y: 1368
     righe:
       - "lo"
 
@@ -1253,7 +1187,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1407
-    y: 1480
+    y: 1368
     righe:
       - "sviluppo"
 
@@ -1262,7 +1196,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1636
-    y: 1480
+    y: 1368
     righe:
       - "di"
 
@@ -1271,7 +1205,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 187
-    y: 1536
+    y: 1424
     righe:
       - "questa"
 
@@ -1280,7 +1214,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 370
-    y: 1536
+    y: 1424
     righe:
       - "insolita"
 
@@ -1289,7 +1223,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 565
-    y: 1536
+    y: 1424
     righe:
       - "religione"
 
@@ -1298,7 +1232,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 806
-    y: 1536
+    y: 1424
     righe:
       - "consigliamo"
 
@@ -1307,7 +1241,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1123
-    y: 1536
+    y: 1424
     righe:
       - "di"
 
@@ -1316,7 +1250,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1197
-    y: 1536
+    y: 1424
     righe:
       - "consultare"
 
@@ -1325,7 +1259,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1468
-    y: 1536
+    y: 1424
     righe:
       - "COSMIC"
 
@@ -1334,7 +1268,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 187
-    y: 1592
+    y: 1480
     righe:
       - "TRIGGER"
 
@@ -1343,7 +1277,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 438
-    y: 1592
+    y: 1480
     righe:
       - "di"
 
@@ -1352,7 +1286,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 512
-    y: 1592
+    y: 1480
     righe:
       - "Robert"
 
@@ -1361,7 +1295,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 697
-    y: 1592
+    y: 1480
     righe:
       - "Anton"
 
@@ -1370,7 +1304,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 866
-    y: 1592
+    y: 1480
     righe:
       - "Wilson"
 
@@ -1379,7 +1313,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1061
-    y: 1592
+    y: 1480
     righe:
       - "(And/Or"
 
@@ -1388,7 +1322,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1299
-    y: 1592
+    y: 1480
     righe:
       - "Press,"
 
@@ -1397,7 +1331,7 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 1467
-    y: 1592
+    y: 1480
     righe:
       - "Berkeley,"
 
@@ -1406,15 +1340,14 @@ testi:
     grassetto: 0.6
     scala_x: 1.04
     x: 187
-    y: 1648
+    y: 1536
     righe:
       - "1977)."
 
-  - font: Jost-Bold.ttf    # chiusa (corsivo nero nell'originale)
+  - font: Jost-Bold.ttf
     corpo: 55
     scala_x: 1.04
     x: 237
-    y: 1718
+    y: 1606
     righe:
       - "E ora: avanti con i PRINCIPIA DISCORDIA!!!"
-

@@ -33,7 +33,7 @@ La leggenda, il mistero, il culto crebbero lentamente. A metà degli anni settan
 stavano parlando dei Principia, e considerato che l'originale era andato fuori stampa in quel periodo,
 copie fotostatiche cominciarono a circolare qua e là.
 
-Quando la Illuminatus trilogy apparve nel 1975, il mio co-autore, Bob Shea, e io ricevemmo entrambi centinaia di lettere
+Quando la Illuminatus trilogia apparve nel 1975, il mio co-autore, Bob Shea, e io ricevemmo entrambi centinaia di lettere
 
 ---
 
@@ -44,7 +44,7 @@ Quando la Illuminatus trilogy apparve nel 1975, il mio co-autore, Bob Shea, e io
 da persone incuriosite dalle citazioni tratte dai Principia con cui erano decorati i capoversi di diversi capitoli. Molti, che avevano già sentito parlare dei Principia o visto delle copie, chiedevano se l'avessimo scritto io e Shea, o se ce ne fossero copie disponibili. Altri scrivevano per chiedere se fossero reali, o se fossero semplicemente qualcosa che avevamo inventato come H.P. Lovecraft aveva fatto per il Necronomicon.
 Rispondevamo secondo l'umore del momento, alle volte dicendo la verità, alle volte spargendo le più ignobili bugie e panzane che potessimo escogitare fnord.
 
-Perchè no? sentivamo che questo libro era un vero Classico (literatus immortalis) e che, poichè la presunta intelligentsia non l'aveva ancora scoperto, il modo migliore per mantenere la sua leggenda viva era di incoraggiare la mitologia e le controversie su di esso.
+Perché no? Sentivamo che questo libro era un vero Classico (literatus immortalis) e che, poiché la presunta intelligentsia non l'aveva ancora scoperto, il modo migliore per mantenere la sua leggenda viva era di incoraggiare la mitologia e le controversie su di esso.
 Insistentemente, persone mi scrissero per chiedermi se lo avesse scritto Timothy Leary, cosa che ho quasi sempre confermato, tranne il venerdì, quando sono più stravagante, in cui dicevo che mi era stato trasmesso da un'intelligenza canina -- vasta, fredda e distaccata -- dalla Stella del Cane, Sirio.
 
 Ora, finalmente, la verità può essere raccontata.
@@ -134,7 +134,7 @@ PM: Come può essere?
 
 M2: Che ne so, amico, mica l'ho fatto io.
 
-PM: Perchè affronti tante negatività?
+PM: Perché affronti tante negatività?
 
 M2: Per dissolverle.
 
@@ -428,7 +428,7 @@ Preside della Cabala di Campo Meeker
 Un serio, giovane uomo provava confusione nei conflitti dell'America
 della metà del ventesimo secolo.
 Era andato da molte persone cercando
-una maniera di risolvere in se
+una maniera di risolvere in sé
 i fatti discordanti che lo turbavano,
 ma questi turbamenti rimanevano.
 
@@ -438,7 +438,7 @@ palazzo fatiscente
 che si trova all'indirizzo che ho scritto qui per
 te.
 Non parlare a coloro che ci vivono: dovrai rimanere in silenzio
-finche' la luna
+finché la luna
 non sorgerà domani notte. Vai nella grande stanza
 sulla destra dell'atrio
 principale, siedi nella posizione del loto sui
@@ -518,7 +518,7 @@ I due erano storditi e non si mossero, né parlarono per alcuni minuti. Si guard
 
 [immagine: Girdle.png]
 
-Allora, entrò nella stanza uno scimpanzé, peloso e grigio sul muso, in posizione verticale per tutti i suoi cinque piedi di statura, e in bilico con una maestosità naturale. Portava con se una pergamena e si diresse verso i giovani.
+Allora, entrò nella stanza uno scimpanzé, peloso e grigio sul muso, in posizione verticale per tutti i suoi cinque piedi di statura, e in bilico con una maestosità naturale. Portava con sé una pergamena e si diresse verso i giovani.
 
 "Signori," disse, "Perché la luna di Pickering gira in orbita inversa? Signori, avete capezzoli sul petto, producono latte? e che cosa, di grazia, signori, si deve fare della legge di Heisenberg?" Fece una pausa. "QUALCUNO DOVEVA METTERE TUTTA QUESTA CONFUSIONE QUI!"
 
@@ -528,9 +528,9 @@ ERIS - Dea del Caos, Discordia e Confusione
 
 Si svegliarono al frastuono dei birilli e ritrovarono i giocatori di bowling intenti nel loro gioco e la cameriera impegnata a fare il caffè. Era evidente che la loro esperienza era rimasta un fatto privato.
 
-Essi discussero il loro strano incontro e ricostruirono a memoria il diagramma dello scimpanzè. Nei cinque giorni successivi cercarono nelle biblioteche il suo significato ma rimasero delusi trovando solo i riferimenti al taoismo, alla bandiera coreana, e alla tecnocrazia. Fu solo quando identificarono la scritta greca sulla mela che scoprirono l'antica dea conosciuta dai Greci come Eris e dai romani come Discordia. Ciò accadde la quinta notte, e quando si addormentarono, ognuno sognò vividamente una splendida donna i cui occhi erano morbidi come una piuma e profondi come l'eternità stessa, e il cui corpo era una spettacolare danza di atomi e di universi. I suoi capelli fluenti erano pirotecniche di energia pura e arcobaleni si manifestavano e dissolvevano, mentre parlava con una voce calda e gentile:
+Essi discussero il loro strano incontro e ricostruirono a memoria il diagramma dello scimpanzé. Nei cinque giorni successivi cercarono nelle biblioteche il suo significato ma rimasero delusi trovando solo i riferimenti al taoismo, alla bandiera coreana, e alla tecnocrazia. Fu solo quando identificarono la scritta greca sulla mela che scoprirono l'antica dea conosciuta dai Greci come Eris e dai romani come Discordia. Ciò accadde la quinta notte, e quando si addormentarono, ognuno sognò vividamente una splendida donna i cui occhi erano morbidi come una piuma e profondi come l'eternità stessa, e il cui corpo era una spettacolare danza di atomi e di universi. I suoi capelli fluenti erano pirotecniche di energia pura e arcobaleni si manifestavano e dissolvevano, mentre parlava con una voce calda e gentile:
 
-Sono venuta a dirvi che siete liberi. Molte ere fa, la coscienza di me abbandonò l'uomo affinchè potesse sviluppare se stesso. Torno per trovare questo sviluppo vicino al completamento, ma minacciato da paura e incomprensione.
+Sono venuta a dirvi che siete liberi. Molte ere fa, la coscienza di me abbandonò l'uomo affinché potesse sviluppare se stesso. Torno per trovare questo sviluppo vicino al completamento, ma minacciato da paura e incomprensione.
 
 ---
 
@@ -598,7 +598,7 @@ STROFA
 
 Ella non fu invitata alla festa che si tenne a "Limbo Peak"\*;
 
-Allora, lanciò una Mela d'Oro, anzichè porgere l'altra guancia!
+Allora, lanciò una Mela d'Oro, anziché porgere l'altra guancia!
 
 Oh, essa ruppe la Sacra Coppa del Punch e fece colare il suo nettare;
 
@@ -696,7 +696,7 @@ La sua genealogia ci viene dai Greci ed è estremamente confusa. Ella era gemell
 Un giorno Mal-2 consultò la sua Ghiandola Pineale e chiese a Eris se Ella avesse veramente creato tutte quelle cose orribili. Ella gli disse che gli Antichi Greci le erano sempre piaciuti ma che non potevano essere considerati affidabili in fatto di storia.
 "Sai", aggiunse, "erano vittime di indigestioni"
 
-Ciò basti a dire che Eris non è odiosa o dannosa. Ma è maliziosa, e può diventare un pò stronza alle volte.
+Ciò basti a dire che Eris non è odiosa o dannosa. Ma è maliziosa, e può diventare un po' stronza alle volte.
 
 \*LA GHIANDOLA PINEALE è il luogo in cui ciascuno di noi può parlare con Eris. Se avete problemi ad attivare la Pineale, allora usate l'appendice che è quasi la stessa cosa: Rif: DOGMA I, METAFISICA #3, "L'indottrina della Ghiandola Pineale"
 
@@ -728,7 +728,7 @@ Negli Archivi Erisiani c'è un vecchio appunto di Omar per Mal-2: "Noto che la L
 
 I Naga dell'alto Burma dicono che il sole
 
-brilla di giorno perchè, essendo una donna, ha
+brilla di giorno perché, essendo una donna, ha
 
 timore di avventurarsi fuori di notte.
 
@@ -746,7 +746,7 @@ Sembra che Zeus stava preparando un banchetto nuziale per Peleo e Tetis e non vo
 
 Questo fece infuriare Eris, e perciò Ella preparò una mela di oro puro\*\* sulla quale era iscritto KALLISTI ("alla Più Bella") e il giorno della festa la fece rotolare nella sala del banchetto e quindi se ne andò da sola a gustarsi gioiosamente un hot dog.
 
-A quel punto, tre delle dee invitate, Atena, Era e Afrodite, affermarono, ciascuna, che la mela, considerata l'iscrizione, apparteneva a una di loro. E cominciarono a combattere prendendosi a pugni tra loro e con tutto cio' che avevano intorno.
+A quel punto, tre delle dee invitate, Atena, Era e Afrodite, affermarono, ciascuna, che la mela, considerata l'iscrizione, apparteneva a una di loro. E cominciarono a combattere prendendosi a pugni tra loro e con tutto ciò che avevano intorno.
 
 Alla fine Zeus calmò la situazione e dichiarò che doveva essere scelto un arbitro, il che era un suggerimento ragionevole, e tutti furono d'accordo. Egli le mandò da un pastore di Troia, il cui nome era Paride (Paris) perché la madre si era fatta un sacco di galli e aveva sposato un francese; ma ciascuna delle subdole dee cercò di battere in astuzia le altre arrivando prima e cercando di corromperlo.
 
@@ -758,7 +758,7 @@ Atena gli offrì eroiche vittorie militari, Era una enorme ricchezza, e Afrodite
 
 *PDF 33 · `testo/it/25.md`*
 
-E così come ella aveva promesso, manovrando le cose terrestri, Paride potè avere Elena (quella Elena) che all'epoca viveva con suo marito Menelao, Re di Sparta. Comunque, tutti sanno, che da questo seguì la Guerra di Troia quando Sparta chiese indietro la sua Regina e che la Guerra di Troia è considerata la prima Guerra nata tra gli uomini.
+E così come ella aveva promesso, manovrando le cose terrestri, Paride poté avere Elena (quella Elena) che all'epoca viveva con suo marito Menelao, Re di Sparta. Comunque, tutti sanno, che da questo seguì la Guerra di Troia quando Sparta chiese indietro la sua Regina e che la Guerra di Troia è considerata la prima Guerra nata tra gli uomini.
 
 E quindi noi soffriamo a causa di questo Affronto Originale. Ed è per questo che i Discordiani non si sollazzano mai con panini con Hot Dog.
 
@@ -1095,11 +1095,11 @@ Questo Rito Misterico non è necessario per l'iniziazione, ma viene offerto da m
 
 Io, (Nome Sacro completo dei Titoli Mistici, gradi, designazioni, uffici, ecc...), Sacerdote Consacrato della Paratheo-anametamistica Esoterica di Eris, in virtù dell'Autorità a me conferita dal suo Sommo Sacerdote, Ufficio del Polipadre, Casa del Barilotto Sorgente, Tempio Centrale POEE; Chiedo a Te dianzi:
 
-1) SEI TU UN ESSERE UMANO E NON UN CAVOLO O QUALCOSA DEL GENERE? L'Iniziato risponde SI.
+1) SEI TU UN ESSERE UMANO E NON UN CAVOLO O QUALCOSA DEL GENERE? L'Iniziato risponde SÌ.
 
-2) QUESTO E' MOLTO MALE. DESIDERI MIGLIORARE TE STESSO? L'Iniziato risponde SI.
+2) QUESTO E' MOLTO MALE. DESIDERI MIGLIORARE TE STESSO? L'Iniziato risponde SÌ.
 
-3) CHE CRETINO. DESIDERI DIVENTARE FILOSOFICAMENTE ILLUMINATO? Egli risponde SI.
+3) CHE CRETINO. DESIDERI DIVENTARE FILOSOFICAMENTE ILLUMINATO? Egli risponde SÌ.
 
 4) MOLTO BUFFO. DEDICHERAI TE STESSO AL SACRO MOVIMENTO ERISIANO? L'Iniziato risponde E' PROBABILE.
 
@@ -1111,7 +1111,7 @@ Io, (Nome Sacro completo dei Titoli Mistici, gradi, designazioni, uffici, ecc...
 
 5) ALLORA RIPETI ASSIEME A ME:
 
-(Il Sacerdote conduce l'Iniziato nella recita dell'AFFERMAZIONE ERISIANA). Il Sacerdote continua: PERTANTO IO DICHIARO TE DISCEPOLO POEE (nome), LEGIONARIO DELLA DISCORDIA DINAMICA, AVE ERIS! AVE AVE! AVE SI!
+(Il Sacerdote conduce l'Iniziato nella recita dell'AFFERMAZIONE ERISIANA). Il Sacerdote continua: PERTANTO IO DICHIARO TE DISCEPOLO POEE (nome), LEGIONARIO DELLA DISCORDIA DINAMICA, AVE ERIS! AVE AVE! AVE SÌ!
 
 4) Tutti i presenti gioiscono grandemente. Il nuovo Fratello apre una grande damigiana di vino e ne offre a tutti i presenti.
 
@@ -1694,15 +1694,15 @@ PER LA TUA
 
 ILLUMINAZIONE
 
-LA PARABOLA DEL TE AMARO
+LA PARABOLA DEL TÈ AMARO
 
 del Rev. Dr. Ippocrate Magoun, P.P.
 
 SACERDOTE POEE, Cabala di Okinawa
 
-Quando Hypoc finì di meditare con San Gulik, entrò nella cucina dove si accinse a preparare il banchetto e mentre era intento a ciò, scoprì che c'era del vecchio Thè in una pentola avanzato dalla notte precedente, quando egli per sua debolezza si era dimenticato di averlo preparato e con ciò lo aveva lasciato in infusione per 24 ore. Era scuro e torbido ed era intenzione di Hypoc di utilizzare questo vecchio Thè diluendolo con acqua. E nuovamente per la sua debolezza, così decise senza pensarci su e si accinse al lavoro fisico delle preparazioni. Fu allora che profondamente immerso nel piacere di quel trip, sentì nella sua testa, tutto a un tratto una voce che, chiara e con forza, diceva "è il Thè amaro che ti prende tanto." Hypoc ascoltò la voce, ma la lotta interiore si intensificò, e lo schema, che relazionava il suo darsi da fare fisico coi messaggi muscolari e ad essi si coordinava e li unificava o addirittura li codificava, continuava ad esercitare la sua influenza così che Hypoc finì per soccombere a quella pressione e ignorò la voce.
+Quando Hypoc finì di meditare con San Gulik, entrò nella cucina dove si accinse a preparare il banchetto e mentre era intento a ciò, scoprì che c'era del vecchio Tè in una pentola avanzato dalla notte precedente, quando egli per sua debolezza si era dimenticato di averlo preparato e con ciò lo aveva lasciato in infusione per 24 ore. Era scuro e torbido ed era intenzione di Hypoc di utilizzare questo vecchio Tè diluendolo con acqua. E nuovamente per la sua debolezza, così decise senza pensarci su e si accinse al lavoro fisico delle preparazioni. Fu allora che profondamente immerso nel piacere di quel trip, sentì nella sua testa, tutto a un tratto una voce che, chiara e con forza, diceva "è il Tè amaro che ti prende tanto." Hypoc ascoltò la voce, ma la lotta interiore si intensificò, e lo schema, che relazionava il suo darsi da fare fisico coi messaggi muscolari e ad essi si coordinava e li unificava o addirittura li codificava, continuava ad esercitare la sua influenza così che Hypoc finì per soccombere a quella pressione e ignorò la voce.
 
-E di nuovo si immerse in questa orgia fisica e completò il suo compito, e Oh! come la voce aveva predetto, il thè era amaro.
+E di nuovo si immerse in questa orgia fisica e completò il suo compito, e Oh! come la voce aveva predetto, il tè era amaro.
 
 "Le Cinque Leggi hanno le loro radici nella consapevolezza."
 
@@ -1728,7 +1728,7 @@ HBT; Il Vangelo secondo Fred, 3:1
 
 UN SERMONE SU AMORE ED ETICA
 
-Un giorno Mal-2 chiese allo spirito messaggero San Gulik di invocare la Dea e richiedere la Sua presenza per un consiglio disperato. Poco dopo la radio si accese da sola, e una eterea voce femminile, disse SI?
+Un giorno Mal-2 chiese allo spirito messaggero San Gulik di invocare la Dea e richiedere la Sua presenza per un consiglio disperato. Poco dopo la radio si accese da sola, e una eterea voce femminile, disse SÌ?
 
 "Oh! Eris! Madre Benedetta dell'Uomo! Regina del Caos! Figlia di Discordia! Concubina di Confusione! Oh! Signora Magnifica, Ti imploro di alleggerire il grave fardello che pesa sul mio cuore!"
 
@@ -1778,7 +1778,7 @@ Il suo nome è Sanscrito, e significa: Tutte le affermazioni sono vere in
 
 *PDF 55 · `testo/it/47.md`*
 
-un certo senso, false in un certo senso, prive di senso in un certo senso, vere e false in un certo senso, vere e prive di senso in un certo senso, false e prive di senso in un certo senso, e vere, false e prive di senso in un certo senso. Egli è un Principe ed Esperto Indiano, nato nella Tribù Peyotl, figlio del Gentile Capo Seme di Girasole e della squaw Merry Jane. Patrono dei Discordiani del tipo psichedelico. Patrono della Stagione di Confusione. Festa: 31 Mag. NOTA: Sri Syadasti non andrebbe confuso con il Benedetto San Gulik lo Strafatto, che benchè non sia la stessa persona, è lo stesso Apostolo.
+un certo senso, false in un certo senso, prive di senso in un certo senso, vere e false in un certo senso, vere e prive di senso in un certo senso, false e prive di senso in un certo senso, e vere, false e prive di senso in un certo senso. Egli è un Principe ed Esperto Indiano, nato nella Tribù Peyotl, figlio del Gentile Capo Seme di Girasole e della squaw Merry Jane. Patrono dei Discordiani del tipo psichedelico. Patrono della Stagione di Confusione. Festa: 31 Mag. NOTA: Sri Syadasti non andrebbe confuso con il Benedetto San Gulik lo Strafatto, che benché non sia la stessa persona, è lo stesso Apostolo.
 
 4. ZARATHUD L'INCORREGGIBILE, alle volte chiamato ZARATHUD IL DEVOTO
 
@@ -1836,7 +1836,7 @@ IL LIBRO DELLE SPIEGAZIONI, Capitolo 1
 
 10. E avvenne che la quinta notte egli sognò, e in questo sogno, una Visione, e nella Visione apparve un Messaggero di Nostra Signora che gli affidava una scatola di sigari "Rigoletto" con varie cartelle, alcune tenute insieme da elastici, e su quelle cartelle erano a volte scritti versi, mentre su altre nulla era scritto.
 
-11. E allora l'Angelo comandò al Lord: Prendi questo Onesto Libro della Verità nel tuo grembo e custodiscilo. Portalo sulla Terra e Offrilo ai Re delle Nazioni e ai Raccoglitori di Spazzatura. Predica tramite esso ai Giusti, acciocchè possano rinunciare alle loro vie e pentirsi.
+11. E allora l'Angelo comandò al Lord: Prendi questo Onesto Libro della Verità nel tuo grembo e custodiscilo. Portalo sulla Terra e Offrilo ai Re delle Nazioni e ai Raccoglitori di Spazzatura. Predica tramite esso ai Giusti, acciocché possano rinunciare alle loro vie e pentirsi.
 
 \*Hey, amico, fico, mi sento balzano. Un po' come si sentiva il mio vecchio quando era ubriaco...
 
@@ -1852,7 +1852,7 @@ CAOS CONVENZIONALE
 
 FACCIAGRIGIA
 
-Nell'anno 1166 A.C., un frustrato, gobbo nel cervello chiamato Facciagrigia, si ficcò in testa che l'Universo era privo di senso dell'umorismo almeno quanto ne mancava lui, e cominciò a predicare che il gioco era peccato perché contraddiceva la via dell'Ordine Serio. "Guarda tutto l'ordine che c'è attorno a te," diceva. E con ciò, ingannava uomini onesti facendogli credere che la realtà altro non sia altro che una specie di camicia di forza e non la felice avventura che gli uomini conoscevano.
+Nell'anno 1166 a.C., un frustrato, gobbo nel cervello chiamato Facciagrigia, si ficcò in testa che l'Universo era privo di senso dell'umorismo almeno quanto ne mancava lui, e cominciò a predicare che il gioco era peccato perché contraddiceva la via dell'Ordine Serio. "Guarda tutto l'ordine che c'è attorno a te," diceva. E con ciò, ingannava uomini onesti facendogli credere che la realtà altro non sia altro che una specie di camicia di forza e non la felice avventura che gli uomini conoscevano.
 
 Non è al giorno d'oggi chiaro perché gli uomini in quel particolare momento fossero così creduloni, visto che nessuno in assoluto pensò di osservare tutto il disordine che li circondava concludendo così l'esatto contrario. Ma, in ogni caso, Facciagrigia e i suoi seguaci prendevano il gioco del vivere più seriamente di quanto prendessero la stessa vita e erano noti anche per distruggere altri esseri viventi i cui modi di vivere differissero dai loro.
 
@@ -2096,7 +2096,7 @@ Guardiamo al mondo attraverso finestre su cui abbiamo applicato griglie (concett
 
 Una cultura è un gruppo di persone con griglie abbastanza simili. Attraverso una finestra vediamo il caos lo mettiamo in relazione coi punti della nostra griglia e tramite essi lo comprendiamo. L'ORDINE è la GRIGLIA. Questo è il Principio Aneristico.
 
-La filosofia occidentale si è occupata tradizionalmente del contrastare a una griglia un'altra griglia, e implementare griglie nella speranza di trovarne una perfetta che possa tener conto di tutta la realtà ed essere, di conseguenza (dicono gli occidentali non illuminati) Vera. Questa è un illusione: è ciò che noi Erisiani chiamiamo l'ILLUSIONE ANERISTICA. Alcune griglie sono più utili di altre, alcune più belle di altre, alcune più piacevoli di altre, ecc... ma nessuna può essere più Vera delle altre.
+La filosofia occidentale si è occupata tradizionalmente del contrastare a una griglia un'altra griglia, e implementare griglie nella speranza di trovarne una perfetta che possa tener conto di tutta la realtà ed essere, di conseguenza (dicono gli occidentali non illuminati) Vera. Questa è un'illusione: è ciò che noi Erisiani chiamiamo l'ILLUSIONE ANERISTICA. Alcune griglie sono più utili di altre, alcune più belle di altre, alcune più piacevoli di altre, ecc... ma nessuna può essere più Vera delle altre.
 
 il DISORDINE è semplicemente informazioni scorrelate viste attraverso una qualche griglia in particolare. Ma come "relazione", anche nessuna-relazione è un concetto. Maschio, così come femmina, sono una idea collegata al sesso. Dire "maschile è l'assenza di femminile" o viceversa è semplicemente una questione di definizione, metafisicamente arbitraria. Il concetto artificiale di nessuna-relazione è il PRINCIPIO ERISTICO.
 
@@ -2267,7 +2267,7 @@ which is not the same as DOGMA I - METAFISICA #2, "COSMOLOGIA" (Libro dell'Utero
 
 In principio era il VUOTO ed egli aveva due figlie; una (la piccola) era quella dell'ESSERE, chiamata ERIS, e una (la grande) era quella del NON-ESSERE, chiamata ANERIS. (Al giorno d'oggi, la verità fondamentale che Aneris sia la più grande è evidente a tutti coloro che comparino il grande numero di cose che non esistono con il numero relativamente più piccolo di cose che esistono.)
 
-Eris nacque in cinta, e dopo 55 anni (le Dee hanno un periodo di gestazione inusualmente lungo-- più lungo persino di quello degli elefanti), la Sua gravidanza generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE, BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato, Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove cose. E giurò che non importava quanti delle sue creature Aneris avrebbe rubato, Ella ne avrebbe partoriti altri. E, in cambio, Aneris giurò che non importava quante cose Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose non-esistenti per lei. (E al giorno d'oggi, le cose appaiono e scompaiono esattamente in questo modo.)[immagine: PointyFinger.gif]
+Eris nacque incinta, e dopo 55 anni (le Dee hanno un periodo di gestazione inusualmente lungo-- più lungo persino di quello degli elefanti), la Sua gravidanza generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE, BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato, Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove cose. E giurò che non importava quanti delle sue creature Aneris avrebbe rubato, Ella ne avrebbe partoriti altri. E, in cambio, Aneris giurò che non importava quante cose Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose non-esistenti per lei. (E al giorno d'oggi, le cose appaiono e scompaiono esattamente in questo modo.)[immagine: PointyFinger.gif]
 
 ---
 
@@ -2299,7 +2299,7 @@ Che questo fratello, poiché non aveva forma, avrebbe vissuto con Aneris nel Non
 
 "Quando tuo fratello lascerà la residenza dell'Essere non tornerà di nuovo a risiedere nel Non-Essere ma tornerà da me, Nulla, da cui proviene. Voi ragazze potete bisticciare quanto vi pare, ma Mio figlio è vostro fratello e Noi siamo tutti parte di Me."
 
-Ed è per questo che noi uomini non esistiamo finchè iniziamo ad esistere; e allora giochiamo col nostro mondo di cose esistenti e le ordiniamo e disordiniamo e ciò avviene finché non torniamo alla non-esistenza dall'esistenza, e quella spiritualità senza nome ritorna al Vuoto, come un bambino stanco torna a casa da un circo particolarmente selvaggio.
+Ed è per questo che noi uomini non esistiamo finché iniziamo ad esistere; e allora giochiamo col nostro mondo di cose esistenti e le ordiniamo e disordiniamo e ciò avviene finché non torniamo alla non-esistenza dall'esistenza, e quella spiritualità senza nome ritorna al Vuoto, come un bambino stanco torna a casa da un circo particolarmente selvaggio.
 
 [immagine: EverythingIsTrue.gif]\*
 
@@ -2423,7 +2423,7 @@ SISTEMA ASTROLOGICO POEE
 
 2. Una volta fatto questo, scrivimi e ti dirò cosa fare dopo.
 
-Il teorema da dimostrare è che se un numero pari di persone si siede casualmente attorno a un tavolo tondo che abbia segnaposti con i loro nomi, è sempre possibile ruotare il tavolo finchè almeno due persone non siano di fronte ai loro segnaposti. Procediamo per assurdo. "Sia N il numero pari di persone e siano i loro nomi sostituiti con interi da 0 a N-1 in modo che i segnaposti siano piazzati in sequenza attorno al tavolo. Se un ospite D originariamente siede al posto del segnaposto P, allora il tavolo deve essere ruotato di R posti perchè egli sia seduto nella posizione corretta dove R=P-D, a meno che sia negativo, in tal caso essendo R=P-D+N. La collezione di valori di D (e di P) per tutti gli ospiti sono gli interi da 0 a N-1, ciascuno preso una volta, ma lo stesso si può dire per la collezione di valori di R, altrimenti due delegati sarebbero seduti correttamente al medesimo momento. Sommando le suddette equazioni, una per ciascun ospite, si ottiene S-S+NK, dove K è un intero e S=N(N-1)/2, la somma degli interi da 0 a N-1. Da ciò segue che N=2K+1, un numero dispari." Il che contraddice l'assunto originale.
+Il teorema da dimostrare è che se un numero pari di persone si siede casualmente attorno a un tavolo tondo che abbia segnaposti con i loro nomi, è sempre possibile ruotare il tavolo finché almeno due persone non siano di fronte ai loro segnaposti. Procediamo per assurdo. "Sia N il numero pari di persone e siano i loro nomi sostituiti con interi da 0 a N-1 in modo che i segnaposti siano piazzati in sequenza attorno al tavolo. Se un ospite D originariamente siede al posto del segnaposto P, allora il tavolo deve essere ruotato di R posti perché egli sia seduto nella posizione corretta dove R=P-D, a meno che sia negativo, in tal caso essendo R=P-D+N. La collezione di valori di D (e di P) per tutti gli ospiti sono gli interi da 0 a N-1, ciascuno preso una volta, ma lo stesso si può dire per la collezione di valori di R, altrimenti due delegati sarebbero seduti correttamente al medesimo momento. Sommando le suddette equazioni, una per ciascun ospite, si ottiene S-S+NK, dove K è un intero e S=N(N-1)/2, la somma degli interi da 0 a N-1. Da ciò segue che N=2K+1, un numero dispari." Il che contraddice l'assunto originale.
 
 "Ho risolto in realtà questo problema alcuni anni fa," scrive Rybicki, "per un problema differente ma del tutto equivalente, una generalizzazione del problema delle "otto regine" in difesa per una scacchiera cilindrica in cui l'attacco diagonale è consentito in una sola direzione."
 
@@ -2635,7 +2635,7 @@ Pubblicità
 
 Caro Fratello Mal-2,
 
-In risposta alla tua richiesta per un rilasciare un agitprop da inserirsi nella prossima edizione dei PRINCIPIA, spero che quanto segue sia utile. E per favore smetti di insistere con le tue lettere incessanti!
+In risposta alla tua richiesta per rilasciare un agitprop da inserirsi nella prossima edizione dei PRINCIPIA, spero che quanto segue sia utile. E per favore smetti di insistere con le tue lettere incessanti!
 
 Episkopos Mordecai, Tenutario del Notariato Sojac (Keeper of the Notary Sojac), mi informa che sei autorizzato a rilevare che i più antichi documenti esistenti mostrano che eravamo già pienamente costituiti ad Atlantide, circa 18.000 anni prima di Cristo, sotto Kull, lo schiavo delle galere che era asceso al Trono di Valusia. Fummo rifondati da Pelias di Koth,
 circa 10.000 anni prima di Cristo. E' probabile che sia lui a trasmettere gli insegnamenti misterici a
@@ -2707,7 +2707,7 @@ A questo scopo, POEE propone il gioco alternativo del NONSENSE COME SALVEZZA. Sa
 
 Perciò proponiamo che l'uomo sviluppi il suo amore innato per il disordine e giochi con la Dea Eris. E che sappia che è un gioco gioioso e in questo modo POSSA ESSERE REVOCATA LA MALEDIZIONE DI FACCIAGRIGIA.
 
-Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perchè gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quindi con buone intenzioni nell'animo e amore nel suo essere.
+Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perché gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quindi con buone intenzioni nell'animo e amore nel suo essere.
 
 E quando gli uomini diventeranno liberi allora l'umanità sarà libera.
 
@@ -2752,7 +2752,7 @@ PARAFISICHE DEL CAOS DI OGNI GIORNO
 
 LO SAPEVATE DI AVERE UNA GHIANDOLA PINEALE ASIMMETRICA?
 
-Beh, probabilmente ne hai una ed è un peccato perchè le Ghiandole Pineali asimmetriche hanno corrotto lo Spirito Libero dell'Uomo, e ridotto la Vita a un casino frustrante, infelice e privo di speranza.
+Beh, probabilmente ne hai una ed è un peccato perché le Ghiandole Pineali asimmetriche hanno corrotto lo Spirito Libero dell'Uomo, e ridotto la Vita a un casino frustrante, infelice e privo di speranza.
 
 Fortunatamente hai di fronte a te un manuale che ti mostrerà come scoprire la tua salvezza attraverso
 

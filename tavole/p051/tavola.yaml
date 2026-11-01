@@ -336,9 +336,9 @@ testi:
     y: 1649.6
     righe: ["È UN AUTENTICO E AUTORIZZATO"]
 
-  - font: UnifrakturMaguntia-Book.ttf
-    corpo: 84
-    grassetto: 1
+  - font: GrenzeGotisch-VF.ttf             # gotico leggibile: in Maguntia "PAPA" si leggeva "PUPU"
+    corpo: 118
+    peso: 800
     allinea: centro
     rotazione: -38.1
     x: 1043.6

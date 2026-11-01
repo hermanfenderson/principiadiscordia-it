@@ -1,3 +1,4 @@
+# REVISIONE: fumetto: righe ridistribuite (26/31/25/10 caratteri invece di 35/29/18/10) e scala_x 1.04 (0.96 la seconda riga) -> testo meno compresso e lontano dal contorno; linee di base 344/378/404/430 per non far toccare l'apostrofo di PO' con la riga sopra; la cancellatura della riga 3 ora segue il contorno destro con fasce di 4 px (prima ne tagliava un pezzo).
 # Tavola p056 (originale 00041) — L'Onesto Libro della Verità, Libro delle Spiegazioni cap. 1
 # Pagina del vecchio sito: 48 (testo/it/48.md)
 # STATO: completa
@@ -17,7 +18,13 @@ pagina_pdf: 56
 cancella:
   - [184, 322, 598, 352]       # fumetto, riga 1
   - [184, 352, 588, 380]       # fumetto, riga 2
-  - [184, 380, 590, 407]       # fumetto, riga 3
+  - [184, 380, 590, 384]       # fumetto, riga 3: fasce che seguono il contorno destro
+  - [184, 384, 588, 388]
+  - [184, 388, 579, 392]
+  - [184, 392, 575, 396]
+  - [184, 396, 569, 400]
+  - [184, 400, 566, 404]
+  - [184, 404, 556, 407]
   - [262, 407, 392, 436]       # fumetto, DRUNK!
   - [600, 420, 1625, 668]      # intestazione
   - [800, 660, 1440, 702]      # Laughing Buddha Jesus [LBJ] Ranch
@@ -30,16 +37,31 @@ testi:
   - font: PatrickHand-Regular.ttf          # fumetto
     corpo: 31
     grassetto: 1
-    scala_x: 0.95
+    scala_x: 1.04
     x: 190
-    y: 347
-    interlinea: 27
-    righe: ["HEY, AMICO, FICO, MI SENTO BALZANO.", "UN PO' COME SI SENTIVA IL MIO", "VECCHIO QUANDO ERA"]
+    y: 344
+    righe: ["HEY, AMICO, FICO, MI SENTO"]
 
   - font: PatrickHand-Regular.ttf
     corpo: 31
     grassetto: 1
-    scala_x: 0.95
+    scala_x: 0.96
+    x: 189
+    y: 378
+    righe: ["BALZANO. UN PO' COME SI SENTIVA"]
+
+  - font: PatrickHand-Regular.ttf
+    corpo: 31
+    grassetto: 1
+    scala_x: 1.04
+    x: 190
+    y: 404
+    righe: ["IL MIO VECCHIO QUANDO ERA"]
+
+  - font: PatrickHand-Regular.ttf
+    corpo: 31
+    grassetto: 1
+    scala_x: 1.04
     x: 268
     y: 430
     righe: ["UBRIACO..."]
@@ -438,7 +460,7 @@ testi:
     scala_x: 1.0
     x: 249.0
     y: 2726.2
-    righe: ["Giusti, acciocchè possano rinunciare alle loro vie e pentirsi."]
+    righe: ["Giusti, acciocché possano rinunciare alle loro vie e pentirsi."]
 
 linee:
   - [1571, 945, 1576, 978]     # gambo della croce, tratto sinistro (ridisegnato)

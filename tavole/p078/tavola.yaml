@@ -1,3 +1,4 @@
+# REVISIONE: due paragrafi ricomposti alla posizione dell'originale (x 198, basi 372 e 945, interlinea 60), a capo entro 59 colonne a scala_x 0.85: 9 righe ciascuno come l'originale, nessuna riga oltre x=1760 (margine del dattiloscritto).
 # Tavola p078 (originale 00063) — La Maledizione di Facciagrigia e l'Introduzione del Negativismo
 # Pagina del vecchio sito: 70 (testo/it/70.md)
 # STATO: completa
@@ -28,27 +29,27 @@ testi:
 
   - font: IBMPlexMono-Medium.ttf    # dattiloscritto
     corpo: 52
-    scala_x: 0.88
+    scala_x: 0.85
     interlinea: 60
     x: 198
-    y: 360
+    y: 372
     righe:
-      - "     Scegliere l'ordine rispetto al disordine o il disordine"
-      - "rispetto all'ordine significa accettare un \"trip\" fatto sia"
-      - "di aspetti creativi che distruttivi. Ma decidere di scegliere"
-      - "il fattore creativo rispetto al distruttivo è un trip tutto"
-      - "creativo composto sia di ordine che di disordine. Per"
-      - "ottenere ciò, si deve non solo accettare il disordine"
-      - "creativo, insieme e pariteticamente all'ordine creativo, ma"
-      - "anche voler rifiutare l'ordine distruttivo come un ugualmente"
-      - "indesiderabile disordine distruttivo."
+      - "     Scegliere l'ordine rispetto al disordine o il"
+      - "disordine rispetto all'ordine significa accettare un \"trip\""
+      - "fatto sia di aspetti creativi che distruttivi. Ma decidere"
+      - "di scegliere il fattore creativo rispetto al distruttivo è"
+      - "un trip tutto creativo composto sia di ordine che di"
+      - "disordine. Per ottenere ciò, si deve non solo accettare il"
+      - "disordine creativo, insieme e pariteticamente all'ordine"
+      - "creativo, ma anche voler rifiutare l'ordine distruttivo"
+      - "come un ugualmente indesiderabile disordine distruttivo."
 
   - font: IBMPlexMono-Medium.ttf    # dattiloscritto
     corpo: 52
-    scala_x: 0.88
+    scala_x: 0.85
     interlinea: 60
     x: 198
-    y: 922
+    y: 945
     righe:
       - "     La Maledizione di Facciagrigia include la divisione"
       - "della vita in ordine/disordine come polarità essenziale"

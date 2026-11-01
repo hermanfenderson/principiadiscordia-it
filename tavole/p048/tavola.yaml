@@ -1,3 +1,4 @@
+# REVISIONE: didascalia verticale rialzata dentro l'altezza del riquadro (y 1716-2711, prima partiva da 2785) e ingrandita verso l'originale: titolo corpo 62 centrato su y=2150, righe corpo 58/interlinea 56 da y=2712.
 # Tavola p048 (originale 00033) — Il Corpo della Mela d'Oro / Il Segno Numerale V
 # Pagina del vecchio sito: 40 (testo/it/40.md)
 # STATO: completa
@@ -64,22 +65,22 @@ testi:
       quei quattro cantanti. Ci abbiamo pensato prima.
 
   - font: ArchitectsDaughter-Regular.ttf   # didascalia a mano, sale dal basso
-    corpo: 48
+    corpo: 62
     grassetto: 2
     rotazione: 90
-    adatta: 1480
-    x: 1476
-    y: 2785
+    allinea: centro
+    x: 1494
+    y: 2150
     righe: ["- IL SEGNO NUMERALE V -"]
 
   - font: ArchitectsDaughter-Regular.ttf
-    corpo: 46
-    interlinea: 54
+    corpo: 58
+    interlinea: 56
     grassetto: 1
     rotazione: 90
     adatta: 1480
-    x: 1534
-    y: 2785
+    x: 1556
+    y: 2712
     righe:
       - "Usato dagli Antichi Romani Discordiani,"
       - "dall'Illuminato Churchill e, ovunque,"

@@ -38,7 +38,7 @@ testi:
       - "     Allora, entrò nella stanza uno scimpanzé, peloso e"
       - "grigio sul muso, in posizione verticale per tutti i suoi"
       - "cinque piedi di statura, e in bilico con una maestosità"
-      - "naturale. Portava con se una pergamena e si diresse verso i"
+      - "naturale. Portava con sé una pergamena e si diresse verso i"
       - "giovani."
 
   - font: CourierPrime-Italic.ttf
@@ -99,7 +99,7 @@ testi:
     y: 1648
     righe:
       - "     Essi discussero il loro strano incontro e ricostruirono"
-      - "a memoria il diagramma dello scimpanzè. Nei cinque giorni"
+      - "a memoria il diagramma dello scimpanzé. Nei cinque giorni"
       - "successivi cercarono nelle biblioteche il suo significato ma"
       - "rimasero delusi trovando solo i riferimenti al taoismo, alla"
       - "bandiera coreana, e alla tecnocrazia. Fu solo quando"
@@ -122,4 +122,4 @@ testi:
     y: 2554
     righe:
       - "     Sono venuta a dirvi che siete liberi. Molte ere fa, la"
-      - "coscienza di me abbandonò l'uomo affinchè potesse"
+      - "coscienza di me abbandonò l'uomo affinché potesse"

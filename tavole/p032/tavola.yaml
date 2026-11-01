@@ -1,3 +1,4 @@
+# REVISIONE: citazione di Galbraith con interlinea 75 invece di 70 (prima riga alzata di 5 px, y 291): le virgolette di chiusura dopo "piccole." non toccano più la "a" di "faccia".
 # Tavola p032 (originale 00017) — Il mito della Mela della Discordia
 # Pagina del vecchio sito: 24 (testo/it/24.md) + inizio di 25 (testo/it/25.md)
 # STATO: completa
@@ -25,9 +26,9 @@ cancella:
 testi:
   - font: PatrickHand-Regular.ttf          # citazione a mano
     corpo: 86
-    interlinea: 70
+    interlinea: 75
     x: 85
-    y: 296
+    y: 291
     righe:
       - "“SCOPRIRAI che lo STATO è il tipo di"
       - "ORGANIZZAZIONE che, benché faccia male le cose"
@@ -77,7 +78,7 @@ testi:
       - "    A quel punto, tre delle dee invitate,*** Atena, Era e"
       - "Afrodite, affermarono, ciascuna, che la mela, considerata"
       - "l'iscrizione, apparteneva a una di loro. E cominciarono a"
-      - "combattere prendendosi a pugni tra loro e con tutto cio' che"
+      - "combattere prendendosi a pugni tra loro e con tutto ciò che"
       - "avevano intorno."
 
   - font: IBMPlexMono-Medium.ttf
@@ -116,7 +117,7 @@ testi:
     y: 2647
     righe:
       - "    E così come ella aveva promesso, manovrando le cose"
-      - "terrestri, Paride potè avere Elena (quella Elena) che"
+      - "terrestri, Paride poté avere Elena (quella Elena) che"
       - "all'epoca viveva con suo marito Menelao, Re di Sparta."
       - "Comunque, tutti sanno, che da questo seguì la Guerra di Troia"
 

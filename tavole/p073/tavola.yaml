@@ -1,3 +1,4 @@
+# REVISIONE: rettangolo di cancellazione del corpo da y=111 a y=126: il numero di pagina -3- (y 79-121) resta intatto, identico all'originale.
 # Tavola p073 (originale 00058) — Cosmogonia, seguito (pagina -3-)
 # Pagina del vecchio sito: 65 (testo/it/65.md)
 # Testo ruotato di 90° (si legge dal basso verso l'alto): testi con rotazione: 90.
@@ -9,7 +10,7 @@
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 pagina_pdf: 73
 cancella:
-  - [85, 111, 1030, 2821]    # corpo dattiloscritto
+  - [85, 126, 1030, 2821]    # corpo dattiloscritto (parte sotto il numero di pagina -3-, che finisce a y=121)
   - [1130, 281, 1400, 2821]    # paragrafo in corsivo
   - [1440, 1131, 1626, 2691]    # citazione a mano (la firma resta)
   - [1626, 2261, 1642, 2691]    # code delle g
@@ -74,7 +75,7 @@ testi:
     x: 1225
     y: 2805
     righe:
-      - "Ed è per questo che noi uomini non esistiamo finchè iniziamo ad esistere; e allora"
+      - "Ed è per questo che noi uomini non esistiamo finché iniziamo ad esistere; e allora"
       - "giochiamo col nostro mondo di cose esistenti e le ordiniamo e disordiniamo e ciò avviene"
       - "finché non torniamo alla non-esistenza dall'esistenza, e quella spiritualità senza nome"
       - "ritorna al Vuoto, come un bambino stanco torna a casa da un circo particolarmente"

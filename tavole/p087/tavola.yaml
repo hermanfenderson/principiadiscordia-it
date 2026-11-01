@@ -1,3 +1,4 @@
+# REVISIONE: titolo a mano rifatto in Patrick Hand corpo 90, grassetto 1, scala_x 0.95 (prima Architects Daughter grassetto 3 ridotto da adatta): altezza come l'originale, punti di A.S.I.B. staccati.
 # Tavola p087 (originale 00072) — Lettera degli Illuminati (prima pagina)
 # Pagina del vecchio sito: 79 (testo/it/79.md); la lettera prosegue in p088
 # STATO: completa
@@ -18,7 +19,7 @@
 #   rivedere); "Pelias and Kull" -> "Pelias e Kull"; "Rothchild ," -> "Rothchild,".
 # NdT ESCLUSE: nessuna
 # FONT: lettera in Courier Prime Bold (corpo 32 stretto a passo 18); intestazione in TeX
-#   Gyre Chorus e Old Standard; firma in UnifrakturMaguntia; titolo a mano in Architects Daughter, SEGUE in Kalam Bold.
+#   Gyre Chorus e Old Standard; firma in UnifrakturMaguntia; titolo a mano in Patrick Hand, SEGUE in Kalam Bold.
 
 pagina_pdf: 87
 
@@ -77,12 +78,12 @@ cancella:
   - [1553, 2662, 1556, 2669]
 
 testi:
-  - font: ArchitectsDaughter-Regular.ttf
-    corpo: 84
-    grassetto: 3
-    adatta: 1275
+  - font: PatrickHand-Regular.ttf
+    corpo: 90
+    grassetto: 1
+    scala_x: 0.95
     x: 98
-    y: 262
+    y: 259
     righe: ["ECCO UNA LETTERA DELLA A.S.I.B. ALLA POEE:"]
 
   - font: OldStandard-Bold.ttf
@@ -140,7 +141,7 @@ testi:
     x: 209
     y: 1050
     righe:
-      - "    In risposta alla tua richiesta per un rilasciare un agitprop da inserirsi"
+      - "    In risposta alla tua richiesta per rilasciare un agitprop da inserirsi"
       - "nella prossima edizione dei PRINCIPIA, spero che quanto segue sia utile. E per"
       - "favore smetti di insistere con le tue lettere incessanti!"
   - font: CourierPrime-Bold.ttf

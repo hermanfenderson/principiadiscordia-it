@@ -1,3 +1,4 @@
+# REVISIONE: paragrafo "Una volta a Mal-2..." con interlinea 60 invece di 85 (come l'originale): la seconda riga sale a y 607 e lascia ~90 px prima della citazione in corsivo.
 # Tavola p027 (originale 00012) — Sulla Preghiera
 # Pagina del vecchio sito: 19 (testo/it/19.md)
 # STATO: completa
@@ -37,7 +38,7 @@ testi:
   - font: IBMPlexMono-Medium.ttf
     corpo: 50
     scala_x: 0.87
-    interlinea: 85
+    interlinea: 60
     x: 107
     y: 547
     righe:

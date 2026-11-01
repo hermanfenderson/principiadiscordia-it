@@ -218,7 +218,7 @@ testi:
     scala_x: 0.96
     x: 849
     y: 2169
-    righe: ["L'Iniziato risponde SI."]
+    righe: ["L'Iniziato risponde SÌ."]
 
   - font: CourierPrime-Italic.ttf
     corpo: 50
@@ -239,7 +239,7 @@ testi:
     scala_x: 0.96
     x: 459
     y: 2285
-    righe: ["L'Iniziato risponde SI."]
+    righe: ["L'Iniziato risponde SÌ."]
 
   - font: CourierPrime-Italic.ttf
     corpo: 50
@@ -260,7 +260,7 @@ testi:
     scala_x: 0.96
     x: 1059
     y: 2401
-    righe: ["Egli risponde SI."]
+    righe: ["Egli risponde SÌ."]
 
   - font: CourierPrime-Italic.ttf
     corpo: 50

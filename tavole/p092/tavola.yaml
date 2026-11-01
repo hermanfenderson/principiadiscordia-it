@@ -1,3 +1,4 @@
+# REVISIONE: (a) riquadro gotico centrato sul riquadro (y 1580) con adatta 1000, cancellati i residui di discendenti tra cancellatura e filetto; (b) cancellata la F ornata, i bordi alti della prima riga e il punto di "scheme.", "Faccia a faccia..." ricomposto intero in Old Standard corpo 43 sulle basi originali (1003/963/922); (c) "in un" spostato alla terza riga ("in un Solo Fine Settimana!") lontano dalla fiamma, cancellato il punto della i di "Single"; (d) colonna IGIENE / OPERA LIRICA iniziata a y 1614 (adatta 842) per staccarla dai raggi tagliati. Scritte bianche non toccate.
 # Tavola p092 (senza numero; IV edizione) — Le Parole degli Illuminati (collage, stampato ruotato)
 # Pagina del vecchio sito: 84 (testo/it/84.md: solo l'immagine originale WordsoftheIllumined.gif)
 # STATO: completa (scritte bianche su nero composte in revisione)
@@ -18,7 +19,7 @@
 #   (1 Re 14,10 e Isaia 16,11) tradotte qui dalla versione inglese di Re Giacomo, non da una Bibbia
 #   italiana ("Kirharesh" -> "Kir-Heres"); "Face to face with the mighty forces..." -> "Faccia a faccia
 #   con le possenti forze e gli elementi della natura, l'uomo riflessivo contempla senza paura il suo
-#   posto nel grande schema cosmico." (la F iniziale ornata resta quella originale);
+#   posto nel grande schema cosmico." (la F iniziale ornata è cancellata e ricomposta nel testo);
 #   "— THE GODDESS ERIS PREVAILS —" -> "— LA DEA ERIS PREVALE —".
 # DIFFERENZE: il riquadro gotico usa il titolo italiano di testo/it/05.md ("Principia Discordia ovvero
 #   Come trovai la Dea e Cosa le feci Quando la trovai / In cui è Spiegata Assolutamente Qualsiasi Cosa
@@ -724,6 +725,32 @@ cancella:
   - [248, 2097, 462, 2099]
   - [249, 2100, 462, 2102]
   - [250, 2103, 462, 2105]
+  # revisione: punto della i di "Single" rimasto sopra "Solo"
+  - [667, 1387, 683, 1405]
+  # revisione: F ornata di "Face", cime delle ascendenti della prima riga, punto finale di "scheme."
+  - [1009, 1888, 1056, 1917]
+  - [1024, 1914, 1040, 2845]
+  - [915, 2828, 930, 2839]
+  # revisione: residui di discendenti inglesi tra la cancellatura e il filetto inferiore del riquadro
+  - [242, 1415, 247, 1417]
+  - [242, 1418, 247, 1420]
+  - [241, 1421, 247, 1423]
+  - [241, 1424, 247, 1426]
+  - [234, 1790, 247, 1792]
+  - [233, 1793, 247, 1795]
+  - [233, 1796, 247, 1798]
+  - [233, 1799, 247, 1801]
+  - [232, 1889, 247, 1891]
+  - [233, 1892, 247, 1894]
+  - [233, 1895, 247, 1897]
+  - [233, 1898, 247, 1900]
+  - [232, 2006, 247, 2008]
+  - [232, 2009, 247, 2011]
+  - [232, 2012, 247, 2014]
+  - [232, 2015, 247, 2017]
+  - [231, 2018, 247, 2020]
+  - [232, 2021, 247, 2023]
+  - [232, 2024, 247, 2026]
   - [120, 1279, 161, 2009]
   - [1693, 1596, 1753, 1830]
   - [1687, 1991, 1750, 2466]
@@ -940,23 +967,23 @@ testi:
   - {font: "Jost-Medium.ttf", corpo: 38, allinea: "centro", adatta: 245, rotazione: -90, x: 1032, y: 1228, righe: ["C O N O S C E N Z A"]}
   - {font: "Kalam-Bold.ttf", corpo: 120, rotazione: -90, x: 786, y: 960, righe: ["Sì,"]}
   - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, rotazione: -90, x: 807, y: 1112, righe: ["Voglio Conoscere le Cinque Semplici Azioni"]}
-  - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, scala_x: 0.89, rotazione: -90, x: 715, y: 1001, righe: ["che Mi Trasformeranno in un “Mago Mentale” in un"]}
-  - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, allinea: "centro", rotazione: -90, x: 626, y: 1557, righe: ["Solo Fine Settimana!"]}
-  - {font: "UnifrakturMaguntia-Book.ttf", corpo: 56, allinea: "centro", adatta: 1060, rotazione: -90, x: 434, y: 1595, righe: ["Principia Discordia ovvero Come trovai la Dea"]}
-  - {font: "UnifrakturMaguntia-Book.ttf", corpo: 58, allinea: "centro", rotazione: -90, x: 375, y: 1595, righe: ["e Cosa le feci Quando la trovai"]}
-  - {font: "OldStandard-Bold.ttf", corpo: 55, allinea: "centro", adatta: 1060, rotazione: -90, x: 317, y: 1595, righe: ["In cui è Spiegata Assolutamente Qualsiasi Cosa che Valga"]}
-  - {font: "OldStandard-Bold.ttf", corpo: 55, allinea: "centro", adatta: 1060, rotazione: -90, x: 257, y: 1595, righe: ["la Pena di Sapere A proposito Assolutamente di Tutto"]}
+  - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, scala_x: 0.89, rotazione: -90, x: 715, y: 1001, righe: ["che Mi Trasformeranno in un “Mago Mentale”"]}
+  - {font: "Oswald-VF.ttf", corpo: 62, peso: 600, allinea: "centro", rotazione: -90, x: 626, y: 1557, righe: ["in un Solo Fine Settimana!"]}
+  - {font: "UnifrakturMaguntia-Book.ttf", corpo: 56, allinea: "centro", adatta: 1000, rotazione: -90, x: 434, y: 1580, righe: ["Principia Discordia ovvero Come trovai la Dea"]}
+  - {font: "UnifrakturMaguntia-Book.ttf", corpo: 58, allinea: "centro", rotazione: -90, x: 375, y: 1580, righe: ["e Cosa le feci Quando la trovai"]}
+  - {font: "OldStandard-Bold.ttf", corpo: 55, allinea: "centro", adatta: 1000, rotazione: -90, x: 317, y: 1580, righe: ["In cui è Spiegata Assolutamente Qualsiasi Cosa che Valga"]}
+  - {font: "OldStandard-Bold.ttf", corpo: 55, allinea: "centro", adatta: 1000, rotazione: -90, x: 257, y: 1580, righe: ["la Pena di Sapere A proposito Assolutamente di Tutto"]}
   - {font: "Jost-Italic-VF.ttf", corpo: 40, peso: 650, allinea: "centro", rotazione: -90, x: 128, y: 1638, righe: ["— LA DEA ERIS PREVALE —"]}
   - {font: "Jost-Bold.ttf", corpo: 77, allinea: "centro", adatta: 235, rotazione: -90, x: 1697, y: 1714, righe: ["VIETATO"]}
   - {font: "Jost-Bold.ttf", corpo: 77, adatta: 490, rotazione: -90, x: 1695, y: 1980, righe: ["...NATURALMENTE"]}
   - {font: "OldStandard-Bold.ttf", corpo: 64, adatta: 868, rotazione: -90, x: 1566, y: 1597, righe: ["CONOSCENZA SOPPRESSA"]}
   - {font: "OldStandard-Bold.ttf", corpo: 32, allinea: "centro", rotazione: -90, x: 1484, y: 2027, righe: ["IGIENE"]}
-  - {font: "OldStandard-Regular.ttf", corpo: 31, adatta: 856, interlinea: 38.5, rotazione: -90, x: 1438, y: 1600, righe: ["Il Signore promise: «Perciò, ecco, io farò venire la sventura sulla casa", "di Geroboamo e sterminerò da Geroboamo chi piscia contro il muro...»", "—1 Re 14,10. (Questa pratica antigienica causava una grave erosione", "dei muri di fango)."]}
+  - {font: "OldStandard-Regular.ttf", corpo: 31, adatta: 842, interlinea: 38.5, rotazione: -90, x: 1438, y: 1614, righe: ["Il Signore promise: «Perciò, ecco, io farò venire la sventura sulla casa", "di Geroboamo e sterminerò da Geroboamo chi piscia contro il muro...»", "—1 Re 14,10. (Questa pratica antigienica causava una grave erosione", "dei muri di fango)."]}
   - {font: "OldStandard-Bold.ttf", corpo: 32, allinea: "centro", rotazione: -90, x: 1229, y: 2027, righe: ["OPERA LIRICA"]}
-  - {font: "OldStandard-Regular.ttf", corpo: 31, adatta: 856, interlinea: 38, rotazione: -90, x: 1184, y: 1600, righe: ["«Perciò le mie viscere risuoneranno come un'arpa per Moab, e le mie", "interiora per Kir-Heres.» —Isaia 16,11."]}
-  - {font: "OldStandard-Regular.ttf", corpo: 32, adatta: 915, rotazione: -90, x: 1004, y: 1925, righe: ["accia a faccia con le possenti forze e gli elementi"]}
-  - {font: "OldStandard-Regular.ttf", corpo: 32, adatta: 875, rotazione: -90, x: 966, y: 1965, righe: ["della natura, l'uomo riflessivo contempla senza"]}
-  - {font: "OldStandard-Regular.ttf", corpo: 32, adatta: 905, rotazione: -90, x: 928, y: 1935, righe: ["paura il suo posto nel grande schema cosmico."]}
+  - {font: "OldStandard-Regular.ttf", corpo: 31, adatta: 842, interlinea: 38, rotazione: -90, x: 1184, y: 1614, righe: ["«Perciò le mie viscere risuoneranno come un'arpa per Moab, e le mie", "interiora per Kir-Heres.» —Isaia 16,11."]}
+  - {font: "OldStandard-Regular.ttf", corpo: 43, rotazione: -90, x: 1003, y: 1893, righe: ["Faccia a faccia con le possenti forze e gli elementi"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 43, rotazione: -90, x: 963, y: 1962, righe: ["della natura, l'uomo riflessivo contempla senza"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 43, rotazione: -90, x: 922, y: 1932, righe: ["paura il suo posto nel grande schema cosmico."]}
 
   - font: Anton-Regular.ttf
     colore: bianco

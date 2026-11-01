@@ -37,6 +37,9 @@ def contenuto(tavola: Image.Image):
     return colonne[0], righe[0], colonne[-1], righe[-1]
 
 
+RIDOTTE: list = []
+
+
 def pagina(tavola: Image.Image | None, numero: int, nome: str) -> Image.Image:
     foglio = Image.new("L", PAGINA, 255)
     destra = numero % 2 == 1  # pagina dispari = a destra, rilegatura a sinistra
@@ -56,6 +59,8 @@ def pagina(tavola: Image.Image | None, numero: int, nome: str) -> Image.Image:
         sx = min((cx - area[0]) / max(w / 2 - box[0], 1), (area[2] - cx) / max(box[2] - w / 2, 1))
         sy = min((cy - area[1]) / max(h / 2 - box[1], 1), (area[3] - cy) / max(box[3] - h / 2, 1))
         scala = min(1.0, sx, sy)
+    if scala < 0.995:
+        RIDOTTE.append((nome, round(scala, 3)))
     if scala < 1.0:
         tavola = tavola.resize((round(tavola.width * scala), round(tavola.height * scala)), Image.LANCZOS)
     foglio.paste(tavola.convert("L"), (round(cx - tavola.width / 2), round(cy - tavola.height / 2)))
@@ -125,6 +130,8 @@ def main():
     print(f"{pdf}: {len(file_pagine)} pagine")
     if mancanti:
         print("tavole in lavorazione:", " ".join(mancanti))
+    if RIDOTTE:
+        print("tavole ridotte per stare nei margini di sicurezza:", RIDOTTE)
 
 
 if __name__ == "__main__":

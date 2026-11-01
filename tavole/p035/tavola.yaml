@@ -1,3 +1,4 @@
+# REVISIONE: timbro verticale "UN PRODOTTO DI GELATERIA" senza `effetto: timbro` (inchiostro pieno): con i buchi del timbro a questo corpo era quasi illeggibile.
 # Tavola p035 (originale 00020) — Matrice Disorganizzativa POEE
 # Pagina del vecchio sito: 27 (testo/it/27.md)
 # STATO: completa
@@ -176,7 +177,7 @@ testi:
       - "Ufficio dell'Epistolario POEE"
 
   # ---- timbri
-  - {font: Oswald-VF.ttf, corpo: 40, peso: 600, rotazione: -90, adatta: 330, effetto: timbro, x: 1142, y: 1925, righe: ["UN PRODOTTO DI GELATERIA"]}
+  - {font: Oswald-VF.ttf, corpo: 40, peso: 600, rotazione: -90, adatta: 330, x: 1142, y: 1925, righe: ["UN PRODOTTO DI GELATERIA"]}   # inchiostro pieno: con effetto timbro era illeggibile
   - font: Oswald-VF.ttf
     corpo: 21
     peso: 200

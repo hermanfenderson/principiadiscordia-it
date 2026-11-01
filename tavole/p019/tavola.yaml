@@ -1,11 +1,12 @@
+# REVISIONE: comandamenti a 51 colonne invece di 53 (fine riga max ~1660, prima ~1710 a 60 px dal bordo); I passa a 5 righe come l'originale, interlinea 60 (passo dell'originale) e stacco tra comandamenti 80 invece di 90 per restare sopra la chiusa, che non si sposta.
 # Tavola p019 (originale 00004) — I Cinque Comandamenti (Il Pentaconato)
 # Pagina del vecchio sito: 11 (testo/it/11.md); immagini di Mauro: NoGoddess.png (riquadro),
 #   TopangaCabal2.png (domanda a mano in fondo)
 # STATO: completa
 # NUOVE TRADUZIONI: nessuna (riquadro "NON ESISTE ALTRA DEA / AL DI FUORI DI / ERIS" e domanda d'esame
 #   dalle immagini di Mauro)
-# DIFFERENZE: "ERIS" nel riquadro, cornice, fiamme e pergamena restano dalla scansione. Comandamenti a 53
-#   colonne (scala_x 0,885): I su 4 righe (5 nell'originale) e III su 10 (9 nell'originale), stesso totale.
+# DIFFERENZE: "ERIS" nel riquadro, cornice, fiamme e pergamena restano dalla scansione. Comandamenti a 51
+#   colonne (scala_x 0,885): I su 5 righe come l'originale e III su 10 (9 nell'originale).
 # FONT: riquadro in Oswald (condensato, come nell'immagine di Mauro); domanda a mano in Patrick Hand.
 # REFUSI CORRETTI: aggiunto il punto finale ai cinque comandamenti, come nell'originale (il testo ne è privo)
 # NdT ESCLUSE: nessuna
@@ -82,8 +83,8 @@ testi:
     corpo: 50
     grassetto: 1
     scala_x: 0.885
-    interlinea: 60.5
-    colonne: 53
+    interlinea: 60
+    colonne: 51
     x: 304
     y: 1018
     testo: >-
@@ -93,13 +94,13 @@ testi:
       Verme D'oro.
 
   - <<: *comandamento
-    y: 1290
+    y: 1338
     testo: >-
       II - Un Discordiano Deve Sempre usare il Sistema Discordiano
       Ufficiale di Numerazione dei Documenti.
 
   - <<: *comandamento
-    y: 1440
+    y: 1478
     testo: >-
       III - Si richiede a un Discordiano, nella sua fase iniziale di
       Illuminazione, che si Allontani in Solitudine e Gioisca della
@@ -111,14 +112,14 @@ testi:
       (niente Panini da Hot Dog).
 
   - <<: *comandamento
-    y: 2074
+    y: 2098
     testo: >-
       IV - Un Discordiano non mangerà Panini da Hot Dog, poiché Ciò è
       stato il Conforto della Nostra Dea quando subì l'Affronto
       Originale.
 
   - <<: *comandamento
-    y: 2286
+    y: 2298
     testo: >-
       V - È proibito a un Discordiano di Credere a quello che legge.
 

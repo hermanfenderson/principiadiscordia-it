@@ -1,3 +1,4 @@
+# REVISIONE: fumetto E QUINDI??: corpo 40->38 e testo spostato a destra/in alto (x 318->334, y 1322->1318): la Q non tocca più il contorno.
 # Tavola p050 (originale 00035) — Nomi Sacri
 # Pagina del vecchio sito: 42 (testo/it/42.md)
 # STATO: completa
@@ -72,12 +73,12 @@ testi:
     righe: ["E ANCHE TITOLI DI IMPORTANZA", "MISTICA."]
 
   - font: Kalam-Bold.ttf                   # fumetto
-    corpo: 40
+    corpo: 38
     interlinea: 40
     rotazione: 35
     allinea: centro
-    x: 318
-    y: 1322
+    x: 334
+    y: 1318
     righe: ["E", "QUINDI??"]
 
   - font: Caveat-VF.ttf                    # scritta a mano

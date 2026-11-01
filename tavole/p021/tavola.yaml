@@ -1,3 +1,4 @@
+# REVISIONE: la zona [990,1117,1098,1191] tagliava il lato destro e la curva dell'angolo in basso a destra del riquadro di Zarathud: ristretta a [1028,1117,1098,1191] (copre solo le lettere di "POSITION"), il filetto originale resta intatto; aggiunta [1040,1056,1062,1118] per i resti di "IT" rimasti accanto al filetto.
 # Tavola p021 (originale 00006) — Telegramma a Jehova
 # Pagina del vecchio sito: 13 (testo/it/13.md, solo immagine storico/immagini-it/WesternUnion.png)
 # STATO: completa
@@ -98,7 +99,8 @@ cancella:
   - [962, 1294, 1070, 1369]
   - [971, 1235, 1079, 1310]
   - [980, 1176, 1088, 1251]
-  - [990, 1117, 1098, 1191]
+  - [1028, 1117, 1098, 1191]    # ristretto: lascia intatto l'angolo del riquadro di Zarathud
+  - [1040, 1056, 1062, 1118]    # resti di "IT" di POSITION accanto al filetto
   - [1050, 1105, 1101, 1132]
   - [1054, 1085, 1104, 1112]
   - [1057, 1065, 1107, 1093]

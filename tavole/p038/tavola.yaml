@@ -1,3 +1,4 @@
+# REVISIONE: sottotitolo del modulo: "SOCIETA' DISCORDIANA" spostato da x 827 a 846, così c'è uno spazio dopo "della" (prima si leggeva "dellaSOCIETA'").
 # Tavola p038 (originale 00023) — Modulo di Adesione
 # Pagina del vecchio sito: 30 (testo/it/30.md, che è solo l'immagine storico/immagini-it/form.png)
 # STATO: completa
@@ -78,7 +79,7 @@ testi:
   - {font: "Jost-Medium.ttf", corpo: 38, grassetto: 1, allinea: centro, x: 703, y: 423, righe: ["AVE ERIS"]}
   - {font: "OldStandard-Bold.ttf", corpo: 66, grassetto: 3, scala_x: 1.12, allinea: centro, x: 841, y: 548, righe: ["Modulo di Adesione"]}   # titolo
   - {font: "OldStandard-Italic.ttf", corpo: 50, grassetto: 1, x: 204, y: 632, righe: ["Al Movimento Erisiano della "]}   # sottotitolo
-  - {font: "OldStandard-Regular.ttf", corpo: 52, grassetto: 1, x: 827, y: 628, righe: ["SOCIETA' DISCORDIANA"]}
+  - {font: "OldStandard-Regular.ttf", corpo: 52, grassetto: 1, x: 846, y: 628, righe: ["SOCIETA' DISCORDIANA"]}
   - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 225, y: 737, righe: ["Data di oggi"]}
   - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 953, y: 737, righe: ["Data di ieri"]}
   - {font: "OldStandard-Regular.ttf", corpo: 49, grassetto: 1, x: 227, y: 846, righe: ["Scopo della richiesta: --associazione a: a. Legione della Discordia"]}

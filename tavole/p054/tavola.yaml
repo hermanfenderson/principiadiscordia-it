@@ -1,3 +1,4 @@
+# REVISIONE: titolo CAPITOLO 5: corpo 118->105, scala_x 0.80->0.95, base 213: occupa 127-213 come l'originale e non copre più il filetto superiore; riga 'Metropolitana... Fellow della' a scala_x 0.86 (Fellow della da x 1427): finisce a x=1747.
 # Tavola p054 (originale 00039) — I Cinque Apostoli di Eris (1-3)
 # Pagina del vecchio sito: 46 (testo/it/46.md)
 # STATO: completa
@@ -26,12 +27,12 @@ cancella:
 
 testi:
   - font: Oswald-VF.ttf                   # titolo nero condensato
-    corpo: 118
+    corpo: 105
     peso: 500
-    scala_x: 0.80
+    scala_x: 0.95
     allinea: centro
     x: 938
-    y: 212
+    y: 213
     righe: ["CAPITOLO 5: I PIONIERI"]
 
   - font: IBMPlexMono-Medium.ttf
@@ -107,7 +108,7 @@ testi:
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.88
+    scala_x: 0.86
     x: 193.0
     y: 1264
     righe: ["Metropolitana di Yorba Linda; e F.I.H.G.W.P.,"]
@@ -115,8 +116,8 @@ testi:
   - font: CourierPrime-Italic.ttf
     corpo: 52
     grassetto: 1
-    scala_x: 0.88
-    x: 1456.0
+    scala_x: 0.86
+    x: 1427.0
     y: 1264
     righe: ["Fellow della"]
 

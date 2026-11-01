@@ -1,3 +1,4 @@
+# REVISIONE: tolto il residuo del bordo superiore di KEEP (righe 2436-2440) con strisce che non toccano scarpe e foglia; TIENI ricomposto a corpo 48 (scala_x 1.08, base 2476) sotto il fondo delle scarpe.
 # Tavola p083 (originale 00068) — Incarnazioni (Avatars)
 # Pagina del vecchio sito: 75 (testo/it/75.md) + immagine storico/immagini-it/Avatars.png
 # STATO: completa
@@ -51,6 +52,11 @@ cancella:
   - [1680, 2177, 1689, 2211]
   - [1690, 2195, 1699, 2204]
   - [1476, 2441, 1668, 2480]    # KEEP (sotto la scarpa)
+  # bordo superiore di KEEP (righe 2436-2440) senza toccare il fondo delle scarpe
+  - [1476, 2437, 1519, 2441]
+  - [1528, 2438, 1545, 2441]
+  - [1560, 2439, 1581, 2441]
+  - [1614, 2436, 1668, 2441]
   - [1176, 2611, 1668, 2660]    # PRICES DOWN (sotto il contorno della mano)
   - [1546, 2598, 1668, 2612]    # parte alta di DOWN, oltre la fine della mano
   - [1355, 2098, 1374, 2121]    # punto finale di SEEDS.
@@ -180,10 +186,11 @@ testi:
     righe: ["Maria Joanna"]
 
   - font: Inter-Black.otf
-    corpo: 52
+    corpo: 48
+    scala_x: 1.08
     allinea: centro
     x: 1572
-    y: 2475
+    y: 2476
     righe: ["TIENI"]
   - font: Inter-Black.otf
     corpo: 54

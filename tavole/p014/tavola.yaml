@@ -1,3 +1,4 @@
+# REVISIONE: righe troppo lunghe (fino a x 1723, 47 px dal bordo) riportate entro il margine dell'originale (~1670): "Qualche volta prendo la serietà umoristicamente." con scala_x 0.95 (fine 1656); risposte "C'è una storia Zen..." e "No, ovviamente, no..." ridistribuite tra le righe (fine max 1638); per stare entro ~1670 ridistribuite anche "Certo che sì!..." e la riga d'intestazione "...SAN FRANCISCO E" ("E" a capo).
 # Tavola p014 — Alcuni estratti da un'intervista con Malaclypse il Giovane
 # Pagina del vecchio sito: 6 (testo/it/06.md); immagine di Mauro: Annihilation.png
 # STATO: completa
@@ -34,37 +35,37 @@ testi:
   - {<<: *corsivo, x: 678, y: 241, righe: ["PAPA PUPU' DELL'HERALD-NEWS-SUN-"]}
   - {<<: *corsivo, x: 108, y: 301, righe: ["TRIBUNE-JOURNAL-DISPATCH-POST DELLA GRANDE AREA"]}
   - {<<: *corsivo, x: 108, y: 361, righe: ["METROPOLITANA DI YORBA LINDA E DEL BOLLETTINO DELLA"]}
-  - {<<: *corsivo, x: 108, y: 421, righe: ["CABALA DELLA SOCIETA' DISCORDIANA DI SAN FRANCISCO E"]}
-  - {<<: *corsivo, x: 108, y: 481, righe: ["DEL RAPPORTO INTERGALATTICO"]}
+  - {<<: *corsivo, x: 108, y: 421, righe: ["CABALA DELLA SOCIETA' DISCORDIANA DI SAN FRANCISCO"]}
+  - {<<: *corsivo, x: 108, y: 481, righe: ["E DEL RAPPORTO INTERGALATTICO"]}
   - {<<: *tondo, x: 166, y: 531, righe: ["==============================================="]}
   - {<<: *tondo, x: 108, y: 631, righe: ["PUPU' MAGGIORE: Sei veramente serio o cosa?"]}
   - {<<: *tondo, x: 108, y: 687, righe: ["MAL-2: Qualche volta prendo l'umorismo seriamente."]}
-  - {<<: *tondo, x: 288, y: 743, righe: ["Qualche volta prendo la serietà umoristicamente."]}
+  - {<<: *tondo, scala_x: 0.95, x: 288, y: 743, righe: ["Qualche volta prendo la serietà umoristicamente."]}
   - {<<: *tondo, x: 288, y: 799, righe: ["In entrambi i casi, è irrilevante."]}
   - {<<: *tondo, x: 108, y: 885, righe: ["PM: Forse sei semplicemente pazzo."]}
   - {<<: *tondo, x: 108, y: 941, righe: ["M2: Certo che sì!  Ma non rifiutare i miei"]}
-  - {<<: *tondo, x: 288, y: 997, righe: ["insegnamenti come se fossero falsi solo perché"]}
-  - {<<: *tondo, x: 288, y: 1053, righe: ["sono pazzo.  Il motivo per cui sono pazzo è che"]}
-  - {<<: *tondo, x: 288, y: 1109, righe: ["essi sono veri."]}
+  - {<<: *tondo, x: 288, y: 997, righe: ["insegnamenti come se fossero falsi solo"]}
+  - {<<: *tondo, x: 288, y: 1053, righe: ["perché sono pazzo.  Il motivo per cui sono"]}
+  - {<<: *tondo, x: 288, y: 1109, righe: ["pazzo è che essi sono veri."]}
   - {<<: *tondo, x: 108, y: 1195, righe: ["PM: Eris è vera?"]}
   - {<<: *tondo, x: 108, y: 1251, righe: ["M2: Tutto è vero."]}
   - {<<: *tondo, x: 108, y: 1307, righe: ["PM: Anche le cose false?"]}
   - {<<: *tondo, x: 108, y: 1363, righe: ["M2: Anche le cose false sono vere."]}
   - {<<: *tondo, x: 108, y: 1419, righe: ["PM: Come può essere?"]}
   - {<<: *tondo, x: 108, y: 1475, righe: ["M2: Che ne so, amico, mica l'ho fatto io."]}
-  - {<<: *tondo, x: 108, y: 1561, righe: ["PM: Perchè affronti tante negatività?"]}
+  - {<<: *tondo, x: 108, y: 1561, righe: ["PM: Perché affronti tante negatività?"]}
   - {<<: *tondo, x: 108, y: 1617, righe: ["M2: Per dissolverle."]}
   - {<<: *tondo, x: 108, y: 1673, righe: ["PM: Chiariresti questo punto?"]}
   - {<<: *tondo, x: 108, y: 1729, righe: ["M2: No."]}
   - {<<: *tondo, x: 108, y: 1815, righe: ["PM: Qual è il significato essenziale della POEE?"]}
-  - {<<: *tondo, x: 108, y: 1871, righe: ["M2: C'è una storia Zen su uno studente che chiese a un"]}
-  - {<<: *tondo, x: 288, y: 1927, righe: ["maestro di spiegargli il significato del"]}
+  - {<<: *tondo, x: 108, y: 1871, righe: ["M2: C'è una storia Zen su uno studente che chiese"]}
+  - {<<: *tondo, x: 288, y: 1927, righe: ["a un maestro di spiegargli il significato del"]}
   - {<<: *tondo, x: 288, y: 1983, righe: ["Buddismo.  La risposta del maestro fu: \"Tre"]}
   - {<<: *tondo, x: 288, y: 2039, righe: ["libbre di lino.\""]}
   - {<<: *tondo, x: 108, y: 2095, righe: ["PM: E' questa la risposta alla mia domanda?"]}
-  - {<<: *tondo, x: 108, y: 2151, righe: ["M2: No, ovviamente, no.  Quello è semplicemente un"]}
-  - {<<: *tondo, x: 288, y: 2207, righe: ["esempio.  La risposta alla tua domanda è: CINQUE"]}
-  - {<<: *tondo, x: 288, y: 2263, righe: ["TONNELLATE DI LINO!"]}
+  - {<<: *tondo, x: 108, y: 2151, righe: ["M2: No, ovviamente, no.  Quello è semplicemente"]}
+  - {<<: *tondo, x: 288, y: 2207, righe: ["un esempio.  La risposta alla tua domanda è:"]}
+  - {<<: *tondo, x: 288, y: 2263, righe: ["CINQUE TONNELLATE DI LINO!"]}
   - {<<: *lettera, x: 300, y: 2560, rotazione: 3, righe: ["a"]}
   - {<<: *lettera, x: 402, y: 2542, rotazione: -4, righe: ["n"]}
   - {<<: *lettera, x: 510, y: 2526, rotazione: 2, righe: ["n"]}

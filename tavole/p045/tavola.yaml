@@ -59,7 +59,7 @@ testi:
     grassetto: 1
     x: 130
     y: 615
-    righe: ["AVE ERIS!  AVE AVE!  AVE SI!"]
+    righe: ["AVE ERIS!  AVE AVE!  AVE SÌ!"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
@@ -139,10 +139,10 @@ testi:
     righe:
       - "1.  Harry Houdini"
       - "2.  Musica swing"
-      - "3.  Pretzels"
+      - "3.  Brezel"
       - "4.  8 mesi"
       - "5.  Testy Culbert"
-      - "6.  Protrude"
+      - "6.  Sporge"
       - "7.  Non ha corde vocali."
 
   - font: Oswald-VF.ttf                    # SCARTATO

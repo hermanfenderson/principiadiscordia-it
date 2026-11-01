@@ -1,3 +1,4 @@
+# REVISIONE: timbro "SI PREGA DI NON USARE..." meno allargato (scala_x 1.18 -> 1.03) e spostato a x 1140: ora va da 1140 a ~1760 (originale 1150-1775), non tocca più il bordo destro.
 # Tavola p031 (originale 00016) — La Legge dei Cinque
 # Pagina del vecchio sito: 23 (testo/it/23.md)
 # STATO: completa
@@ -98,10 +99,10 @@ testi:
     corpo: 48
     peso: 300
     interlinea: 50
-    scala_x: 1.18
+    scala_x: 1.03
     effetto: timbro
     rotazione: -4
-    x: 1110
+    x: 1140
     y: 2525
     righe: ["SI PREGA DI NON USARE QUESTO", "DOCUMENTO COME CARTA IGIENICA"]
 
@@ -112,5 +113,5 @@ testi:
     y: 2729
     righe:
       - "I Naga dell'alto Burma dicono che il sole"
-      - "brilla di giorno perchè, essendo una donna, ha"
+      - "brilla di giorno perché, essendo una donna, ha"
       - "timore di avventurarsi fuori di notte."

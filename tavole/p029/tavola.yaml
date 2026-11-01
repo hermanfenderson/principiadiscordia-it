@@ -1,3 +1,4 @@
+# REVISIONE: fumetto ricomposto in Kalam Regular (grassetto 1.2) invece di Architects Daughter, le cui "I" senza spalla si fondevano con "!" e con le lettere vicine ("MIEI!" illeggibile); corpo adattato a 690 px (finisce prima della punta del fumetto), interlinea 64.
 # Tavola p029 (originale 00014) — I soldi di Norton
 # Pagina del vecchio sito: 21 (testo/it/21.md, solo immagine storico/immagini-it/ImperialGovernment.png)
 # STATO: completa
@@ -7,6 +8,7 @@
 #   GLI AFFARI TUOI E IO MI FACCIO I MIEI!") e la didascalia in basso.
 # REFUSI CORRETTI: nessuno
 # NdT ESCLUSE: nessuna
+# FONT: fumetto in Kalam Regular (vedi REVISIONE).
 # Il fumetto è ruotato di circa 102 gradi: cancellazione a strisce lungo le righe, ricavate
 # raddrizzando la pagina. Didascalia in Oswald leggero allargato (l'originale è un bastone largo).
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
@@ -42,14 +44,14 @@ cancella:
   - [600, 2790, 1210, 2915]    # didascalia
 
 testi:
-  - font: ArchitectsDaughter-Regular.ttf   # fumetto, sale dal basso inclinato
+  - font: Kalam-Regular.ttf   # fumetto, sale dal basso inclinato (Kalam: in Architects Daughter "I" e "!" si fondevano)
     corpo: 60
-    grassetto: 2
-    interlinea: 56
+    grassetto: 1.2
+    interlinea: 64
     rotazione: 102
-    adatta: 720
+    adatta: 690
     x: 228
-    y: 858
+    y: 852
     righe:
       - "COMPAGNO, FATTI GLI AFFARI"
       - "TUOI E IO MI FACCIO I MIEI!"
