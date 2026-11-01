@@ -18,6 +18,7 @@ testi:
   x: 227
   y: 330
   righe:
+  - È disponibile liberamente online con licenza
   - Creative Commons BY-SA. L'edizione su carta esiste
   - per chi, come me, continua a trovare una
   - particolare soddisfazione nel tenere in mano un
@@ -55,7 +56,7 @@ testi:
 - font: Kalam-Bold.ttf
   corpo: 92
   x: 1700
-  y: 2480
+  y: 2540
   rotazione: 4
   allinea: destra
   righe:
@@ -64,7 +65,7 @@ testi:
   corpo: 52
   interlinea: 60
   x: 1797
-  y: 2600
+  y: 2660
   allinea: destra
   righe:
   - Arancia Calante, tredicesimo giorno

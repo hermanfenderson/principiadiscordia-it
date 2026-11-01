@@ -6,7 +6,7 @@ collocazione: prima tavola del libro, prima della prefazione Loompanics
 
 PREFAZIONE ALLA PREFAZIONE
 
-Questo libro ha già una prefazione dell’editore, un’introduzione di Robert Anton Wilson, una Quarta Edizione, una postfazione e una Quinta Edizione che consiste, sostanzialmente, in una quantità imbarazzante di lettere W.
+Questo libro ha già una prefazione dell’editore, un’introduzione di Robert Anton Wilson, una Quarta Edizione, una postfazione e una Quinta Edizione che consiste, sostanzialmente, in una quantità imbarazzante di lettere M. Un aum infinito, secondo il suo autore.
 
 Mi è sembrato dunque indispensabile aggiungere una prefazione alla prefazione.
 

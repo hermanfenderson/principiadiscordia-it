@@ -67,7 +67,7 @@ def main():
         "Testi dell'edizione Loompanics (1980) che non compaiono nella traduzione italiana.",
         "Ogni paragrafo inglese è seguito da una riga **IT:** da riempire. Le pagine PDF sono quelle di `sorgenti/loompanics.pdf` (vedi `docs/mappa-pagine.md`).",
         "",
-        "Restano fuori: le citazioni di stampa sul retro (PDF 2, testi di terzi), il telegramma della Quinta edizione (PDF 104: è un modulo Western Union riempito di W, senza testo da tradurre) e le pubblicità Loompanics (PDF 106-108).",
+        "Restano fuori: le citazioni di stampa sul retro (PDF 2, testi di terzi), il telegramma della Quinta edizione (PDF 104: è un modulo Western Union riempito di M, "un aum infinito" secondo Hill, senza testo da tradurre) e le pubblicità Loompanics (PDF 106-108).",
         "",
     ]
     L += sezione("1. Prefazione alla nuova edizione Loompanics", [5],
