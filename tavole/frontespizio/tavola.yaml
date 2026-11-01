@@ -1,13 +1,9 @@
 # Tavola nuova: frontespizio dell'edizione italiana (pagina 3 del libro)
-# Generata da strumenti/pagine_apertura.py: titolo gotico ritagliato dalla tavola p013
-# (tavole/apparato/titolo-gotico.png), sottotitolo nei caratteri di p013, testi da libro/copertina.yaml.
+# Generata da strumenti/pagine_apertura.py: titolo e sottotitolo nel carattere a riccioli di p013,
+# testi da libro/copertina.yaml.
 # STATO: proposta
 
 pagina_pdf: null
-immagini:
-- file: tavole/apparato/titolo-gotico.png
-  x: 303
-  y: 640
 testi:
 - font: Jost-Bold.ttf
   corpo: 60
@@ -16,20 +12,30 @@ testi:
   y: 500
   righe:
   - MALACLYPSE IL GIOVANE
+- font: MysteryQuest-Regular.ttf
+  corpo: 190
+  grassetto: 1
+  interlinea: 185
+  allinea: centro
+  x: 913
+  y: 780
+  righe:
+  - Principia
+  - Discordia
 - font: Jost-Bold.ttf
   corpo: 46
   allinea: centro
   x: 913
-  y: 860
+  y: 1110
   righe:
   - OVVERO
 - font: MysteryQuest-Regular.ttf
-  corpo: 132
+  corpo: 112
   grassetto: 1
-  interlinea: 140
+  interlinea: 120
   allinea: centro
   x: 913
-  y: 1040
+  y: 1260
   righe:
   - Come trovai la Dea
   - e Cosa le feci
@@ -38,7 +44,7 @@ testi:
   corpo: 64
   allinea: centro
   x: 913
-  y: 1600
+  y: 1750
   righe:
   - EDIZIONE ITALIANA
 - font: Jost-Regular.ttf
@@ -57,6 +63,6 @@ testi:
   - HERMAN FENDERSON
 linee:
 - - 753
-  - 1440
+  - 1610
   - 1073
-  - 1446
+  - 1616
