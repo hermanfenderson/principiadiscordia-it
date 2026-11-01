@@ -174,10 +174,23 @@ def incolla(base: Image.Image, strato: Image.Image, x: int, y: int, ancora: str 
 
 def componi(cartella: Path, prova: bool = False) -> Path:
     spec = yaml.safe_load((cartella / "tavola.yaml").read_text(encoding="utf-8"))
-    base = pagina_base(spec["pagina_pdf"])
+    if spec.get("pagina_pdf"):
+        base = pagina_base(spec["pagina_pdf"])
+    else:
+        # tavola nuova, senza originale: pagina bianca delle stesse dimensioni
+        base = Image.new("L", tuple(spec.get("dimensioni", [1827, 2962])), 255)
     d = ImageDraw.Draw(base)
     for zona in spec.get("cancella", []):
         d.rectangle(zona, fill=255)
+    for im in spec.get("immagini", []):
+        # immagine incollata: file relativo alla radice, (x, y) = angolo in alto a sinistra
+        figura = Image.open(RADICE / im["file"]).convert("L")
+        if "larghezza" in im:
+            h = round(figura.height * im["larghezza"] / figura.width)
+            figura = figura.resize((im["larghezza"], h), Image.LANCZOS)
+        if im.get("rotazione"):
+            figura = figura.rotate(im["rotazione"], expand=True, fillcolor=255, resample=Image.BICUBIC)
+        incolla(base, figura, im["x"], im["y"])
     for el in spec.get("testi", []):
         strato, (ax, ay) = strato_testo(el, base.size)
         # (x, y) = dove cade l'inizio della linea di base della prima riga,
@@ -196,7 +209,8 @@ def componi(cartella: Path, prova: bool = False) -> Path:
         rgb.save(destinazione, dpi=(DPI, DPI))
     else:
         base.save(destinazione, dpi=(DPI, DPI))
-        confronto(spec["pagina_pdf"], base, cartella.name)
+        if spec.get("pagina_pdf"):
+            confronto(spec["pagina_pdf"], base, cartella.name)
     return destinazione
 
 

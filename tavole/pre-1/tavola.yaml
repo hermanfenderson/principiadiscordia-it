@@ -1,0 +1,62 @@
+# Tavola nuova: Prefazione Alla Prefazione, pagina 1 di 4
+# Generata da strumenti/impagina.py a partire da testo/it/apparato/prefazione-alla-prefazione.md:
+# per cambiare il testo si corregge la sorgente e si rilancia.
+# STATO: completa
+
+pagina_pdf: null
+testi:
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 913
+  y: 260
+  allinea: centro
+  righe:
+  - PREFAZIONE ALLA PREFAZIONE
+  sottolineato: true
+  distanza_sottolineatura: 9
+  spessore_sottolineatura: 6
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  interlinea: 60
+  x: 227
+  y: 420
+  righe:
+  - '     Questo libro ha già una prefazione'
+  - dell'editore, un'introduzione di Robert Anton
+  - Wilson, una Quarta Edizione, una postfazione e una
+  - Quinta Edizione che consiste, sostanzialmente, in
+  - una quantità imbarazzante di lettere W.
+  - ''
+  - '     Mi è sembrato dunque indispensabile'
+  - aggiungere una prefazione alla prefazione.
+  - ''
+  - '     Con questa fanno sei.'
+  - ''
+  - '     La cosa sembrerebbe contraddire la Legge dei'
+  - Cinque, secondo la quale tutte le cose avvengono
+  - in gruppi di cinque, sono divisibili per cinque o
+  - sono in qualche modo riconducibili al numero
+  - cinque. Ma la Legge dei Cinque non sbaglia mai, e
+  - chiunque abbia letto i Principia Discordia sa che,
+  - cercando con sufficiente attenzione, si trova
+  - sempre quello che si sta cercando.
+  - ''
+  - '     Lascio al lettore il compito di risolvere'
+  - questa apparente contraddizione. È il primo
+  - esercizio spirituale del libro, ed è gratuito.
+  - ''
+  - '     La storia di questa traduzione comincia'
+  - parecchi anni fa, quando decisi, per ragioni che
+  - oggi fatico a ricostruire, che sarebbe stata una
+  - buona idea tradurre in italiano i Principia
+  - Discordia. Cominciai a farlo una pagina alla
+  - volta, pubblicando il risultato su un sito che,
+  - contro ogni ragionevole previsione, esiste ancora.
+  - ''
+  - '     Il lavoro procedette per qualche tempo, poi'
+  - si fermò. A un passo dalla fine, naturalmente.
+  - Portare a termine un'opera dedicata alla Dea della
+  - Discordia sarebbe stato un gesto di ordine
+  - eccessivo, forse addirittura irrispettoso.
+  - ''
+  - '     Per anni la traduzione è rimasta lì,'

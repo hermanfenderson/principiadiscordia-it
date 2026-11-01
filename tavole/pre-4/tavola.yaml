@@ -1,0 +1,69 @@
+# Tavola nuova: Prefazione Alla Prefazione, pagina 4 di 4
+# Generata da strumenti/impagina.py a partire da testo/it/apparato/prefazione-alla-prefazione.md:
+# per cambiare il testo si corregge la sorgente e si rilancia.
+# STATO: completa
+
+pagina_pdf: null
+testi:
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 913
+  y: 200
+  allinea: centro
+  righe:
+  - -4-
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  interlinea: 60
+  x: 227
+  y: 330
+  righe:
+  - Creative Commons BY-SA. L'edizione su carta esiste
+  - per chi, come me, continua a trovare una
+  - particolare soddisfazione nel tenere in mano un
+  - libro, sfogliarlo e, all'occorrenza, usarlo per
+  - schiacciare un insetto.
+  - ''
+  - '     Credo che la conoscenza debba poter'
+  - circolare, che le opere possano generare altre
+  - opere e che il diritto di condividere sia più
+  - importante del tentativo di controllare ogni
+  - possibile uso di ciò che produciamo.
+  - ''
+  - '     Infine, perché ripubblicare oggi un libro del'
+  - genere?
+  - ''
+  - '     Facciagrigia, il profeta dell''Ordine Serio,'
+  - dispone ormai di strumenti che nel 1166 a.C. non
+  - avrebbe potuto nemmeno immaginare. Può contare su
+  - procedure, algoritmi, moduli da compilare, sistemi
+  - di classificazione e persone fermamente convinte
+  - che tutto ciò che non è misurabile non esista. Ai
+  - suoi sudditi ha dato catene senza fili. E loro
+  - sono felicissimi di non doverle più trascinare.
+  - Probabilmente ha anche un profilo LinkedIn.
+  - ''
+  - '     In un mondo che prende così terribilmente sul'
+  - serio le proprie assurdità, un libro che prende
+  - sul serio l'assurdo può ancora essere utile.
+  - ''
+  - '     Oppure no.'
+  - ''
+  - '     In ogni caso, eccolo qui.'
+  - ''
+  - '     Ave Eris. Fnord?'
+- font: Kalam-Bold.ttf
+  corpo: 92
+  x: 1700
+  y: 2480
+  rotazione: 4
+  allinea: destra
+  righe:
+  - Herman Fenderson
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 1797
+  y: 2600
+  allinea: destra
+  righe:
+  - Arancia Calante, 13 Vendetta 3192
