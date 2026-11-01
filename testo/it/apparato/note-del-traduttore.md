@@ -26,7 +26,7 @@ NOTE DEL TRADUTTORE
 
 00039 -- Hung Mung è un personaggio del Zhuangzi, il classico taoista, da cui viene anche la scena di pagina 00052.
 
-00047 -- Nel testo originale è "plants" (piante) e non "planets" (pianeti).
+00047 -- I refusi sono dell'annuncio originale e li ho rispettati: "plants" (piante) invece di "planets" (pianeti), da cui i pianti interni, e "nude" dove ci si aspetterebbe "mean", la circonferenza media, da cui la Terra nuda.
 
 00048 -- Sacro Cao: gioco di parole con cow (mucca), intraducibile.
 
