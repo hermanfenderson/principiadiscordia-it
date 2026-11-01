@@ -34,6 +34,17 @@ DPI = 360
 
 def pagina_base(numero_pdf: int) -> Image.Image:
     """Estrae la pagina dal PDF e la porta a inchiostro nero su carta bianca."""
+    cache = RADICE / "build" / "base" / f"{numero_pdf:03d}.png"
+    if cache.exists():
+        return Image.open(cache).convert("L")
+    img = livelli(scansione(numero_pdf))
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    img.save(cache)
+    return img
+
+
+def scansione(numero_pdf: int) -> Image.Image:
+    """La pagina del PDF così com'è, in scala di grigi a 360 dpi."""
     if not PDF.exists():
         sys.exit("Manca sorgenti/loompanics.pdf: lancia prima  sh sorgenti/scarica.sh")
     with tempfile.TemporaryDirectory() as tmp:
@@ -44,7 +55,7 @@ def pagina_base(numero_pdf: int) -> Image.Image:
         )
         img = Image.open(next(Path(tmp).glob("p-*.png"))).convert("L")
         img.load()
-    return livelli(img)
+    return img
 
 
 def livelli(img: Image.Image, nero: int = 70, bianco: int = 165) -> Image.Image:
@@ -79,7 +90,7 @@ def a_capo(testo: str, colonne: int) -> list[str]:
     return righe
 
 
-def strato_testo(el: dict, dimensioni) -> Image.Image:
+def strato_testo(el: dict, dimensioni):
     """Disegna un elemento di testo su uno strato trasparente (bianco = vuoto)."""
     font = carica_font(el["font"], el["corpo"], el.get("peso"))
     righe = el["righe"] if "righe" in el else a_capo(el["testo"], el.get("colonne", 999))
@@ -93,19 +104,27 @@ def strato_testo(el: dict, dimensioni) -> Image.Image:
             font = carica_font(el["font"], corpo, el.get("peso"))
         interlinea = interlinea * corpo / el["corpo"]
 
-    larghezza = int(max(font.getlength(r) for r in righe)) + 40
+    massima = max(font.getlength(r) for r in righe)
+    larghezza = int(massima) + 40
     altezza = int(interlinea * (len(righe) - 1) + el["corpo"] * 1.6) + 40
     strato = Image.new("L", (larghezza, altezza), 255)
     d = ImageDraw.Draw(strato)
     sx = el.get("scala_x", 1.0)
+    allinea = el.get("allinea", "sinistra")
     for i, riga in enumerate(righe):
         y = 20 + el["corpo"] + i * interlinea
-        d.text((20, y), riga, font=font, fill=0, anchor="ls",
+        lunghezza = font.getlength(riga)
+        x = 20 + {"sinistra": 0, "centro": (massima - lunghezza) / 2, "destra": massima - lunghezza}[allinea]
+        d.text((x, y), riga, font=font, fill=0, anchor="ls",
                stroke_width=el.get("grassetto", 0), stroke_fill=0)
         if el.get("sottolineato"):
             spessore = el.get("spessore_sottolineatura", 8)
             yy = y + el.get("distanza_sottolineatura", 12)
-            d.rectangle([20, yy, 20 + font.getlength(riga), yy + spessore], fill=0)
+            d.rectangle([x, yy, x + lunghezza, yy + spessore], fill=0)
+    # punto di aggancio: inizio della linea di base della prima riga
+    # (con allinea centro/destra: il centro / la fine della riga più lunga)
+    ancora_x = 20 + {"sinistra": 0, "centro": massima / 2, "destra": massima}[allinea]
+    ancora = (ancora_x * sx, 20 + el["corpo"])
     if sx != 1.0:
         strato = strato.resize((int(strato.width * sx), strato.height), Image.LANCZOS)
     if el.get("effetto") == "timbro":
@@ -113,8 +132,17 @@ def strato_testo(el: dict, dimensioni) -> Image.Image:
     elif el.get("inchiostro", True):
         strato = inchiostro(strato)
     if el.get("rotazione"):
+        import math
+        w, h = strato.size
         strato = strato.rotate(el["rotazione"], expand=True, fillcolor=255, resample=Image.BICUBIC)
-    return strato
+        # dove finisce il punto di aggancio dopo la rotazione attorno al centro
+        a = math.radians(el["rotazione"])
+        cx, cy = w / 2, h / 2
+        dx, dy = ancora[0] - cx, ancora[1] - cy
+        rx = dx * math.cos(a) + dy * math.sin(a)
+        ry = -dx * math.sin(a) + dy * math.cos(a)
+        ancora = (rx + strato.width / 2, ry + strato.height / 2)
+    return strato, ancora
 
 
 def inchiostro(strato: Image.Image) -> Image.Image:
@@ -138,9 +166,7 @@ def incolla(base: Image.Image, strato: Image.Image, x: int, y: int, ancora: str 
     if ancora == "basso-sinistra":
         y = y - strato.height
     regione = base.crop((x, y, x + strato.width, y + strato.height))
-    unito = Image.fromarray(
-        np.minimum(np.asarray(regione), np.asarray(strato)), "L"
-    )
+    unito = Image.fromarray(np.minimum(np.asarray(regione), np.asarray(strato)), "L")
     base.paste(unito, (x, y))
 
 
@@ -153,14 +179,10 @@ def componi(cartella: Path, prova: bool = False) -> Path:
     for zona in spec.get("cancella", []):
         d.rectangle(zona, fill=255)
     for el in spec.get("testi", []):
-        strato = strato_testo(el, base.size)
-        # x, y indicano dove cade la prima linea di base del testo
-        x = el["x"] - 20
-        y = el["y"] - 20 - el["corpo"]
-        if el.get("rotazione") == 90:
-            # testo che sale dal basso: (x, y) = inizio della prima riga, in basso a sinistra
-            x, y = el["x"] - 20, el["y"] - strato.height + 20
-        incolla(base, strato, x, y)
+        strato, (ax, ay) = strato_testo(el, base.size)
+        # (x, y) = dove cade l'inizio della linea di base della prima riga,
+        # anche per il testo ruotato
+        incolla(base, strato, round(el["x"] - ax), round(el["y"] - ay))
     for linea in spec.get("linee", []):
         d.rectangle(linea, fill=0)
     USCITA.mkdir(parents=True, exist_ok=True)
@@ -174,7 +196,20 @@ def componi(cartella: Path, prova: bool = False) -> Path:
         rgb.save(destinazione, dpi=(DPI, DPI))
     else:
         base.save(destinazione, dpi=(DPI, DPI))
+        confronto(spec["pagina_pdf"], base, cartella.name)
     return destinazione
+
+
+def confronto(numero_pdf: int, tavola: Image.Image, nome: str):
+    """Affianca originale e tavola a mezza risoluzione, per la revisione."""
+    originale = pagina_base(numero_pdf)
+    w, h = tavola.width // 2, tavola.height // 2
+    foglio = Image.new("L", (w * 2 + 30, h), 255)
+    foglio.paste(originale.resize((w, h)), (0, 0))
+    foglio.paste(tavola.resize((w, h)), (w + 30, 0))
+    cartella = RADICE / "build" / "confronti"
+    cartella.mkdir(parents=True, exist_ok=True)
+    foglio.save(cartella / f"{nome}.png")
 
 
 def main():

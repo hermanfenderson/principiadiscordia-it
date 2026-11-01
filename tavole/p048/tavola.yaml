@@ -1,5 +1,10 @@
-# Tavola 00033 — Il Corpo della Mela d'Oro / Il Segno Numerale V
+# Tavola p048 (originale 00033) — Il Corpo della Mela d'Oro / Il Segno Numerale V
 # Pagina del vecchio sito: 40 (testo/it/40.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "TRAVEL AGENT" -> "AGENTE DI VIAGGIO" (timbro, mai tradotto sul vecchio sito)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: "(NdT: e neanche con quella roba i-qualcosa...)" nella nota
 # Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
 
 pagina_pdf: 48
@@ -47,8 +52,9 @@ testi:
     y: 760
     righe: ["AGENTE DI VIAGGIO"]
 
-  - font: IBMPlexMono-Italic.ttf           # nota in corsivo
-    corpo: 52
+  - font: CourierPrime-Italic.ttf          # nota in corsivo
+    corpo: 50
+    grassetto: 1
     interlinea: 61
     colonne: 50
     x: 227
@@ -62,7 +68,7 @@ testi:
     grassetto: 2
     rotazione: 90
     adatta: 1480
-    x: 1428
+    x: 1476
     y: 2785
     righe: ["- IL SEGNO NUMERALE V -"]
 
@@ -72,7 +78,7 @@ testi:
     grassetto: 1
     rotazione: 90
     adatta: 1480
-    x: 1488
+    x: 1534
     y: 2785
     righe:
       - "Usato dagli Antichi Romani Discordiani,"
