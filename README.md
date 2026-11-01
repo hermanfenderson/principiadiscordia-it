@@ -10,6 +10,7 @@ La traduzione è nata anni fa sul sito [principiadiscordia.hermanfenderson.com](
 - **Formato:** facsimile. Ogni pagina dell'originale diventa una tavola ricomposta in italiano.
 - **Edizione di riferimento:** Loompanics Unlimited (IV e V edizione riunite, 1980), dalla scansione su Wikisource/Wikimedia Commons.
 - **Introduzione di Robert Anton Wilson:** inclusa.
+- **Formato del cartaceo:** A5 (148 × 210 mm), disponibile su StreetLib e su KDP; le pagine Loompanics (132 × 203 mm) ci stanno quasi al 100%.
 - **Copertina:** frontespizio italiano su fondo ocra (il colore del vecchio sito), con il timbro "TRADOTTO DA HERMAN FENDERSON"; testi in `libro/copertina.yaml`, composizione con `strumenti/copertina.py`.
 - **Tavole:** si ricostruiscono le scritte, non le immagini. Il testo inglese viene cancellato dalla scansione e ricomposto in italiano con font il più vicini possibile agli originali. Nessuna rigenerazione delle illustrazioni.
 

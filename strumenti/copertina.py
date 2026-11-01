@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Compone la copertina stesa (quarta + dorso + prima) per il cartaceo KDP.
 
-Formato 5,25 x 8 pollici (13,34 x 20,32 cm), il più vicino alle pagine Loompanics.
+Formato predefinito A5 (148 x 210 mm): le pagine Loompanics misurano 132 x 203 mm e ci
+stanno quasi al 100%, con qualche millimetro in più ai lati. A5 esiste sia su StreetLib
+sia su KDP (5,83 x 8,27 pollici).
 Il dorso dipende dal numero di pagine e dalla carta (valori KDP indicativi:
 bianca 0,002252 pollici per pagina, crema 0,0025): da ricontrollare col calcolatore KDP.
 
@@ -21,7 +23,14 @@ RADICE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RADICE / "strumenti"))
 FONT = RADICE / "strumenti" / "font"
 DPI = 300
-LARGHEZZA, ALTEZZA, ABBONDANZA = 5.25, 8.0, 0.125
+FORMATI = {  # larghezza, altezza in pollici
+    "a5": (148 / 25.4, 210 / 25.4),
+    "tascabile": (115 / 25.4, 190 / 25.4),
+    "152x228": (152 / 25.4, 228 / 25.4),
+    "kdp-5.25x8": (5.25, 8.0),
+}
+LARGHEZZA, ALTEZZA = FORMATI["a5"]
+ABBONDANZA = 0.125
 SPESSORE_CARTA = {"bianca": 0.002252, "crema": 0.0025}
 VARIANTI = {"bianca": (255, 255, 255), "ocra": (241, 225, 141)}  # ocra = il fondo del vecchio sito
 INCHIOSTRO = (20, 18, 16)
@@ -83,7 +92,10 @@ def main():
     ap.add_argument("--pagine", type=int, default=130)
     ap.add_argument("--carta", choices=SPESSORE_CARTA, default="crema")
     ap.add_argument("--variante", choices=VARIANTI, default="ocra")
+    ap.add_argument("--formato", choices=FORMATI, default="a5")
     args = ap.parse_args()
+    global LARGHEZZA, ALTEZZA
+    LARGHEZZA, ALTEZZA = FORMATI[args.formato]
 
     testi = yaml.safe_load((RADICE / "libro" / "copertina.yaml").read_text(encoding="utf-8"))
     carta = VARIANTI[args.variante]
