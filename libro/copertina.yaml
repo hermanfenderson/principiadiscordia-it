@@ -1,20 +1,34 @@
-# Testi della copertina: BOZZA da rivedere.
+# Testi della copertina.
 # Si compone con  python3 strumenti/copertina.py --pagine N --carta crema --variante ocra|bianca
 
 prima:
-  timbro: "TRADOTTO DA HERMAN FENDERSON"
+  timbro: ""   # timbro in diagonale, tolto: ora edizione e traduttore stanno in basso, come a pagina 3
   etichetta: ["EDIZIONE ITALIANA", "TRADOTTO DA HERMAN FENDERSON"]   # versione "spirale"
   # la prima è la tavola p013 ricomposta (strumenti/copertina.py, coordinate della scansione a 360 dpi):
   # titolo più grande, su una riga, nel carattere a riccioli; sottotitolo più piccolo
-  togli: ["NON E' POSTA SPAZZATURA", "OVVERO", "Come trovai la Dea"]   # righe di p013 da non riportare
+  togli: ["NON E' POSTA SPAZZATURA", "OVVERO", "Come trovai la Dea",   # righe di p013 da non riportare
+          "Una caraffa di vino.", "Un coscio d'agnello", "E tu!", "Accanto a me.", "Che fischi", "nell'oscurità",
+          "Non perdetevi tra precetti d'Ordine...", "IL LIBRO DELL'UTERO 1;5", "In cui è Spiegata"]
   cancella:
     - [250, 480, 1600, 645]     # il "PRINCIPIA DISCORDIA" gotico (e il granello di polvere sopra)
+    - [560, 2215, 1165, 2562]   # la statua originale (senza toccare la croce): viene incollata più sotto
+    - [466, 2253, 560, 2562]
+  immagini:
+    - {file: tavole/apparato/statua-p013.png, x: 730, y: 2140, larghezza: 860}   # ritagliata da p013, centrata sotto la scritta
   aggiungi:
     - {font: MysteryQuest-Regular.ttf, corpo: 200, grassetto: 1, allinea: centro, x: 885, y: 550,
        righe: ["Principia Discordia"]}
     - {font: Jost-Bold.ttf, corpo: 62, allinea: centro, x: 885, y: 705, righe: ["OVVERO"]}
     - {font: MysteryQuest-Regular.ttf, corpo: 124, grassetto: 1, interlinea: 132, allinea: centro, x: 885, y: 880,
        righe: ["Come trovai la Dea", "e Cosa le feci", "Quando la trovai"]}
+    - {font: Jost-Bold.ttf, corpo: 50, interlinea: 62, allinea: centro, x: 883, y: 1300,
+       righe: ["In cui è Spiegata", "Assolutamente Qualsiasi Cosa", "che Valga la Pena di Sapere",
+               "A proposito Assolutamente di Tutto"]}
+    # edizione e traduttore a destra delle mezzelune, come nel frontespizio di pagina 3
+    - {font: Jost-Bold.ttf, corpo: 80, allinea: centro, x: 1160, y: 1840, righe: ["EDIZIONE ITALIANA"]}
+    - {font: Jost-Regular.ttf, corpo: 52, allinea: centro, x: 1160, y: 1935,
+       righe: ["traduzione, prefazione alla prefazione e note di"]}
+    - {font: Jost-Bold.ttf, corpo: 72, allinea: centro, x: 1160, y: 2025, righe: ["HERMAN FENDERSON"]}
 
 frontespizio:   # pagine 1 e 3 del libro (strumenti/pagine_apertura.py)
   autore: "MALACLYPSE IL GIOVANE"
@@ -24,7 +38,8 @@ frontespizio:   # pagine 1 e 3 del libro (strumenti/pagine_apertura.py)
 
 dorso:
   titolo: "Principia Discordia"
-  autore: "Malaclypse il Giovane · edizione italiana"
+  font: MysteryQuest-Regular.ttf   # il carattere a riccioli della prima
+  autore: "Malaclypse il Giovane · edizione italiana a cura di Herman Fenderson"
 
 quarta:
   citazione:

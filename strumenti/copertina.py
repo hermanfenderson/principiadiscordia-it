@@ -98,7 +98,8 @@ def frontespizio(prima: dict) -> Image.Image:
     """La tavola p013 ricomposta per la copertina.
 
     Da libro/copertina.yaml (sezione "prima"): "togli" elenca le righe di p013 da non riportare,
-    "cancella" altre zone della scansione da sbiancare, "aggiungi" gli elementi di testo nuovi.
+    "cancella" altre zone della scansione da sbiancare, "aggiungi" gli elementi di testo nuovi,
+    "immagini" le immagini da incollare (per esempio un disegno spostato).
     """
     from componi import componi
     spec = yaml.safe_load((RADICE / "tavole" / "p013" / "tavola.yaml").read_text(encoding="utf-8"))
@@ -106,6 +107,7 @@ def frontespizio(prima: dict) -> Image.Image:
     spec["testi"] = [el for el in spec["testi"] if not set(el.get("righe", [])) & togli]
     spec["cancella"] += prima.get("cancella", [])
     spec["testi"] += prima.get("aggiungi", [])
+    spec["immagini"] = spec.get("immagini", []) + prima.get("immagini", [])
     cartella = RADICE / "build" / "copertina" / "p013-copertina"
     cartella.mkdir(parents=True, exist_ok=True)
     (cartella / "tavola.yaml").write_text(yaml.safe_dump(spec, allow_unicode=True), encoding="utf-8")
@@ -140,21 +142,22 @@ def main():
     # ---- prima
     alt = px(ALTEZZA - 0.25)  # tutta la pagina dentro l'area sicura (0,125 pollici dal taglio), centrata
     if args.prima == "disegno":
-        # il frontespizio italiano di Hill (tavola p013) col timbro del traduttore
+        # il frontespizio italiano di Hill (tavola p013), ricomposto secondo libro/copertina.yaml
         front = frontespizio(testi["prima"])
         front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
         tela.paste(tinta(front, carta), (x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)))
-        # timbro del traduttore, nello stile di "NON E' POSTA SPAZZATURA"
-        t = testi["prima"]["timbro"]
-        f = font("Oswald-VF.ttf", 62)
-        f.set_variation_by_axes([500])
-        strato = Image.new("L", (round(f.getlength(t)) + 40, 110), 255)
-        ImageDraw.Draw(strato).text((20, 85), t, font=f, fill=0, anchor="ls")
-        from componi import timbro as effetto_timbro
-        strato = effetto_timbro(strato)
-        strato = strato.rotate(-14, expand=True, fillcolor=255, resample=Image.BICUBIC)
-        maschera = strato.point(lambda v: 255 - v)
-        tela.paste(INCHIOSTRO, (x_prima + px(LARGHEZZA) - strato.width - px(0.3), y0 + px(ALTEZZA * 0.555)), maschera)
+        # timbro del traduttore in diagonale, nello stile di "NON E' POSTA SPAZZATURA" (se previsto)
+        if testi["prima"].get("timbro"):
+            t = testi["prima"]["timbro"]
+            f = font("Oswald-VF.ttf", 62)
+            f.set_variation_by_axes([500])
+            strato = Image.new("L", (round(f.getlength(t)) + 40, 110), 255)
+            ImageDraw.Draw(strato).text((20, 85), t, font=f, fill=0, anchor="ls")
+            from componi import timbro as effetto_timbro
+            strato = effetto_timbro(strato)
+            strato = strato.rotate(-14, expand=True, fillcolor=255, resample=Image.BICUBIC)
+            maschera = strato.point(lambda v: 255 - v)
+            tela.paste(INCHIOSTRO, (x_prima + px(LARGHEZZA) - strato.width - px(0.3), y0 + px(ALTEZZA * 0.555)), maschera)
     else:
         # la copertina gialla Loompanics in italiano (tavola p001), con l'etichetta dell'edizione italiana
         from componi import componi
@@ -172,8 +175,13 @@ def main():
     if dorso >= px(0.25):
         s = Image.new("RGB", (px(ALTEZZA), dorso), carta)
         ds = ImageDraw.Draw(s)
-        fg = font("UnifrakturMaguntia-Book.ttf", round(dorso * 0.55))
-        testo(ds, (px(0.6), dorso // 2), testi["dorso"]["titolo"], fg, "lm")
+        # titolo centrato sull'inchiostro (non sul corpo), con almeno 1,6 mm di margine per lato (KDP)
+        fg = font(testi["dorso"].get("font", "MysteryQuest-Regular.ttf"), round(dorso * 0.46))
+        t = testi["dorso"]["titolo"]
+        bb = fg.getbbox(t, anchor="ls", stroke_width=1)
+        yb = round(dorso / 2 - (bb[1] + bb[3]) / 2)
+        ds.text((px(0.6), yb), t, font=fg, fill=INCHIOSTRO, anchor="ls",
+                stroke_width=1, stroke_fill=INCHIOSTRO)  # un filo di grassetto, come sulla prima
         fa = font("Jost-Medium.ttf", round(dorso * 0.32))
         testo(ds, (px(ALTEZZA) - px(0.6), dorso // 2), testi["dorso"]["autore"], fa, "rm")
         tela.paste(s.rotate(-90, expand=True), (x_dorso, y0))
