@@ -1,0 +1,58 @@
+# Tavola p015 — Frontespizio dattiloscritto (PRINCIPIA DISCORDIA ovvero COME TROVAI LA DEA...)
+# Pagina del vecchio sito: 7 (testo/it/07.md); immagine di Mauro: Snap.png (didascalia della mano)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: "ODD# II/2,xii;68Chs3136", "PRINCIPIA DISCORDIA", "-><-" e la parola greca lasciati
+#   dall'originale; "Kallisti" del testo resta in greco come nella scansione.
+# REFUSI CORRETTI: nessuno ("Malaclypse il Giovane" in minuscolo come nel testo; l'originale ha MALACLYPSE THE YOUNGER in maiuscolo)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1770 x 2932).
+
+pagina_pdf: 15
+
+stili:
+  macchina: &macchina {font: IBMPlexMono-Medium.ttf, corpo: 50, allinea: centro, grassetto: 0.5}
+  corsivo: &corsivo {font: CourierPrime-Italic.ttf, corpo: 50, grassetto: 1}
+
+cancella:
+  - [100, 130, 560, 200]        # FOURTH EDITION
+  - [830, 440, 920, 502]        # or
+  - [250, 495, 1500, 620]       # HOW I FOUND GODDESS... / WHEN I FOUND HER
+  - [340, 740, 1370, 870]       # being a Beginning Introduction... / Mysterees
+  - [240, 920, 1250, 985]       # WHICH IS MOST INTERESTING
+  - [40, 1280, 1700, 1590]      # as Divinely Revealed ... (POEE)
+  - [180, 1815, 500, 1880]      # HAIL ERIS!
+  - [965, 1815, 1550, 1880]     # ALL HAIL DISCORDIA!
+  - [400, 2125, 1340, 2190]     # Dedicated to The Prettiest One
+  - [520, 2705, 1275, 2768]     # didascalia della mano
+
+testi:
+  - {<<: *corsivo, x: 115, y: 177, righe: ["QUARTA EDIZIONE"]}
+
+  - {<<: *macchina, x: 874, y: 488, righe: ["ovvero"]}
+  - {<<: *macchina, x: 871, y: 547, righe: ["COME TROVAI LA DEA E COSA LE FECI"]}
+  - {<<: *macchina, x: 872, y: 606, righe: ["QUANDO LA TROVAI"]}
+
+  - {<<: *corsivo, allinea: centro, x: 856, y: 788, righe: ["essendo questa una introduzione di base ai"]}
+  - {<<: *corsivo, allinea: centro, x: 856, y: 849, righe: ["Misteri Erisiani"]}
+
+  - {<<: *macchina, x: 856, y: 969, righe: ["IL CHE E' ESTREMAMENTE INTERESSANTE"]}
+
+  - {<<: *macchina, x: 860, y: 1330, righe: ["così come divinamente rivelati alla"]}
+  - {<<: *macchina, x: 868, y: 1391, righe: ["Mia Alta Reverenza Malaclypse il Giovane, KSC"]}
+  - {<<: *macchina, x: 869, y: 1450, righe: ["Onnibenevolente Polipadre della Verginità nell'Oro"]}
+  - {<<: *macchina, x: 872, y: 1509, righe: ["e ALTO SACERDOTE dell'"]}
+  - {<<: *macchina, x: 864, y: 1570, scala_x: 0.92, righe: ["ORDINE PARATEO-ANAMETAMISTICO DELL'ESOTERICA DI ERIS (POEE)"]}
+
+  - {font: CourierPrime-Italic.ttf, corpo: 49, grassetto: 0.3, allinea: destra, x: 488, y: 1863, righe: ["SALVE ERIS!"]}
+  - {font: CourierPrime-Italic.ttf, corpo: 49, grassetto: 0.3, scala_x: 0.88, x: 975, y: 1863, righe: ["TUTTI SALUTINO DISCORDIA!"]}
+
+  - {<<: *macchina, grassetto: 1.5, x: 870, y: 2174, righe: ["Dedicato alla più bella"]}
+
+  - font: texgyreschola-regular.otf   # didascalia (Snap.png)
+    corpo: 46
+    grassetto: 0.5
+    allinea: destra
+    x: 1262
+    y: 2748
+    righe: ["Il tumulto dell'applauso di una mano sola."]

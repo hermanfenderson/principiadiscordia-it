@@ -1,0 +1,143 @@
+# Tavola p046 (originale 00031) — Il Giuramento Misterico POEE
+# Pagina del vecchio sito: 38 (testo/it/38.md), immagini di Mauro FishRipple.png e 31ThisStatement.png
+# STATO: completa
+# NUOVE TRADUZIONI: timbro "FOREIGN" -> "STRANIERO"; il timbro numerico "G3400 50 DMTS 19" resta com'è
+# DIFFERENZE: nel testo italiano "Il nome di Bobby Tolan è Randy, non fango" mentre l'inglese dice "is not Randy,
+#   but mud": ricomposto "non è Randy, ma fango" per fedeltà all'originale (da rivedere); la nota a mano segue
+#   l'immagine FishRipple.png di Mauro, riscritta a stampatello come nell'originale.
+# REFUSI CORRETTI: "della Antica Setta ... potrà se lo desidera" -> "dell'Antica Setta ... potranno se lo
+#   desiderano" (concordanza con "I Fratelli")
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 46
+
+cancella:
+  - [600, 198, 1295, 286]      # titolo con i due filetti (ridisegnati più lunghi)
+  - [190, 395, 1220, 465]      # The Initiate swears the following:
+  - [190, 490, 830, 550]       # FLYING BABY SHIT!!!!!
+  - [185, 726, 1610, 856]      # parentesi, prime due righe (la lenza è interrotta qui)
+  - [185, 852, 1095, 1104]     # parentesi, righe in corsivo e ultima riga (la lenza riprende a y 1110)
+  - [1095, 1020, 1345, 1104]   # "Polish.)" sotto il timbro
+  - [1095, 850, 1740, 1040]    # timbro FOREIGN
+  - [1060, 1265, 1827, 1880]   # nota a mano
+  - [195, 2415, 1365, 2630]    # correzioni
+  - [1145, 2775, 1565, 2880]   # "This Statement is False" (courtesy of POEE)
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    allinea: centro
+    x: 944
+    y: 266
+    righe: ["IL GIURAMENTO MISTERICO POEE"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 6
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 196
+    y: 449
+    righe: ["L'Iniziato urla come di seguito:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 196
+    y: 541
+    righe: ["MERDA VOLANTE DI BIMBO!!!!!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 54
+    x: 196
+    y: 775
+    righe:
+      - "(I Fratelli dell'Antica Setta dei Profeti"
+      - "Illuminati di Baviera potranno se lo"
+      - "desiderano utilizzare il tedesco:"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 196
+    y: 937
+    righe: ["FLIEGENDE KINDERSCHEISSE!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 196
+    y: 991
+    righe: ["o forse"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 196
+    y: 1045
+    righe: ["WIECZNY KWIAT WTADZA!!!!!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 196
+    y: 1099
+    righe: ["che è Ewige Blumenkraft in Polacco.)"]
+
+  - font: Oswald-VF.ttf                    # timbro FOREIGN
+    corpo: 150
+    peso: 520
+    scala_x: 0.92
+    rotazione: -6
+    x: 1105
+    y: 1000
+    adatta: 700
+    righe: ["\"STRANIERO\""]
+
+  - font: Kalam-Bold.ttf                   # nota a mano
+    corpo: 52
+    interlinea: 84
+    rotazione: -1
+    adatta: 730
+    x: 1078
+    y: 1352
+    righe:
+      - "LA RECENTE SMENTITA RIGUARDANTE"
+      - "IL FAMOSO SIGNOR MOMOMOTO,"
+      - "GIAPPONESE CAPACE DI INGHIOTTIRSI"
+      - "IL NASO, CHE IN REALTÀ NON NE"
+      - "SAREBBE CAPACE MA INVECE IL"
+      - "FRATELLO SÌ, È STATA SMENTITA!"
+      - "EGLI HA INGHIOTTITO IL"
+      - "FRATELLO NELL'ESTATE DEL '44."
+
+  - font: OldStandard-Bold.ttf             # ritaglio di giornale
+    corpo: 44
+    interlinea: 51
+    grassetto: 1
+    adatta: 1145
+    x: 210
+    y: 2464
+    righe:
+      - "Correzioni al numero della scorsa settimana: Johnny"
+      - "Sample è offensive cornerback dei New York Jets, non"
+      - "fullback come affermato. Il nome di Bobby Tolan non è"
+      - "Randy, ma fango. Tutto il potere al popolo, e bandite"
+      - "la fottuta bomba."
+
+  - font: Oswald-VF.ttf
+    corpo: 40
+    peso: 400
+    interlinea: 52
+    allinea: centro
+    x: 1355
+    y: 2815
+    righe: ["\"Questa Affermazione è Falsa\"", "(offerto da POEE)"]
+
+linee:
+  - [526, 206, 1362, 211]      # filetto sopra il titolo

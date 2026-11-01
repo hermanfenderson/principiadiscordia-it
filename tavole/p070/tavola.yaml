@@ -1,0 +1,260 @@
+# Tavola p070 (originale 00055) — Eris contempla per 3125 anni (lettera a Fratello Ram)
+# Pagina del vecchio sito: 62 (testo/it/62.md)
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere; sul vecchio sito l'intestazione era l'immagine ErisContemplates.gif,
+#   rimasta in inglese):
+#   titolo "ERIS CONTEMPLATES FOR 3125 YEARS" -> "ERIS CONTEMPLA PER 3125 ANNI";
+#   riquadro "Pun-jab is Sikh, Sikh, Sikh!" -> "Il Pun-jab è Sikh, Sikh, Sikh!" (il gioco sick/Sikh si perde);
+#   carta intestata POEE: "THE PARATHEO-ANAMETAMYSTIKHOOD OF ERIS ESOTERIC (POEE)" -> "L'ORDINE
+#   PARATEO-ANAMETAMISTICO DELL'ESOTERICA DI ERIS (POEE)" (come p015); "A Non-prophet Irreligious
+#   Disorganization" -> "Una Disorganizzazione Irreligiosa Non-Prophet" (Non-Prophet come in testo/it/47);
+#   "MALACLYPSE the Younger, KSC" -> "MALACLYPSE il Giovane, KSC"; "Omnibenevolent Polyfather of Virginity
+#   in Gold" -> "Onnibenevolente Polipadre della Verginità nell'Oro" (come p015); "HIGH PRIEST" -> "ALTO
+#   SACERDOTE"; "THE ERISIAN MOVEMENT" -> "IL MOVIMENTO ERISIANO"; "HOUSE OF APOSTLES OF ERIS" -> "CASA
+#   DEGLI APOSTOLI DI ERIS"; "Official / Surreptitious Business" -> "Affari Ufficiali / Surrettizi" (come
+#   p087); "page 1 of 1 pages" -> "pag. 1 di 1 pagine"; "Official Discordian Document Number (if
+#   applicable)" -> "Numero di Documento Discordiano Ufficiale (se applicabile)"; "The Golden Apple Corps"
+#   -> "Il Corpo della Mela d'Oro"; "House of Disciples of Discordia: The Bureaucracy, Bureau of:" -> "Casa
+#   dei Discepoli di Discordia: La Burocrazia, Ufficio di:"; "DOGMAS" -> "DOGMI"; "Council of Episkoposes;
+#   Office of High Priesthood, Sect of the POEE" -> "Consiglio degli Episkopos; Ufficio dell'Alto
+#   Sacerdozio, Setta della POEE"; "Drawer O" -> "Cassetto O"; "Today's DATE: Day of The Carrot" -> "DATA
+#   di oggi: Giorno della Carota"; "Yesterday's DATE: yes" -> "DATA di ieri: sì"; "Originating CABAL:
+#   JOSHUA NORTON CABAL" -> "CABALA d'origine: CABALA JOSHUA NORTON"; "TO:" -> "A:"; "Colorado
+#   Encrustation" -> "Incrostazione del Colorado" (il nome REV. RAMPANT PANCREAS e la sigla restano);
+#   "HAIL ERIS / ALL HAIL DISCORDIA" -> "AVE ERIS / TUTTI SALUTINO DISCORDIA"; "Safeguard this Letter, it
+#   may be an IMPORTANT DOCUMENT" -> "Conserva questa Lettera, potrebbe essere un DOCUMENTO IMPORTANTE";
+#   "Form No" -> "Mod. N". "Brother Ram," -> "Fratello Ram," (da testo/it).
+# DIFFERENZE: timbro curvo "NOT FOR CIRCULATION" -> "NON DIFFONDERE" (la nota del vecchio sito,
+#   "*Non diffondere"). "n/a", KALLISTI, sigla del modulo, croce e firma Mal-2, fregi e filetti intatti.
+# REFUSI CORRETTI: "dedotto da cià" -> "da ciò"; "coloro che che leggono" -> "coloro che leggono".
+# NdT ESCLUSE: [Ndt: "Maitresse"] dopo SIRE, [NdT: "crescita"] dopo RISE, [NdT: "avvilito"] dopo sorE.
+# FONT: lettera e campi compilati a macchina in Courier Prime 30 stretto a passo 15 (come l'originale);
+#   carta intestata in Jost (grottesco geometrico nero, il più vicino); titolo a mano Architects Daughter;
+#   "il Giovane" in UnifrakturMaguntia accanto a MALACLYPSE e KSC originali; le scritte spaziate
+#   dell'originale sono rese allargando con scala_x.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 70
+
+stili:
+  testa: &testa {font: Jost-Bold.ttf, corpo: 19}
+  macchina: &macchina {font: CourierPrime-Regular.ttf, corpo: 30, scala_x: 0.84, grassetto: 0.6}
+
+cancella:
+  - [340, 305, 1545, 378]      # titolo
+  - [1222, 397, 1525, 463]     # riquadro Pun-jab
+  - [358, 510, 1140, 548]      # THE PARATHEO-... (POEE)
+  - [358, 537, 885, 561]       # A Non-prophet...
+  - [946, 570, 1192, 624]      # the Younger,
+  - [630, 634, 1280, 664]      # Omnibenevolent...
+  - [830, 668, 1075, 692]      # HIGH PRIEST (i fregi restano)
+  - [355, 748, 725, 773]       # THE ERISIAN MOVEMENT
+  - [1010, 749, 1550, 771]     # HOUSE OF APOSTLES OF ERIS (sotto il fregio, sopra il "1" a mano)
+  - [396, 774, 580, 797]       # Official Business
+  - [838, 776, 1090, 799]      # Surreptitious Business
+  - [1286, 785, 1350, 806]     # page
+  - [1383, 785, 1410, 799]     # of
+  - [1476, 786, 1546, 807]     # pages
+  - [360, 806, 960, 829]       # Official Discordian Document Number
+  - [400, 839, 662, 861]       # The Golden Apple Corps
+  - [732, 836, 1376, 861]      # House of Disciples...
+  - [1398, 830, 1498, 860]     # DOGMAS
+  - [392, 868, 1140, 897]      # Council of Episkoposes...
+  - [1250, 872, 1332, 896]     # Drawer
+  - [358, 917, 790, 950]       # Today's DATE: Day of The Carrot
+  - [950, 915, 1242, 951]      # Yesterday's DATE: yes
+  - [358, 943, 1135, 980]      # Originating CABAL: JOSHUA NORTON CABAL...
+  - [355, 985, 1315, 1015]     # TO: ...
+  - [360, 1100, 1545, 1810]    # lettera
+  - [910, 1882, 1190, 1910]    # FIVE TONS OF FLAX!
+  - [390, 2050, 890, 2232]     # timbro NOT FOR CIRCULATION
+  - [812, 2314, 956, 2341]     # HAIL ERIS
+  - [1120, 2314, 1425, 2341]   # ALL HAIL DISCORDIA
+  - [355, 2362, 955, 2387]     # Safeguard this Letter...
+  - [1150, 2364, 1235, 2386]   # Form No
+
+testi:
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 66
+    grassetto: 1
+    scala_x: 1.08
+    allinea: centro
+    x: 941
+    y: 363
+    righe: ["ERIS CONTEMPLA PER 3125 ANNI"]
+
+  - {font: Jost-Bold.ttf, corpo: 25, x: 1236, y: 425, righe: ["Il Pun-jab è Sikh, Sikh,"]}
+  - {font: Jost-Bold.ttf, corpo: 25, x: 1227, y: 456, righe: ["Sikh!"]}
+
+  - {<<: *testa, corpo: 18, scala_x: 1.18, x: 364, y: 532, righe: ["L'ORDINE PARATEO-ANAMETAMISTICO DELL'ESOTERICA DI ERIS"]}
+  - {<<: *testa, corpo: 24, x: 1050, y: 535, righe: ["(POEE)"]}
+  - {<<: *testa, corpo: 18, scala_x: 1.15, x: 365, y: 553, righe: ["Una Disorganizzazione Irreligiosa Non-Prophet"]}
+  - {font: UnifrakturMaguntia-Book.ttf, corpo: 47, x: 980, y: 610, righe: ["il Giovane,"]}
+  - {<<: *testa, corpo: 22, scala_x: 1.08, allinea: centro, x: 955, y: 657, righe: ["Onnibenevolente Polipadre della Verginità nell'Oro"]}
+  - {<<: *testa, corpo: 22, allinea: centro, x: 952, y: 688, righe: ["A L T O    S A C E R D O T E"]}
+  - {<<: *testa, corpo: 24, scala_x: 1.17, x: 363, y: 768, righe: ["IL MOVIMENTO ERISIANO"]}
+  - {<<: *testa, corpo: 24, scala_x: 1.2, allinea: destra, x: 1544, y: 769, righe: ["CASA DEGLI APOSTOLI DI ERIS"]}
+  - {<<: *testa, x: 399, y: 790, righe: ["Affari Ufficiali"]}
+  - {<<: *testa, x: 853, y: 795, righe: ["Affari Surrettizi"]}
+  - {<<: *testa, x: 1300, y: 799, righe: ["pag."]}
+  - {<<: *testa, x: 1386, y: 799, righe: ["di"]}
+  - {<<: *testa, x: 1484, y: 800, righe: ["pagine"]}
+  - {<<: *testa, x: 364, y: 823, righe: ["Numero di Documento Discordiano Ufficiale (se applicabile):"]}
+  - {<<: *testa, x: 403, y: 854, righe: ["Il Corpo della Mela d'Oro"]}
+  - {<<: *testa, x: 736, y: 855, righe: ["Casa dei Discepoli di Discordia: La Burocrazia, Ufficio di:"]}
+  - {<<: *testa, x: 395, y: 890, righe: ["Consiglio degli Episkopos; Ufficio dell'Alto Sacerdozio, Setta della POEE"]}
+  - {<<: *testa, x: 1254, y: 889, righe: ["Cassetto"]}
+  - {<<: *testa, x: 363, y: 935, righe: ["DATA di oggi:"]}
+  - {<<: *testa, x: 956, y: 939, righe: ["DATA di ieri:"]}
+  - {<<: *testa, x: 363, y: 962, righe: ["CABALA d'origine:"]}
+  - {<<: *testa, corpo: 24, x: 361, y: 1007, righe: ["A:"]}
+
+  - {<<: *macchina, x: 1404, y: 851, righe: ["DOGMI"]}
+  - {<<: *macchina, x: 565, y: 945, righe: ["Giorno della Carota"]}
+  - {<<: *macchina, x: 1192, y: 945, righe: ["sì"]}
+  - {<<: *macchina, x: 590, y: 976, righe: ["CABALA JOSHUA NORTON - San Francisco"]}
+  - {<<: *macchina, x: 405, y: 1006, righe: ["REV. RAMPANT PANCREAS, tRRoCR(a)pttM; Incrostazione del Colorado"]}
+
+  - {<<: *macchina, x: 367, y: 1125, righe: ["Fratello Ram,"]}
+  - <<: *macchina
+    interlinea: 44.8
+    x: 366
+    y: 1186
+    righe:
+      - "La tua osservazione acuta che ERIS letto al contrario è SIRE, e aver dedotto"
+      - "da ciò che ci sia un simbolismo sessuale in questo fatto, mi ha condotto ad"
+      - "alcune osservazioni per mio conto."
+  - <<: *macchina
+    interlinea: 45
+    x: 365
+    y: 1336
+    righe:
+      - "ERIS anagrammato spostando la prima lettera alla fine è RISE. E leggendolo"
+      - "dall'interno all'esterno è REIS, che è una moneta Portoghese-Brasiliana benché"
+      - "non più in uso. Da ciò si può concludere che Eris ha usurpato Eros (divinità"
+      - "dell'amore erotico) agli occhi di coloro che leggono al contrario il che"
+      - "ovviamente rende Eros sorE. Dopo di che Ella apparentemente sgraffignò il"
+      - "Tesoro dell'Olimpo e fuggì in Brasile dove aprì una catena di bordelli (il che"
+      - "sicuramente fu apprezzato dalla popolazione maschile). Lo ipotizzo sulla base"
+      - "del fatto che MADAM si legga allo stesso modo in entrambi i versi. E che sia"
+      - "un termine di grande rispetto, simile a SIRE."
+  - <<: *macchina
+    interlinea: 44
+    x: 364
+    y: 1756
+    righe:
+      - "E quindi, grazie alla tua dritta, questo potrebbe essere un indizio del"
+      - "mistero di dove Eris sia andata a farsi fottere per 3125 anni."
+  - {<<: *macchina, allinea: centro, x: 1051, y: 1904, righe: ["CINQUE TONNELLATE DI LINO!"]}
+
+  # timbro curvo NON DIFFONDERE (lettera per lettera lungo l'arco dell'originale)
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -16.8
+    x: 406
+    y: 2100
+    righe: ["N"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -10.5
+    x: 446
+    y: 2111
+    righe: ["O"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -15.3
+    x: 485
+    y: 2120
+    righe: ["N"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -15.9
+    x: 544
+    y: 2136
+    righe: ["D"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -17.7
+    x: 579
+    y: 2147
+    righe: ["I"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -17.7
+    x: 598
+    y: 2153
+    righe: ["F"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -10.2
+    x: 629
+    y: 2161
+    righe: ["F"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -18.6
+    x: 656
+    y: 2167
+    righe: ["O"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -24.4
+    x: 695
+    y: 2176
+    righe: ["N"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -12.5
+    x: 735
+    y: 2191
+    righe: ["D"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -19.4
+    x: 770
+    y: 2194
+    righe: ["E"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -20.3
+    x: 800
+    y: 2204
+    righe: ["R"]
+  - font: Jost-Medium.ttf
+    corpo: 40
+    scala_x: 1.0
+    grassetto: 0.5
+    rotazione: -14.0
+    x: 832
+    y: 2217
+    righe: ["E"]
+
+
+  - {<<: *testa, corpo: 23, scala_x: 1.25, x: 817, y: 2335, righe: ["AVE ERIS"]}
+  - {<<: *testa, corpo: 21, x: 1124, y: 2336, righe: ["TUTTI SALUTINO DISCORDIA"]}
+  - {font: Jost-Medium.ttf, corpo: 20, x: 360, y: 2378, righe: ["Conserva questa Lettera, potrebbe essere un DOCUMENTO IMPORTANTE"]}
+  - {font: Jost-Medium.ttf, corpo: 18, allinea: destra, x: 1231, y: 2380, righe: ["Mod. N"]}

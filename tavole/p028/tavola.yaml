@@ -1,0 +1,84 @@
+# Tavola p028 (originale 00013) — "Pulisciti il culo con ciò che è scritto" / Il Cielo è giù
+# Pagina del vecchio sito: 20 (testo/it/20.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "HBT; The Book of Predications, Chap. 19" -> "HBT; Il libro delle Predizioni,
+#   Cap. 19" (in testo/it/20.md è rimasto in inglese; resa come in testo/it/14.md)
+# DIFFERENZE: scritta verticale da storico/immagini-it/FirmBelief.png ("E' MIO FERMO CONVINCIMENTO
+#   CHE SIA UN ERRORE AVERE FERMI CONVINCIMENTI"); nuvola da storico/immagini-it/Ignotum.png
+#   ("*Il significato di ciò è sconosciuto"; "IGNOTUM PER IGNOTIUS" è latino e resta com'è); l'uccellino accanto al
+#   numero di pagina (ScratchyBird) non ha testo e resta com'è.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Poesia in Courier Prime Bold (l'originale è un Courier carico, passo 30).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 28
+
+cancella:
+  - [660, 275, 1385, 470]      # epigrafe
+  - [325, 755, 1190, 1430]     # poesia
+  - [330, 1505, 830, 1640]     # firma e KING KONG KABAL
+  - [400, 2004, 875, 2048]     # nota sotto la nuvola
+  - [1600, 720, 1665, 2510]    # scritta verticale
+
+testi:
+  - font: CourierPrime-Italic.ttf          # epigrafe
+    corpo: 25
+    interlinea: 30
+    x: 676
+    y: 304
+    righe:
+      - "14. Pulisciti il culo con ciò che è scritto"
+      - "e sorridi come un cretino a ciò che è detto."
+      - "Trova rifugio col tuo vino nel Nulla"
+      - "dietro il Tutto, mentre ti affretti lungo il percorso."
+      - "       IL SAGGIO VIOLA"
+      - "       HBT; Il libro delle Predizioni, Cap. 19"
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 50
+    interlinea: 60.5
+    x: 341
+    y: 805
+    righe:
+      - "Il Cielo è giù. L'Inferno è su."
+      - "Questo è dimostrato dal fatto"
+      - "che stelle e pianeti"
+      - "sono ordinati nei loro"
+      - "movimenti,"
+      - "mentre giù sulla terra"
+      - "ci avviciniamo di più"
+      - "al caos primigenio."
+      - "Ci sono altre quattro"
+      - "dimostrazioni,"
+      - "ma le ho dimenticate."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 343
+    y: 1555
+    righe: ["--Josh \"Aneto\""]
+
+  - font: Anton-Regular.ttf                # timbro nero
+    corpo: 50
+    grassetto: 1
+    scala_x: 1.12
+    x: 392
+    y: 1626
+    righe: ["CABALA DI KING KONG"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 25
+    grassetto: 1
+    x: 409
+    y: 2036
+    righe: ["°Il significato di ciò è sconosciuto"]
+
+  - font: IBMPlexMono-Regular.ttf          # scritta verticale, scende dall'alto
+    corpo: 46
+    rotazione: -90
+    adatta: 1760
+    x: 1616
+    y: 735
+    righe: ["E' MIO FERMO CONVINCIMENTO CHE SIA UN ERRORE AVERE FERMI CONVINCIMENTI"]

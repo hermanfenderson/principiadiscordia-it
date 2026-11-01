@@ -1,0 +1,190 @@
+# Tavola p035 (originale 00020) — Matrice Disorganizzativa POEE
+# Pagina del vecchio sito: 27 (testo/it/27.md)
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere):
+#   "For the Disciples of Discordia" -> "Per i Discepoli di Discordia" (in testo/it è rimasto in inglese)
+#   "NOTE: A, B, and C are POEE PROPER; while D and E are POEE IMPROPER" -> "NOTA: A, B e C sono POEE PROPRIA;
+#     mentre D ed E sono POEE IMPROPRIA" (assente in testo/it)
+#   timbro verticale "AN ICE CREAM PRODUCT" -> "UN PRODOTTO DI GELATERIA"
+#   timbro "OFFICE OF MY HIGH REVERENCE / MALACLYPSE THE YOUNGER KSC / ... HIGH PRIEST POEE" ->
+#     "UFFICIO DELLA MIA ALTA REVERENZA / MALACLYPSE IL GIOVANE KSC / ... ALTO SACERDOTE POEE"
+#     (il frammento sbiadito "OPOVIG" resta com'è)
+# DIFFERENZE: lasciati in inglese il sigillo circolare "DEPARTMENT OF THE NAVY - BUREAU OF SHIPS" e i timbri
+#   frammentari (E, REGISTERED, SPORT, CALIF, PWS, date): anche Mauro li aveva lasciati (originale:DeptNavy.gif,
+#   Stamps.gif); eventuale ritocco a mano.
+#   III-B, III-D, III-E spezzati su due righe come nell'originale.
+#   III-D: testo/it "Affari Erisiani" dove l'originale ha "Eristic Affairs" (Eristici): lasciato com'è, da rivedere.
+#   Blocco in basso: testo/it "CASA DEL BUGLIO NASCENTE" dove l'originale ha "HOUSE OF THE RISING PODGE"
+#   (Guazza): lasciato com'è, da rivedere. Blocco stretto (scala_x 0,82) per non toccare il timbro verticale.
+#   Intestazione composta in maiuscolo come l'originale ("PROCLAMAZIONE UFFICIALE").
+# REFUSI CORRETTI: "COLLASSO CRESCENTE \" -> tolta la barra finale (resto di markdown)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 35
+
+cancella:
+  - [345, 270, 1135, 320]       # intestazione sottolineata
+  - [680, 368, 1125, 402]       # POEE DISORGANIZATIONAL MATRIX
+  - [395, 485, 1000, 562]       # V) titolo e sottotitolo (a sinistra del timbro 6-10)
+  - [395, 562, 1125, 722]       # V) voci A-E
+  - [395, 740, 1420, 1022]      # IV)
+  - [395, 1045, 1300, 1370]     # III)
+  - [395, 1390, 1300, 1655]     # II)
+  - [395, 1675, 1100, 1910]     # I)
+  - [685, 1960, 1118, 2092]     # blocco OFFICIAL - POEE
+  - [1100, 2040, 1133, 2092]    # coda della "y" di Epistolary
+  - [1136, 1918, 1174, 2262]    # timbro verticale AN ICE CREAM PRODUCT
+  - [1200, 2172, 1485, 2215]    # timbro OFFICE OF MY HIGH REVERENCE, righe 1-2
+  - [1300, 2215, 1485, 2234]    # riga 3: HIGH PRIEST POEE
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    x: 354
+    y: 306
+    righe: ["PROCLAMAZIONE UFFICIALE →← ODD# III(b)/4,i;18Aft3135"]
+    sottolineato: true
+    distanza_sottolineatura: 5
+    spessore_sottolineatura: 2
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    allinea: destra
+    x: 1119
+    y: 396
+    righe: ["MATRICE DISORGANIZZATIVA POEE"]
+
+  # ---- V)
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 400, y: 516, righe: ["LA CASA DELL'APOSTOLO DI ERIS"], sottolineato: true, distanza_sottolineatura: 5, spessore_sottolineatura: 2}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 402, y: 547, righe: ["per l'Eristocrazia e la Cabalablia"]}
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30
+    x: 401
+    y: 592
+    righe:
+      - "A. I Cinque Apostoli di ERIS"
+      - "B. I Corpi della Mela d'Oro (KSC)"
+      - "C. I Vescovi della Società Discordiana"
+      - "D. I preti della Cabala POEE"
+      - "E. Santi, Avatar Erisiani e Personaggi Simili"
+
+  # ---- IV)
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 400, y: 773, righe: ["LA CASA DELLA GUAZZA NASCENTE"], sottolineato: true, distanza_sottolineatura: 5, spessore_sottolineatura: 2}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 405, y: 804, righe: ["Per i Discepoli di Discordia"]}
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30
+    x: 400
+    y: 848
+    righe:
+      - "A. Ufficio della Mia Alta Reverenza, Il PoliPadre"
+      - "B. Concilio dei Preti POEE"
+      - "C. La LEGIONE DELLA DISCORDIA DINAMICA"
+      - "D. Avatar Eristici"
+      - "E. Avatar Aneristici"
+  - {font: CourierPrime-Italic.ttf, corpo: 25, grassetto: 1, x: 400, y: 1012, righe: ["NOTA:"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 490, y: 1012, righe: ["A, B e C sono POEE PROPRIA; mentre D ed E sono POEE IMPROPRIA"]}
+
+  # ---- III)
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 400, y: 1072, righe: ["LA CASA DEL BUGLIO NASCENTE"], sottolineato: true, distanza_sottolineatura: 5, spessore_sottolineatura: 2}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 403, y: 1102, righe: ["Per la Burocrazia"]}
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30.2
+    x: 401
+    y: 1147
+    righe:
+      - "A. Ufficio degli Archivi Erisiani"
+      - "B. Ufficio Epistolario POEE e"
+      - "      Divisione Dogma"
+      - "C. Ufficio dei Simboli, Emblemi, Certificati e Simili"
+      - "D. Ufficio degli Affari Erisiani,"
+      - "      Amministrazione per l'Orda Eristica Non Illuminata"
+      - "E. Ufficio degli Affari Anerisiani,"
+      - "      Amministrazione per gli Ordini di Discordia"
+
+  # ---- II)
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 400, y: 1417, righe: ["LA CASA DEL COLLASSO CRESCENTE"], sottolineato: true, distanza_sottolineatura: 5, spessore_sottolineatura: 2}
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30
+    x: 404
+    y: 1447
+    righe:
+      - "per l'Incoraggiamento della Liberazione dalla Libertà e/o lo"
+      - "Scoraggiamento dell'Immanentizzazione dell'Eschaton"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30
+    x: 403
+    y: 1525
+    righe:
+      - "A. Brezza della Saggezza"
+      - "B. Brezza dell'Integrità"
+      - "C. Brezza della Bellezza"
+      - "D. Brezza dell'Amore"
+      - "E. Brezza della Risata"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30
+    x: 778
+    y: 1525
+    righe:
+      - "e/o Vento della Follia"
+      - "e/o Vento dell'Arroganza"
+      - "e/o Vento degli Oltraggi"
+      - "e/o Vento della Magniloquenza"
+      - "e/o Vento delle Cazzate"
+
+  # ---- I)
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 405, y: 1704, righe: ["LA CASA ESTERNA"], sottolineato: true, distanza_sottolineatura: 5, spessore_sottolineatura: 2}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 28, scala_x: 0.89, x: 405, y: 1735, righe: ["Per ciò che avanza"]}
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.89
+    interlinea: 30
+    x: 403
+    y: 1779
+    righe:
+      - "A. Avatar assortiti"
+      - "B. La Quinta Colonna"
+      - "C. PAPI = POEE = ovunque"
+      - "D. Archivio \"F\" per FUORI ARCHIVIO"
+      - "E. Documenti Perduti e Verità Dimenticate"
+
+  # ---- blocco in basso
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 28
+    scala_x: 0.82
+    interlinea: 30.3
+    x: 690
+    y: 1987
+    righe:
+      - "POEE - UFFICIALE"
+      - "Tempio Principale, San Francisco"
+      - "CASA DEL BUGLIO NASCENTE"
+      - "Ufficio dell'Epistolario POEE"
+
+  # ---- timbri
+  - {font: Oswald-VF.ttf, corpo: 40, peso: 600, rotazione: -90, adatta: 330, effetto: timbro, x: 1142, y: 1925, righe: ["UN PRODOTTO DI GELATERIA"]}
+  - font: Oswald-VF.ttf
+    corpo: 21
+    peso: 200
+    interlinea: 23
+    scala_x: 1.3
+    allinea: centro
+    adatta: 225
+    x: 1341
+    y: 2191
+    righe: ["UFFICIO DELLA MIA ALTA REVERENZA", "MALACLYPSE IL GIOVANE KSC"]
+  - {font: Oswald-VF.ttf, corpo: 21, peso: 200, scala_x: 1.15, adatta: 140, x: 1325, y: 2229, righe: ["ALTO SACERDOTE POEE"]}

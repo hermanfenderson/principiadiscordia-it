@@ -1,0 +1,103 @@
+# Tavola p009 — Introduzione di Robert Anton Wilson (1/3)
+# Pagina del vecchio sito: 1 (testo/it/01.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "un'altra leggenda, i -- the Principia" -> "un'altra leggenda -- i Principia" (residuo inglese);
+#   "contraddirre" -> "contraddire"
+# NdT ESCLUSE: nessuna
+# FONT: composizione tipografica (Helvetica), non dattiloscritto. Nessun font di strumenti/font è un
+#   grottesco: si usa FreeSans di sistema (GNU FreeFont, GPL con eccezione per i font) con percorso
+#   assoluto /usr/share/fonts/truetype/freefont/. Da copiare in strumenti/font se si vuole la tavola portabile.
+# Testo giustificato: una voce per riga (gli spazi sono allargati con spazi capillari U+200A,
+#   l'ultima parola di ogni riga è allineata a destra sul margine), sillabazione italiana.
+# Coordinate in pixel sulla scansione a 360 dpi (1764 x 2842).
+
+pagina_pdf: 9
+
+stili:
+  tondo: &tondo {font: FreeSans.ttf, corpo: 56, scala_x: 0.96, grassetto: 0.5}
+  corsivo: &corsivo {font: FreeSansOblique.ttf, corpo: 56, scala_x: 0.96, grassetto: 0.5}
+
+cancella:
+  - [150, 270, 1700, 2560]     # titolo e tutto il testo
+
+testi:
+  - font: FreeSansBold.ttf     # titolo
+    corpo: 75
+    allinea: centro
+    x: 937
+    y: 343
+    righe: ["INTRODUZIONE"]
+
+  - {<<: *tondo, x: 272, y: 491, righe: ["Stai tenendo \u200ain mano uno \u200adei Grandi Libri \u200adel nostro"]}
+  - {<<: *tondo, x: 1649, y: 491, allinea: destra, righe: ["secolo"]}
+  - {<<: *tondo, x: 214, y: 555, righe: ["fnord."]}
+  - {<<: *tondo, x: 272, y: 630, righe: ["Alcuni \u200a\u200a\u200a\u200a\u200aGrandi \u200a\u200a\u200a\u200a\u200aLibri \u200a\u200a\u200a\u200a\u200a\u200aottengono \u200a\u200a\u200a\u200a\u200ail \u200a\u200a\u200a\u200a\u200ariconoscimento"]}
+  - {<<: *tondo, x: 1649, y: 630, allinea: destra, righe: ["istan-"]}
+  - {<<: *tondo, x: 214, y: 694, righe: ["taneamente \u200a\u200acon \u200auna \u200a\u200araffica \u200adi \u200a\u200aacclamazioni \u200adella \u200a\u200acritica \u200a\u200ae"]}
+  - {<<: *tondo, x: 1649, y: 694, allinea: destra, righe: ["le"]}
+  - {<<: *tondo, x: 214, y: 759, righe: ["ostensioni \u200adi \u200arito, come \u200al'"]}
+  - {<<: *corsivo, x: 794, y: 759, righe: ["Ulisse"]}
+  - {<<: *tondo, x: 956, y: 759, righe: ["di \u200aJoyce. \u200aAltri appaiono"]}
+  - {<<: *tondo, x: 1649, y: 759, allinea: destra, righe: ["quasi"]}
+  - {<<: *tondo, x: 214, y: 823, righe: ["furtivamente \u200ae \u200avengono \u200ariscoperti \u200asolo \u200acinquant'anni \u200a\u200apiù"]}
+  - {<<: *tondo, x: 1649, y: 823, allinea: destra, righe: ["tardi"]}
+  - {<<: *tondo, x: 214, y: 887, righe: ["come"]}
+  - {<<: *corsivo, x: 356, y: 887, righe: ["Moby Dick"]}
+  - {<<: *tondo, x: 620, y: 887, righe: ["o il \u200agrande saggio di Mendel \u200asulla genetica."]}
+  - {<<: *tondo, x: 1649, y: 887, allinea: destra, righe: ["I"]}
+  - {<<: *corsivo, x: 214, y: 952, righe: ["Principia \u200a\u200a\u200aDiscordia"]}
+  - {<<: *tondo, x: 701, y: 952, righe: ["entrarono \u200a\u200a\u200anel \u200a\u200a\u200a\u200anostro \u200a\u200a\u200acontinuum"]}
+  - {<<: *tondo, x: 1649, y: 952, allinea: destra, righe: ["spazio"]}
+  - {<<: *tondo, x: 214, y: 1016, righe: ["temporale con la stessa discrezione furtiva di un \u200agatto che"]}
+  - {<<: *tondo, x: 1649, y: 1016, allinea: destra, righe: ["stri-"]}
+  - {<<: *tondo, x: 214, y: 1081, righe: ["sci su un davanzale."]}
+  - {<<: *tondo, x: 272, y: 1155, righe: ["Nel \u200a1968, \u200apraticamente \u200anessuno \u200aaveva \u200amai \u200asentito"]}
+  - {<<: *tondo, x: 1649, y: 1155, allinea: destra, righe: ["parlare"]}
+  - {<<: *tondo, x: 214, y: 1219, righe: ["di questo libro meraviglioso. Nel 1970, \u200acentinaia di persone"]}
+  - {<<: *tondo, x: 1649, y: 1219, allinea: destra, righe: ["da"]}
+  - {<<: *tondo, x: 214, y: 1284, righe: ["costa \u200aa \u200acosta ne \u200aparlavano \u200ae \u200asi \u200ainterrogavano \u200asull'identità"]}
+  - {<<: *tondo, x: 1649, y: 1284, allinea: destra, righe: ["del"]}
+  - {<<: *tondo, x: 214, y: 1348, righe: ["suo \u200a\u200a\u200a\u200amisterioso \u200a\u200a\u200aautore, \u200a\u200a\u200a\u200aMalaclipse \u200a\u200a\u200a\u200ail \u200a\u200a\u200aGiovane. \u200a\u200a\u200a\u200aVoci \u200a\u200a\u200a\u200asi"]}
+  - {<<: *tondo, x: 1649, y: 1348, allinea: destra, righe: ["dif-"]}
+  - {<<: *tondo, x: 214, y: 1413, righe: ["fondevano lungo il \u200acontinente, da New York a Los \u200aAngeles,"]}
+  - {<<: *tondo, x: 1649, y: 1413, allinea: destra, righe: ["da"]}
+  - {<<: *tondo, x: 214, y: 1477, righe: ["Seattle a St. \u200aJoe. Uno aveva sentito dire \u200ache Malaclipse era"]}
+  - {<<: *tondo, x: 1649, y: 1477, allinea: destra, righe: ["in"]}
+  - {<<: *tondo, x: 214, y: 1541, righe: ["realtà \u200aAlan \u200a\u200aWatts. \u200aNo, \u200a\u200adiceva \u200aun'altra \u200aleggenda \u200a\u200a-- \u200ai"]}
+  - {<<: *corsivo, x: 1649, y: 1541, allinea: destra, righe: ["Principia"]}
+  - {<<: *tondo, x: 214, y: 1606, righe: ["erano \u200ain \u200arealtà \u200aun'opera \u200adell'ordine \u200aSufi. \u200aUn \u200aterzo \u200a\u200amito,"]}
+  - {<<: *tondo, x: 1649, y: 1606, allinea: destra, righe: ["molto"]}
+  - {<<: *tondo, x: 214, y: 1670, righe: ["suggestivo, \u200a\u200asosteneva \u200a\u200ache \u200a\u200aMalaclipse \u200a\u200afosse \u200aun \u200a\u200anome"]}
+  - {<<: *tondo, x: 1649, y: 1670, allinea: destra, righe: ["d'arte"]}
+  - {<<: *tondo, x: 214, y: 1735, righe: ["per \u200a\u200a\u200aRichard \u200a\u200a\u200aM. \u200a\u200aNixon, \u200a\u200a\u200ache \u200a\u200a\u200aavrebbe \u200a\u200a\u200apresumibilmente"]}
+  - {<<: *tondo, x: 1649, y: 1735, allinea: destra, righe: ["com-"]}
+  - {<<: *tondo, x: 214, y: 1799, righe: ["posto \u200ai"]}
+  - {<<: *corsivo, x: 386, y: 1799, righe: ["Principia"]}
+  - {<<: *tondo, x: 605, y: 1799, righe: ["durante \u200ai pochi \u200amomenti di \u200alucidità."]}
+  - {<<: *tondo, x: 1649, y: 1799, allinea: destra, righe: ["Ciascuna"]}
+  - {<<: *tondo, x: 214, y: 1863, righe: ["di \u200aqueste \u200a\u200atrame \u200ami \u200adivertiva \u200ae \u200a\u200aho \u200afatto \u200aanche \u200aio \u200a\u200ala \u200amia"]}
+  - {<<: *tondo, x: 1649, y: 1863, allinea: destra, righe: ["parte"]}
+  - {<<: *tondo, x: 214, y: 1928, righe: ["per aiutare a \u200adiffonderle. Sono stato anche molto \u200aattento a"]}
+  - {<<: *tondo, x: 1649, y: 1928, allinea: destra, righe: ["non"]}
+  - {<<: *tondo, x: 214, y: 1992, righe: ["contraddire \u200amai le \u200avoci \u200aoccasionali \u200ache avessi \u200ascritto \u200ain"]}
+  - {<<: *tondo, x: 1649, y: 1992, allinea: destra, righe: ["realtà"]}
+  - {<<: *tondo, x: 214, y: 2057, righe: ["io il tutto durante un viaggio d'acido."]}
+  - {<<: *tondo, x: 272, y: 2131, righe: ["La leggenda, il mistero, il culto crebbero lentamente. A"]}
+  - {<<: *tondo, x: 1649, y: 2131, allinea: destra, righe: ["metà"]}
+  - {<<: *tondo, x: 214, y: 2195, righe: ["degli \u200aanni settanta, \u200amigliaia di \u200apersone, alcune \u200alontane fino"]}
+  - {<<: *tondo, x: 1649, y: 2195, allinea: destra, righe: ["ad"]}
+  - {<<: *tondo, x: 214, y: 2260, righe: ["Hong \u200a\u200aKong \u200ae \u200a\u200ain \u200a\u200aAustralia, \u200astavano \u200a\u200aparlando \u200a\u200adei"]}
+  - {<<: *corsivo, x: 1380, y: 2260, righe: ["Principia"]}
+  - {<<: *tondo, x: 1583, y: 2260, righe: [","]}
+  - {<<: *tondo, x: 1649, y: 2260, allinea: destra, righe: ["e"]}
+  - {<<: *tondo, x: 214, y: 2324, righe: ["considerato che \u200al'originale era \u200aandato fuori \u200astampa in quel"]}
+  - {<<: *tondo, x: 1649, y: 2324, allinea: destra, righe: ["pe-"]}
+  - {<<: *tondo, x: 214, y: 2389, righe: ["riodo, copie fotostatiche cominciarono a circolare qua e là."]}
+  - {<<: *tondo, x: 272, y: 2463, righe: ["Quando \u200ala"]}
+  - {<<: *corsivo, x: 539, y: 2463, righe: ["Illuminatus"]}
+  - {<<: *tondo, x: 812, y: 2463, righe: ["trilogy \u200aapparve \u200a\u200anel \u200a1975, \u200a\u200ail \u200amio"]}
+  - {<<: *tondo, x: 1649, y: 2463, allinea: destra, righe: ["co-"]}
+  - {<<: *tondo, x: 214, y: 2527, righe: ["autore, Bob Shea, e io ricevemmo entrambi centinaia di"]}
+  - {<<: *tondo, x: 1649, y: 2527, allinea: destra, righe: ["lettere"]}

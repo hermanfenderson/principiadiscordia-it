@@ -1,0 +1,126 @@
+# Tavola p066 (originale 00051) — Il Sacro Cao, pagina -3-
+# Pagina del vecchio sito: 58 (testo/it/58.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: testo/it dice "Il Pentagono ... rappresenta il BUGLIO": l'originale dice "symbolizes the HODGE"
+#   (il BUGLIO è la Mela, frase precedente): corretto in "la GUAZZA" (Hodge = Guazza), da rivedere.
+# REFUSI CORRETTI: "di versi riferimenti" -> "diversi riferimenti"; "comne" -> "come"; "lupiu" -> "lupi";
+#   "infratti" -> "infatti"; "person edi" -> "persone di"; "nazionalitò" -> "nazionalità"
+# NdT ESCLUSE: nessuna
+# Dattiloscritto IBM Plex Mono 52, scala_x 0.88 (59 colonne, come p064); citazione e nota in Courier Prime
+#   Italic 50 + grassetto 1, scala_x 0.88. La citazione italiana, più lunga, va su due righe: la seconda
+#   divide la riga con la firma "Patamunzo Lingananda" (nome proprio, resta). Il paragrafo accanto al
+#   pentagono prende una riga in più ("DEI CINQUE."): citazione e paragrafo seguente scendono di 10 e 4 px.
+# Sottolineature come nell'originale: "la Mela d'Oro di Discordia" e "Pentagono". Il pentagono, "-3-",
+#   il filetto della nota e il numero di pagina restano intatti.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 66
+
+cancella:
+  - [118, 232, 1760, 672]      # primo paragrafo con sottolineature
+  - [570, 715, 1768, 1152]     # paragrafo accanto al pentagono
+  - [118, 1145, 1440, 1212]    # riga sotto il pentagono
+  - [118, 1265, 1700, 1328]    # citazione
+  - [1080, 1325, 1710, 1395]   # firma
+  - [118, 1410, 1745, 2145]    # paragrafo del Pentagono-edificio
+  - [118, 2255, 1745, 2515]    # nota (il filetto sopra resta)
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60.05
+    x: 134
+    y: 290
+    righe:
+      - "Il BUGLIO del Sacro Cao è rappresentato come la Mela d'Oro"
+      - "di Discordia che rappresenta il Principio Eristico del"
+      - "Disordine. La scritta su di essa, \"KALLISTI\" è in greco"
+      - "\"ALLA PIU' BELLA\" e si riferisce a un vecchio mito che"
+      - "riguarda la Dea. Ma i Greci avevano una comprensione"
+      - "limitata del Disordine e pensavano a esso come a un"
+      - "principio negativo."
+
+  - font: IBMPlexMono-Medium.ttf          # accanto al pentagono
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60.1
+    x: 584
+    y: 773
+    righe:
+      - "Il Pentagono rappresenta il Principio"
+      - "Aneristico dell'Ordine e rappresenta la"
+      - "GUAZZA. Il Pentagono contiene diversi"
+      - "riferimenti; da una parte può servire a"
+      - "rappresentare la geometria, una delle"
+      - "prime forme di studio di un ordine formale"
+      - "che abbia raggiunto livelli di sviluppo"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60.1
+    x: 134
+    y: 1195
+    righe:
+      - "elevati;* dall'altro specificatamente è conforme alla LEGGE"
+      - "DEI CINQUE."
+
+  - font: CourierPrime-Italic.ttf         # citazione
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 60
+    x: 131
+    y: 1326
+    righe:
+      - "LA VERITA' E' QUINTUPLA MA GLI UOMINI HANNO"
+      - "UN SOLO NOME PER ESSA."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    allinea: destra
+    x: 1699
+    y: 1386
+    righe: ["Patamunzo Lingananda"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60.1
+    x: 134
+    y: 1470
+    righe:
+      - "   E' anche la forma che ha il Quartier Generale"
+      - "dell'Esercito degli Stati Uniti, una manifestazione"
+      - "alquanto pregnante di un ordine costretto come una camicia"
+      - "di forza che si basa su solide fondamenta di caos"
+      - "costantemente eruttanti in evidenze abbaglianti di"
+      - "disordine; e questo palazzo è uno dei Santuari Erisiani più"
+      - "venerati. Inoltre nel medioevo magico, il pentagono"
+      - "simboleggiava in generale i lupi mannari, ma questo"
+      - "riferimento in particolare non intende essere e non va"
+      - "considerato come evidenza che il Movimento Erisiano"
+      - "discrimini i lupi mannari -- l'affiliazione è aperta"
+      - "infatti a persone di tutte le razze, nazionalità e hobbies."
+
+  - font: CourierPrime-Italic.ttf         # nota
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 60.7
+    x: 134
+    y: 2311
+    righe:
+      - "* Il geometra Greco PITAGORA comunque non aveva una"
+      - "personalità tipicamente aneristica. Era quello che chiamiamo"
+      - "un ANERISTICO ESPLOSO e un AVATAR. Lo chiamiamo Arcangolo"
+      - "Pitagora."
+
+linee:
+  - [1370, 299, 1726, 303]
+  - [134, 359, 463, 363]
+  - [666, 782, 913, 786]

@@ -1,0 +1,71 @@
+# Tavola p011 — Introduzione di Robert Anton Wilson (3/3)
+# Pagina del vecchio sito: 3 (testo/it/03.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: firma: il testo ha "- Robert Anton Wilson," (con virgola), qui composta senza virgola come nell'originale
+# REFUSI CORRETTI: "contradirrà" -> "contraddirà"
+# NdT ESCLUSE: nessuna
+# FONT: composizione tipografica (Helvetica): FreeSans / FreeSansBold di sistema (GNU FreeFont) con percorso
+#   assoluto, nessun grottesco in strumenti/font. Testo giustificato: una voce per riga (spazi capillari
+#   U+200A, ultima parola allineata a destra sul margine), sillabazione italiana.
+# Coordinate in pixel sulla scansione a 360 dpi (1764 x 2842).
+
+pagina_pdf: 11
+
+stili:
+  tondo: &tondo {font: FreeSans.ttf, corpo: 56, scala_x: 0.96, grassetto: 0.5}
+  corsivo: &corsivo {font: FreeSansOblique.ttf, corpo: 56, scala_x: 0.96, grassetto: 0.5}
+
+cancella:
+  - [120, 230, 1610, 1760]     # tutto il testo e la firma
+
+testi:
+  - font: FreeSansBold.ttf    # firma
+    corpo: 44
+    scala_x: 1.07
+    interlinea: 55
+    x: 241
+    y: 1507
+    righe: ["-Robert Anton Wilson"]
+  - font: FreeSansBold.ttf
+    corpo: 44
+    scala_x: 1.07
+    interlinea: 55
+    x: 263
+    y: 1562
+    righe: ["International Arms and Hashish Inc.", "Darra Bazar, Kohat"]
+  - {<<: *tondo, x: 152, y: 288, righe: ["sono \u200a\u200a\u200adeliri. \u200a\u200a\u200aAha! \u200a\u200aNon \u200a\u200a\u200ami \u200a\u200a\u200alascio \u200a\u200a\u200aingannare \u200a\u200a\u200acosì"]}
+  - {<<: *tondo, x: 1586, y: 288, allinea: destra, righe: ["facilmente."]}
+  - {<<: *tondo, x: 152, y: 353, righe: ["Dopo tutto, \u200aun antropologo viaggiatore \u200adel tempo \u200adirebbe"]}
+  - {<<: *tondo, x: 1586, y: 353, allinea: destra, righe: ["pro-"]}
+  - {<<: *tondo, x: 152, y: 417, righe: ["prio \u200aquesto \u200aper \u200apoterci \u200aosservare \u200asenza \u200ache \u200ala \u200asua"]}
+  - {<<: *tondo, x: 1586, y: 417, allinea: destra, righe: ["presenza"]}
+  - {<<: *tondo, x: 152, y: 482, righe: ["causi uno shock culturale."]}
+  - {<<: *tondo, x: 210, y: 557, righe: ["Sono \u200aconsapevole \u200ache \u200aha \u200a\u200aacconsentito \u200aa \u200ascrivere \u200ala"]}
+  - {<<: *tondo, x: 1586, y: 557, allinea: destra, righe: ["Post-"]}
+  - {<<: *tondo, x: 152, y: 622, righe: ["fazione \u200a\u200a\u200adi \u200a\u200aquesta \u200a\u200a\u200aedizione. \u200a\u200aProbabilmente \u200a\u200a\u200acontraddirà"]}
+  - {<<: *tondo, x: 1586, y: 622, allinea: destra, righe: ["tutto"]}
+  - {<<: *tondo, x: 152, y: 687, righe: ["quello \u200ache \u200avi \u200aho detto, \u200ama \u200anon \u200acredete \u200aa \u200auna parola \u200adi"]}
+  - {<<: *tondo, x: 1586, y: 687, allinea: destra, righe: ["quello"]}
+  - {<<: *tondo, x: 152, y: 751, righe: ["che \u200a\u200adice \u200a\u200afnord. \u200a\u200aEgli \u200a\u200aè \u200amaestro \u200a\u200adi \u200a\u200aimpassibilità, \u200a\u200adi \u200a\u200asatira"]}
+  - {<<: *tondo, x: 1586, y: 751, allinea: destra, righe: ["ve-"]}
+  - {<<: *tondo, x: 152, y: 816, righe: ["rosimile, \u200adi \u200apresa \u200a\u200aper \u200ai \u200afondelli \u200afilosofica \u200a\u200ae \u200adi \u200atutte \u200ale"]}
+  - {<<: *tondo, x: 1586, y: 816, allinea: destra, righe: ["branche"]}
+  - {<<: *tondo, x: 152, y: 880, righe: ["della guerriglia ontologica."]}
+  - {<<: *tondo, x: 210, y: 956, righe: ["Per il \u200amaggior beneficio per \u200ala Testa, \u200aquesto libro"]}
+  - {<<: *tondo, x: 1586, y: 956, allinea: destra, righe: ["andrebbe"]}
+  - {<<: *tondo, x: 152, y: 1021, righe: ["letto assieme a"]}
+  - {<<: *corsivo, x: 514, y: 1021, righe: ["The Illuminoids"]}
+  - {<<: *tondo, x: 884, y: 1021, righe: ["di Neal Wilgus \u200a(Sun Press,"]}
+  - {<<: *tondo, x: 1586, y: 1021, allinea: destra, righe: ["Al-"]}
+  - {<<: *tondo, x: 152, y: 1085, righe: ["buquerque, \u200a\u200aNM) \u200a\u200a\u200ae"]}
+  - {<<: *corsivo, x: 624, y: 1085, righe: ["Zen \u200a\u200asenza \u200a\u200a\u200aMaestri \u200a\u200aZen"]}
+  - {<<: *tondo, x: 1215, y: 1085, righe: ["di \u200a\u200aCamden"]}
+  - {<<: *tondo, x: 1586, y: 1085, allinea: destra, righe: ["Be-"]}
+  - {<<: *tondo, x: 152, y: 1150, righe: ["nares \u200a(And/Or Press, \u200aBerkeley, California). \u200a“Stiamo"]}
+  - {<<: *tondo, x: 1586, y: 1150, allinea: destra, righe: ["operando"]}
+  - {<<: *tondo, x: 152, y: 1214, righe: ["a diversi livelli”, come usava dire Ken Kesey."]}
+  - {<<: *tondo, x: 210, y: 1290, righe: ["In \u200a\u200aconclusione, \u200a\u200anon \u200a\u200ac'è \u200a\u200aconclusione. \u200aLe \u200a\u200acose"]}
+  - {<<: *tondo, x: 1586, y: 1290, allinea: destra, righe: ["proseguono"]}
+  - {<<: *tondo, x: 152, y: 1355, righe: ["come hanno sempre fatto, diventando ogni volta più strane."]}
+  - {<<: *tondo, x: 210, y: 1430, righe: ["Ave Eris. Tutti salutino Discordia. Fnord?"]}

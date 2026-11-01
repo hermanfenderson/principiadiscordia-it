@@ -1,0 +1,373 @@
+# Tavola p039 (originale 00024) — POEE e i suoi Sacerdoti
+# Pagina del vecchio sito: 31 (testo/it/31.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (timbro "CAUTION INSERTS" -> "ATTENZIONE INSERTI" dall'immagine di Herman
+#   storico/immagini-it/CautionInserts.png)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "cioò" -> "ciò"; "rinmangolo" -> "rimangono"; "perchè" -> "perché";
+#   aggiunto il punto finale dopo "Società Discordiana" (come nell'originale)
+#   "Chao" -> "Cao" nei versi (decisione del traduttore: in italiano sempre "Cao")
+# NdT ESCLUSE: nessuna
+# Dattiloscritto IBM Plex Mono 52, scala_x 0.92 (come p037); corsivo Courier Prime Italic 50 + grassetto 1,
+#   scala_x 0.92: l'italiano prende 12 righe invece di 11, l'ultima scende nello spazio libero sopra il titoletto.
+# Timbro: lettere cancellate a scaletta (rettangoli da 4 px) attorno alla freccia, che resta intatta;
+#   "ATTENZIONE" sopra e "INSERTI" sotto la freccia, Oswald 500 corpo 52 con effetto timbro, ruotati di -46 gradi.
+# Le due Mani e gli angeli trombettieri restano originali.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 39
+
+cancella:
+  - [95, 280, 700, 350]        # titolo e sottolineatura
+  - [95, 460, 1715, 770]       # primo paragrafo
+  - [95, 825, 1715, 1070]      # secondo paragrafo
+  - [95, 1128, 1715, 1614]     # corsivo, prime righe
+  - [95, 1614, 1369, 1745]     # corsivo, ultime righe a sinistra del timbro
+  - [95, 1910, 935, 1985]      # titoletto e sottolineatura
+  - [95, 2030, 1715, 2285]     # terzo paragrafo
+  - [95, 2335, 1715, 2530]     # quarto paragrafo
+  - [210, 2640, 850, 2800]     # versi
+  # timbro CAUTION INSERTS e "See the": colonne da 4 px che girano attorno alla freccia
+  - [1378, 1648, 1381, 1663]
+  - [1382, 1647, 1385, 1664]
+  - [1386, 1647, 1389, 1663]
+  - [1390, 1650, 1393, 1660]
+  - [1462, 1643, 1465, 1662]
+  - [1466, 1625, 1469, 1640]
+  - [1466, 1642, 1469, 1661]
+  - [1470, 1622, 1473, 1643]
+  - [1470, 1651, 1473, 1662]
+  - [1474, 1620, 1477, 1645]
+  - [1474, 1652, 1477, 1662]
+  - [1474, 1782, 1477, 1798]
+  - [1478, 1620, 1481, 1630]
+  - [1478, 1636, 1481, 1645]
+  - [1478, 1649, 1481, 1661]
+  - [1478, 1776, 1481, 1797]
+  - [1482, 1620, 1485, 1630]
+  - [1482, 1637, 1485, 1659]
+  - [1482, 1771, 1485, 1796]
+  - [1486, 1621, 1489, 1636]
+  - [1486, 1639, 1489, 1655]
+  - [1486, 1768, 1489, 1792]
+  - [1486, 1803, 1489, 1812]
+  - [1490, 1621, 1493, 1635]
+  - [1490, 1642, 1493, 1657]
+  - [1490, 1765, 1493, 1790]
+  - [1490, 1794, 1493, 1813]
+  - [1494, 1637, 1497, 1661]
+  - [1494, 1761, 1497, 1783]
+  - [1494, 1790, 1497, 1812]
+  - [1498, 1633, 1501, 1663]
+  - [1498, 1763, 1501, 1780]
+  - [1498, 1786, 1501, 1811]
+  - [1502, 1631, 1505, 1663]
+  - [1502, 1765, 1505, 1773]
+  - [1502, 1783, 1505, 1824]
+  - [1506, 1630, 1509, 1662]
+  - [1506, 1780, 1509, 1829]
+  - [1510, 1630, 1513, 1660]
+  - [1510, 1777, 1513, 1829]
+  - [1514, 1630, 1517, 1658]
+  - [1514, 1696, 1517, 1724]
+  - [1514, 1778, 1517, 1828]
+  - [1518, 1691, 1521, 1730]
+  - [1518, 1790, 1521, 1796]
+  - [1518, 1805, 1521, 1844]
+  - [1522, 1640, 1525, 1659]
+  - [1522, 1689, 1525, 1732]
+  - [1522, 1799, 1525, 1824]
+  - [1522, 1828, 1525, 1848]
+  - [1526, 1635, 1529, 1662]
+  - [1526, 1687, 1529, 1734]
+  - [1526, 1795, 1529, 1828]
+  - [1526, 1833, 1529, 1848]
+  - [1530, 1632, 1533, 1662]
+  - [1530, 1685, 1533, 1735]
+  - [1530, 1795, 1533, 1847]
+  - [1534, 1630, 1537, 1662]
+  - [1534, 1685, 1537, 1705]
+  - [1534, 1707, 1537, 1713]
+  - [1534, 1719, 1537, 1745]
+  - [1534, 1798, 1537, 1850]
+  - [1534, 1852, 1537, 1858]
+  - [1538, 1629, 1541, 1661]
+  - [1538, 1685, 1541, 1707]
+  - [1538, 1719, 1541, 1746]
+  - [1538, 1810, 1541, 1863]
+  - [1542, 1630, 1545, 1659]
+  - [1542, 1686, 1545, 1715]
+  - [1542, 1730, 1545, 1746]
+  - [1542, 1810, 1545, 1824]
+  - [1542, 1842, 1545, 1870]
+  - [1546, 1631, 1549, 1656]
+  - [1546, 1694, 1549, 1720]
+  - [1546, 1729, 1549, 1747]
+  - [1546, 1810, 1549, 1834]
+  - [1546, 1839, 1549, 1872]
+  - [1550, 1694, 1553, 1716]
+  - [1550, 1729, 1553, 1750]
+  - [1550, 1812, 1553, 1831]
+  - [1550, 1834, 1553, 1870]
+  - [1554, 1695, 1557, 1716]
+  - [1554, 1725, 1557, 1764]
+  - [1554, 1820, 1557, 1828]
+  - [1554, 1831, 1557, 1859]
+  - [1558, 1723, 1561, 1767]
+  - [1558, 1828, 1561, 1863]
+  - [1558, 1868, 1561, 1878]
+  - [1562, 1721, 1565, 1767]
+  - [1562, 1829, 1565, 1862]
+  - [1562, 1865, 1565, 1881]
+  - [1566, 1719, 1569, 1759]
+  - [1566, 1830, 1569, 1849]
+  - [1566, 1858, 1569, 1881]
+  - [1570, 1717, 1573, 1752]
+  - [1570, 1764, 1573, 1778]
+  - [1570, 1834, 1573, 1851]
+  - [1570, 1856, 1573, 1892]
+  - [1574, 1717, 1577, 1739]
+  - [1574, 1757, 1577, 1785]
+  - [1574, 1839, 1577, 1891]
+  - [1578, 1720, 1581, 1733]
+  - [1578, 1754, 1581, 1787]
+  - [1578, 1848, 1581, 1882]
+  - [1582, 1752, 1585, 1787]
+  - [1582, 1847, 1585, 1881]
+  - [1586, 1631, 1589, 1640]
+  - [1586, 1649, 1589, 1658]
+  - [1586, 1748, 1589, 1769]
+  - [1586, 1775, 1589, 1789]
+  - [1586, 1849, 1589, 1880]
+  - [1586, 1892, 1589, 1907]
+  - [1590, 1631, 1593, 1662]
+  - [1590, 1744, 1593, 1763]
+  - [1590, 1771, 1593, 1788]
+  - [1590, 1854, 1593, 1879]
+  - [1590, 1888, 1593, 1907]
+  - [1594, 1623, 1597, 1662]
+  - [1594, 1744, 1597, 1760]
+  - [1594, 1767, 1597, 1788]
+  - [1594, 1857, 1597, 1873]
+  - [1594, 1883, 1597, 1905]
+  - [1598, 1621, 1601, 1642]
+  - [1598, 1648, 1601, 1662]
+  - [1598, 1743, 1601, 1757]
+  - [1598, 1762, 1601, 1785]
+  - [1598, 1798, 1601, 1808]
+  - [1598, 1870, 1601, 1900]
+  - [1602, 1631, 1605, 1642]
+  - [1602, 1646, 1605, 1660]
+  - [1602, 1744, 1605, 1754]
+  - [1602, 1757, 1605, 1782]
+  - [1602, 1797, 1605, 1811]
+  - [1602, 1869, 1605, 1897]
+  - [1602, 1908, 1605, 1923]
+  - [1606, 1631, 1609, 1641]
+  - [1606, 1645, 1609, 1656]
+  - [1606, 1753, 1609, 1778]
+  - [1606, 1795, 1609, 1810]
+  - [1606, 1870, 1609, 1893]
+  - [1606, 1907, 1609, 1926]
+  - [1610, 1633, 1613, 1639]
+  - [1610, 1752, 1613, 1774]
+  - [1610, 1791, 1613, 1808]
+  - [1610, 1874, 1613, 1894]
+  - [1610, 1898, 1613, 1911]
+  - [1610, 1914, 1613, 1928]
+  - [1614, 1619, 1617, 1627]
+  - [1614, 1642, 1617, 1662]
+  - [1614, 1759, 1617, 1768]
+  - [1614, 1785, 1617, 1801]
+  - [1614, 1877, 1617, 1928]
+  - [1618, 1618, 1621, 1659]
+  - [1618, 1760, 1621, 1766]
+  - [1618, 1774, 1621, 1799]
+  - [1618, 1816, 1621, 1827]
+  - [1618, 1892, 1621, 1927]
+  - [1622, 1617, 1625, 1649]
+  - [1622, 1769, 1625, 1794]
+  - [1622, 1815, 1625, 1828]
+  - [1622, 1892, 1625, 1924]
+  - [1626, 1617, 1629, 1629]
+  - [1626, 1632, 1629, 1644]
+  - [1626, 1652, 1629, 1660]
+  - [1626, 1770, 1629, 1793]
+  - [1626, 1809, 1629, 1828]
+  - [1626, 1891, 1629, 1907]
+  - [1630, 1631, 1633, 1663]
+  - [1630, 1774, 1633, 1794]
+  - [1630, 1802, 1633, 1826]
+  - [1630, 1893, 1633, 1910]
+  - [1634, 1630, 1637, 1662]
+  - [1634, 1783, 1637, 1794]
+  - [1634, 1798, 1637, 1818]
+  - [1634, 1897, 1637, 1909]
+  - [1638, 1632, 1641, 1643]
+  - [1638, 1649, 1641, 1660]
+  - [1638, 1793, 1641, 1816]
+  - [1638, 1831, 1641, 1845]
+  - [1642, 1642, 1645, 1660]
+  - [1642, 1789, 1645, 1812]
+  - [1642, 1820, 1645, 1853]
+  - [1646, 1636, 1649, 1663]
+  - [1646, 1793, 1649, 1808]
+  - [1646, 1816, 1649, 1854]
+  - [1650, 1634, 1653, 1664]
+  - [1650, 1795, 1653, 1803]
+  - [1650, 1814, 1653, 1829]
+  - [1650, 1839, 1653, 1858]
+  - [1654, 1632, 1657, 1664]
+  - [1654, 1814, 1657, 1827]
+  - [1654, 1844, 1657, 1858]
+  - [1658, 1631, 1661, 1663]
+  - [1658, 1814, 1661, 1825]
+  - [1658, 1846, 1661, 1858]
+  - [1662, 1631, 1665, 1660]
+  - [1662, 1814, 1665, 1828]
+  - [1662, 1847, 1665, 1857]
+  - [1666, 1632, 1669, 1658]
+  - [1666, 1813, 1669, 1830]
+  - [1666, 1843, 1669, 1856]
+  - [1666, 1865, 1669, 1873]
+  - [1670, 1817, 1673, 1855]
+  - [1670, 1863, 1673, 1877]
+  - [1674, 1818, 1677, 1852]
+  - [1674, 1858, 1677, 1877]
+  - [1678, 1822, 1681, 1845]
+  - [1678, 1853, 1681, 1876]
+  - [1682, 1850, 1685, 1875]
+  - [1686, 1844, 1689, 1872]
+  - [1686, 1878, 1689, 1895]
+  - [1690, 1841, 1693, 1895]
+  - [1694, 1839, 1697, 1895]
+  - [1698, 1839, 1701, 1891]
+  - [1702, 1848, 1705, 1856]
+  - [1702, 1867, 1705, 1887]
+  - [1706, 1862, 1709, 1885]
+  - [1710, 1859, 1713, 1879]
+  - [1714, 1860, 1717, 1873]
+
+testi:
+  - font: IBMPlexMono-Medium.ttf          # titolo
+    corpo: 52
+    scala_x: 0.92
+    x: 111
+    y: 332
+    righe: ["POEE E I SUOI SACERDOTI"]
+    sottolineato: true
+    distanza_sottolineatura: 7
+    spessore_sottolineatura: 5
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.92
+    interlinea: 60.5
+    x: 112
+    y: 517
+    righe:
+      - "Se ti piace l'Erisianesimo per come è stato"
+      - "rappresentato da Mal-2, allora potresti desiderare di"
+      - "avviare la tua CABALA POEE come SACERDOTE POEE e poter"
+      - "fare un sacco di cose POEE-pretesche. Una \"Cabala POEE\""
+      - "è esattamente ciò che pensi che sia."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.92
+    interlinea: 60.3
+    x: 110
+    y: 880
+    righe:
+      - "Il Sommo Sacerdote non ha richieste specifiche per i"
+      - "suoi Sacerdoti, anche se si aspetta cose abbastanza"
+      - "buone da loro. Il Compito del Polipadre è indicare, non"
+      - "insegnare. Ogni tanto, può anche ascoltare."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.92
+    interlinea: 59.8
+    x: 108
+    y: 1191
+    righe:
+      - "Se dovessi scoprire che le tue personali rivelazioni da"
+      - "parte della Dea sono diventate sostanzialmente differenti"
+      - "dalle rivelazioni di Mal-2, allora forse la Dea ha in"
+      - "serbo per te un ruolo da Vescovo e dovresti considerare la"
+      - "possibilità di creare una tua propria setta da zero, senza"
+      - "ostacolo alcuno. I Vescovi non competono l'un l'altro, e"
+      - "rimangono a tutti gli effetti Sacerdoti POEE comunque"
+      - "(sempre che io riesca a scovarli). Il succo è che i"
+      - "Vescovi stanno tracciando sentieri differenti"
+      - "per raggiungere la vetta della montagna"
+      - "Erisiana. Consulta la sezione \"Società"
+      - "Discordiana\"."
+
+  - font: IBMPlexMono-Medium.ttf          # titoletto
+    corpo: 52
+    scala_x: 0.92
+    x: 107
+    y: 1964
+    righe: ["ORDINAZIONE SACERDOTALE POEE"]
+    sottolineato: true
+    distanza_sottolineatura: 10
+    spessore_sottolineatura: 5
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.92
+    interlinea: 60.8
+    x: 107
+    y: 2086
+    righe:
+      - "Non ci sono particolari requisiti per l'Ordinazione,"
+      - "perché se vuoi essere un Sacerdote POEE, allora senza"
+      - "dubbio possiedi i requisiti. Chi mai potrebbe sapere"
+      - "meglio di te se dovresti o meno essere Ordinato?"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.92
+    interlinea: 61
+    x: 107
+    y: 2391
+    righe:
+      - "Un SACERDOTE o SACERDOTESSA ORDINATO/A è definito come"
+      - "\"chiunque sia in possesso di un Certificato di"
+      - "Ordinazione emesso dall'Ufficio del Polipadre.\""
+
+  - font: CourierPrime-Italic.ttf          # versi
+    corpo: 25
+    interlinea: 30.2
+    x: 221
+    y: 2668
+    righe:
+      - "Cerca nel Cao se vuoi essere saggio"
+      - "Trova diletto nel Suo Gran Retaggio!"
+      - "Cerca nel Cao se sapere tu vuoi"
+      - "cosa del Cao capire non puoi!"
+      - "   (HBT; Il Libro del Consiglio, 1:1)"
+
+
+  - font: Oswald-VF.ttf                    # timbro, sopra la freccia
+    corpo: 52
+    peso: 500
+    grassetto: 1
+    effetto: timbro
+    rotazione: -46
+    x: 1449
+    y: 1647
+    righe: ["A T T E N Z I O N E"]
+
+  - font: Oswald-VF.ttf                    # timbro, sotto la freccia
+    corpo: 52
+    peso: 500
+    grassetto: 1
+    scala_x: 0.88
+    effetto: timbro
+    rotazione: -46
+    x: 1468
+    y: 1788
+    righe: ["I N S E R T I"]

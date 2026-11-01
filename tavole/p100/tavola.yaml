@@ -1,0 +1,211 @@
+# Tavola p100 — Intervista alla Norton Cabal (G. Skripto), pag. 8 del dattiloscritto
+# Testo: testo/it/loompanics/p100.md
+# STATO: completa
+# NUOVE TRADUZIONI: intestazione corrente "NORTON CABAL INTERVIEW" -> "INTERVISTA ALLA CABALA NORTON".
+# DIFFERENZE: dattiloscritto stretto a scala_x 0.86, interlinea 44.7 come l'originale, stacco tra
+#   le battute ridotto a 40.2 px (orig. 44.7). Sottolineati come nell'originale: Illuminatus (due
+#   volte nell'ultima battuta di Hill e nella domanda di Gypsie) e Principia, anche dove il testo
+#   italiano non li marca in corsivo. "…" reso con "..." da macchina da scrivere, come l'originale.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 48 + grassetto 0.5 (passo originale 27 px); intestazione nello
+#   stesso font; "G. Skripto", filetti e piede "79/11/26 -8- Loompanics" restano dalla scansione.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 100
+
+cancella:
+  - [155, 95, 765, 145]    # intestazione
+  - [148, 225, 1792, 2722]    # tutto il dattiloscritto
+
+testi:
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    x: 164
+    y: 134
+    grassetto: 0.5
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 269
+    grassetto: 0.5
+    righe:
+      - "    mi vedevo come un clown cosmico e mi proposi di dimostrare,"
+      - "    con una dimostrazione pratica, che una divinità può essere"
+      - "    assolutamente qualsiasi cosa."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 443
+    grassetto: 0.5
+    righe:
+      - "    In altre parole, sono le persone a inventare gli dei, e non"
+      - "    il contrario. Più tardi decisi che stavo facendo una qualche"
+      - "    forma di arte concettuale."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 618
+    grassetto: 0.5
+    righe:
+      - "    Negli anni '50 la mia cultura mi insegnava che ero stato"
+      - "    creato da e per una divinità, una specifica divinità"
+      - "    maschile, e che tutte le altre divinità sono FALSE. Eppure la"
+      - "    mia crescente esperienza mi mostrava che qualsiasi divinità è"
+      - "    vera in un certo senso e falsa in un altro senso. Così mi"
+      - "    proposi di fare quello che la mia società mi diceva essere"
+      - "    impossibile -- creare una religione vera a partire da una"
+      - "    divinità palesemente assurda."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1015
+    grassetto: 0.5
+    righe:
+      - "    Negli anni '50 una divinità femminile era una bestemmia."
+      - "    Negli anni '70 una divinità umoristica è ancora considerata"
+      - "    impossibile, ridicola e blasfema. Per quanto mi riguarda, ho"
+      - "    dimostrato quel che volevo dimostrare. Eris è una divinità"
+      - "    vera e, anche se non promuovo l'Erisianesimo come una"
+      - "    religione seria..."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1324
+    grassetto: 0.5
+    righe:
+      - "Occupant:   Io sì!"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1409
+    grassetto: 0.5
+    righe:
+      - "Dexter:     Parla per te."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1494
+    grassetto: 0.5
+    righe:
+      - "Ignotius:   Ben detto."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1579
+    grassetto: 0.5
+    righe:
+      - "Hill:       ...faccio però notare che, dalla sua prospettiva, ha"
+      - "    esattamente tanto senso quanto tutte le altre dalle"
+      - "    rispettive prospettive."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1753
+    grassetto: 0.5
+    righe:
+      - "Occupant:   Penso che il paganesimo sia un valido sentiero"
+      - "    spirituale. Incoraggio l'Erisianesimo perché si prende in"
+      - "    giro da solo. Penso che sia salutare."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 1927
+    grassetto: 0.5
+    righe:
+      - "Ignotius:   Se riesci a vivere con soddisfazione con la Dea Eris,"
+      - "    puoi vivere con qualsiasi divinità, comprese nessuna o tutte."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 2057
+    grassetto: 0.5
+    righe:
+      - "Dexter:     La faccenda dell'adorazione non mi attira granché, ma"
+      - "    sullo spirito della cosa sono d'accordo con Occupant. Viviamo"
+      - "    in un'epoca di tumulto, l'intero pianeta è in uno stato di"
+      - "    cambiamento. Se noi, come specie, ci rannicchiamo impauriti"
+      - "    davanti alla confusione, allora moriamo con ciò che sta"
+      - "    morendo. Questa è rivoluzione."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 2365
+    grassetto: 0.5
+    righe:
+      - "Ignotius:   Io, personalmente, sono ateo. Greg Hill non esiste."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 2450
+    grassetto: 0.5
+    righe:
+      - "[ risate ]"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 2535
+    grassetto: 0.5
+    righe:
+      - "Gypsie [a Hill]:  Che ne pensi di Illuminatus?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.86
+    interlinea: 44.7
+    x: 162
+    y: 2620
+    grassetto: 0.5
+    righe:
+      - "Hill:       Oh, lo adoro. Stavo finendo i Principia mentre Shea e"
+      - "    Wilson lavoravano a Illuminatus. Ci sono voluti"
+
+linee:
+  - [1004, 2542, 1274, 2545]    # sottolineatura
+  - [1202, 2627, 1422, 2630]    # sottolineatura
+  - [756, 2672, 1026, 2675]    # sottolineatura

@@ -1,0 +1,115 @@
+# Tavola p082 (originale 00067) — Catena di Sant'Antonio (Fronte di Liberazione dell'Ufficio Postale)
+# Pagina del vecchio sito: 74 (testo/it/74.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (il timbro "EXPORT LICENSE NOT REQUIRED" usa la nota di Mauro
+#   "licenza di esportazione non richiesta", qui composta nel timbro).
+# DIFFERENZE: nessuna. "Pianta i tuo semi." lasciato così: rispecchia il refuso
+#   dell'originale "Plant you seeds."
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: "*licenza di esportazione non richiesta" (nota a piè di pagina del vecchio
+#   sito, ora resa direttamente nel timbro).
+# FONT: titolo in Poppins Bold (font di sistema, OFL): il più vicino al grottesco nero
+#   dell'originale. Timbro spostato ~60 px più in alto per fare posto alla prima riga.
+
+pagina_pdf: 82
+
+cancella:
+  - [160, 115, 1760, 940]       # intestazione, titolo, timbro, prime righe
+  - [160, 960, 1790, 2768]      # corpo della lettera
+  - [160, 2768, 1500, 2800]     # ultima riga (il numero di pagina resta)
+
+testi:
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    x: 174
+    y: 174
+    righe: ["UNA INIZIATIVA CONGIUNTA DELLA SOCIETÀ DISCORDIANA"]
+
+  - font: Poppins-Bold.ttf
+    corpo: 78
+    adatta: 1570
+    x: 174
+    y: 274
+    righe: ["Fronte di Liberazione dell'Ufficio Postale"]
+
+  - font: Oswald-VF.ttf                    # timbro di gomma
+    corpo: 150
+    peso: 420
+    interlinea: 125
+    scala_x: 0.85
+    effetto: timbro
+    rotazione: -3
+    adatta: 1000
+    x: 875
+    y: 470
+    righe: ["LICENZA DI ESPORTAZIONE", "NON RICHIESTA"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 180
+    y: 654
+    righe: ["QUESTA E' UNA CATENA DI SANT'ANTONIO."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 181
+    y: 776
+    righe:
+      - "ENTRO I PROSSIMI CINQUANTA-CINQUE GIORNI RICEVERAI"
+      - "TRENTAMILACENTO LIBBRE DI CATENE!"
+      - "Nel frattempo - pianta i tuoi semi."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 183
+    y: 1016
+    righe:
+      - "Se molte delle persone che ricevono questa lettera"
+      - "pianteranno pochi semi, e molte persone ricevono"
+      - "questa lettera, allora molti semi saranno piantati."
+      - "Pianta i tuo semi."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    colonne: 51
+    x: 183
+    y: 1316
+    testo: >-
+      Nei parchi. Negli appezzamenti. Fioriere pubbliche. Posti remoti.
+      Municipi. Dovunque. In qualsiasi momento. Oppure avvia una piantagione
+      nel tuo guardaroba (ma prima documentati su questo). Per una semina
+      occasionale, la soluzione migliore è immergere in acqua per un giorno e
+      piantare in gruppi di cinque a circa mezzo pollice di profondità. Non
+      preoccuparti troppo del tempo, sanno quando il tempo è inadatto e
+      proveranno ad aspettare naturalmente. Non immergerli durante l'inverno.
+      I semi sono una forma di vita vigorosa con un forte desiderio di
+      crescere e fiorire. Ma alcuni di essi hanno bisogno dell'aiuto della
+      gente per cominciare. Pianta i tuoi semi.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    colonne: 51
+    x: 183
+    y: 2216
+    testo: >-
+      Fai poche copie di questa lettera (5 andrebbe bene) e mandale ai tuoi
+      amici. Prova a impostarle verso città e stati differenti, addirittura
+      altre nazioni. Se non ne hai voglia, passa questa copia a qualcuno a cui
+      forse andrebbe.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    colonne: 51
+    x: 183
+    y: 2576
+    testo: >-
+      NON RISPONDE AL VERO
+
+      la leggenda che buttare una lettera di una catena di Sant'Antonio porti
+      a conseguenze catastrofiche, abominevoli o oltraggiose. A parte
+      ovviamente, dal punto di vista del seme.

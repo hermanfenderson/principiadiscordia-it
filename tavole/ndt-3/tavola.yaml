@@ -1,0 +1,46 @@
+# Tavola nuova: Note Del Traduttore, pagina 3 di 3
+# Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
+# per cambiare il testo si corregge la sorgente e si rilancia.
+# STATO: completa
+
+pagina_pdf: null
+testi:
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 913
+  y: 200
+  allinea: centro
+  righe:
+  - -3-
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  interlinea: 60
+  x: 227
+  y: 330
+  righe:
+  - '     00047 -- I refusi sono dell''annuncio'
+  - 'originale e li ho rispettati: "plants" (piante)'
+  - invece di "planets" (pianeti), da cui i pianti
+  - interni, e "nude" dove ci si aspetterebbe "mean",
+  - la circonferenza media, da cui la Terra nuda.
+  - ''
+  - '     00048 -- Sacro Cao: gioco di parole con cow'
+  - (mucca), intraducibile.
+  - ''
+  - '     00049 -- Hodge e Podge: in inglese'
+  - hodge-podge è un'accozzaglia, un guazzabuglio. Da
+  - 'lì Guazza e Buglio: era l''unica parola italiana'
+  - capace di fare lo stesso lavoro, a patto di
+  - tagliarla in due.
+  - ''
+  - '     00055 -- ERIS letto al contrario è SIRE:'
+  - '"sire, signore", ma anche il maschio da monta e il'
+  - verbo "generare"; da qui il simbolismo sessuale.
+  - 'Spostando la prima lettera alla fine è RISE:'
+  - '"crescita". Eros letto al contrario è sorE:'
+  - '"avvilito".'
+  - ''
+  - '     00059 -- Sri Syadasti viene dal syadvada'
+  - giainista, la dottrina secondo cui di ogni cosa si
+  - può dire soltanto che "in un certo senso è". La
+  - salmodia ne declina tutte le combinazioni.

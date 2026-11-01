@@ -1,0 +1,205 @@
+# Tavola p064 (originale 00049) — Il Sacro Cao (prima pagina del testo)
+# Pagina del vecchio sito: 56 (testo/it/56.md)
+# STATO: completa
+# NUOVE TRADUZIONI: timbro "MUST" -> "DEVI"; cartiglio "PSYCHIC WISDOM" -> "SAGGEZZA PSICHICA"
+#   (nel vecchio sito restavano immagini inglesi)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "APPARTENTE" -> "APPARENTE"
+# NdT ESCLUSE: nessuna
+# Dattiloscritto: IBM Plex Mono 52 con scala_x 0.88 (58 colonne: l'italiano è più lungo), corsivo in Courier Prime
+#   Italic con scala_x 0.9 e interlinea 57 (originale 60) per far stare tutto sopra il numero di pagina.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 64
+
+cancella:
+  - [900, 211, 1385, 262]      # titolo (i due filetti restano)
+  - [1378, 195, 1625, 350]     # timbro MUST
+  - [540, 382, 1775, 512]      # prime due righe accanto all'immagine
+  - [155, 512, 1775, 2725]     # resto del testo
+  - [264, 439, 267, 450]
+  - [268, 438, 271, 460]
+  - [272, 436, 275, 467]
+  - [276, 436, 279, 465]
+  - [280, 434, 283, 464]
+  - [284, 432, 287, 463]
+  - [288, 432, 291, 462]
+  - [292, 430, 295, 461]
+  - [296, 429, 299, 460]
+  - [300, 427, 303, 458]
+  - [304, 425, 307, 457]
+  - [308, 424, 311, 456]
+  - [312, 422, 315, 455]
+  - [316, 422, 319, 454]
+  - [320, 421, 323, 453]
+  - [324, 419, 327, 452]
+  - [328, 418, 331, 451]
+  - [332, 417, 335, 449]
+  - [336, 416, 339, 449]
+  - [340, 415, 343, 448]
+  - [344, 414, 347, 446]
+  - [348, 412, 351, 445]
+  - [352, 411, 355, 445]
+  - [356, 410, 359, 444]
+  - [360, 409, 363, 442]
+  - [364, 410, 367, 442]
+  - [368, 408, 371, 440]
+  - [372, 407, 375, 439]
+  - [376, 407, 379, 438]
+  - [380, 406, 383, 438]
+  - [384, 405, 387, 436]
+  - [388, 404, 391, 436]
+  - [392, 404, 395, 435]
+  - [396, 403, 399, 434]
+  - [400, 402, 403, 433]
+  - [404, 401, 407, 432]
+  - [408, 401, 411, 432]
+  - [412, 400, 415, 430]
+  - [416, 399, 419, 430]
+  - [420, 398, 423, 429]
+  - [424, 398, 427, 428]
+  - [428, 397, 431, 428]
+  - [432, 397, 435, 428]
+  - [436, 397, 439, 427]
+  - [440, 397, 443, 426]
+  - [444, 396, 447, 426]
+  - [448, 395, 451, 426]
+  - [452, 395, 455, 425]
+  - [456, 395, 459, 425]
+  - [460, 395, 463, 425]
+  - [464, 394, 467, 424]
+  - [468, 394, 471, 424]
+  - [472, 394, 475, 424]
+  - [476, 394, 479, 424]
+  - [480, 393, 483, 423]
+  - [484, 393, 487, 423]
+  - [488, 394, 491, 423]
+  - [492, 395, 495, 422]
+  - [496, 395, 499, 422]
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    allinea: centro
+    x: 1146
+    y: 255
+    righe: ["IL SACRO CAO"]
+
+  - font: Oswald-VF.ttf                     # timbro
+    corpo: 108
+    peso: 400
+    scala_x: 1.1
+    effetto: timbro
+    rotazione: 14
+    x: 1412
+    y: 336
+    righe: ["DEVI"]
+
+  - font: OldStandard-Bold.ttf              # cartiglio
+    corpo: 30
+    allinea: centro
+    adatta: 218
+    rotazione: 13
+    x: 382
+    y: 431
+    righe: ["SAGGEZZA PSICHICA"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 61
+    x: 559
+    y: 436
+    righe:
+      - "IL SACRO CAO è la chiave per"
+      - "l'illuminazione. Disegnato dall'Apostolo"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60.4
+    x: 171
+    y: 558
+    righe:
+      - "Hung Mung nell'antica Cina, fu modificato e reso celebre"
+      - "dai Taoisti e viene chiamato alle volte YIN-YANG. Il Sacro"
+      - "Cao non è lo Yin-Yang dei Taoisti. E' il GUAZZA-BUGLIO"
+      - "degli Erisiani. E, invece del cerchio del Buglio nel lato"
+      - "della Guazza, esso ha un PENTAGONO che rappresenta il"
+      - "PRINCIPIO ANERISTICO, e al posto di un cerchio per la"
+      - "Guazza nel lato del Buglio, è rappresentata la MELA D'ORO"
+      - "DI DISCORDIA a rappresentare il PRINCIPIO ERISTICO."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60.4
+    x: 171
+    y: 1100
+    righe:
+      - "Il Sacro Cao rappresenta tutto ciò che qualcuno ha bisogno"
+      - "di sapere su assolutamente qualsiasi argomento, e anche di"
+      - "più! Rappresenta persino ciò che non vale la pena"
+      - "conoscere, rappresentato come lo spazio vuoto che circonda"
+      - "il Guazza-Buglio."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60
+    x: 171
+    y: 1461
+    righe:
+      - "A SEGUIRE UN PO' DI PSICO-METAFISICA."
+      - "Se non ti emoziona la filosofia, la cosa migliore è"
+      - "saltare questa parte."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.9
+    interlinea: 57
+    x: 171
+    y: 1665
+    righe:
+      - "   Il Principio Aneristico è quello dell'ORDINE APPARENTE;"
+      - "il Principio Eristico è quello del DISORDINE APPARENTE."
+      - "Entrambi, ordine e disordine sono concetti definiti"
+      - "dall'uomo e sono divisioni artificiali del PURO CAOS, che"
+      - "si trova a un livello di maggiore profondità di quello al"
+      - "quale è fatta questa distinzione."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.9
+    interlinea: 57
+    x: 171
+    y: 2025
+    righe:
+      - "   Utilizzando quell'apparato capace di definire concetti"
+      - "che chiamiamo \"mente\" guardiamo alla realtà con quelle"
+      - "idee-a-proposito-della-realtà che le nostre culture ci"
+      - "forniscono. Le idee-a-proposito-della-realtà sono"
+      - "erroneamente etichettate \"realtà\" e i non illuminati sono"
+      - "in eterno perplessi del fatto che altra gente, specialmente"
+      - "altre culture, vedano la \"realtà\" differentemente."
+      - "Semplicemente le idee-a-proposito-della-realtà son diverse."
+      - "La Vera (Vera con la V maiuscola) realtà è a un livello più"
+      - "profondo di quello del concetto."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.9
+    interlinea: 57
+    x: 171
+    y: 2613
+    righe:
+      - "   Guardiamo al mondo attraverso finestre su cui abbiamo"
+      - "applicato griglie (concetti). Differenti filosofie usano"
+      - "griglie differenti. Una cultura è un gruppo di persone"
+
+linee:
+  - [1089, 1791, 1305, 1795]    # "concetti" sottolineato

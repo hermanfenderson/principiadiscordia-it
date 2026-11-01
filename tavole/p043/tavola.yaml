@@ -1,0 +1,111 @@
+# Tavola p043 (originale 00028) — Come avviare una Cabala POEE senza avere a che fare col Polipadre
+# Pagina del vecchio sito: 35 (testo/it/35.md), immagini di Mauro GeneralLicense.png e ShiveringCow.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (timbro, fumetto e slogan dalle immagini di Mauro)
+# DIFFERENZE: nell'elenco il punto 4 è ricomposto su tre righe ("4. Mandane una all'Ufficio dello Stato della /
+#   California per l'arredo e l'alloggio / 1021 'D' Street...") per far entrare il testo, più lungo, sopra la mucca.
+#   "Infine consulta la tua ghiandola pineale." va a capo da solo come "Then consult..." nell'originale.
+#   "Principia Discordia" sottolineato come nell'originale.
+# REFUSI CORRETTI: "SACERDOTE POE" -> "SACERDOTE POEE"; nel fumetto "SERGENTE PEPPER" (nell'immagine di Mauro
+#   le lettere sono confuse, "SERBENTE")
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 43
+
+cancella:
+  - [100, 70, 880, 220]        # timbro GENERAL LICENSE
+  - [265, 306, 1550, 416]      # titoletto (i due filetti restano)
+  - [110, 510, 1805, 1060]     # paragrafo
+  - [110, 1110, 1100, 1190]    # HOW TO BECOME A POEE CHAPLIN + sottolineatura
+  - [110, 1200, 1805, 1750]    # elenco
+  - [110, 1750, 1100, 1815]    # Then consult your pineal gland.
+  - [162, 2174, 668, 2332]     # fumetto
+  - [265, 2498, 1100, 2590]    # OLD POEE SLOGAN:
+  - [120, 2585, 1365, 2795]    # slogan a mano (00028 resta)
+
+testi:
+  - font: Oswald-VF.ttf                    # timbro
+    corpo: 104
+    peso: 380
+    scala_x: 1.05
+    rotazione: -4
+    x: 112
+    y: 170
+    righe: ["AUTORIZZAZIONE GENERALE"]
+
+  - font: IBMPlexMono-Medium.ttf           # titoletto fra due filetti
+    corpo: 52
+    interlinea: 62
+    allinea: centro
+    x: 906
+    y: 352
+    righe: ["COME AVVIARE UNA CABALA POEE", "SENZA AVERE A CHE FARE COL POLIPADRE"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 54
+    scala_x: 0.97
+    x: 125
+    y: 577
+    testo: >-
+      Se non riuscite a rintracciare il Polipadre, oppure benché lo abbiate
+      rintracciato non volete avere nulla a che fare con lui, ciò non di meno
+      siete ancora autorizzati a creare la vostra CABALA POEE e fare Cose
+      Pretesche, utilizzando i Principia Discordia come guida. Il Vostro Grado
+      Ufficiale sarà CAPPELLANO POEE della LEGIONE DELLA DISCORDIA DINAMICA, che
+      equivale strettamente a SACERDOTE POEE, eccezion fatta per il mancato
+      possesso di un Certificato di Ordinazione. Le parole che stai leggendo
+      valgono per ordinazione.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 125
+    y: 1172
+    righe: ["COME DIVENTARE UN CAPPELLANO POEE"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 5
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 125
+    y: 1256
+    righe:
+      - "1. Scrivi l'AFFERMAZIONE ERISIANA in cinque copie."
+      - "2. Firma con la penna e col naso ciascuna copia."
+      - "3. Mandane una al Presidente degli Stati Uniti."
+      - "4. Mandane una all'Ufficio dello Stato della"
+      - "     California per l'arredo e l'alloggio."
+      - "     1021 'D' Street, Sacramento CA 94814"
+      - "5. Appendine una a un palo del telefono. Nascondine"
+      - "   una. Brucia l'ultima."
+      - "Infine consulta la tua ghiandola pineale."
+
+  - font: Kalam-Bold.ttf                   # fumetto
+    corpo: 46
+    interlinea: 50
+    adatta: 500
+    x: 165
+    y: 2215
+    righe: ["IL GENERALE", "\"AUTORIZZAZIONE\" ERA IL", "COMANDANTE DEL", "SERGENTE PEPPER"]
+
+  - font: Rye-Regular.ttf                  # slogan
+    corpo: 68
+    x: 280
+    y: 2568
+    righe: ["ANTICO SLOGAN POEE:"]
+
+  - font: PatrickHand-Regular.ttf
+    corpo: 78
+    interlinea: 76
+    grassetto: 1
+    adatta: 1260
+    x: 135
+    y: 2652
+    righe: ["Quando sei in dubbio, scopatelo.", "Quando non sei in dubbio... fatti venire il dubbio!"]
+
+linee:
+  - [881, 818, 1457, 822]      # sottolineatura di "Principia Discordia"

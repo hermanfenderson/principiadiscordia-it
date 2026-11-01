@@ -1,0 +1,153 @@
+# Tavola p019 (originale 00004) — I Cinque Comandamenti (Il Pentaconato)
+# Pagina del vecchio sito: 11 (testo/it/11.md); immagini di Mauro: NoGoddess.png (riquadro),
+#   TopangaCabal2.png (domanda a mano in fondo)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (riquadro "NON ESISTE ALTRA DEA / AL DI FUORI DI / ERIS" e domanda d'esame
+#   dalle immagini di Mauro)
+# DIFFERENZE: "ERIS" nel riquadro, cornice, fiamme e pergamena restano dalla scansione. Comandamenti a 53
+#   colonne (scala_x 0,885): I su 4 righe (5 nell'originale) e III su 10 (9 nell'originale), stesso totale.
+# FONT: riquadro in Oswald (condensato, come nell'immagine di Mauro); domanda a mano in Patrick Hand.
+# REFUSI CORRETTI: aggiunto il punto finale ai cinque comandamenti, come nell'originale (il testo ne è privo)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1770 x 2932). Passo 30 px.
+
+pagina_pdf: 19
+
+cancella:
+  - [320, 140, 1460, 215]       # titolo
+  - [128, 328, 432, 406]        # THERE IS NO / GODDESS BUT (ERIS resta)
+  - [505, 270, 1710, 578]       # primo capoverso, righe rientrate accanto al riquadro
+  - [90, 578, 1710, 825]        # primo capoverso, righe intere
+  - [290, 860, 1730, 2512]      # comandamenti e chiusa
+  - [440, 2560, 1660, 2650]     # domanda a mano, riga 1 (la pergamena resta)
+  - [300, 2650, 1660, 2770]     # riga 2
+  - [300, 2770, 1440, 2830]     # riga 3 (00004 resta)
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    grassetto: 0.5
+    allinea: centro
+    x: 888
+    y: 201
+    righe: ["I CINQUE COMANDAMENTI (IL PENTACONATO)"]
+
+  - font: Oswald-VF.ttf                    # riquadro
+    corpo: 29
+    peso: 500
+    scala_x: 1.12
+    allinea: centro
+    interlinea: 41
+    x: 278
+    y: 360
+    righe: ["NON ESISTE ALTRA DEA", "AL DI FUORI DI"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    grassetto: 0.5
+    scala_x: 0.88
+    interlinea: 60.4
+    x: 516
+    y: 324
+    righe:
+      - "Il Pentaconato fu scoperto dall'Apostolo"
+      - "eremita Zarathud nel quinto anno del"
+      - "Caterpillar. Egli lo trovò scolpito in una"
+      - "pietra dorata, mentre costruiva un solarium"
+      - "per la sua caverna, ma la sua importanza"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    grassetto: 0.5
+    scala_x: 0.88
+    interlinea: 60.6
+    x: 96
+    y: 625
+    righe:
+      - "non fu compresa perché era scritto con una cifratura"
+      - "misteriosa. Tuttavia, dopo 10 settimane e 11 ore di attento"
+      - "esame egli comprese che il messaggio poteva essere letto"
+      - "mettendosi in piedi sulla testa e guardandolo al contrario."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    allinea: centro
+    x: 1023
+    y: 928
+    righe: ["SAPPI QUESTO O UOMO DI FEDE!"]
+
+  - &comandamento
+    font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.885
+    interlinea: 60.5
+    colonne: 53
+    x: 304
+    y: 1018
+    testo: >-
+      I - Non c'è Dea tranne La Dea e Lei è la Tua Dea. Non c'è Movimento
+      Erisiano tranne Il Movimento Erisiano ed esso è Il Movimento
+      Erisiano. E ogni Corpo della Mela D'oro è l'adorata casa di un
+      Verme D'oro.
+
+  - <<: *comandamento
+    y: 1290
+    testo: >-
+      II - Un Discordiano Deve Sempre usare il Sistema Discordiano
+      Ufficiale di Numerazione dei Documenti.
+
+  - <<: *comandamento
+    y: 1440
+    testo: >-
+      III - Si richiede a un Discordiano, nella sua fase iniziale di
+      Illuminazione, che si Allontani in Solitudine e Gioisca della
+      Comunione con un Hot Dog di venerdì; questa Cerimonia Devozionale
+      serve per Protestare contro le numerose forme di Paganesimo di
+      oggi: dei Cattolici Cristiani (niente carne il Venerdì), degli
+      Ebrei (niente carne di Maiale), degli Induisti (niente carne di
+      Manzo), dei Buddisti (niente carne di animali) e dei Discordiani
+      (niente Panini da Hot Dog).
+
+  - <<: *comandamento
+    y: 2074
+    testo: >-
+      IV - Un Discordiano non mangerà Panini da Hot Dog, poiché Ciò è
+      stato il Conforto della Nostra Dea quando subì l'Affronto
+      Originale.
+
+  - <<: *comandamento
+    y: 2286
+    testo: >-
+      V - È proibito a un Discordiano di Credere a quello che legge.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    grassetto: 0.5
+    interlinea: 61
+    x: 304
+    y: 2437
+    righe:
+      - "COSI' E' SCRITTO. COSI' SIA. SALVE DISCORDIA!"
+      - "I PERSECUTORI SARANNO TRASGREDITI."
+
+  - font: PatrickHand-Regular.ttf          # domanda scritta a mano
+    corpo: 66
+    grassetto: 1.5
+    scala_x: 0.9
+    interlinea: 72
+    x: 460
+    y: 2625
+    righe: ["DOMANDA D'ESAME della Cabala di Topanga"]
+
+  - font: PatrickHand-Regular.ttf
+    corpo: 66
+    grassetto: 1.5
+    scala_x: 0.9
+    interlinea: 70
+    x: 307
+    y: 2700
+    righe:
+      - "SCUOLA delle FAMOSE DODICI MENTI BUDDHA: Se sono nostri"
+      - "  fratelli, come mai non possiamo mangiarli?"

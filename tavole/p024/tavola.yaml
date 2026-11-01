@@ -1,0 +1,131 @@
+# Tavola p024 (originale 00009) — ERIS (seguito)
+# Pagina del vecchio sito: 16 (testo/it/16.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (citazione di Bohr e fumetto "SENTO LA MUSICA!" da
+#   storico/immagini-it/TrivialTruths.png)
+# DIFFERENZE: la pagina comincia, come l'originale, a metà del discorso di Eris iniziato a p023
+#   ("sviluppare se stesso. Torno per trovare..." = "develop himself. I return to find...").
+#   "THE SACRED CHAO" -> "il Sacro Cao", "'TIS AN ILL WIND THAT BLOWS NO MINDS" in minuscolo:
+#   si segue testo/it/16.md.
+# REFUSI CORRETTI: "rideno" -> "ridono"; "sopratutto" -> "soprattutto"
+# NdT ESCLUSE: nessuna
+# Corpo 50 (passo 30) stretto a scala_x 0.87. Coordinate in pixel a 360 dpi (1827 x 2962).
+
+pagina_pdf: 24
+
+cancella:
+  - [100, 195, 1780, 2520]     # tutto il testo
+  - [105, 2530, 790, 2860]     # citazione di Bohr scritta a mano (verticale)
+  - [1125, 2550, 1560, 2612]   # scritta nel fumetto
+
+testi:
+  - font: Kalam-Bold.ttf                   # fumetto
+    corpo: 50
+    adatta: 420
+    x: 1132
+    y: 2603
+    righe: ["SENTO LA MUSICA!"]
+
+  - font: PatrickHand-Regular.ttf          # citazione di Bohr, sale dal basso
+    corpo: 46
+    interlinea: 54
+    grassetto: 1
+    rotazione: 90
+    adatta: 300
+    x: 150
+    y: 2846
+    righe:
+      - "\"Ci sono"
+      - "verità banali"
+      - "e grandi verità."
+      - "L'opposto di"
+      - "una verità banale"
+      - "è semplicemente"
+      - "falso. L'opposto"
+      - "di una grande"
+      - "verità è"
+      - "anch'esso vero.\""
+      - "- Neils Bohr"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 127
+    y: 268
+    righe:
+      - "sviluppare se stesso. Torno per trovare questo sviluppo"
+      - "vicino al completamento, ma minacciato da paura e"
+      - "incomprensione."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 127
+    y: 510
+    righe:
+      - "     Vi siete costruiti un'armatura sensoriale con cui vi"
+      - "siete rivestiti e la vostra visione è limitata, i vostri"
+      - "movimenti sono goffi e dolorosi, la pelle livida, e il"
+      - "vostro spirito bruciato dal sole."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 127
+    y: 812
+    righe:
+      - "     Io sono il caos. Io sono la sostanza dalla quale i"
+      - "vostri artisti e scienziati costruiscono ritmi. Io sono lo"
+      - "spirito con cui i vostri bambini e clown ridono in"
+      - "un'anarchia felice. Io sono il caos. Io sono viva, e vi dico"
+      - "che siete liberi."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 127
+    y: 1176
+    righe:
+      - "     Durante i mesi successivi studiarono filosofia e"
+      - "teologia e appresero che Eris Discordia era soprattutto"
+      - "temuta dagli antichi per il suo carattere devastante. In"
+      - "effetti, il concetto stesso di caos era ancora considerato"
+      - "equivalente a quello di lotta e trattato con una valenza"
+      - "negativa. \"Nessuna meraviglia che le cose siano incasinate\","
+      - "conclusero, \"hanno capito tutto alla rovescia.\" Scoprirono"
+      - "che il principio di disordine aveva la stessa"
+      - "significatività del principio d'ordine."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 127
+    y: 1780
+    righe:
+      - "     Con questo in mente, studiarono quello strano yin-yang."
+      - "Mentre meditavano un pomeriggio, una voce si manifestò loro:"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 127
+    y: 1962
+    righe:
+      - "     E' chiamato il Sacro Cao. Ti nomino tenutario di esso."
+      - "In esso troverai qualsiasi cosa tu voglia. Chiamami"
+      - "Discordia per manifestare il contrasto al pentagono. Di'"
+      - "all'umanità reclusa che non ci sono regole, a meno che non"
+      - "decidano di inventarsele. Mantieniti vicino alle parole di"
+      - "Syadasti: \"è un vento malato che non spazza via le menti\". E"
+      - "ricorda che non c'è tirannia nello Stato di Confusione. Per"
+      - "ulteriori informazioni, consulta la tua ghiandola pineale."

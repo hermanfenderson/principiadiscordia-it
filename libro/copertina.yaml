@@ -1,0 +1,45 @@
+# Testi della copertina: BOZZA da rivedere.
+# Si compone con  python3 strumenti/copertina.py --pagine N --carta crema --variante ocra|bianca
+
+prima:
+  timbro: "TRADOTTO DA HERMAN FENDERSON"
+  togli: ["NON E' POSTA SPAZZATURA"]   # scritte del frontespizio da non riportare in copertina
+
+dorso:
+  titolo: "Principia Discordia"
+  autore: "Malaclypse il Giovane"
+
+quarta:
+  citazione:
+    - "-- Sei veramente serio o cosa?"
+    - "-- Qualche volta prendo l'umorismo seriamente. Qualche volta prendo la serietà umoristicamente. In entrambi i casi, è irrilevante."
+  fonte_citazione: "Malaclypse il Giovane, intervistato"
+  presentazione: >-
+    Sul finire degli anni Cinquanta, in un bowling aperto tutta la notte alla
+    periferia di Los Angeles, due giovani californiani ricevettero la visita di
+    Eris, Dea del Caos, della Discordia e della Confusione. Ne nacque il
+    Discordianesimo: una religione travestita da scherzo, o uno scherzo
+    travestito da religione.
+
+
+    I Principia Discordia ne sono il testo sacro: un collage di dattiloscritti,
+    timbri, ritagli e disegni rubacchiati, fotocopiato e ristampato dal 1963 con
+    un'unica avvertenza: Ristampa quel che ti pare. Ne sono discesi la trilogia
+    Illuminatus!, mezza mitologia della controcultura e il copyleft, prima ancora
+    che avesse un nome.
+
+
+    Questa edizione riproduce in facsimile l'edizione Loompanics del 1980, con
+    l'introduzione di Robert Anton Wilson, la postfazione di Greg Hill e la
+    Quinta Edizione: ogni pagina ricomposta in italiano, scritta per scritta.
+  didascalia: "Herman Fenderson scruta le proprie prospettive nel medio termine..."
+  traduttore: >-
+    Herman Fenderson, apprendista patafisico, cominciò a tradurre i Principia
+    molti anni fa e li ha finiti soltanto ora, come si conviene. Divide il suo
+    tempo tra una città eterna e una che porta il nome di un gioco da tavolo.
+
+
+    Interrogato in proposito, nega tutto.
+  piede:
+    - "(K) All Rites Reversed -- Ristampa quel che ti pare."
+    - "Traduzione italiana con licenza Creative Commons BY-SA 4.0. Il testo integrale è libero su principiadiscordia.hermanfenderson.com"

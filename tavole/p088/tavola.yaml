@@ -1,0 +1,107 @@
+# Tavola p088 (originale 00073) — Lettera degli Illuminati (seconda pagina)
+# Pagina del vecchio sito: 80 (testo/it/80.md); segue la lettera di p087
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere): intestazione "MALIK to Mal-2   pg. 2" -> "MALIK a Mal-2   pag. 2";
+#   "Love," -> "Con affetto," (sul vecchio sito la firma era l'immagine inglese).
+# DIFFERENZE: la sottolineatura del titolo "The Federal Reserve Hoax" non è riprodotta;
+#   tabella dei cifrari Zwack, impronta digitale, firma MAD MALIK e scoiattolo intatti.
+#   Spazio tra i paragrafi ridotto (l'italiano è più lungo); corpo e interlinea originali.
+# REFUSI CORRETTI: "risultatp" -> "risultato"; "straffato" -> "strafatto"; "noi??" -> "noi?";
+#   "classsificate" -> "classificate"; "QUESTA INFORMATION" -> "QUESTA INFORMAZIONE".
+#   Lasciato "il successo nelle nostre mani" (manca forse un "è": da rivedere).
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Bold corpo 32 stretto a passo 18, come p087.
+
+pagina_pdf: 88
+
+cancella:
+  - [345, 375, 775, 420]        # MALIK to Mal-2 pg. 2
+  - [345, 455, 1810, 1582]      # corpo della lettera
+  - [1125, 1650, 1207, 1695]    # Love (la virgola resta, attaccata all'impronta)
+  - [350, 2075, 1700, 2200]     # PS
+
+testi:
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    x: 350
+    y: 409
+    righe: ["MALIK a Mal-2   pag. 2"]
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 36
+    x: 355
+    y: 489
+    righe:
+      - "    In effetti potresti ancora far riferimento a \"La Truffa della Riserva"
+      - "Federale\" di Vennard: \"Fin dalla Cattività Babilonese è sempre esistita una"
+      - "forza atea, satanica, anti-Cristiana -- adoratrice di Mammona -- determinata,"
+      - "pronta a operare dietro le quinte e sotto il tavolo il cui scopo incessante è il"
+      - "controllo del mondo per il tramite del controllo del Denaro. Il 1 Luglio, 1776"
+      - "[da correggersi in 1 Maggio: neanche Vennard le può imbroccare tutte] il"
+      - "Serpente alzò la sua testa all'interno della società segreta nota come gli"
+      - "Illuminati, fondata da Adam Weishaupt. C'e' una rilevante quantità di prove"
+      - "documentarie che tutte le rivoluzioni, guerre, depressioni, scioperi e caos"
+      - "derivino da questa fonte.\" Ecc., ecc., sai di che parlo."
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 36
+    x: 355
+    y: 871
+    righe:
+      - "    La posizione del nostro Quartier Generale negli Stati Uniti, per inciso è"
+      - "stata quasi scoperta; e per questo siamo stati costretti a spostarci per la"
+      - "prima volta in questo secolo (che palle!). Se vuoi, puoi rivelare che si trova"
+      - "in profondità nel labirinto di fognature al di sotto di Dealy Plaza a Dallas, e"
+      - "che è custodito dal Dealy Lama. Sono acclusi piani per lo sviluppo di potenziali"
+      - "nuove sedi. Ti prego di verificare e aggiungere tutti i commenti che riterrai"
+      - "pertinenti, specie riguardo la propensione Eristica del sito del Pentagono."
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 36
+    x: 355
+    y: 1145
+    righe:
+      - "    Ah, abbiamo buone notizie per te, Fratello Mal! Hai presente quel genio"
+      - "Zambiano della cibernetica che si è unito a noi? Beh, ha segretamente coordinato"
+      - "i computers dell'FBI col Sistema di Zurigo e i nostri teoretici sono in estasi"
+      - "con le informazioni raccolte. Guarda se voi gente là fuori poteste evitare di"
+      - "farvi esplodere per ancora due sole generazioni alla fine ce la faremo. Dopo"
+      - "20.000 anni il sogno di Kull si realizzerà! A stento riesco a crederci. Ma il"
+      - "risultato è certo, dandoci un po' di tempo. I nostri nipoti, Mal! Se la"
+      - "civilizzazione ce la farà a superare questa crisi, i nostri nipoti vivranno in"
+      - "un mondo di autentica libertà e autentica armonia e autentica soddisfazione."
+      - "Spero solo di essere ancora vivo per vederlo, Mal, il successo nelle nostre"
+      - "mani. Ventimila anni....!"
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 36
+    x: 355
+    y: 1563
+    righe:
+      - "    Ah, mi sento strafatto solo a pensarci. Buona fortuna per i Principia."
+      - "Ewige Blumenkraft! AVE ERIS."
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    allinea: destra
+    x: 1207
+    y: 1687
+    righe: ["Con affetto"]
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 33
+    x: 360
+    y: 2120
+    righe:
+      - "PS: RISERVATO - Da non pubblicarsi nei Principia."
+      - "Ti restituiamo i due cifrari Zwack per le comunicazioni classificate."
+      - "Di seguito la tua copia. NON DIVULGARE QUESTA INFORMAZIONE - SICUREZZA E-5."

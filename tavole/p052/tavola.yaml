@@ -1,0 +1,114 @@
+# Tavola p052 (originale 00037) — La Parabola del Tè Amaro
+# Pagina del vecchio sito: 44 (testo/it/44.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: "by" reso con "del" come nel testo italiano
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 52
+
+cancella:
+  - [130, 110, 760, 285]       # FOR YOUR ENLIGHTENMENT
+  - [440, 350, 1460, 650]      # titolo, autore
+  - [150, 690, 1815, 2145]     # corpo dattiloscritto
+  - [660, 2360, 1810, 2515]    # citazione Ezra Pound
+  - [150, 2700, 880, 2895]     # nota sulla Legge dell'Inferno
+
+testi:
+  - font: OldStandard-Bold.ttf            # titolino con grazie
+    corpo: 68
+    interlinea: 80
+    x: 149
+    y: 183
+    righe: ["PER LA TUA", "ILLUMINAZIONE"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    allinea: centro
+    x: 955
+    y: 413
+    righe: ["LA PARABOLA DEL TE AMARO"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 61
+    allinea: centro
+    x: 950
+    y: 504
+    righe:
+      - "del"
+      - "Rev. Dr. Ippocrate Magoun, P.P."
+      - "SACERDOTE POEE, Cabala di Okinawa"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 59
+    scala_x: 0.95
+    x: 173
+    y: 745
+    righe:
+      - "   Quando Hypoc finì di meditare con San Gulik, entrò"
+      - "nella cucina dove si accinse a preparare il banchetto"
+      - "e mentre era intento a ciò, scoprì che c'era del"
+      - "vecchio Thè in una pentola avanzato dalla notte"
+      - "precedente, quando egli per sua debolezza si era"
+      - "dimenticato di averlo preparato e con ciò lo aveva"
+      - "lasciato in infusione per 24 ore. Era scuro e torbido"
+      - "ed era intenzione di Hypoc di utilizzare questo"
+      - "vecchio Thè diluendolo con acqua. E nuovamente per la"
+      - "sua debolezza, così decise senza pensarci su e si"
+      - "accinse al lavoro fisico delle preparazioni. Fu allora"
+      - "che profondamente immerso nel piacere di quel trip,"
+      - "sentì nella sua testa, tutto a un tratto una voce che,"
+      - "chiara e con forza, diceva \"è il Thè amaro che ti"
+      - "prende tanto.\" Hypoc ascoltò la voce, ma la lotta"
+      - "interiore si intensificò, e lo schema, che relazionava"
+      - "il suo darsi da fare fisico coi messaggi muscolari e"
+      - "ad essi si coordinava e li unificava o addirittura li"
+      - "codificava, continuava ad esercitare la sua influenza"
+      - "così che Hypoc finì per soccombere a quella pressione"
+      - "e ignorò la voce."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 59
+    scala_x: 0.95
+    x: 173
+    y: 2009
+    righe:
+      - "   E di nuovo si immerse in questa orgia fisica e"
+      - "completò il suo compito, e Oh! come la voce aveva"
+      - "predetto, il thè era amaro."
+
+  - font: IBMPlexMono-Regular.ttf          # citazione, altra macchina
+    corpo: 47
+    interlinea: 61
+    allinea: destra
+    x: 1789
+    y: 2350
+    righe:
+      - "\"Le Cinque Leggi hanno le loro radici"
+      - "nella consapevolezza.\""
+
+  - font: IBMPlexMono-Regular.ttf
+    corpo: 47
+    allinea: destra
+    x: 1789
+    y: 2494
+    righe: ["--Che Fung (Ezra Pound, Canto 85)"]
+
+  - font: CourierPrime-Italic.ttf          # nota piccola in corsivo
+    corpo: 25
+    interlinea: 31
+    x: 165
+    y: 2731
+    righe:
+      - "La Legge dell'Inferno afferma che l'Inferno è"
+      - "riservato esclusivamente a coloro che credono in"
+      - "esso. Inoltre, il Girone più basso è riservato a"
+      - "coloro che credono in esso nella convinzione che"
+      - "ci andrebbero se non ci credessero."
+      - "       HBT; Il Vangelo secondo Fred, 3:1"

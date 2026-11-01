@@ -1,0 +1,109 @@
+# Tavola p074 (originale 00059) — La Salmodia di Sri Syadastian
+# Pagina del vecchio sito: 66 (testo/it/66.md)
+# STATO: completa
+# NUOVE TRADUZIONI: didascalia "APOSTLE SRI SYADASTI" -> "APOSTOLO SRI SYADASTI"
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "luso" -> "l'uso"; "inotre" -> "inoltre"; aggiunto "O!" mancante in "O! Ave Eris. Sia lodato San Mal il Vecchio."
+# NdT ESCLUSE: nessuna
+# Scritta a mano (C'è serenità nel caos...) in minuscolo come in testo/it/66.md.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 74
+cancella:
+  - [596, 220, 900, 258]    # didascalia APOSTLE SRI SYADASTI
+  - [1325, 240, 1640, 655]    # scritta a mano
+  - [180, 950, 1700, 1095]    # titolo e sottotitolo
+  - [180, 1170, 1780, 1665]    # paragrafo in corsivo
+  - [180, 1710, 1460, 2500]    # salmodia
+  - [180, 2555, 1720, 2700]    # chiusa in corsivo
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # didascalia
+    corpo: 25
+    allinea: destra
+    x: 896
+    y: 250
+    righe:
+      - "APOSTOLO SRI SYADASTI"
+
+  - font: PatrickHand-Regular.ttf    # scritta a mano
+    corpo: 62
+    grassetto: 1
+    interlinea: 54
+    x: 1335
+    y: 306
+    righe:
+      - "C’è"
+      - "serenità"
+      - "nel caos."
+
+  - font: PatrickHand-Regular.ttf    # scritta a mano
+    corpo: 62
+    grassetto: 1
+    interlinea: 56
+    x: 1350
+    y: 490
+    righe:
+      - "Cerca"
+      - "l’occhio"
+      - "del"
+      - "tifone."
+
+  - font: IBMPlexMono-Medium.ttf    # titolo
+    corpo: 52
+    allinea: centro
+    scala_x: 0.92
+    interlinea: 61
+    x: 935
+    y: 1013
+    righe:
+      - "UN RITO MISTERICO POEE - LA SALMODIA DI SRI SYADASTIAN"
+      - "Scritta, in un certo senso, da Mal-2"
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    interlinea: 56
+    x: 196
+    y: 1206
+    righe:
+      - "A differenza delle canzoni, le salmodie non sono"
+      - "cantate ma salmodiate. Questa qui in particolare"
+      - "migliora molto con l'uso di un capo che ripete solo"
+      - "la parte in sanscrito, mentre tutti gli altri"
+      - "salmodiano quella in italiano. E' inoltre"
+      - "appropriato essere in una condizione tranquilla"
+      - "della mente e sedere immobili, per esempio nella"
+      - "posizione del Ranuncolo. E' anche di aiuto essere"
+      - "fatti come copertoni."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 198
+    y: 1763
+    righe:
+      - "RUB-A-DUB-DUB"
+      - "O! Ave Eris.  Sia lodato San Hung Mung."
+      - "SYA-DASTI"
+      - "O! Ave Eris.  Sia lodato San Mo-jo."
+      - "SYA-DAVAK-TAVYA"
+      - "O! Ave Eris.  Sia lodato San Zara-thud."
+      - "SYA-DASTI SYA-NASTI"
+      - "O! Ave Eris.  Sia lodato San Mal il Vecchio."
+      - "SYA-DASTI KAVAK-TAV-YASKA"
+      - "O! Ave Eris.  Sia lodato San Gu-lik."
+      - "SYA-DASTI, SYA-NASTI, SYA-DAVAK-TAV-YASKA"
+      - "O! Ave Eris.  Tutti salutino Dis-cord-ia."
+      - "RUB-A-DUB-DUB"
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    interlinea: 56
+    x: 193
+    y: 2574
+    righe:
+      - "Viene ripetuto indefinitamente o per le prime due"
+      - "mila miglia, a seconda di quale condizione si"
+      - "presenti per prima."
+

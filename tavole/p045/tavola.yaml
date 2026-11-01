@@ -1,0 +1,159 @@
+# Tavola p045 (originale 00030) — Rito Battesimale (seguito)
+# Pagina del vecchio sito: 37 (testo/it/37.md), immagini di Mauro PullYellowTip.png e Answers.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (fumetto di Mord, timbro, risposte e SCARTATO dalle immagini di Mauro)
+# DIFFERENZE: "LEGIONNAIRE OF THE LEGION OF DYNAMIC DISCORD" è "LEGIONARIO DELLA DISCORDIA DINAMICA" nel
+#   testo italiano: mantenuto. Nel passo dell'HBT la riga "(The Honest Book of Truth, HBT)" è aggiunta da Mauro:
+#   mantenuta. Il timbro è "NON TIRARE LA PUNTA GIALLA" come nell'immagine di Mauro (nel testo: "l'estremità gialla").
+# REFUSI CORRETTI: "(nome) ," -> "(nome),"; "'Sai, è contro le regole"." -> "'Sai, è contro le regole'."
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 45
+
+cancella:
+  - [120, 255, 1700, 625]      # rito (il "-2-" in alto resta)
+  - [120, 670, 1660, 1000]     # punti 4) e 5)
+  - [150, 1050, 725, 1232]     # fumetto a mano di Mord
+  - [945, 1055, 1760, 1335]    # timbro DO NOT PULL ON YELLOW TIP
+  - [80, 1760, 805, 2008]      # passo dell'HBT
+  - [960, 2160, 1300, 2500]    # risposte nel riquadro
+  - [1260, 2655, 1730, 2775]   # DISCARDED
+
+testi:
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 280
+    y: 310
+    righe: ["5) ALLORA RIPETI ASSIEME A ME:"]
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 50
+    x: 130
+    y: 371
+    righe: ["(Il Sacerdote conduce l'Iniziato nella recita"]
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 50
+    x: 130
+    y: 432
+    righe: ["dell'AFFERMAZIONE ERISIANA). Il Sacerdote continua:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 130
+    y: 493
+    righe: ["PERTANTO IO DICHIARO TE DISCEPOLO POEE (nome),"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 130
+    y: 554
+    righe: ["LEGIONARIO DELLA DISCORDIA DINAMICA,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 130
+    y: 615
+    righe: ["AVE ERIS!  AVE AVE!  AVE SI!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 130
+    y: 739
+    righe: ["4) Tutti i presenti gioiscono grandemente. Il nuovo"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 130
+    y: 800
+    righe: ["Fratello apre una grande damigiana di vino e ne"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 130
+    y: 861
+    righe: ["offre a tutti i presenti."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 130
+    y: 993
+    righe: ["5) La Cerimonia normalmente degenera."]
+
+  - font: Kalam-Bold.ttf                   # fumetto a mano di Mord
+    corpo: 50
+    interlinea: 64
+    x: 168
+    y: 1102
+    righe: ["MORD DICE CHE OMAR", "DICE CHE COMUNQUE", "SIAMO TUTTI UNICORNI"]
+
+  - font: Oswald-VF.ttf                    # timbro
+    corpo: 118
+    peso: 330
+    grassetto: 1
+    scala_x: 0.9
+    interlinea: 125
+    rotazione: -3
+    allinea: centro
+    x: 1350
+    y: 1175
+    adatta: 880
+    righe: ["NON TIRARE", "LA PUNTA GIALLA"]
+
+  - font: CourierPrime-Italic.ttf          # passo dell'HBT, minuto
+    corpo: 25
+    interlinea: 30
+    x: 90
+    y: 1792
+    righe:
+      - "3. E benché Omar avesse richiesto al Raccoglitore"
+      - "del Pattume, con parole sia dolci che amare, di"
+      - "restituirgli la scatola di sigari contenente le"
+      - "carte indicate dall'Angelo come L'Onesto Libro"
+      - "della Verità (The Honest Book of Truth, HBT) il"
+      - "raccoglitore era sordo al suo richiamo, dicendo"
+      - "soltanto: 'Sai, è contro le regole'."
+      - "        HBT; Il Libro delle Spiegazioni, Cap. 2"
+
+  - font: Oswald-VF.ttf                    # riquadro delle risposte
+    corpo: 40
+    peso: 650
+    x: 1016
+    y: 2203
+    righe: ["RISPOSTE:"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 35
+    interlinea: 36.5
+    x: 978
+    y: 2263
+    righe:
+      - "1.  Harry Houdini"
+      - "2.  Musica swing"
+      - "3.  Pretzels"
+      - "4.  8 mesi"
+      - "5.  Testy Culbert"
+      - "6.  Protrude"
+      - "7.  Non ha corde vocali."
+
+  - font: Oswald-VF.ttf                    # SCARTATO
+    corpo: 118
+    peso: 330
+    grassetto: 1
+    scala_x: 0.85
+    allinea: destra
+    x: 1717
+    y: 2762
+    righe: ["SCARTATO"]
+
+linee:
+  - [1300, 501, 1510, 504]

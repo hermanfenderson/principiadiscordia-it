@@ -1,0 +1,153 @@
+# Tavola p063 (originale 00048) — L'Illuminazione di Zarathud
+# Pagina del vecchio sito: 55 (testo/it/55.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (titolo, libro e scritta a destra dalle note del vecchio sito)
+# DIFFERENZE: "TAO FA / TSU-DAN" (pseudo-cinese) lasciato com'è, il testo italiano non lo traduce;
+#   "Book of Chan" -> "Libro di Chan" come nella nota (l'inglese ha "Chan", il testo italiano anche)
+# REFUSI CORRETTI: "studeni" -> "studenti"; "a lì" -> "e lì"; "perchè" -> "perché" (2 volte);
+#   "Qual'è" -> "Qual è"; "risposte" -> "rispose"; "Principalmete" -> "Principalmente"
+# NdT ESCLUSE: "[N.d.t. gioco di parole con cow - mucca intraducibile]" dopo "Sacro Cao"
+# Titolo a mano in Special Elite (maiuscole irregolari con grazie), il più vicino al lettering dell'originale.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 63
+
+cancella:
+  - [110, 105, 1760, 575]      # titolo a mano e attribuzione
+  - [440, 620, 1420, 680]      # = ZARATHUD'S ENLIGHTENMENT =
+  - [290, 735, 1620, 2160]     # racconto e nota
+  - [698, 2233, 924, 2290]     # WORDS (il bordo del libro resta)
+  - [764, 2293, 834, 2346]     # Of
+  - [694, 2354, 944, 2415]     # WISDOM
+  - [1320, 2310, 1760, 2640]   # FIND PEACE WITH A CONTENTED CAO
+
+testi:
+  - font: SpecialElite-Regular.ttf          # titolo a mano
+    corpo: 132
+    grassetto: 2
+    scala_x: 0.82
+    interlinea: 132
+    x: 130
+    y: 262
+    righe:
+      - "“UNA CAVALLETTA HA SEMPRE"
+      - "TORTO QUANDO DISCUTE"
+      - "CON UN POLLO”"
+
+  - font: GochiHand-Regular.ttf
+    corpo: 62
+    grassetto: 1
+    x: 1000
+    y: 495
+    righe: ["—Libro di Chan"]
+
+  - font: GochiHand-Regular.ttf
+    corpo: 60
+    grassetto: 1
+    x: 960
+    y: 552
+    righe: ["compilato dalla Setta O.P.U."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    allinea: centro
+    x: 938
+    y: 669
+    righe: ["= L'ILLUMINAZIONE DI ZARATHUD ="]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60.3
+    x: 307
+    y: 790
+    righe:
+      - "Prima di diventare un eremita, Zarathud era un"
+      - "giovane Sacerdote, che provava grande diletto"
+      - "a farsi gioco dei suoi oppositori al cospetto"
+      - "dei suoi seguaci."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60.3
+    x: 307
+    y: 1089
+    righe:
+      - "Un giorno Zarathud condusse i suoi studenti a"
+      - "un piacevole pascolo e lì si incontrò con il"
+      - "Sacro Cao mentre Ella stava felicemente"
+      - "pascolando."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60.3
+    x: 307
+    y: 1390
+    righe:
+      - '"Dimmi, o sciocca bestia" chiese il Sacerdote'
+      - 'con tono di comando, "perché non ti dedichi a'
+      - "fare qualcosa di degno di nota? Qual è lo"
+      - 'scopo della tua vita, in ogni caso?"'
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60.5
+    x: 307
+    y: 1691
+    righe:
+      - "Masticando l'erba saporita, il Sacro Cao"
+      - 'rispose "MU".*'
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 61
+    x: 307
+    y: 1872
+    righe:
+      - "Ascoltando ciò, nessuno fu illuminato."
+      - "Principalmente perché nessuno capiva il"
+      - "Cinese."
+
+  - font: CourierPrime-Italic.ttf           # nota in corsivo
+    corpo: 50
+    grassetto: 1
+    x: 311
+    y: 2143
+    righe: ['* "MU" è l''ideogramma cinese per NIENTE']
+
+  - font: OldStandard-Bold.ttf              # pagina del libro
+    corpo: 56
+    scala_x: 0.84
+    allinea: centro
+    x: 812
+    y: 2283
+    righe: ["PAROLE"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 56
+    allinea: centro
+    x: 800
+    y: 2342
+    righe: ["DI"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 56
+    scala_x: 0.78
+    allinea: centro
+    x: 818
+    y: 2407
+    righe: ["SAGGEZZA"]
+
+  - font: ArchitectsDaughter-Regular.ttf    # scritta a mano a destra
+    corpo: 78
+    grassetto: 1
+    interlinea: 76
+    allinea: centro
+    x: 1540
+    y: 2398
+    righe: ["TROVA LA", "PACE CON", "UN CAO", "FELICE"]

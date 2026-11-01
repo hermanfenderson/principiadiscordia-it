@@ -1,0 +1,182 @@
+# Tavola p062 (originale 00047) — Bergan Evans su Norbert Wiener / Pi Planetario
+# Pagina del vecchio sito: 54 (testo/it/54.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "I SHOULD HAVE BEEN A PLUMBER." / --Albert Einstein -> "AVREI DOVUTO FARE L'IDRAULICO." / --Albert Einstein
+#   (assente dal vecchio sito)
+# DIFFERENZE: il ritaglio "Personal" e la scritta a mano usano la traduzione delle note del vecchio sito;
+#   "Personal" -> "Personale"; "N.Y.C. Cabal" reso "Cabala di New York" come nel testo
+# REFUSI CORRETTI: "chianati\"enclave\"" -> "chiamati \"enclave\""; "unaman" -> "umana"
+# NdT ESCLUSE: "[ndt: e' plants non planets nel testo]" (riferito a "pianti interni", che resta come gioco)
+# Dattiloscritto: IBM Plex Mono 52, scala_x 0.96 (passo 30 px), interlinea 58 (originale 60-61, ristretta di poco
+#   perché l'italiano prende due righe in più). Ritaglio di giornale in Oswald (sans condensato), il più vicino.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 62
+
+cancella:
+  - [130, 255, 1395, 304]      # titolo, riga 1 (il filetto resta)
+  - [130, 345, 1240, 399]      # titolo, riga 2
+  - [125, 515, 1785, 2150]     # corpo
+  - [580, 2238, 760, 2292]     # Personal
+  - [389, 2306, 948, 2611]     # testo del ritaglio (cornice intatta)
+  - [1030, 2200, 1715, 2560]   # scritta a mano
+  - [130, 2730, 620, 2805]     # citazione di Einstein
+
+testi:
+  - font: CourierPrime-Italic.ttf          # titolo corsivo sottolineato
+    corpo: 50
+    grassetto: 1
+    x: 143
+    y: 296
+    righe: ["QUELLA CHE SEGUE E' UNA CITAZIONE DI BERGAN EVANS"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 143
+    y: 390
+    righe: ["SU NORBERT WEINER, FISICO NUCLEARE"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 58
+    x: 145
+    y: 569
+    righe:
+      - "   Il secondo concetto che Wiener doveva fissare era"
+      - "quello di entropia. La probabilità è un concetto"
+      - "matematico, che viene dalla statistica. L'entropia"
+      - "viene dalla fisica. Essa è l'asserzione-- verificata"
+      - "logicamente e sperimentalmente-- che l'universo, per"
+      - 'natura, sta "degradando", andando verso uno stato di'
+      - "inerte uniformità priva di forma, materia, gerarchia o"
+      - "differenziazione."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 58
+    x: 145
+    y: 1055
+    righe:
+      - "   Ovvero che in qualsiasi situazione, meno"
+      - "organizzazione, più caos, è in modo schiacciante più"
+      - "probabile che una organizzazione più forte o più"
+      - "ordine."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 58
+    x: 145
+    y: 1309
+    righe:
+      - "   La tendenza dell'entropia ad aumentare in sistemi"
+      - "isolati si esprime con la seconda legge della"
+      - "termodinamica, forse la più pessimistica e amorale"
+      - "delle formulazioni del pensiero umano."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 58
+    x: 145
+    y: 1563
+    righe:
+      - "   Essa tuttavia si applica a un sistema chiuso, a"
+      - "qualcosa che sia un sistema isolato, non a una singola"
+      - "parte. In tale sistema potrebbero esserci parti che"
+      - "prendendo la loro energia dal tutto, si stiano muovendo"
+      - "almeno temporaneamente nella direzione opposta; in essi"
+      - "l'ordine sta aumentando e il caos diminuendo."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 58
+    x: 145
+    y: 1933
+    righe:
+      - "   I vortici che ruotano in direzione opposta alla"
+      - 'corrente principale sono chiamati "enclave". E uno di'
+      - "essi è la vita, in particolare la vita umana che in un"
+      - "universo in movimento inesorabile verso il caos si"
+      - "muove verso un incremento di ordine."
+
+  - font: Oswald-VF.ttf                    # testatina del ritaglio
+    corpo: 50
+    peso: 700
+    allinea: centro
+    x: 670
+    y: 2282
+    righe: ["Personale"]
+
+  - font: Oswald-VF.ttf                    # ritaglio di giornale
+    corpo: 27
+    peso: 380
+    scala_x: 1.22
+    interlinea: 29
+    x: 405
+    y: 2333
+    righe:
+      - "Il PI Planetario che ho scoperto è 61. E' una"
+      - "relazione tra Tempo e Energia che esiste tra il"
+      - "sole e i pianti interni e l'ho utilizzato per"
+      - "giungere a fatti sconosciuti dalla scienza. Per"
+      - "esempio, moltiplicando la circonferenza della"
+      - "Terra nuda 24,902.20656 per 61 si ottiene la"
+      - "distanza dell'orbita della luna attorno alla"
+      - "Terra. Un po' meno, perché non abbiamo"
+      - "ancora considerato l'atmosfera terrestre. E"
+      - "così sia. Christopher Garth, Evanston."
+
+  - font: ArchitectsDaughter-Regular.ttf   # scritta a mano
+    corpo: 78
+    grassetto: 1
+    x: 1043
+    y: 2278
+    righe: ["SE IL TELEFONO"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 1
+    x: 1043
+    y: 2356
+    righe: ["SUONA OGGI..."]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 1
+    x: 1045
+    y: 2434
+    righe: ["INNAFFIALO!"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 56
+    grassetto: 1
+    x: 1150
+    y: 2490
+    righe: ["- Rev. Thomas, Gnostico"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 56
+    grassetto: 1
+    x: 1235
+    y: 2544
+    righe: ["Cabala di New York"]
+
+  - font: IBMPlexMono-Medium.ttf           # Einstein
+    corpo: 24
+    x: 142
+    y: 2764
+    righe: ['"AVREI DOVUTO FARE L''IDRAULICO."']
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 25
+    x: 348
+    y: 2793
+    righe: ["--Albert Einstein"]
+
+linee:
+  - [1380, 309, 1614, 314]     # prolunga il filetto sotto la prima riga del titolo, più lunga in italiano

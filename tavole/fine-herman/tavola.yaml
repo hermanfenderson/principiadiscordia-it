@@ -1,0 +1,74 @@
+# Tavola nuova: Chi (non) è Herman Fenderson, ultima pagina del libro
+# Testo da testo/it/apparato/chi-non-e-herman-fenderson.md; struzzo da pagina 00010 (PDF 25).
+# Il "WOW!" dello struzzo resta in inglese, come in pagina 00010.
+# STATO: completa
+
+pagina_pdf: null
+immagini:
+- file: tavole/apparato/struzzo-00010.png
+  x: 463
+  y: 320
+  larghezza: 900
+testi:
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 913
+  y: 240
+  allinea: centro
+  righe:
+  - CHI (NON) È HERMAN FENDERSON
+  sottolineato: true
+  distanza_sottolineatura: 9
+  spessore_sottolineatura: 6
+- font: Kalam-Bold.ttf
+  corpo: 50
+  x: 913
+  y: 955
+  allinea: centro
+  rotazione: -1.5
+  adatta: 1450
+  righe:
+  - Herman Fenderson scruta le proprie prospettive nel medio termine...
+- font: IBMPlexMono-Medium.ttf
+  corpo: 42
+  interlinea: 47
+  x: 227
+  y: 1060
+  righe:
+  - '     Mi chiamo Herman Fenderson, ho un''età imprecisata ma i'
+  - più a colpo d'occhio mi direbbero nato nel 1969. Il mio papà,
+  - invero fantasioso, ha coniato non solo il mio nome ma financo
+  - il suo cognome!
+  - ''
+  - '     Herman viene dal nome del Robot affittato da Daffy Duck'
+  - per catturare Speedy Gonzales che imperversa in una clinica
+  - psichiatrica per gatti nel cartone animato della Warner del
+  - 1966 "Daffy Rents". Il robot, dopo aver tentato in tutti i
+  - modi di catturare il topo ("acchiappalo Herman!"), decide di
+  - allearsi con lui.
+  - ''
+  - '     Fenderson è un cognome proveniente dalla mia appartenenza'
+  - alla famiglia dei Fenderson. Anche voi, se volete, potreste
+  - essere dei Fenderson (come i miei parenti Graham Fenderson
+  - Trievel o anche Sant'Ignazio Fenderson)!
+  - ''
+  - '     Peraltro, unendo le due cose, Herman Fenderson è stato un'
+  - giocatore (modesto) della lega di Baseball Americana nel 1911
+  - (era nato nel 1884).
+  - ''
+  - '     Ora come ora, Herman Fenderson divide il suo tempo tra'
+  - una città eterna e il mare. Di giorno dirige una fabbrica
+  - pubblica di software, dove trascorre la Stagione della
+  - Burocrazia (che per lui dura tutto l'anno) cercando di
+  - convincere le macchine che appartengono a qualcuno. Gli
+  - Apostoli di Eris lo hanno autorizzato, purché nel tempo libero
+  - 'continui a disordinare: fa il manager di un gruppo blues,'
+  - pubblica libri in un'altra città e una volta l'anno, sulla
+  - riva dell'Adriatico, in una città che porta il nome di un
+  - gioco da tavolo, raduna qualche centinaio di persone armate di
+  - chitarre troppo piccole con troppo poche corde. Si preoccupa
+  - che Facciagrigia prenda il sopravvento e ci trasformi tutti in
+  - sudditi digitali, e ha approfittato di un suo momento di
+  - distrazione per scriverci sopra pure un libro.
+  - ''
+  - '     Interrogato in proposito, nega tutto.'

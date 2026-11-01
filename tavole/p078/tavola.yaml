@@ -1,0 +1,129 @@
+# Tavola p078 (originale 00063) — La Maledizione di Facciagrigia e l'Introduzione del Negativismo
+# Pagina del vecchio sito: 70 (testo/it/70.md)
+# STATO: completa
+# NUOVE TRADUZIONI: etichette del diagramma "ORDER / DISORDER / CREATE / DESTROY" -> "ORDINE / DISORDINE / CREA / DISTRUGGI"
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "L'INTRODDUZIONE  DELNEGATIVISMO" -> "L'INTRODUZIONE DEL NEGATIVISMO"; "fato" -> "fatto"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 78
+cancella:
+  - [500, 111, 1430, 224]    # titolo (i filetti restano)
+  - [185, 315, 1830, 1432]    # due paragrafi
+  - [745, 1420, 1255, 1476]    # etichette ORDER DISORDER
+  - [640, 1520, 698, 2002]    # etichette CREATE DESTROY
+  - [170, 2095, 1275, 2810]    # paragrafi in basso
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # titolo
+    corpo: 52
+    scala_x: 0.9
+    interlinea: 62
+    allinea: centro
+    x: 966
+    y: 157
+    righe:
+      - "LA MALEDIZIONE DI FACCIAGRIGIA E"
+      - "L'INTRODUZIONE DEL NEGATIVISMO"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60
+    x: 198
+    y: 360
+    righe:
+      - "     Scegliere l'ordine rispetto al disordine o il disordine"
+      - "rispetto all'ordine significa accettare un \"trip\" fatto sia"
+      - "di aspetti creativi che distruttivi. Ma decidere di scegliere"
+      - "il fattore creativo rispetto al distruttivo è un trip tutto"
+      - "creativo composto sia di ordine che di disordine. Per"
+      - "ottenere ciò, si deve non solo accettare il disordine"
+      - "creativo, insieme e pariteticamente all'ordine creativo, ma"
+      - "anche voler rifiutare l'ordine distruttivo come un ugualmente"
+      - "indesiderabile disordine distruttivo."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60
+    x: 198
+    y: 922
+    righe:
+      - "     La Maledizione di Facciagrigia include la divisione"
+      - "della vita in ordine/disordine come polarità essenziale"
+      - "positivo/negativo, invece che costruire le fondamenta di un"
+      - "gioco in cui siano i fattori creativo/distruttivo gli assi"
+      - "essenziali positivo/negativo. In questo modo ha portato"
+      - "l'uomo a tollerare gli aspetti distruttivi dell'ordine ed"
+      - "escluderlo dal partecipare efficacemente agli usi creativi"
+      - "del disordine. La civilizzazione riflette questa sfortunata"
+      - "divisione."
+
+  - font: ArchitectsDaughter-Regular.ttf    # etichetta
+    corpo: 50
+    grassetto: 1
+    allinea: centro
+    x: 845
+    y: 1470
+    righe:
+      - "ORDINE"
+
+  - font: ArchitectsDaughter-Regular.ttf    # etichetta
+    corpo: 50
+    grassetto: 1
+    allinea: centro
+    adatta: 250
+    x: 1122
+    y: 1470
+    righe:
+      - "DISORDINE"
+
+  - font: ArchitectsDaughter-Regular.ttf    # etichetta
+    corpo: 50
+    grassetto: 1
+    rotazione: 90
+    allinea: centro
+    x: 693
+    y: 1610
+    righe:
+      - "CREA"
+
+  - font: ArchitectsDaughter-Regular.ttf    # etichetta
+    corpo: 50
+    grassetto: 1
+    rotazione: 90
+    allinea: centro
+    adatta: 265
+    x: 693
+    y: 1865
+    righe:
+      - "DISTRUGGI"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 55
+    x: 183
+    y: 2153
+    righe:
+      - "     POEE proclama che l'altra"
+      - "suddivisione sia preferibile, e"
+      - "lavoriamo a favore della proposizione"
+      - "che il disordine creativo così come"
+      - "l'ordine creativo sia possibile e"
+      - "desiderabile; e che l'ordine distruttivo"
+      - "come il disordine distruttivo siano non"
+      - "necessari e indesiderabili."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 55
+    x: 183
+    y: 2613
+    righe:
+      - "     Cerca il Sacro Cao - e in esso"
+      - "troverai la follia di tutto"
+      - "l'ORDINE/DISORDINE. Sono la stessa cosa!"
+

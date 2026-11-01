@@ -1,0 +1,381 @@
+# Tavola p007 — Contenuto di questa edizione (indice Loompanics)
+# Pagina non presente sul vecchio sito: testo da testo/it/loompanics/p007.md
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (tutto da testo/it/loompanics/p007.md)
+# DIFFERENZE: l'originale è in Helvetica: etichette (FIRST: ...) in tondo, descrizioni in nero corsivo.
+#   Qui Jost Medium (grassetto 0.5) per le etichette e Jost Bold tondo giustificato (una parola per elemento) per le descrizioni (Jost non ha corsivo e
+#   componi.py non inclina). L'italiano è più lungo: le voci occupano più righe e scendono nello
+#   spazio bianco sotto; corpo (60), interlinea (70) e stacco tra le voci dell'originale.
+#   Il '--' del testo in Jost Bold si legge come un trattino lungo.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Jost Medium / Bold.
+# Coordinate in pixel sulla scansione a 360 dpi (1764 x 2842).
+
+pagina_pdf: 7
+
+cancella:
+  - [60, 410, 1620, 1420]      # tutto il testo
+
+testi:
+  - font: Jost-Bold.ttf    # titolo
+    corpo: 77
+    allinea: centro
+    x: 822
+    y: 500
+    righe:
+      - "CONTENUTO DI QUESTA EDIZIONE"
+
+  # --- PRIMO:
+  - font: Jost-Medium.ttf
+    corpo: 60
+    grassetto: 0.5
+    x: 75
+    y: 603
+    righe:
+      - "PRIMO:"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 301
+    y: 603
+    righe:
+      - "Una"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 456
+    y: 603
+    righe:
+      - "nuova"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 670
+    y: 603
+    righe:
+      - "Introduzione"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1072
+    y: 603
+    righe:
+      - "di"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1173
+    y: 603
+    righe:
+      - "Robert"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1408
+    y: 603
+    righe:
+      - "Anton"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 132
+    y: 673
+    righe:
+      - "Wilson -- mai pubblicata prima da nessuna parte!"
+
+  # --- SECONDO:
+  - font: Jost-Medium.ttf
+    corpo: 60
+    grassetto: 0.5
+    x: 75
+    y: 763
+    righe:
+      - "SECONDO:"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 411
+    y: 763
+    righe:
+      - "La"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 511
+    y: 763
+    righe:
+      - "Quarta"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 741
+    y: 763
+    righe:
+      - "ristampa"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1015
+    y: 763
+    righe:
+      - "(Rip-Off"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1268
+    y: 763
+    righe:
+      - "Press,"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1472
+    y: 763
+    righe:
+      - "San"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 132
+    y: 833
+    righe:
+      - "Francisco,"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 463
+    y: 833
+    righe:
+      - "1970)"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 681
+    y: 833
+    righe:
+      - "è"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 768
+    y: 833
+    righe:
+      - "riprodotta"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1101
+    y: 833
+    righe:
+      - "esattamente,"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1507
+    y: 833
+    righe:
+      - "da"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 132
+    y: 903
+    righe:
+      - "copertina"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 436
+    y: 903
+    righe:
+      - "a"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 508
+    y: 903
+    righe:
+      - "copertina"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 812
+    y: 903
+    righe:
+      - "--"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 879
+    y: 903
+    righe:
+      - "stampata"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1168
+    y: 903
+    righe:
+      - "dagli"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1347
+    y: 903
+    righe:
+      - "originali"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 132
+    y: 973
+    righe:
+      - "montati a collage!"
+
+  # --- TERZO:
+  - font: Jost-Medium.ttf
+    corpo: 60
+    grassetto: 0.5
+    x: 75
+    y: 1063
+    righe:
+      - "TERZO:"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 295
+    y: 1063
+    righe:
+      - "Una"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 440
+    y: 1063
+    righe:
+      - "Nuova"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 656
+    y: 1063
+    righe:
+      - "Postfazione"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1015
+    y: 1063
+    righe:
+      - "di"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1104
+    y: 1063
+    righe:
+      - "Greg"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1283
+    y: 1063
+    righe:
+      - "Hill"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1415
+    y: 1063
+    righe:
+      - "--"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1478
+    y: 1063
+    righe:
+      - "mai"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 132
+    y: 1133
+    righe:
+      - "pubblicata prima da nessuna parte!"
+
+  # --- QUARTO:
+  - font: Jost-Medium.ttf
+    corpo: 60
+    grassetto: 0.5
+    x: 75
+    y: 1223
+    righe:
+      - "QUARTO:"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 357
+    y: 1223
+    righe:
+      - "La «5ª Edizione» -- mai pubblicata prima!"
+
+  # --- QUINTO:
+  - font: Jost-Medium.ttf
+    corpo: 60
+    grassetto: 0.5
+    x: 75
+    y: 1313
+    righe:
+      - "QUINTO:"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 343
+    y: 1313
+    righe:
+      - "Un"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 489
+    y: 1313
+    righe:
+      - "collage"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 760
+    y: 1313
+    righe:
+      - "mai"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 928
+    y: 1313
+    righe:
+      - "pubblicato"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1293
+    y: 1313
+    righe:
+      - "prima"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 1522
+    y: 1313
+    righe:
+      - "di"
+
+  - font: Jost-Bold.ttf
+    corpo: 60
+    x: 132
+    y: 1383
+    righe:
+      - "Malaclypse il Giovane."
+

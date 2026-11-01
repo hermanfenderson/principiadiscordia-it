@@ -1,0 +1,206 @@
+# Tavola p097 — Intervista alla Norton Cabal (G. Skripto), pag. 5 del dattiloscritto
+# Testo: testo/it/loompanics/p097.md
+# STATO: completa
+# NUOVE TRADUZIONI: intestazione corrente "NORTON CABAL INTERVIW" -> "INTERVISTA ALLA CABALA NORTON"
+#   (formula comune alle pagine 93-102).
+# DIFFERENZE: l'italiano è più lungo: dattiloscritto stretto a scala_x 0.87 (corpo e interlinea
+#   44.7 px come l'originale, stacco tra le battute invariato). Sottolineature come nell'originale
+#   (Illuminatus, Principia).
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# FONT: Courier Prime Regular corpo 48 + grassetto 0.5 (passo originale 27 px); intestazione nello
+#   stesso font; "G. Skripto", filetti e piede "79/11/26 -5- Loompanics" restano dalla scansione.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 97
+
+cancella:
+  - [1130, 105, 1705, 160]    # intestazione
+  - [55, 228, 1725, 2724]    # tutto il dattiloscritto
+
+testi:
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.94
+    x: 1697
+    y: 148
+    allinea: destra
+    grassetto: 0.5
+    righe:
+      - "INTERVISTA ALLA CABALA NORTON"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 273
+    grassetto: 0.5
+    righe:
+      - "SINISTER DEXTER:  Per me va bene. Il destino è il destino. Tanto"
+      - "    «Mad Malik» non mi è mai piaciuto granché."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 407
+    grassetto: 0.5
+    righe:
+      - "Ignotius:   E poi la gente lo confondeva con Joe Malik di"
+      - "    Illuminatus."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 541
+    grassetto: 0.5
+    righe:
+      - "Dexter:     La parte della confusione, a dire il vero, mi"
+      - "    piaceva."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 675
+    grassetto: 0.5
+    righe:
+      - "Occupant:   Comunque non dimostra nulla."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 765
+    grassetto: 0.5
+    righe:
+      - "Gypsie:     Quel nome mi suona familiare. Da dove viene?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 854
+    grassetto: 0.5
+    righe:
+      - "Hill:       È un nome che mi venne in mente ai vecchi tempi e"
+      - "    che non ho mai usato molto. È a pagina 38 dei Principia,"
+      - "    riferito al Vicepresidente Spiro Agnew. Ho sempre pensato di"
+      - "    averlo inventato io, ma adesso che ci penso sembra un nome"
+      - "    di Stan Freberg. Potrebbe essermi rimasto nella memoria"
+      - "    preconscia dai primi tempi della televisione."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 1167
+    grassetto: 0.5
+    righe:
+      - "Gypsie:     Puoi usarlo senza il suo permesso?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 1256
+    grassetto: 0.5
+    righe:
+      - "Hill:       Se è suo? Non lo so. Spero di sì. In latino"
+      - "    significa «sinistra destra» ed è un nome perfetto per un"
+      - "    anarchico libertario. In realtà, nel genere d'arte che"
+      - "    faccio, la questione di cosa posso usare liberamente e cosa"
+      - "    no è un problema molto spinoso."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 1525
+    grassetto: 0.5
+    righe:
+      - "Gypsie:     In che senso?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 1614
+    grassetto: 0.5
+    righe:
+      - "Hill:       Beh, prendi un collage, per esempio. Come quello dei"
+      - "    primi tempi a pagina 36 dei Principia. Ogni pezzettino è"
+      - "    stato estratto da un'opera più grande, creata da qualche"
+      - "    altro artista, pubblicata e magari protetta da copyright. Li"
+      - "    trovo soprattutto nei giornali e nelle riviste. Spesso nelle"
+      - "    pubblicità. Con un collage scegli e prelevi dal tuo ambiente"
+      - "    e poi assembli i pezzi in una relazione originale."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 1972
+    grassetto: 0.5
+    righe:
+      - "    I Principia stessi sono un collage. Un collage concettuale."
+      - "    Tutto vi accade simultaneamente. Ma visivamente sono un"
+      - "    montaggio, che si svolge nel tempo, come fa un libro."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 2150
+    grassetto: 0.5
+    righe:
+      - "    Nei Principia c'è un sacco di roba piratata, specialmente ai"
+      - "    margini. Ma capisco anche gli artisti che, per guadagnarsi"
+      - "    da vivere, devono possedere e vendere le loro opere. L'arte,"
+      - "    come la conoscenza, dovrebbe essere foraggio gratuito per"
+      - "    tutti. Ma non lo è. È una cosa che lascia perplessi."
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 2419
+    grassetto: 0.5
+    righe:
+      - "Gypsie:     Da dove viene tutta la roba dei Principia?"
+
+  - font: CourierPrime-Regular.ttf
+    corpo: 48
+    scala_x: 0.87
+    interlinea: 44.7
+    x: 80
+    y: 2508
+    grassetto: 0.5
+    righe:
+      - "Hill:       Beh, per rispondere fino in fondo ci vorrebbe un"
+      - "    altro libro intero. Dietro un nome a cui è attribuito uno"
+      - "    scritto c'è quasi sempre una persona vera, e quasi sempre un"
+      - "    nome diverso significa una persona diversa. La maggior parte"
+      - "    del testo non attribuito, sai,"
+
+linee:
+  - [180, 459, 454, 462]    # sottolineatura
+  - [1332, 906, 1555, 909]    # sottolineatura
+  - [881, 1666, 1105, 1669]    # sottolineatura
+  - [230, 1979, 454, 1982]    # sottolineatura
+  - [280, 2157, 504, 2160]    # sottolineatura
+  - [1182, 2426, 1405, 2429]    # sottolineatura

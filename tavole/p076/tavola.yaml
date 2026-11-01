@@ -1,0 +1,106 @@
+# Tavola p076 (originale 00061) — Sull'Occultismo
+# Pagina del vecchio sito: 68 (testo/it/68.md)
+# STATO: completa
+# NUOVE TRADUZIONI: firma a mano "SEZ THOM, GNOS" lasciata in originale (nome)
+# DIFFERENZE: titolo di giornale ritagliato: font sostituito con EB Garamond corsivo nero (l'originale è un corsivo
+#   tipografico più pesante); scritta a mano verticale resa su 6 righe come l'originale
+# REFUSI CORRETTI: "forser" -> "forse"; "maggori" -> "maggiori"; "occindentale" -> "occidentale";
+#   "umilmete" -> "umilmente"; "ORDINE/DISORDINE and SERIO/SCHERZOSO" -> "... e SERIO/SCHERZOSO"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 76
+cancella:
+  - [150, 85, 1420, 345]    # titolo di giornale
+  - [680, 415, 1220, 475]    # = ON OCCULTISM =
+  - [185, 525, 1820, 1745]    # due paragrafi
+  - [195, 1795, 1205, 2160]    # terzo paragrafo (a sinistra del mago)
+  - [445, 2240, 885, 2635]    # scritta a mano verticale
+
+testi:
+  - font: EBGaramond-Italic-VF.ttf    # titolo di giornale
+    peso: 800
+    grassetto: 2
+    corpo: 140
+    interlinea: 140
+    adatta: 1240
+    x: 168
+    y: 187
+    righe:
+      - "Test medici dimostrano"
+      - "che è possibile rimpicciolire"
+
+  - font: IBMPlexMono-Italic.ttf    # corsivo
+    corpo: 52
+    interlinea: 60
+    x: 943
+    y: 462
+    allinea: centro
+    righe:
+      - "= SULL'OCCULTISMO ="
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.94
+    interlinea: 57
+    x: 199
+    y: 584
+    righe:
+      - "I maghi, specialmente dopo le influenze Gnostiche e"
+      - "della Cabbala hanno ricercato un grado maggiore di"
+      - "conoscenza attraverso l'assimilazione e il controllo"
+      - "degli opposti universali-- bene/male,"
+      - "positivo/negativo, maschio/femmina, ecc. Ma a causa"
+      - "della crescente pomposità dei rituali ereditati dagli"
+      - "antichi metodi degli sciamani, gli occultisti sono"
+      - "rimasti ciechi di fronte a quella che forse sono le più"
+      - "importanti delle coppie di opposti apparenti:"
+      - "ORDINE/DISORDINE e SERIO/SCHERZOSO."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.94
+    interlinea: 57
+    x: 199
+    y: 1204
+    righe:
+      - "I maghi e i primi scienziati, hanno approcciato se"
+      - "stessi e la loro disciplina in un modo strutturato e"
+      - "sobrio, trascurando in tal modo un essenziale"
+      - "bilanciamento metafisico. Quando i maghi imparano ad"
+      - "approcciare la filosofia come un'arte malleabile"
+      - "anziché una Verità immutabile e ad apprezzare"
+      - "l'assurdità degli sforzi del genere umano, allora sono"
+      - "capaci di perseguire la loro arte con cuore più leggero"
+      - "e forse raggiungere una comprensione più chiara di"
+      - "essa, e di conseguenza guadagnare maggiori poteri"
+      - "magici. IL CAOS E' ENERGIA."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.94
+    interlinea: 55
+    x: 206
+    y: 1887
+    righe:
+      - "Questa è una sfida fondamentale a"
+      - "tutti i concetti di base"
+      - "dell'occultismo occidentale e il"
+      - "POEE è umilmente orgoglioso di"
+      - "offrire la prima rivoluzione"
+      - "nell'occultismo dai tempi di"
+      - "Salomone."
+
+  - font: Kalam-Bold.ttf    # scritta a mano
+    corpo: 62
+    interlinea: 66
+    rotazione: 90
+    x: 512
+    y: 2632
+    righe:
+      - "“Studia"
+      - "demonologia"
+      - "con un"
+      - "nemico"
+      - "questa"
+      - "domenica”"
+

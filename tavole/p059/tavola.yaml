@@ -1,0 +1,168 @@
+# Tavola p059 (originale 00044) — Dogma I, Cosmologia: il Libro dell'Utero (1-9)
+# Pagina del vecchio sito: 51 (testo/it/51.md)
+# STATO: completa
+# NUOVE TRADUZIONI: didascalia "APOSTLE HUNG MUNG" -> "APOSTOLO HUNG MUNG"
+# DIFFERENZE: scritta a mano "MEANWHILE, at the Chinese laundromat..." dalla nota del sito ("Nel frattempo, alla lavanderia
+#   automatica cinese..."), con la prima parola in maiuscolo come nell'originale; "(HBT)" dopo "dal Libro dell'Onesta Verità"
+#   presente nel testo italiano e non nell'originale: mantenuto
+# NUOVA RESA: v. 4 "underpowered" -> "sottosopraffece" (scelta di Herman Fenderson, con NdT)
+# REFUSI CORRETTI: "dala Perfetta" -> "dalla Perfetta"; v. 4 "il Buglio rapidamente sottomise il Buglio" -> "... sottomise
+#   la Guazza" (l'originale: "the Podge swiftly underpowered the Hodge"; Hodge = Guazza, Podge = Buglio) — da confermare
+# NdT ESCLUSE: nessuna
+# Il corpo è stretto a scala_x 0.95; i versetti 1-7 partono alle stesse linee di base dell'originale, 8-9 alzati di ~25 px
+#   (il v. 7 italiano occupa una riga in meno).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 59
+
+cancella:
+  - [160, 55, 1690, 175]       # scritta a mano in alto
+  - [62, 258, 332, 298]        # didascalia APOSTLE HUNG MUNG
+  - [600, 305, 1760, 395]      # DOGMA I - METAPHYSICS ...
+  - [630, 435, 1640, 615]      # THE BOOK OF UTERUS / from ... / revealed ...
+  - [135, 840, 1760, 2781]     # versetti 1-9 (sopra la manina)
+  - [135, 2781, 1570, 2792]    # discendenti del versetto 9
+
+testi:
+  - font: Kalam-Regular.ttf                # scritta a mano
+    corpo: 96
+    adatta: 1500
+    x: 178
+    y: 150
+    righe: ["NEL FRATTEMPO, alla lavanderia automatica cinese..."]
+
+  - font: Oswald-VF.ttf                    # didascalia piccola del ritaglio
+    corpo: 32
+    peso: 300
+    x: 71
+    y: 291
+    righe: ["APOSTOLO HUNG MUNG"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 613
+    y: 368
+    righe: ["DOGMA I - METAFISICA #2, \"COSMOLOGIA\"*"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    allinea: centro
+    x: 1182
+    y: 487
+    righe: ["IL LIBRO DELL'UTERO"]
+    sottolineato: true
+    distanza_sottolineatura: 10
+    spessore_sottolineatura: 3
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 51
+    allinea: centro
+    x: 1150
+    y: 556
+    righe: ["dal Libro dell'Onesta Verità (HBT)", "rivelato a Lord Omar"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 906
+    righe:
+      - "1. Prima del principio vi era il Cao non-esistente,"
+      - "bilanciato nell'Oblio dalla Perfetta Controtirospinta di"
+      - "Guazza e Buglio."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 1115
+    righe:
+      - "2. Quand'ecco che per un Atto di Casualità, la Guazza"
+      - "cominciò gradualmente a sovrastare il Buglio -- e il"
+      - "Chaos Primigenio venne così ad essere."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 1326
+    righe:
+      - "3. Così, al principio vi era il Cao Primigenio,"
+      - "bilanciato sull'orlo dell'Oblio dalla Perfetta"
+      - "Controtirospinta di Guazza e Buglio."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 1541
+    righe:
+      - "4. Quand'ecco, per la Legge dell'Inversione Negativa,**"
+      - "il Buglio rapidamente sottosopraffece la Guazza e Tutto"
+      - "andò in rovina."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 1746
+    righe:
+      - "5. E allora emerse la Forza Attiva della Discordia, la"
+      - "Sottile Manifestazione del Cao Non-esistente, a guidare"
+      - "il Tutto sul Sentiero che riconduceva all'Oblio - che"
+      - "poteva non essere perduto tra i Precetti dell'Ordine"
+      - "nella Regione di Thud."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 2078
+    righe:
+      - "6. Per quanto era Attiva, la Forza della Discordia entrò"
+      - "nello Stato di Confusione, e in esso copulò con la"
+      - "Regina e generò ERIS, Nostra Signora della Discordia e"
+      - "Palese Manifestazione del Cao Non-esistente."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 2349
+    righe:
+      - "7. E sotto Eris la Confusione si stabilizzò, e fu"
+      - "pertanto chiamata Burocrazia; mentre sotto la Burocrazia"
+      - "Eris si stabilizzò e fu chiamata da allora Discordia."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 2600
+    righe:
+      - "8. A proposito, avvenne che la Stabilizzazione della"
+      - "Burocrazia si estinse per una mancanza di carta."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 157
+    y: 2756
+    righe:
+      - "9. E ciò fu, secondo la Legge delle Leggi."
+
+linee:
+  - [1384, 377, 1680, 381]     # sottolineatura di "COSMOLOGIA"

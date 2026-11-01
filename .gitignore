@@ -1,0 +1,11 @@
+# scansioni pesanti: si scaricano con sorgenti/scarica.sh
+sorgenti/*.pdf
+
+# prodotti della composizione, si rigenerano
+build/
+
+# sistema
+.DS_Store
+__pycache__/
+*.pyc
+principia-discordia-anteprima.pdf

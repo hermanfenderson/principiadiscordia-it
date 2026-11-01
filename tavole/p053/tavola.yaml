@@ -1,0 +1,153 @@
+# Tavola p053 (originale 00038) — Un Sermone su Amore ed Etica
+# Pagina del vecchio sito: 45 (testo/it/45.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (la scritta a mano usa la didascalia del vecchio sito "Sinister Dexter ha uno spirometro guasto")
+# DIFFERENZE: titolo "UN SERMONE SU AMORE ED ETICA" come nel testo italiano (l'inglese dice "Ethics and Love");
+#   il timbro sbiadito "SERIAL ... TEXT NO." attorno al numero 00038 è lasciato com'è (fa corpo col numero di pagina)
+# REFUSI CORRETTI: "disseSI?" -> "disse SI?"; "visionidi" -> "visioni di"; "fratell" -> "fratelli"; "nessunovuole" -> "nessuno vuole"
+# NdT ESCLUSE: nessuna
+# Font della scritta a mano: SpecialElite + grassetto (il più vicino alle maiuscole graziate disegnate a mano)
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 53
+
+cancella:
+  - [90, 200, 1720, 2220]      # tutto il dattiloscritto
+  - [88, 2378, 805, 2625]      # SINISTER DEXTER
+  - [95, 2595, 1170, 2765]     # HAS A BROKEN
+  - [760, 2655, 1685, 2840]    # SPIROMETER.
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 104
+    y: 265
+    righe: ["UN SERMONE SU AMORE ED ETICA"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.97
+    x: 107
+    y: 450
+    righe:
+      - "     Un giorno Mal-2 chiese allo spirito messaggero"
+      - "San Gulik di invocare la Dea e richiedere la Sua"
+      - "presenza per un consiglio disperato. Poco dopo la"
+      - "radio si accese da sola, e una eterea voce femminile,"
+      - "disse"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 293
+    y: 690
+    righe: ["SI?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.97
+    x: 107
+    y: 818
+    righe:
+      - "     \"Oh! Eris! Madre Benedetta dell'Uomo! Regina del"
+      - "Caos! Figlia di Discordia! Concubina di Confusione!"
+      - "Oh! Signora Magnifica, Ti imploro di alleggerire il"
+      - "grave fardello che pesa sul mio cuore!\""
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.97
+    x: 107
+    y: 1110
+    righe:
+      - "     CHE C'E', MAL? NON SEMBRA TU STIA MOLTO BENE."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.97
+    x: 107
+    y: 1230
+    righe:
+      - "     \"Sono pieno di paura e tormentato da terribili"
+      - "visioni di dolore. Ovunque le persone si feriscono"
+      - "vicendevolmente, il pianeta rigurgita di ingiustizie,"
+      - "intere società depredano gruppi della loro stessa"
+      - "gente, le madri imprigionano i figli, i bimbi"
+      - "periscono e i fratelli si fanno guerra. O, dolore.\""
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 61
+    scala_x: 0.97
+    x: 107
+    y: 1653
+    righe:
+      - "     QUAL E' IL PROBLEMA, SE E' CIO' CHE VOLETE"
+      - "FARE?"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.97
+    x: 107
+    y: 1832
+    righe:
+      - "     \"Ma nessuno vuole! Tutti detestano questa"
+      - "situazione.\""
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.97
+    x: 107
+    y: 1995
+    righe:
+      - "     OH. BEH, ALLORA SMETTETELA."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.97
+    x: 107
+    y: 2110
+    righe:
+      - "     E in quel momento la sua voce si trasformò in"
+      - "uno spot dell'Aspirina lasciando il Polipadre"
+      - "abbandonato da solo con la sua specie."
+
+  - font: SpecialElite-Regular.ttf         # maiuscole con grazie disegnate a mano
+    corpo: 135
+    interlinea: 112
+    grassetto: 2
+    rotazione: 1
+    x: 100
+    y: 2502
+    righe: ["SINISTER", "DEXTER"]
+
+  - font: SpecialElite-Regular.ttf
+    corpo: 135
+    grassetto: 2
+    rotazione: -1
+    x: 105
+    y: 2730
+    righe: ["HA UNO"]
+
+  - font: SpecialElite-Regular.ttf
+    corpo: 135
+    grassetto: 2
+    rotazione: 3
+    adatta: 1150
+    x: 540
+    y: 2825
+    righe: ["SPIROMETRO GUASTO."]
+
+linee:
+  - [621, 1842, 772, 1846]     # sottolineatura di "vuole"

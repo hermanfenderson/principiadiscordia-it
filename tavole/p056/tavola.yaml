@@ -1,0 +1,445 @@
+# Tavola p056 (originale 00041) — L'Onesto Libro della Verità, Libro delle Spiegazioni cap. 1
+# Pagina del vecchio sito: 48 (testo/it/48.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "and How It was Revealed to" -> "e Come Fu Rivelato a" (riga assente nel testo italiano);
+#   fumetto: resa in maiuscolo della nota del sito "Hey, amico, fico, mi sento balzano..." (HEY, MAN... GREAT! I FEEL GOOFY...)
+# DIFFERENZE: tolto "(THE HONEST BOOK OF TRUTH)" dopo il titolo italiano (è il titolo originale che la tavola sostituisce);
+#   "Chapter I" -> "Capitolo 1" come nel testo; "Est di Mullah" come nel testo (l'originale dice "Nullah");
+#   "Collectors of Garbage" = "Raccoglitori di Spazzatura" come nel testo
+# REFUSI CORRETTI: "DELA VERITA'" -> "DELLA VERITA'"; "nela sabbia" -> "nella sabbia"; "possedendola" -> "possedendolo";
+#   "all'Angelo :" -> "all'Angelo:"
+# NdT ESCLUSE: nessuna
+# La prima riga passa sotto il gambo della croce: "Our" è cancellato con un rettangolo e il gambo è ridisegnato con due filetti.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 56
+
+cancella:
+  - [184, 322, 598, 352]       # fumetto, riga 1
+  - [184, 352, 588, 380]       # fumetto, riga 2
+  - [184, 380, 590, 407]       # fumetto, riga 3
+  - [262, 407, 392, 436]       # fumetto, DRUNK!
+  - [600, 420, 1625, 668]      # intestazione
+  - [800, 660, 1440, 702]      # Laughing Buddha Jesus [LBJ] Ranch
+  - [575, 830, 1325, 915]      # From The Honest Book of Truth / THE BOOK OF EXPLANATIONS
+  - [240, 945, 1540, 1042]     # versetto 1 (fino al ciuffo d'erba)
+  - [1540, 947, 1604, 976]     # "Our" sopra il gambo della croce
+  - [240, 1045, 1612, 2732]    # versetti 2-11
+
+testi:
+  - font: PatrickHand-Regular.ttf          # fumetto
+    corpo: 31
+    grassetto: 1
+    scala_x: 0.95
+    x: 190
+    y: 347
+    interlinea: 27
+    righe: ["HEY, AMICO, FICO, MI SENTO BALZANO.", "UN PO' COME SI SENTIVA IL MIO", "VECCHIO QUANDO ERA"]
+
+  - font: PatrickHand-Regular.ttf
+    corpo: 31
+    grassetto: 1
+    scala_x: 0.95
+    x: 268
+    y: 430
+    righe: ["UBRIACO..."]
+
+  - font: IBMPlexMono-Medium.ttf           # intestazione centrata
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 1119
+    y: 454
+    righe: ["L'ONESTO LIBRO DELLA VERITA'"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 1118
+    y: 490
+    righe: ["ovvero una BIBBIA del Movimento Erisiano"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 1119
+    y: 546
+    righe: ["e Come Fu Rivelato a"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    interlinea: 36.5
+    x: 623
+    y: 581
+    righe:
+      - "Vescovo LORD OMAR KHAYYAM RAVENHURST, KSC; Capintesta"
+      - "del Limbo; e Pastore Principale della Chiesa Invisibile"
+      - "del Cristo Ridente, Tempio Nascosto di Gesù Allegro,"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 1121
+    y: 694
+    righe: ["Ranch \"Buddha Ridente - Gesù Allegro\" [LBJ]"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    interlinea: 37
+    x: 950
+    y: 869
+    righe: ["Dall'Onesto Libro della Verità", "IL LIBRO DELLE SPIEGAZIONI, Capitolo 1"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 979.0
+    righe: ["1. Venne un giorno da Lord Omar, Capintesta del Limbo, un Messaggero di"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1015.4
+    righe: ["Nostra Signora che gli disse di un Sacro Tumulo nel quale era"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1051.8
+    righe: ["seppellito un Onesto Libro."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1124.6
+    righe: ["2. E l'Angelo di Eris ordinò al Lord:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 933.0
+    y: 1124.6
+    righe: ["Vai costì e dissotterra la Verità,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1161.0
+    righe: ["acciocché tu la conosca e, conoscendola, tu la diffonda e, diffondendola,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1197.4
+    righe: ["tu ci sguazzi dentro, e sguazzandoci dentro, tu giaccia in essa e, giacendo"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1233.8
+    righe: ["nella Verità, tu possa diventare un Poeta della Parola e un Dicitore di"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1270.2
+    righe: ["Detti -- una Ispirazione per tutti gli Uomini e uno Scriba per gli Dei."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1343.0
+    righe: ["3. Allora Omar giunse al Sacro Tumulo, che era a Est di Mullah, e colà"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1379.4
+    righe: ["scavò per cinque giorni e cinque notti nella sabbia, ma senza trovare il"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1415.8
+    righe: ["libro."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1488.6
+    righe: ["4. Al termine dei cinque giorni e delle cinque notti di scavo, avvenne che"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1525.0
+    righe: ["Omar fosse esausto. Pose il badile sul fianco e si accucciò nella sabbia,"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1561.4
+    righe: ["utilizzando come cuscino uno Scrigno d'Oro che aveva scoperto durante il"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1597.8
+    righe: ["primo giorno dei suoi lavori."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1670.6
+    righe: ["5. Omar dormì."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1743.4
+    righe: ["6. Il quinto giorno del suo sonno, Lord Omar cadde in Trance, e in quello"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1779.8
+    righe: ["stato un Sogno, e in esso un Messaggero di Nostra Signora che gli disse di"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1816.2
+    righe: ["un Sacro Boschetto laddove era nascosto uno Scrigno d'Oro."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1889.0
+    righe: ["7. E l'Angelo di Eris ordinò al Lord:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 933.0
+    y: 1889.0
+    righe: ["Vai costì e solleva il Nascondiglio,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1925.4
+    righe: ["acciocché tu lo possegga e, possedendolo, tu lo condivida e,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1961.8
+    righe: ["condividendolo, tu lo ami, e amandolo, tu abiti in esso e, abitando nel"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 1998.2
+    righe: ["Nascondiglio, tu possa diventare un Poeta della Parola e un Dicitore di"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2034.6
+    righe: ["Detti -- una Ispirazione per tutti gli Uomini e uno Scriba per gli Dei."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2107.4
+    righe: ["8. Ma Omar si lamentò, dicendo all'Angelo:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 1023.0
+    y: 2107.4
+    righe: ["Che è 'sta stronzata, coso? Che"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2143.8
+    righe: ["mi interessa della Parola e dei Detti? Che mi frega di essere Ispirazione"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2180.2
+    righe: ["per tutti gli uomini? Che ci guadagna uno ad essere lo Scriba degli Dei"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2216.6
+    righe: ["quando gli Scribi dei Governi non fanno niente e hanno paghe migliori?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2289.4
+    righe: ["9. E, invero, l'Angelo si infuriò e Omar fu abbattuto a Terra da una Mano"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2325.8
+    righe: ["Invisibile e non si rialzò per cinque giorni e cinque notti."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2398.6
+    righe: ["10. E avvenne che la quinta notte egli sognò, e in questo sogno, una"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2435.0
+    righe: ["Visione, e nella Visione apparve un Messaggero di Nostra Signora che gli"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2471.4
+    righe: ["affidava una scatola di sigari \"Rigoletto\" con varie cartelle, alcune"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2507.8
+    righe: ["tenute insieme da elastici, e su quelle cartelle erano a volte scritti"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2544.2
+    righe: ["versi, mentre su altre nulla era scritto."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2617.0
+    righe: ["11. E allora l'Angelo comandò al Lord:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 951.0
+    y: 2617.0
+    righe: ["Prendi questo Onesto Libro della"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2653.4
+    righe: ["Verità nel tuo grembo e custodiscilo. Portalo sulla Terra e Offrilo ai Re"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2689.8
+    righe: ["delle Nazioni e ai Raccoglitori di Spazzatura. Predica tramite esso ai"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 30
+    grassetto: 1
+    scala_x: 1.0
+    x: 249.0
+    y: 2726.2
+    righe: ["Giusti, acciocchè possano rinunciare alle loro vie e pentirsi."]
+
+linee:
+  - [1571, 945, 1576, 978]     # gambo della croce, tratto sinistro (ridisegnato)
+  - [1583, 945, 1589, 978]     # gambo della croce, tratto destro

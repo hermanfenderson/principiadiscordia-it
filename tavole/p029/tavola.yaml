@@ -1,0 +1,69 @@
+# Tavola p029 (originale 00014) — I soldi di Norton
+# Pagina del vecchio sito: 21 (testo/it/21.md, solo immagine storico/immagini-it/ImperialGovernment.png)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (fumetto e didascalia dalla tavola di Mauro)
+# DIFFERENZE: il titolo di credito di Norton I (testo stampato e calligrafico) e "IN GODDESS WE TRUST"
+#   restano in inglese, come nella tavola di Mauro; si traducono solo il fumetto ("COMPAGNO, FATTI
+#   GLI AFFARI TUOI E IO MI FACCIO I MIEI!") e la didascalia in basso.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Il fumetto è ruotato di circa 102 gradi: cancellazione a strisce lungo le righe, ricavate
+# raddrizzando la pagina. Didascalia in Oswald leggero allargato (l'originale è un bastone largo).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 29
+
+cancella:
+  - [173, 844, 293, 874]
+  - [167, 814, 287, 844]
+  - [160, 784, 281, 814]
+  - [154, 754, 274, 784]
+  - [147, 724, 268, 754]
+  - [141, 694, 261, 724]
+  - [135, 664, 255, 694]
+  - [128, 634, 249, 664]
+  - [122, 604, 242, 634]
+  - [116, 574, 236, 604]
+  - [109, 544, 230, 574]
+  - [103, 514, 223, 544]
+  - [97, 484, 217, 514]
+  - [90, 454, 211, 484]
+  - [84, 424, 204, 454]
+  - [77, 394, 198, 424]
+  - [71, 364, 191, 394]
+  - [65, 334, 185, 364]
+  - [58, 304, 179, 334]
+  - [52, 274, 172, 304]
+  - [46, 244, 166, 274]
+  - [39, 214, 160, 244]
+  - [33, 184, 153, 214]
+  - [27, 154, 147, 184]
+  - [24, 144, 141, 154]
+  - [600, 2790, 1210, 2915]    # didascalia
+
+testi:
+  - font: ArchitectsDaughter-Regular.ttf   # fumetto, sale dal basso inclinato
+    corpo: 60
+    grassetto: 2
+    interlinea: 56
+    rotazione: 102
+    adatta: 720
+    x: 228
+    y: 858
+    righe:
+      - "COMPAGNO, FATTI GLI AFFARI"
+      - "TUOI E IO MI FACCIO I MIEI!"
+
+  - font: Oswald-VF.ttf
+    peso: 350
+    corpo: 36
+    scala_x: 1.5
+    adatta: 365
+    interlinea: 39
+    allinea: centro
+    x: 903
+    y: 2826
+    righe:
+      - "ULTIMA BANCA MALACLYPSIANA"
+      - "INTERGALATTICA DI SICURTA'"
+      - "OMOLOGATO E GARANTITO"

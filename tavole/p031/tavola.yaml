@@ -1,0 +1,116 @@
+# Tavola p031 (originale 00016) — La Legge dei Cinque
+# Pagina del vecchio sito: 23 (testo/it/23.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (timbro dall'immagine di Mauro SecretService.png:
+#   "SI PREGA DI NON USARE QUESTO DOCUMENTO COME CARTA IGIENICA")
+# DIFFERENZE: titolo "IL RETROSCENA!" composto in maiuscolo/minuscolo ("Il Retroscena!") come l'originale;
+#   "La Legge dei Cinque" composto in maiuscolo e sottolineato come l'originale.
+# REFUSI CORRETTI: "(2 +3 = 5)" -> "(2+3=5)" come nell'originale
+#   (da segnalare, non corretto: "Malignatus" nel testo, "Malignatius" nell'originale)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 31
+
+cancella:
+  - [530, 195, 1330, 335]       # titolo "The Inside Story!"
+  - [310, 375, 1625, 1960]      # testo dattiloscritto fino a "manifest the"
+  - [310, 1940, 1305, 2015]     # ultima riga "harder I look." (a sinistra della stella)
+  - [1140, 2468, 1790, 2640]    # timbro sotto la stella
+  - [620, 2690, 1260, 2800]     # nota in piccolo
+
+testi:
+  - font: Oswald-VF.ttf                    # titolo nero condensato
+    corpo: 128
+    peso: 700
+    allinea: centro
+    x: 927
+    y: 302
+    righe: ["Il Retroscena!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 320
+    y: 430
+    righe: ["LA LEGGE DEI CINQUE"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 5
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    colonne: 43
+    x: 322
+    y: 559
+    testo: >-
+      La legge dei Cinque è uno dei più antichi
+      misteri Erisiani. Esso fu rivelato per la
+      prima volta al buon Lord Omar ed è uno dei
+      più grandi contributi che provenga dal
+      Tempio Nascosto del Gesù Allegro.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    colonne: 43
+    x: 322
+    y: 912
+    testo: >-
+      La POEE sottoscrive la Legge dei Cinque
+      della setta di Omar. E POEE riconosce anche
+      il Santo 23 (2+3=5) che fu aggiunto dal
+      Vescovo Dr. Mordecai Malignatus, KNS, nella
+      sua setta Discordiana, l'antico Oracolo
+      Illuminato di Baviera.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    x: 322
+    y: 1333
+    righe:
+      - "La legge dei Cinque afferma semplicemente"
+      - "che: TUTTE LE COSE AVVENGONO IN GRUPPI DI"
+      - "CINQUE, O SONO DIVISIBILI PER O MULTIPLE DI"
+      - "CINQUE, O SONO IN QUALCHE MODO DIRETTAMENTE"
+      - "O INDIRETTAMENTE RICONDUCIBILI A 5."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 322
+    y: 1697
+    righe: ["La Legge dei Cinque non sbaglia mai."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    x: 322
+    y: 1817
+    righe:
+      - "Negli Archivi Erisiani c'è un vecchio"
+      - "appunto di Omar per Mal-2: \"Noto che la"
+      - "Legge dei Cinque è sempre più manifesta"
+      - "ogni volta che la osservo"
+      - "con maggior attenzione.\""
+
+  - font: Oswald-VF.ttf                    # timbro in diagonale
+    corpo: 48
+    peso: 300
+    interlinea: 50
+    scala_x: 1.18
+    effetto: timbro
+    rotazione: -4
+    x: 1110
+    y: 2525
+    righe: ["SI PREGA DI NON USARE QUESTO", "DOCUMENTO COME CARTA IGIENICA"]
+
+  - font: IBMPlexMono-Medium.ttf          # nota in piccolo
+    corpo: 25
+    interlinea: 30
+    x: 633
+    y: 2729
+    righe:
+      - "I Naga dell'alto Burma dicono che il sole"
+      - "brilla di giorno perchè, essendo una donna, ha"
+      - "timore di avventurarsi fuori di notte."

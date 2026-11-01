@@ -1,0 +1,125 @@
+# Tavola p023 (originale 00008) — ERIS, Dea del Caos, Discordia e Confusione
+# Pagina del vecchio sito: 15 (testo/it/15.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (scritta a mano "no girdle ever cured a pregnancy" -> "nessuna fascia
+#   elastica ha mai curato una gravidanza" da storico/immagini-it/Girdle.png)
+# DIFFERENZE: come nell'originale ("...that he might / develop himself") il discorso di Eris
+#   si spezza a fine pagina: "...affinchè potesse / sviluppare se stesso" prosegue su p024.
+#   Il sottotitolo "ERIS - Dea del Caos, Discordia e Confusione" è
+#   composto in maiuscolo come nell'originale.
+# REFUSI CORRETTI: "pergamena. era un diagramma" -> "pergamena. Era un diagramma"
+# NdT ESCLUSE: nessuna
+# Corpo 50 (passo 30) stretto a scala_x 0.87; corsivo Courier Prime Italic per i passi in corsivo.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 23
+
+cancella:
+  - [1000, 30, 1700, 185]      # scritta a mano in alto a destra
+  - [95, 200, 1780, 2770]      # tutto il testo
+
+testi:
+  - font: Kalam-Regular.ttf                # scritta a mano
+    corpo: 50
+    interlinea: 54
+    grassetto: 1
+    x: 1030
+    y: 100
+    righe: ["nessuna fascia elastica ha mai", "      curato una gravidanza"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 259
+    righe:
+      - "     Allora, entrò nella stanza uno scimpanzé, peloso e"
+      - "grigio sul muso, in posizione verticale per tutti i suoi"
+      - "cinque piedi di statura, e in bilico con una maestosità"
+      - "naturale. Portava con se una pergamena e si diresse verso i"
+      - "giovani."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 621
+    righe:
+      - "     \"Signori,\" disse, \"Perché la luna di Pickering gira in"
+      - "orbita inversa? Signori, avete capezzoli sul petto,"
+      - "producono latte? e che cosa, di grazia, signori, si deve"
+      - "fare della legge di Heisenberg?\" Fece una pausa. \"QUALCUNO"
+      - "DOVEVA METTERE TUTTA QUESTA CONFUSIONE QUI!\""
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 984
+    righe:
+      - "     E con ciò svelò la sua pergamena. Era un diagramma,"
+      - "simile a uno yin-yang con un pentagono da una parte e una"
+      - "mela dall'altra. Quindi esplose e i due persero conoscenza."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 1225
+    sottolineato: true
+    distanza_sottolineatura: 12
+    spessore_sottolineatura: 4
+    righe:
+      - "ERIS - DEA DEL CAOS, DISCORDIA E CONFUSIONE"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 1346
+    righe:
+      - "     Si svegliarono al frastuono dei birilli e ritrovarono i"
+      - "giocatori di bowling intenti nel loro gioco e la cameriera"
+      - "impegnata a fare il caffè. Era evidente che la loro"
+      - "esperienza era rimasta un fatto privato."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 1648
+    righe:
+      - "     Essi discussero il loro strano incontro e ricostruirono"
+      - "a memoria il diagramma dello scimpanzè. Nei cinque giorni"
+      - "successivi cercarono nelle biblioteche il suo significato ma"
+      - "rimasero delusi trovando solo i riferimenti al taoismo, alla"
+      - "bandiera coreana, e alla tecnocrazia. Fu solo quando"
+      - "identificarono la scritta greca sulla mela che scoprirono"
+      - "l'antica dea conosciuta dai Greci come Eris e dai romani"
+      - "come Discordia. Ciò accadde la quinta notte, e quando si"
+      - "addormentarono, ognuno sognò vividamente una splendida donna"
+      - "i cui occhi erano morbidi come una piuma e profondi come"
+      - "l'eternità stessa, e il cui corpo era una spettacolare danza"
+      - "di atomi e di universi. I suoi capelli fluenti erano"
+      - "pirotecniche di energia pura e arcobaleni si manifestavano e"
+      - "dissolvevano, mentre parlava con una voce calda e gentile:"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 60.4
+    x: 112
+    y: 2554
+    righe:
+      - "     Sono venuta a dirvi che siete liberi. Molte ere fa, la"
+      - "coscienza di me abbandonò l'uomo affinchè potesse"

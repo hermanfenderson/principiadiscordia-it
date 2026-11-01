@@ -1,0 +1,310 @@
+# Tavola p054 (originale 00039) — I Cinque Apostoli di Eris (1-3)
+# Pagina del vecchio sito: 46 (testo/it/46.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: la frase "Tutte le affermazioni sono vere in" a cavallo di pagina: qui si chiude a "Tutte le",
+#   "affermazioni sono vere in un certo senso..." passa in testa a p055 (stesso taglio dell'originale: "All affirmations are" / "true in some sense");
+#   nel testo italiano "che mandò in cambio solo Vibrazioni d'Amore in cambio" -> tolto il secondo "in cambio";
+#   il titolo "= THE FIVE APOSTLES OF ERIS & WHO THEY BE =" segue il testo italiano ("=I CINQUE APOSTOLI DI ERIS: CHI SONO =");
+#   i nomi (HUNG MUNG, DR. VAN VAN MOJO) e il nome sanscrito di Sri Syadasti restano come nell'originale
+# REFUSI CORRETTI: "in cambio ... in cambio" (ripetizione), "Linda![](...)" (resto di immagine nel testo)
+# NdT ESCLUSE: nessuna
+# Il corpo del testo è stretto a scala_x 0.88 per far entrare l'italiano nelle stesse righe dell'originale.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 54
+
+cancella:
+  - [478, 123, 1402, 221]      # CHAPTER 5: THE PIONEERS (i filetti sopra e sotto restano)
+  - [270, 355, 1600, 430]      # = THE FIVE APOSTLES ... =
+  - [180, 625, 1815, 890]      # Hung Mung
+  - [180, 1020, 1815, 1345]    # Mojo, parte larga
+  - [180, 1325, 948, 2065]     # Mojo, colonna accanto alla figura
+  - [180, 2060, 1815, 2372]    # Mojo, parte larga in fondo
+  - [180, 2598, 1790, 2668]    # commonly called just SRI SYADASTI
+  - [180, 2694, 1792, 2775]    # His name is Sanskrit...
+
+testi:
+  - font: Oswald-VF.ttf                   # titolo nero condensato
+    corpo: 118
+    peso: 500
+    scala_x: 0.80
+    allinea: centro
+    x: 938
+    y: 212
+    righe: ["CAPITOLO 5: I PIONIERI"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    allinea: centro
+    x: 931
+    y: 420
+    righe: ["=I CINQUE APOSTOLI DI ERIS: CHI SONO ="]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 693
+    righe: ["Un Saggio dell'Antica Cina e Missionario Ufficiale"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 753
+    righe: ["Discordiano presso i Pagani Cinesi. Colui che"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 813
+    righe: ["originariamente concepì IL SACRO CAO. Patrono della"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 873
+    righe: ["Stagione di Caos. Festa: 5 Gen."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 1084
+    righe: ["Primario dell'Africa Nera e Produttore di Belle Bambole."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 1144
+    righe: ["D.H.V.,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 412.6
+    y: 1144
+    righe: ["Dottore dell'Hoodoo e del Vexes"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 1263.8
+    y: 1144
+    righe: [", della Scuola di"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 1204
+    righe: ["Studi Biblici \"Gesù ti Salverà il Culo\" dell'Area"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 193.0
+    y: 1264
+    righe: ["Metropolitana di Yorba Linda; e F.I.H.G.W.P.,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 1456.0
+    y: 1264
+    righe: ["Fellow della"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 193.0
+    y: 1324
+    righe: ["Guerriglia Intergalattica Haitiana per la Pace nel Mondo."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 189.0
+    y: 1384
+    righe: ["Patrono della Stagione di"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 189.0
+    y: 1444
+    righe: ["Discordia. Festa: 19 Mar."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1504
+    righe: ["NOTA: Gli Erisiani della"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1564
+    righe: ["Setta del Cristo Ridente"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1624
+    righe: ["hanno la stupida opinione"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1684
+    righe: ["che il Dr. Mojo sia un"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1744
+    righe: ["impostore e che"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 628.3
+    y: 1744
+    righe: ["PATAMUNZO"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1804
+    righe: ["LINGANANDA"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 491.0
+    y: 1804
+    righe: ["sia il Vero"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1864
+    righe: ["Secondo Apostolo. Lord Omar"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1924
+    righe: ["affermò che Dr. Mojo"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 1984
+    righe: ["accumulasse odio contro"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 2044
+    righe: ["Patamunzo, che mandò in"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 2104
+    righe: ["cambio solo Vibrazioni d'Amore. Ma noi della setta POEE"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 2164
+    righe: ["sappiamo che Patamunzo è il Vero Impostore, e che tutte"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 2224
+    righe: ["queste vibrazioni sono in realtà un tentativo di"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 2284
+    righe: ["sovvertire la sacrosanta autorità apostolica del Dr. Mojo"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 189.0
+    y: 2344
+    righe: ["facendogli saltare i gangheri."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 190.0
+    y: 2653
+    righe: ["Comunemente chiamato solo"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 903.9
+    y: 2653
+    righe: ["SRI SYADASTI"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 185.0
+    y: 2757
+    righe: ["Il suo nome è Sanscrito, e significa: Tutte le"]

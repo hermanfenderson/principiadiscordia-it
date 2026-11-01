@@ -1,0 +1,113 @@
+# Tavola p079 (originale 00064) — Rituale Magico Erisiano: la Maledizione del Tacchino
+# Pagina del vecchio sito: 71 (testo/it/71.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: il paragrafo "Prendi una postura..." è spezzato in righe nel testo, ricomposto come un solo paragrafo
+#   come nell'originale; sottolineature di "negative" ed "eristiche" riprese dall'originale.
+#   L'italiano è più lungo: dattiloscritto stretto (scala_x 0.88) e interlinea ridotta (57 invece di 60)
+# REFUSI CORRETTI: "dall' Apostolo" -> "dall'Apostolo"; "pugliato" -> "pugilato"; "abbarnca" -> "abbranca";
+#   "ad ata voce" -> "ad alta voce"; "ATTENZIONE-" -> "ATTENZIONE -"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 79
+cancella:
+  - [270, 120, 1470, 200]    # titolo
+  - [85, 245, 1770, 2465]    # testo
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60
+    x: 155
+    y: 183
+    righe:
+      - "RITUALE MAGICO ERISIANO - LA MALEDIZIONE DEL TACCHINO"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 57
+    x: 102
+    y: 305
+    righe:
+      - "Svelato dall'Apostolo Dr. Van Van Mojo come specifica"
+      - "contromisura alla malvagia Maledizione di Facciagrigia, LA"
+      - "MALEDIZIONE DEL TACCHINO è qui trasmessa agli Erisiani"
+      - "ovunque si trovino semplicemente per loro protezione."
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 102
+    y: 559
+    righe:
+      - "La Maledizione del Tacchino funziona. E' saldamente basata"
+      - "sul fatto che Facciagrigia e i suoi seguaci hanno bisogno di"
+      - "un ambiente aneristico per funzionare e che una tempestiva"
+      - "introduzione di vibrazioni eristiche li neutralizzerà alle"
+      - "fondamenta. La Maledizione del Tacchino è progettata"
+      - "semplicemente per neutralizzare le vibrazioni negative"
+      - "aneristiche e se introdotta in un ambiente aneristico neutro"
+      - "o positivo (per esempio un poeta che stia lavorando sulla"
+      - "metrica) si dimostrerà innocuo o nel caso peggiore"
+      - "semplicemente fastidioso. Non è progettato per essere"
+      - "utilizzato contro le vibrazioni negative eristiche, anche se"
+      - "può essere utilizzato come veicolo eristico per portare"
+      - "vibrazioni positive in un ambiente eristico malcondotto. In"
+      - "questo caso sarà una responsabilità del Mago Eristico di"
+      - "forgiare le vibrazioni positive se si desidera ottenere un"
+      - "qualche risultato. ATTENZIONE - tutta la magia è potente e"
+      - "richiede coraggio e integrità svolgere il ruolo di mago."
+      - "Questo rituale, se usato scorrettamente, può ritorcersi"
+      - "contro chi lo esegue. Una motivazione positiva è essenziale"
+      - "per auto-protezione."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 57
+    x: 102
+    y: 1749
+    righe:
+      - "PER LANCIARE LA MALEDIZIONE DEL TACCHINO:"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 57
+    x: 102
+    y: 1856
+    righe:
+      - "Prendi una postura eretta come se fossi John L. Sullivan che"
+      - "si prepara a un incontro di pugilato. Fronteggia il"
+      - "grigiofaccista che vuoi corto circuitare o rivolgiti alla"
+      - "direzione della vibrazione aneristica negativa che intendi"
+      - "neutralizzare. Inizia ad agitare le braccia in una qualche"
+      - "maniera elaborata e fai gesti con le mani come se fossi"
+      - "Mandrake che abbranca una gigantessa sexy. Canta, ad alta"
+      - "voce e nitidamente:"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 312
+    y: 2312
+    righe:
+      - "GOBBLE, GOBBLE, GOBBLE, GOBBLE, GOBBLE!"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60
+    x: 102
+    y: 2419
+    righe:
+      - "I risultati saranno immediatamente evidenti."
+
+linee:
+  - [869, 194, 1610, 198]    # sottolineatura
+  - [1365, 854, 1585, 859]    # sottolineatura
+  - [1228, 1139, 1475, 1144]    # sottolineatura

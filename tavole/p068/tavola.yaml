@@ -1,0 +1,130 @@
+# Tavola p068 (originale 00053) — Il Santuario di Brunswick
+# Pagina del vecchio sito: 60 (testo/it/60.md)
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere): timbro "Quiet night S̄ c/o" (gergo da cartella clinica:
+#   "notte tranquilla, senza lamentele") -> "Notte tranquilla s̄ disturbi"; sul vecchio sito era
+#   l'immagine originale QuietNight.gif, non tradotta.
+# DIFFERENZE: il titolo "IMPENDING DOOM / HAS ARRIVED" segue testo/it ("L'IMMINENTE GIORNO DEL /
+#   GIUDIZIO E' ARRIVATO"). Il paragrafo in corsivo prende 10 righe come l'originale, con scala_x 0.89.
+#   Paragrafi del dattiloscritto riallineati (18 righe contro 19); ultimo paragrafo con scala_x 0.96.
+# REFUSI CORRETTI: "si svelò per la prima volta al Corpo della Mela d'Oro per la prima volta" ->
+#   tolta la ripetizione finale "per la prima volta"; "pellegrinagio" -> "pellegrinaggio".
+# NdT ESCLUSE: nessuna
+# FONT: dattiloscritto IBM Plex Mono 52; corsivo Courier Prime Italic 50; titoletto e timbro in
+#   Old Standard (l'originale è un tondo tipografico tipo Century).
+# Il filetto della nota resta quello della scansione.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 68
+
+cancella:
+  - [700, 240, 1215, 322]      # BRUNSWICK SHRINE (con sottolineatura)
+  - [160, 425, 1815, 1392]     # primi tre paragrafi
+  - [740, 1396, 1172, 1496]    # IMPENDING DOOM / HAS ARRIVED
+  - [305, 1508, 1575, 2128]    # corsivo
+  - [160, 2140, 1815, 2380]    # ultimo paragrafo
+  - [160, 2380, 1095, 2462]    # ultima riga
+  - [1095, 2380, 1800, 2470]   # timbro Quiet night
+  - [990, 2470, 1800, 2566]
+  - [160, 2568, 1175, 2650]    # nota
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 625
+    y: 300
+    righe: ["SANTUARIO DI BRUNSWICK"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 5
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 176
+    y: 483
+    righe:
+      - "A Whittier, sobborgo di Los Angeles c'è un bowling,"
+      - "e proprio qui, nell'Anno di Nostra Signora di"
+      - "Discordia 3125 (1959*), Eris si svelò per la prima"
+      - "volta al Corpo della Mela d'Oro."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 176
+    y: 793
+    righe:
+      - "In onore di questo Incredibile Evento, questo Sacro"
+      - "Luogo è riverito come Santuario da tutti gli"
+      - "Erisiani. Ogni cinque anni, il Corpo della Mela"
+      - "d'Oro organizza un Pellegrinaggio al Santuario di"
+      - "Brunswick come atto Devozionale e là festeggiano con"
+      - "un panino-senza-hot-dog e riflettono un po' su Tutto"
+      - "quanto."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 176
+    y: 1274
+    righe:
+      - "E' scritto che quando il Corpo tornerà al Santuario"
+      - "cinque volte cinque, allora il mondo finirà:"
+
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    grassetto: 1
+    interlinea: 50
+    allinea: centro
+    x: 955
+    y: 1436
+    righe: ["L'IMMINENTE GIORNO DEL", "GIUDIZIO E' ARRIVATO"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.89
+    interlinea: 61.4
+    x: 321
+    y: 1563
+    righe:
+      - "     E Cinque Giorni Prima di quella"
+      - "Occasione, l'Apostolo Malaclypse il Vecchio"
+      - "camminerà per le strade di Whittier con un"
+      - "cartello che in tutte le lingue significherà:"
+      - "\"GIORNO DEL GIUDIZIO\", come avviso"
+      - "dell'imminente Giorno del Giudizio a tutti gli"
+      - "uomini. Ed Egli segnalerà questo evento"
+      - "cercando i Poveri e distribuendo loro preziose"
+      - "spillette di Mao e Whittier sarà nota per quei"
+      - "cinque giorni come la Regione di Thud."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    scala_x: 0.96        # passo 30 come l'originale, per tenere le righe lunghe nel margine
+    x: 172
+    y: 2198
+    righe:
+      - "Come servizio di pubblica utilità per tutta l'umanità"
+      - "e alla civiltà in generale e per noi in particolare,"
+      - "il Corpo della Mela d'Oro ha concluso che pianificare"
+      - "un simile pellegrinaggio sia sufficiente e che sia"
+      - "prudente non andarci affatto."
+
+  - font: OldStandard-Regular.ttf
+    corpo: 76
+    grassetto: 1
+    rotazione: 7
+    adatta: 770
+    x: 1020
+    y: 2556
+    righe: ["Notte tranquilla s̄ disturbi"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 175
+    y: 2621
+    righe: ["* O forse era il 1958, non ricordo."]

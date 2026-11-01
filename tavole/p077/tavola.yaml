@@ -1,0 +1,159 @@
+# Tavola p077 (originale 00062) — Sistema Astrologico POEE
+# Pagina del vecchio sito: 69 (testo/it/69.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (scritta a mano e didascalia verticale dalle note * e ** di testo/it/69.md, in maiuscolo)
+# DIFFERENZE: numerazione "1)" "2)" come nell'originale (nel testo "1." "2."); asterischi * e ** delle note omessi;
+#   colonna tipografica giustificata con spazi sottili (Old Standard al posto del Century dell'originale);
+#   variabili n, d, p, r, k, s rese maiuscole e in tondo come nel testo; virgolette tipografiche come nell'originale
+# REFUSI CORRETTI: "compleanni" -> "compleanno"; "ti dirà" -> "ti dirò"; "dimostrare Tè che" -> "dimostrare è che";
+#   "nomi, , è" -> "nomi, è"; "essendfo" -> "essendo"; "la collezioni" -> "la collezione"; "un numeri dispari" -> "un numero dispari";
+#   "delle "otto regine"" -> "delle ‘otto regine’" (virgolette annidate)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 77
+cancella:
+  - [105, 190, 880, 262]    # titolo
+  - [100, 300, 1660, 715]    # punti 1 e 2
+  - [75, 800, 915, 2885]    # colonna tipografica
+  - [1010, 778, 1545, 1003]    # scritta a mano (righe 1-3)
+  - [1050, 1003, 1462, 1082]    # scritta a mano (riga 4, la freccia resta)
+  - [1165, 1940, 1465, 2840]    # didascalia verticale
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 114
+    y: 243
+    righe:
+      - "SISTEMA ASTROLOGICO POEE"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.97
+    interlinea: 60
+    x: 116
+    y: 366
+    righe:
+      - "1) Il giorno del tuo prossimo compleanno, ritorna al"
+      - "tuo luogo di nascita e, precisamente a mezzanotte,"
+      - "annotando la tua ora di natale e la data di"
+      - "osservazione, conta tutte le stelle visibili."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.97
+    interlinea: 60
+    x: 116
+    y: 634
+    righe:
+      - "2) Una volta fatto questo, scrivimi e ti dirò cosa"
+      - "fare dopo."
+
+  - font: OldStandard-Regular.ttf    # colonna tipografica
+    corpo: 48
+    grassetto: 1
+    x: 137
+    y: 854
+    righe:
+      - "Il  teorema  da  dimostrare  è  che se un"
+
+  - font: OldStandard-Regular.ttf    # colonna tipografica
+    corpo: 48
+    grassetto: 1
+    interlinea: 54.2
+    x: 86
+    y: 908
+    righe:
+      - "numero  pari  di  persone  si  siede  casual-"
+      - "mente      attorno      a      un      tavolo     tondo     che"
+      - "abbia        segnaposti        con        i       loro       nomi,       è"
+      - "sempre  possibile ruotare il tavolo finchè"
+      - "almeno  due  persone  non siano di fronte"
+      - "ai   loro   segnaposti.   Procediamo   per   as-"
+      - "surdo.  “Sia  N il numero pari di persone"
+      - "e   siano   i   loro   nomi   sostituiti   con  interi"
+      - "da     0     a     N-1    in    modo    che    i    segnaposti"
+      - "siano       piazzati      in      sequenza      attorno      al"
+      - "tavolo.   Se   un   ospite  D  originariamente"
+      - "siede    al   posto   del   segnaposto   P,   allora"
+      - "il   tavolo   deve   essere   ruotato  di  R  posti"
+      - "perchè      egli      sia     seduto     nella     posizione"
+      - "corretta    dove   R=P-D,   a   meno   che   sia"
+      - "negativo,                       in                      tal                      caso                      essendo"
+      - "R=P-D+N.    La    collezione    di   valori   di"
+      - "D    (e    di    P)    per    tutti   gli   ospiti   sono   gli"
+      - "interi    da    0    a    N-1,    ciascuno   preso   una"
+      - "volta,     ma     lo     stesso     si     può    dire    per    la"
+      - "collezione   di  valori  di  R,  altrimenti  due"
+      - "delegati    sarebbero   seduti   correttamen-"
+      - "te  al medesimo momento. Sommando le"
+      - "suddette         equazioni,         una         per         ciascun"
+      - "ospite,     si     ottiene     S-S+NK,     dove     K     è"
+      - "un       intero       e       S=N(N-1)/2,       la      somma"
+      - "degli    interi    da    0    a    N-1.    Da    ciò    segue"
+      - "che    N=2K+1,   un   numero   dispari.”   Il"
+      - "che contraddice l'assunto originale."
+
+  - font: OldStandard-Regular.ttf    # colonna tipografica
+    corpo: 48
+    grassetto: 1
+    x: 137
+    y: 2480
+    righe:
+      - "“Ho     risolto    in    realtà    questo    proble-"
+
+  - font: OldStandard-Regular.ttf    # colonna tipografica
+    corpo: 48
+    grassetto: 1
+    interlinea: 54.2
+    x: 86
+    y: 2534
+    righe:
+      - "ma  alcuni  anni fa,” scrive Rybicki, “per"
+      - "un        problema       differente       ma       del       tutto"
+      - "equivalente,        una        generalizzazione       del"
+      - "problema      delle      ‘otto      regine’      in     difesa"
+      - "per  una  scacchiera  cilindrica  in cui l'at-"
+      - "tacco  diagonale è consentito in una sola"
+      - "direzione.”"
+
+  - font: ArchitectsDaughter-Regular.ttf    # scritta a mano
+    corpo: 64
+    grassetto: 1
+    interlinea: 76
+    x: 1022
+    y: 845
+    righe:
+      - "GUARDA QUESTO"
+      - "FIOCCO DI NEVE:"
+      - "HA PROPRIETÀ"
+
+  - font: ArchitectsDaughter-Regular.ttf    # scritta a mano
+    corpo: 64
+    grassetto: 1
+    x: 1062
+    y: 1070
+    righe:
+      - "MAGICHE"
+
+  - font: IBMPlexMono-Regular.ttf    # didascalia verticale
+    corpo: 52
+    scala_x: 0.91
+    grassetto: 1
+    interlinea: 60
+    rotazione: 90
+    x: 1214
+    y: 2831
+    righe:
+      - "L'EMINENTE MATEMATICO DEL"
+      - "SEDICESIMO SECOLO CARDANO"
+      - "DETESTAVA TALMENTE TANTO LUTERO"
+      - "DA CAMBIARGLI LA DATA DI"
+      - "NASCITA PERCHÉ AVESSE UN"
+      - "OROSCOPO SFAVOREVOLE."
+
+linee:
+  - [114, 254, 863, 258]    # sottolineatura

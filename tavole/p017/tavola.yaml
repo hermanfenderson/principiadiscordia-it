@@ -1,0 +1,106 @@
+# Tavola p017 (originale 00002) — Indice
+# Pagina del vecchio sito: 9 (testo/it/09.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "Entropy (Norbert Wiener)" -> "Entropia (Norbert Wiener)" (nel testo restava "Entropy");
+#   "How To Start A POEE Cabal Without / Messing Around..." diviso su due righe come l'originale.
+# DIFFERENZE: l'indice è stampato ruotato di 90 gradi come nell'originale; numeri di pagina, lampada e
+#   macchiolina lasciati dalla scansione. Le voci "i Introduzione" e "v Copertina" di testo/it/09.md non
+#   sono nell'indice originale e restano fuori. Titoli dall'indice del vecchio sito.
+# REFUSI CORRETTI: "La Affermazione Erisiane" -> "La Affermazione Erisiana"; "Il Giuramento MIsterico" ->
+#   "Il Giuramento Misterico"; "Libro dell' Utero" -> "Libro dell'Utero"; "il Sacro Cao (testo)" -> "Il Sacro
+#   Cao (testo)"; "Norbert Weiner" -> "Norbert Wiener" (come nell'originale)
+# NdT ESCLUSE: nessuna
+# FONT: IBM Plex Mono a scala_x 0,8: il dattiloscritto dell'indice è un Letter Gothic stretto
+#   (passo 17,9 px, altezza maiuscole 26 px); la scala riproduce il passo originale, non comprime l'italiano.
+# Coordinate in pixel sulla scansione a 360 dpi (1770 x 2932). Calcolate sulla pagina raddrizzata
+#   (ruotata di 90 gradi in senso orario: X_r, Y_r) e riportate con x = Y_r, y = 2931 - X_r.
+
+pagina_pdf: 17
+
+cancella:
+  - [470, 1486, 1594, 2146]    # colonna sinistra dei titoli
+  - [426, 553, 1517, 1211]    # colonna destra dei titoli
+  - [540, 517, 590, 553]    # fine di "...Was Revealed" (la macchiolina resta)
+  - [935, 517, 982, 553]    # fine di "...(Brazil letter)"
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # colonna sinistra
+    corpo: 37
+    scala_x: 0.8
+    grassetto: 0.5
+    interlinea: 36.03
+    rotazione: 90
+    x: 503
+    y: 2138
+    righe:
+      - "Il Sacro Cao (Illustrazione)"
+      - "I Cinque Comandamenti (Il Pentaconato)"
+      - "Una storia zen"
+      - "Telegramma a Jehova"
+      - "La Nascita del Movimento Erisiano"
+      - "Inno di Battaglia dell'Eristocrazia"
+      - "Sulla Preghiera"
+      - "Il cielo è in basso..."
+      - "I soldi di Norton"
+      - "Eris - Genealogia Greca"
+      - "La legge dei 5"
+      - "Il mito della Mela della Discordia"
+      - "Un Inno Erisiano"
+      - "Matrice POEE"
+      - "Simbolo POEE"
+      - "POEE"
+      - "Modulo di Adesione"
+      - "Sacerdoti POEE"
+      - "La Affermazione Erisiana"
+      - "Certificato di Legionario"
+      - "San Gulik"
+      - "Come avviare una Cabala POEE Senza Avere"
+      - " a Che Fare col Polipadre"
+      - "Rito Battesimale"
+      - "Il Giuramento Misterico"
+      - "La Società Discordiana"
+      - "Il Corpo della Mela d'Oro"
+      - "Il Segno del Numerale V"
+      - "Calendario"
+      - "Nomi Sacri"
+      - "Tessere da PAPA"
+
+  - font: IBMPlexMono-Medium.ttf    # colonna destra
+    corpo: 37
+    scala_x: 0.8
+    grassetto: 0.5
+    interlinea: 36.03
+    rotazione: 90
+    x: 461
+    y: 1204
+    righe:
+      - "La Parabola del Tè Amaro"
+      - "Un Sermone su Amore & Etica"
+      - "Gli Apostoli di Eris"
+      - "Come fu Rivelato il Libro dell'Onesta Verità"
+      - "La Maledizione di Facciagrigia"
+      - "Mandala"
+      - "Cosmologia (Libro dell'Utero)"
+      - "Gli Ordini di Discordia"
+      - "Entropia (Norbert Wiener)"
+      - "L'Illuminazione di Zarathud"
+      - "Il Sacro Cao (testo)"
+      - "Trasformatore Guazza/Buglio"
+      - "Il Santuario di Brunswick"
+      - "I Ciotoli di Starbuck"
+      - "Eris durante 3125 anni (lettera dal Brasile)"
+      - "Cosmogonia (le Figlie di Vuoto)"
+      - "Salmodia Sydastiana"
+      - "Classificazione dei Santi"
+      - "Occultismo"
+      - "Astrologia"
+      - "Facciagrigia e il Negativismo"
+      - "La Maledizione del Tacchino"
+      - "Argomenti per Evangelizzatori"
+      - "\"Affonda\" (gioco)"
+      - "Catena di Sant'Antonio (Iniziativa Congiunta)"
+      - "Classificazione delle Incarnazioni"
+      - "La Lettera ai Paranoici"
+      - "Codice Cripto Cifrato Super Segreto"
+      - "Gli Illuminati (lettera)"
+      - "La Salvezza"

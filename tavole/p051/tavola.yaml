@@ -1,0 +1,554 @@
+# Tavola p051 (originale 00036) — Tessera da Papa
+# Pagina del vecchio sito: 43 (testo/it/43.md)
+# STATO: completa
+# NUOVE TRADUZIONI: cartiglio capovolto nel collage "WHAT COURAGE! WHAT FORTITUDE!" -> "CHE CORAGGIO! CHE FORZA D'ANIMO!";
+#   "WAIT!" nella mela -> "ASPETTA!"; riquadro con l'occhio "THOU ART WHOLE" -> "TU SEI INTEGRO" (dal testo: "Tu sei INTEGRO")
+# DIFFERENZE: tessera e didascalie dal testo italiano; "Valida in perpetuo" in maiuscolo come "GOOD FOREVER";
+#   "Riproduzione e distribuzione libera - Tempio Principale - P.O.E.E. - San Francisco" con il punto centrale
+#   dell'originale al posto dei trattini; la didascalia a mano "A=POPE= IS SOMEONE WHO IS NOT UNDER THE AUTHORITY OF THE
+#   AUTHORITIES *" usa la formulazione del testo ("Un PAPA = Qualcuno che non è soggetto all'autorità delle autorità"),
+#   spezzata in due tratti lungo i due lati della tessera come nell'originale; la linea ondulata sotto "POPE" resta
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# LASCIATE COME SONO: "WOW" capovolto in alto a sinistra (identico in italiano), "OK" accanto al numero di pagina.
+# Tessera: il testo è ruotato di -38,1 gradi; la cancellazione è fatta con molti rettangoli piccoli calcolati sulla
+#   scansione (coprono solo le lettere, lasciano svolazzi, filetto e cornice). Lo stesso per la didascalia a mano.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 51
+
+cancella:
+  # tessera e didascalia a mano: rettangoli piccoli calcolati sulla scansione
+  - [822, 1332, 965, 1511]
+  - [774, 1338, 977, 1451]
+  - [768, 1350, 989, 1445]
+  - [756, 1356, 1001, 1439]
+  - [1002, 1434, 1097, 2039]
+  - [990, 1440, 1103, 2027]
+  - [972, 1446, 1115, 2015]
+  - [966, 1452, 1121, 2009]
+  - [930, 1512, 1199, 1829]
+  - [444, 1542, 779, 1601]
+  - [780, 1590, 809, 1865]
+  - [930, 1590, 1295, 1823]
+  - [474, 1602, 827, 1625]
+  - [510, 1626, 863, 1649]
+  - [438, 1632, 461, 1787]
+  - [384, 1638, 473, 1745]
+  - [378, 1650, 485, 1739]
+  - [528, 1650, 1373, 1667]
+  - [372, 1656, 491, 1733]
+  - [558, 1668, 1397, 1691]
+  - [492, 1674, 515, 1829]
+  - [516, 1692, 539, 1847]
+  - [594, 1692, 1427, 1715]
+  - [540, 1716, 569, 1865]
+  - [630, 1716, 1457, 1745]
+  - [486, 1734, 593, 1823]
+  - [474, 1740, 599, 1817]
+  - [666, 1746, 1493, 1775]
+  - [600, 1764, 629, 1913]
+  - [696, 1776, 1535, 1799]
+  - [630, 1788, 659, 1937]
+  - [720, 1800, 1565, 1817]
+  - [660, 1806, 683, 1961]
+  - [588, 1818, 701, 1907]
+  - [732, 1818, 1589, 1823]
+  - [582, 1824, 707, 1901]
+  - [738, 1632, 1199, 1829]
+  - [1320, 1824, 1595, 1907]
+  - [768, 1632, 1193, 1853]
+  - [708, 1842, 731, 1997]
+  - [726, 1854, 743, 2015]
+  - [804, 1632, 1193, 1883]
+  - [744, 1860, 755, 2027]
+  - [792, 1632, 1193, 1871]
+  - [750, 1872, 767, 2033]
+  - [834, 1884, 1199, 1907]
+  - [768, 1890, 791, 2045]
+  - [696, 1902, 809, 1991]
+  - [690, 1908, 815, 1985]
+  - [864, 1908, 1217, 1931]
+  - [1338, 1890, 1679, 1913]
+  - [1356, 1884, 1673, 1919]
+  - [810, 1920, 833, 2081]
+  - [1380, 1884, 1667, 1931]
+  - [900, 1932, 1247, 1955]
+  - [834, 1944, 863, 2099]
+  - [864, 1956, 875, 2123]
+  - [930, 1956, 1307, 1979]
+  - [876, 1980, 905, 2129]
+  - [960, 1980, 1385, 2003]
+  - [798, 1992, 923, 2069]
+  - [918, 2016, 953, 2165]
+  - [1014, 2028, 1577, 2045]
+  - [948, 2046, 989, 2189]
+  - [1020, 2028, 1571, 2051]
+  - [1026, 2028, 1565, 2057]
+  - [1044, 2028, 1559, 2069]
+  - [990, 2064, 1013, 2219]
+  - [906, 2070, 1019, 2153]
+  - [1050, 2028, 1553, 2075]
+  - [1056, 2028, 1547, 2081]
+  - [1020, 2082, 1037, 2243]
+  - [1068, 2028, 1541, 2087]
+  - [1080, 2028, 1535, 2099]
+  - [1092, 2028, 1529, 2105]
+  - [1032, 2106, 1067, 2255]
+  - [1098, 2028, 1523, 2111]
+  - [1110, 2028, 1517, 2123]
+  - [1122, 2028, 1511, 2129]
+  - [1068, 2130, 1097, 2279]
+  - [1128, 2028, 1505, 2135]
+  - [1098, 2136, 1103, 2303]
+  - [1134, 2028, 1499, 2141]
+  - [1152, 2028, 1493, 2153]
+  - [1014, 2154, 1127, 2237]
+  - [1158, 2028, 1487, 2159]
+  - [1164, 2028, 1481, 2165]
+  - [1176, 2028, 1475, 2171]
+  - [1128, 2172, 1151, 2327]
+  - [1188, 2028, 1469, 2183]
+  - [1200, 2028, 1463, 2189]
+  - [1206, 2028, 1457, 2195]
+  - [1152, 2196, 1181, 2345]
+  - [1218, 2028, 1451, 2207]
+  - [1182, 2208, 1199, 2369]
+  - [1230, 2028, 1445, 2213]
+  - [1236, 2028, 1439, 2219]
+  - [1242, 2028, 1433, 2225]
+  - [1260, 2028, 1427, 2237]
+  - [1194, 2232, 1229, 2381]
+  - [1110, 2238, 1235, 2315]
+  - [1266, 2028, 1421, 2243]
+  - [1272, 2022, 1415, 2249]
+  - [1236, 2250, 1253, 2411]
+  - [1278, 1998, 1409, 2255]
+  - [1296, 1992, 1403, 2267]
+  - [1302, 1992, 1397, 2273]
+  - [1242, 2274, 1283, 2417]
+  - [1308, 1986, 1391, 2279]
+  - [1326, 1980, 1385, 2291]
+  - [1116, 2310, 1361, 2321]
+  - [1128, 2310, 1355, 2327]
+  - [1134, 2310, 1349, 2333]
+  - [1164, 2310, 1331, 2357]
+  - [1170, 2310, 1325, 2363]
+  - [1188, 2304, 1319, 2375]
+  - [408, 1812, 419, 1883]
+  - [0, 1818, 425, 1871]
+  - [438, 1842, 455, 1907]
+  - [432, 1848, 461, 1901]
+  - [420, 1854, 473, 1895]
+  - [468, 1866, 485, 1931]
+  - [0, 1812, 389, 1877]
+  - [414, 1884, 509, 1889]
+  - [486, 1890, 515, 1943]
+  - [456, 1896, 527, 1925]
+  - [522, 1908, 539, 2333]
+  - [450, 1914, 545, 1919]
+  - [516, 1926, 563, 1961]
+  - [498, 1944, 587, 1949]
+  - [558, 1950, 593, 2339]
+  - [1686, 1950, 1823, 2957]
+  - [522, 1962, 611, 2333]
+  - [1680, 1962, 1823, 2693]
+  - [1674, 1968, 1823, 2609]
+  - [600, 1980, 629, 2345]
+  - [1668, 1974, 1823, 2603]
+  - [1662, 1986, 1823, 2603]
+  - [630, 1992, 647, 2357]
+  - [648, 2010, 671, 2375]
+  - [1644, 2004, 1823, 2597]
+  - [672, 2028, 689, 2477]
+  - [1626, 2028, 1823, 2597]
+  - [684, 2034, 701, 2957]
+  - [1620, 2034, 1823, 2597]
+  - [1614, 2046, 1823, 2597]
+  - [684, 2052, 725, 2957]
+  - [1608, 2052, 1823, 2597]
+  - [1602, 2058, 1823, 2597]
+  - [684, 2070, 749, 2957]
+  - [1596, 2064, 1823, 2597]
+  - [1590, 2076, 1823, 2597]
+  - [684, 2082, 761, 2957]
+  - [1584, 2082, 1823, 2597]
+  - [1578, 2088, 1823, 2597]
+  - [684, 2094, 779, 2957]
+  - [1572, 2100, 1823, 2597]
+  - [1566, 2106, 1823, 2597]
+  - [684, 2118, 809, 2957]
+  - [1554, 2118, 1823, 2597]
+  - [1548, 2130, 1823, 2597]
+  - [684, 2136, 833, 2957]
+  - [684, 2142, 839, 2957]
+  - [1536, 2142, 1823, 2597]
+  - [684, 2148, 845, 2957]
+  - [1524, 2160, 1823, 2597]
+  - [684, 2166, 869, 2957]
+  - [1518, 2166, 1823, 2597]
+  - [1512, 2172, 1823, 2597]
+  - [684, 2178, 887, 2957]
+  - [1506, 2184, 1823, 2597]
+  - [684, 2196, 911, 2957]
+  - [1494, 2196, 1823, 2597]
+  - [1476, 2220, 1823, 2597]
+  - [684, 2226, 947, 2957]
+  - [684, 2232, 953, 2957]
+  - [684, 2244, 971, 2957]
+  - [1458, 2244, 1823, 2597]
+  - [684, 2250, 977, 2957]
+  - [1452, 2250, 1823, 2597]
+  - [684, 2256, 983, 2543]
+  - [684, 2262, 995, 2543]
+  - [1440, 2268, 1823, 2597]
+  - [1428, 2280, 1823, 2597]
+  - [990, 2286, 1025, 2957]
+  - [1422, 2286, 1823, 2597]
+  - [990, 2298, 1037, 2957]
+  - [1416, 2298, 1823, 2597]
+  - [990, 2304, 1049, 2957]
+  - [990, 2310, 1055, 2957]
+  - [1404, 2310, 1823, 2597]
+  - [990, 2322, 1067, 2957]
+  - [1398, 2322, 1823, 2597]
+  - [990, 2328, 1079, 2957]
+  - [990, 2334, 1085, 2957]
+  - [1386, 2334, 1823, 2597]
+  - [990, 2340, 1091, 2957]
+  - [990, 2346, 1103, 2957]
+  - [1380, 2340, 1823, 2597]
+  - [990, 2352, 1109, 2957]
+  - [990, 2358, 1115, 2957]
+  - [990, 2364, 1121, 2957]
+  - [1362, 2364, 1823, 2597]
+  - [990, 2370, 1133, 2957]
+  - [1356, 2376, 1823, 2597]
+  - [990, 2382, 1145, 2957]
+  - [990, 2388, 1157, 2957]
+  - [1344, 2388, 1823, 2597]
+  - [990, 2394, 1163, 2957]
+  - [1338, 2394, 1823, 2597]
+  - [990, 2406, 1175, 2957]
+  - [1332, 2406, 1823, 2597]
+  - [990, 2412, 1187, 2957]
+  - [990, 2418, 1193, 2957]
+  - [1320, 2418, 1823, 2597]
+  - [990, 2424, 1199, 2957]
+  - [990, 2430, 1211, 2957]
+  - [1314, 2430, 1823, 2597]
+  - [1302, 2442, 1823, 2597]
+  - [1296, 2448, 1823, 2597]
+  - [990, 2454, 1241, 2957]
+  - [990, 2460, 1247, 2957]
+  - [1290, 2460, 1823, 2597]
+  - [990, 2466, 1253, 2957]
+  - [1284, 2466, 1823, 2597]
+  - [990, 2472, 1259, 2957]
+  - [1278, 2472, 1823, 2597]
+  - [990, 2478, 1823, 2597]
+  # cartiglio capovolto nel collage: WHAT COURAGE! WHAT FORTITUDE!
+  - [220, 1080, 223, 1199]
+  - [220, 1084, 227, 1199]
+  - [216, 1088, 275, 1195]
+  - [332, 1132, 363, 1247]
+  - [324, 1136, 371, 1243]
+  - [372, 1152, 403, 1263]
+  - [204, 1152, 403, 1195]
+  - [196, 1160, 427, 1191]
+  - [428, 1172, 467, 1283]
+  - [460, 1180, 559, 1299]
+  - [400, 1192, 563, 1275]
+  - [264, 1192, 563, 1219]
+  - [304, 1220, 591, 1235]
+  - [400, 1248, 611, 1275]
+  - [412, 1248, 607, 1279]
+  - [432, 1244, 603, 1287]
+  - [440, 1240, 599, 1291]
+  - [452, 1224, 595, 1295]
+  - [460, 1220, 591, 1299]
+  - [472, 1220, 587, 1303]
+  - [480, 1212, 575, 1307]
+  - [584, 1220, 587, 1307]
+  - [532, 1208, 571, 1327]
+  # "WAIT!" nella mela (solo le lettere, il contorno della mela non è toccato)
+  - [249, 1250, 273, 1261]
+  - [259, 1263, 294, 1304]
+  - [265, 1308, 293, 1324]
+  - [258, 1323, 288, 1354]
+  - [247, 1350, 270, 1366]
+  # riquadro con l'occhio: THOU ART / WHOLE, lettera per lettera
+  - [104, 2420, 583, 2475]
+  - [96, 2468, 335, 2479]
+  - [388, 2476, 615, 2479]
+  - [96, 2468, 323, 2483]
+  - [404, 2476, 615, 2483]
+  - [96, 2468, 319, 2487]
+  - [432, 2476, 615, 2499]
+  - [92, 2488, 311, 2491]
+  - [92, 2488, 303, 2495]
+  - [92, 2488, 295, 2499]
+  - [92, 2488, 291, 2503]
+  - [460, 2476, 615, 2523]
+  - [92, 2488, 287, 2507]
+  - [92, 2488, 283, 2511]
+  - [92, 2488, 279, 2515]
+  - [92, 2488, 275, 2523]
+  - [92, 2488, 271, 2527]
+  - [92, 2488, 267, 2535]
+  - [92, 2488, 263, 2539]
+  - [92, 2488, 259, 2547]
+  - [92, 2488, 255, 2555]
+  - [92, 2488, 251, 2567]
+  - [92, 2488, 247, 2575]
+  - [92, 2488, 243, 2599]
+  - [124, 2404, 239, 2839]
+  - [124, 2708, 275, 2839]
+  - [468, 2720, 603, 2783]
+  - [460, 2724, 603, 2783]
+  - [456, 2728, 603, 2783]
+  - [448, 2732, 603, 2783]
+  - [124, 2740, 311, 2839]
+  - [436, 2740, 603, 2783]
+  - [124, 2748, 323, 2839]
+  - [120, 2752, 335, 2835]
+  - [340, 2752, 343, 2835]
+  - [104, 2756, 603, 2783]
+  - [104, 2756, 599, 2791]
+  - [108, 2756, 595, 2795]
+  - [108, 2756, 591, 2803]
+  - [112, 2756, 587, 2811]
+
+testi:
+  - font: OldStandard-Regular.ttf
+    corpo: 47
+    allinea: centro
+    rotazione: -38.1
+    x: 1157.7
+    y: 1600.0
+    righe: ["IL PORTATORE DI QUESTA TESSERA"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 47
+    allinea: centro
+    rotazione: -38.1
+    x: 1118.8
+    y: 1649.6
+    righe: ["È UN AUTENTICO E AUTORIZZATO"]
+
+  - font: UnifrakturMaguntia-Book.ttf
+    corpo: 84
+    grassetto: 1
+    allinea: centro
+    rotazione: -38.1
+    x: 1043.6
+    y: 1745.6
+    righe: ["PAPA"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 49
+    allinea: centro
+    rotazione: -38.1
+    x: 994.2
+    y: 1808.5
+    righe: ["Pertanto, trattatelo bene"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 47
+    allinea: centro
+    rotazione: -38.1
+    x: 946.1
+    y: 1869.9
+    righe: ["VALIDA IN PERPETUO"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 44
+    adatta: 1160
+    allinea: centro
+    rotazione: -38.1
+    x: 900.4
+    y: 1928.1
+    righe: ["Autenticata e autorizzata dalla CASA degli APOSTOLI di ERIS"]
+
+  - font: Oswald-VF.ttf
+    corpo: 31
+    peso: 300
+    allinea: centro
+    rotazione: -38.1
+    x: 857.2
+    y: 1983.2
+    righe: ["Ogni uomo, donna e bambino su questa Terra è un Papa autentico e autorizzato."]
+
+  - font: Oswald-VF.ttf
+    corpo: 31
+    peso: 300
+    allinea: centro
+    rotazione: -38.1
+    x: 832.5
+    y: 2014.7
+    righe: ["Riproduzione e distribuzione libera • Tempio Principale P.O.E.E., San Francisco"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 53
+    grassetto: 1
+    scala_x: 0.8
+    rotazione: -38.1
+    x: 361.7
+    y: 1826.0
+    righe: ["UN="]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 53
+    grassetto: 1
+    scala_x: 0.9
+    rotazione: -38.1
+    x: 417.5
+    y: 1869.8
+    righe: ["PAPA= È QUALCUNO CHE NON È SOGGETTO"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 53
+    grassetto: 1
+    scala_x: 0.8
+    adatta: 860
+    rotazione: 51.9
+    x: 1301.7
+    y: 2507.1
+    righe: ["ALL'AUTORITÀ DELLE AUTORITÀ  *"]
+  # cartiglio capovolto nel collage
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 56
+    grassetto: 2
+    scala_x: 0.75
+    rotazione: -202.5
+    x: 593.6
+    y: 1288.3
+    righe: ["CHE CORAGGIO! CHE"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 56
+    grassetto: 2
+    scala_x: 0.8
+    rotazione: -202.5
+    x: 582.3
+    y: 1237.1
+    righe: ["FORZA D'ANIMO!"]
+
+  # "WAIT!" nella mela, si legge dal basso verso l'alto
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 30
+    grassetto: 1
+    rotazione: 100
+    adatta: 108
+    x: 288
+    y: 1366
+    righe: ["ASPETTA!"]
+
+  # riquadro con l'occhio: TU SEI / INTEGRO, una lettera per volta lungo i due archi
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 2
+    allinea: centro
+    rotazione: 58.8
+    x: 234.2
+    y: 2550.0
+    righe: ["T"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 2
+    allinea: centro
+    rotazione: 41.2
+    x: 265.5
+    y: 2512.7
+    righe: ["U"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 2
+    allinea: centro
+    rotazione: 6.2
+    x: 353.6
+    y: 2474.0
+    righe: ["S"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 2
+    allinea: centro
+    rotazione: -11.2
+    x: 402.2
+    y: 2476.1
+    righe: ["E"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 78
+    grassetto: 2
+    allinea: centro
+    rotazione: -28.8
+    x: 448.0
+    y: 2492.7
+    righe: ["I"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: -48.0
+    x: 222.9
+    y: 2749.5
+    righe: ["I"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: -32.0
+    x: 265.1
+    y: 2784.9
+    righe: ["N"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: -16.0
+    x: 315.4
+    y: 2807.3
+    righe: ["T"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: 0.0
+    x: 370.0
+    y: 2815.0
+    righe: ["E"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: 16.0
+    x: 424.6
+    y: 2807.3
+    righe: ["G"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: 32.0
+    x: 474.9
+    y: 2784.9
+    righe: ["R"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 74
+    grassetto: 2
+    allinea: centro
+    rotazione: 48.0
+    x: 517.1
+    y: 2749.5
+    righe: ["O"]

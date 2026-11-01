@@ -1,0 +1,159 @@
+# Tavola p069 (originale 00054) — I Ciotoli di Starbuck
+# Pagina del vecchio sito: 61 (testo/it/61.md)
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere): "Which / Is / Real?" -> "Quale / È / Reale?" (sul vecchio sito
+#   restava l'inglese con la nota "*Quale è reale?", qui usata come traduzione).
+# DIFFERENZE: la nuvoletta "HEMLOCK? I NEVER TOUCH THE STUFF!" usa la nota del vecchio sito
+#   ("CICUTA? NON TOCCO QUELLA ROBA!"). "DAVVERO" in maiuscolo come nel testo, sottolineato come
+#   "really" nell'originale. Primo paragrafo alzato di 100 px (una riga in più).
+# REFUSI CORRETTI: "direbbero di si" -> "di sì"; "è un arte" -> "è un'arte".
+# Paragrafi in alto con scala_x 0.95 (restano nel margine destro), regola 7 con scala_x 0.86.
+# NdT ESCLUSE: le due note "*Quale è reale?" e "**CICUTA? NON TOCCO QUELLA ROBA!" (diventano le scritte).
+# FONT: dattiloscritto IBM Plex Mono; "Quale è Reale?" Anton; didascalia del Capitano Jost Bold
+#   (geometrico tipo Futura/Kabel); nuvoletta Architects Daughter ispessito; didascalia del microscopio e regola 7
+#   Old Standard (tondo tipografico tipo Century).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 69
+
+cancella:
+  - [118, 205, 700, 290]       # titolo con i due filetti
+  - [1440, 140, 1760, 600]     # Which / Is / Real?
+  - [85, 790, 1780, 1130]      # primo paragrafo (i ciotoli finiscono a y 760)
+  - [85, 1180, 1780, 1495]     # secondo paragrafo
+  - [125, 1570, 545, 1895]     # Can you chart the COURSE...
+  - [750, 1540, 1780, 1905]    # The real reality...
+  - [500, 1960, 1340, 2030]    # Convictions cause convicts.
+  - [105, 2232, 830, 2345]     # HEMLOCK ?
+  - [115, 2365, 835, 2452]     # I NEVER TOUCH
+  - [140, 2453, 690, 2522]     # THE STUFF!
+  - [875, 2598, 1468, 2712]    # didascalia microscopio, righe 1-3
+  - [875, 2712, 1400, 2858]    # righe 4-7
+  - [120, 2858, 1785, 2935]    # 7. Never write in pencil...
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 57
+    scala_x: 0.92
+    x: 127
+    y: 264
+    righe: ["I CIOTOLI DI STARBUCK"]
+
+  - font: Anton-Regular.ttf
+    corpo: 131
+    scala_x: 0.92
+    allinea: centro
+    interlinea: 157
+    x: 1605
+    y: 264
+    righe: ["Quale", "È", "Reale?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 127
+    y: 832
+    righe:
+      - "DAVVERO questi 5 ciotoli formano un pentagono?"
+      - "I prevenuti dall'Illusione Aneristica direbbero di sì."
+      - "Coloro che sono prevenuti dall'Illusione Eristica"
+      - "direbbero di no."
+      - "Collegali con tratti incrociati e formano una stella."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.95
+    x: 127
+    y: 1175
+    righe:
+      - "Una Mente Illuminata potrà vedere entrambe le cose,"
+      - "eppure non insisterà a sostenere che una delle due sia"
+      - "vera o che nessuna di esse sia vera. Stelle, pentagoni"
+      - "e disordine sono tutte sue creazioni e può fare con"
+      - "esse ciò che desidera. Ciò è vero persino per il"
+      - "concetto del numero 5."
+
+  - font: Jost-Bold.ttf
+    corpo: 46
+    interlinea: 52
+    allinea: centro
+    x: 315
+    y: 1607
+    righe:
+      - "Puoi disegnare"
+      - "la ROTTA"
+      - "per raggiungere"
+      - "la FIDANZATA"
+      - "del Capitano"
+      - "Valentino?"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 761
+    y: 1594
+    righe:
+      - "La realtà reale è lì, ma tutto"
+      - "ciò che SAI riguardo \"essa\" è"
+      - "nella tua mente e tua è la"
+      - "possibilità di fare con essa ciò"
+      - "che vuoi. La concettualizzazione"
+      - "è un'arte, e L'ARTISTA SEI TU."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    allinea: centro
+    x: 921
+    y: 2016
+    righe: ["Detenere la verità genera detenuti."]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 130
+    grassetto: 3
+    adatta: 560
+    x: 158
+    y: 2334
+    righe: ["CICUTA?"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 80
+    grassetto: 3
+    x: 128
+    y: 2425
+    righe: ["NON TOCCO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 80
+    grassetto: 3
+    adatta: 540
+    x: 152
+    y: 2514
+    righe: ["QUELLA ROBA!"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 31
+    grassetto: 1
+    scala_x: 0.95
+    interlinea: 36.5
+    x: 880
+    y: 2630
+    righe:
+      - "Quando avevo 8 o 9 anni, comprai una"
+      - "rivista pornografica. Potete immaginare"
+      - "la mia delusione quando esaminando le"
+      - "foto al microscopio, mi accorsi che"
+      - "tutto ciò che potevo vedere erano"
+      - "puntini."
+
+  - font: OldStandard-Bold.ttf
+    corpo: 53
+    grassetto: 1
+    scala_x: 0.86
+    x: 136
+    y: 2914
+    righe: ["7.  Non scrivere mai a matita a meno che non ci si trovi in treno o a letto, malati."]
+
+linee:
+  - [125, 214, 790, 217]       # filetto sopra il titolo
+  - [125, 278, 790, 281]       # filetto sotto il titolo
+  - [127, 840, 325, 844]       # sottolineatura di DAVVERO

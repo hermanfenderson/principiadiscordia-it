@@ -1,0 +1,101 @@
+# Tavola p010 — Introduzione di Robert Anton Wilson (2/3)
+# Pagina del vecchio sito: 2 (testo/it/02.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "Perchè nò?" -> "Perchè no?"; "legenda" -> "leggenda"; "la mitologia e e le" -> "la mitologia e le";
+#   "in cui dicevi" -> "in cui dicevo"; "trasmetto" -> "trasmesso"; "d'Acquitania" -> "d'Aquitania"
+# NdT ESCLUSE: nessuna
+# FONT: composizione tipografica (Helvetica): FreeSans di sistema (GNU FreeFont) con (ora copiato in strumenti/font),
+#   nessun grottesco in strumenti/font. Testo giustificato: una voce per riga (spazi capillari U+200A,
+#   ultima parola allineata a destra sul margine), sillabazione italiana.
+# Coordinate in pixel sulla scansione a 360 dpi (1764 x 2842).
+
+pagina_pdf: 10
+
+stili:
+  tondo: &tondo {font: FreeSans.ttf, corpo: 56, scala_x: 0.99, grassetto: 0.5}
+  corsivo: &corsivo {font: FreeSansOblique.ttf, corpo: 56, scala_x: 0.99, grassetto: 0.5}
+
+cancella:
+  - [130, 110, 1640, 2640]     # tutto il testo
+
+testi:
+  - {<<: *tondo, x: 158, y: 173, righe: ["da \u200apersone \u200aincuriosite dalle \u200acitazioni \u200atratte \u200adai"]}
+  - {<<: *corsivo, x: 1283, y: 173, righe: ["Principia"]}
+  - {<<: *tondo, x: 1597, y: 173, allinea: destra, righe: ["con"]}
+  - {<<: *tondo, x: 158, y: 238, righe: ["cui \u200a\u200aerano \u200adecorati \u200a\u200ai \u200acapoversi \u200a\u200adi \u200adiversi \u200a\u200acapitoli. \u200aMolti,"]}
+  - {<<: *tondo, x: 1597, y: 238, allinea: destra, righe: ["che"]}
+  - {<<: *tondo, x: 158, y: 302, righe: ["avevano \u200agià \u200asentito parlare \u200adei"]}
+  - {<<: *corsivo, x: 919, y: 302, righe: ["Principia"]}
+  - {<<: *tondo, x: 1146, y: 302, righe: ["o \u200avisto \u200adelle"]}
+  - {<<: *tondo, x: 1597, y: 302, allinea: destra, righe: ["copie,"]}
+  - {<<: *tondo, x: 158, y: 367, righe: ["chiedevano \u200ase \u200al'avessimo \u200ascritto \u200aio \u200ae \u200aShea, \u200ao \u200ase \u200ace \u200ane"]}
+  - {<<: *tondo, x: 1597, y: 367, allinea: destra, righe: ["fos-"]}
+  - {<<: *tondo, x: 158, y: 431, righe: ["sero \u200acopie \u200a\u200adisponibili. \u200aAltri \u200a\u200ascrivevano \u200aper \u200achiedere \u200a\u200ase"]}
+  - {<<: *tondo, x: 1597, y: 431, allinea: destra, righe: ["fos-"]}
+  - {<<: *tondo, x: 158, y: 496, righe: ["sero \u200a\u200areali, \u200a\u200ao \u200ase \u200a\u200afossero \u200a\u200asemplicemente \u200a\u200aqualcosa \u200a\u200ache"]}
+  - {<<: *tondo, x: 1597, y: 496, allinea: destra, righe: ["ave-"]}
+  - {<<: *tondo, x: 158, y: 561, righe: ["vamo \u200a\u200a\u200a\u200ainventato \u200a\u200a\u200a\u200acome \u200a\u200a\u200a\u200aH.P. \u200a\u200a\u200a\u200aLovecraft \u200a\u200a\u200a\u200aaveva \u200a\u200a\u200a\u200afatto \u200a\u200a\u200a\u200aper"]}
+  - {<<: *tondo, x: 1597, y: 561, allinea: destra, righe: ["il"]}
+  - {<<: *corsivo, x: 158, y: 625, righe: ["Necronomicon"]}
+  - {<<: *tondo, x: 510, y: 625, righe: [". \u200a\u200a\u200a\u200aRispondevamo \u200a\u200a\u200a\u200asecondo \u200a\u200a\u200al'umore \u200a\u200a\u200a\u200adel"]}
+  - {<<: *tondo, x: 1597, y: 625, allinea: destra, righe: ["mo-"]}
+  - {<<: *tondo, x: 158, y: 690, righe: ["mento, alle volte dicendo la verità, \u200aalle volte spargendo le"]}
+  - {<<: *tondo, x: 1597, y: 690, allinea: destra, righe: ["più"]}
+  - {<<: *tondo, x: 158, y: 754, righe: ["ignobili bugie e panzane che potessimo escogitare fnord."]}
+  - {<<: *tondo, x: 216, y: 891, righe: ["Perchè \u200ano? \u200asentivamo che \u200aquesto \u200alibro \u200aera un \u200avero"]}
+  - {<<: *tondo, x: 1597, y: 891, allinea: destra, righe: ["Clas-"]}
+  - {<<: *tondo, x: 158, y: 956, righe: ["sico"]}
+  - {<<: *corsivo, x: 288, y: 956, righe: ["(literatus \u200a\u200a\u200a\u200aimmortalis)"]}
+  - {<<: *tondo, x: 826, y: 956, righe: ["e \u200a\u200a\u200a\u200ache, \u200a\u200a\u200apoichè \u200a\u200a\u200a\u200ala \u200a\u200a\u200a\u200apresunta"]}
+  - {<<: *tondo, x: 1597, y: 956, allinea: destra, righe: ["in-"]}
+  - {<<: *tondo, x: 158, y: 1020, righe: ["telligentsia non \u200al'aveva ancora scoperto, il \u200amodo migliore"]}
+  - {<<: *tondo, x: 1597, y: 1020, allinea: destra, righe: ["per"]}
+  - {<<: *tondo, x: 158, y: 1085, righe: ["mantenere \u200a\u200ala \u200asua \u200a\u200aleggenda \u200a\u200aviva \u200aera \u200a\u200adi \u200a\u200aincoraggiare \u200a\u200ala"]}
+  - {<<: *tondo, x: 1597, y: 1085, allinea: destra, righe: ["mi-"]}
+  - {<<: *tondo, x: 158, y: 1149, righe: ["tologia \u200a\u200ae \u200a\u200ale \u200a\u200a\u200acontroversie \u200a\u200asu \u200a\u200adi \u200a\u200aesso. \u200a\u200aInsistentemente,"]}
+  - {<<: *tondo, x: 1597, y: 1149, allinea: destra, righe: ["per-"]}
+  - {<<: *tondo, x: 158, y: 1214, righe: ["sone mi scrissero \u200aper chiedermi se lo \u200aavesse scritto"]}
+  - {<<: *tondo, x: 1597, y: 1214, allinea: destra, righe: ["Timothy"]}
+  - {<<: *tondo, x: 158, y: 1279, righe: ["Leary, \u200acosa \u200a\u200ache \u200aho \u200aquasi \u200asempre \u200a\u200aconfermato, \u200atranne \u200ail"]}
+  - {<<: *tondo, x: 1597, y: 1279, allinea: destra, righe: ["ve-"]}
+  - {<<: *tondo, x: 158, y: 1343, righe: ["nerdì, quando \u200asono più stravagante, in \u200acui dicevo che mi"]}
+  - {<<: *tondo, x: 1597, y: 1343, allinea: destra, righe: ["era"]}
+  - {<<: *tondo, x: 158, y: 1408, righe: ["stato \u200atrasmesso \u200ada \u200aun'intelligenza \u200acanina \u200a-- \u200avasta, \u200afredda"]}
+  - {<<: *tondo, x: 1597, y: 1408, allinea: destra, righe: ["e"]}
+  - {<<: *tondo, x: 158, y: 1472, righe: ["distaccata -- dalla Stella del Cane, Sirio."]}
+  - {<<: *tondo, x: 216, y: 1548, righe: ["Ora, finalmente, la verità può essere raccontata."]}
+  - {<<: *tondo, x: 216, y: 1624, righe: ["In \u200arealtà, \u200ai"]}
+  - {<<: *corsivo, x: 476, y: 1624, righe: ["Principia"]}
+  - {<<: *tondo, x: 703, y: 1624, righe: ["sono \u200ail \u200alavoro di \u200aun \u200aantropologo"]}
+  - {<<: *tondo, x: 1597, y: 1624, allinea: destra, righe: ["viag-"]}
+  - {<<: *tondo, x: 158, y: 1688, righe: ["giatore \u200a\u200anel \u200a\u200atempo \u200a\u200a\u200adel \u200a\u200aventitreesimo \u200a\u200asecolo. \u200a\u200aEgli \u200a\u200a\u200asi \u200a\u200asta"]}
+  - {<<: *tondo, x: 1597, y: 1688, allinea: destra, righe: ["fa-"]}
+  - {<<: *tondo, x: 158, y: 1753, righe: ["cendo passare in questo momento, per lo specialista di"]}
+  - {<<: *tondo, x: 1597, y: 1753, allinea: destra, righe: ["com-"]}
+  - {<<: *tondo, x: 158, y: 1817, righe: ["puter, \u200abon vivant \u200ae \u200afilosofo \u200achiamato Gregory \u200aHill. \u200aHa"]}
+  - {<<: *tondo, x: 1597, y: 1817, allinea: destra, righe: ["anche"]}
+  - {<<: *tondo, x: 158, y: 1882, righe: ["tradotto \u200a\u200acon \u200a\u200aun \u200a\u200aaltro \u200a\u200apseudonimo \u200a\u200a\u200adiversi \u200a\u200avolumi \u200a\u200adi"]}
+  - {<<: *tondo, x: 1597, y: 1882, allinea: destra, righe: ["poesia"]}
+  - {<<: *tondo, x: 158, y: 1947, righe: ["erotica \u200a\u200aetrusca \u200a\u200a\u200ae \u200a\u200anel \u200a\u200a\u200adiciottesimo \u200a\u200asecolo \u200a\u200aera \u200a\u200a\u200ail"]}
+  - {<<: *tondo, x: 1597, y: 1947, allinea: destra, righe: ["misterioso"]}
+  - {<<: *tondo, x: 158, y: 2011, righe: ["Uomo \u200ain \u200a\u200aNero \u200ache \u200adiede \u200aa \u200a\u200aJefferson \u200ail \u200adisegno \u200adel"]}
+  - {<<: *tondo, x: 1597, y: 2011, allinea: destra, righe: ["Grande"]}
+  - {<<: *tondo, x: 158, y: 2076, righe: ["Sigillo degli Stati Uniti."]}
+  - {<<: *tondo, x: 216, y: 2151, righe: ["Posso \u200a\u200adire \u200ada \u200a\u200afonte \u200acerta \u200a\u200ache \u200aegli \u200a\u200aè \u200a\u200auno \u200adei \u200a\u200apiù"]}
+  - {<<: *tondo, x: 1597, y: 2151, allinea: destra, righe: ["esperti"]}
+  - {<<: *tondo, x: 158, y: 2216, righe: ["viaggiatori del tempo \u200adella galassia e che \u200aha visitato la"]}
+  - {<<: *tondo, x: 1597, y: 2216, allinea: destra, righe: ["Terra"]}
+  - {<<: *tondo, x: 158, y: 2281, righe: ["molte \u200avolte in \u200apassato, \u200autilizzando identità \u200adi \u200acopertura"]}
+  - {<<: *tondo, x: 1597, y: 2281, allinea: destra, righe: ["quali"]}
+  - {<<: *tondo, x: 158, y: 2345, righe: ["Zenone \u200adi \u200a\u200aElea, \u200aNorton \u200a\u200al'Imperatore, \u200ail \u200aConte \u200a\u200adi"]}
+  - {<<: *tondo, x: 1597, y: 2345, allinea: destra, righe: ["Cagliostro,"]}
+  - {<<: *tondo, x: 158, y: 2410, righe: ["Guglielmo \u200a\u200a\u200a\u200ad'Aquitania, \u200a\u200a\u200a\u200aecc... \u200a\u200a\u200aSe \u200a\u200a\u200a\u200aaffronto \u200a\u200a\u200a\u200acon \u200a\u200a\u200a\u200alui"]}
+  - {<<: *tondo, x: 1597, y: 2410, allinea: destra, righe: ["questo"]}
+  - {<<: *tondo, x: 158, y: 2474, righe: ["tema, diventa molto evasivo e cerca di convincermi di"]}
+  - {<<: *tondo, x: 1597, y: 2474, allinea: destra, righe: ["essere"]}
+  - {<<: *tondo, x: 158, y: 2539, righe: ["semplicemente un \u200aaltro terrestre \u200adel ventesimo \u200asecolo e"]}
+  - {<<: *tondo, x: 1597, y: 2539, allinea: destra, righe: ["che"]}
+  - {<<: *tondo, x: 158, y: 2604, righe: ["le mie \u200aidee sulla sua origine \u200aextraterrestre ed"]}
+  - {<<: *tondo, x: 1597, y: 2604, allinea: destra, righe: ["extratemporale"]}

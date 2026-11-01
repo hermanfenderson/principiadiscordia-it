@@ -1,0 +1,214 @@
+# Tavola p049 (originale 00034) — Calendario perpetuo
+# Pagina del vecchio sito: 41 (testo/it/41.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (sigle dei giorni DG BD PD GG AC e stagioni Bcz, Vdt come nel testo di Mauro)
+# DIFFERENZE: i numeri della tabella sono quelli dell'originale, non toccati. Cambiano solo le etichette dei mesi
+#   (Jan->Gen, May->Mag, Jun->Giu, Jul->Lug, Aug->Ago, Sep->Set, Oct->Ott, Dec->Dic; Feb, Mar, Apr, Nov restano),
+#   le sigle dei giorni e le stagioni Bcy->Bcz, Afm->Vdt (Chs, Dsc, Cfn restano). Il testo di Mauro omette
+#   "Next" ("[Giorno di San Tubo nel ...]"): mantenuto. La nota sui giorni della settimana è rimpaginata su righe
+#   più corte per non invadere il Sacro Documento delle Rane.
+# REFUSI CORRETTI: "(1+4=5) a viene inserito" -> "(1+4=5) e viene inserito"; "nel 3166" -> "nel 3138" (l'originale
+#   dice 3138, coerente con 1970 = 3136)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 49
+
+cancella:
+  - [340, 160, 1480, 1310]     # tutta l'intestazione (titolo, stagioni, giorni, feste, San Tubo)
+  - [1490, 165, 1670, 1000]    # Sacro Documento delle Rane, verticale
+  - [532, 1320, 800, 1355]     # sigle SM BT PD PP SO, sinistra (i filetti restano)
+  - [1360, 1318, 1626, 1353]   # sigle SM BT PD PP SO, destra
+  - [117, 1365, 180, 1396]     # Jan
+  - [113, 2235, 176, 2274]     # May
+  - [116, 2486, 177, 2521]     # Jun
+  - [949, 1361, 1010, 1393]    # Jul
+  - [949, 1581, 1009, 1622]    # Aug
+  - [947, 1801, 1010, 1840]    # Sep
+  - [948, 2014, 1009, 2049]    # Oct
+  - [950, 2450, 1009, 2484]    # Dec
+  - [1630, 1580, 1690, 1620]   # Bcy
+  - [1626, 2121, 1690, 2160]   # Afm
+  - [945, 2661, 1700, 2703]    # [1970 = 3136] [Next St. Tibs Day in 3138]
+
+testi:
+  - font: Oswald-VF.ttf                    # titolo sottolineato
+    corpo: 46
+    peso: 520
+    adatta: 1120
+    x: 349
+    y: 205
+    righe: ["CALENDARIO PERPETUO: CONVERSIONE DI DATE DAL GREGORIANO AL POEE"]
+    sottolineato: true
+    distanza_sottolineatura: 4
+    spessore_sottolineatura: 4
+
+  - font: IBMPlexMono-Medium.ttf           # intestazioni
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    x: 352
+    y: 310
+    righe: ["STAGIONI"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    interlinea: 36
+    x: 426
+    y: 365
+    righe:
+      - "1) Chaos - Apostolo Patrono Hung Mung"
+      - "2) Discordia - Apostolo Patrono Dr. Van Van Mojo"
+      - "3) Confusione - Apostolo Patrono Sri Syadasti"
+      - "4) Burocrazia - Apostolo Patrono Zarathud"
+      - "5) Le Conseguenze - Apostolo Patrono Malaclypse il Vecchio"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    x: 352
+    y: 582
+    righe: ["GIORNI DELLA SETTIMANA*"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    interlinea: 36
+    x: 426
+    y: 635
+    righe: ["1) Dolcegiorno", "2) Bottodì", "3) Pungendì", "4) Gratta-gratta", "5) Arancia Calante"]
+
+  - font: CourierPrime-Italic.ttf          # nota sui giorni
+    corpo: 29
+    grassetto: 1
+    interlinea: 36
+    x: 1024
+    y: 635
+    righe:
+      - "*I GIORNI DELLA SETTIMANA"
+      - "prendono i loro nomi dai"
+      - "Cinque Elementi di Base:"
+      - "DOLCE, BOTTO, PUNGENTE,"
+      - "PIZZICORE e ARANCIO."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    x: 351
+    y: 850
+    righe: ["FESTIVITA'"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    x: 350
+    y: 912
+    righe: ["A] FESTE DEGLI APOSTOLI"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    x: 1038
+    y: 912
+    righe: ["B] FESTE STAGIONALI"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    interlinea: 36
+    x: 407
+    y: 960
+    righe: ["1) Mungdì", "2) Mojodì", "3) Syadì", "4) Zaradì", "5) Maladì"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    interlinea: 36
+    x: 1093
+    y: 961
+    righe: ["1) Chaoflux", "2) Disconozio", "3) Confustizio", "4) Buronozio", "5) Afflistizio"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 31
+    grassetto: 1
+    interlinea: 37
+    x: 347
+    y: 1139
+    righe: ["Cadono il quinto", "giorno della Stagione"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 31
+    grassetto: 1
+    interlinea: 37
+    x: 1035
+    y: 1139
+    righe: ["Cadono il cinquantesimo", "giorno della Stagione"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.85
+    interlinea: 33
+    x: 350
+    y: 1234
+    righe:
+      - "C] GIORNO DI SAN TUBO - occorre ogni 4 anni (1+4=5) e viene"
+      - "    inserito tra il 59mo e il 60mo giorno della Stagione"
+      - "    del Chaos"
+
+  - font: IBMPlexMono-Regular.ttf          # Sacro Documento delle Rane, verticale
+    corpo: 36
+    grassetto: 1
+    scala_x: 0.75
+    interlinea: 42
+    rotazione: 90
+    x: 1536
+    y: 984
+    righe:
+      - "SACRO DOCUMENTO DELLE RANE (antico poema Erisiano):"
+      - "Settantatre dì han"
+      - "Chaos, Discordia, Confusione, Burocrazia e"
+      - "                                 Conseguenze"
+
+  # sigle dei giorni sopra le colonne
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 557, y: 1353, righe: ["DG"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 611, y: 1353, righe: ["BD"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 666, y: 1353, righe: ["PD"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 719, y: 1353, righe: ["GG"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 773, y: 1353, righe: ["AC"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 1386, y: 1351, righe: ["DG"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 1440, y: 1351, righe: ["BD"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 1493, y: 1351, righe: ["PD"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 1547, y: 1351, righe: ["GG"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 1601, y: 1351, righe: ["AC"]}
+
+  # mesi (corsivi e tondi come nell'originale)
+  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 120, y: 1392, righe: ["Gen"]}
+  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 116, y: 2263, righe: ["Mag"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 38, grassetto: 1, scala_x: 0.8, x: 119, y: 2516, righe: ["Giu"]}
+  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 952, y: 1389, righe: ["Lug"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 38, grassetto: 1, scala_x: 0.8, x: 952, y: 1611, righe: ["Ago"]}
+  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 950, y: 1827, righe: ["Set"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 38, grassetto: 1, scala_x: 0.8, x: 951, y: 2045, righe: ["Ott"]}
+  - {font: IBMPlexMono-Medium.ttf, corpo: 38, grassetto: 1, scala_x: 0.8, x: 953, y: 2480, righe: ["Dic"]}
+
+  # stagioni a destra della tabella
+  - {font: IBMPlexMono-Medium.ttf, corpo: 38, grassetto: 1, scala_x: 0.8, x: 1634, y: 1610, righe: ["Bcz"]}
+  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 1630, y: 2149, righe: ["Csg"]}
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 34
+    grassetto: 1
+    scala_x: 0.88
+    x: 950
+    y: 2693
+    righe: ["[1970 = 3136] [Giorno di San Tubo nel 3138]"]

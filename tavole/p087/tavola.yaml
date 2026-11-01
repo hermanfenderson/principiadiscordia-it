@@ -1,0 +1,226 @@
+# Tavola p087 (originale 00072) — Lettera degli Illuminati (prima pagina)
+# Pagina del vecchio sito: 79 (testo/it/79.md); la lettera prosegue in p088
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere; sul vecchio sito restava la carta intestata inglese):
+#   "HERE IS A LETTER FROM A.I.S.B. TO POEE:" -> "ECCO UNA LETTERA DELLA A.S.I.B. ALLA POEE:"
+#   "( ) OFFICIAL BUSINESS" -> "( ) AFFARI UFFICIALI";
+#   "(v) SURREPTITIOUS BUSINESS" -> "(v) AFFARI SURRETTIZI"
+#   "FROM:" -> "DA:"; "Ancient Illuminated Seers of Bavaria / -The Discordian Society-" ->
+#   "Antica Setta degli Illuminati di Baviera / -La Società Discordiana-";
+#   "MORE" (cartello con la mano) -> "SEGUE".
+#   Intestazione "Bavarian Illuminati" e righe di fondazione: come nella pubblicità di p085
+#   (BavarianIlluminati5.png di Mauro).
+# DIFFERENZE: le sottolineature a mano dei titoli (Al Azif, The Necronomicon, Finnegan's
+#   Wake, Nova Express, The Holy Bible, The Blue Book) non sono riprodotte. Il testo italiano
+#   è più lungo: interlinea 33 invece di 36 (il corpo resta quello della macchina da
+#   scrivere), spazio tra paragrafi ridotto.
+# REFUSI CORRETTI: "per un rilasciare un agitprop" lasciato com'è (formulazione di Mauro, da
+#   rivedere); "Pelias and Kull" -> "Pelias e Kull"; "Rothchild ," -> "Rothchild,".
+# NdT ESCLUSE: nessuna
+# FONT: lettera in Courier Prime Bold (corpo 32 stretto a passo 18); intestazione in TeX
+#   Gyre Chorus e Old Standard; firma in UnifrakturMaguntia; titolo a mano in Architects Daughter, SEGUE in Kalam Bold.
+
+pagina_pdf: 87
+
+cancella:
+  - [95, 194, 1374, 265]        # HERE IS A LETTER FROM A.I.S.B. TO POEE:
+  - [539, 428, 1264, 471]       # The World's Oldest...
+  - [575, 495, 1219, 603]       # Bavarian Illuminati
+  - [499, 638, 1300, 674]       # Founded by
+  - [479, 680, 1323, 717]       # Reformed by
+  - [996, 788, 1224, 817]       # OFFICIAL BUSINESS (parentesi restano)
+  - [1474, 780, 1747, 815]      # SURREPTITIOUS BUSINESS (parentesi e spunta restano)
+  - [156, 869, 268, 908]        # FROM:
+  - [185, 940, 1665, 2548]      # corpo della lettera
+  - [687, 2564, 1187, 2594]     # Ancient Illuminated Seers of Bavaria
+  - [730, 2602, 1143, 2641]     # The Discordian Society
+  # MORE, dentro il cartello
+  - [1397, 2696, 1400, 2705]
+  - [1401, 2667, 1404, 2713]
+  - [1405, 2667, 1408, 2713]
+  - [1409, 2674, 1412, 2695]
+  - [1413, 2681, 1416, 2701]
+  - [1417, 2682, 1420, 2702]
+  - [1421, 2674, 1424, 2698]
+  - [1425, 2665, 1428, 2689]
+  - [1429, 2661, 1432, 2689]
+  - [1433, 2661, 1436, 2707]
+  - [1437, 2667, 1440, 2710]
+  - [1441, 2692, 1444, 2709]
+  - [1445, 2682, 1448, 2705]
+  - [1449, 2673, 1452, 2708]
+  - [1453, 2668, 1456, 2708]
+  - [1457, 2665, 1460, 2710]
+  - [1461, 2664, 1464, 2711]
+  - [1465, 2664, 1468, 2710]
+  - [1469, 2666, 1472, 2709]
+  - [1473, 2669, 1476, 2706]
+  - [1477, 2673, 1480, 2701]
+  - [1481, 2672, 1484, 2692]
+  - [1485, 2665, 1488, 2711]
+  - [1489, 2661, 1492, 2711]
+  - [1493, 2660, 1496, 2696]
+  - [1497, 2660, 1500, 2699]
+  - [1501, 2660, 1504, 2702]
+  - [1505, 2661, 1508, 2705]
+  - [1509, 2665, 1512, 2709]
+  - [1513, 2696, 1516, 2710]
+  - [1517, 2669, 1520, 2707]
+  - [1521, 2661, 1524, 2700]
+  - [1525, 2660, 1528, 2706]
+  - [1529, 2661, 1532, 2707]
+  - [1533, 2661, 1536, 2707]
+  - [1537, 2661, 1540, 2707]
+  - [1541, 2660, 1544, 2708]
+  - [1545, 2660, 1548, 2709]
+  - [1549, 2660, 1552, 2709]
+  - [1553, 2662, 1556, 2669]
+
+testi:
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 84
+    grassetto: 3
+    adatta: 1275
+    x: 98
+    y: 262
+    righe: ["ECCO UNA LETTERA DELLA A.S.I.B. ALLA POEE:"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 34
+    adatta: 720
+    allinea: centro
+    x: 902
+    y: 460
+    righe: ["La Cospirazione più Antica e di Maggior Successo del Mondo"]
+  - font: texgyrechorus-mediumitalic.otf
+    corpo: 130
+    adatta: 640
+    allinea: centro
+    x: 898
+    y: 585
+    righe: ["Illuminati di Baviera"]
+  - font: OldStandard-Bold.ttf
+    corpo: 34
+    interlinea: 41
+    adatta: 840
+    allinea: centro
+    x: 900
+    y: 670
+    righe:
+      - "Fondato da Hassan i Sabbah, 1090 D.C. (5090 A.L., 4850 A.M.)"
+      - "Riformato da Adam Weishaupt, 1776 D.C. (5776 A.L., 5536 A.M.)"
+  - font: OldStandard-Bold.ttf
+    corpo: 28
+    adatta: 232
+    x: 1003
+    y: 814
+    righe: ["AFFARI UFFICIALI"]
+  - font: OldStandard-Bold.ttf
+    corpo: 28
+    x: 1478
+    y: 812
+    righe: ["AFFARI SURRETTIZI"]
+  - font: OldStandard-Bold.ttf
+    corpo: 34
+    allinea: destra
+    x: 262
+    y: 901
+    righe: ["DA:"]
+
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    x: 209
+    y: 974
+    righe: ["Caro Fratello Mal-2,"]
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 33
+    x: 209
+    y: 1050
+    righe:
+      - "    In risposta alla tua richiesta per un rilasciare un agitprop da inserirsi"
+      - "nella prossima edizione dei PRINCIPIA, spero che quanto segue sia utile. E per"
+      - "favore smetti di insistere con le tue lettere incessanti!"
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 33
+    x: 209
+    y: 1173
+    righe:
+      - "    Episkopos Mordecai, Tenutario del Notariato Sojac (Keeper of the Notary"
+      - "Sojac), mi informa che sei autorizzato a rilevare che i più antichi documenti"
+      - "esistenti mostrano che eravamo già pienamente costituiti ad Atlantide, circa"
+      - "18.000 anni prima di Cristo, sotto Kull, lo schiavo delle galere che era asceso"
+      - "al Trono di Valusia. Fummo rifondati da Pelias di Koth, circa 10.000 anni prima"
+      - "di Cristo. E' probabile che sia lui a trasmettere gli insegnamenti misterici a"
+      - "Conan di Cimmeria dopo che Conan divenne re di Aquilonia. Essi furono portati"
+      - "per primi da Conan nell'emisfero occidentale e insegnati ai sacerdoti Maya"
+      - "(Conan è Quetzlcoatl). Ciò avvenne il 4 Ahua, 8 Cumhu, data Maya. Rifondati da"
+      - "Abdul Alhazred nella famigerata Al Azif, circa nell'800 d.C. (Al Azif fu"
+      - "tradotto in Latino da Olaus Wormius, 1132 d.C., come il Necronomicon.) Nel 1090"
+      - "d.C. avvenne la fondazione della Setta Ismaeliana (Hashishim) da parte di Hassan"
+      - "i Sabbah, con gli insegnamenti segreti basati su Alhazred, Pelias e Kull. La"
+      - "fondazione degli Illuminati di Baviera, da parte di Adam Weishaupt, avvenne il 1"
+      - "Maggio 1776 sulla base del lavoro degli altri. Weishaupt lo portò negli Stati"
+      - "Uniti durante il periodo in cui impersonava George Washington; ed era lui l'uomo"
+      - "in nero che fornì il disegno del Grande Sigillo a Jefferson in giardino quella"
+      - "notte. La tradizione illuminata è ora, naturalmente, nelle mani della Antica"
+      - "Setta degli Illuminati di Baviera (A.S.I.B.), con sede qui negli Stati Uniti."
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 33
+    x: 209
+    y: 1824
+    righe:
+      - "    I nostri insegnamenti non sono, non credo ci sia bisogno di ricordartelo,"
+      - "disponibili per la pubblicazione. Non credo di fare alcun danno nell'ammettere"
+      - "che essi sono nascosti nel Finnegan's Wake di Joyce, nel Nova Express di"
+      - "Burroughs, e nella traduzione di Re Giacomo della Sacra Bibbia (ma non nella"
+      - "versione Latina o Ebraica), e nel Blue Book. Per non parlare degli scritti"
+      - "privati di Ben Franklin (!), ma stiamo ancora tenendoli nascosti."
+  - font: CourierPrime-Bold.ttf
+    corpo: 32
+    scala_x: 0.94
+    interlinea: 33
+    x: 209
+    y: 2046
+    righe:
+      - "    Considerando gli accadimenti recenti--sai di ciò di cui sto parlando--si è"
+      - "deciso di raccontare un po' di più delle nostre organizzazioni di facciata. La"
+      - "tua pubblicazione è quindi tempestiva: quindi menziona che in aggiunta ai vecchi"
+      - "fronti quali i Massoni, le Banche Rothchild, e il Federal Reserve System,"
+      - "abbiamo ora un controllo rilevante sul Federal Bureau of Investigation (da"
+      - "quando Hoover è morto lo scorso anno, ma questo è ancora un segreto), gli"
+      - "Studenti per una Società Democratica, il Partito Comunista degli USA, la"
+      - "Associazione Anarchica Americana, la Camera di Commercio giovanile, la Black"
+      - "Lotus Society, il Partito Repubblicano, la Società \"John Dillinger è morto per"
+      - "Te\", e le Ragazze del Fuoco di Bivacco. E' ancora utile continuare la finzione"
+      - "sostenuta dai membri della John Birch Society, ovvero che stiamo cercando di"
+      - "dominare il mondo; in questo modo non sarà rivelato che abbiamo completato in"
+      - "genere il controllo economico e politico diverse generazioni fa e che stiamo"
+      - "giocando un pochino col mondo finché la civilizzazione avanzi abbastanza per la"
+      - "fase cinque."
+
+  - font: OldStandard-Bold.ttf
+    corpo: 34
+    allinea: centro
+    x: 937
+    y: 2592
+    righe: ["Antica Setta degli Illuminati di Baviera"]
+  - font: UnifrakturMaguntia-Book.ttf
+    corpo: 40
+    allinea: centro
+    x: 937
+    y: 2633
+    righe: ["—La Società Discordiana—"]
+
+  - font: Kalam-Bold.ttf
+    corpo: 66
+    adatta: 158
+    x: 1393
+    y: 2708
+    righe: ["SEGUE"]

@@ -1,0 +1,92 @@
+# Tavola p040 (originale 00025) — Consiglio Mondiale delle Boutique Ecclesiastiche
+# Pagina del vecchio sito: 32 (testo/it/32.md)
+# STATO: completa
+# NUOVE TRADUZIONI: fumetto "HEY! WHERE'S DA PIXS? MUMBLE, MUMBLE PISSONDIS!" -> "EHI! 'NDO STANNO 'STE FIGURE? MUMBLE, MUMBLE PISSONDIS!" (il vecchio sito usava l'immagine originale inglese)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Font: il titolo originale è un corsivo senza grazie (tipo Optima corsivo): reso con PatrickHand, il più vicino disponibile.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 40
+
+cancella:
+  - [240, 250, 1720, 400]      # titolo
+  - [240, 520, 1800, 1020]     # nota dattiloscritta
+  # fumetto: fasce che seguono il contorno interno del balloon
+  - [1109, 1572, 1331, 1580]
+  - [1082, 1580, 1351, 1588]
+  - [1065, 1588, 1368, 1596]
+  - [1050, 1596, 1383, 1604]
+  - [1037, 1604, 1392, 1612]
+  - [1027, 1612, 1399, 1620]
+  - [1017, 1620, 1406, 1628]
+  - [1009, 1628, 1411, 1636]
+  - [1001, 1636, 1415, 1644]
+  - [994, 1644, 1418, 1652]
+  - [989, 1652, 1422, 1660]
+  - [985, 1660, 1425, 1668]
+  - [982, 1668, 1428, 1676]
+  - [979, 1676, 1431, 1684]
+  - [975, 1684, 1433, 1692]
+  - [972, 1692, 1434, 1700]
+  - [970, 1700, 1435, 1708]
+  - [968, 1708, 1435, 1716]
+  - [967, 1716, 1434, 1724]
+  - [967, 1724, 1433, 1732]
+  - [965, 1732, 1430, 1740]
+  - [965, 1740, 1426, 1748]
+  - [966, 1748, 1421, 1756]
+  - [967, 1756, 1416, 1764]
+  - [968, 1764, 1412, 1772]
+  - [969, 1772, 1404, 1780]
+  - [970, 1780, 1397, 1788]
+  - [972, 1788, 1389, 1796]
+  - [974, 1796, 1380, 1804]
+  - [977, 1804, 1370, 1812]
+  - [981, 1812, 1360, 1820]
+  - [986, 1820, 1350, 1828]
+  - [990, 1828, 1339, 1836]
+  - [993, 1836, 1335, 1839]
+
+testi:
+  - font: PatrickHand-Regular.ttf          # titolo
+    corpo: 118
+    grassetto: 1
+    adatta: 1440
+    x: 970
+    y: 360
+    allinea: centro
+    righe: ["Consiglio Mondiale delle Boutique Ecclesiastiche"]
+
+  - font: CourierPrime-Italic.ttf          # intestazione in corsivo
+    corpo: 50
+    grassetto: 1
+    x: 256
+    y: 576
+    righe: ["APPUNTO AI SACERDOTI POEE:"]
+
+  - font: IBMPlexMono-Medium.ttf           # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    colonne: 46
+    x: 258
+    y: 697
+    testo: >-
+      Il Polipadre desidera ricordare a tutti gli Erisiani che il POEE non è stato concepito come un'iniziativa di natura commerciale e pertanto vi è richiesto di andarci piano nella raccolta di fondi per le Cabale POEE o nella diffusione del Verbo POEE sul mercato.
+
+  - font: Kalam-Bold.ttf                   # fumetto
+    corpo: 62
+    interlinea: 62
+    allinea: centro
+    x: 1200
+    y: 1625
+    righe: ["EHI!", "'NDO STANNO", "'STE FIGURE?"]
+
+  - font: Kalam-Bold.ttf
+    corpo: 44
+    interlinea: 46
+    allinea: centro
+    x: 1196
+    y: 1794
+    righe: ["MUMBLE, MUMBLE", "PISSONDIS!"]
