@@ -38,6 +38,8 @@ libro/              impaginazione per stampa ed ebook
 - Per rigenerare `testo/it/` dal vecchio sito: `python3 strumenti/importa_sito.py`. Serve solo una volta: dopo il primo import il testo si corregge a mano.
 - Per scaricare la scansione Loompanics: `sh sorgenti/scarica.sh`.
 
-## Diritti
+## Diritti e licenza
+
+La traduzione italiana di Herman Fenderson è distribuita con licenza [Creative Commons Attribuzione – Condividi allo stesso modo 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) (testo completo in `LICENSE`). I font in `strumenti/font/` hanno le proprie licenze (SIL Open Font License e Apache), incluse accanto ai file.
 
 Il testo originale porta la nota "Ⓚ All Rites Reversed – reprint what you like". L'edizione Loompanics è considerata di pubblico dominio negli Stati Uniti perché pubblicata senza nota di copyright e mai registrata.
