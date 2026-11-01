@@ -182,7 +182,7 @@ def main():
         yb = round(dorso / 2 - (bb[1] + bb[3]) / 2)
         ds.text((px(0.6), yb), t, font=fg, fill=INCHIOSTRO, anchor="ls",
                 stroke_width=1, stroke_fill=INCHIOSTRO)  # un filo di grassetto, come sulla prima
-        fa = font("Jost-Medium.ttf", round(dorso * 0.32))
+        fa = font("Jost-Medium.ttf", round(dorso * 0.40))  # circa 8 pt con 114 pagine
         testo(ds, (px(ALTEZZA) - px(0.6), dorso // 2), testi["dorso"]["autore"], fa, "rm")
         tela.paste(s.rotate(-90, expand=True), (x_dorso, y0))
 
@@ -204,8 +204,8 @@ def main():
     ls = round(larghezza * 0.42)
     struzzo = struzzo.resize((ls, round(struzzo.height * ls / struzzo.width)), Image.LANCZOS)
     tela.paste(tinta(struzzo, carta), (x, y))
-    ff = font("Kalam-Bold.ttf", 34)
-    blocco(d, x, y + struzzo.height + 48, q["didascalia"], ff, ls, 41)
+    ff = font("Kalam-Bold.ttf", 38)  # circa 9 pt: è scritta a mano, più piccola si legge a fatica
+    blocco(d, x, y + struzzo.height + 50, q["didascalia"], ff, ls, 46)
     blocco(d, x + ls + 40, y + 30, q["traduttore"], font("OldStandard-Italic.ttf", 41), larghezza - ls - 40, 51)
     # piede: licenza a sinistra, spazio per il codice a barre KDP a destra (2 x 1,2 pollici)
     yb = y0 + px(ALTEZZA) - margine
