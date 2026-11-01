@@ -6,6 +6,7 @@ prima:
   togli: ["NON E' POSTA SPAZZATURA"]   # scritte del frontespizio da non riportare in copertina
 
 frontespizio:   # pagina 1 del libro (strumenti/pagine_apertura.py)
+  autore: "MALACLYPSE IL GIOVANE"
   edizione: "EDIZIONE ITALIANA"
   traduzione: "traduzione, prefazione alla prefazione e note di"
   traduttore: "HERMAN FENDERSON"

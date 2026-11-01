@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Genera le tavole di apertura del libro.
 
-  tavole/frontespizio   pagina 1: titolo gotico e sottotitolo del frontespizio Loompanics,
+  tavole/frontespizio   pagina 1: autore, titolo gotico e sottotitolo del frontespizio Loompanics,
                         più "edizione italiana" e il traduttore (testi in libro/copertina.yaml)
   tavole/copertina-bn   pagina 3: la prima di copertina in bianco e nero, cioè la tavola p013
                         senza le scritte tolte in copertina e con il timbro del traduttore
@@ -38,6 +38,8 @@ def main():
                "pagina_pdf": None,
                "immagini": [{"file": "tavole/apparato/titolo-gotico.png", "x": CENTRO - 610, "y": 640}],
                "testi": [
+                   {"font": "Jost-Bold.ttf", "corpo": 60, "allinea": "centro", "x": CENTRO, "y": 500,
+                    "righe": [f["autore"]]},
                    {"font": "Jost-Bold.ttf", "corpo": 46, "allinea": "centro", "x": CENTRO, "y": 860,
                     "righe": ["OVVERO"]},
                    {"font": "MysteryQuest-Regular.ttf", "corpo": 132, "grassetto": 1, "interlinea": 140,

@@ -10,6 +10,13 @@ immagini:
   y: 640
 testi:
 - font: Jost-Bold.ttf
+  corpo: 60
+  allinea: centro
+  x: 913
+  y: 500
+  righe:
+  - MALACLYPSE IL GIOVANE
+- font: Jost-Bold.ttf
   corpo: 46
   allinea: centro
   x: 913
