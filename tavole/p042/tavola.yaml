@@ -1,0 +1,143 @@
+# Tavola p042 (originale 00027) — San Gulik / Certificato di Legionario
+# Pagina del vecchio sito: 34 (testo/it/34.md), immagine di Mauro StGulik.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (tutte le scritte dall'immagine StGulik.png di Mauro)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "In un epoca" -> "In un'epoca"; "E uno Scarafaggio" -> "È uno Scarafaggio";
+#   aggiunto il punto dopo "con diversi nomi"
+# NdT ESCLUSE: nessuna
+# Il certificato è ruotato di 90° (si legge girando la pagina in senso orario): testi con rotazione -90.
+# Font: corpo del certificato con AlfaSlabOne (l'originale è un grassetto tipo Clarendon), gotico con
+#   UnifrakturMaguntia, timbro in Oswald allargato (l'originale è un bastoni largo tipo Futura).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 42
+
+cancella:
+  # didascalia a mano dello scarafaggio (le zampe e le antenne restano)
+  - [546, 46, 677, 111]
+  - [702, 52, 1659, 254]
+  - [677, 134, 714, 168]
+  - [842, 250, 991, 321]
+  - [1344, 253, 1563, 381]
+  - [1005, 254, 1164, 321]
+  - [1176, 254, 1329, 315]
+  - [1212, 323, 1281, 378]
+  - [826, 331, 975, 400]
+  - [1002, 332, 1194, 380]
+  - [1293, 334, 1336, 378]
+  - [1571, 355, 1585, 369]
+  # certificato
+  - [1502, 1360, 1592, 2065]   # Legion of Dynamic Discord
+  - [1395, 1530, 1467, 1870]   # HARK!
+  - [1193, 620, 1299, 2790]    # Recognize that the -- Discordian Society -- doth hereby certify
+  - [909, 1446, 989, 1925]     # As A Legionnaire
+  - [723, 1681, 804, 2776]     # Glory to we children of ERIS!
+  - [522, 1810, 678, 2488]     # Presented under... (senza toccare il segno)
+  - [627, 2499, 672, 2550]
+  - [626, 2566, 658, 2646]
+  - [520, 2496, 566, 2640]
+  - [512, 2275, 554, 2309]
+  - [240, 2419, 377, 2630]     # timbro OFFICE OF MY HIGH REVERENCE...
+  - [222, 2294, 350, 2429]
+  - [195, 2058, 335, 2311]
+
+testi:
+  - font: PatrickHand-Regular.ttf
+    corpo: 66
+    interlinea: 70
+    allinea: centro
+    x: 1215
+    y: 100
+    righe: ["Questo è San Gulik, il Messaggero della Dea.", "In un'epoca diversa dalla nostra", "è stato chiamato Ermes. Molti lo", "hanno chiamato con diversi nomi.", "È uno Scarafaggio."]
+
+  - font: UnifrakturMaguntia-Book.ttf
+    corpo: 62
+    allinea: centro
+    rotazione: -90
+    x: 1533
+    y: 1711
+    righe: ["Legione della Discordia Dinamica"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 62
+    allinea: centro
+    grassetto: 2
+    rotazione: -90
+    x: 1409
+    y: 1702
+    righe: ["A S C O L T A T E !"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 60
+    rotazione: -90
+    x: 1235
+    y: 630
+    righe: ["Si riconosca che la"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 60
+    rotazione: -90
+    x: 1235
+    y: 1262
+    righe: ["- -"]
+
+  - font: UnifrakturMaguntia-Book.ttf
+    corpo: 64
+    rotazione: -90
+    x: 1235
+    y: 1345
+    righe: ["Società Discordiana"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 60
+    rotazione: -90
+    x: 1235
+    y: 1890
+    righe: ["- -"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 60
+    allinea: destra
+    rotazione: -90
+    x: 1235
+    y: 2772
+    righe: ["con il presente, certifica"]
+
+  - font: UnifrakturMaguntia-Book.ttf
+    corpo: 62
+    allinea: centro
+    rotazione: -90
+    x: 932
+    y: 1685
+    righe: ["come suo Legionario"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 62
+    allinea: destra
+    adatta: 1075
+    rotazione: -90
+    x: 740
+    y: 2766
+    righe: ["Sia lode a noi figli di ERIS!"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 54
+    interlinea: 54
+    adatta: 830
+    rotazione: -90
+    x: 634
+    y: 1814
+    righe: ["Presentato sotto gli auspici di nostra", "Signora della Discordia, ERIS,", "dalla Casa degli Apostoli di ERIS."]
+
+  - font: Oswald-VF.ttf
+    corpo: 32
+    peso: 400
+    scala_x: 1.25
+    interlinea: 37
+    adatta: 440
+    rotazione: -83.5
+    x: 285
+    y: 2062
+    righe: ["UFFICIO DI MIA EMINENZA", "MALACLYPSE IL GIOVANE, KSC", "OPOVIG   SOMMO SACERDOTE POEE"]
+

@@ -43,6 +43,6 @@ libro/              impaginazione per stampa ed ebook
 
 ## Diritti e licenza
 
-La traduzione italiana di Herman Fenderson è distribuita con licenza [Creative Commons Attribuzione – Condividi allo stesso modo 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) (testo completo in `LICENSE`). I font in `strumenti/font/` hanno le proprie licenze (SIL Open Font License e Apache), incluse accanto ai file.
+La traduzione italiana di Herman Fenderson è distribuita con licenza [Creative Commons Attribuzione – Condividi allo stesso modo 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it) (testo completo in `LICENSE`). I font in `strumenti/font/` hanno le proprie licenze (SIL Open Font License, Apache, GUST Font License per TeX Gyre, GPL con eccezione per i font per GNU FreeFont), incluse accanto ai file.
 
 Il testo originale porta la nota "Ⓚ All Rites Reversed – reprint what you like". L'edizione Loompanics è considerata di pubblico dominio negli Stati Uniti perché pubblicata senza nota di copyright e mai registrata.

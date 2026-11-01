@@ -1,0 +1,88 @@
+# Tavola p014 — Alcuni estratti da un'intervista con Malaclypse il Giovane
+# Pagina del vecchio sito: 6 (testo/it/06.md); immagine di Mauro: Annihilation.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (la scritta "suspended annihilation" segue Annihilation.png: "annichilazione sospesa")
+# DIFFERENZE: intestazione: l'originale termina con "& POPE POOP" (firma in coda all'elenco delle testate);
+#   il testo italiano lo sposta in testa ("a cura di Papa Pupù dell'..."): composto come nel testo.
+#   PAPA PUPU' in maiuscolo perché tutta la coda dell'intestazione è in maiuscolo corsivo nell'originale.
+# REFUSI CORRETTI: "un intervista" -> "un'intervista"; "Certo che si!" -> "Certo che sì!"; "perche'" -> "perché";
+#   "Malaclypse il giovane": lasciato come nel testo (altrove il testo usa "Malaclipse il Giovane")
+# NdT ESCLUSE: nessuna
+# Interlinea ridotta (56 invece di 60) e righe vuote tra i gruppi dimezzate: l'italiano è più lungo.
+# La riga di "=" è ribattuta più in basso perché l'intestazione italiana occupa sei righe invece di cinque.
+# FONT: "annichilazione sospesa" in Jost ExtraBold (OFL, Google Fonts) da /home/claude/work/agente0910/font/,
+#   da copiare in strumenti/font per la portabilità (l'originale è un Futura nero, lettere ballerine).
+# Coordinate in pixel sulla scansione a 360 dpi (1770 x 2932).
+
+pagina_pdf: 14
+
+stili:
+  tondo: &tondo {font: IBMPlexMono-Medium.ttf, corpo: 50}
+  sottolineato: &sottolineato {font: IBMPlexMono-Medium.ttf, corpo: 50, sottolineato: true, distanza_sottolineatura: 10, spessore_sottolineatura: 4}
+  corsivo: &corsivo {font: CourierPrime-Italic.ttf, corpo: 50, grassetto: 0.5}
+  lettera: &lettera {font: Jost-ExtraBold.ttf, corpo: 205, scala_x: 0.93}
+
+cancella:
+  - [95, 125, 1765, 2320]       # intestazione, riga di "=" e intervista
+  - [285, 2375, 1700, 2750]     # suspended annihilation
+
+testi:
+  - {<<: *tondo, x: 108, y: 181, righe: ["Alcuni estratti da un'intervista con"]}
+  - {<<: *sottolineato, x: 1218, y: 181, righe: ["Malaclypse il"]}
+  - {<<: *sottolineato, x: 108, y: 241, righe: ["giovane"]}
+  - {<<: *tondo, x: 318, y: 241, righe: [", a cura di"]}
+  - {<<: *corsivo, x: 678, y: 241, righe: ["PAPA PUPU' DELL'HERALD-NEWS-SUN-"]}
+  - {<<: *corsivo, x: 108, y: 301, righe: ["TRIBUNE-JOURNAL-DISPATCH-POST DELLA GRANDE AREA"]}
+  - {<<: *corsivo, x: 108, y: 361, righe: ["METROPOLITANA DI YORBA LINDA E DEL BOLLETTINO DELLA"]}
+  - {<<: *corsivo, x: 108, y: 421, righe: ["CABALA DELLA SOCIETA' DISCORDIANA DI SAN FRANCISCO E"]}
+  - {<<: *corsivo, x: 108, y: 481, righe: ["DEL RAPPORTO INTERGALATTICO"]}
+  - {<<: *tondo, x: 166, y: 531, righe: ["==============================================="]}
+  - {<<: *tondo, x: 108, y: 631, righe: ["PUPU' MAGGIORE: Sei veramente serio o cosa?"]}
+  - {<<: *tondo, x: 108, y: 687, righe: ["MAL-2: Qualche volta prendo l'umorismo seriamente."]}
+  - {<<: *tondo, x: 288, y: 743, righe: ["Qualche volta prendo la serietà umoristicamente."]}
+  - {<<: *tondo, x: 288, y: 799, righe: ["In entrambi i casi, è irrilevante."]}
+  - {<<: *tondo, x: 108, y: 885, righe: ["PM: Forse sei semplicemente pazzo."]}
+  - {<<: *tondo, x: 108, y: 941, righe: ["M2: Certo che sì!  Ma non rifiutare i miei"]}
+  - {<<: *tondo, x: 288, y: 997, righe: ["insegnamenti come se fossero falsi solo perché"]}
+  - {<<: *tondo, x: 288, y: 1053, righe: ["sono pazzo.  Il motivo per cui sono pazzo è che"]}
+  - {<<: *tondo, x: 288, y: 1109, righe: ["essi sono veri."]}
+  - {<<: *tondo, x: 108, y: 1195, righe: ["PM: Eris è vera?"]}
+  - {<<: *tondo, x: 108, y: 1251, righe: ["M2: Tutto è vero."]}
+  - {<<: *tondo, x: 108, y: 1307, righe: ["PM: Anche le cose false?"]}
+  - {<<: *tondo, x: 108, y: 1363, righe: ["M2: Anche le cose false sono vere."]}
+  - {<<: *tondo, x: 108, y: 1419, righe: ["PM: Come può essere?"]}
+  - {<<: *tondo, x: 108, y: 1475, righe: ["M2: Che ne so, amico, mica l'ho fatto io."]}
+  - {<<: *tondo, x: 108, y: 1561, righe: ["PM: Perchè affronti tante negatività?"]}
+  - {<<: *tondo, x: 108, y: 1617, righe: ["M2: Per dissolverle."]}
+  - {<<: *tondo, x: 108, y: 1673, righe: ["PM: Chiariresti questo punto?"]}
+  - {<<: *tondo, x: 108, y: 1729, righe: ["M2: No."]}
+  - {<<: *tondo, x: 108, y: 1815, righe: ["PM: Qual è il significato essenziale della POEE?"]}
+  - {<<: *tondo, x: 108, y: 1871, righe: ["M2: C'è una storia Zen su uno studente che chiese a un"]}
+  - {<<: *tondo, x: 288, y: 1927, righe: ["maestro di spiegargli il significato del"]}
+  - {<<: *tondo, x: 288, y: 1983, righe: ["Buddismo.  La risposta del maestro fu: \"Tre"]}
+  - {<<: *tondo, x: 288, y: 2039, righe: ["libbre di lino.\""]}
+  - {<<: *tondo, x: 108, y: 2095, righe: ["PM: E' questa la risposta alla mia domanda?"]}
+  - {<<: *tondo, x: 108, y: 2151, righe: ["M2: No, ovviamente, no.  Quello è semplicemente un"]}
+  - {<<: *tondo, x: 288, y: 2207, righe: ["esempio.  La risposta alla tua domanda è: CINQUE"]}
+  - {<<: *tondo, x: 288, y: 2263, righe: ["TONNELLATE DI LINO!"]}
+  - {<<: *lettera, x: 300, y: 2560, rotazione: 3, righe: ["a"]}
+  - {<<: *lettera, x: 402, y: 2542, rotazione: -4, righe: ["n"]}
+  - {<<: *lettera, x: 510, y: 2526, rotazione: 2, righe: ["n"]}
+  - {<<: *lettera, x: 619, y: 2566, rotazione: -6, righe: ["i"]}
+  - {<<: *lettera, x: 669, y: 2550, rotazione: 5, righe: ["c"]}
+  - {<<: *lettera, x: 760, y: 2582, rotazione: -2, righe: ["h"]}
+  - {<<: *lettera, x: 866, y: 2556, rotazione: 4, righe: ["i"]}
+  - {<<: *lettera, x: 916, y: 2572, rotazione: -3, righe: ["l"]}
+  - {<<: *lettera, x: 966, y: 2534, rotazione: 6, righe: ["a"]}
+  - {<<: *lettera, x: 1068, y: 2564, rotazione: -5, righe: ["z"]}
+  - {<<: *lettera, x: 1167, y: 2546, rotazione: 2, righe: ["i"]}
+  - {<<: *lettera, x: 1216, y: 2578, rotazione: -4, righe: ["o"]}
+  - {<<: *lettera, x: 1327, y: 2554, rotazione: 3, righe: ["n"]}
+  - {<<: *lettera, x: 1436, y: 2570, rotazione: -2, righe: ["e"]}
+  - {<<: *lettera, x: 760, y: 2712, rotazione: -3, righe: ["s"]}
+  - {<<: *lettera, x: 850, y: 2698, rotazione: 4, righe: ["o"]}
+  - {<<: *lettera, x: 965, y: 2720, rotazione: -5, righe: ["s"]}
+  - {<<: *lettera, x: 1055, y: 2692, rotazione: 2, righe: ["p"]}
+  - {<<: *lettera, x: 1175, y: 2716, rotazione: -4, righe: ["e"]}
+  - {<<: *lettera, x: 1288, y: 2704, rotazione: 5, righe: ["s"]}
+  - {<<: *lettera, x: 1378, y: 2726, rotazione: -2, righe: ["a"]}

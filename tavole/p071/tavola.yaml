@@ -1,0 +1,121 @@
+# Tavola p071 (originale 00056) — Dogma III, Storia #2: Cosmogonia (pagina -1-)
+# Pagina del vecchio sito: 63 (testo/it/63.md)
+# Testo ruotato di 90° (si legge dal basso verso l'alto): coordinate x,y sulla pagina,
+# testi con rotazione: 90. Tondo e corsivo sovrapposti a colonne fisse (passo monospazio).
+# STATO: completa
+# NUOVE TRADUZIONI: "which is not the same as" -> "che non è lo stesso del" (rimasto in inglese in testo/it/63.md)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "perido" -> "periodo"; "Libro dell' Utero" -> "Libro dell'Utero"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 71
+cancella:
+  - [125, 1761, 215, 2851]    # titolo sottolineato
+  - [228, 431, 312, 2851]    # riga in corsivo
+  - [405, 216, 1535, 2851]    # corpo dattiloscritto
+  - [1495, 541, 1585, 2851]    # ultima riga
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 195
+    y: 2820
+    righe:
+      - "DOGMA III - STORIA #2, \"COSMOGONIA\""
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 293
+    y: 2830
+    righe:
+      - "che non è lo stesso del DOGMA I - METAFISICA #2, \"COSMOLOGIA\" (Libro dell'Utero)"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 470
+    y: 2821
+    righe:
+      - "      In principio era il VUOTO ed egli aveva due figlie; una (la piccola) era quella"
+      - "dell'ESSERE, chiamata ERIS, e una (la grande) era quella del NON-ESSERE, chiamata"
+      - "ANERIS."
+      - ""
+      - ""
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 470
+    y: 2821
+    righe:
+      - ""
+      - ""
+      - "        (Al giorno d'oggi, la verità fondamentale che Aneris sia la più grande è"
+      - "evidente a tutti coloro che comparino il grande numero di cose che non esistono con il"
+      - "numero relativamente più piccolo di cose che esistono.)"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 838
+    y: 2821
+    righe:
+      - "      Eris nacque in cinta, e dopo 55 anni"
+      - "                                                                , la Sua gravidanza"
+      - "generò i frutti di molte cose. Esse erano composte dei Cinque Elementi di Base, DOLCE,"
+      - "BOTTO, PUNGENTE, PIZZICORE e ARANCIO. Aneris, invece, era stata creata sterile. Quando"
+      - "vide Eris gioire così grandemente di tutte le cose esistenti che Ella aveva generato,"
+      - "Aneris divenne gelosa e alla fine un giorno rubò alcune cose esistenti e le trasformò"
+      - "in non-esistenti vantandole come suoi propri figli. Ciò ferì profondamente Eris che"
+      - "sentì che Sua sorella era ingiusta (essendo così tanto più grande peraltro) nel"
+      - "negarle quella piccola gioia. E allora ella si ingravidò nuovamente e generò nuove"
+      - "cose. E giurò che non importava quanti delle sue creature Aneris avrebbe rubato, Ella"
+      - "ne avrebbe partoriti altri. E, in cambio, Aneris giurò che non importava quante cose"
+      - "Eris avesse generato, ella alla fine le avrebbe trovate e trasformate in cose"
+      - "non-esistenti per lei."
+      - ""
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 838
+    y: 2821
+    righe:
+      - "                                           (le Dee hanno un periodo di gestazione"
+      - "inusualmente lungo-- più lungo persino di quello degli elefanti)"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - "                       (E al giorno d'oggi, le cose appaiono e scompaiono"
+      - "esattamente in questo modo.)"
+
+linee:
+  - [204, 1769, 209, 2820]    # sottolineatura
+  - [540, 2041, 545, 2161]    # sottolineatura
+  - [600, 2641, 605, 2821]    # sottolineatura
+  - [600, 1350, 605, 1710]    # sottolineatura
+  - [660, 2341, 665, 2491]    # sottolineatura

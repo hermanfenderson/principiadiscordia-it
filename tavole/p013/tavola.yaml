@@ -1,0 +1,96 @@
+# Tavola p013 — Copertina (frontespizio illustrato)
+# Pagina del vecchio sito: 5 (testo/it/05.md); immagini di Mauro: NotJunkMail.png, JugofWine.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (titoli da testo/it/05.md, timbro e poesia dalle immagini di storico/immagini-it/)
+# DIFFERENZE: "PRINCIPIA DISCORDIA" gotico lasciato com'è (latino); "OR" -> "OVVERO";
+#   "IL LIBRO DELL'UTERO 1;5" in maiuscolo come nell'originale (nel testo: "Il Libro dell'Utero 1;5")
+# REFUSI CORRETTI: "d'aanello" (come si legge nell'immagine JugofWine) -> "d'agnello"
+# NdT ESCLUSE: nessuna
+# FONT: oltre a strumenti/font usa, da /home/claude/work/agente0910/font/ (OFL, da Google Fonts):
+#   Jost-Bold / Jost-Regular (il grottesco geometrico dell'originale) e MysteryQuest-Regular (titolo
+#   a spirali, simile all'originale). Vanno copiati in strumenti/font per rendere la tavola portabile.
+# Coordinate in pixel sulla scansione a 360 dpi (1770 x 2932).
+
+pagina_pdf: 13
+
+cancella:
+  - [150, 120, 1630, 185]       # THE MAGNUM OPIATE...
+  - [1140, 230, 1725, 525]      # NOT JUNK MAIL
+  - [850, 640, 955, 690]        # OR
+  - [130, 720, 1660, 1290]      # How I Found Goddess...
+  - [420, 1375, 1345, 1435]     # Wherein is Explained (sopra la barra della croce)
+  - [345, 1436, 1345, 1565]     # le altre due righe (a destra della barra)
+  - [1136, 2030, 1700, 2421]    # poesia gotica
+  - [400, 2735, 1410, 2840]     # Be Ye Not Lost... / THE BOOK OF UTERUS
+
+testi:
+  - font: Jost-Bold.ttf
+    corpo: 60
+    scala_x: 0.9
+    allinea: centro
+    x: 889
+    y: 175
+    righe: ["SUA GRANDE NARCOTICITA' MALACLIPSE IL GIOVANE"]
+
+  - font: Oswald-VF.ttf                    # timbro storto (testo di NotJunkMail.png)
+    corpo: 70
+    peso: 600
+    scala_x: 0.86
+    rotazione: -24
+    x: 1150
+    y: 290
+    righe: ["NON E' POSTA SPAZZATURA"]
+
+  - font: Jost-Bold.ttf
+    corpo: 46
+    allinea: centro
+    x: 902
+    y: 681
+    righe: ["OVVERO"]
+
+  - font: MysteryQuest-Regular.ttf
+    corpo: 185
+    grassetto: 1
+    interlinea: 188
+    allinea: centro
+    x: 893
+    y: 884
+    righe: ["Come trovai la Dea", "e Cosa le feci", "Quando la trovai"]
+
+  - font: Jost-Bold.ttf
+    corpo: 50
+    interlinea: 62
+    allinea: centro
+    x: 883
+    y: 1420
+    righe:
+      - "In cui è Spiegata"
+      - "Assolutamente Qualsiasi Cosa"
+      - "che Valga la Pena di Sapere"
+      - "A proposito Assolutamente di Tutto"
+
+  - font: UnifrakturMaguntia-Book.ttf      # poesia (testo di JugofWine.png)
+    corpo: 72
+    grassetto: 1
+    x: 1095
+    y: 2110
+    righe: ["Una caraffa di vino."]
+  - {font: UnifrakturMaguntia-Book.ttf, corpo: 72, grassetto: 1, x: 1105, y: 2172, righe: ["Un coscio d'agnello"]}
+  - {font: UnifrakturMaguntia-Book.ttf, corpo: 72, grassetto: 1, x: 1300, y: 2234, righe: ["E tu!"]}
+  - {font: UnifrakturMaguntia-Book.ttf, corpo: 72, grassetto: 1, x: 1150, y: 2296, righe: ["Accanto a me."]}
+  - {font: UnifrakturMaguntia-Book.ttf, corpo: 72, grassetto: 1, x: 1215, y: 2356, righe: ["Che fischi"]}
+  - {font: UnifrakturMaguntia-Book.ttf, corpo: 72, grassetto: 1, x: 1262, y: 2414, righe: ["nell'oscurità"]}
+
+  - font: Jost-Bold.ttf
+    corpo: 54
+    allinea: centro
+    x: 907
+    y: 2788
+    righe: ["Non perdetevi tra precetti d'Ordine..."]
+
+  - font: Jost-Regular.ttf
+    corpo: 38
+    allinea: centro
+    x: 910
+    y: 2832
+    righe: ["IL LIBRO DELL'UTERO 1;5"]

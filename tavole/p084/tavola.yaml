@@ -1,0 +1,121 @@
+# Tavola p084 (originale 00069) — La Lettera ai Paranoici
+# Pagina del vecchio sito: 76 (testo/it/76.md)
+# STATO: completa
+# NUOVE TRADUZIONI: timbro "EXECUTED" -> "GIUSTIZIATO" (sul vecchio sito restava
+#   l'immagine inglese, senza traduzione). Come nell'originale esce dal margine destro
+#   (si legge "GIUSTIZIAT..." come "EXECUTE...").
+# DIFFERENZE: la nota manoscritta in fondo è la nota a piè di pagina di Mauro
+#   ("*Nonostante esistano forti evidenze...") ricomposta al posto della scritta a mano.
+#   Paragrafi del corpo distanziati di mezza riga invece di una riga intera, interlinea 58
+#   (l'italiano è più lungo; il carattere e l'interlinea restano quelli dell'originale).
+# REFUSI CORRETTI: "Mnistri" -> "Ministri"; "tribolazone" -> "tribolazione";
+#   "avverrtimenti" -> "avvertimenti"; tolto il "!" dopo "apprezzato" (residuo della
+#   posizione dell'immagine sul vecchio sito), messo il punto.
+# NdT ESCLUSE: nessuna
+# FONT: domande in Old Standard (tipografia scolastica con grazie); timbro in Oswald
+#   pesante con effetto timbro; nota a mano in Kalam Bold.
+
+pagina_pdf: 84
+
+cancella:
+  - [110, 270, 1800, 540]       # domande (fino a sopra il timbro)
+  - [110, 540, 1340, 600]       # ultima riga delle domande, a sinistra del timbro
+  - [1340, 478, 1827, 665]      # timbro EXECUTED
+  - [140, 1050, 1790, 1180]     # titolo del capitolo e firma
+  - [135, 1290, 1790, 2515]     # versetti
+  - [225, 2592, 1740, 2800]     # nota a mano
+
+testi:
+  - font: OldStandard-Bold.ttf
+    corpo: 52
+    grassetto: 1
+    x: 119
+    y: 314
+    righe: ["Domande"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 61
+    x: 119
+    y: 401
+    righe:
+      - "    Fai un discorsetto alla classe. Consenti a ciascun bambino di dire quale"
+      - "parte dell'unità didattica “Gentilezza nei Corridoi e sulle Scale” che ha"
+      - "particolarmente apprezzato. Cita alcune"
+      - "cause di disturbo nella tua scuola."
+
+  - font: Oswald-VF.ttf                    # timbro di gomma, esce dalla pagina
+    corpo: 138
+    peso: 620
+    scala_x: 0.9
+    effetto: timbro
+    rotazione: -6
+    x: 1215
+    y: 585
+    righe: ["GIUSTIZIATO"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 152
+    y: 1105
+    righe: ["Capitolo 1, LA LETTERA AI PARANOICI"]
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 152
+    y: 1164
+    righe: ["--Lord Omar"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 52
+    x: 152
+    y: 1344
+    testo: >-
+      1. Avete rinchiuso voi stessi in gabbie di paura e - guardate - ora vi lamentate perché vi manca la LIBERTA'!
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 52
+    x: 152
+    y: 1548
+    testo: >-
+      2. Avete scacciato i vostri fratelli come diavoli e ora vi lamentate che siete rimasti a lottare da soli.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 52
+    x: 152
+    y: 1752
+    testo: >-
+      3. L'intero Caos una volta era il tuo regno; e in verità eravate i padroni dell'intero Pentaverso, ma ora siete doloranti in angoli bui, cantucci e sprofondi.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 52
+    x: 152
+    y: 2014
+    testo: >-
+      4. Oh come le oscurità si accalcano, l'una contro l'altra, nei vostri cuori! Che cosa vi spaventa di più di ciò che avete perso?
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 52
+    x: 152
+    y: 2218
+    testo: >-
+      5. In verità, in verità vi dico, tutti i Ministri Sinistri degli Illuminati di Baviera quand'anche lavorassero assieme in moltitudine, non potrebbero sommuovere la terra con tribolazione quanto hanno fatto i vostri avvertimenti senza fondamento.
+
+  - font: Kalam-Bold.ttf                   # nota a mano, sale leggermente
+    corpo: 54
+    interlinea: 56
+    rotazione: 1.2
+    adatta: 1480
+    x: 243
+    y: 2672
+    righe:
+      - "NONOSTANTE esistano forti evidenze del contrario,"
+      - "persistono voci che attribuiscono al fratello di Mr. Momomoto"
+      - "l'inghiottimento di Mr. Momomoto nell'estate del '44."

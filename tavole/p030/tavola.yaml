@@ -1,0 +1,125 @@
+# Tavola p030 (originale 00015) — Ciò che sappiamo a proposito di ERIS
+# Pagina del vecchio sito: 22 (testo/it/22.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (scritta a mano e timbro dall'immagine di Mauro ClassicalGreeks.png)
+# DIFFERENZE: titolo composto in maiuscolo come nell'originale ("CIÒ CHE SAPPIAMO A PROPOSITO DI ERIS (non troppo)");
+#   la riga "*La grecità classica" in fondo al testo/it è una didascalia del vecchio sito, non composta;
+#   la citazione latina "DIRUIT AEDIFICAT MUTAT QUADRATA ROTUNDUS --Horace" resta com'è.
+# REFUSI CORRETTI: "Antici Greci" -> "Antichi Greci"; aggiunto l'asterisco di rimando dopo "Ghiandola Pineale"
+#   (da segnalare, non corretto: "la maggior parte delle donne apparirebbe pallido e spettrale" -> "pallide e spettrali"?)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 30
+
+cancella:
+  - [55, 75, 660, 375]          # scritta a mano in alto a sinistra
+  - [950, 185, 1610, 450]       # "DO NOT CIRCULATE" dentro la cornice
+  - [115, 595, 1775, 2650]      # titolo, testo dattiloscritto e nota
+
+testi:
+  - font: PatrickHand-Regular.ttf          # scritta a mano
+    corpo: 78
+    interlinea: 64
+    x: 85
+    y: 153
+    righe: ["La Grecità Classica", "non fu influenzata", "dalla Grecità", "Classica"]
+
+  - font: Oswald-VF.ttf                    # timbro a bastoni largo
+    corpo: 104
+    peso: 560
+    scala_x: 1.32
+    allinea: centro
+    x: 1285
+    y: 281
+    righe: ["NON FARE"]
+
+  - font: Oswald-VF.ttf
+    corpo: 110
+    peso: 560
+    scala_x: 1.32
+    allinea: centro
+    x: 1280
+    y: 433
+    righe: ["CIRCOLARE"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    allinea: centro
+    x: 967
+    y: 662
+    righe: ["CIÒ CHE SAPPIAMO A PROPOSITO DI ERIS (non troppo)"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    scala_x: 0.96
+    colonne: 54
+    x: 130
+    y: 778
+    testo: >-
+      I romani hanno lasciato un suo ritratto per i posteri
+      - E' mostrata come una donna grottesca con uno sguardo
+      pallido e spettrale, gli occhi in fiamme, l'abito
+      strappato e lacerato come a nascondere un pugnale nel
+      petto. In realtà, la maggior parte delle donne
+      apparirebbe pallido e spettrale, se nascondesse un
+      freddo pugnale nel petto.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    scala_x: 0.96
+    colonne: 54
+    x: 130
+    y: 1230
+    testo: >-
+      La sua genealogia ci viene dai Greci ed è estremamente
+      confusa. Ella era gemella di Ares e figlia di Zeus e
+      Era; oppure era figlia di Nix, dea della notte (che
+      era figlia o moglie di Chaos, o entrambe le cose) e il
+      fratello di Nix, Erebo, i cui fratelli e sorelle
+      erano, tra gli altri, Morte, Fato, Scherno e Amicizia.
+      E che Ella generò Oblio, Litigi, Bugie e un gruppetto
+      di dei e dee di quel genere.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    scala_x: 0.96
+    colonne: 54
+    x: 130
+    y: 1743
+    testo: >-
+      Un giorno Mal-2 consultò la sua Ghiandola Pineale* e
+      chiese a Eris se Ella avesse veramente creato tutte
+      quelle cose orribili. Ella gli disse che gli Antichi
+      Greci le erano sempre piaciuti ma che non potevano
+      essere considerati affidabili in fatto di storia.
+      "Sai", aggiunse, "erano vittime di indigestioni"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.4
+    scala_x: 0.96
+    colonne: 54
+    x: 130
+    y: 2137
+    testo: >-
+      Ciò basti a dire che Eris non è odiosa o dannosa. Ma è
+      maliziosa, e può diventare un pò stronza alle volte.
+
+  - font: CourierPrime-Italic.ttf          # nota in corsivo
+    corpo: 50
+    grassetto: 1
+    interlinea: 61
+    colonne: 52
+    scala_x: 0.96
+    x: 130
+    y: 2389
+    testo: >-
+      *LA GHIANDOLA PINEALE è il luogo in cui ciascuno di
+      noi può parlare con Eris. Se avete problemi ad
+      attivare la Pineale, allora usate l'appendice che è
+      quasi la stessa cosa: Rif: DOGMA I, METAFISICA #3,
+      "L'indottrina della Ghiandola Pineale"

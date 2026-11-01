@@ -1,0 +1,267 @@
+# Tavola p060 (originale 00045) — Libro dell'Utero (10-11), note, "Riempitivo noioso ma sincero"
+# Pagina del vecchio sito: 52 (testo/it/52.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (timbro "Dull but Sincere Filler" -> "Riempitivo noioso ma sincero" dalla nota del sito)
+# DIFFERENZE: sottolineature di "non" e "avverrà" riprese dall'originale ("not", "will"); la nota del sito
+#   "\*Riempitivo noioso ma sincero" è resa come timbro al posto dell'originale
+# REFUSI CORRETTI: "un Era" -> "un'Era"; "Riptezione" -> "Ripetizione"; "cinque per per Settantatre" -> "cinque per
+#   Settantatre"; "Calendario Gragoriano" -> "Calendario Gregoriano"
+# NdT ESCLUSE: nessuna
+# Il corpo è stretto a scala_x 0.95; il filetto sopra le note resta quello originale.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 60
+
+cancella:
+  - [130, 280, 1780, 990]      # versetti 10-11
+  - [130, 1070, 1780, 1775]    # note * e **
+  - [130, 2005, 1780, 2450]    # NOTA in corsivo
+  - [110, 2565, 950, 2695]     # timbro Dull but Sincere Filler
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 337.0
+    righe: ["10. Durante e dopo la Caduta del Consolidamento della"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 397.4
+    righe: ["Burocrazia ci fu la Vendetta, un'Era di Disordine in cui"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 457.8
+    righe: ["il calcolo, il computo e le stime furono messe da parte"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 518.2
+    righe: ["dai Figli di Eris in Accettazione e Preparazione del"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 578.6
+    righe: ["Ritorno di Oblio a cui avrebbe fatto seguito la"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 639.0
+    righe: ["Ripetizione dell'Assurdità Universale. Inoltre, la"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 699.4
+    righe: ["Venuta di Vendetta fu una Resurrezione, oltre che di se"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 759.8
+    righe: ["stessa, del Caos fluidificatore della libertà. AVE ERIS!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 850.4
+    righe: ["11. E così fu avviato il Pattern Eristico che"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 910.8
+    righe: ["ripeterebbe se stesso cinque per Settantatre Volte dopo"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 971.2
+    righe: ["di che non succederebbe nulla."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1124.0
+    righe: ["* Questa dottrina non dovrebbe essere confusa con il"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1184.4
+    righe: ["DOGMA III - STORIA #6, \"CICLI STORICI,\" che afferma che"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1244.8
+    righe: ["il progresso sociale avviene in cinque cicli, i primi"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1305.2
+    righe: ["tre dei quali (\"Il Triciclo\") sono TESI, ANTITESI e"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1365.6
+    righe: ["PARENTESI; e gli ultimi due (\"Il Biciclo\") sono"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1426.0
+    righe: ["COSTERNAZIONE e \"DEFORMAMENTO\" MORALE."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1516.6
+    righe: ["** LA LEGGE DELL'INVERSIONE NEGATIVA afferma che se"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1577.0
+    righe: ["qualcosa"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 402.5
+    y: 1577.0
+    righe: ["non"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 516.5
+    y: 1577.0
+    righe: ["accade allora"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 915.5
+    y: 1577.0
+    righe: ["avverrà"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 1143.5
+    y: 1577.0
+    righe: ["l'esatto opposto, ma"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.95
+    x: 146.0
+    y: 1637.4
+    righe: ["esattamente in maniera opposta a ciò che non è avvenuto."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2070.0
+    righe: ["NOTA: E' in coerenza a questo testo del Libro"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2130.4
+    righe: ["dell'Utero, che il POEE ha basato il suo Calendario"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2190.8
+    righe: ["Erisiano dividendolo in 5 stagioni di 73 giorni"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2251.2
+    righe: ["ciascuno. Ognuno dei Cinque Apostoli di Eris è patrono"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2311.6
+    righe: ["di una Stagione. Un diagramma di Stagioni, Patroni,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2372.0
+    righe: ["Giorni della Settimana, Festività e un convertitore"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2432.4
+    righe: ["perpetuo al Calendario Gregoriano sono inclusi in questa"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.95
+    x: 146.0
+    y: 2492.8
+    righe: ["edizione dei Principia."]
+
+  - font: OldStandard-Bold.ttf             # timbro tipografico grassetto, un po' storto
+    corpo: 76
+    grassetto: 1
+    scala_x: 0.86
+    rotazione: 3
+    x: 126
+    y: 2668
+    righe: ["Riempitivo noioso ma sincero"]

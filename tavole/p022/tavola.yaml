@@ -1,0 +1,135 @@
+# Tavola p022 (originale 00007) — La Nascita del Movimento Erisiano
+# Pagina del vecchio sito: 14 (testo/it/14.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna ("New Story of Chaos" -> "Nuova Storia del Caos" da storico/immagini-it/NewStory.png)
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "Trema la terra e i rombano i cieli" -> "Trema la terra e rombano i cieli";
+#   "in un bowling" -> "in un bowling"
+# NdT ESCLUSE: nessuna
+# Corpo del dattiloscritto 50 (passo 30) stretto a scala_x 0.87 per tenere le stesse righe dell'originale.
+# Didascalia "PRIMA TI DEVO COSPARGERE..." spostata di poco più in basso: l'ultima riga italiana del
+# secondo capoverso è lunga e la didascalia non può stare al suo fianco come nell'originale.
+# Titolo "Nuova Storia del Caos": Oswald allargato, il più vicino al bastone nero dell'originale.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 22
+
+cancella:
+  - [85, 115, 1760, 1990]      # titolo, epigrafe e testo fino al corsivo
+  - [85, 2025, 1760, 2585]     # ultimo capoverso
+  - [290, 2660, 1790, 2900]    # New Story of Chaos
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    allinea: centro
+    x: 889
+    y: 169
+    righe: ["- LA NASCITA DEL MOVIMENTO ERISIANO -"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    x: 90
+    y: 357
+    righe: ["LA RIVELAZIONE"]
+    sottolineato: true
+    distanza_sottolineatura: 14
+    spessore_sottolineatura: 4
+
+  - font: CourierPrime-Italic.ttf          # epigrafe, dattiloscritto piccolo
+    corpo: 25
+    interlinea: 26.5
+    x: 1026
+    y: 220
+    righe:
+      - "10. Trema la terra e rombano i cieli; gli"
+      - "animali della natura pascono assieme e le"
+      - "nazioni degli uomini pascono separate; sgorga"
+      - "calore dai vulcani, mentre altrove l'acqua"
+      - "diventa ghiaccio e poi si scioglie, e poi"
+      - "altre volte semplicemente piove."
+      - "11. Invero molte cose avvengono."
+      - "     HBT; Il libro delle Predizioni, Cap. 19"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60
+    x: 92
+    y: 479
+    righe:
+      - "     Appena prima degli anni sessanta del millenovecento,"
+      - "quando lo Sputnik era solo e nuovo e all'incirca quando Ken"
+      - "Kesey fece il suo primo viaggio d'acido come medico"
+      - "volontario; prima dei giornali underground, del Viet Nam e"
+      - "del discorso sulla seconda Rivoluzione Americana; nella"
+      - "relativamente calma quiete della fine degli anni cinquanta,"
+      - "appena prima che l'idea di RINASCIMENTO diventasse"
+      - "significativa..."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 59
+    x: 92
+    y: 1000
+    righe:
+      - "     Due Giovani Californiani, che sarebbero stati"
+      - "conosciuti più tardi come Omar Ravenhurst e Malaclypse il"
+      - "Giovane, si trastullavano nella loro abitudine di"
+      - "sorseggiare caffè in un bowling aperto tutta la notte e"
+      - "più in generale di risolvere i problemi del mondo. Quella"
+      - "particolare sera, l'argomento principale era la discordia ed"
+      - "essi si lamentavano reciprocamente della personale"
+      - "confusione che avvertivano nelle loro rispettive vite."
+      - "\"Risolvi il problema della discordia\", diceva uno, \"e tutti"
+      - "gli altri problemi svaniranno\". \"Invero\", diceva l'altro,"
+      - "\"caos e conflitto sono le radici di ogni confusione.\""
+
+  - font: OldStandard-Bold.ttf             # didascalia incollata
+    corpo: 40
+    interlinea: 38
+    allinea: centro
+    x: 920
+    y: 1648
+    righe: ["PRIMA TI DEVO COSPARGERE", "DI POLVERE DI FATA"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.87
+    interlinea: 57
+    x: 90
+    y: 1745
+    righe:
+      - "     Improvvisamente il luogo divenne privo di luce. Poi un"
+      - "silenzio assoluto li avvolse, e percepirono una grande"
+      - "immobilità. Poi un lampo accecante di luce intensa, come se"
+      - "la loro psiche fosse esplosa in una super-nova. Poi"
+      - "tornarono a vedere."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.87
+    interlinea: 60.5
+    x: 92
+    y: 2079
+    righe:
+      - "     I due erano storditi e non si mossero, né parlarono per"
+      - "alcuni minuti. Si guardarono intorno e videro che i"
+      - "giocatori di bowling erano congelati come statue in una"
+      - "varietà di posizioni da fumetto, e che una palla da bowling"
+      - "era ancorata fermamente al pavimento pochi centimetri prima"
+      - "dei birilli che era stata mandata a disperdere. I due si"
+      - "guardarono l'un l'altro, del tutto incapaci di spiegare il"
+      - "fenomeno. Erano in una condizione di sospensione e uno di"
+      - "loro si accorse che l'orologio si era fermato."
+
+  - font: Oswald-VF.ttf                    # titolo nero incollato
+    corpo: 200
+    peso: 700
+    scala_x: 1.12
+    adatta: 1285
+    x: 308
+    y: 2830
+    righe: ["Nuova Storia del Caos"]

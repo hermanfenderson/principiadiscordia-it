@@ -1,0 +1,138 @@
+# Tavola p041 (originale 00026) — L'Affermazione Erisiana
+# Pagina del vecchio sito: 33 (testo/it/33.md), con le immagini di Mauro HiddenStone.png e DontPhone.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (poesia, palloncino, timbro, versi a mano e citazione dalle immagini di Mauro)
+# DIFFERENZE: il testo italiano ha "La Affermazione"; mantenuto. Nella poesia Mauro ha invertito l'attribuzione
+#   ("Jon Van Stijevort, / Poeta fiammingo, 1524"): mantenuto l'ordine di Mauro.
+# REFUSI CORRETTI: "Jon Van Stijevort" -> "JAN VAN STIJEVOORT" (grafia dell'originale)
+# NdT ESCLUSE: "*NdT gioco di parole intraducibile Cow = Mucca Cao = singolare di Caos (sic)"
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 41
+
+cancella:
+  # poesia nella cornice (l'orecchio della maschera arriva a x 672 fino a y 600)
+  - [675, 245, 1736, 1208]
+  - [580, 600, 675, 1208]
+  - [655, 370, 675, 440]
+  - [655, 485, 675, 592]
+  # affermazione, risposta, timbro
+  - [140, 1330, 1700, 1760]
+  - [140, 1800, 1700, 1905]
+  - [140, 1930, 1220, 2055]
+  # scritta nel palloncino (il numero 00026 resta)
+  - [655, 2265, 752, 2358]
+  - [601, 2277, 660, 2358]
+  - [558, 2288, 615, 2364]
+  - [491, 2296, 578, 2413]
+  - [431, 2303, 498, 2387]
+  - [304, 2319, 441, 2411]
+  # versi a mano e firma
+  - [955, 2305, 1500, 2690]
+  - [1180, 2600, 1760, 2745]
+  # citazione in basso
+  - [150, 2755, 720, 2825]
+
+testi:
+  - font: Kalam-Bold.ttf                    # poesia a stampatello
+    corpo: 74
+    interlinea: 125
+    scala_x: 0.88
+    adatta: 1180
+    x: 680
+    y: 312
+    righe:
+      - "PIETRA CELATA SI COGLIE LESTAMENTE"
+      - "POI DENUDATA COME UN RAPANELLO"
+      - "ALFIN SI FA TAGLIARE FACILMENTE"
+      - "MA IL PERICOLO VERO NON È QUELLO."
+      - "TI TEMONO SE NON TI DISPIACE AFFATTO"
+      - "DI VIVERE MEZZO SANO E MEZZO MATTO."
+
+  - font: Kalam-Bold.ttf
+    corpo: 68
+    interlinea: 120
+    allinea: centro
+    x: 1150
+    y: 1066
+    righe: ["— JAN VAN STIJEVOORT,", "POETA FIAMMINGO, 1524."]
+
+  - font: IBMPlexMono-Regular.ttf           # titolo dattiloscritto
+    corpo: 52
+    grassetto: 1
+    x: 548
+    y: 1387
+    righe: ["LA AFFERMAZIONE ERISIANA"]
+
+  - font: CourierPrime-Italic.ttf           # formula in corsivo
+    corpo: 50
+    grassetto: 1
+    interlinea: 60
+    x: 150
+    y: 1509
+    righe:
+      - "INNANZI ALLA DEA ERIS, IO (nome o nome sacro),"
+      - "con questo dichiaro me stesso un FRATELLO POEE"
+      - "della LEGIONE DELLA DISCORDIA DINAMICA."
+      - "AVE AVE AVE AVE AVE ERIS ERIS ERIS ERIS ERIS"
+      - "TUTTI SALUTINO DISCORDIA!"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    x: 150
+    y: 1876
+    righe:
+      - "Il funzionario POEE che presiede al rito (se"
+      - "presente) risponde:"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 150
+    y: 2010
+    righe: ["TUTTI SALUTINO DISCORDIA!"]
+
+  - font: SpecialElite-Regular.ttf          # timbro
+    corpo: 64
+    effetto: timbro
+    rotazione: 3
+    x: 1010
+    y: 2075
+    righe: ["NON TELEFONARE"]
+
+  - font: Oswald-VF.ttf                     # scritta stampata sul palloncino
+    corpo: 34
+    peso: 400
+    interlinea: 38
+    allinea: centro
+    rotazione: 7
+    x: 535
+    y: 2350
+    righe: ["TROVA LA DEA ERIS DENTRO", "LA TUA GHIANDOLA PINEALE", "POEE"]
+
+  - font: PatrickHand-Regular.ttf           # versi a mano
+    corpo: 80
+    interlinea: 80
+    grassetto: 1
+    x: 975
+    y: 2400
+    righe: ["A vari dei", "si inchinano i mortali;", "La Mucca Sacra, e", "l'intero Cao."]
+
+  - font: PatrickHand-Regular.ttf
+    corpo: 56
+    interlinea: 50
+    grassetto: 1
+    x: 1300
+    y: 2690
+    righe: ["— Rev. Dr. Grindlebone", "   Cabala Monroe"]
+
+  - font: CourierPrime-Italic.ttf           # citazione minuta
+    corpo: 25
+    interlinea: 30
+    x: 163
+    y: 2785
+    righe: ["\"IL SENSO COMUNE E' CIO' CHE TI", "DICE CHE LA TERRA E' PIATTA\""]
+
+linee:
+  - [930, 1518, 1530, 1521]    # sottolineatura di (nome o nome sacro),

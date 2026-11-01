@@ -1,0 +1,499 @@
+# Tavola p085 (originale 00070) — Pubblicità: Illuminati di Baviera
+# Pagina del vecchio sito: 77 (testo/it/77.md) + immagine storico/immagini-it/BavarianIlluminati5.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna: tutte le scritte seguono BavarianIlluminati5.png di Mauro.
+# DIFFERENZE: "Grand Primus Illuminatus" -> "Primus Illuminatus" come nella versione di
+#   Mauro; i triangoli ∆ attorno a due righe sono conservati (decorazione). Le sottolineature
+#   di "LEE HARVEY OSWALD", "NO" e "might" non sono riprodotte.
+# REFUSI CORRETTI: "3.325 $" -> "3.125 $" (l'originale dice $3,125.00); "Hasan I Sabbah" ->
+#   "Hassan i Sabbah" come nell'originale; "Hassan I sabbah" -> "Hassan i Sabbah";
+#   "EWIGE BLUMENRAFT" -> "EWIGE BLUMENKRAFT".
+# NdT ESCLUSE: nessuna
+# FONT: titolo in TeX Gyre Chorus (corsivo cancelleresco di sistema, OFL/GUST); righe di
+#   testo piccolo in IBM Plex Mono; avvertimenti in Poppins (di sistema); timbro in Oswald.
+#   Cancellature generate componente per componente, così il triangolo, la cornice e lo
+#   striscione restano intatti.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 85
+
+cancella:
+  - [25, 115, 470, 180]         # Advertisement
+  - [190, 2525, 650, 2722]      # timbro OFFICIAL
+  - [1150, 2378, 1700, 2568]    # citazione di Weishaupt
+  # intestazione
+  - [525, 480, 1184, 628]
+  - [509, 632, 1204, 663]
+  - [509, 713, 1196, 740]
+  - [682, 779, 952, 808]
+  - [540, 849, 1136, 883]
+  # domande attorno al triangolo
+  - [515, 1357, 556, 1371]     # sottolineatura di LEE, attaccata al triangolo
+  - [191, 957, 717, 1077]
+  - [1014, 957, 1518, 1077]
+  - [186, 1130, 631, 1266]
+  - [632, 1131, 634, 1138]
+  - [632, 1162, 634, 1169]
+  - [632, 1173, 634, 1175]
+  - [632, 1180, 634, 1186]
+  - [635, 1133, 637, 1137]
+  - [635, 1164, 637, 1167]
+  - [635, 1182, 637, 1184]
+  - [638, 1134, 640, 1152]
+  - [638, 1165, 640, 1176]
+  - [641, 1132, 643, 1155]
+  - [641, 1162, 643, 1177]
+  - [644, 1131, 646, 1147]
+  - [644, 1149, 646, 1156]
+  - [644, 1165, 646, 1177]
+  - [647, 1131, 649, 1138]
+  - [647, 1142, 649, 1144]
+  - [647, 1149, 649, 1156]
+  - [647, 1164, 649, 1183]
+  - [650, 1133, 652, 1136]
+  - [650, 1151, 652, 1153]
+  - [650, 1163, 652, 1184]
+  - [653, 1134, 655, 1152]
+  - [653, 1164, 655, 1168]
+  - [656, 1132, 658, 1154]
+  - [656, 1162, 658, 1169]
+  - [659, 1130, 661, 1152]
+  - [659, 1163, 661, 1184]
+  - [662, 1131, 664, 1152]
+  - [662, 1162, 664, 1182]
+  - [665, 1134, 667, 1155]
+  - [665, 1164, 667, 1166]
+  - [668, 1151, 670, 1152]
+  - [788, 1233, 790, 1235]
+  - [791, 1230, 793, 1237]
+  - [794, 1228, 796, 1235]
+  - [797, 1225, 799, 1232]
+  - [800, 1223, 802, 1231]
+  - [803, 1221, 805, 1231]
+  - [806, 1224, 808, 1234]
+  - [809, 1224, 811, 1236]
+  - [812, 1226, 814, 1229]
+  - [881, 1240, 883, 1243]
+  - [884, 1241, 886, 1244]
+  - [884, 1249, 886, 1255]
+  - [887, 1250, 889, 1252]
+  - [1049, 1154, 1050, 1170]
+  - [1049, 1184, 1050, 1186]
+  - [1049, 1220, 1050, 1221]
+  - [1049, 1250, 1050, 1254]
+  - [1051, 1130, 1523, 1266]
+  - [882, 1277, 887, 1298]
+  - [888, 1284, 890, 1292]
+  - [891, 1289, 893, 1289]
+  - [900, 1296, 902, 1296]
+  - [903, 1291, 905, 1297]
+  - [906, 1283, 906, 1296]
+  - [907, 1277, 915, 1298]
+  - [200, 1309, 517, 1401]
+  - [518, 1313, 520, 1316]
+  - [518, 1329, 520, 1331]
+  - [518, 1342, 520, 1362]
+  - [521, 1311, 523, 1332]
+  - [521, 1341, 523, 1364]
+  - [524, 1309, 526, 1334]
+  - [524, 1357, 526, 1364]
+  - [527, 1310, 529, 1332]
+  - [527, 1357, 529, 1364]
+  - [530, 1358, 532, 1361]
+  - [533, 1316, 535, 1327]
+  - [533, 1343, 535, 1361]
+  - [536, 1312, 538, 1331]
+  - [536, 1340, 538, 1364]
+  - [539, 1309, 541, 1320]
+  - [539, 1324, 541, 1333]
+  - [539, 1339, 541, 1346]
+  - [539, 1348, 541, 1355]
+  - [539, 1358, 541, 1364]
+  - [542, 1309, 544, 1317]
+  - [542, 1328, 544, 1333]
+  - [542, 1340, 544, 1346]
+  - [542, 1350, 544, 1353]
+  - [542, 1357, 544, 1364]
+  - [545, 1311, 547, 1318]
+  - [545, 1325, 547, 1330]
+  - [545, 1343, 547, 1344]
+  - [545, 1359, 547, 1361]
+  - [548, 1312, 550, 1331]
+  - [548, 1343, 550, 1360]
+  - [551, 1312, 553, 1331]
+  - [551, 1340, 553, 1363]
+  - [554, 1314, 556, 1325]
+  - [554, 1339, 556, 1346]
+  - [554, 1348, 556, 1363]
+  - [557, 1312, 559, 1331]
+  - [557, 1340, 559, 1345]
+  - [557, 1350, 559, 1352]
+  - [557, 1357, 559, 1363]
+  - [560, 1312, 562, 1331]
+  - [560, 1360, 562, 1361]
+  - [1197, 1309, 1523, 1401]
+  # paragrafo corsivo, I DARE YOU, avvertimenti
+  - [185, 1442, 1554, 1535]
+  - [748, 1542, 1014, 1581]
+  - [196, 1589, 1523, 1649]
+  - [193, 1663, 1452, 1716]
+  - [1453, 1678, 1455, 1699]
+  - [1456, 1679, 1458, 1702]
+  - [1459, 1682, 1461, 1700]
+  - [1462, 1684, 1464, 1698]
+  - [1465, 1682, 1467, 1699]
+  - [1468, 1679, 1470, 1702]
+  - [1471, 1678, 1473, 1703]
+  - [1474, 1678, 1476, 1703]
+  - [1477, 1680, 1479, 1700]
+  - [1480, 1683, 1482, 1697]
+  - [1483, 1687, 1485, 1690]
+  - [1498, 1712, 1500, 1714]
+  # fumetto THAT'S A CRIME
+  - [227, 1792, 360, 1809]
+  # motto
+  - [531, 1808, 1072, 1831]
+  - [999, 1836, 1169, 1858]
+  # striscione DEATH TO ALL FANATICS
+  - [1180, 1772, 1182, 1772]
+  - [1180, 1774, 1182, 1774]
+  - [1186, 1769, 1188, 1769]
+  - [1186, 1772, 1188, 1772]
+  - [1186, 1940, 1188, 1953]
+  - [1189, 1769, 1191, 1771]
+  - [1189, 1937, 1191, 1958]
+  - [1192, 1935, 1194, 1960]
+  - [1195, 1757, 1197, 1757]
+  - [1195, 1762, 1197, 1765]
+  - [1195, 1891, 1197, 1891]
+  - [1195, 1934, 1197, 1958]
+  - [1198, 1756, 1200, 1760]
+  - [1198, 1888, 1200, 1895]
+  - [1198, 1935, 1200, 1955]
+  - [1201, 1754, 1203, 1761]
+  - [1201, 1772, 1203, 1773]
+  - [1201, 1887, 1203, 1895]
+  - [1201, 1933, 1203, 1954]
+  - [1204, 1754, 1206, 1764]
+  - [1204, 1768, 1206, 1776]
+  - [1204, 1886, 1206, 1895]
+  - [1204, 1931, 1206, 1954]
+  - [1207, 1753, 1209, 1776]
+  - [1207, 1887, 1209, 1894]
+  - [1207, 1930, 1209, 1954]
+  - [1210, 1756, 1212, 1776]
+  - [1210, 1891, 1212, 1891]
+  - [1210, 1929, 1212, 1943]
+  - [1210, 1945, 1212, 1952]
+  - [1213, 1751, 1215, 1775]
+  - [1213, 1876, 1215, 1876]
+  - [1213, 1930, 1215, 1933]
+  - [1213, 1936, 1215, 1950]
+  - [1216, 1752, 1218, 1775]
+  - [1216, 1875, 1218, 1877]
+  - [1216, 1928, 1218, 1950]
+  - [1219, 1753, 1221, 1775]
+  - [1219, 1923, 1221, 1950]
+  - [1222, 1761, 1224, 1768]
+  - [1222, 1922, 1224, 1945]
+  - [1225, 1925, 1227, 1946]
+  - [1228, 1925, 1230, 1948]
+  - [1231, 1922, 1233, 1931]
+  - [1231, 1941, 1233, 1945]
+  - [1234, 1921, 1236, 1938]
+  - [1237, 1918, 1239, 1941]
+  - [1240, 1918, 1242, 1940]
+  - [1243, 1917, 1245, 1936]
+  - [1246, 1917, 1248, 1937]
+  - [1249, 1910, 1251, 1934]
+  - [1252, 1908, 1254, 1929]
+  - [1252, 1931, 1254, 1932]
+  - [1255, 1911, 1257, 1934]
+  - [1258, 1918, 1260, 1933]
+  - [1261, 1901, 1263, 1908]
+  - [1261, 1928, 1263, 1928]
+  - [1264, 1898, 1266, 1909]
+  - [1267, 1894, 1269, 1915]
+  - [1270, 1892, 1272, 1917]
+  - [1273, 1892, 1275, 1909]
+  - [1273, 1911, 1275, 1914]
+  - [1276, 1889, 1278, 1910]
+  - [1279, 1887, 1281, 1911]
+  - [1282, 1889, 1284, 1908]
+  - [1285, 1892, 1287, 1905]
+  - [1288, 1871, 1290, 1891]
+  - [1288, 1893, 1290, 1893]
+  - [1291, 1869, 1293, 1895]
+  - [1294, 1869, 1296, 1894]
+  - [1297, 1867, 1299, 1891]
+  - [1300, 1865, 1302, 1887]
+  - [1303, 1868, 1305, 1888]
+  - [1306, 1872, 1308, 1887]
+  - [1309, 1856, 1311, 1860]
+  - [1309, 1871, 1311, 1879]
+  - [1312, 1853, 1314, 1866]
+  - [1312, 1870, 1314, 1877]
+  - [1315, 1856, 1317, 1874]
+  - [1318, 1861, 1320, 1871]
+  - [1321, 1861, 1323, 1869]
+  - [1324, 1835, 1326, 1841]
+  - [1324, 1859, 1326, 1867]
+  - [1327, 1831, 1329, 1851]
+  - [1327, 1860, 1329, 1864]
+  - [1330, 1828, 1332, 1853]
+  - [1333, 1825, 1335, 1850]
+  - [1336, 1824, 1338, 1840]
+  - [1339, 1822, 1341, 1843]
+  - [1342, 1820, 1344, 1844]
+  - [1345, 1821, 1347, 1841]
+  - [1348, 1823, 1350, 1836]
+  - [1351, 1815, 1353, 1839]
+  - [1354, 1802, 1356, 1806]
+  - [1354, 1812, 1356, 1836]
+  - [1357, 1799, 1359, 1833]
+  - [1360, 1802, 1362, 1831]
+  - [1363, 1807, 1365, 1826]
+  - [1366, 1797, 1368, 1805]
+  - [1366, 1809, 1368, 1823]
+  - [1369, 1794, 1371, 1821]
+  - [1372, 1797, 1374, 1822]
+  - [1375, 1791, 1377, 1794]
+  - [1375, 1800, 1377, 1815]
+  - [1375, 1818, 1377, 1819]
+  - [1378, 1789, 1380, 1796]
+  - [1378, 1804, 1380, 1815]
+  - [1381, 1785, 1383, 1797]
+  - [1381, 1808, 1383, 1816]
+  - [1384, 1782, 1386, 1804]
+  - [1384, 1810, 1386, 1818]
+  - [1387, 1780, 1389, 1787]
+  - [1387, 1791, 1389, 1805]
+  - [1387, 1813, 1389, 1815]
+  - [1390, 1781, 1392, 1785]
+  - [1390, 1799, 1392, 1802]
+  - [1393, 1778, 1395, 1792]
+  - [1396, 1778, 1398, 1795]
+  - [1399, 1778, 1401, 1782]
+  - [1399, 1785, 1401, 1793]
+  - [1402, 1773, 1404, 1783]
+  - [1405, 1770, 1407, 1786]
+  - [1408, 1767, 1410, 1789]
+  - [1411, 1767, 1413, 1773]
+  - [1411, 1777, 1413, 1790]
+  - [1414, 1778, 1416, 1789]
+  - [1417, 1763, 1419, 1767]
+  - [1417, 1777, 1419, 1777]
+  - [1417, 1779, 1419, 1786]
+  - [1420, 1759, 1422, 1770]
+  - [1420, 1774, 1422, 1782]
+  - [1423, 1757, 1425, 1782]
+  - [1426, 1759, 1428, 1780]
+  - [1429, 1766, 1431, 1777]
+  - [1432, 1769, 1434, 1774]
+  - [1441, 1766, 1443, 1769]
+  - [1444, 1763, 1446, 1772]
+  - [1447, 1766, 1449, 1769]
+
+testi:
+  - font: OldStandard-Bold.ttf
+    corpo: 60
+    x: 34
+    y: 168
+    righe: ["Pubblicità"]
+
+  - font: texgyrechorus-mediumitalic.otf
+    corpo: 120
+    adatta: 600
+    allinea: centro
+    x: 852
+    y: 548
+    righe: ["Illuminati di Baviera"]
+  - font: OldStandard-Bold.ttf
+    corpo: 30
+    interlinea: 34
+    adatta: 650
+    allinea: centro
+    x: 862
+    y: 623
+    righe:
+      - "Fondato da Hassan i Sabbah, 1090 D.C. (5090 A.L., 4850 A.M.)"
+      - "Riformato da Adam Weishaupt, 1776 D.C. (5776 A.L., 5536 A.M.)"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 33
+    adatta: 640
+    allinea: centro
+    x: 875
+    y: 737
+    righe: ["∆  L'ANTICA SETTA DEGLI ILLUMINATI DI BAVIERA  ∆"]
+  - font: CourierPrime-Italic.ttf
+    corpo: 33
+    allinea: centro
+    x: 817
+    y: 803
+    righe: ["TI invita ad aderire"]
+  - font: OldStandard-Bold.ttf
+    corpo: 32
+    adatta: 640
+    allinea: centro
+    x: 838
+    y: 878
+    righe: ["Alla Cospirazione più Antica e di Maggior Successo del Mondo"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 24
+    interlinea: 29
+    x: 195
+    y: 995
+    righe:
+      - "Ti sei mai INTIMAMENTE CHIESTO"
+      - "PERCHE' la GRANDE PIRAMIDE ha"
+      - "CINQUE lati (inclusa la base)?"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 24
+    interlinea: 29
+    x: 191
+    y: 1156
+    righe:
+      - "QUAL'E' la vera SINISTRA"
+      - "realtà nascosta dietro"
+      - "l'ANTICA Leggenda Azteca"
+      - "di QUETZLCOATL?"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 24
+    interlinea: 29
+    x: 203
+    y: 1331
+    righe:
+      - "CHI E' l'UOMO di ZURIGO"
+      - "che alcuni GIURANO"
+      - "essere LEE HARVEY"
+      - "OSWALD?"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 24
+    interlinea: 29
+    x: 1018
+    y: 986
+    righe:
+      - "C'E' una ALLEGORIA ESOTERICA"
+      - "nascosta nella apparentemente"
+      - "innocente leggenda di"
+      - "Biancaneve e i Sette Nani?"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 24
+    interlinea: 29
+    x: 1052
+    y: 1177
+    righe:
+      - "Perché gli studiosi di"
+      - "antropologia IMPALLIDISCONO"
+      - "di terrore alla semplice"
+      - "MENZIONE del nome PROIBITO"
+      - "di YOG-SOTHOTH?"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 24
+    interlinea: 29
+    x: 1200
+    y: 1357
+    righe:
+      - "COSA E' DAVVERO SUCCESSO"
+      - "AD AMBROSE BIERCE?"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 24
+    interlinea: 29.5
+    scala_x: 0.98
+    colonne: 98
+    x: 190
+    y: 1471
+    testo: >-
+      Se il tuo Q.I. è superiore a 150 e hai 3.125 $ (+ spedizione), potresti aver
+      diritto a una iscrizione di prova alla A.S.I.B. Se pensi di avere i requisiti
+      metti il denaro in una scatola di sigari e seppelliscila nel tuo cortile. Uno
+      dei nostri Agenti in Copertura vi contatterà presto.
+  - font: Poppins-Bold.ttf
+    corpo: 46
+    allinea: centro
+    x: 881
+    y: 1578
+    righe: ["ATTENTO A TE!"]
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 25
+    adatta: 1325
+    x: 199
+    y: 1614
+    righe: ["NON DIRE NULLA A NESSUNO! AVVENGONO STRANI INCIDENTI ALLE PERSONE CHE PARLANO TROPPO DEGLI"]
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 25
+    allinea: centro
+    x: 885
+    y: 1646
+    righe: ["∆ ILLUMINATI DI BAVIERA! ∆"]
+  - font: Poppins-Bold.ttf
+    corpo: 50
+    scala_x: 0.82
+    x: 196
+    y: 1704
+    righe: ["Diffidate dalle imitazioni! "]
+  - font: Poppins-Regular.ttf
+    corpo: 50
+    scala_x: 0.82
+    x: 735
+    y: 1704
+    righe: ["Solo il nostro è originale e autentico"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 21
+    grassetto: 1
+    allinea: centro
+    x: 293
+    y: 1807
+    righe: ["PECCATO!"]
+  - font: OldStandard-Bold.ttf
+    corpo: 30
+    adatta: 545
+    allinea: centro
+    x: 801
+    y: 1830
+    righe: ["\"NIENTE E' REALE. TUTTO E' PERMESSO\""]
+  - font: OldStandard-Bold.ttf
+    corpo: 24
+    allinea: destra
+    x: 1169
+    y: 1856
+    righe: ["—Hassan i Sabbah"]
+  - font: ArchitectsDaughter-Regular.ttf    # sullo striscione, in salita
+    corpo: 38
+    grassetto: 1
+    rotazione: 40
+    adatta: 285
+    x: 1236
+    y: 1940
+    righe: ["MORTE A TUTTI I FANATICI!"]
+
+  - font: OldStandard-Regular.ttf
+    corpo: 46
+    interlinea: 46
+    x: 1167
+    y: 2420
+    righe: ["\"ILLUMINATE", "L'OPPOSIZIONE!\""]
+  - font: OldStandard-Regular.ttf
+    corpo: 46
+    x: 1249
+    y: 2511
+    righe: ["--Adam Weishaupt,"]
+  - font: OldStandard-Regular.ttf
+    corpo: 46
+    x: 1164
+    y: 2559
+    righe: ["Primus Illuminatus"]
+
+  - font: Oswald-VF.ttf                     # timbro di gomma, inclinato
+    corpo: 50
+    peso: 700
+    interlinea: 50
+    effetto: timbro
+    rotazione: 7
+    allinea: centro
+    x: 410
+    y: 2590
+    righe: ["UFFICIALE", "ILLUMINATI DI BAVIERA", "\"EWIGE BLUMENKRAFT\""]

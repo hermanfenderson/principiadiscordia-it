@@ -1,0 +1,138 @@
+# Tavola p089 (originale 00074) — Parte Quinta: Il Segreto d'Oro / Il nonsense come salvezza
+# Pagina del vecchio sito: 81 (testo/it/81.md)
+# STATO: completa
+# NUOVE TRADUZIONI (da rivedere): "PART FIVE" -> "PARTE QUINTA" (testo/it riporta
+#   l'inglese "P A R T  F I V E").
+# DIFFERENZE: titolo "Il / Segreto / d'Oro" come in testo/it. L'esagramma T'AI con la sua
+#   etichetta resta intatto (traslitterazione cinese). "E quando gli uomini..." va su due righe.
+#   Interlinea 58 invece di 60 e spazio fra paragrafi ridotto per far entrare l'italiano.
+# REFUSI CORRETTI: "quini" -> "quindi"; "sarà libera.." -> "sarà libera."
+# NdT ESCLUSE: nessuna
+# FONT: titolo in EB Garamond semibold; "PARTE QUINTA" in maiuscoletto Old Standard Bold.
+
+pagina_pdf: 89
+
+cancella:
+  - [370, 135, 1310, 500]       # PART FIVE / The Golden Secret
+  - [45, 535, 720, 595]         # NONSENSE AS SALVATION
+  - [40, 715, 1680, 2352]       # corpo
+  - [40, 2400, 1590, 2565]      # chiusa, prime tre righe
+  - [40, 2565, 1420, 2790]      # chiusa, accanto all'esagramma
+
+testi:
+  - font: OldStandard-Bold.ttf
+    corpo: 58
+    x: 392
+    y: 212
+    righe: ["P"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 439
+    y: 212
+    righe: ["A"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 478
+    y: 212
+    righe: ["R"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 516
+    y: 212
+    righe: ["T"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 554
+    y: 212
+    righe: ["E"]
+  - font: OldStandard-Bold.ttf
+    corpo: 58
+    x: 616
+    y: 212
+    righe: ["Q"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 663
+    y: 212
+    righe: ["U"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 704
+    y: 212
+    righe: ["I"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 730
+    y: 212
+    righe: ["N"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 769
+    y: 212
+    righe: ["T"]
+  - font: OldStandard-Bold.ttf
+    corpo: 44
+    x: 807
+    y: 212
+    righe: ["A"]
+
+  - font: EBGaramond-VF.ttf
+    corpo: 134
+    peso: 600
+    interlinea: 122
+    x: 918
+    y: 235
+    righe: ["Il", "Segreto", "d'Oro"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 55
+    y: 589
+    righe: ["IL NONSENSE COME SALVEZZA"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 54
+    x: 55
+    y: 774
+    testo: >-
+      La razza umana comincerà a risolvere i suoi problemi il giorno che smetterà di prendersi così tanto sul serio.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 54
+    x: 55
+    y: 983
+    testo: >-
+      A questo scopo, POEE propone il gioco alternativo del NONSENSE COME SALVEZZA. Salvezza da un'esistenza brutta e primitiva che è il risultato di prendere l'ordine così sul serio e così sul serio aver timore della contrapposizione di ordine e disordine o che GIOCHI siano presi più seriamente della VITA piuttosto che considerare la VITA come l'ARTE DI GIOCARE GIOCHI.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 54
+    x: 55
+    y: 1424
+    testo: >-
+      Perciò proponiamo che l'uomo sviluppi il suo amore innato per il disordine e giochi con la Dea Eris. E che sappia che è un gioco gioioso e in questo modo POSSA ESSERE REVOCATA LA MALEDIZIONE DI FACCIAGRIGIA.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    colonne: 54
+    x: 55
+    y: 1691
+    testo: >-
+      Se padroneggi il nonsense così come già hai imparato a padroneggiare il senso, allora entrambi si mostreranno per ciò che veramente sono: assurdità. Da quel momento di illuminazione, l'uomo comincia a essere libero indipendentemente da ciò che lo circonda. Diventa libero di giocare a giochi di ordine e cambiarli come desidera. Diventa libero di giocare giochi di disordine semplicemente perchè gli va. Diventa libero di non giocare né gli uni né gli altri. E padroneggiando i propri giochi, gioca senza paura e di conseguenza senza frustrazione e quindi con buone intenzioni nell'animo e amore nel suo essere.
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    x: 52
+    y: 2445
+    righe:
+      - "E quando gli uomini diventeranno liberi allora"
+      - "l'umanità sarà libera."
+      - "Che tu sia libero dalla Maledizione di Facciagrigia."
+      - "Che la Dea faccia scintillare i tuoi occhi."
+      - "Che tu abbia la conoscenza di un saggio,"
+      - "   e la saggezza di un bambino."
+      - "Ave Eris."

@@ -1,0 +1,121 @@
+# Tavola p086 (originale 00071) — Codice Cripto Cifrato Super Segreto
+# Pagina del vecchio sito: 78 (testo/it/78.md) + immagine storico/immagini-it/CypherCode2.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna: tutte le scritte seguono CypherCode2.png di Mauro (pagina
+#   stampata ruotata: il testo è composto a 90 gradi come nell'originale).
+# DIFFERENZE: griglia A-Z / 1-26, riquadro D5 e sigillo NOVUS ORDO SECLORUM conservati.
+#   Come nella versione di Mauro l'esempio diventa "AVE ERIS" (VRSAEEI, IEEASRV,
+#   9-5-5-1-19-18-22, 1-5-5-9-18-19-22, AEEIRSV) invece di "HAIL ERIS"; lo STEP 1 omette
+#   "(HAIL ERIS)" e la frase finale è accorciata ("Codice cifrato crittografico GARANTITO
+#   NON DECIFRABILE AL 100%"); "Episkopos Dr." -> "Vescovo Dott.". Lasciato "STEP" come
+#   nella versione di Mauro.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962); il testo sale dal basso.
+
+pagina_pdf: 86
+
+cancella:
+  # titolo INTER-OFFICE PRIVATE WIRE SENT (i due filetti restano)
+  - [205, 226, 272, 1361]
+  # intestazione ANCIENT ILLUMINATED SEERS / Mad Malik
+  - [360, 1001, 490, 2771]
+  # titolo sottolineato del codice
+  - [545, 581, 612, 2321]
+  # paragrafo Of possible interest
+  - [662, 171, 792, 2771]
+  # SAMPLE MESSAGE
+  - [905, 1851, 970, 2771]
+  # CONVERSION:
+  - [1000, 2426, 1052, 2771]
+  # STEP 1 (il sigillo resta a destra)
+  - [1198, 536, 1270, 2771]
+  # STEP 2-5
+  - [1270, 861, 1512, 2771]
+  # This cryptographic cypher code...
+  - [1565, 711, 1640, 2771]
+  # BEWARE!
+  - [1690, 861, 1745, 2081]
+
+testi:
+  - font: Poppins-Bold.ttf
+    corpo: 64
+    scala_x: 0.86
+    rotazione: 90
+    allinea: destra
+    x: 266
+    y: 241
+    righe: ["INVIATO CABLO PRIVATO INTER-UFFICIO"]
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    rotazione: 90
+    x: 408
+    y: 2759
+    righe:
+      - "L'ANTICA SETTA DEGLI ILLUMINATI DI BAVIERA - LOGGIA DI VIGILANZA"
+      - "Mad Malik, Hauptscheissmeister; Residente per la Cabala Norton"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    rotazione: 90
+    allinea: centro
+    sottolineato: true
+    distanza_sottolineatura: 11
+    spessore_sottolineatura: 5
+    x: 590
+    y: 1453
+    righe: ["CODICE CIFRATO CRITTOGRAFICO SUPERSEGRETO DELLA SOCIETA' DISCORDIANA"]
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 59
+    colonne: 82
+    rotazione: 90
+    x: 712
+    y: 2759
+    testo: >-
+      Questa informazione di possibile interesse per tutti i Discordiani viene di
+      seguito rilasciata dagli archivi della A.S.I.B. sotto gli auspici del Vescovo
+      Dott. Mordecai Malignatius, KNS.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    rotazione: 90
+    x: 952
+    y: 2759
+    righe:
+      - "MESSAGGIO DI ESEMPIO: (\"AVE ERIS\")"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    rotazione: 90
+    x: 1045
+    y: 2760
+    righe:
+      - "CONVERSIONE:"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    rotazione: 90
+    x: 1256
+    y: 2761
+    righe:
+      - "STEP 1: Trascrivi mettendo tutte le vocali alla fine (VRSAEEI)"
+      - "STEP 2: Inverti l'ordine (IEEASRV)"
+      - "STEP 3: Converti in numeri (9-5-5-1-19-18-22)"
+      - "STEP 4: Ordina i numeri (1-5-5-9-18-19-22)"
+      - "STEP 5: Riconverti in lettere (AEEIRSV)"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    rotazione: 90
+    x: 1617
+    y: 2763
+    righe:
+      - "Codice cifrato crittografico GARANTITO NON DECIFRABILE AL 100%"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    rotazione: 90
+    allinea: centro
+    x: 1737
+    y: 1471
+    righe: ["ATTENTI! I PARANOICI VI CONTROLLANO!"]

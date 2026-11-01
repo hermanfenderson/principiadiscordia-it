@@ -1,0 +1,147 @@
+# Tavola p033 (originale 00018) — fine del mito della Mela, King Kong, Le Ere
+# Pagina del vecchio sito: 25 (testo/it/25.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (riquadro e scritta a mano dalle immagini di Mauro KingKong.png e HoChiZen.png)
+# DIFFERENZE: il primo paragrafo di testo/it/25.md ("E così come ella aveva promesso... la Guerra di Troia")
+#   è composto nella tavola p032, come nell'originale; qui si riparte da "quando Sparta chiese indietro...".
+#   Il "-2-" in testa alla pagina resta com'è. Nella nota in piccolo "HBT; The Book of Uterus, Chap. 3"
+#   è reso "HBT; Il Libro dell'Utero, Cap. 3" come in testo/it.
+# REFUSI CORRETTI: "Non c'e' accordo" -> "Non c'è accordo"; "cio'" -> "ciò" (nella nota in piccolo)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 33
+
+cancella:
+  - [140, 245, 1760, 640]       # testo dattiloscritto
+  - [90, 700, 1730, 1075]       # note in corsivo (il filetto a 671-677 resta)
+  - [512, 1270, 1402, 2100]     # scritte dentro il riquadro King Kong
+  - [170, 2265, 900, 2765]      # nota in piccolo (Ere 5-7)
+  - [1090, 2310, 1630, 2610]    # scritta a mano HO CHI ZEN
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    scala_x: 0.88
+    x: 151
+    y: 302
+    righe:
+      - "quando Sparta chiese indietro la sua Regina e che la Guerra"
+      - "di Troia è considerata la prima Guerra nata tra gli uomini."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 56
+    scala_x: 0.88
+    x: 151
+    y: 446
+    righe:
+      - "    E quindi noi soffriamo a causa di questo Affronto"
+      - "Originale. Ed è per questo che i Discordiani non si"
+      - "sollazzano mai con panini con Hot Dog."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 305
+    y: 626
+    righe: ["Ci credi?"]
+
+  - font: CourierPrime-Italic.ttf          # note in corsivo
+    corpo: 50
+    grassetto: 1
+    x: 158
+    y: 755
+    righe: ["* Questa è chiamata DOTTRINA DELL'AFFRONTO ORIGINALE."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 56
+    x: 129
+    y: 848
+    righe:
+      - "** Non c'è accordo tra gli storici se quella mela"
+      - "   era di oro metallico o di acapulco."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 56
+    scala_x: 0.97
+    x: 99
+    y: 1000
+    righe:
+      - "*** In realtà c'erano cinque dee, ma i Greci non"
+      - "    conoscevano la legge dei Cinque."
+
+  - font: AlfaSlabOne-Regular.ttf          # riquadro tipografico
+    corpo: 118
+    x: 540
+    y: 1368
+    righe: ["Ricorda:"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 118
+    x: 572
+    y: 1607
+    righe: ["KING"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 118
+    x: 731
+    y: 1734
+    righe: ["KONG"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 112
+    adatta: 840
+    x: 560
+    y: 1912
+    righe: ["E' Morto Per"]
+
+  - font: AlfaSlabOne-Regular.ttf
+    corpo: 112
+    adatta: 860
+    x: 535
+    y: 2087
+    righe: ["i Tuoi Peccati"]
+
+  - font: CourierPrime-Italic.ttf          # nota in piccolo
+    corpo: 25
+    interlinea: 29.4
+    scala_x: 0.9
+    x: 182
+    y: 2302
+    righe:
+      - "5. L'Era della Confusione, o Era Antica, è quella"
+      - "nella quale la Storia per come la conosciamo"
+      - "comincia a svolgersi, in cui tutto ciò che accade"
+      - "emerge in Forma corporale, più o meno, e questi"
+      - "tempi sono età di Sbilancio Bilanciato o di Bilancio"
+      - "Sbilanciato."
+      - "6. L'Era della Burocrazia è un'Era Imperiale in cui"
+      - "le Cose Maturano, in cui la Confusione diventa"
+      - "trincerata e durante la quale si ottiene il Bilancio"
+      - "Bilanciato, o Stagnazione."
+      - "7. L'Era del Disordine o dei Postumi è un Periodo"
+      - "Apocalittico di Transizione indietro verso il Caos,"
+      - "attraverso lo schermo dell'Oblio in cui l'Era si"
+      - "compie, finalmente. Questi sono periodi di Sbilancio"
+      - "Sbilanciato."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 25
+    scala_x: 0.9
+    x: 393
+    y: 2753
+    righe: ["HBT; Il Libro dell'Utero, Cap. 3"]
+
+  - font: PatrickHand-Regular.ttf          # scritta a mano
+    corpo: 118
+    allinea: centro
+    interlinea: 92
+    x: 1360
+    y: 2408
+    righe: ["HO CHI ZEN", "E'", "KING CONG"]

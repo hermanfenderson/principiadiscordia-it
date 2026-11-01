@@ -1,0 +1,249 @@
+# Tavola p037 (originale 00022) — POEE
+# Pagina del vecchio sito: 29 (testo/it/29.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (citazione di Lichtenberg dall'immagine di Mauro BookIsMirror2.png)
+# DIFFERENZE: il titolo decorativo "POEE" con le due Mani resta originale (stessa parola).
+#   In testo/it il nome "[L'Onnibenevolente Polipadre della Verginità in Oro]" è tra parentesi quadre:
+#   qui le parentesi sono rese con la sottolineatura, come nell'originale.
+#   "ha un solo scrupolo --che Mal-2 conservi il suo porta chiavi": testo/it seguito alla lettera; l'originale
+#   dice che lo scrupolo Mal-2 lo tiene sul portachiavi ("which Mal-2 keeps on his key chain"): da rivedere.
+#   "E il PAPA=POEE=." composto come in testo/it (originale "And POEE =POPE=.").
+#   Citazione ondulata composta lettera per lettera lungo l'onda originale; la firma "- LICHTENBERG" resta
+#   come nell'originale (nome proprio, stessa grafia). Lettere strette a scala_x 0,67 (scritta a mano, non
+#   dattiloscritto) per far entrare la frase italiana, più lunga, nell'onda.
+# REFUSI CORRETTI: "TIl TEMPIO" -> "Il TEMPIO"; "perchè" -> "perché"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 37
+
+cancella:
+  - [120, 360, 1795, 690]       # paragrafo 1
+  - [120, 730, 1770, 1045]      # paragrafo 2 (con sottolineatura)
+  - [120, 1090, 1710, 1345]     # paragrafo 3
+  - [120, 1390, 1650, 1595]     # paragrafo 4
+  - [120, 1632, 1685, 1890]     # paragrafo 5
+  - [120, 1935, 720, 2005]      # POEE has 5 DEGREES:
+  - [205, 2000, 1650, 2310]     # gradi (la stella a sinistra resta)
+  - [120, 2350, 1740, 2615]     # ultimo paragrafo
+  - [240, 2610, 1330, 2862]     # citazione ondulata (la firma LICHTENBERG resta: gradini sopra la firma)
+  - [1330, 2610, 1340, 2862]
+  - [1340, 2610, 1350, 2862]
+  - [1350, 2610, 1360, 2862]
+  - [1360, 2610, 1370, 2845]
+  - [1370, 2610, 1380, 2845]
+  - [1380, 2610, 1390, 2847]
+  - [1390, 2610, 1400, 2829]
+  - [1400, 2610, 1410, 2829]
+  - [1410, 2610, 1420, 2825]
+  - [1420, 2610, 1430, 2822]
+  - [1430, 2610, 1440, 2821]
+  - [1440, 2610, 1450, 2813]
+  - [1450, 2610, 1460, 2807]
+  - [1460, 2610, 1470, 2805]
+  - [1470, 2610, 1480, 2797]
+  - [1480, 2610, 1490, 2792]
+  - [1490, 2610, 1500, 2791]
+  - [1500, 2610, 1510, 2790]
+  - [1510, 2610, 1520, 2780]
+  - [1520, 2610, 1530, 2768]
+  - [1530, 2610, 1540, 2765]
+  - [1540, 2610, 1550, 2753]
+  - [1550, 2610, 1560, 2750]
+  - [1560, 2610, 1570, 2734]
+  - [1570, 2610, 1580, 2731]
+  - [1580, 2610, 1590, 2716]
+  - [1590, 2610, 1600, 2714]
+  - [1600, 2610, 1610, 2718]
+  - [1610, 2610, 1620, 2718]
+  - [1620, 2610, 1630, 2734]
+  - [1630, 2610, 1640, 2862]
+
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.5
+    scala_x: 0.92
+    x: 136
+    y: 431
+    righe:
+      - "POEE (pronunciato \"POEE\") è l'acronimo di"
+      - "PARATHEO-ANAMETAMISTICA DELL'ERIS ESOTERICA. La prima"
+      - "parte può essere considerata significare \"simil-deità,"
+      - "inversità oltre-mistica.\" Non siamo esoterici in realtà,"
+      - "è che nessuno ci presta molta attenzione."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.5
+    scala_x: 0.92
+    x: 136
+    y: 785
+    righe:
+      - "MIA ALTA REVERENZA MALACLYPSE IL GIOVANE, AB, DD, KSC, è"
+      - "l'Alto Sacerdote del POEE, e POEE è fondata sulle sue"
+      - "rivelazioni episcopali della Dea. Egli è chiamato"
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.92
+    x: 136
+    y: 966.5
+    righe: ["L'Onnibenevolente Polipadre della Verginità in Oro"]
+    sottolineato: true
+    distanza_sottolineatura: 12
+    spessore_sottolineatura: 3
+  - {font: IBMPlexMono-Medium.ttf, corpo: 52, scala_x: 0.92, x: 1571, y: 966.5, righe: ["."]}
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.92
+    x: 136
+    y: 1147
+    righe:
+      - "Il TEMPIO PRINCIPALE POEE è la Cabala Joshua Norton"
+      - "della Società Discordiana, che è collocata nella"
+      - "ghiandola pineale di Mal-2 e può essere trovata"
+      - "individuando nel tempo e nello spazio i resti di Mal-2."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60
+    scala_x: 0.92
+    x: 136
+    y: 1448
+    righe:
+      - "POEE non ha tesoreria, leggi locali, articoli, guide,"
+      - "eccezion fatta per la ghiandola pineale di Mal-2 e ha un"
+      - "solo scrupolo --che Mal-2 conservi il suo porta chiavi."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.5
+    scala_x: 0.92
+    x: 136
+    y: 1691
+    righe:
+      - "POEE non è registrato, incorporato o legato in altro"
+      - "modo con lo Stato, e pertanto lo Stato non riconosce la"
+      - "POEE o le ordinazioni POEE, il che è del resto giusto,"
+      - "perché POEE non riconosce lo Stato."
+
+  - {font: IBMPlexMono-Medium.ttf, corpo: 52, scala_x: 0.92, x: 136, y: 1994, righe: ["POEE ha 5 GRADI:"]}
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.75
+    scala_x: 0.88
+    x: 225
+    y: 2054
+    righe:
+      - "C'è il neofita o LEGIONARIO DISCEPOLO."
+      - "Il LEGIONARIO DIACONO, che ci sta prendendo la mano."
+      - "Un/una SACERDOTE ORDINATA POEE o CAPPELLANO."
+      - "L'ALTO SACERDOTE, il Polipadre."
+      - "E il PAPA=POEE=."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.7
+    scala_x: 0.92
+    x: 133
+    y: 2419
+    righe:
+      - "I LEGIONARI DISCEPOLI POEE sono autorizzati a iniziare"
+      - "altri come Legionari della Società Discordiana. I PRETI"
+      - "nominano i loro DIACONI. Il POLIPADRE ordina i"
+      - "sacerdoti. Non so nulla dei =PAPI=."
+
+  # citazione ondulata, lettera per lettera
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 22.5, x: 250, y: 2760, righe: ["“"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 23.0, x: 260, y: 2756, righe: ["Q"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 22.8, x: 280, y: 2747, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 22.4, x: 297, y: 2740, righe: ["E"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 21.7, x: 311, y: 2735, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 20.6, x: 325, y: 2729, righe: ["T"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 19.1, x: 340, y: 2724, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 17.6, x: 365, y: 2715, righe: ["L"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 16.8, x: 377, y: 2712, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 15.7, x: 384, y: 2709, righe: ["B"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 14.2, x: 400, y: 2705, righe: ["R"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 12.3, x: 415, y: 2701, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 7.2, x: 441, y: 2696, righe: ["È"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 3.6, x: 463, y: 2694, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -0.5, x: 482, y: 2693, righe: ["N"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -3.2, x: 500, y: 2693, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -9.7, x: 526, y: 2695, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -13.4, x: 541, y: 2698, righe: ["P"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -22.5, x: 557, y: 2702, righe: ["E"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -25.7, x: 570, y: 2707, righe: ["C"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -27.9, x: 587, y: 2715, righe: ["C"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -29.3, x: 603, y: 2724, righe: ["H"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -29.9, x: 617, y: 2731, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -29.7, x: 624, y: 2735, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -28.7, x: 640, y: 2744, righe: ["."]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -31.4, x: 653, y: 2751, righe: ["Q"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -32.6, x: 672, y: 2763, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -31.7, x: 687, y: 2773, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -29.4, x: 701, y: 2781, righe: ["N"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -20.1, x: 717, y: 2790, righe: ["D"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -11.7, x: 732, y: 2796, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 2.4, x: 758, y: 2801, righe: ["C"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 7.0, x: 776, y: 2800, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 13.7, x: 791, y: 2797, righe: ["G"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 21.7, x: 807, y: 2793, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 24.3, x: 824, y: 2786, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 25.8, x: 839, y: 2780, righe: ["R"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 26.5, x: 852, y: 2773, righe: ["D"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 26.5, x: 867, y: 2766, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 24.1, x: 888, y: 2755, righe: ["D"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 23.0, x: 903, y: 2749, righe: ["E"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 22.9, x: 916, y: 2743, righe: ["N"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 22.3, x: 933, y: 2736, righe: ["T"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 21.9, x: 947, y: 2730, righe: ["R"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 21.3, x: 962, y: 2724, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 19.7, x: 986, y: 2715, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 19.7, x: 1003, y: 2709, righe: ["N"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 19.8, x: 1020, y: 2703, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 17.5, x: 1043, y: 2694, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 15.4, x: 1057, y: 2690, righe: ["C"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 12.6, x: 1075, y: 2685, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 9.1, x: 1083, y: 2683, righe: ["M"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 6.4, x: 1102, y: 2680, righe: ["M"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 2.3, x: 1122, y: 2678, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -0.3, x: 1130, y: 2677, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -0.3, x: 1146, y: 2677, righe: [","]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -6.8, x: 1161, y: 2678, righe: ["N"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -10.6, x: 1179, y: 2680, righe: ["E"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -19.7, x: 1193, y: 2683, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -24.7, x: 1208, y: 2687, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -28.3, x: 1222, y: 2694, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -30.7, x: 1238, y: 2702, righe: ["N"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -32.3, x: 1260, y: 2716, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -31.6, x: 1274, y: 2724, righe: ["P"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -30.0, x: 1288, y: 2733, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -30.2, x: 1304, y: 2742, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -32.1, x: 1317, y: 2750, righe: ["T"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -32.8, x: 1330, y: 2758, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -32.4, x: 1346, y: 2768, righe: ["L"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -28.2, x: 1356, y: 2775, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -23.8, x: 1379, y: 2788, righe: ["R"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -17.0, x: 1394, y: 2793, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: -9.3, x: 1401, y: 2795, righe: ["C"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 4.3, x: 1419, y: 2797, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 15.8, x: 1436, y: 2796, righe: ["M"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 22.3, x: 1455, y: 2791, righe: ["B"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 23.5, x: 1471, y: 2784, righe: ["I"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 25.8, x: 1478, y: 2781, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 31.5, x: 1499, y: 2770, righe: ["L"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 33.4, x: 1510, y: 2764, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 35.1, x: 1532, y: 2749, righe: ["S"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 38.1, x: 1545, y: 2740, righe: ["G"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 39.7, x: 1557, y: 2731, righe: ["U"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 42.9, x: 1571, y: 2719, righe: ["A"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 49.7, x: 1583, y: 2707, righe: ["R"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 51.9, x: 1593, y: 2696, righe: ["D"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 54.2, x: 1603, y: 2683, righe: ["O"]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 54.0, x: 1614, y: 2668, righe: ["."]}
+  - {font: PatrickHand-Regular.ttf, corpo: 50, grassetto: 1, scala_x: 0.67, rotazione: 52.3, x: 1617, y: 2664, righe: ["”"]}

@@ -1,0 +1,108 @@
+# Tavola p057 (originale 00042) — Caos Convenzionale / La Maledizione di Facciagrigia
+# Pagina del vecchio sito: 49 (testo/it/49.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (timbro "DO NOT BEND" -> "NON PIEGARE" dalla nota del sito)
+# DIFFERENZE: il testo italiano è più lungo: corpo stretto a scala_x 0.91 e interlinea 58 (orig. 60), scende ~120 px più in basso;
+#   il titolo spaziato dell'originale è reso senza spaziatura (non ci starebbe) e stretto a scala_x 0.84
+# REFUSI CORRETTI: nessuno (lasciato "altro non sia altro che" come nel testo: da rivedere, ripetizione probabile)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 57
+
+cancella:
+  - [130, 215, 1800, 355]      # CONVENTIONAL CHAOS
+  - [1080, 435, 1625, 568]     # timbro DO NOT BEND
+  - [150, 625, 410, 692]       # GREYFACE
+  - [145, 805, 1800, 2320]     # testo dattiloscritto (l'italiano scende fino a ~2430)
+  - [1335, 2555, 1645, 2685]   # didascalia piccola in grassetto
+
+testi:
+  - font: AlfaSlabOne-Regular.ttf          # titolo nero con grazie
+    corpo: 148
+    scala_x: 0.84
+    x: 142
+    y: 343
+    righe: ["CAOS CONVENZIONALE"]
+
+  - font: Oswald-VF.ttf                    # timbro di gomma
+    corpo: 100
+    peso: 500
+    effetto: timbro
+    rotazione: -3
+    x: 1090
+    y: 530
+    righe: ["NON PIEGARE"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 160
+    y: 681
+    righe: ["FACCIAGRIGIA"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    scala_x: 0.91
+    x: 162
+    y: 866
+    righe:
+      - "Nell'anno 1166 A.C., un frustrato, gobbo nel cervello"
+      - "chiamato Facciagrigia, si ficcò in testa che l'Universo"
+      - "era privo di senso dell'umorismo almeno quanto ne mancava"
+      - "lui, e cominciò a predicare che il gioco era peccato"
+      - "perché contraddiceva la via dell'Ordine Serio. \"Guarda"
+      - "tutto l'ordine che c'è attorno a te,\" diceva. E con ciò,"
+      - "ingannava uomini onesti facendogli credere che la realtà"
+      - "altro non sia altro che una specie di camicia di forza e"
+      - "non la felice avventura che gli uomini conoscevano."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    scala_x: 0.91
+    x: 162
+    y: 1446
+    righe:
+      - "Non è al giorno d'oggi chiaro perché gli uomini in quel"
+      - "particolare momento fossero così creduloni, visto che"
+      - "nessuno in assoluto pensò di osservare tutto il disordine"
+      - "che li circondava concludendo così l'esatto contrario."
+      - "Ma, in ogni caso, Facciagrigia e i suoi seguaci"
+      - "prendevano il gioco del vivere più seriamente di quanto"
+      - "prendessero la stessa vita e erano noti anche per"
+      - "distruggere altri esseri viventi i cui modi di vivere"
+      - "differissero dai loro."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 58
+    scala_x: 0.91
+    x: 162
+    y: 2026
+    righe:
+      - "Lo sfortunato risultato di questo è che la specie umana"
+      - "da allora ha sofferto di uno sbilanciamento psicologico e"
+      - "spirituale. Lo sbilanciamento causa frustrazione, e la"
+      - "frustrazione causa paura. E la paura causa un cattivo"
+      - "trip. E l'uomo di oggi è in un cattivo trip da un bel po'"
+      - "di tempo."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.91
+    x: 162
+    y: 2432
+    righe: ["Si chiama la MALEDIZIONE DI FACCIAGRIGIA."]
+
+  - font: OldStandard-Bold.ttf             # didascalia piccola, tipografica
+    corpo: 33
+    grassetto: 1
+    interlinea: 39
+    allinea: centro
+    x: 1490
+    y: 2600
+    righe: ["Le stronzate", "fanno crescere i fiori", "e ciò è meraviglioso."]
+
+linee:
+  - [1525, 1571, 1779, 1575]   # sottolineatura di "disordine" (come "disorder")

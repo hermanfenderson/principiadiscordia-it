@@ -1,0 +1,157 @@
+# Tavola p026 (originale 00011) — Inno di Battaglia dell'Eristocrazia
+# Pagina del vecchio sito: 18 (testo/it/18.md)
+# STATO: completa
+# NUOVE TRADUZIONI: scritta verticale "If a quixotic socrates studied zen under Zorba...?" ->
+#   "Se un socrate donchisciottesco studiasse zen sotto Zorba...?" (mai tradotta sul vecchio sito)
+# DIFFERENZE: intestazione da storico/immagini-it/StTrinians2.png ("Circolo del Cucito /
+#   SOSTIENI LA TUA POLIZIA LOCALE / di San Trinian"), con "Circolo del Cucito" in alto come nella
+#   tavola di Mauro (nell'originale in alto c'è "St. Trinian's"); citazione di Custer da
+#   storico/immagini-it/Custer.png. Titolo composto in maiuscolo come nell'originale.
+# REFUSI CORRETTI: "all' Old Limbo Peak" -> "all'Old Limbo Peak"; aggiunto il punto finale alla nota
+# NdT ESCLUSE: nessuna
+# Le scritte corsive dell'intestazione sono in Caveat (nessun font a pennello disponibile),
+# leggermente inclinate invece che ad arco.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 26
+
+cancella:
+  - [440, 125, 1560, 615]      # intestazione St. Trinian's
+  - [368, 728, 1410, 779]      # titolo (restano i filetti sopra e sotto)
+  - [990, 788, 1420, 852]      # by Lord Omar
+  - [150, 930, 1745, 2210]     # inno
+  - [1740, 1000, 1762, 1065]    # punto e virgola di "The Chao;"
+  - [150, 2290, 1745, 2430]    # nota
+  - [1745, 1320, 1820, 2770]   # scritta verticale
+  - [170, 2662, 1720, 2830]    # citazione di Custer
+  - [1170, 2830, 1700, 2905]   # firma
+
+testi:
+  - font: Caveat-VF.ttf
+    peso: 700
+    corpo: 120
+    rotazione: 5
+    allinea: centro
+    x: 1000
+    y: 270
+    righe: ["Circolo del Cucito"]
+
+  - font: Oswald-VF.ttf
+    peso: 600
+    corpo: 96
+    adatta: 1120
+    allinea: centro
+    x: 1001
+    y: 386
+    righe: ["SOSTIENI LA TUA POLIZIA LOCALE"]
+
+  - font: Caveat-VF.ttf
+    peso: 700
+    corpo: 120
+    rotazione: 5
+    allinea: centro
+    x: 985
+    y: 545
+    righe: ["di San Trinian"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.96
+    allinea: centro
+    x: 886
+    y: 774
+    righe: ["INNO DI BATTAGLIA DELL'ERISTOCRAZIA"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    allinea: destra
+    x: 1406
+    y: 835
+    righe: ["di Lord Omar"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.9
+    interlinea: 60.3
+    x: 164
+    y: 984
+    righe:
+      - "STROFA"
+      - "Il mio cervello ha meditato sulla rotazione del Chao;"
+      - "E' in bilico sul tavolo dove i Capi"
+      - "     di Stato Maggiore sono ora"
+      - "Raccolti a discutere sul lancio della Bomba;"
+      - "Il Suo Corpo della Mela è forte!"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.9
+    interlinea: 60.5
+    x: 164
+    y: 1404
+    righe:
+      - "RITORNELLO"
+      - "Splendida (e sanguinosa) Vecchia Discordia!"
+      - "Splendida (e sanguinosa) Vecchia Discordia!"
+      - "Splendida (e sanguinosa) Vecchia Discordia!"
+      - "Il Suo Corpo della Mela è forte!"
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.9
+    interlinea: 60.6
+    x: 164
+    y: 1765
+    righe:
+      - "STROFA"
+      - "Ella non fu invitata alla festa che si tenne"
+      - "     a \"Limbo Peak\"*;"
+      - "Allora, lanciò una Mela d'Oro, anzichè"
+      - "     porgere l'altra guancia!"
+      - "Oh, essa ruppe la Sacra Coppa del Punch e"
+      - "     fece colare il suo nettare;"
+      - "Il Suo Corpo della Mela è forte!"
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.9
+    interlinea: 57
+    x: 164
+    y: 2354
+    righe:
+      - "* \"Limbo peak\" si riferisce all'Old Limbo Peak,"
+      - "comunemente chiamato dai Greci \"Ol' Limb' Peak\"."
+
+  - font: IBMPlexMono-Regular.ttf          # scritta verticale, scende dall'alto
+    corpo: 46
+    rotazione: -90
+    adatta: 1360
+    x: 1764
+    y: 1334
+    righe: ["Se un socrate donchisciottesco studiasse zen sotto Zorba...?"]
+
+  - font: Kalam-Regular.ttf                # citazione di Custer, a mano
+    corpo: 54
+    interlinea: 70
+    grassetto: 1
+    adatta: 1500
+    x: 180
+    y: 2730
+    righe:
+      - "\"La situazione sta evolvendo... il nemico sta sopportando"
+
+  - font: Kalam-Regular.ttf
+    corpo: 54
+    grassetto: 1
+    x: 860
+    y: 2800
+    righe: ["terribili perdite...\""]
+
+  - font: Kalam-Regular.ttf
+    corpo: 48
+    grassetto: 1
+    x: 1200
+    y: 2880
+    righe: ["- Gen. Geo. A. Custer"]

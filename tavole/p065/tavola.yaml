@@ -1,0 +1,132 @@
+# Tavola p065 (originale 00050) — Il Sacro Cao, pagina -2-
+# Pagina del vecchio sito: 57 (testo/it/57.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (la nuvoletta usa la nota del vecchio sito: "Parole di saggio, parole di sciocco, /
+#   per il discordiano, sono uguali all'occhio")
+# DIFFERENZE: nell'inglese "metaphysical reality, is irrelevant to grids entirely" -> nel testo "interamente
+#   scorrelata alle griglie" (resa come nel testo); "The belief that "order is true" and disorder is false or somehow
+#   wrong, is the Aneristic Illusion" è reso nel testo con un senso diverso ("La convinzione che l'affermazione ...
+#   sia falsa ... è l'ILLUSIONE ANERISTICA"): lasciato come nel testo, da rivedere
+# REFUSI CORRETTI: "grigle" -> "griglie"; "relativamete" -> "relativamente"; "il DISORDINE" a inizio
+#   paragrafo lasciato minuscolo come nel testo
+# NdT ESCLUSE: nessuna
+# Corsivo dattiloscritto: Courier Prime Italic 50, scala_x 0.88 (60 colonne), interlinea 57 (originale 60):
+#   l'italiano prende 4 righe in più, "Davvero! OK, ora basta." scende di conseguenza nello spazio libero.
+# Il bruco (Chaoterpillar) che sfiora la prima riga resta intatto.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 65
+
+cancella:
+  - [130, 367, 1742, 392]      # prima riga, parte alta (il bruco a destra resta)
+  - [130, 392, 1744, 424]
+  - [130, 424, 1722, 440]
+  - [130, 440, 1780, 2390]     # resto del corsivo
+  - [130, 2440, 1045, 2515]    # Verily! So much for all that.
+  - [205, 2782, 905, 2876]     # testo nella nuvoletta
+
+testi:
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 143
+    y: 414
+    righe:
+      - "Una cultura è un gruppo di persone con griglie abbastanza"
+      - "simili. Attraverso una finestra vediamo il caos lo mettiamo"
+      - "in relazione coi punti della nostra griglia e tramite essi"
+      - "lo comprendiamo. L'ORDINE è la GRIGLIA. Questo è il"
+      - "Principio Aneristico."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 143
+    y: 726
+    righe:
+      - "   La filosofia occidentale si è occupata tradizionalmente"
+      - "del contrastare a una griglia un'altra griglia, e"
+      - "implementare griglie nella speranza di trovarne una perfetta"
+      - "che possa tener conto di tutta la realtà ed essere, di"
+      - "conseguenza (dicono gli occidentali non illuminati) Vera."
+      - "Questa è un illusione: è ciò che noi Erisiani chiamiamo"
+      - "l'ILLUSIONE ANERISTICA. Alcune griglie sono più utili di"
+      - "altre, alcune più belle di altre, alcune più piacevoli di"
+      - "altre, ecc... ma nessuna può essere più Vera delle altre."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 143
+    y: 1266
+    righe:
+      - "   il DISORDINE è semplicemente informazioni scorrelate"
+      - "viste attraverso una qualche griglia in particolare. Ma come"
+      - "\"relazione\", anche nessuna-relazione è un concetto. Maschio,"
+      - "così come femmina, sono una idea collegata al sesso. Dire"
+      - "\"maschile è l'assenza di femminile\" o viceversa è"
+      - "semplicemente una questione di definizione, metafisicamente"
+      - "arbitraria. Il concetto artificiale di nessuna-relazione è"
+      - "il PRINCIPIO ERISTICO."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 143
+    y: 1749
+    righe:
+      - "   La convinzione che l'affermazione \"l'ordine è vero e il"
+      - "disordine è falso\" sia falsa o in qualche modo sbagliata è"
+      - "l'ILLUSIONE ANERISTICA. Dire la medesima cosa del disordine,"
+      - "è l'ILLUSIONE ERISTICA."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 143
+    y: 2004
+    righe:
+      - "   Il punto è che la verità (con la v minuscola) è materia"
+      - "da definirsi relativamente alla griglia che si sta usando in"
+      - "un determinato momento e che la Verità (con la V maiuscola),"
+      - "la realtà metafisica, è interamente scorrelata alle griglie."
+      - "Adotta una griglia e attraverso essa un po' del caos appare"
+      - "ordinato e un po' di esso disordinato. Adotta un'altra"
+      - "griglia e il medesimo caos appare differentemente ordinato o"
+      - "disordinato."
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 57
+    x: 143
+    y: 2487
+    righe:
+      - "   La Realtà è l'originale delle macchie di Rorschach."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 140
+    y: 2578
+    righe: ["Davvero! OK, ora basta."]
+
+  - font: CourierPrime-Italic.ttf           # nuvoletta
+    corpo: 25
+    interlinea: 31
+    x: 212
+    y: 2806
+    righe:
+      - "Parole di saggio, parole di sciocco,"
+      - "per il discordiano, sono uguali all'occhio."
+      - "     (HBT; il Libro del Consiglio, 2:1)"

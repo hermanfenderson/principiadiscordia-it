@@ -1,0 +1,161 @@
+# Tavola p075 (originale 00060) — Classificazione dei Santi
+# Pagina del vecchio sito: 67 (testo/it/67.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "NOTE:" -> "NOTA:" (nel testo è rimasto "Note:")
+# DIFFERENZE: "FOUR CATAGORIES" -> nel testo italiano manca "QUATTRO" ("LE SEGUENTI CATEGORIE"), lasciato così;
+#   nel testo il numero "5." è separato dal titolo ("SANTO A CINQUE STELLE / 5. I Cinque Apostoli"): ricomposto
+#   come nell'originale "5. SANTO A CINQUE STELLE" / "I Cinque Apostoli di Eris.";
+#   motto a mano: aggiunti i punti fermi alla fine delle frasi, come nell'originale
+# REFUSI CORRETTI: "gli essere umani" -> "gli esseri umani"; "POEE .)" -> "POEE.)"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 75
+cancella:
+  - [100, 195, 1000, 262]    # titolo
+  - [100, 370, 1760, 2440]    # corpo
+  - [150, 2525, 1660, 2870]    # motto a mano
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 111
+    y: 248
+    righe:
+      - "CLASSIFICAZIONE DEI SANTI"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 429
+    righe:
+      - "1. SANTO DI SECONDA CLASSE"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.95
+    interlinea: 59
+    x: 116
+    y: 551
+    righe:
+      - "Riservato a tutti gli esseri umani che meritino la"
+      - "Santità. Esempio: San Norton I, Imperatore degli Stati"
+      - "Uniti e Protettore del Messico (la sua tomba vicino San"
+      - "Francisco è un santuario ufficiale del POEE.)"
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    interlinea: 60
+    x: 116
+    y: 851
+    righe:
+      - "LE SEGUENTI CATEGORIE SONO RISERVATE A ESSERI DI"
+      - "FANTASIA CHE NON ESSENDO REALI, SONO PIU' CAPACI DI"
+      - "PERFEZIONE."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 1091
+    righe:
+      - "2. SANTO LANCIERE"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 66
+    x: 116
+    y: 1211
+    righe:
+      - "Santo di buona stoffa e di sicura ispirazione."
+      - "Esempio: San Yossarian (Catch 22, Heller)"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 1392
+    righe:
+      - "3. SANTO TENENTE"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 65
+    x: 116
+    y: 1513
+    righe:
+      - "Eccellente Santo Saturo della Dea."
+      - "Esempio: San Chisciotte (Don Chisciotte, Cervantes)"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 1693
+    righe:
+      - "4. SANTO GENERALE DI BRIGATA"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 1818
+    righe:
+      - "Comparabile al Ten. Santo ma con un rilevante"
+      - "seguito (vero o di fantasia)."
+      - "Esempio: San Bokonon (Ghiaccio-nove, Vonnegut)"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 2055
+    righe:
+      - "5. SANTO A CINQUE STELLE"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    interlinea: 60
+    x: 116
+    y: 2175
+    righe:
+      - "I Cinque Apostoli di Eris."
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    interlinea: 61
+    x: 116
+    y: 2358
+    righe:
+      - "NOTA: E' un'Antica Tradizione Erisiana di non"
+      - "concordare mai riguardo ai Santi."
+
+  - font: ArchitectsDaughter-Regular.ttf    # motto a mano
+    corpo: 62
+    grassetto: 1
+    interlinea: 59
+    x: 205
+    y: 2592
+    righe:
+      - "Tutti capiscono Topolino. Pochi"
+      - "capiscono Herman Hesse. Ancora meno"
+      - "capirono Albert Einstein. E nessuno"
+      - "capì l’Imperatore Norton."
+
+  - font: ArchitectsDaughter-Regular.ttf    # firma a mano
+    corpo: 58
+    grassetto: 1
+    x: 1630
+    allinea: destra
+    y: 2835
+    righe:
+      - "- Motto della Cabala Norton - S.F."
+
+linee:
+  - [111, 258, 891, 262]    # sottolineatura
+  - [865, 1287, 1114, 1292]    # sottolineatura
+  - [896, 1588, 1333, 1593]    # sottolineatura
+  - [802, 1948, 1208, 1953]    # sottolineatura

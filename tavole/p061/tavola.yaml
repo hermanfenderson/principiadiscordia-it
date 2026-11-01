@@ -1,0 +1,203 @@
+# Tavola p061 (originale 00046) — I Cinque Ordini di Discordia
+# Pagina del vecchio sito: 53 (testo/it/53.md)
+# STATO: completa
+# NUOVE TRADUZIONI: timbro "MILITARY" -> "MILITARE"
+# DIFFERENZE: le scritte a mano e lo slogan usano le note del vecchio sito ("E, osserva, in questo modo fu
+#   formulata la Legge...", "Non consentire LORO di immanentizzare l'Eschaton", "un 2 3 4, un 2 3 4, fianco
+#   sinistr, destr"), impaginate come l'originale (maiuscole, trattini, a capo)
+# REFUSI CORRETTI: "version" -> "versione"; "persone strafatti" -> "persone strafatte"; "bandiera ." -> "bandiera."
+# NdT ESCLUSE: nessuna
+# Dattiloscritto: IBM Plex Mono 52 con scala_x 0.96 per riprendere il passo 30 px dell'originale (55 colonne).
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 61
+
+cancella:
+  - [120, 60, 1370, 262]       # citazione a mano in alto
+  - [140, 315, 1250, 368]      # titolo (i filetti sopra e sotto restano)
+  - [140, 376, 1180, 440]      # Gen. Pandaemonium
+  - [140, 618, 1800, 2425]     # corpo e i cinque Ordini
+  - [284, 2445, 545, 2676]     # Don't let THEM immanentize
+  - [370, 2680, 545, 2742]     # the
+  - [312, 2750, 545, 2810]     # Eschaton
+  - [570, 2470, 1785, 2722]    # blocco in corsivo
+  - [570, 2722, 800, 2790]     # a flag.
+  - [600, 2775, 1200, 2925]    # HIP-2-3-4
+  - [1200, 2736, 1487, 2925]   # timbro MILITARY
+  - [1487, 2827, 1512, 2900]   # coda della Y sotto il numero di pagina
+
+testi:
+  - font: GochiHand-Regular.ttf             # citazione a mano
+    corpo: 62
+    grassetto: 1
+    scala_x: 0.93
+    x: 133
+    y: 128
+    righe: ["“E, osserva, in questo modo fu formulata la Legge:"]
+
+  - font: GochiHand-Regular.ttf
+    corpo: 54
+    grassetto: 1
+    x: 145
+    y: 180
+    righe: ["IMPOSIZIONE dell'Ordine = Escalation del Disordine!”"]
+
+  - font: GochiHand-Regular.ttf
+    corpo: 56
+    grassetto: 1
+    x: 195
+    y: 234
+    righe: ["[H.B.T.; dal Vangelo secondo Fred, 1:6]"]
+
+  - font: IBMPlexMono-Medium.ttf            # titolo
+    corpo: 52
+    scala_x: 0.96
+    x: 147
+    y: 360
+    righe: ['I CINQUE ORDINI DI DISCORDIA ("LORO")']
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 147
+    y: 420
+    righe: ["Gen. in Comando Pandaemonium"]
+
+  - font: IBMPlexMono-Medium.ttf            # corpo
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60.1
+    x: 147
+    y: 663
+    righe:
+      - "I semi degli ORDINI DI DISCORDIA furono impiantati da"
+      - "Facciagrigia nei suoi primi discepoli. Essi formano lo"
+      - "scheletro del Movimento Aneristico, che sovra-enfatizza"
+      - "il Principio di Ordine in modo antagonistico al suo"
+      - "necessario complemento, il Principio di Disordine. Gli"
+      - "Ordini sono composti di persone strafatte di autorità,"
+      - "sicurezza e controllo; in altri termini, sono accecati"
+      - "dall'Illusione Aneristica. Non sanno di appartenere"
+      - "agli Ordini di Discordia. Ma noi lo sappiamo."
+
+  - font: IBMPlexMono-Medium.ttf            # i cinque Ordini
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60.4
+    x: 147
+    y: 1264
+    righe:
+      - "    1. L'Ordine Militare dei CAVALIERI DEL TEMPIO A"
+      - "CINQUE FACCE. Per tutti i soldati e i burocrati del"
+      - "mondo."
+      - "    2. L'Ordine Politico del PARTITO DELLA GUERRA AL"
+      - "MALE. Riservato a legislatori, censori e gente del"
+      - "genere."
+      - "    3. L'Ordine Accademico dell'ASSOCIAZIONE DELLA"
+      - "CICUTA. Comunemente essi si trovano nelle scuole e"
+      - "nelle università e dominano molte di esse."
+      - "    4. L'Ordine Sociale del COMITATO CIVICO DEI"
+      - "CITTADINI PREOCCUPATI. Che è per lo più una versione"
+      - "più ruspante degli Ordini più professionali, militari,"
+      - "politici, accademici e sacri."
+      - "    5. Il Sacro Ordine della LEGA DELLA DIFFAMAZIONE."
+      - "Non si sa molto della L.D.D. ma essa è molto antica e"
+      - "molto probabilmente fu fondata da Facciagrigia in"
+      - "persona. E' cosa assodata che essa ha oggi un dominio"
+      - "assoluto su tutte le chiese organizzate del mondo. Si"
+      - "crede anche che siano in realtà cavoli travestiti da"
+      - "persone."
+
+  - font: Oswald-VF.ttf                     # slogan
+    corpo: 56
+    peso: 300
+    scala_x: 0.86
+    allinea: centro
+    x: 413
+    y: 2498
+    righe: ["Non consentire"]
+
+  - font: Anton-Regular.ttf
+    corpo: 110
+    allinea: centro
+    x: 410
+    y: 2611
+    righe: ["LORO"]
+
+  - font: Oswald-VF.ttf
+    corpo: 56
+    peso: 300
+    allinea: centro
+    x: 410
+    y: 2672
+    righe: ["di"]
+
+  - font: Oswald-VF.ttf
+    corpo: 46
+    peso: 300
+    scala_x: 0.86
+    allinea: centro
+    x: 436
+    y: 2736
+    righe: ["immanentizzare"]
+
+  - font: Oswald-VF.ttf
+    corpo: 56
+    peso: 300
+    allinea: centro
+    x: 405
+    y: 2805
+    righe: ["l'Eschaton"]
+
+  - font: CourierPrime-Italic.ttf           # corsivo dattiloscritto
+    corpo: 50
+    grassetto: 1
+    interlinea: 61
+    x: 578
+    y: 2529
+    righe:
+      - "Una persona che appartenga a uno o più"
+      - "Ordini tenderà a battere indifferente-"
+      - "mente la bandiera del potere costituito"
+      - "oppure quella avversa ad esso--purché"
+      - "sia una bandiera."
+
+  - font: GochiHand-Regular.ttf             # cadenza a mano
+    corpo: 72
+    grassetto: 2
+    scala_x: 0.95
+    x: 606
+    y: 2859
+    righe: ["UN-2-3-4, UN-2-3-4"]
+
+  - font: GochiHand-Regular.ttf
+    corpo: 62
+    grassetto: 2
+    scala_x: 0.88
+    x: 643
+    y: 2912
+    righe: ["FIANCO SINISTR, DESTR..."]
+
+  - font: Oswald-VF.ttf                     # timbro
+    corpo: 86
+    peso: 300
+    effetto: timbro
+    rotazione: -16
+    sottolineato: true
+    distanza_sottolineatura: 6
+    spessore_sottolineatura: 4
+    x: 1210
+    y: 2800
+    righe: ["MILITARE"]
+
+linee:
+  - [1016, 1156, 1106, 1161]   # "noi" sottolineato
+  - [357, 1276, 1677, 1280]    # Ordini sottolineati
+  - [147, 1336, 507, 1340]
+  - [357, 1457, 1707, 1461]
+  - [147, 1518, 267, 1522]
+  - [357, 1638, 1647, 1642]
+  - [147, 1699, 327, 1703]
+  - [357, 1820, 1557, 1824]
+  - [147, 1880, 777, 1884]
+  - [357, 2061, 1707, 2065]

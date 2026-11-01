@@ -1,0 +1,211 @@
+# Tavola p083 (originale 00068) — Incarnazioni (Avatars)
+# Pagina del vecchio sito: 75 (testo/it/75.md) + immagine storico/immagini-it/Avatars.png
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna: tutte le scritte del disegno seguono Avatars.png di Mauro
+#   (INCARNAZIONI, ERISIANO/ERISTICO/ANERISTICO/MISTO/V COLONNA, ESPLOSO/ESPANSO/
+#   COSCIENZIOSO/COSCIENTE/INCOSCIENTE, PROFANO, SACRO, PIANTA I TUOI SEMI,
+#   Maria Joanna, TIENI BASSI I PREZZI).
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "COSCENZIOSO" (Avatars.png) -> "COSCIENZIOSO"; nella citazione della
+#   Genesi aggiunte le chiusure »" mancanti in testo/it.
+# NdT ESCLUSE: nessuna
+# FONT: titolo in Kalam Bold (l'originale è un corsivo decorativo a contorno, senza
+#   equivalente); fumetto in Anton; TIENI / BASSI I PREZZI in Inter Black
+#   (font di sistema, OFL); "Maria Joanna" in Old Standard Bold.
+
+pagina_pdf: 83
+
+cancella:
+  - [340, 105, 1560, 226]       # domanda sul picchio
+  - [150, 262, 1500, 628]       # titolo AVATARS
+  - [430, 686, 1320, 729]       # intestazioni di colonna
+  - [1336, 812, 1600, 1568]     # etichette di riga
+  - [178, 795, 306, 1516]       # - MUNDANE -
+  - [196, 1982, 306, 2430]      # - HOLY -
+  - [1178, 1866, 1396, 2104]    # PLANT YOUR SEEDS (lontano dal contorno del fumetto)
+  - [1178, 2104, 1362, 2130]
+  # Mary Jane: strisce verticali che seguono la scritta inclinata
+  - [1450, 2164, 1459, 2180]
+  - [1460, 2149, 1469, 2183]
+  - [1470, 2133, 1479, 2179]
+  - [1480, 2140, 1489, 2199]
+  - [1490, 2156, 1499, 2201]
+  - [1500, 2154, 1509, 2207]
+  - [1510, 2156, 1519, 2211]
+  - [1520, 2182, 1529, 2218]
+  - [1530, 2181, 1539, 2232]
+  - [1540, 2183, 1549, 2234]
+  - [1550, 2187, 1559, 2233]
+  - [1560, 2190, 1569, 2223]
+  - [1570, 2193, 1579, 2210]
+  - [1580, 2181, 1589, 2231]
+  - [1590, 2179, 1599, 2231]
+  - [1600, 2179, 1609, 2227]
+  - [1610, 2189, 1619, 2227]
+  - [1620, 2190, 1629, 2226]
+  - [1630, 2188, 1639, 2225]
+  - [1640, 2187, 1649, 2222]
+  - [1650, 2186, 1659, 2220]
+  - [1660, 2175, 1669, 2218]
+  - [1670, 2174, 1679, 2213]
+  - [1680, 2177, 1689, 2211]
+  - [1690, 2195, 1699, 2204]
+  - [1476, 2441, 1668, 2480]    # KEEP (sotto la scarpa)
+  - [1176, 2611, 1668, 2660]    # PRICES DOWN (sotto il contorno della mano)
+  - [1546, 2598, 1668, 2612]    # parte alta di DOWN, oltre la fine della mano
+  - [1355, 2098, 1374, 2121]    # punto finale di SEEDS.
+  - [925, 2675, 1715, 2900]     # citazione della Genesi
+
+testi:
+  - font: OldStandard-Bold.ttf
+    corpo: 50
+    x: 462
+    y: 157
+    righe: ["D. \"Perché a un picchio non esplode il"]
+  - font: OldStandard-Bold.ttf
+    corpo: 50
+    x: 363
+    y: 205
+    righe: ["cervello?\" R. Nessuno l'ha mai spiegato."]
+
+  - font: Kalam-Bold.ttf
+    corpo: 380
+    grassetto: 2
+    scala_x: 0.86
+    adatta: 1580
+    allinea: centro
+    x: 820
+    y: 560
+    righe: ["INCARNAZIONI"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 508
+    y: 720
+    righe: ["ERISIANO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 690
+    y: 720
+    righe: ["ERISTICO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 870
+    y: 720
+    righe: ["ANERISTICO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 1050
+    y: 720
+    righe: ["MISTO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 30
+    grassetto: 1
+    allinea: centro
+    x: 1230
+    y: 720
+    righe: ["V COLONNA"]
+
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 32
+    grassetto: 1
+    x: 1343
+    y: 847
+    righe: ["ESPLOSO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 32
+    grassetto: 1
+    x: 1343
+    y: 1019
+    righe: ["ESPANSO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 32
+    grassetto: 1
+    x: 1343
+    y: 1193
+    righe: ["COSCIENZIOSO"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 32
+    grassetto: 1
+    x: 1348
+    y: 1365
+    righe: ["COSCIENTE"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 32
+    grassetto: 1
+    x: 1345
+    y: 1554
+    righe: ["INCOSCIENTE"]
+
+  - font: ArchitectsDaughter-Regular.ttf     # sale dal basso
+    corpo: 150
+    grassetto: 3
+    rotazione: 90
+    adatta: 707
+    x: 293
+    y: 1509
+    righe: ["- PROFANO -"]
+  - font: ArchitectsDaughter-Regular.ttf
+    corpo: 150
+    grassetto: 3
+    rotazione: 90
+    adatta: 435
+    x: 293
+    y: 2424
+    righe: ["- SACRO -"]
+
+  - font: Anton-Regular.ttf                  # fumetto
+    corpo: 84
+    interlinea: 92
+    allinea: centro
+    x: 1280
+    y: 1940
+    righe: ["PIANTA", "I TUOI", "SEMI"]
+
+  - font: OldStandard-Bold.ttf               # sulla gonna, in diagonale
+    corpo: 46
+    grassetto: 1
+    rotazione: -15
+    adatta: 215
+    x: 1462
+    y: 2172
+    righe: ["Maria Joanna"]
+
+  - font: Inter-Black.otf
+    corpo: 52
+    allinea: centro
+    x: 1572
+    y: 2475
+    righe: ["TIENI"]
+  - font: Inter-Black.otf
+    corpo: 54
+    adatta: 485
+    allinea: centro
+    x: 1423
+    y: 2652
+    righe: ["BASSI  I  PREZZI"]
+
+  - font: OldStandard-Bold.ttf
+    corpo: 47
+    interlinea: 46
+    x: 934
+    y: 2712
+    righe:
+      - "\"E Dio disse: «Ecco io vi do"
+      - "ogni erba che fa seme sulla superficie"
+      - "di tutta la terra ..."
+      - "questo vi servirà di nutrimento.»\""
+  - font: OldStandard-Bold.ttf
+    corpo: 47
+    allinea: destra
+    x: 1681
+    y: 2894
+    righe: ["-Genesi 1:29"]

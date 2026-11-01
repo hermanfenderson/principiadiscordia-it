@@ -1,0 +1,347 @@
+# Tavola p055 (originale 00040) — I Cinque Apostoli di Eris (3-5), seguito
+# Pagina del vecchio sito: 47 (testo/it/47.md); le prime parole ("Tutte le") stanno in fondo a p054
+# STATO: completa
+# NUOVE TRADUZIONI: didascalia "APOSTLE THE ELDER MALACLYPSE" -> "APOSTOLO MALACLYPSE IL VECCHIO"
+# DIFFERENZE: "Patron to psychedelic type Discordians" reso "Patrono dei Discordiani del tipo psichedelico" (come nel testo);
+#   "Patron on The Season of The Aftermath" -> "Stagione di Vendetta" (come nel testo); "DOOM - APOCALISSE" e "DUMB - FESSO"
+#   e "Non-Prophet" come nel testo italiano; le due colonne in fondo nell'originale sono giustificate e quella di destra
+#   è tagliata dal bordo pagina: qui sono allineate a sinistra e intere
+# REFUSI CORRETTI: "veri ... false in un certo senso" -> "falsi" nella colonna di destra (concordanza con "insegnamenti");
+#   "ElderMalaclypse.gif" (resto di immagine nel testo) tolto
+# NdT ESCLUSE: nessuna
+# Il corpo del testo è stretto a scala_x 0.88 per far entrare l'italiano nelle stesse righe dell'originale.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 55
+
+cancella:
+  - [175, 245, 1815, 925]      # fine nome di Sri Syadasti, nota
+  - [175, 970, 1815, 1375]     # Zarathud
+  - [175, 1425, 1815, 1600]    # Malaclypse, titolo e prima riga
+  - [785, 1600, 1815, 2125]    # Malaclypse, colonna accanto all'immagine
+  - [270, 2050, 712, 2092]     # didascalia sotto l'immagine
+  - [175, 2112, 1815, 2238]    # Malaclypse, ultime righe (sotto c'è il numero 00040)
+  - [175, 2238, 700, 2256]     # coda di "Holyday: Oct 24."
+  - [90, 2410, 945, 2895]      # colonna in basso a sinistra
+  - [1010, 2355, 1827, 2885]   # colonna in basso a destra
+
+testi:
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 311.0
+    righe: ["affermazioni sono vere in un certo senso, false in un certo"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 370.0
+    righe: ["senso, prive di senso in un certo senso, vere e false in un"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 429.0
+    righe: ["certo senso, vere e prive di senso in un certo senso, false"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 488.0
+    righe: ["e prive di senso in un certo senso, e vere, false e prive"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 547.0
+    righe: ["di senso in un certo senso."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 950.8
+    y: 547.0
+    righe: ["Egli è un Principe ed Esperto"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 606.0
+    righe: ["Indiano, nato nella Tribù Peyotl, figlio del Gentile Capo"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 665.0
+    righe: ["Seme di Girasole e della squaw Merry Jane. Patrono dei"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 724.0
+    righe: ["Discordiani del tipo psichedelico. Patrono della Stagione"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 783.0
+    righe: ["di Confusione. Festa: 31 Mag."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 1005.4
+    y: 783.0
+    righe: ["NOTA: Sri Syadasti non"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 842.0
+    righe: ["andrebbe confuso con il"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 841.7
+    y: 842.0
+    righe: ["Benedetto San Gulik lo Strafatto"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 1714.7
+    y: 842.0
+    righe: [","]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    x: 187.0
+    y: 901.0
+    righe: ["che benchè non sia la stessa persona, è lo stesso Apostolo."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1024.9
+    righe: ["4."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 268.8
+    y: 1024.9
+    righe: ["ZARATHUD"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 514.4
+    y: 1024.9
+    righe: ["L'INCORREGGIBILE, alle volte chiamato ZARATHUD"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1083.9
+    righe: ["IL DEVOTO"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1172.4
+    righe: ["Cocciuto Eremita dell'Europa Medievale e Criminale Caosofo"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1231.4
+    righe: ["Biblista. Soprannominato \"Offendente della Fede.\""]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1290.4
+    righe: ["Scopritore dei Cinque Comandamenti. Patrono della Stagione"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1349.4
+    righe: ["di Burocrazia. Festa: 12 Ago."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1473.3
+    righe: ["5."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 268.8
+    y: 1473.3
+    righe: ["MALACLYPSE IL VECCHIO"]
+    sottolineato: true
+    distanza_sottolineatura: 9
+    spessore_sottolineatura: 4
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 1564.8
+    righe: ["Saggio pellegrino dell'Antica Mediterrania (\"Med-Terra\" o"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1623.8
+    righe: ["media terra), che inseguì una Stella"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1682.8
+    righe: ["a 5 punte, per i vicoli di Roma,"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1741.8
+    righe: ["Damasco, Baghdad, Gerusalemme, la"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1800.8
+    righe: ["Mecca e il Cairo, recando un"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1859.8
+    righe: ["cartello che poteva sembrare"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1918.8
+    righe: ["leggersi \"DOOM - APOCALISSE\". (Ma"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 1977.8
+    righe: ["era un fraintendimento. Il cartello"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 2036.8
+    righe: ["in realtà diceva \"DUMB - FESSO\"."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 800.0
+    y: 2095.8
+    righe: ["Mal-1 è un Non-Prophet.) Patrono e"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 2154.8
+    righe: ["omonimo di Mal-2. Patrono della Stagione di Vendetta."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.88
+    x: 187.0
+    y: 2213.8
+    righe: ["Festa: 24 Ott."]
+  - font: Oswald-VF.ttf                   # didascalia dell'immagine
+    corpo: 30
+    peso: 300
+    allinea: centro
+    x: 491
+    y: 2082
+    righe: ["APOSTOLO MALACLYPSE IL VECCHIO"]
+
+  - font: OldStandard-Regular.ttf         # colonne tipografiche in fondo
+    corpo: 42
+    grassetto: 1
+    interlinea: 52.5
+    x: 103
+    y: 2460
+    righe:
+      - "Tutte le affermazioni sono vere in un certo"
+      - "senso, false in un certo senso, prive di senso"
+      - "in un certo senso, vere e false in un certo"
+      - "senso, vere e prive di senso in un certo senso,"
+      - "false e prive di senso in un certo senso, e"
+      - "vere, false e prive di senso in un certo senso."
+      - "Servizio Pubblico di chiarimento offerto dalla"
+      - "Scuola Sri Syadasti di Saggezza Spirituale,"
+      - "Wilmette."
+
+  - font: OldStandard-Regular.ttf
+    corpo: 42
+    grassetto: 1
+    interlinea: 51.8
+    x: 1024
+    y: 2403
+    righe:
+      - "Gli insegnamenti della Scuola Sri Syadasti"
+      - "di Saggezza Spirituale sono veri in un certo"
+      - "senso, falsi in un certo senso, privi di senso"
+      - "in un certo senso, veri e falsi in un certo"
+      - "senso, veri e privi di senso in un certo"
+      - "senso, falsi e privi di senso in un certo"
+      - "senso, e veri, falsi e privi di senso in un"
+      - "certo senso. Patamunzo Lingananda Scuola"
+      - "di ancora Maggiore Saggezza Spirituale,"
+      - "Skokie."

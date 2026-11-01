@@ -1,0 +1,81 @@
+# Tavola p072 (originale 00057) — Cosmogonia, seguito (pagina -2-)
+# Pagina del vecchio sito: 64 (testo/it/64.md)
+# Testo ruotato di 90° (si legge dal basso verso l'alto): testi con rotazione: 90.
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: nessuna
+# REFUSI CORRETTI: "alcuin" -> "alcuni"; "finalmnente" -> "finalmente"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 72
+cancella:
+  - [295, 191, 1770, 2836]    # corpo dattiloscritto
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 350
+    y: 2821
+    righe:
+      - "      Sulle prime, le cose generate da Eris erano in uno stato di caos e andavano in"
+      - "tutte le direzioni, ma via via Ella cominciò a giocare con esse e metterle in ordine"
+      - "semplicemente per vedere cosa sarebbe successo. Alcune cose belle vennero fuori da"
+      - "questo gioco e per i successivi cinque zilioni di anni Ella si divertì a creare"
+      - "ordine. E così Ella raggruppò alcune cose con altre e alcuni gruppi con altri e grandi"
+      - "gruppi con piccoli gruppi e tutte le possibili combinazioni finché Ella aveva"
+      - "costruito un grande schema e ciò La deliziò."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 810
+    y: 2821
+    righe:
+      - "      Intenta a stabilire l'ordine, Ella finalmente un giorno notò il disordine (che"
+      - "prima non era visibile in ragione del fatto che tutto prima era caos). C'erano molti"
+      - "modi in cui il caos era ordinato e molti modi in cui non lo era."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 1030
+    y: 2821
+    righe:
+      - "      \"Hah,\" Ella pensò, \"Ecco un nuovo gioco.\""
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 1130
+    y: 2821
+    righe:
+      - "      Ed Ella insegnò all'ordine e al disordine a giocare l'uno con l'altro in sfide e"
+      - "a turno stupire l'altro. Ella chiamò il lato del disordine dal Suo nome, \"ERISTICO\""
+      - "poiché l'Essere è anarchico. E quindi, con un moto di simpatia per la Sua sorella"
+      - "solitaria, Ella chiamò l'altra parte \"ANERISTICA\" il che lusingò Aneris e smussò un"
+      - "po' il conflitto che c'era tra loro."
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.962
+    rotazione: 90
+    interlinea: 60
+    x: 1470
+    y: 2821
+    righe:
+      - "      Ora per tutto quel tempo, Vuoto era in qualche modo disturbato. Egli si sentiva"
+      - "insoddisfatto per aver creato solo l'esistenza fisica e la non-esistenza fisica ma"
+      - "avendo trascurato quella spirituale. La sua contemplazione di questo fatto, causò una"
+      - "grande Quiete ed egli entrò in uno stato di Sonno Profondo che durò 5 ere. Alla fine"
+      - "di questo processo, egli generò un fratello a Eris e Aneris, quello della"
+      - "SPIRITUALITA', che non aveva un nome."
+

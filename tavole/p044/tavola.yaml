@@ -1,0 +1,314 @@
+# Tavola p044 (originale 00029) — Il Rito Battesimale POEE
+# Pagina del vecchio sito: 36 (testo/it/36.md)
+# STATO: completa
+# NUOVE TRADUZIONI: timbro "RETURN TO RESTRICTED ROOM / DO NOT PASS "GO". DO NOT COLLECT $200" ->
+#   "RITORNARE ALLA STANZA RISERVATA / NON PASSATE DAL VIA. NON RITIRATE 20.000 LIRE" (citazione del Monopoli
+#   italiano); "TRIP 5" lasciato com'è ("trip" è usato anche nel testo italiano di Mauro)
+# DIFFERENZE: il testo italiano ha "I Sacerdoti ... di fronte ai Sacerdoti" (plurale) dove l'inglese ha
+#   "The Priest": mantenuto. "quattro volte" per "four more times": mantenuto.
+# REFUSI CORRETTI: "cerimona" -> "cerimonia"; "dorebbero" -> "dovrebbero"; "Sacerdote assumono" -> "Sacerdote,
+#   assumono"
+# NdT ESCLUSE: nessuna
+# Corpo dattiloscritto a passo 30 px (IBM Plex Mono con scala_x 0.96 per il tondo, Courier Prime corsivo per
+#   le parti in corsivo), così tondo e corsivo restano in colonna. Interlinea ridotta da 60 a 58 per far entrare
+#   l'italiano, più lungo.
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 44
+
+cancella:
+  - [540, 295, 1375, 360]      # = THE POEE BAPTISMAL RITE =
+  - [205, 440, 1800, 2600]     # tutto il testo
+  - [205, 2600, 900, 2660]     # (margine sinistro sotto il testo, fino a 00029 escluso)
+  - [900, 2585, 1700, 2865]    # timbro
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    allinea: centro
+    x: 957
+    y: 350
+    righe: ["= IL RITO BATTESIMALE POEE ="]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 503
+    righe: ["Questo Rito Misterico non è necessario per"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 561
+    righe: ["l'iniziazione, ma viene offerto da molti Sacerdoti"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 619
+    righe: ["POEE ai proseliti che desiderino una cerimonia"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 677
+    righe: ["formale."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 803
+    righe: ["1) I Sacerdoti e quattro Fratelli sono disposti in"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 861
+    righe: ["forma di pentagono con l'Iniziato al centro di"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 919
+    righe: ["fronte ai Sacerdoti. Se possibile, i Fratelli"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 977
+    righe: ["all'immediata destra e sinistra del Sacerdote"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1035
+    righe: ["dovrebbero essere Diaconi. L'Iniziato deve essere"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1093
+    righe: ["completamente nudo, per dimostrare di essere"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1151
+    righe: ["veramente un essere umano e non qualcos'altro"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1209
+    righe: ["mascherato tipo un cavolo o qualcosa del genere."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1335
+    righe: ["2) Tutte le persone nell'assemblea e il pentagono, a"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1393
+    righe: ["eccezione del Sacerdote, assumono una posizione"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1451
+    righe: ["accovacciata per tornare in piedi. Questo va"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1509
+    righe: ["ripetuto quattro volte. Questa danza è simbolica"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1567
+    righe: ["dell'umiltà di noi Erisiani."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 1693
+    righe: ["3) Il Sacerdote inizia:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 1763
+    righe: ["Io, (Nome Sacro completo dei Titoli Mistici, gradi,"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 1821
+    righe: ["designazioni, uffici, ecc...), Sacerdote Consacrato"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 1879
+    righe: ["della Paratheo-anametamistica Esoterica di Eris, in"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 1937
+    righe: ["virtù dell'Autorità a me conferita dal suo Sommo"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 1995
+    righe: ["Sacerdote, Ufficio del Polipadre, Casa del Barilotto"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 2053
+    righe: ["Sorgente, Tempio Centrale POEE; Chiedo a Te dianzi:"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 309
+    y: 2111
+    righe: ["1) SEI TU UN ESSERE UMANO E NON UN CAVOLO O"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 2169
+    righe: ["QUALCOSA DEL GENERE?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 849
+    y: 2169
+    righe: ["L'Iniziato risponde SI."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 309
+    y: 2227
+    righe: ["2) QUESTO E' MOLTO MALE. DESIDERI MIGLIORARE TE"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 2285
+    righe: ["STESSO?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 459
+    y: 2285
+    righe: ["L'Iniziato risponde SI."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 309
+    y: 2343
+    righe: ["3) CHE CRETINO. DESIDERI DIVENTARE"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 2401
+    righe: ["FILOSOFICAMENTE ILLUMINATO?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 1059
+    y: 2401
+    righe: ["Egli risponde SI."]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 309
+    y: 2459
+    righe: ["4) MOLTO BUFFO. DEDICHERAI TE STESSO AL SACRO"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    x: 219
+    y: 2517
+    righe: ["MOVIMENTO ERISIANO?"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 819
+    y: 2517
+    righe: ["L'Iniziato risponde"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 219
+    y: 2575
+    righe: ["E' PROBABILE."]
+
+  - font: Oswald-VF.ttf                    # timbro
+    corpo: 96
+    peso: 300
+    interlinea: 104
+    effetto: timbro
+    rotazione: -3
+    allinea: centro
+    x: 1290
+    y: 2672
+    righe: ["RITORNARE ALLA", "STANZA RISERVATA"]
+
+  - font: Kalam-Bold.ttf
+    corpo: 40
+    rotazione: -3
+    adatta: 760
+    x: 925
+    y: 2818
+    righe: ["NON PASSATE DAL \"VIA\". NON RITIRATE 20.000 LIRE"]
+
+linee:
+  - [339, 1771, 1749, 1774]
+  - [219, 1829, 1119, 1832]

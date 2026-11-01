@@ -1,0 +1,181 @@
+# Tavola p047 (originale 00032) — La Società Discordiana
+# Pagina del vecchio sito: 39 (testo/it/39.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (le scritte a mano e la citazione di Lennon sono nel testo italiano di Mauro)
+# DIFFERENZE: "Episkopos" è reso "Vescovo" come nel testo italiano; "one-man band" in corsivo nel testo, qui
+#   nella scritta a mano. Testo più lungo dell'inglese: paragrafo lungo a 58 colonne.
+# REFUSI CORRETTI: "Freaks Erisiani E' stato anche chiamato" -> "Freaks Erisiani. E' stata anche chiamata";
+#   "IL Vescovo" -> "Il Vescovo"; "Dinamica p qualcuno che oreferisca" -> "Dinamica è qualcuno che preferisca";
+#   "fa ciò che ti pare" -> "fa' ciò che ti pare"
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 47
+
+cancella:
+  - [530, 18, 1460, 84]        # NO TWO EQUALS ARE THE SAME! (il ghirigoro sotto resta)
+  - [530, 84, 845, 98]
+  - [1050, 84, 1460, 98]
+  - [570, 205, 1255, 275]      # THE DISCORDIAN SOCIETY (le mele K restano)
+  - [120, 385, 1827, 2265]     # tutto il dattiloscritto, la scritta a mano e Lennon
+  - [1060, 2265, 1827, 2400]
+  # testo nello stendardo: fasce che seguono il contorno interno
+  - [1480, 2508, 1580, 2520]   # resto della T di RIGHT sotto il bordo
+  - [1044, 2520, 1757, 2528]
+  - [995, 2528, 1777, 2536]
+  - [932, 2536, 1788, 2544]
+  - [155, 2544, 1790, 2552]
+  - [155, 2552, 1796, 2560]
+  - [155, 2560, 1798, 2568]
+  - [155, 2568, 1798, 2576]
+  - [155, 2576, 1802, 2584]
+  - [156, 2584, 1805, 2592]
+  - [155, 2592, 1809, 2600]
+  - [153, 2600, 1809, 2608]
+  - [154, 2608, 1812, 2616]
+  - [152, 2616, 1812, 2624]
+  - [151, 2624, 1812, 2632]
+  - [150, 2632, 1814, 2640]
+  - [150, 2640, 1814, 2648]
+  - [150, 2648, 1811, 2656]
+  - [149, 2656, 1810, 2664]
+  - [147, 2664, 1811, 2672]
+  - [147, 2672, 1557, 2680]
+  - [148, 2680, 1524, 2688]
+  - [149, 2688, 1494, 2696]
+  - [150, 2696, 1278, 2704]
+  - [152, 2704, 1152, 2712]
+  - [152, 2712, 875, 2720]
+  - [153, 2720, 763, 2728]
+  - [154, 2728, 661, 2736]
+  - [157, 2736, 575, 2744]
+  - [174, 2744, 228, 2752]
+
+testi:
+  - font: Kalam-Bold.ttf                   # scritta a mano in alto
+    corpo: 54
+    allinea: centro
+    adatta: 930
+    x: 995
+    y: 80
+    righe: ["NON CI SONO DUE UGUALI CHE SIANO IDENTICI!"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    allinea: centro
+    x: 913
+    y: 264
+    righe: ["LA SOCIETA' DISCORDIANA"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 132
+    y: 448
+    righe: ["La Società Discordiana non si definisce."]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.9
+    interlinea: 60
+    x: 132
+    y: 569
+    righe:
+      - "Penso ad essa alle volte come una dis-organizzazione di"
+      - "Freaks Erisiani. E' stata anche chiamata un teatro mentale"
+      - "di guerriglia. Il Vescovo Fattorecasuale, Direttore delle"
+      - "Purghe della setta \"Movimento della Nostra Gente del Mondo"
+      - "sommerso\" di Larchmont, preferisce \"La più Grande"
+      - "Associazione Mondiale di Qualsiasi-cosa-sia-che-siamo.\""
+      - "Lady Mal pensa che sia da definirsi un THINK TANK"
+      - "RINASCIMENTALE. Fang il Non-Lavato, WKC, non ne parla."
+      - "Puoi pensare di essa ciò che credi."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.9
+    interlinea: 60
+    x: 132
+    y: 1150
+    righe:
+      - "UN VESCOVO DELLA SOCIETA' DISCORDIANA"
+      - "è uno che preferisce la totale autonomia e creare la sua"
+      - "propria setta Discordiana secondo la direzione che la Dea"
+      - "gli indica. Parla per se stesso e per coloro che"
+      - "apprezzano ciò che dice."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60
+    x: 132
+    y: 1500
+    righe:
+      - "LA LEGIONE DELLA DISCORDIA DINAMICA:"
+      - "Un Legionario della Discordia Dinamica è qualcuno che"
+      - "preferisca non creare la sua setta."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60
+    x: 132
+    y: 1710
+    righe:
+      - "Se vuoi essere nella Società Discordiana"
+      - "allora dichiara te stesso per ciò"
+      - "che desideri essere"
+      - "fa' ciò che ti pare"
+      - "e parlacene"
+      - "o"
+      - "se preferisci"
+      - "non farlo."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60
+    x: 132
+    y: 2228
+    righe: ["Non ci sono regole in nessun posto.", "La Dea prevale."]
+
+  - font: Kalam-Bold.ttf                   # scritta a mano a destra
+    corpo: 62
+    interlinea: 62
+    rotazione: 2
+    allinea: centro
+    adatta: 700
+    x: 1420
+    y: 1880
+    righe: ["Alcuni Vescovi hanno", "una Cabala one-man band.", "Alcuni lavorano assieme.", "Alcuni non spiegano mai."]
+
+  - font: OldStandard-Regular.ttf          # citazione di Lennon
+    corpo: 32
+    interlinea: 40
+    grassetto: 1
+    adatta: 600
+    x: 1170
+    y: 2260
+    righe:
+      - "Quando arrivo al fondo vado di nuovo in cima"
+      - "allo scivolo dove mi fermo, mi giro, e mi faccio"
+      - "un giro, poi ritorno al fondo e ti vedo"
+      - "di nuovo! Helter skelter!"
+
+  - font: OldStandard-Regular.ttf
+    corpo: 32
+    grassetto: 1
+    allinea: destra
+    x: 1767
+    y: 2410
+    righe: ["—John Lennon"]
+
+  - font: Kalam-Bold.ttf                   # stendardo
+    corpo: 64
+    interlinea: 76
+    rotazione: 3
+    adatta: 1450
+    x: 230
+    y: 2622
+    righe: ["\"CHIUNQUE CONOSCO CHE ABBIA RAGIONE", "È SEMPRE D'ACCORDO CON ME\" - Rev. Lady Mal"]

@@ -1,0 +1,92 @@
+# Tavola p050 (originale 00035) — Nomi Sacri
+# Pagina del vecchio sito: 42 (testo/it/42.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna ("SO??" -> "E QUINDI??" e la scritta a mano sono nel testo italiano di Mauro;
+#   "e quindi?" nel testo, qui con i due punti interrogativi dell'originale)
+# DIFFERENZE: il testo italiano rende "Pope Paul is the son of Mr. & Mrs. VI?" con "Papa Paolo VI non sia il figlio
+#   del Sig. e della Sig.ra VI...": mantenuto. Paragrafo a 33 colonne (6 righe come l'originale).
+# REFUSI CORRETTI: "immagino" -> "Immagino" (inizio di frase)
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 50
+
+cancella:
+  - [440, 220, 760, 285]       # HOLY NAMES
+  - [225, 400, 1060, 950]      # dattiloscritto
+  - [260, 2310, 1640, 2570]    # scritta a mano in basso
+  # SO?? nel fumetto: fasce che seguono il contorno interno
+  - [352, 1250, 395, 1256]
+  - [335, 1256, 404, 1262]
+  - [321, 1262, 411, 1268]
+  - [307, 1268, 417, 1274]
+  - [298, 1274, 420, 1280]
+  - [292, 1280, 424, 1286]
+  - [286, 1286, 425, 1292]
+  - [280, 1292, 426, 1298]
+  - [277, 1298, 428, 1304]
+  - [274, 1304, 428, 1310]
+  - [270, 1310, 427, 1316]
+  - [266, 1316, 426, 1322]
+  - [265, 1322, 423, 1328]
+  - [261, 1328, 420, 1334]
+  - [260, 1334, 417, 1340]
+  - [260, 1340, 413, 1346]
+  - [260, 1346, 410, 1352]
+  - [260, 1352, 407, 1358]
+  - [260, 1358, 403, 1364]
+  - [260, 1364, 399, 1370]
+  - [260, 1370, 395, 1376]
+  - [261, 1376, 392, 1382]
+  - [261, 1382, 388, 1388]
+  - [262, 1388, 383, 1394]
+  - [265, 1394, 381, 1400]
+  - [265, 1400, 378, 1406]
+
+testi:
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    x: 451
+    y: 274
+    righe: ["NOMI SACRI"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60
+    colonne: 33
+    x: 240
+    y: 456
+    testo: >-
+      I Discordiani hanno la tradizione di assumere NOMI SACRI. Ciò non è
+      distintivo dell'Erisianesimo, ovviamente. Immagino che Papa Paolo VI non
+      sia il figlio del Sig. e della Sig.ra VI...
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    scala_x: 0.96
+    interlinea: 60
+    x: 240
+    y: 880
+    righe: ["E ANCHE TITOLI DI IMPORTANZA", "MISTICA."]
+
+  - font: Kalam-Bold.ttf                   # fumetto
+    corpo: 40
+    interlinea: 40
+    rotazione: 35
+    allinea: centro
+    x: 318
+    y: 1322
+    righe: ["E", "QUINDI??"]
+
+  - font: Caveat-VF.ttf                    # scritta a mano
+    corpo: 110
+    peso: 550
+    interlinea: 112
+    adatta: 1360
+    x: 285
+    y: 2410
+    righe:
+      - "Si prega chiunque abbia sottratto il materiale pornografico"
+      - "del Fratello Reverendo Magoun di restituirlo."

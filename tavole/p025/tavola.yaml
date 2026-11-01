@@ -1,0 +1,98 @@
+# Tavola p025 (originale 00010) — (seguito) e lo struzzo FNORD
+# Pagina del vecchio sito: 17 (testo/it/17.md)
+# STATO: completa
+# NUOVE TRADUZIONI: "NO HURRY" -> "SENZA FRETTA" (timbro, assente nella tavola di Mauro);
+#   "(HBT; The Book of Advice 1:7)" -> "(HBT; Il Libro dei Consigli 1:7)" (omesso nella tavola di Mauro)
+# DIFFERENZE: citazione di Marx, nuvoletta e didascalia di Momomoto da
+#   storico/immagini-it/OstrichHead3.png; FNORD e WOW! restano come sono.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Corpo 50 (passo 30) stretto a scala_x 0.9. Coordinate in pixel a 360 dpi (1827 x 2962).
+
+pagina_pdf: 25
+
+cancella:
+  - [1338, 52, 1725, 130]      # NO HURRY (resta il quadratino)
+  - [100, 180, 1760, 945]      # testo dattiloscritto
+  - [85, 1605, 290, 2850]      # citazione di Marx (verticale)
+  - [290, 1625, 335, 2850]     # (sotto la linea dell'orizzonte)
+  - [360, 1850, 432, 2160]     # -- MARX
+  - [1195, 1985, 1560, 2098]   # testo nella nuvoletta
+  - [1195, 2098, 1688, 2132]   # (riga del riferimento)
+  - [418, 2745, 1705, 2810]    # didascalia di Momomoto (restano le file di frecce)
+
+testi:
+  - font: Oswald-VF.ttf                    # timbro in neretto
+    corpo: 74
+    peso: 600
+    scala_x: 1.25
+    adatta: 330
+    x: 1350
+    y: 120
+    righe: ["SENZA FRETTA"]
+
+  - font: IBMPlexMono-Regular.ttf          # citazione di Marx, sale dal basso
+    corpo: 46
+    interlinea: 60.5
+    rotazione: 90
+    x: 128
+    y: 2841
+    righe:
+      - "\"Sapevi che c'è un milione di verdoni"
+      - "  nascosti nella casa della porta accanto?\""
+      - "\"Ma non c'è nessuna casa alla porta accanto.\""
+      - "\"No? Allora costruiamone una!\""
+
+  - font: IBMPlexMono-Regular.ttf
+    corpo: 46
+    rotazione: 90
+    x: 400
+    y: 2153
+    righe: ["-- MARX"]
+
+  - font: CourierPrime-Italic.ttf          # nuvoletta
+    corpo: 22
+    interlinea: 28
+    x: 1200
+    y: 2012
+    righe:
+      - "Tutte le cose sono perfette"
+      - "fin all'ultimo dettaglio"
+      - "muovendosi in accordo"
+      - "con la legge di Eris."
+      - "    (HBT; Il Libro dei Consigli 1:7)"
+
+  - font: CourierPrime-Regular.ttf         # didascalia tra le frecce
+    corpo: 44
+    scala_x: 0.82
+    grassetto: 1
+    x: 424
+    y: 2797
+    righe: ["Momomoto, il Famoso Giapponese che può inghiottirsi il naso"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.9
+    interlinea: 60.6
+    x: 112
+    y: 258
+    righe:
+      - "     \"Cos'è questo?\" sussurrò l'uno all'altro, \"una"
+      - "religione basata sulla Dea della Confusione? E' follia"
+      - "pura!\""
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 50
+    scala_x: 0.9
+    interlinea: 60.6
+    x: 112
+    y: 500
+    righe:
+      - "     E a quelle parole, ciascuno guardò l'altro in"
+      - "soggezione assoluta. Omar iniziò a ridacchiare. Mal si"
+      - "mise a ridere. Omar iniziò a saltare su e giù. Mal a"
+      - "ululare e a fare un chiasso d'inferno. E in mezzo a grida"
+      - "di gioia e con le guance piene di lacrime, si nominarono"
+      - "l'un l'altro sommo sacerdote della loro stessa follia, e"
+      - "insieme dichiararono di essere uniti per Discordia,"
+      - "qualsiasi cosa ciò si fosse rivelato essere."

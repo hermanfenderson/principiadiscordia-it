@@ -1,0 +1,102 @@
+# Tavola p036 (originale 00021) — La Mano a Cinque Dita di Eris
+# Pagina del vecchio sito: 28 (testo/it/28.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna (timbro "ESCLUSIVA:" da Exclusive.png, citazione di Breton da Surrealism.png)
+# DIFFERENZE: nella NOTA il simbolo disegnato a mano (le corna) resta nell'originale; in testo/it è reso "\/".
+#   Citazione di Breton: la calligrafia ornata dell'originale non ha un font libero equivalente, resa con
+#   Kalam (corsivo a mano); il trattino ondulato prima di "Breton" è sostituito da "~".
+#   Prima riga della NOTA stretta a scala_x 0,76 (sotto la soglia 0,85) per finire prima del disegno delle corna.
+# REFUSI CORRETTI: nessuno
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+
+pagina_pdf: 36
+
+cancella:
+  - [60, 236, 590, 445]         # timbro EXCLUSIVE:
+  - [420, 375, 1470, 450]       # titolo
+  - [115, 560, 1770, 1060]      # testo dattiloscritto
+  - [115, 1665, 1352, 1750]     # NOTE: prima riga (prima del disegno delle corna)
+  - [115, 1750, 1650, 2165]     # nota, righe successive
+  - [180, 2245, 1720, 2600]     # citazione di Breton, righe 1-2
+  - [280, 2600, 1720, 2830]     # riga 3 e firma
+
+testi:
+  - font: SpecialElite-Regular.ttf         # timbro di gomma inclinato
+    corpo: 92
+    grassetto: 1
+    effetto: timbro
+    rotazione: 16
+    x: 78
+    y: 425
+    righe: ["ESCLUSIVA:"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    allinea: centro
+    x: 943
+    y: 436
+    righe: ["= LA MANO A CINQUE DITA DI ERIS ="]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.2
+    scala_x: 0.9
+    x: 130
+    y: 616
+    righe:
+      - "Qui è illustrato il simbolo ufficiale del POEE. Può essere"
+      - "questo o qualsiasi dispositivo analogo che rappresenti DUE"
+      - "FRECCE CONTRAPPOSTE CHE CONVERGONO SU UN PUNTO COMUNE. Può"
+      - "essere verticale, orizzontale, o in altro modo, e può"
+      - "essere elaborato o semplificato secondo quanto desiderato."
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 60.2
+    scala_x: 0.9
+    x: 130
+    y: 977
+    righe:
+      - "Il nome esoterico di questo simbolo è LA MANO A CINQUE"
+      - "DITA DI ERIS, comunemente abbreviato in LA MANO."
+
+  - font: CourierPrime-Italic.ttf          # nota in corsivo
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.76
+    x: 128
+    y: 1733
+    righe: ["NOTA: Nella tradizione della magia occidentale, il"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    interlinea: 60.4
+    scala_x: 0.88
+    x: 128
+    y: 1793
+    righe:
+      - "simboleggia le corna, specialmente le corna di Satana o di"
+      - "bestie diaboliche. La Mano a Cinque Dita di Eris,"
+      - "comunque, non intende essere considerata satanica, dato"
+      - "che le \"corna\" sono sostenute da un altro insieme, di"
+      - "\"corna\" invertite. O forse sono zanne di tricheco. Non so"
+      - "cosa siano, per essere sincero."
+
+  - font: Kalam-Regular.ttf                # citazione calligrafica
+    corpo: 106
+    interlinea: 140
+    allinea: centro
+    x: 945
+    y: 2425
+    righe:
+      - "“Il Surrealismo mira alla"
+      - "trasformazione totale della mente"
+      - "e di tutto ciò che le rassomigli”"
+
+  - font: Kalam-Regular.ttf
+    corpo: 106
+    x: 1330
+    y: 2815
+    righe: ["~Breton"]

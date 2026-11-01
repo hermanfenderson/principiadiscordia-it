@@ -1,0 +1,87 @@
+# Tavola p080 (originale 00065) — Primi rudimenti per evangelizzatori erisiani
+# Pagina del vecchio sito: 72 (testo/it/72.md)
+# STATO: completa
+# NUOVE TRADUZIONI: nessuna
+# DIFFERENZE: paragrafi ricomposti come nell'originale (rientro, senza righe vuote); "di Lord Omar" in corsivo come
+#   "by Lord Omar"; sottolineato solo "ERIS" (nel testo italiano manca il corrispondente di "He _is_ a girl").
+#   L'italiano è più lungo: dattiloscritto stretto (scala_x 0.86), interlinea originale (60)
+# REFUSI CORRETTI: "prcedi" -> "procedi"; "Thud (il che sarebbe una cosa brutta da dire) ," -> "Thud (... dire),";
+#   "con :" -> "con:"; "Si." -> "Sì."
+# NdT ESCLUSE: nessuna
+# Coordinate in pixel sulla scansione a 360 dpi (1827 x 2962).
+pagina_pdf: 80
+cancella:
+  - [200, 100, 1640, 185]    # titolo
+  - [200, 285, 1827, 2775]    # testo
+
+testi:
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.88
+    interlinea: 60
+    x: 213
+    y: 159
+    righe:
+      - "PRIMI RUDIMENTI PER EVANGELIZZATORI ERISIANI"
+
+  - font: CourierPrime-Italic.ttf    # corsivo
+    corpo: 52
+    grassetto: 1
+    scala_x: 0.88
+    interlinea: 60
+    x: 213
+    y: 159
+    righe:
+      - "                                              di Lord Omar"
+
+  - font: IBMPlexMono-Medium.ttf    # dattiloscritto
+    corpo: 52
+    scala_x: 0.86
+    interlinea: 60
+    x: 215
+    y: 342
+    righe:
+      - "     L'APPROCCIO SOCRATICO è il più efficace nel confronto"
+      - "con l'ignorante. Si dice \"approccio socratico\" quando si"
+      - "argomenta ponendo domande. Si approccia l'innocente e si"
+      - "chiede semplicemente \"Lo sapevi che il nome di Dio è ERIS e"
+      - "che è donna?\" Se dovesse rispondere \"Sì.\" allora"
+      - "probabilmente si tratta di un compagno Erisiano e te ne"
+      - "puoi disinteressare. Se dicesse \"No.\" allora rapidamente"
+      - "procedi con:"
+      - "     L'ASSERZIONE ALLA CIECA e digli \"Beh, una donna, e il"
+      - "Suo nome è ERIS!\" osservando astutamente se il soggetto si"
+      - "è convinto. Se lo fosse, fallo aderire tramite giuramento"
+      - "alla Legione della Discordia Dinamica prima che cambi idea."
+      - "Se dovesse non apparire convinto, allora procedi con:"
+      - "     UN POCHINO DI FEDE: \"Ma devi avere Fede! Tutto è"
+      - "perduto senza Fede! Di certo mi dispiacerebbe per te se non"
+      - "avessi Fede.\" E quindi aggiungi:"
+      - "     L'ARGOMENTO DELLA PAURA e con voce nefasta chiedi \"Lo"
+      - "sai cosa succede a chi nega l'esistenza della Dea?\" Se"
+      - "esita, non dirgli che sarà per certo reincarnato in una"
+      - "preziosa spilletta di Mao e distribuito ai poveri nella"
+      - "Regione di Thud (il che sarebbe una cosa brutta da dire),"
+      - "semplicemente scuoti la testa tristemente e asciugandoti"
+      - "una lacrima dagli occhi, passa a:"
+      - "     IL PIANO DELLA CAUSA PRIMA in cui fai riferimento a"
+      - "tutta la discordia e la confusione nel mondo esclamando"
+      - "\"Beh, chi diavolo pensi abbia fatto tutto questo,"
+      - "sapientone?\" Se dicesse, \"Nessuno, semplicemente forze"
+      - "impersonali.\" allora rispondi rapidamente con:"
+      - "     L'ARGOMENTO DELLA GINNASTICA SEMANTICA e digli che ha"
+      - "assolutamente ragione e che queste forze impersonali sono"
+      - "femmina e che il Loro nome è ERIS. Se, meraviglia delle"
+      - "meraviglie, rimanesse ancora ostinato, utilizza come ultima"
+      - "risorsa:"
+      - "     L'ESPEDIENTE DEL SIMBOLISMO FIGURATIVO e digli che"
+      - "confidi che una persona sofisticata come lui riconoscerà"
+      - "che Eris è un Simbolo Figurativo di una Realtà Metafisica"
+      - "Ineffabile e che il Movimento erisiano è in realtà più"
+      - "poesia che scienza e che se non si lascia convincere sarà"
+      - "trasformato in una preziosa spilletta di Mao e distribuita"
+      - "ai poveri nella Regione di Thud. Dopo di che inseriscilo"
+      - "nella tua mailing list."
+
+linee:
+  - [510, 892, 618, 897]    # sottolineatura

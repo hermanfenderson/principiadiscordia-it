@@ -1,0 +1,136 @@
+# Tavola p081 (originale 00066) — "Affonda" (gioco)
+# Pagina del vecchio sito: 73 (testo/it/73.md)
+# STATO: completa
+# NUOVE TRADUZIONI: titolo "SINK" -> "AFFONDA" (sul vecchio sito restava l'immagine
+#   inglese con nota "*affonda"); "A GAME" -> "UN GIOCO" e la firma in corsivo
+#   seguono testo/it; la parola capovolta "Discordians" -> "Discordiani" (capovolta).
+# DIFFERENZE: la didascalia capovolta in basso segue la versione di Mauro, che omette
+#   "Training Director of the" e "N.C." dell'originale.
+# REFUSI CORRETTI: "i TURNI" -> "I TURNI"; "ft. Brage" -> "FT. BRAGG".
+# NdT ESCLUSE: "*affonda" e "**In un certo senso siamo..." (note a piè di pagina del
+#   vecchio sito che traducevano le immagini: qui le scritte sono ricomposte).
+# FONT: titolo in Poppins Bold (font di sistema, OFL, percorso assoluto): nessun font
+#   di strumenti/font somiglia al bastone geometrico nero di "SINK".
+
+pagina_pdf: 81
+
+cancella:
+  - [470, 360, 1000, 506]      # SIN
+  - [860, 506, 1000, 560]      # K abbassata
+  - [40, 762, 1720, 2615]      # tutto il dattiloscritto
+  - [440, 2700, 1740, 2925]    # didascalia capovolta
+
+testi:
+  - font: Poppins-Bold.ttf   # titolo
+    corpo: 180
+    x: 478
+    y: 503
+    righe: ["AFFOND"]
+  - font: Poppins-Bold.ttf   # l'ultima lettera affonda
+    corpo: 180
+    x: 1222
+    y: 551
+    righe: ["A"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    x: 57
+    y: 813
+    righe: ["UN GIOCO"]
+
+  - font: CourierPrime-Italic.ttf
+    corpo: 50
+    grassetto: 1
+    scala_x: 0.92
+    x: 57
+    y: 911
+    righe: ["di Ala Hera, E.L., N.S.; PANTERE DELLA MELA DI RAYVILLE"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    x: 57
+    y: 1091
+    righe:
+      - "AFFONDA viene giocato dai             e gentaglia"
+      - "del genere."
+  - font: IBMPlexMono-Medium.ttf      # "Discordiani" capovolto, come nell'originale
+    corpo: 52
+    rotazione: 180
+    x: 1211
+    y: 1053
+    righe: ["Discordiani"]
+
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    colonne: 52
+    x: 57
+    y: 1235
+    testo: >-
+      SCOPO: Affondare oggetti o cose...in acqua, nel fango o in qualsiasi
+      cosa in cui si possa affondare un oggetto.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    colonne: 52
+    x: 57
+    y: 1436
+    testo: >-
+      REGOLE: Affondare è consentito in tutti i modi. Ad oggi blocchi di
+      fango di dieci libbre sono stati utilizzati per affondare un barattolo
+      di tabacco. E' preferibile una pozza d'acqua o un buco per buttarci le
+      cose dentro. Ma fiumi - baie - golfi - mi azzarderei a dire addirittura
+      oceani possono essere usati.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    colonne: 52
+    x: 57
+    y: 1865
+    testo: >-
+      I TURNI sono assegnati come segue: comincia chi butta la roba in aria
+      per primo.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    colonne: 52
+    x: 57
+    y: 2009
+    testo: >-
+      DOVERI: E' responsabilità di tutti i giocatori di "AFFONDA" di aiutare
+      a trovare altri oggetti da affondare una volta che un oggetto sia stato
+      affondato.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    colonne: 52
+    x: 57
+    y: 2267
+    testo: >-
+      AL MOMENTO DELL'AFFONDAMENTO: L'affondante dovrà gridare "L'ho
+      affondato!" o altro altrettanto premuroso.
+  - font: IBMPlexMono-Medium.ttf
+    corpo: 52
+    interlinea: 57
+    colonne: 52
+    x: 57
+    y: 2468
+    testo: >-
+      NOMINARE GLI OGGETTI è alle volte desiderabile. Il nome viene assegnato
+      da colui che ha trovato l'oggetto e chi affonda può dire per esempio,
+      "Ho affondato Columbus, Ohio!"
+
+  - font: ArchitectsDaughter-Regular.ttf   # didascalia a mano, capovolta
+    corpo: 60
+    interlinea: 64
+    grassetto: 2
+    scala_x: 0.9
+    rotazione: 180
+    adatta: 1560
+    x: 1725
+    y: 2858
+    righe:
+      - "\"IN UN CERTO SENSO SIAMO UNA SPECIE DI CORPO DELLA PACE,\""
+      - "-MAGG. A. LINCOLN GERMAN, SCUOLA DI TECNICHE SPECIALI"
+      - "DI GUERRA, BERRETTI VERDI, FT. BRAGG"
