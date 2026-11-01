@@ -1,0 +1,26 @@
+---
+tavola: colophon-1
+alt: "Colophon dell'edizione italiana: testo dattiloscritto con autori, traduzione, fonti del facsimile, licenze e data."
+---
+
+## Descrizione
+
+Pagina di solo testo, composta in un carattere da macchina da scrivere su una colonna allineata a sinistra. In alto un titolo in maiuscolo, sottolineato; sotto, sette capoversi con la prima riga rientrata, separati da righe vuote. La metà inferiore della pagina resta bianca.
+
+## Testo
+
+### <span lang="la">PRINCIPIA DISCORDIA</span> -- EDIZIONE ITALIANA
+
+ovvero Come trovai la Dea e Cosa le feci Quando la trovai. La Magnum Opiate di Malaclypse il Giovane (Gregory Hill), con materiale di Lord Omar Khayyam Ravenhurst (Kerry Thornley). Introduzione di Robert Anton Wilson.
+
+Traduzione italiana, prefazione alla prefazione e note del traduttore di Herman Fenderson.
+
+Facsimile dell'edizione Loompanics Unlimited, Port Townsend (Washington), 1980, che riunisce la Quarta Edizione (San Francisco, 1970), la postfazione di Greg Hill e la Quinta Edizione. Le pagine sono ricomposte in italiano sulla scansione dell'originale conservata in Wikimedia Commons; illustrazioni, timbri e ritagli sono quelli di Hill, le scritte sono rifatte con caratteri a licenza libera.
+
+Testo originale: (K) <span lang="en">All Rites Reversed -- Reprint What You Like</span>.
+
+Traduzione italiana: licenza Creative Commons Attribuzione - Condividi allo stesso modo 4.0 (CC BY-SA 4.0). Ristampa quel che ti pare, purché citi la fonte e condivida allo stesso modo.
+
+Il testo integrale è libero su principiadiscordia.hermanfenderson.com; tavole, caratteri e programmi con cui è stato composto il libro sono su github.com/hermanfenderson/principiadiscordia-it
+
+Prima edizione italiana, stagione delle Conseguenze, anno 3192 (2026).

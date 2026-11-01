@@ -97,7 +97,7 @@ testi:
   - {<<: *tondo, x: 214, y: 2389, righe: ["riodo, copie fotostatiche cominciarono a circolare qua e là."]}
   - {<<: *tondo, x: 272, y: 2463, righe: ["Quando \u200ala"]}
   - {<<: *corsivo, x: 539, y: 2463, righe: ["Illuminatus"]}
-  - {<<: *tondo, x: 812, y: 2463, righe: ["trilogia \u200aapparve \u200a\u200anel \u200a1975, \u200a\u200ail \u200amio"]}
+  - {<<: *tondo, x: 805, y: 2463, righe: ["trilogia \u200aapparve \u200a\u200anel \u200a1975, \u200ail \u200amio"]}
   - {<<: *tondo, x: 1649, y: 2463, allinea: destra, righe: ["co-"]}
   - {<<: *tondo, x: 214, y: 2527, righe: ["autore, Bob Shea, e io ricevemmo entrambi centinaia di"]}
   - {<<: *tondo, x: 1649, y: 2527, allinea: destra, righe: ["lettere"]}

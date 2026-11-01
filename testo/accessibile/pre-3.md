@@ -1,0 +1,28 @@
+---
+tavola: pre-3
+alt: "Terza pagina della prefazione alla prefazione di Herman Fenderson: testo dattiloscritto."
+---
+
+## Descrizione
+
+Pagina di solo testo, in un carattere da macchina da scrivere su una colonna allineata a sinistra. In alto al centro il numero di pagina «-3-»; sotto, la fine di un capoverso iniziato nella pagina precedente e altri sette capoversi con la prima riga rientrata, separati da righe vuote.
+
+## Testo
+
+-3-
+
+Pentaconato. La POEE è rimasta POEE, perché certe cose è meglio non toccarle. Eris è la Dea, senza bisogno di ulteriori qualificazioni.
+
+Altre parole, come FNORD e <span lang="en">WOW!</span>, hanno rifiutato di farsi tradurre. Ho rispettato la loro volontà. Alcuni timbri hanno fatto altrettanto.
+
+Quanto alle note del traduttore, le ho confinate in appendice, dove potranno esercitare indisturbate la loro funzione di disturbare. Il lettore che desideri conoscere i dettagli delle mie scelte potrà andarvi a cercare spiegazioni. Non garantisco che le troverà.
+
+Il traduttore, per inciso, è un apprendista patafisico. La patafisica è la scienza delle soluzioni immaginarie, e da lì alla Dea Eris il passo era talmente breve che sarebbe stato scortese non compierlo. Quanto a chi sia Herman Fenderson, se ne parlerà in fondo al libro. Sempre che ci si arrivi.
+
+Rimane una questione, forse l'unica sulla quale vale la pena essere seri.
+
+Sull'edizione originale dei Principia compare una dichiarazione: (K) <span lang="en">All Rites Reversed -- Reprint What You Like</span>. Tutti i riti rovesciati. Ristampa quel che ti pare.
+
+Era un invito alla libera circolazione delle idee prima ancora che il copyleft diventasse una pratica riconoscibile. Un libro costruito assemblando materiali raccolti ovunque non poteva che rivendicare, anche per sé, la libertà di essere copiato, trasformato e rimesso in circolazione.
+
+Questa traduzione segue lo stesso principio.

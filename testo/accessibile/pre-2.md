@@ -1,0 +1,24 @@
+---
+tavola: pre-2
+alt: "Seconda pagina della prefazione alla prefazione di Herman Fenderson: testo dattiloscritto."
+---
+
+## Descrizione
+
+Pagina di solo testo, in un carattere da macchina da scrivere su una colonna allineata a sinistra. In alto al centro il numero di pagina «-2-»; sotto, sei capoversi con la prima riga rientrata, separati da righe vuote. L'ultimo capoverso si interrompe a metà frase e prosegue nella pagina seguente.
+
+## Testo
+
+-2-
+
+Per anni la traduzione è rimasta lì, incompiuta ma perfettamente consultabile: una condizione nella quale, a ben vedere, si trova buona parte delle opere dell'ingegno umano.
+
+Poi, nel 2026, ho deciso di riprenderla. Questa volta con l'edizione Loompanics davanti, la più completa tra quelle pubblicate, comprendente anche la postfazione di Greg Hill e la misteriosa Quinta Edizione. Ho tradotto le parti mancanti, rivisto quelle già esistenti e cercato, soprattutto, di restituire al libro qualcosa che nelle traduzioni tende spesso a scomparire: il suo disordine originale.
+
+Perché i Principia non sono soltanto un testo. Sono un collage. Le parole, i disegni, i timbri, le citazioni rubacchiate, i caratteri tipografici e le intrusioni apparentemente prive di senso partecipano tutti alla medesima opera. Separare il testo dalle immagini avrebbe significato tradurne una parte e perderne un'altra.
+
+Ho quindi scelto di conservare le tavole originali, intervenendo sulle scritte, ricomponendole nelle stesse posizioni e cercando caratteri il più possibile vicini a quelli dell'epoca. Il risultato è un oggetto che sembra uscito da una fotocopiatrice del 1970, ma che è stato pazientemente ricostruito nel 2026.
+
+Una contraffazione filologicamente rispettosa, se così si può dire.
+
+Naturalmente, tradurre un testo discordiano significa anche prendere decisioni che nessuna autorità competente sarebbe disposta ad avallare. Hodge e Podge sono diventati Guazza e Buglio, Greyface è Facciagrigia, il Pentabarf è il
