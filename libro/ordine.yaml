@@ -8,11 +8,16 @@ pagine:
   - pre-3
   - pre-4
   # apparato dell'edizione Loompanics
+  # da qui ogni pagina Loompanics sta sullo stesso lato (destra/sinistra) dell'originale:
+  # le pagine bianche sono quelle dell'edizione Loompanics (PDF 6, 8 e 12)
   - p005      # prefazione dell'editore
+  - bianca
   - p007      # indice di questa edizione
+  - bianca
   - p009      # introduzione di Robert Anton Wilson
   - p010
   - p011
+  - bianca
   # IV edizione
   - p013      # frontespizio
   - p014      # intervista a Malaclypse il Giovane
@@ -114,3 +119,4 @@ pagine:
   - ndt-2
   - ndt-3
   - fine-herman
+  - colophon-1  # ultima pagina, a sinistra

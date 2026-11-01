@@ -45,6 +45,8 @@ def pagina(tavola: Image.Image | None, numero: int, nome: str) -> Image.Image:
     destra = numero % 2 == 1  # pagina dispari = a destra, rilegatura a sinistra
     area = (INTERNO if destra else ESTERNO, ALTO,
             PAGINA[0] - (ESTERNO if destra else INTERNO), PAGINA[1] - BASSO)
+    if nome == "bianca":
+        return foglio
     if tavola is None:
         d = ImageDraw.Draw(foglio)
         f = ImageFont.truetype(str(RADICE / "strumenti/font/IBMPlexMono-Medium.ttf"), 60)
@@ -104,8 +106,8 @@ def main():
         if (cartella / "tavola.yaml").exists() and (args.ricomponi or not png.exists()):
             subprocess.run([sys.executable, str(RADICE / "strumenti/componi.py"), str(cartella)],
                            check=True, capture_output=True)
-        tavola = Image.open(png) if png.exists() else None
-        if tavola is None:
+        tavola = Image.open(png) if png.exists() and nome != "bianca" else None
+        if tavola is None and nome != "bianca":
             mancanti.append(nome)
         foglio = pagina(tavola, i, nome)
         if tavola is not None and contenuto(tavola) and foglio is not None:
@@ -113,6 +115,8 @@ def main():
         destinazione = uscita / "pagine" / f"{i:03d}-{nome}.png"
         foglio.save(destinazione, dpi=(DPI, DPI))
         file_pagine.append(str(destinazione))
+    if len(file_pagine) % 2:
+        print("ATTENZIONE: numero di pagine dispari", len(file_pagine))
     pdf = uscita / "principia-discordia-a5.pdf"
     pdf.write_bytes(img2pdf.convert(file_pagine, layout_fun=img2pdf.get_fixed_dpi_layout_fun((DPI, DPI))))
     if args.anteprima:
