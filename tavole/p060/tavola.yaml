@@ -21,59 +21,59 @@ cancella:
 testi:
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 337.0
     righe: ["10. Durante e dopo la Caduta del Consolidamento della"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 397.4
-    righe: ["Burocrazia ci fu la Vendetta, un'Era di Disordine in cui"]
+    righe: ["Burocrazia ci furono le Conseguenze, un'Era di Disordine"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 457.8
-    righe: ["il calcolo, il computo e le stime furono messe da parte"]
+    righe: ["in cui il calcolo, il computo e le stime furono messe da"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 518.2
-    righe: ["dai Figli di Eris in Accettazione e Preparazione del"]
+    righe: ["parte dai Figli di Eris in Accettazione e Preparazione"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 578.6
-    righe: ["Ritorno di Oblio a cui avrebbe fatto seguito la"]
+    righe: ["del Ritorno di Oblio a cui avrebbe fatto seguito la"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 639.0
-    righe: ["Ripetizione dell'Assurdità Universale. Inoltre, la"]
+    righe: ["Ripetizione dell'Assurdità Universale. Inoltre, la Venuta"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 699.4
-    righe: ["Venuta di Vendetta fu una Resurrezione, oltre che di se"]
+    righe: ["delle Conseguenze fu una Resurrezione, oltre che di se"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52
-    scala_x: 0.95
+    scala_x: 0.92
     x: 146.0
     y: 759.8
-    righe: ["stessa, del Caos fluidificatore della libertà. AVE ERIS!"]
+    righe: ["stesse, del Caos fluidificatore della libertà. AVE ERIS!"]
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 52

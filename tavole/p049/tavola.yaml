@@ -63,7 +63,7 @@ testi:
       - "2) Discordia - Apostolo Patrono Dr. Van Van Mojo"
       - "3) Confusione - Apostolo Patrono Sri Syadasti"
       - "4) Burocrazia - Apostolo Patrono Zarathud"
-      - "5) La Vendetta - Apostolo Patrono Malaclypse il Vecchio"
+      - "5) Le Conseguenze - Apostolo Patrono Malaclypse il Vecchio"
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 34
@@ -177,7 +177,7 @@ testi:
       - "SACRO DOCUMENTO DELLE RANE (antico poema Erisiano):"
       - "Settantatre dì han"
       - "Chaos, Discordia, Confusione, Burocrazia e"
-      - "                                    Vendetta"
+      - "                                 Conseguenze"
 
   # sigle dei giorni sopra le colonne
   - {font: IBMPlexMono-Medium.ttf, corpo: 36, grassetto: 1, scala_x: 0.85, allinea: centro, x: 557, y: 1353, righe: ["DG"]}
@@ -203,7 +203,7 @@ testi:
 
   # stagioni a destra della tabella
   - {font: IBMPlexMono-Medium.ttf, corpo: 38, grassetto: 1, scala_x: 0.8, x: 1634, y: 1610, righe: ["Bcz"]}
-  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 1630, y: 2149, righe: ["Vdt"]}
+  - {font: CourierPrime-Italic.ttf, corpo: 38, grassetto: 1, x: 1630, y: 2149, righe: ["Csg"]}
 
   - font: IBMPlexMono-Medium.ttf
     corpo: 34

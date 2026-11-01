@@ -1,0 +1,53 @@
+# Tavola nuova: Note Del Traduttore, pagina 2 di 2
+# Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
+# per cambiare il testo si corregge la sorgente e si rilancia.
+# STATO: completa
+
+pagina_pdf: null
+testi:
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  x: 913
+  y: 200
+  allinea: centro
+  righe:
+  - -2-
+- font: IBMPlexMono-Medium.ttf
+  corpo: 52
+  interlinea: 60
+  x: 227
+  y: 330
+  righe:
+  - Boomtime (Bottodì), Pungenday (Pungendì),
+  - Prickle-Prickle (Gratta-gratta) e Setting Orange
+  - (Arancia Calante). Le stagioni sono Chaos,
+  - Discord, Confusion, Bureaucracy e The Aftermath,
+  - qui diventate le Conseguenze.
+  - ''
+  - '     00039 -- Hung Mung è un personaggio del'
+  - Zhuangzi, il classico taoista, da cui viene anche
+  - la scena di pagina 00052.
+  - ''
+  - '     00047 -- Nel testo originale è "plants"'
+  - (piante) e non "planets" (pianeti).
+  - ''
+  - '     00048 -- Sacro Cao: gioco di parole con cow'
+  - (mucca), intraducibile.
+  - ''
+  - '     00049 -- Hodge e Podge: in inglese'
+  - hodge-podge è un'accozzaglia, un guazzabuglio. Da
+  - 'lì Guazza e Buglio: era l''unica parola italiana'
+  - capace di fare lo stesso lavoro, a patto di
+  - tagliarla in due.
+  - ''
+  - '     00055 -- ERIS letto al contrario è SIRE:'
+  - '"sire, signore", ma anche il maschio da monta e il'
+  - verbo "generare"; da qui il simbolismo sessuale.
+  - 'Spostando la prima lettera alla fine è RISE:'
+  - '"crescita". Eros letto al contrario è sorE:'
+  - '"avvilito".'
+  - ''
+  - '     00059 -- Sri Syadasti viene dal syadvada'
+  - giainista, la dottrina secondo cui di ogni cosa si
+  - può dire soltanto che "in un certo senso è". La
+  - salmodia ne declina tutte le combinazioni.

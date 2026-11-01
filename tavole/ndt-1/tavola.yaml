@@ -1,4 +1,4 @@
-# Tavola nuova: Note Del Traduttore, pagina 1 di 1
+# Tavola nuova: Note Del Traduttore, pagina 1 di 2
 # Generata da strumenti/impagina.py a partire da testo/it/apparato/note-del-traduttore.md:
 # per cambiare il testo si corregge la sorgente e si rilancia.
 # STATO: completa
@@ -21,6 +21,31 @@ testi:
   x: 227
   y: 420
   righe:
+  - '     00004 -- Pentabarf. In inglese "barf" vuol'
+  - 'dire vomitare: il nome dei Cinque Comandamenti'
+  - nasconde una piccola volgarità che il Pentaconato,
+  - più educato, ha perso per strada. Zarathud,
+  - l'apostolo eremita che lo scoprì, deve il nome a
+  - Zarathustra.
+  - ''
+  - '     00010 -- FNORD. Parola senza significato, o'
+  - con tutti i significati. La trilogia Illuminatus!
+  - ne ha fatto la parola che tutti hanno sotto gli
+  - occhi e nessuno vede; nel gergo degli hacker è
+  - diventata anche un nome di variabile qualsiasi,
+  - come foo e bar. Per questo non l'ho tradotta.
+  - ''
+  - '     00014 -- Joshua Norton, mercante di San'
+  - Francisco rovinato da una speculazione sul riso,
+  - nel 1859 si proclamò Norton I, Imperatore degli
+  - Stati Uniti. La città lo assecondò fino alla
+  - morte, nel 1880, e alcuni negozi accettavano
+  - perfino le banconote che emetteva. La Cabala che
+  - pubblica questo libro porta il suo nome.
+  - ''
+  - '     00022 -- Polipadre: in inglese Polyfather,'
+  - che fa il verso allo Holy Father, il Santo Padre.
+  - ''
   - '     00026 -- Gioco di parole intraducibile: Cow ='
   - Mucca, Cao = singolare di Caos (sic).
   - ''
@@ -28,13 +53,10 @@ testi:
   - 'Corps Ltd. di quei quattro cantanti": e neanche'
   - con quella roba i-qualcosa...
   - ''
-  - '     00047 -- Nel testo originale è "plants"'
-  - (piante) e non "planets" (pianeti).
+  - '     00033 -- KSC sta per Keepers of the Sacred'
+  - Chao, i Tenutari del Sacro Chao. Ho lasciato la
+  - sigla inglese perché è quella che si mette dopo il
+  - nome, e TSC non avrebbe fatto la stessa figura.
   - ''
-  - '     00048 -- Sacro Cao: gioco di parole con cow'
-  - (mucca), intraducibile.
-  - ''
-  - '     00055 -- ERIS letto al contrario è SIRE:'
-  - '"sire, signore". Spostando la prima lettera alla'
-  - 'fine è RISE: "crescita". Eros letto al contrario è'
-  - 'sorE: "avvilito".'
+  - '     00034 -- I giorni della settimana discordiana'
+  - in originale sono Sweetmorn (Dolcegiorno),
