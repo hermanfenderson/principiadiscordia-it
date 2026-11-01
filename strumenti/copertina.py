@@ -94,11 +94,18 @@ def etichetta(righe: list[str]) -> Image.Image:
     return e.rotate(8, expand=True, resample=Image.BICUBIC, fillcolor=(0, 0, 0, 0))
 
 
-def frontespizio(togli: list[str]) -> Image.Image:
-    """La tavola p013 ricomposta senza le scritte da togliere in copertina."""
+def frontespizio(prima: dict) -> Image.Image:
+    """La tavola p013 ricomposta per la copertina.
+
+    Da libro/copertina.yaml (sezione "prima"): "togli" elenca le righe di p013 da non riportare,
+    "cancella" altre zone della scansione da sbiancare, "aggiungi" gli elementi di testo nuovi.
+    """
     from componi import componi
     spec = yaml.safe_load((RADICE / "tavole" / "p013" / "tavola.yaml").read_text(encoding="utf-8"))
-    spec["testi"] = [el for el in spec["testi"] if not set(el.get("righe", [])) & set(togli)]
+    togli = set(prima.get("togli", []))
+    spec["testi"] = [el for el in spec["testi"] if not set(el.get("righe", [])) & togli]
+    spec["cancella"] += prima.get("cancella", [])
+    spec["testi"] += prima.get("aggiungi", [])
     cartella = RADICE / "build" / "copertina" / "p013-copertina"
     cartella.mkdir(parents=True, exist_ok=True)
     (cartella / "tavola.yaml").write_text(yaml.safe_dump(spec, allow_unicode=True), encoding="utf-8")
@@ -134,7 +141,7 @@ def main():
     alt = px(ALTEZZA - 0.25)  # tutta la pagina dentro l'area sicura (0,125 pollici dal taglio), centrata
     if args.prima == "disegno":
         # il frontespizio italiano di Hill (tavola p013) col timbro del traduttore
-        front = frontespizio(testi["prima"].get("togli", []))
+        front = frontespizio(testi["prima"])
         front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
         tela.paste(tinta(front, carta), (x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)))
         # timbro del traduttore, nello stile di "NON E' POSTA SPAZZATURA"

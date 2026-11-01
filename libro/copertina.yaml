@@ -4,9 +4,19 @@
 prima:
   timbro: "TRADOTTO DA HERMAN FENDERSON"
   etichetta: ["EDIZIONE ITALIANA", "TRADOTTO DA HERMAN FENDERSON"]   # versione "spirale"
-  togli: ["NON E' POSTA SPAZZATURA"]   # scritte del frontespizio da non riportare in copertina
+  # la prima è la tavola p013 ricomposta (strumenti/copertina.py, coordinate della scansione a 360 dpi):
+  # titolo più grande, su una riga, nel carattere a riccioli; sottotitolo più piccolo
+  togli: ["NON E' POSTA SPAZZATURA", "OVVERO", "Come trovai la Dea"]   # righe di p013 da non riportare
+  cancella:
+    - [250, 480, 1600, 645]     # il "PRINCIPIA DISCORDIA" gotico (e il granello di polvere sopra)
+  aggiungi:
+    - {font: MysteryQuest-Regular.ttf, corpo: 200, grassetto: 1, allinea: centro, x: 885, y: 550,
+       righe: ["Principia Discordia"]}
+    - {font: Jost-Bold.ttf, corpo: 62, allinea: centro, x: 885, y: 705, righe: ["OVVERO"]}
+    - {font: MysteryQuest-Regular.ttf, corpo: 124, grassetto: 1, interlinea: 132, allinea: centro, x: 885, y: 880,
+       righe: ["Come trovai la Dea", "e Cosa le feci", "Quando la trovai"]}
 
-frontespizio:   # pagina 1 del libro (strumenti/pagine_apertura.py)
+frontespizio:   # pagine 1 e 3 del libro (strumenti/pagine_apertura.py)
   autore: "MALACLYPSE IL GIOVANE"
   edizione: "EDIZIONE ITALIANA"
   traduzione: "traduzione, prefazione alla prefazione e note di"
