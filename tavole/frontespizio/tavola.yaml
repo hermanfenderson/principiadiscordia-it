@@ -1,0 +1,55 @@
+# Tavola nuova: frontespizio dell'edizione italiana (pagina 1 del libro)
+# Generata da strumenti/pagine_apertura.py: titolo gotico ritagliato dalla tavola p013
+# (tavole/apparato/titolo-gotico.png), sottotitolo nei caratteri di p013, testi da libro/copertina.yaml.
+# STATO: proposta
+
+pagina_pdf: null
+immagini:
+- file: tavole/apparato/titolo-gotico.png
+  x: 303
+  y: 640
+testi:
+- font: Jost-Bold.ttf
+  corpo: 46
+  allinea: centro
+  x: 913
+  y: 860
+  righe:
+  - OVVERO
+- font: MysteryQuest-Regular.ttf
+  corpo: 132
+  grassetto: 1
+  interlinea: 140
+  allinea: centro
+  x: 913
+  y: 1040
+  righe:
+  - Come trovai la Dea
+  - e Cosa le feci
+  - Quando la trovai
+- font: Jost-Bold.ttf
+  corpo: 64
+  allinea: centro
+  x: 913
+  y: 1600
+  righe:
+  - EDIZIONE ITALIANA
+- font: Jost-Regular.ttf
+  corpo: 46
+  allinea: centro
+  x: 913
+  y: 2180
+  righe:
+  - traduzione, prefazione alla prefazione e note di
+- font: Jost-Bold.ttf
+  corpo: 60
+  allinea: centro
+  x: 913
+  y: 2260
+  righe:
+  - HERMAN FENDERSON
+linee:
+- - 753
+  - 1440
+  - 1073
+  - 1446

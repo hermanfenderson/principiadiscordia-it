@@ -2,7 +2,12 @@
 # "bianca" inserisce una pagina vuota.
 
 pagine:
-  # apertura: la prefazione alla prefazione di Herman Fenderson
+  # apertura dell'edizione italiana (tavole generate da strumenti/pagine_apertura.py)
+  - frontespizio   # 1: titolo, sottotitolo, edizione italiana, traduttore
+  - colophon-1     # 2: colophon, sul retro del frontespizio
+  - copertina-bn   # 3: la prima di copertina in bianco e nero
+  - bianca         # 4
+  # la prefazione alla prefazione di Herman Fenderson
   - pre-1
   - pre-2
   - pre-3
@@ -119,4 +124,4 @@ pagine:
   - ndt-2
   - ndt-3
   - fine-herman
-  - colophon-1  # ultima pagina, a sinistra
+  - bianca      # ultima pagina, a sinistra

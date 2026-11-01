@@ -5,6 +5,11 @@ prima:
   timbro: "TRADOTTO DA HERMAN FENDERSON"
   togli: ["NON E' POSTA SPAZZATURA"]   # scritte del frontespizio da non riportare in copertina
 
+frontespizio:   # pagina 1 del libro (strumenti/pagine_apertura.py)
+  edizione: "EDIZIONE ITALIANA"
+  traduzione: "traduzione, prefazione alla prefazione e note di"
+  traduttore: "HERMAN FENDERSON"
+
 dorso:
   titolo: "Principia Discordia"
   autore: "Malaclypse il Giovane · edizione italiana"
