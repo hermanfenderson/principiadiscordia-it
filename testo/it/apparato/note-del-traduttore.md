@@ -2,13 +2,15 @@
 titolo: "Note del traduttore"
 autore: Herman Fenderson
 collocazione: appendice, prima di "Chi (non) è Herman Fenderson"
-fonte: le NdT della traduzione storica (testo/it/), tolte dalle tavole e riunite qui, più le note aggiunte nella revisione del 2026; i numeri sono quelli delle pagine originali
+fonte: le NdT della traduzione storica (testo/it/), tolte dalle tavole e riunite qui, più le note aggiunte nella revisione del 2026; i numeri sono quelli delle pagine originali; le pagine prima di 00001 contano all'indietro, come su principiadiscordia.com: copertina -00002, intervista a Malaclypse -00001, frontespizio della Quarta Edizione 00000
 stato: BOZZA delle note nuove (00000 copertina, 00004, 00010, 00014, 00022, 00033 KSC, 00034, 00039, 00049, 00059), da rivedere
 ---
 
 NOTE DEL TRADUTTORE
 
-00000 -- La poesia "Una caraffa di vino. Un coscio d'agnello. E tu! Accanto a me. Che fischi nell'oscurità" è di Walt Kelly, l'autore del fumetto Pogo, ed era detta da uno dei suoi personaggi: lo racconta Greg Hill stesso nell'intervista alla Norton Cabal, in fondo al libro, dove svela anche la provenienza di molti altri ritagli. È a sua volta la parodia della quartina più famosa del Rubaiyat di Omar Khayyam nella versione inglese di FitzGerald: "una brocca di vino, una pagnotta di pane, e tu accanto a me che canti nel deserto". E Omar Khayyam Ravenhurst, guarda caso, è il nome sacro di Kerry Thornley, coautore dei Principia.
+-00002 -- La poesia "Una caraffa di vino. Un coscio d'agnello. E tu! Accanto a me. Che fischi nell'oscurità" è di Walt Kelly, l'autore del fumetto Pogo, ed era detta da uno dei suoi personaggi: lo racconta Greg Hill stesso nell'intervista alla Norton Cabal, in fondo al libro, dove svela anche la provenienza di molti altri ritagli. È a sua volta la parodia della quartina più famosa del Rubaiyat di Omar Khayyam nella versione inglese di FitzGerald: "una brocca di vino, una pagnotta di pane, e tu accanto a me che canti nel deserto". E Omar Khayyam Ravenhurst, guarda caso, è il nome sacro di Kerry Thornley, coautore dei Principia.
+
+00000 -- Sul frontespizio della Quarta Edizione la parola greca è stampata kallichti, con la chi al posto della sigma: dovrebbe essere kallisti, "alla più bella", la scritta sulla mela d'oro di Eris (00017). Sulle mele disegnate più avanti il libro la scrive giusta. L'errore è dell'originale e l'ho lasciato: correggere i Principia sarebbe un atto d'ordine.
 
 00003 -- Sacro Cao. In inglese è il Sacred Chao: "chao" è un singolare inventato di "chaos", e si pronuncia come "cow", la mucca; da qui le mucche sacre che pascolano qua e là nel libro (00026, 00048). In italiano ho scritto sempre Cao, singolare altrettanto abusivo di Caos: la mucca purtroppo si perde, ma la grammatica sbagliata resta, e con lei lo spirito della cosa.
 

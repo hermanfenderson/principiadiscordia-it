@@ -18,6 +18,14 @@ testi:
   x: 227
   y: 330
   righe:
+  - '     00010 -- FNORD. Parola senza significato, o'
+  - con tutti i significati. La trilogia Illuminatus!
+  - ne ha fatto la parola che tutti hanno sotto gli
+  - occhi e nessuno vede; nel gergo degli hacker è
+  - diventata anche un nome di variabile qualsiasi,
+  - come foo e bar. Per questo non l'ho tradotta.
+  - ''
+  - '     00014 -- Joshua Norton, mercante di San'
   - Francisco rovinato da una speculazione sul riso,
   - nel 1859 si proclamò Norton I, Imperatore degli
   - Stati Uniti. La città lo assecondò fino alla
@@ -50,11 +58,3 @@ testi:
   - ''
   - '     00039 -- Hung Mung è un personaggio del'
   - Zhuangzi, il classico taoista, da cui viene anche
-  - la scena di pagina 00052.
-  - ''
-  - '     00044 -- "Il Buglio rapidamente'
-  - 'sottosopraffece la Guazza": l''originale dice'
-  - '"underpowered", il contrario di "overpowered"'
-  - (sopraffare). Per la Legge dell'Inversione
-  - 'Negativa, il Buglio non sopraffà la Guazza: la'
-  - sottosopraffà.

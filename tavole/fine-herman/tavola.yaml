@@ -1,6 +1,6 @@
 # Tavola nuova: Chi (non) è Herman Fenderson, ultima pagina del libro
-# Testo da testo/it/apparato/chi-non-e-herman-fenderson.md; struzzo da pagina 00010 (PDF 25).
-# Il "WOW!" dello struzzo resta in inglese, come in pagina 00010.
+# Generata da strumenti/pagina_herman.py a partire da testo/it/apparato/chi-non-e-herman-fenderson.md;
+# struzzo da pagina 00010 (PDF 25). Il "WOW!" dello struzzo resta in inglese, come in pagina 00010.
 # STATO: completa
 
 pagina_pdf: null
@@ -35,10 +35,10 @@ testi:
   x: 227
   y: 1060
   righe:
-  - '     Mi chiamo Herman Fenderson, ho un''età imprecisata ma i'
-  - più a colpo d'occhio mi direbbero nato nel 1969. Il mio papà,
-  - invero fantasioso, ha coniato non solo il mio nome ma financo
-  - il suo cognome!
+  - '     Herman Fenderson ha un''età imprecisata, ma i più a colpo'
+  - d'occhio lo direbbero nato nel 1969. Il suo papà, invero
+  - fantasioso, ha coniato non solo il suo nome ma financo il
+  - proprio cognome!
   - ''
   - '     Herman viene dal nome del Robot affittato da Daffy Duck'
   - per catturare Speedy Gonzales che imperversa in una clinica
@@ -47,9 +47,9 @@ testi:
   - modi di catturare il topo ("acchiappalo Herman!"), decide di
   - allearsi con lui.
   - ''
-  - '     Fenderson è un cognome proveniente dalla mia appartenenza'
+  - '     Fenderson è un cognome che gli viene dall''appartenenza'
   - alla famiglia dei Fenderson. Anche voi, se volete, potreste
-  - essere dei Fenderson (come i miei parenti Graham Fenderson
+  - essere dei Fenderson (come i suoi parenti Graham Fenderson
   - Trievel o anche Sant'Ignazio Fenderson)!
   - ''
   - '     Peraltro, unendo le due cose, Herman Fenderson è stato un'
