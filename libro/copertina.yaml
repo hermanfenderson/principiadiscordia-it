@@ -11,24 +11,30 @@ prima:
           "Non perdetevi tra precetti d'Ordine...", "IL LIBRO DELL'UTERO 1;5", "In cui è Spiegata"]
   cancella:
     - [250, 480, 1600, 645]     # il "PRINCIPIA DISCORDIA" gotico (e il granello di polvere sopra)
-    - [560, 2215, 1165, 2562]   # la statua originale (senza toccare la croce): viene incollata più sotto
-    - [466, 2253, 560, 2562]
+    - [45, 1455, 1165, 2568]    # croce e statua originali: vengono incollate più in basso
+    - [590, 436, 630, 475]      # granelli di polvere della scansione
+    - [40, 1214, 84, 1254]
+    - [134, 1376, 175, 1417]
+    - [19, 2268, 64, 2308]
   immagini:
-    - {file: tavole/apparato/statua-p013.png, x: 730, y: 2140, larghezza: 860}   # ritagliata da p013, centrata sotto la scritta
+    # croce e statua ritagliate dalla scansione di p013 e abbassate di 285 px, perché la prima abbia
+    # margini in alto e in basso simili a quelli della quarta
+    - {file: tavole/apparato/croce-p013.png, x: 52, y: 1745}
+    - {file: tavole/apparato/statua-p013.png, x: 730, y: 2425, larghezza: 860}   # centrata sotto la scritta
   aggiungi:
-    - {font: MysteryQuest-Regular.ttf, corpo: 200, grassetto: 1, allinea: centro, x: 885, y: 550,
+    - {font: MysteryQuest-Regular.ttf, corpo: 200, grassetto: 1, allinea: centro, x: 885, y: 600,
        righe: ["Principia Discordia"]}
-    - {font: Jost-Bold.ttf, corpo: 62, allinea: centro, x: 885, y: 705, righe: ["OVVERO"]}
-    - {font: MysteryQuest-Regular.ttf, corpo: 124, grassetto: 1, interlinea: 132, allinea: centro, x: 885, y: 880,
+    - {font: Jost-Bold.ttf, corpo: 62, allinea: centro, x: 885, y: 780, righe: ["OVVERO"]}
+    - {font: MysteryQuest-Regular.ttf, corpo: 124, grassetto: 1, interlinea: 132, allinea: centro, x: 885, y: 980,
        righe: ["Come trovai la Dea", "e Cosa le feci", "Quando la trovai"]}
-    - {font: Jost-Bold.ttf, corpo: 50, interlinea: 62, allinea: centro, x: 883, y: 1300,
+    - {font: Jost-Bold.ttf, corpo: 50, interlinea: 62, allinea: centro, x: 883, y: 1470,
        righe: ["In cui è Spiegata", "Assolutamente Qualsiasi Cosa", "che Valga la Pena di Sapere",
                "A proposito Assolutamente di Tutto"]}
     # edizione e traduttore a destra delle mezzelune, come nel frontespizio di pagina 3
-    - {font: Jost-Bold.ttf, corpo: 80, allinea: centro, x: 1160, y: 1840, righe: ["EDIZIONE ITALIANA"]}
-    - {font: Jost-Regular.ttf, corpo: 52, allinea: centro, x: 1160, y: 1935,
+    - {font: Jost-Bold.ttf, corpo: 80, allinea: centro, x: 1160, y: 2125, righe: ["EDIZIONE ITALIANA"]}
+    - {font: Jost-Regular.ttf, corpo: 52, allinea: centro, x: 1160, y: 2220,
        righe: ["traduzione, prefazione alla prefazione e note di"]}
-    - {font: Jost-Bold.ttf, corpo: 72, allinea: centro, x: 1160, y: 2025, righe: ["HERMAN FENDERSON"]}
+    - {font: Jost-Bold.ttf, corpo: 72, allinea: centro, x: 1160, y: 2310, righe: ["HERMAN FENDERSON"]}
 
 frontespizio:   # pagine 1 e 3 del libro (strumenti/pagine_apertura.py)
   autore: "MALACLYPSE IL GIOVANE"
