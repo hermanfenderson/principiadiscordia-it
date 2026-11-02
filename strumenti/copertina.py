@@ -210,8 +210,6 @@ def main():
     # piede: licenza a sinistra, spazio per il codice a barre KDP a destra (2 x 1,2 pollici)
     yb = y0 + px(ALTEZZA) - margine
     bx0, by0 = x + larghezza - px(2.0), yb - px(1.2)
-    d.rectangle([bx0, by0, x + larghezza, yb], fill=(255, 255, 255), outline=(170, 170, 170), width=2)
-    testo(d, ((bx0 + x + larghezza) // 2, (by0 + yb) // 2), "codice a barre", font("Jost-Regular.ttf", 28), "mm", (150, 150, 150))
     fp = font("Jost-Regular.ttf", 34)
     # piede allineato in basso: l'ultima riga sulla stessa linea del fondo del riquadro
     righe_piede = [a_capo(r, fp, bx0 - x - 40) for r in q["piede"]]
@@ -223,10 +221,17 @@ def main():
             yp += 43
         yp += 10
 
+    # versione per lo schermo (sito, PDF da sfogliare, EPUB): senza il riquadro del codice a barre,
+    # tutta ocra; quella per la stampa tiene il riquadro bianco dove KDP/StreetLib mettono l'ISBN
+    schermo = tela.copy()
+    d.rectangle([bx0, by0, x + larghezza, yb], fill=(255, 255, 255), outline=(170, 170, 170), width=2)
+    testo(d, ((bx0 + x + larghezza) // 2, (by0 + yb) // 2), "codice a barre", font("Jost-Regular.ttf", 28), "mm", (150, 150, 150))
+
     uscita = RADICE / "build" / "copertina"
     uscita.mkdir(parents=True, exist_ok=True)
     nome = f"copertina-{args.variante}" + ("" if args.prima == "disegno" else f"-{args.prima}")
     tela.save(uscita / f"{nome}.png", dpi=(DPI, DPI))
+    schermo.save(uscita / f"{nome}-schermo.png", dpi=(DPI, DPI))
     anteprima = tela.copy()
     da = ImageDraw.Draw(anteprima)
     for xx in (x_dorso, x_prima):  # linee di piega, solo nell'anteprima

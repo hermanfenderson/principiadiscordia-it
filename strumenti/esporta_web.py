@@ -112,12 +112,12 @@ def indice_originale(testo: str) -> list[tuple[int, str]]:
     return voci
 
 
-def copertina() -> dict:
-    """Prima di copertina ritagliata dalla stesa (come in epub.py) e immagine per i social."""
-    sorgente = RADICE / "build" / "copertina" / "copertina-ocra.png"
+def copertina() -> tuple[dict, dict]:
+    """Prima e quarta di copertina ritagliate dalla stesa (come in epub.py) e immagine per i social."""
+    sorgente = RADICE / "build" / "copertina" / "copertina-ocra-schermo.png"
     cartella = PUBBLICO / "copertina"
-    prima = cartella / "prima.png"
-    if not aggiornato(prima, sorgente):
+    prima, quarta = cartella / "prima.png", cartella / "quarta.png"
+    if not (aggiornato(prima, sorgente) and aggiornato(quarta, sorgente)):
         cartella.mkdir(parents=True, exist_ok=True)
         stesa = Image.open(sorgente).convert("RGB")
         ab, pw, ph = round(0.125 * 300), round(148 / 25.4 * 300), round(210 / 25.4 * 300)
@@ -125,13 +125,55 @@ def copertina() -> dict:
         x0 = ab + pw + dorso
         c = stesa.crop((x0, ab, x0 + pw, ab + ph))
         c.save(prima)
+        stesa.crop((ab, ab, ab + pw, ab + ph)).save(quarta)
         # Open Graph 1200 x 630: la prima su fondo ocra
         og = Image.new("RGB", (1200, 630), OCRA)
         k = 600 / c.height
         r = c.resize((round(c.width * k), 600), Image.LANCZOS)
         og.paste(r, ((1200 - r.width) // 2, 15))
         og.save(cartella / "social.jpg", quality=85, optimize=True)
-    return esporta_immagine(prima, cartella, "prima") if prima.exists() else {}
+    return esporta_immagine(prima, cartella, "prima"), esporta_immagine(quarta, cartella, "quarta")
+
+
+def pagine_copertina(cop: dict, img_prima: dict, img_quarta: dict) -> tuple[dict, dict]:
+    """Copertina e quarta come pagine dello sfogliatore, con i testi accessibili di libro/copertina.yaml."""
+    q = cop["quarta"]
+    paragrafi = lambda t: [" ".join(x.split()) for x in t.split("\n\n") if x.strip()]
+    comune = {"hill": None, "voce": None, "originale": None,
+              "avviso": "la copertina dell'edizione italiana è nuova"}
+    prima = dict(comune, slug="copertina", tavola="copertina", numero=0, lato="destra",
+                 sezione="Copertina", titolo="Copertina", posizione="prima di copertina",
+                 alt="Copertina: Principia Discordia, ovvero Come trovai la Dea e Cosa le feci Quando la trovai. "
+                     "Edizione italiana, traduzione di Herman Fenderson.",
+                 descrizione=md_html(
+                     "Copertina color ocra. In alto «Sua Grande Narcoticità Malaclypse il Giovane», poi il titolo "
+                     "«Principia Discordia» in grandi lettere a riccioli, «ovvero» e il sottotitolo «Come trovai la Dea "
+                     "e Cosa le feci Quando la trovai»; sotto, «In cui è Spiegata Assolutamente Qualsiasi Cosa che Valga "
+                     "la Pena di Sapere A proposito Assolutamente di Tutto». In basso a sinistra una croce nera "
+                     "attraversata da due mezzelune; accanto «Edizione italiana, traduzione, prefazione alla prefazione "
+                     "e note di Herman Fenderson» e, sotto, una statua di donna distesa.", 4),
+                 testo=md_html("SUA GRANDE NARCOTICITÀ MALACLYPSE IL GIOVANE\n\n### <span lang=\"la\">Principia Discordia</span>\n\n"
+                               "OVVERO\n\nCome trovai la Dea e Cosa le feci Quando la trovai\n\n"
+                               "In cui è Spiegata Assolutamente Qualsiasi Cosa che Valga la Pena di Sapere "
+                               "A proposito Assolutamente di Tutto\n\nEDIZIONE ITALIANA\n\n"
+                               "traduzione, prefazione alla prefazione e note di HERMAN FENDERSON", 4),
+                 immagine=img_prima)
+    testo_quarta = ("\n\n".join(r.replace("--", "—") for r in q["citazione"]) + f"\n\n({q['fonte_citazione']})\n\n"
+                    + "\n\n".join(paragrafi(q["presentazione"]))
+                    + f"\n\nSotto il disegno dello struzzo: «{q['didascalia']}»\n\n"
+                    + "\n\n".join(paragrafi(q["traduttore"])) + "\n\n"
+                    + "\n\n".join(r.replace("--", "—") for r in q["piede"]))
+    quarta = dict(comune, slug="quarta", tavola="quarta", numero=None, lato="sinistra",
+                  sezione="Quarta di copertina", titolo="Quarta di copertina", posizione="quarta di copertina",
+                  alt="Quarta di copertina: citazione di Malaclypse, presentazione del libro e nota sul traduttore "
+                      "con il disegno di uno struzzo.",
+                  descrizione=md_html(
+                      "Quarta di copertina color ocra. In alto la citazione, un breve dialogo; sotto, la presentazione "
+                      "del libro in tre capoversi; poi il disegno di uno struzzo con la testa nella sabbia, con la "
+                      "didascalia scritta a mano, e accanto la nota su Herman Fenderson. In fondo la nota «All Rites "
+                      "Reversed» e la licenza della traduzione.", 4),
+                  testo=md_html(testo_quarta, 4), immagine=img_quarta)
+    return prima, quarta
 
 
 def scaricabili() -> list[dict]:
@@ -278,19 +320,27 @@ def main():
             p["originale"] = orig
         pagine.append(p)
 
+    cop = leggi_yaml(RADICE / "libro" / "copertina.yaml")
+    img_prima, img_quarta = copertina()
+    pag_prima, pag_quarta = pagine_copertina(cop, img_prima, img_quarta)
+    pag_quarta["numero"] = len(ordine) + 1
+
     # posizione nella sezione, per i titoli delle pagine senza numero di Hill
     for p in pagine:
+        p["posizione"] = f"pagina {p['numero']} di {len(ordine)} dell'edizione italiana"
+        p["avviso"] = None if p["originale"] else "questa pagina non esiste nell'originale"
         stessa = [q for q in pagine if q["sezione"] == p["sezione"]]
         i = stessa.index(p) + 1
         p["titolo"] = (f"Pagina {p['hill']}" if p["hill"]
                        else web.get("titoli", {}).get(p["tavola"])
                        or p["sezione"] + (f", pagina {i} di {len(stessa)}" if len(stessa) > 1 else ""))
+    pagine = [pag_prima] + pagine + [pag_quarta]
     for i, p in enumerate(pagine):
         p["prec"] = pagine[i - 1]["slug"] if i else None
         p["succ"] = pagine[i + 1]["slug"] if i + 1 < len(pagine) else None
     # doppia pagina, come nel libro stampato: pari a sinistra, dispari a destra
     per_numero = {p["numero"]: p for p in pagine}
-    for p in pagine:
+    for p in pagine[1:-1]:
         sinistra = p["numero"] - (p["numero"] % 2)          # 0 per la prima pagina (sola a destra)
         destra = sinistra + 1
         altra = per_numero.get(destra if p["numero"] == sinistra else sinistra)
@@ -299,13 +349,19 @@ def main():
         prima = [q for q in pagine if q["numero"] < sinistra]
         p["succ_doppia"] = dopo[0]["slug"] if dopo else None
         p["prec_doppia"] = prima[-1]["slug"] if prima else None
+    # copertina e quarta stanno da sole, come nel libro chiuso
+    pag_prima.update(compagna=None, prec_doppia=None, succ_doppia=pagine[1]["slug"])
+    pag_quarta.update(compagna=None, succ_doppia=None, prec_doppia=pagine[-2]["slug"])
+    for p in pagine[1:-1]:
+        if p["prec_doppia"] in (None, ):
+            p["prec_doppia"] = "copertina"
 
     # indice: sezioni con le loro pagine; sotto la Quarta Edizione le voci dell'indice originale
     per_hill = {int(p["hill"]): p for p in pagine if p["hill"]}
     p017 = next(p for p in pagine if p["tavola"] == "p017")
     _, corpo017 = leggi_md(RADICE / "testo" / "accessibile" / "p017.md")
     voci = indice_originale(corpo017.split("## Testo", 1)[1])
-    sezioni = []
+    sezioni = [{"titolo": "Copertina", "pagine": ["copertina"], "voci": []}]
     for s in web["sezioni"]:
         sp = [p["slug"] for p in pagine if p["sezione"] == s["titolo"]]
         voce = {"titolo": s["titolo"], "pagine": sp, "voci": []}
@@ -313,6 +369,7 @@ def main():
             voce["voci"] = [{"titolo": t, "hill": f"{n:05d}", "slug": per_hill[n]["slug"]}
                             for n, t in voci if n in per_hill]
         sezioni.append(voce)
+    sezioni.append({"titolo": "Quarta di copertina", "pagine": ["quarta"], "voci": []})
     for p in pagine:   # voce dell'indice originale in cui cade la pagina (per il sottotitolo)
         if p["hill"] and int(p["hill"]) > 0:
             prima = [v for v in voci if v[0] <= int(p["hill"])]
@@ -322,13 +379,12 @@ def main():
     assert p017["slug"] == "00002"
 
     meta = leggi_yaml(RADICE / "libro" / "metadati.yaml")
-    cop = leggi_yaml(RADICE / "libro" / "copertina.yaml")
     dati = {
         "libro": {"titolo": meta["titolo"], "sottotitolo": meta["sottotitolo"], "autore": meta["autore"],
                   "pagine": len(ordine), "presentazione": cop["quarta"].get("presentazione", ""),
                   "citazione": cop["quarta"].get("citazione", []),
                   "fonte_citazione": cop["quarta"].get("fonte_citazione", "")},
-        "copertina": copertina(),
+        "copertina": img_prima,
         "scarica": scaricabili(),
         "sezioni": sezioni,
         "pagine": pagine,

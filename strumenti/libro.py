@@ -73,7 +73,7 @@ def pagina(tavola: Image.Image | None, numero: int, nome: str) -> Image.Image:
 
 def anteprima_con_copertina(pagine: list[str], uscita: Path):
     """Sfogliabile con la prima di copertina in apertura e la quarta in chiusura."""
-    cop = Image.open(RADICE / "build" / "copertina" / "copertina-ocra.png").convert("RGB")
+    cop = Image.open(RADICE / "build" / "copertina" / "copertina-ocra-schermo.png").convert("RGB")
     dpi = 300
     ab, pw, ph = round(0.125 * dpi), round(148 / 25.4 * dpi), round(210 / 25.4 * dpi)
     dorso = cop.width - 2 * ab - 2 * pw
@@ -94,7 +94,7 @@ def main():
     ap.add_argument("--ricomponi", action="store_true")
     ap.add_argument("--anteprima", action="store_true", help="PDF leggero da sfogliare (150 dpi, JPEG)")
     ap.add_argument("--copertina", action="store_true",
-                    help="con --anteprima: aggiunge prima e quarta di copertina (da build/copertina/copertina-ocra.png)")
+                    help="con --anteprima: aggiunge prima e quarta di copertina (da build/copertina/copertina-ocra-schermo.png)")
     args = ap.parse_args()
     ordine = yaml.safe_load((RADICE / "libro" / "ordine.yaml").read_text(encoding="utf-8"))["pagine"]
     uscita = RADICE / "build" / "libro"

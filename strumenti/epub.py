@@ -116,7 +116,7 @@ def main():
     (oebps / "css" / "pagina.css").write_text(CSS, encoding="utf-8")
 
     # ---- copertina: prima e quarta ritagliate dalla copertina stesa
-    stesa = Image.open(RADICE / "build" / "copertina" / "copertina-ocra.png").convert("RGB")
+    stesa = Image.open(RADICE / "build" / "copertina" / "copertina-ocra-schermo.png").convert("RGB")
     ab, pw, ph = round(0.125 * 300), round(148 / 25.4 * 300), round(210 / 25.4 * 300)
     dorso = stesa.width - 2 * ab - 2 * pw
     for nome, x0 in (("copertina.jpg", ab + pw + dorso), ("quarta.jpg", ab)):

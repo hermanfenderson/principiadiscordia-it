@@ -14,10 +14,11 @@ const per = Object.fromEntries(dati.pagine.map((q) => [q.slug, q]));
 const compagna = p.compagna ? per[p.compagna] : null;
 const prima = dati.pagine[0].slug;
 const ultima = dati.pagine[dati.pagine.length - 1].slug;
-const totale = dati.libro.pagine;
 const url = (s: string | null) => (s ? `/libro/${s}/` : undefined);
 const sottotitolo = p.voce && p.hill ? p.voce : p.hill ? p.sezione : null;
 const SIZES = '(min-width: 60rem) min(46vw, calc((100svh - 11rem) * 0.62)), min(100vw, calc((100svh - 11rem) * 0.62))';
+// nel tutto schermo lo script mette questi sizes: l'immagine prende la larghezza di sizes
+const SIZES_SCHERMO = '(min-width: 60rem) min(46vw, calc((100svh - 0.5rem) * 0.62)), min(100vw, calc((100svh - 3.5rem) * 0.62))';
 const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
 const o = p.originale;
 const altOriginale = o
@@ -49,6 +50,7 @@ const altOriginale = o
       data-prima={url(prima)} data-ultima={url(ultima)}
       data-succ-avif={p.succ ? per[p.succ].immagine.avif : undefined}
       data-sizes={SIZES}
+      data-sizes-schermo={SIZES_SCHERMO}
       data-originale={o ? 'si' : 'no'}
     >
       <div class="intestazione">
@@ -56,7 +58,7 @@ const altOriginale = o
           <span class="numero">{p.titolo}</span>
           {sottotitolo && <span class="sottotitolo">{sottotitolo}</span>}
         </h1>
-        <p class="posizione">pagina {p.numero} di {totale} dell'edizione italiana</p>
+        <p class="posizione">{p.posizione}</p>
       </div>
 
       <div class={`palco lato-${p.lato}${o ? ' ha-originale' : ''}`}>
@@ -103,7 +105,7 @@ const altOriginale = o
         <span class="gruppo-fronte">
           <button type="button" class="interruttore solo-js" data-azione="a-fronte" aria-pressed="false"
             aria-disabled={o ? undefined : 'true'} aria-describedby={o ? undefined : 'senza-originale'}>Originale a fronte</button>
-          {!o && <span id="senza-originale" class="avviso">questa pagina non esiste nell'originale</span>}
+          {!o && <span id="senza-originale" class="avviso">{p.avviso}</span>}
         </span>
         {o && <a class="senza-js" href={`/libro/${p.slug}/originale/`}>Vedi l'originale inglese</a>}
         <button type="button" class="interruttore solo-js solo-largo" data-azione="doppia" aria-pressed="false">Doppia pagina</button>
@@ -134,7 +136,7 @@ const altOriginale = o
 
     <div class="barra-schermo" hidden>
       <button type="button" class="freccia" data-azione="prec"><span aria-hidden="true">←</span><span class="solo-lettori">Pagina precedente</span></button>
-      <button type="button" class="esci" data-azione="esci-schermo">Esci dal tutto schermo</button>
+      <button type="button" class="esci" data-azione="esci-schermo">Esci<span class="solo-lettori"> dal tutto schermo</span> <span aria-hidden="true">✕</span></button>
       <button type="button" class="freccia" data-azione="succ"><span aria-hidden="true">→</span><span class="solo-lettori">Pagina successiva</span></button>
     </div>
     <p class="solo-lettori" aria-live="polite" id="annuncio"></p>
@@ -224,19 +226,32 @@ const altOriginale = o
   .nota-accessibile { text-align: center; font-size: 0.9rem; margin: 0.5rem 0 0; color: var(--grigio); }
   .nota-accessibile a { color: var(--inchiostro); }
 
-  /* tutto schermo: solo la pagina e, sotto, le frecce. Con l'API Fullscreen quando c'è,
-     altrimenti (iPhone) la stessa vista sopra il resto della finestra */
-  .schermo .sfogliatore { position: fixed; inset: 0; z-index: 50; max-width: none; margin: 0; padding: 0.5rem;
-    background: var(--carta); display: flex; flex-direction: column; overflow: auto; }
-  .schermo .sfogliatore .pagina-corrente { flex: 1; display: flex; flex-direction: column; justify-content: center; }
-  .schermo .intestazione, .schermo .sfoglia, .schermo .strumenti, .schermo .nota-accessibile { display: none; }
-  .schermo .palco { --alto: calc(100svh - 5.5rem); margin: 0; }
-  .schermo .barra-schermo { display: flex !important; justify-content: center; align-items: center; gap: 1rem; padding: 0.5rem 0 0.25rem; }
+  /* tutto schermo: il foglio a tutta altezza, frecce piccole ai lati, «Esci» in un angolo.
+     Con l'API Fullscreen quando c'è, altrimenti (iPhone) la stessa vista sopra il resto della finestra */
+  .schermo .sfogliatore { position: fixed; inset: 0; z-index: 50; max-width: none; margin: 0; padding: 0;
+    background: var(--carta); overflow: auto; }
+  .schermo .sfogliatore .pagina-corrente { min-height: 100%; display: flex; align-items: center; justify-content: center; padding: 0.25rem 3.25rem; }
+  .schermo .intestazione, .schermo .sfoglia, .schermo .strumenti, .schermo .nota-accessibile,
+  .schermo .originale .fonte { display: none; }
+  .schermo .palco { --alto: calc(100svh - 0.5rem); margin: 0; }
+  .schermo .originale figcaption { position: absolute; margin: 0; padding: 0.2rem; }
+  .schermo .originale { position: relative; }
+  .schermo .originale img, .schermo.a-fronte .palco.ha-originale .corrente img { max-height: var(--alto); }
+  .schermo.a-fronte .palco.ha-originale .corrente { padding-top: 0; }
   .schermo body { overflow: hidden; }
-  .barra-schermo button { font: inherit; font-weight: 500; cursor: pointer; color: var(--inchiostro); background: var(--carta);
-    border: 2px solid var(--inchiostro); min-height: 48px; }
-  .barra-schermo .freccia { font-size: 1.6rem; line-height: 1; width: 4.5rem; border-radius: 2rem; }
+  .schermo .barra-schermo { display: block !important; }
+  .barra-schermo button { font: inherit; font-weight: 500; cursor: pointer; color: var(--inchiostro);
+    background: rgb(251 247 236 / 0.9); border: 2px solid var(--inchiostro); position: fixed; z-index: 60; }
+  .barra-schermo .freccia { top: 50%; transform: translateY(-50%); width: 2.75rem; height: 2.75rem; border-radius: 50%;
+    font-size: 1.3rem; line-height: 1; padding: 0; }
+  .barra-schermo [data-azione="prec"] { left: 0.25rem; }
+  .barra-schermo [data-azione="succ"] { right: 0.25rem; }
+  .barra-schermo .esci { top: 0.25rem; right: 0.25rem; min-height: 2.75rem; padding: 0.3rem 0.7rem; border-radius: 4px; font-size: 0.85rem; }
   .barra-schermo .freccia:hover, .barra-schermo .esci:hover { background: var(--ocra); }
-  .barra-schermo .freccia:disabled { border-style: dashed; color: var(--grigio); cursor: default; background: transparent; }
-  .barra-schermo .esci { padding: 0.4rem 0.9rem; border-radius: 4px; font-size: 0.9rem; }
+  .barra-schermo .freccia:disabled { border-style: dashed; color: var(--grigio); cursor: default; opacity: 0.6; }
+  @media (max-width: 40rem) {
+    .schermo .sfogliatore .pagina-corrente { padding: 0.25rem 0; }
+    .schermo .palco { --alto: calc(100svh - 3.5rem); }
+    .barra-schermo .freccia { top: auto; bottom: 0.25rem; transform: none; }
+  }
 </style>

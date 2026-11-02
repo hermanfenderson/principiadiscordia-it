@@ -21,7 +21,7 @@ Requisiti: Python 3 con `pip install -r requirements.txt`, e `pdftoppm` (poppler
 
 ```sh
 python3 strumenti/componi.py tavole/p032          # una tavola -> build/tavole/p032.png (+ build/confronti/)
-python3 strumenti/copertina.py --pagine 114       # copertina stesa -> build/copertina/copertina-ocra.png
+python3 strumenti/copertina.py --pagine 114       # copertina stesa -> build/copertina/copertina-ocra.png (stampa) e -schermo.png (senza riquadro del codice a barre)
 python3 strumenti/libro.py --ricomponi            # tutte le tavole + PDF di stampa A5 (build/libro/)
 python3 strumenti/libro.py --anteprima --copertina  # + PDF leggero da sfogliare con copertina
 python3 strumenti/verifica_accessibili.py         # controllo dei testi accessibili

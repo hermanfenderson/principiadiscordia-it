@@ -63,6 +63,11 @@ function sincronizza() {
     (barra.querySelector('[data-azione="prec"]') as HTMLButtonElement).disabled = !destinazione('prec');
     (barra.querySelector('[data-azione="succ"]') as HTMLButtonElement).disabled = !destinazione('succ');
   }
+  // nel tutto schermo il foglio è più grande: sizes più larghi (e immagini a risoluzione più alta)
+  const sizes = schermo() ? c.dataset.sizesSchermo : c.dataset.sizes;
+  if (sizes) c.querySelectorAll<HTMLImageElement | HTMLSourceElement>('.palco img, .palco source').forEach((el) => {
+    if (el.getAttribute('sizes') !== sizes) el.setAttribute('sizes', sizes);
+  });
   const qui = conStato(location.pathname);
   if (qui && qui !== location.pathname + location.search) history.replaceState(history.state, '', qui);
 }
