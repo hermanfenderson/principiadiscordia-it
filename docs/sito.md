@@ -31,6 +31,20 @@ Progetto del nuovo sito dell'edizione italiana. Da costruire in una sessione di 
 - `libro/metadati.yaml`, `libro/copertina.yaml`: titolo, sottotitolo, autori, testi della quarta (presentazione e bio, utili per la home).
 - `storico/sito/html/*.html` (86 pagine del vecchio sito, già scaricate e convertite dal PHP) e `storico/immagini-it/` (le tavole italiane del vecchio sito), `storico/sito/bookstyle.css`.
 
+## Aspetto
+
+La grafica deve venire dal mondo dei *Principia*: un collage fotocopiato di dattiloscritti, timbri, ritagli, scritte a mano e disegni rubacchiati. Non un sito "editoriale" pulito e anonimo.
+
+- **Colori**: l'ocra della copertina Loompanics (RGB 208,146,12) come colore di casa; carta (bianco caldo o crema) per le pagine; inchiostro quasi nero (20,18,16), come nel libro. Il nero sull'ocra contrasta circa 7:1; il bianco sull'ocra **non** basta per il testo.
+- **Caratteri**, gli stessi del libro, tutti OFL e già in `strumenti/font/` (da servire in WOFF2, con `font-display: swap`):
+  - **MysteryQuest**, il carattere a riccioli del titolo in copertina, per i titoli grandi;
+  - **Jost**, il grottesco geometrico del frontespizio, per l'interfaccia (menu, pulsanti, didascalie);
+  - un carattere da macchina da scrivere (**IBM Plex Mono** o **Courier Prime**, quelli delle pagine dattiloscritte) per i testi lunghi del sito e i numeri di pagina 000NN;
+  - **Kalam**, la scrittura a mano delle didascalie (come sotto lo struzzo), per note e commenti a margine;
+  - **Oswald** con l'effetto timbro, per etichette tipo «SCARICA GRATIS», «COMPRA», «ORIGINALE A FRONTE», nello stile di «NON È POSTA SPAZZATURA».
+- **Elementi**: timbri leggermente storti, ritagli con il bordo irregolare, la numerazione 000NN, le illustrazioni del libro (disegni di Hill, pubblico dominio) come decorazioni: il Sacro Cao come logo e favicon, la mela con kallisti, lo struzzo per la pagina su Herman Fenderson. Qualche scherzo discordiano discreto, ad esempio un «fnord» che compare solo selezionando il testo, a patto che non dia fastidio agli screen reader.
+- **Limiti**: storture, rotazioni e grana fotocopia sono **solo decorazione**: i testi da leggere restano dritti, con contrasto AA e dimensioni regolabili. Niente animazioni con `prefers-reduced-motion`. Le decorazioni hanno `alt=""` o `aria-hidden`. Lo sfogliatore resta sobrio: la pagina del libro è già abbastanza discordiana da sola.
+
 ## Sfogliatore
 
 - **Ogni pagina ha il suo indirizzo** e funziona **anche senza JavaScript**: HTML statico con l'immagine e i link "precedente" / "successiva" / "indice". Il JavaScript migliora l'esperienza (precaricamento, transizioni, tastiera, swipe) senza essere necessario.
@@ -42,7 +56,6 @@ Progetto del nuovo sito dell'edizione italiana. Da costruire in una sessione di 
 - **Indice**: griglia di miniature con i titoli delle sezioni (dall'indice originale, pagina 00002, e dai titoli nei testi accessibili), navigabile da tastiera.
 - **Dichiararlo**: va detto in modo visibile che lo sfogliatore è accessibile, perché chi usa uno screen reader lo sappia prima di rinunciare. Una riga breve nello sfogliatore e in home (es. «Ogni pagina ha descrizione e testo completo per chi usa uno screen reader») con link a una pagina **Accessibilità** (raggiungibile anche dal piè di pagina) che spiega cosa c'è: alt, descrizione, testo in ordine di lettura, navigazione da tastiera, EPUB accessibile, e un contatto per segnalare problemi.
 - `prefers-reduced-motion`: niente animazioni di sfoglio. Contrasto AA in tutta l'interfaccia. `lang="it"` sul documento.
-- Colori: l'ocra della copertina (RGB 208,146,12) con inchiostro quasi nero (20,18,16); caratteri dell'interfaccia coerenti con il libro (es. Jost per l'interfaccia, MysteryQuest per il titolo; sono OFL, in `strumenti/font/`).
 
 ## Originale a fronte
 
