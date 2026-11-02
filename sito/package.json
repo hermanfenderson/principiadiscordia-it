@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "esporta": "cd .. && .venv/bin/python strumenti/esporta_web.py",
+    "esporta": "cd .. && .venv/bin/python strumenti/esporta_web.py && .venv/bin/python strumenti/clona_storico.py",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
