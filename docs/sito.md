@@ -8,6 +8,7 @@ Progetto del nuovo sito dell'edizione italiana. Da costruire in una sessione di 
 2. **Scarica**: PDF ed EPUB gratuiti (copyleft, CC BY-SA 4.0).
 3. **Compra**: invito a comprare il cartaceo o l'ebook sulle principali piattaforme.
 4. **Storico**: un clone statico del vecchio sito PHP (la traduzione storica), come omaggio.
+5. **Originale a fronte**: con un interruttore, accanto alla pagina italiana la pagina originale inglese.
 
 ## Architettura
 
@@ -42,6 +43,16 @@ Progetto del nuovo sito dell'edizione italiana. Da costruire in una sessione di 
 - **Dichiararlo**: va detto in modo visibile che lo sfogliatore è accessibile, perché chi usa uno screen reader lo sappia prima di rinunciare. Una riga breve nello sfogliatore e in home (es. «Ogni pagina ha descrizione e testo completo per chi usa uno screen reader») con link a una pagina **Accessibilità** (raggiungibile anche dal piè di pagina) che spiega cosa c'è: alt, descrizione, testo in ordine di lettura, navigazione da tastiera, EPUB accessibile, e un contatto per segnalare problemi.
 - `prefers-reduced-motion`: niente animazioni di sfoglio. Contrasto AA in tutta l'interfaccia. `lang="it"` sul documento.
 - Colori: l'ocra della copertina (RGB 208,146,12) con inchiostro quasi nero (20,18,16); caratteri dell'interfaccia coerenti con il libro (es. Jost per l'interfaccia, MysteryQuest per il titolo; sono OFL, in `strumenti/font/`).
+
+## Originale a fronte
+
+Un interruttore nello sfogliatore («Originale a fronte») mostra accanto alla tavola italiana la pagina inglese corrispondente, come nelle edizioni con testo a fronte: originale a sinistra, traduzione a destra.
+
+- **Quali pagine**: tutte quelle che vengono dall'edizione Loompanics (tavole `p005`…`p105`). Per le pagine nuove dell'edizione italiana (occhiello, frontespizio, colophon, prefazione alla prefazione, note del traduttore, Herman Fenderson) l'interruttore è disattivato, con un breve avviso («questa pagina non esiste nell'originale»).
+- **Cosa si vede**: la pagina della scansione Loompanics (`sorgenti/loompanics.pdf`, pagina N per la tavola pNNN), esportata come le tavole italiane e con le stesse misure, così le due pagine stanno affiancate alla stessa scala. Su schermi stretti non c'è spazio per due pagine: l'interruttore scambia la tavola italiana con l'originale, con un'etichetta chiara («Originale inglese»).
+- **Testo inglese**: per gli screen reader (e per chi vuole copiarlo) la pagina originale ha il suo testo inglese, marcato `lang="en"`, preso dalle **trascrizioni di Wikisource** della scansione (indice «Principia Discordia (Loompanics Unlimited edition).pdf», pagine `Page:Principia_Discordia_(Loompanics_Unlimited_edition).pdf/N`). Nel repository ci sono già, in wikitesto, le pagine 5, 7 e 93–101 (`testo/en/wikisource/`); le altre vanno scaricate (dal Mac: le API di Wikimedia limitano le richieste, quindi con calma e con un User-Agent che identifichi il progetto) e convertite in Markdown in `testo/en/pagine/<tavola>.md`, con nell'intestazione l'indirizzo della pagina Wikisource e la revisione. Dove Wikisource non ha la trascrizione, si mostra solo la scansione, con alt e descrizione brevi in italiano, e nessun testo inventato (`testo/en/ocr/` è solo un OCR di lavoro, non da pubblicare).
+- **Citare e linkare la fonte**: sotto la pagina originale, una riga con il link alla pagina di Wikisource da cui viene il testo e al file della scansione su Wikimedia Commons; nella pagina dei crediti, la nota completa: scansione dell'edizione Loompanics 1980 su Wikimedia Commons (pubblico dominio), trascrizioni dei volontari di Wikisource (CC BY-SA 4.0), testo originale «(K) All Rites Reversed». È anche un omaggio al vecchio sito, che a ogni pagina aveva il bottone «In inglese!».
+- **Interruttore accessibile**: un `<button aria-pressed>` con etichetta visibile, raggiungibile da tastiera (anche con una scorciatoia, es. `O`), che resta attivo mentre si sfoglia (stato in `localStorage` e nell'indirizzo, es. `?a-fronte`, così si può condividere il link). Senza JavaScript: un semplice link «Vedi l'originale» a una pagina statica con la scansione e il testo inglese. Quando è attivo, per gli screen reader la pagina originale viene prima, annunciata come «Originale inglese», poi la traduzione.
 
 ## Scarica e compra
 
