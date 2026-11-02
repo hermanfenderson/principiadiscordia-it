@@ -12,7 +12,7 @@ Uso:
   python3 strumenti/copertina.py --pagine 114 --piattaforma streetlib --dorso-mm 9
 Con --piattaforma streetlib: abbondanza 0,20", testi a 0,6" dai bordi (la tavola della prima
 viene ridotta perché l'inchiostro stia nell'area sicura), nessun riquadro per il codice a barre
-(lo stampa StreetLib: resta libera la zona in basso a destra della quarta, 2,16 x 1,57 pollici),
+(lo stampa StreetLib: resta libera la zona in basso a destra della quarta, 8 x 5 cm),
 e in più un PDF CMYK senza profilo incorporato (build/copertina/copertina-<variante>-streetlib.pdf).
 Il dorso si prende dal calcolatore StreetLib (--dorso-mm).
 Uscita: build/copertina/copertina-<variante>.png (300 dpi) e un'anteprima ridotta.
@@ -215,30 +215,63 @@ def main():
     larghezza = px(LARGHEZZA) - 2 * margine
     y = y0 + margine + 40
     q = testi["quarta"]
-    fd = font("CourierPrime-Bold.ttf", 46)
+    k = 0.9 if streetlib else 1.0   # StreetLib: margini più larghi e zona del codice a barre più grande
+    fd = font("CourierPrime-Bold.ttf", round(46 * k))
     for battuta in q["citazione"]:
-        y = blocco(d, x, y, battuta, fd, larghezza, 56) - 10
-    testo(d, (x + larghezza, y + 10), q["fonte_citazione"], font("CourierPrime-Italic.ttf", 38), "rs")
-    y += 110
+        y = blocco(d, x, y, battuta, fd, larghezza, round(56 * k)) - 10
+    testo(d, (x + larghezza, y + 10), q["fonte_citazione"], font("CourierPrime-Italic.ttf", round(38 * k)), "rs")
+    y += round(110 * k)
     d.rectangle([x, y - 40, x + larghezza, y - 36], fill=INCHIOSTRO)
-    y = blocco(d, x, y + 20, q["presentazione"], font("OldStandard-Regular.ttf", 44), larghezza, 56)
-    # traduttore: struzzo a sinistra, nota a destra
-    y += 30
-    struzzo = Image.open(RADICE / "tavole" / "apparato" / "struzzo-00010.png")
-    ls = round(larghezza * 0.42)
-    struzzo = struzzo.resize((ls, round(struzzo.height * ls / struzzo.width)), Image.LANCZOS)
-    tela.paste(tinta(struzzo, carta), (x, y))
-    ff = font("Kalam-Bold.ttf", 38)  # circa 9 pt: è scritta a mano, più piccola si legge a fatica
-    blocco(d, x, y + struzzo.height + 50, q["didascalia"], ff, ls, 46)
-    blocco(d, x + ls + 40, y + 30, q["traduttore"], font("OldStandard-Italic.ttf", 41), larghezza - ls - 40, 51)
-    # piede: licenza a sinistra, spazio per il codice a barre KDP a destra (2 x 1,2 pollici)
+    y = blocco(d, x, y + 20, q["presentazione"], font("OldStandard-Regular.ttf", round(44 * k)), larghezza, round(56 * k))
     yb = y0 + px(ALTEZZA) - margine
-    bx0, by0 = (x + larghezza - px(2.16), yb - px(1.57)) if streetlib else (x + larghezza - px(2.0), yb - px(1.2))
     fp = font("Jost-Regular.ttf", 34)
-    # piede allineato in basso: l'ultima riga sulla stessa linea del fondo del riquadro
-    righe_piede = [a_capo(r, fp, bx0 - x - 40) for r in q["piede"]]
-    altezza = sum(len(g) for g in righe_piede) * 43 + (len(righe_piede) - 1) * 10 - 43
-    yp = yb - 8 - altezza
+    ff = font("Kalam-Bold.ttf", 38)  # circa 9 pt: è scritta a mano, più piccola si legge a fatica
+    struzzo = Image.open(RADICE / "tavole" / "apparato" / "struzzo-00010.png")
+    if streetlib:
+        # La guida italiana di StreetLib chiede almeno 8 x 5 cm liberi in fondo alla quarta, senza
+        # riquadri. In basso: lo struzzo con la didascalia a sinistra, la zona libera a destra;
+        # sopra, a tutta larghezza, la nota sul traduttore e la licenza.
+        bx0, by0 = x + larghezza - px(80 / 25.4), yb - px(50 / 25.4)
+        colonna = bx0 - x - px(2 / 25.4)
+        ff = font("Kalam-Bold.ttf", 37)
+        didascalia = a_capo(" ".join(q["didascalia"].split()), ff, colonna)
+        alt_didascalia = len(didascalia) * 44
+        # via il bordo bianco della scansione, che sull'ocra non si vede ma ruba spazio
+        import numpy as np
+        a = np.asarray(struzzo.convert("L")) < 128
+        rr, cc = np.where(a.sum(1) > 2)[0], np.where(a.sum(0) > 2)[0]
+        struzzo = struzzo.crop((cc[0], rr[0], cc[-1] + 1, rr[-1] + 1))
+        ls = colonna
+        struzzo = struzzo.resize((ls, round(struzzo.height * ls / struzzo.width)), Image.LANCZOS)
+        y_struzzo = yb - alt_didascalia - 20 - struzzo.height
+        tela.paste(tinta(struzzo, carta), (x, y_struzzo))
+        yd = y_struzzo + struzzo.height + 20 + 30
+        for r in didascalia:
+            testo(d, (x, yd), r, ff, "ls")
+            yd += 44
+        y += 20
+        fine_bio = blocco(d, x, y, q["traduttore"], font("OldStandard-Italic.ttf", round(41 * k)), larghezza, round(51 * k))
+        righe_piede = [a_capo(r, fp, larghezza) for r in q["piede"]]
+        altezza = sum(len(g) for g in righe_piede) * 43 + (len(righe_piede) - 1) * 10 - 43
+        yp = min(by0, y_struzzo) - 40 - altezza
+        libero = (yp - 34) - fine_bio
+        print(f"quarta: {libero / DPI * 25.4:.1f} mm liberi tra la nota sul traduttore e la licenza")
+        if libero < px(0.08):
+            sys.exit("la quarta non ci sta: ridurre i testi o i corpi")
+    else:
+        # traduttore: struzzo a sinistra, nota a destra
+        y += 30
+        ls = round(larghezza * 0.42)
+        struzzo = struzzo.resize((ls, round(struzzo.height * ls / struzzo.width)), Image.LANCZOS)
+        tela.paste(tinta(struzzo, carta), (x, y))
+        blocco(d, x, y + struzzo.height + 50, q["didascalia"], ff, ls, 46)
+        blocco(d, x + ls + 40, y + 30, q["traduttore"], font("OldStandard-Italic.ttf", 41), larghezza - ls - 40, 51)
+        # piede: licenza a sinistra, spazio per il codice a barre KDP a destra (2 x 1,2 pollici)
+        bx0, by0 = x + larghezza - px(2.0), yb - px(1.2)
+        # piede allineato in basso: l'ultima riga sulla stessa linea del fondo del riquadro
+        righe_piede = [a_capo(r, fp, bx0 - x - 40) for r in q["piede"]]
+        altezza = sum(len(g) for g in righe_piede) * 43 + (len(righe_piede) - 1) * 10 - 43
+        yp = yb - 8 - altezza
     for gruppo in righe_piede:
         for rr in gruppo:
             testo(d, (x, yp), rr, fp, "ls")
