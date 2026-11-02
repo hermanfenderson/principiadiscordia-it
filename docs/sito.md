@@ -111,3 +111,17 @@ Annotate man mano, come chiesto, al posto di chiedere a ogni passo.
 - **Copertina e quarta nello sfogliatore** (chiesto da Mauro): `/libro/copertina/` è la prima pagina e `/libro/quarta/` l'ultima, da sole anche in doppia pagina (copertina a destra, quarta a sinistra). Immagini ritagliate dalla copertina stesa; testi accessibili da `libro/copertina.yaml` (come nell'EPUB). «Sfoglia» ora parte dalla copertina.
 - **Riquadro del codice a barre**: `strumenti/copertina.py` produce anche `copertina-ocra-schermo.png`, tutta ocra, senza il riquadro bianco; la usano il sito, il PDF da sfogliare e l'EPUB. `copertina-ocra.png`, per la tipografia, tiene il riquadro dove KDP/StreetLib stampano l'ISBN.
 - **Tutto schermo, seconda versione** (su indicazione di Mauro): foglio a tutta altezza, frecce piccole tonde ai lati (sul telefono in basso agli angoli), «Esci ✕» nell'angolo in alto. Nel tutto schermo lo script cambia `sizes` di immagini e sorgenti, così il foglio cresce davvero (con `srcset` la larghezza intrinseca è quella di `sizes`) e si carica la risoluzione più alta.
+
+## SEO
+
+- **Sitemap** `/sitemap.xml` (endpoint `sito/src/pages/sitemap.xml.ts`): home, pagine fisse, ogni pagina del libro con la sua immagine (estensione `image:` di Google), le pagine dell'originale e le 86 del vecchio sito. Collegata da `<link rel="sitemap">` e da robots.txt.
+- **robots.txt** (`sito/src/pages/robots.txt.ts`) e `<meta name="robots">` dipendono da `site`: sull'indirizzo provvisorio `*.workers.dev` il sito **non si fa indicizzare** (`Disallow: /` e `noindex`), per non creare un doppione da cui poi migrare e per non fare concorrenza al vecchio sito ancora online. Con il dominio vero diventano `Allow: /` + `Sitemap:` e spariscono i `noindex` (resta solo sulla 404). Su workers.dev quindi la voce SEO di Lighthouse segnala «la pagina non è indicizzabile»: è voluto.
+- **Ogni pagina**: titolo, descrizione (per le pagine del libro, l'alt della tavola), canonical senza parametri (`?a-fronte` non crea doppioni), Open Graph e Twitter con l'immagine della pagina stessa (la tavola a 1000 px; per le altre pagine la copertina 1200×630) e il suo testo alternativo.
+- **Dati strutturati** (JSON-LD): in home `WebSite` + `Book` (autori, traduttore, opera tradotta, licenza, gratis, PDF ed EPUB come `workExample`, metadati di accessibilità); nelle pagine del libro `BreadcrumbList` (home › indice › pagina).
+- I vecchi indirizzi `.php` rimandano con 301 al clone storico: quando il dominio passerà al nuovo sito, i link accumulati negli anni continueranno a valere.
+
+### Il giorno del cambio di dominio
+
+1. In `sito/astro.config.mjs` mettere `site: 'https://principiadiscordia.hermanfenderson.com'` (o lanciare la build con `SITO_URL=...`): robots.txt, canonical, sitemap e `noindex` si aggiornano da soli.
+2. Collegare il dominio al Worker `principiadiscordia-it` (Custom Domain in Cloudflare) e, se si vuole, mettere `"workers_dev": false` in `sito/wrangler.jsonc`.
+3. `npx astro build && npx wrangler deploy`, poi registrare la sitemap in Google Search Console e Bing Webmaster Tools.

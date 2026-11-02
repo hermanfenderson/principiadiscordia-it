@@ -10,8 +10,47 @@ const pdf = dati.scarica.find((s) => s.tipo === 'pdf');
 const epub = dati.scarica.find((s) => s.tipo === 'epub');
 const mib = (b?: number) => (b ? (b / 2 ** 20).toLocaleString('it-IT', { maximumFractionDigits: 1 }) + ' MB' : '');
 const prima = dati.pagine[0].slug;
+const ass = (x: string) => new URL(x, Astro.site).href;
+const libroLD = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', '@id': ass('/#sito'), url: ass('/'), name: 'Principia Discordia — Edizione italiana', inLanguage: 'it' },
+    {
+      '@type': 'Book', '@id': ass('/#libro'), url: ass('/'),
+      name: 'Principia Discordia',
+      alternateName: 'Principia Discordia, ovvero Come trovai la Dea e Cosa le feci Quando la trovai',
+      description: paragrafi[0],
+      inLanguage: 'it',
+      author: [
+        { '@type': 'Person', name: 'Gregory Hill', alternateName: 'Malaclypse il Giovane' },
+        { '@type': 'Person', name: 'Kerry Thornley', alternateName: 'Lord Omar Khayyam Ravenhurst' },
+      ],
+      contributor: { '@type': 'Person', name: 'Robert Anton Wilson' },
+      translator: { '@type': 'Person', name: 'Herman Fenderson' },
+      translationOfWork: {
+        '@type': 'Book', name: 'Principia Discordia', inLanguage: 'en', datePublished: '1980',
+        publisher: { '@type': 'Organization', name: 'Loompanics Unlimited' },
+      },
+      image: ass(copertina.piena),
+      numberOfPages: dati.libro.pagine,
+      license: LICENZA,
+      isAccessibleForFree: true,
+      genre: ['satira religiosa', 'controcultura'],
+      keywords: 'Discordianesimo, Eris, Discordia, Illuminatus, Robert Anton Wilson, Greg Hill, Kerry Thornley',
+      accessMode: ['textual', 'visual'],
+      accessModeSufficient: ['textual', 'visual'],
+      accessibilityFeature: ['alternativeText', 'longDescription', 'readingOrder', 'structuralNavigation'],
+      accessibilitySummary: 'Ogni pagina in facsimile ha testo alternativo, descrizione dell\'immagine e testo completo in ordine di lettura.',
+      sameAs: REPOSITORY,
+      workExample: [
+        ...(epub ? [{ '@type': 'Book', bookFormat: 'https://schema.org/EBook', encodingFormat: 'application/epub+zip', url: ass(epub.href), inLanguage: 'it' }] : []),
+        ...(pdf ? [{ '@type': 'Book', bookFormat: 'https://schema.org/EBook', encodingFormat: 'application/pdf', url: ass(pdf.href), inLanguage: 'it' }] : []),
+      ],
+    },
+  ],
+};
 ---
-<Base>
+<Base tipo="book" datiStrutturati={libroLD}>
   <div class="home">
     <section class="apertura" aria-labelledby="titolo">
       <div class="copertina">

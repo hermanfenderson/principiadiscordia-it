@@ -297,10 +297,14 @@ def main():
     da.rectangle([px(ABBONDANZA), px(ABBONDANZA), W - px(ABBONDANZA), H - px(ABBONDANZA)], outline=(60, 120, 200), width=3)
     anteprima.resize((W // 2, H // 2), Image.LANCZOS).save(uscita / f"{nome}-anteprima.png")
 
-    # prima di copertina per l'ebook: solo la prima, senza abbondanza, JPG RGB di almeno 1875 x 2500 px
+    # prima di copertina per l'ebook: StreetLib vuole una JPG RGB di almeno 1600 x 2400 px e non più di
+    # 4 milioni di pixel, cioè 2:3, più slanciata dell'A5: la prima, larga 1600 px, sta al centro di una
+    # tela 1600 x 2400 del colore della carta
     pe = schermo.crop((x_prima, y0, x_prima + px(LARGHEZZA), y0 + px(ALTEZZA)))
-    pe = pe.resize((1875, round(1875 * pe.height / pe.width)), Image.LANCZOS)
-    pe.save(uscita / f"{nome}-prima-ebook.jpg", quality=92, dpi=(DPI, DPI))
+    pe = pe.resize((1600, round(1600 * pe.height / pe.width)), Image.LANCZOS)
+    tela_e = Image.new("RGB", (1600, 2400), carta)
+    tela_e.paste(pe, (0, (2400 - pe.height) // 2))
+    tela_e.save(uscita / f"{nome}-prima-ebook.jpg", quality=92, dpi=(DPI, DPI))
 
     if streetlib:
         pdf_cmyk(tela, uscita / f"{nome}.pdf")

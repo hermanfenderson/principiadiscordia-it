@@ -15,7 +15,8 @@ export function getStaticPaths() {
 const { p, prec, succ } = Astro.props as any;
 const o = p.originale;
 ---
-<Base titolo={`${p.titolo}: originale inglese`} descrizione={`La pagina originale inglese (edizione Loompanics, 1980) di ${p.titolo}.`} sezione="libro">
+<Base titolo={`${p.titolo}: originale inglese`} descrizione={`La pagina originale inglese (edizione Loompanics, 1980) di ${p.titolo}, accanto alla traduzione italiana di Herman Fenderson.`} sezione="libro"
+  immagine={{ src: o.immagine.src, alt: `La pagina originale inglese di ${p.titolo}, edizione Loompanics 1980.`, larghezza: 1000, altezza: Math.round(1000 * o.immagine.altezza / o.immagine.larghezza) }}>
   <div class="originale-statico">
     <h1><span class="numero">{p.titolo}</span>: originale inglese</h1>
     <p class="torna"><a href={`/libro/${p.slug}/`}>Torna alla traduzione italiana</a></p>

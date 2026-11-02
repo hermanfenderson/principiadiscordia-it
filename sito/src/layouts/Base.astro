@@ -1,17 +1,26 @@
 ---
 import '../styles/globale.css';
-import { TITOLO, DESCRIZIONE, REPOSITORY, LICENZA } from '../config/sito';
+import { TITOLO, DESCRIZIONE, REPOSITORY, LICENZA, PROVVISORIO } from '../config/sito';
 
 interface Props {
   titolo?: string;         // titolo della pagina (senza il nome del sito)
   descrizione?: string;
   sezione?: string;        // voce di menu corrente
   classe?: string;         // classe sul <body>
+  immagine?: { src: string; alt: string; larghezza: number; altezza: number };   // per Open Graph
+  tipo?: string;           // og:type
+  datiStrutturati?: object; // JSON-LD (schema.org)
+  noindex?: boolean;
 }
-const { titolo, descrizione = DESCRIZIONE, sezione, classe } = Astro.props;
+const { titolo, descrizione = DESCRIZIONE, sezione, classe, immagine, tipo = 'website', datiStrutturati, noindex } = Astro.props;
 const titoloCompleto = titolo ? `${titolo} · ${TITOLO}` : TITOLO;
 const canonico = new URL(Astro.url.pathname, Astro.site);
-const social = new URL('/copertina/social.jpg', Astro.site);
+const social = immagine ?? {
+  src: '/copertina/social.jpg', larghezza: 1200, altezza: 630,
+  alt: 'La copertina ocra dei Principia Discordia, edizione italiana tradotta da Herman Fenderson.',
+};
+// sull'indirizzo provvisorio (workers.dev) il sito non si fa indicizzare: vedi docs/sito.md, «SEO»
+const provvisorio = PROVVISORIO(Astro.site);
 const menu = [
   { href: '/libro/copertina/', nome: 'Sfoglia', id: 'libro' },
   { href: '/libro/', nome: 'Indice', id: 'indice' },
@@ -28,20 +37,24 @@ const menu = [
     <title>{titoloCompleto}</title>
     <meta name="description" content={descrizione} />
     <link rel="canonical" href={canonico} />
+    {(provvisorio || noindex) && <meta name="robots" content="noindex" />}
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <link rel="icon" href="/cao/favicon-32.png" sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href="/cao/apple-touch-icon.png" />
     <meta name="theme-color" content="#d0920c" />
-    <meta property="og:type" content="book" />
+    <meta property="og:type" content={tipo} />
     <meta property="og:locale" content="it_IT" />
     <meta property="og:site_name" content={TITOLO} />
     <meta property="og:title" content={titoloCompleto} />
     <meta property="og:description" content={descrizione} />
     <meta property="og:url" content={canonico} />
-    <meta property="og:image" content={social} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="La copertina ocra dei Principia Discordia, edizione italiana tradotta da Herman Fenderson." />
+    <meta property="og:image" content={new URL(social.src, Astro.site)} />
+    <meta property="og:image:width" content={String(social.larghezza)} />
+    <meta property="og:image:height" content={String(social.altezza)} />
+    <meta property="og:image:alt" content={social.alt} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content={social.alt} />
+    {datiStrutturati && <script type="application/ld+json" set:html={JSON.stringify(datiStrutturati).replace(/</g, "\\u003c")} />}
     <link rel="preload" href="/font/jost-400.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/font/jost-500.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/font/mysteryquest.woff2" as="font" type="font/woff2" crossorigin />

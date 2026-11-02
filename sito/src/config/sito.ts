@@ -6,3 +6,6 @@ export const CONTATTO = REPOSITORY + '/issues';
 export const TITOLO = 'Principia Discordia — Edizione italiana';
 export const DESCRIZIONE =
   "I Principia Discordia di Malaclypse il Giovane tradotti da Herman Fenderson: il libro sacro del Discordianesimo, pagina per pagina in facsimile, da sfogliare, scaricare e comprare. Ristampa quel che ti pare.";
+
+/** Vero finché il sito sta sull'indirizzo provvisorio di Cloudflare: niente indicizzazione. */
+export const PROVVISORIO = (site?: URL) => !site || site.hostname.endsWith('.workers.dev');

@@ -21,11 +21,22 @@ const SIZES = '(min-width: 60rem) min(46vw, calc((100svh - 11rem) * 0.62)), min(
 const SIZES_SCHERMO = '(min-width: 60rem) min(46vw, calc((100svh - 0.5rem) * 0.62)), min(100vw, calc((100svh - 3.5rem) * 0.62))';
 const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
 const o = p.originale;
+const ass = (x: string) => new URL(x, Astro.site).href;
+const briciole = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Principia Discordia', item: ass('/') },
+    { '@type': 'ListItem', position: 2, name: 'Indice', item: ass('/libro/') },
+    { '@type': 'ListItem', position: 3, name: p.titolo, item: ass(`/libro/${p.slug}/`) },
+  ],
+};
 const altOriginale = o
   ? `Originale inglese: la stessa pagina nell'edizione Loompanics del 1980${o.testo ? '' : ' (testo inglese non ancora trascritto su Wikisource)'}.`
   : '';
 ---
-<Base titolo={p.titolo + (sottotitolo ? ` — ${sottotitolo}` : '')} descrizione={p.alt} sezione="libro" classe="con-sfogliatore">
+<Base titolo={p.titolo + (sottotitolo ? ` — ${sottotitolo}` : '')} descrizione={p.alt} sezione="libro" classe="con-sfogliatore"
+  immagine={{ src: p.immagine.src, alt: p.alt, larghezza: 1000, altezza: Math.round(1000 * p.immagine.altezza / p.immagine.larghezza) }}
+  datiStrutturati={briciole}>
   <Fragment slot="testa">
     <script is:inline>
       (function () {
