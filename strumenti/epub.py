@@ -270,18 +270,20 @@ def main():
 <dc:identifier id="id">{IDENTIFICATORE}</dc:identifier>
 <dc:title id="titolo">Principia Discordia</dc:title>
 <meta refines="#titolo" property="title-type">main</meta>
-<dc:title id="sottotitolo">Edizione italiana. Ovvero Come trovai la Dea e Cosa le feci Quando la trovai</dc:title>
+<dc:title id="sottotitolo">Ovvero Come trovai la Dea e Cosa le feci Quando la trovai. Edizione italiana</dc:title>
 <meta refines="#sottotitolo" property="title-type">subtitle</meta>
-<dc:creator id="autore">Malaclypse il Giovane (Gregory Hill)</dc:creator>
+<dc:creator id="autore">Malaclypse il Giovane</dc:creator>
 <meta refines="#autore" property="role" scheme="marc:relators">aut</meta>
-<dc:creator id="autore2">Lord Omar Khayyam Ravenhurst (Kerry Thornley)</dc:creator>
-<meta refines="#autore2" property="role" scheme="marc:relators">aut</meta>
+<dc:contributor id="autore2">Lord Omar Khayyam Ravenhurst</dc:contributor>
+<meta refines="#autore2" property="role" scheme="marc:relators">ctb</meta>
 <dc:contributor id="traduttore">Herman Fenderson</dc:contributor>
 <meta refines="#traduttore" property="role" scheme="marc:relators">trl</meta>
+<dc:contributor id="curatore">Herman Fenderson</dc:contributor>
+<meta refines="#curatore" property="role" scheme="marc:relators">edt</meta>
 <dc:contributor id="wilson">Robert Anton Wilson</dc:contributor>
 <meta refines="#wilson" property="role" scheme="marc:relators">aui</meta>
 <dc:language>it</dc:language>
-<dc:publisher>Herman Fenderson</dc:publisher>
+<dc:publisher>Ignotum per Ignotius</dc:publisher>
 <dc:date>2026</dc:date>
 <dc:rights>Testo originale: (K) All Rites Reversed, Reprint What You Like. Traduzione italiana: Creative Commons Attribuzione - Condividi allo stesso modo 4.0 (CC BY-SA 4.0).</dc:rights>
 <dc:source>Principia Discordia, Loompanics Unlimited, Port Townsend, 1980</dc:source>
