@@ -70,7 +70,7 @@ const altOriginale = o
     >
       <div class="intestazione">
         <details class="menu-pagina">
-          <summary><span class="hamburger" aria-hidden="true"><span></span></span><span class="solo-lettori">Strumenti della pagina</span></summary>
+          <summary><span class="hamburger" aria-hidden="true"><span></span></span><span class="etichetta-menu">Menu</span><span class="solo-lettori"> della pagina</span></summary>
           <div class="pannello">
             <ul class="strumenti">
               <li class="gruppo-fronte">
@@ -171,8 +171,9 @@ const altOriginale = o
   .intestazione { display: flex; flex-wrap: wrap; align-items: center; gap: 0 0.75rem; position: relative; }
 
   /* menu della pagina: <details>, si apre e si chiude anche senza JavaScript */
-  .menu-pagina > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
-    width: 44px; height: 44px; border: 2px solid var(--inchiostro); border-radius: 4px; background: var(--carta); }
+  .menu-pagina > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.55rem;
+    min-height: 44px; padding: 0 0.8rem 0 0.75rem; border: 2px solid var(--inchiostro); border-radius: 4px; background: var(--carta);
+    font-weight: 500; }
   .menu-pagina > summary::-webkit-details-marker { display: none; }
   .menu-pagina > summary:hover, .menu-pagina[open] > summary { background: var(--ocra); }
   .hamburger, .hamburger::before, .hamburger::after, .hamburger > span { display: block; width: 20px; height: 2px; background: var(--inchiostro); }
