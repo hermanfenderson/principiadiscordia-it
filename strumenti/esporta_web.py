@@ -269,9 +269,10 @@ def main():
             en = RADICE / "testo" / "en" / "pagine" / f"{tavola}.md"
             if en.exists():
                 testa_en, corpo_en = leggi_md(en)
-                orig["testo"] = md_html(corpo_en.strip())
+                orig["testo"] = md_html(corpo_en.strip(), 3)
                 orig["revisione"] = testa_en.get("revisione")
                 orig["wikisource"] = testa_en.get("fonte", orig["wikisource"])
+                orig["cronologia"] = testa_en.get("cronologia")
             misura = (p["immagine"]["larghezza"], p["immagine"]["altezza"])
             orig["immagine"] = esporta_immagine(base, PUBBLICO / "originale", tavola, misura)
             p["originale"] = orig

@@ -1,0 +1,67 @@
+---
+// L'originale inglese di una pagina, come pagina statica: è il «Vedi l'originale» per chi
+// non ha JavaScript, e il posto dove leggere e copiare il testo inglese di Wikisource.
+import Base from '../../../layouts/Base.astro';
+import Immagine from '../../../components/Immagine.astro';
+import dati from '../../../data/pagine.json';
+
+export function getStaticPaths() {
+  const con = dati.pagine.filter((p) => p.originale);
+  return con.map((p, i) => ({
+    params: { slug: p.slug },
+    props: { p, prec: con[i - 1]?.slug ?? null, succ: con[i + 1]?.slug ?? null },
+  }));
+}
+const { p, prec, succ } = Astro.props as any;
+const o = p.originale;
+---
+<Base titolo={`${p.titolo}: originale inglese`} descrizione={`La pagina originale inglese (edizione Loompanics, 1980) di ${p.titolo}.`} sezione="libro">
+  <div class="originale-statico">
+    <h1><span class="numero">{p.titolo}</span>: originale inglese</h1>
+    <p class="torna"><a href={`/libro/${p.slug}/`}>Torna alla traduzione italiana</a></p>
+    <div class="colonne">
+      <figure>
+        <Immagine img={o.immagine} prioritaria sizes="(min-width: 60rem) 40vw, 100vw"
+          alt={`La pagina originale inglese, nell'edizione Loompanics del 1980.${o.testo ? ' Il testo è trascritto qui accanto.' : ''}`} />
+        <figcaption>
+          Scansione: <a href={o.commons}>Wikimedia Commons</a>, pagina {o.pdf} del PDF, pubblico dominio ·
+          <a href={o.immagine.piena}>piena risoluzione</a>
+        </figcaption>
+      </figure>
+      <section aria-labelledby="testo-inglese">
+        <h2 id="testo-inglese">Testo inglese</h2>
+        {o.testo ? (
+          <>
+            <div class="testo" lang="en"><Fragment set:html={o.testo} /></div>
+            <p class="fonte">Trascrizione dei volontari di Wikisource, con licenza
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC BY-SA 4.0</a>:
+              <a href={o.wikisource}>pagina di Wikisource</a>{o.cronologia && <> (<a href={o.cronologia}>autori e revisioni</a>)</>}.</p>
+          </>
+        ) : (
+          <p>Il testo inglese di questa pagina non è ancora trascritto su Wikisource: c'è solo la scansione.
+            Chi vuole può trascriverlo <a href={o.wikisource}>sulla pagina di Wikisource</a>.
+            La traduzione italiana, con il suo testo completo, è nella <a href={`/libro/${p.slug}/`}>pagina del libro</a>.</p>
+        )}
+      </section>
+    </div>
+    <nav class="sfoglia-orig" aria-label="Altre pagine originali">
+      {prec ? <a href={`/libro/${prec}/originale/`} rel="prev">← Originale precedente</a> : <span></span>}
+      {succ ? <a href={`/libro/${succ}/originale/`} rel="next">Originale successivo →</a> : <span></span>}
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .originale-statico { max-width: 80rem; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
+  h1 { font-family: var(--f-ui); font-size: 1.5rem; margin: 0 0 0.25rem; }
+  .numero { font-family: var(--f-macchina); }
+  .torna { font-family: var(--f-ui); margin: 0 0 1rem; }
+  .colonne { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2rem; align-items: start; }
+  figure { margin: 0; }
+  figure :global(img) { display: block; width: 100%; height: auto; background: #fff; box-shadow: 0 2px 10px rgb(20 18 16 / 0.25); }
+  figcaption, .fonte { font-family: var(--f-ui); font-size: 0.9rem; margin-top: 0.5rem; }
+  h2 { font-family: var(--f-ui); margin-top: 0; }
+  .testo { font-size: 0.98rem; }
+  .sfoglia-orig { display: flex; justify-content: space-between; font-family: var(--f-ui); font-weight: 500; margin-top: 2rem; }
+  @media (max-width: 50rem) { .colonne { grid-template-columns: 1fr; } }
+</style>

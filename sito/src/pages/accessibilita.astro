@@ -20,7 +20,9 @@ import { CONTATTO } from '../config/sito';
       «Descrizione e testo della pagina». Sono nascosti alla vista, non agli screen reader:
       chi guarda la pagina vede solo la tavola.</p>
     <p>Con l'interruttore «Originale a fronte» si vede anche la pagina inglese dell'edizione del 1980; dove esiste,
-      c'è anche il suo testo inglese (dalle trascrizioni di Wikisource), marcato come inglese.</p>
+      c'è anche il suo testo inglese (dalle trascrizioni di Wikisource), marcato come inglese. Quando l'interruttore
+      è acceso, lo screen reader incontra prima l'originale, annunciato come «Originale inglese», poi la traduzione.
+      Senza JavaScript, al posto dell'interruttore c'è il link «Vedi l'originale inglese».</p>
 
     <h2>Tastiera</h2>
     <table>
@@ -33,6 +35,8 @@ import { CONTATTO } from '../config/sito';
         <tr><td><kbd>Fine</kbd> (<kbd>End</kbd>)</td><td>ultima pagina del libro</td></tr>
         <tr><td><kbd>O</kbd></td><td>accende e spegne l'«Originale a fronte»</td></tr>
         <tr><td><kbd>D</kbd></td><td>accende e spegne la doppia pagina (solo su schermi larghi)</td></tr>
+        <tr><td><kbd>F</kbd></td><td>tutto schermo: solo la pagina, con le due frecce sotto</td></tr>
+        <tr><td><kbd>Esc</kbd></td><td>esce dal tutto schermo</td></tr>
       </tbody>
     </table>
     <p>I tasti non fanno nulla mentre si scrive in un campo, né insieme a <kbd>Ctrl</kbd>, <kbd>Alt</kbd> o <kbd>Cmd</kbd>.
@@ -44,6 +48,8 @@ import { CONTATTO } from '../config/sito';
       <li>Il sito funziona anche senza JavaScript: ogni pagina del libro ha il suo indirizzo e i suoi link.
         JavaScript aggiunge i tasti, lo scorrimento col dito, la doppia pagina e il precaricamento.</li>
       <li>Sul telefono si sfoglia scorrendo col dito a destra e a sinistra; lo zoom con due dita non è bloccato.</li>
+      <li>«Tutto schermo» mostra solo la pagina, con due frecce sotto per sfogliare. Lì si sfoglia senza ricaricare,
+        e lo screen reader annuncia il numero della pagina nuova.</li>
       <li>«Apri a piena risoluzione», sotto ogni pagina, apre la tavola alla massima risoluzione, per ingrandirla.</li>
       <li>Se nel sistema è attiva la riduzione del movimento, non ci sono animazioni.</li>
     </ul>

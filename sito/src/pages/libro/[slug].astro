@@ -1,5 +1,6 @@
 ---
 // Lo sfogliatore: una pagina del libro per indirizzo, completa anche senza JavaScript.
+// Con JavaScript: tasti, swipe, doppia pagina, originale a fronte, tutto schermo.
 import Base from '../../layouts/Base.astro';
 import Immagine from '../../components/Immagine.astro';
 import dati from '../../data/pagine.json';
@@ -18,78 +19,125 @@ const url = (s: string | null) => (s ? `/libro/${s}/` : undefined);
 const sottotitolo = p.voce && p.hill ? p.voce : p.hill ? p.sezione : null;
 const SIZES = '(min-width: 60rem) min(46vw, calc((100svh - 11rem) * 0.62)), min(100vw, calc((100svh - 11rem) * 0.62))';
 const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
+const o = p.originale;
+const altOriginale = o
+  ? `Originale inglese: la stessa pagina nell'edizione Loompanics del 1980${o.testo ? '' : ' (testo inglese non ancora trascritto su Wikisource)'}.`
+  : '';
 ---
 <Base titolo={p.titolo + (sottotitolo ? ` — ${sottotitolo}` : '')} descrizione={p.alt} sezione="libro" classe="con-sfogliatore">
   <Fragment slot="testa">
     <script is:inline>
-      try { if (localStorage.getItem('pd-doppia') === '1') document.documentElement.classList.add('doppia'); } catch (e) {}
+      (function () {
+        var h = document.documentElement, q = new URLSearchParams(location.search);
+        try {
+          if (localStorage.getItem('pd-doppia') === '1') h.classList.add('doppia');
+          if (q.has('a-fronte') || localStorage.getItem('pd-a-fronte') === '1') h.classList.add('a-fronte');
+          if (sessionStorage.getItem('pd-schermo') === '1') h.classList.add('schermo');
+        } catch (e) { if (q.has('a-fronte')) h.classList.add('a-fronte'); }
+        h.classList.add('js');
+      })();
     </script>
     {p.succ && <link rel="prefetch" href={url(p.succ)} />}
   </Fragment>
 
-  <div
-    class="sfogliatore"
-    data-prec={url(p.prec)} data-succ={url(p.succ)}
-    data-prec-doppia={url(p.prec_doppia)} data-succ-doppia={url(p.succ_doppia)}
-    data-prima={url(prima)} data-ultima={url(ultima)}
-    data-succ-avif={p.succ ? per[p.succ].immagine.avif : undefined}
-    data-sizes={SIZES}
-  >
-    <div class="intestazione">
-      <h1 class="titolo-pagina">
-        <span class="numero">{p.titolo}</span>
-        {sottotitolo && <span class="sottotitolo">{sottotitolo}</span>}
-      </h1>
-      <p class="posizione">pagina {p.numero} di {totale} dell'edizione italiana</p>
-    </div>
+  <div class="sfogliatore" id="sfogliatore">
+    <div
+      class="pagina-corrente"
+      data-titolo={p.titolo}
+      data-prec={url(p.prec)} data-succ={url(p.succ)}
+      data-prec-doppia={url(p.prec_doppia)} data-succ-doppia={url(p.succ_doppia)}
+      data-prima={url(prima)} data-ultima={url(ultima)}
+      data-succ-avif={p.succ ? per[p.succ].immagine.avif : undefined}
+      data-sizes={SIZES}
+      data-originale={o ? 'si' : 'no'}
+    >
+      <div class="intestazione">
+        <h1 class="titolo-pagina">
+          <span class="numero">{p.titolo}</span>
+          {sottotitolo && <span class="sottotitolo">{sottotitolo}</span>}
+        </h1>
+        <p class="posizione">pagina {p.numero} di {totale} dell'edizione italiana</p>
+      </div>
 
-    <div class={`palco lato-${p.lato}`}>
-      {p.lato === 'destra' && (
-        compagna ? (
-          <a class="compagna" href={url(compagna.slug)}>
-            <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
-          </a>
-        ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
+      <div class={`palco lato-${p.lato}${o ? ' ha-originale' : ''}`}>
+        {o && (
+          <figure class="originale" aria-labelledby="originale-etichetta">
+            <figcaption>
+              <span class="etichetta" id="originale-etichetta">Originale inglese</span>
+            </figcaption>
+            <Immagine img={o.immagine} alt={altOriginale} sizes={SIZES} descrittaDa={o.testo ? 'testo-originale' : undefined} />
+            <p class="fonte">
+              {o.testo ? <a href={o.wikisource}>testo su Wikisource</a> : <span>testo non ancora su Wikisource</span>}
+              · <a href={o.commons}>scansione su Wikimedia Commons</a>
+            </p>
+          </figure>
+        )}
+        {p.lato === 'destra' && (
+          compagna ? (
+            <a class="compagna" href={url(compagna.slug)}>
+              <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
+            </a>
+          ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
+        )}
+        <figure class="corrente" aria-label={o ? 'Traduzione italiana' : undefined}>
+          <Immagine img={p.immagine} alt={p.alt} sizes={SIZES} prioritaria descrittaDa="testo-pagina" />
+        </figure>
+        {p.lato === 'sinistra' && (
+          compagna ? (
+            <a class="compagna" href={url(compagna.slug)}>
+              <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
+            </a>
+          ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
+        )}
+      </div>
+
+      <nav class="sfoglia" aria-label="Sfoglia il libro">
+        {p.prec ? <a class="vai prec" href={url(p.prec)} rel="prev"><span aria-hidden="true">←</span> Precedente</a>
+                : <span class="vai prec spento">Inizio del libro</span>}
+        <a class="vai indice" href="/libro/">Indice</a>
+        {p.succ ? <a class="vai succ" href={url(p.succ)} rel="next">Successiva <span aria-hidden="true">→</span></a>
+                : <span class="vai succ spento">Fine del libro</span>}
+      </nav>
+
+      <div class="strumenti">
+        <span class="gruppo-fronte">
+          <button type="button" class="interruttore solo-js" data-azione="a-fronte" aria-pressed="false"
+            aria-disabled={o ? undefined : 'true'} aria-describedby={o ? undefined : 'senza-originale'}>Originale a fronte</button>
+          {!o && <span id="senza-originale" class="avviso">questa pagina non esiste nell'originale</span>}
+        </span>
+        {o && <a class="senza-js" href={`/libro/${p.slug}/originale/`}>Vedi l'originale inglese</a>}
+        <button type="button" class="interruttore solo-js solo-largo" data-azione="doppia" aria-pressed="false">Doppia pagina</button>
+        <button type="button" class="pulsante solo-js" data-azione="schermo">Tutto schermo</button>
+        <a href={p.immagine.piena}>Apri a piena risoluzione<span class="solo-lettori"> (immagine JPEG)</span></a>
+      </div>
+
+      <p class="nota-accessibile">
+        Ogni pagina ha descrizione e testo completo per chi usa uno screen reader.
+        <a href="/accessibilita/">Accessibilità e tasti</a>
+      </p>
+
+      {o?.testo && (
+        <section id="testo-originale" class="solo-lettori testo-originale" aria-labelledby="testo-originale-titolo">
+          <h2 id="testo-originale-titolo">Originale inglese: testo della pagina</h2>
+          <div lang="en"><Fragment set:html={o.testo} /></div>
+          <p>Trascrizione dei volontari di Wikisource, licenza CC BY-SA 4.0: <a href={o.wikisource}>pagina di Wikisource</a>.</p>
+        </section>
       )}
-      <figure class="corrente">
-        <Immagine img={p.immagine} alt={p.alt} sizes={SIZES} prioritaria descrittaDa="testo-pagina" />
-      </figure>
-      {p.lato === 'sinistra' && (
-        compagna ? (
-          <a class="compagna" href={url(compagna.slug)}>
-            <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
-          </a>
-        ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
-      )}
+      <section id="testo-pagina" class="solo-lettori" aria-labelledby="testo-pagina-titolo">
+        <h2 id="testo-pagina-titolo">Descrizione e testo della pagina</h2>
+        <h3>Descrizione dell'immagine</h3>
+        <Fragment set:html={p.descrizione} />
+        <h3>Testo della pagina</h3>
+        <div class="testo"><Fragment set:html={p.testo} /></div>
+      </section>
     </div>
 
-    <nav class="sfoglia" aria-label="Sfoglia il libro">
-      {p.prec ? <a class="vai prec" href={url(p.prec)} rel="prev"><span aria-hidden="true">←</span> Precedente</a>
-              : <span class="vai prec spento">Inizio del libro</span>}
-      <a class="vai indice" href="/libro/">Indice</a>
-      {p.succ ? <a class="vai succ" href={url(p.succ)} rel="next">Successiva <span aria-hidden="true">→</span></a>
-              : <span class="vai succ spento">Fine del libro</span>}
-    </nav>
-
-    <div class="strumenti">
-      <button type="button" class="interruttore solo-largo" id="doppia" aria-pressed="false" hidden>
-        Doppia pagina
-      </button>
-      <a href={p.immagine.piena}>Apri a piena risoluzione<span class="solo-lettori"> (immagine JPEG)</span></a>
+    <div class="barra-schermo" hidden>
+      <button type="button" class="freccia" data-azione="prec"><span aria-hidden="true">←</span><span class="solo-lettori">Pagina precedente</span></button>
+      <button type="button" class="esci" data-azione="esci-schermo">Esci dal tutto schermo</button>
+      <button type="button" class="freccia" data-azione="succ"><span aria-hidden="true">→</span><span class="solo-lettori">Pagina successiva</span></button>
     </div>
-
-    <p class="nota-accessibile">
-      Ogni pagina ha descrizione e testo completo per chi usa uno screen reader.
-      <a href="/accessibilita/">Accessibilità e tasti</a>
-    </p>
-
-    <section id="testo-pagina" class="solo-lettori" aria-labelledby="testo-pagina-titolo">
-      <h2 id="testo-pagina-titolo">Descrizione e testo della pagina</h2>
-      <h3>Descrizione dell'immagine</h3>
-      <Fragment set:html={p.descrizione} />
-      <h3>Testo della pagina</h3>
-      <div class="testo"><Fragment set:html={p.testo} /></div>
-    </section>
+    <p class="solo-lettori" aria-live="polite" id="annuncio"></p>
   </div>
 </Base>
 
@@ -106,26 +154,44 @@ const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
   .titolo-pagina .sottotitolo::before { content: " — "; }
   .posizione { margin: 0; font-size: 0.85rem; color: var(--grigio); }
 
-  .palco { display: flex; justify-content: center; align-items: flex-start; gap: 0; margin: 0.5rem 0; }
+  .palco { --alto: max(22rem, calc(100svh - 11rem)); display: flex; justify-content: center; align-items: flex-start; gap: 0; margin: 0.5rem 0; }
   .palco picture, .palco img { display: block; }
-  .palco .corrente { margin: 0; }
+  .palco figure { margin: 0; }
   .palco img {
-    width: auto; max-width: 100%;
-    max-height: max(22rem, calc(100svh - 11rem));
+    width: auto; max-width: 100%; max-height: var(--alto);
     background: #fff;
     box-shadow: 0 1px 0 var(--inchiostro), 0 2px 10px rgb(20 18 16 / 0.25);
   }
-  .compagna { display: none; }
+  .compagna, .originale { display: none; }
 
   /* doppia pagina, solo su schermi larghi: pari a sinistra, dispari a destra */
   @media (min-width: 60rem) {
     .doppia .palco .compagna { display: block; flex: 0 1 auto; }
-    .doppia .palco .compagna.vuota { height: max(22rem, calc(100svh - 11rem)); background: transparent; }
+    .doppia .palco .compagna.vuota { height: var(--alto); background: transparent; }
     .doppia .palco > * { max-width: 50%; }
     .doppia .palco img { box-shadow: 0 2px 10px rgb(20 18 16 / 0.25); }
     .doppia .palco .compagna:hover img { outline: 2px solid var(--inchiostro); }
   }
-  @media not (min-width: 60rem) { .solo-largo { display: none !important; } }
+
+  /* originale a fronte: vince sulla doppia pagina. Largo: originale a sinistra, traduzione a destra;
+     stretto: l'originale prende il posto della traduzione */
+  .a-fronte .palco.ha-originale .compagna { display: none !important; }
+  .a-fronte .palco.ha-originale .originale { display: block; }
+  .originale figcaption { text-align: center; margin-bottom: 0.3rem; }
+  .originale .etichetta { font-family: var(--f-timbro); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--rosso-timbro); border: 2px solid currentColor; padding: 0 0.5rem; border-radius: 3px; }
+  .originale .fonte { font-size: 0.85rem; text-align: center; margin: 0.35rem 0 0; }
+  .originale img { max-height: calc(var(--alto) - 3.5rem); }
+  @media (min-width: 60rem) {
+    .a-fronte .palco.ha-originale { gap: 1.25rem; }
+    .a-fronte .palco.ha-originale > figure { max-width: calc(50% - 0.65rem); }
+    .a-fronte .palco.ha-originale .corrente { padding-top: 1.85rem; }
+    .a-fronte .palco.ha-originale .corrente img { max-height: calc(var(--alto) - 3.5rem); }
+  }
+  @media not (min-width: 60rem) {
+    .a-fronte .palco.ha-originale .corrente { display: none; }
+    .solo-largo { display: none !important; }
+  }
 
   .sfoglia { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 0.5rem;
     max-width: 40rem; margin: 0.5rem auto 0; }
@@ -137,13 +203,40 @@ const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
   .vai.spento { border-style: dashed; color: var(--grigio); background: transparent; }
   .vai.indice { border-color: transparent; text-decoration: underline; }
 
-  .strumenti { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.5rem 1.25rem; margin: 0.9rem 0 0.25rem; font-size: 0.95rem; }
-  .interruttore { font: inherit; font-weight: 500; min-height: 44px; padding: 0.45rem 0.9rem 0.45rem 2.1rem; cursor: pointer;
+  .strumenti { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.6rem 1.25rem; margin: 0.9rem 0 0.25rem; font-size: 0.95rem; }
+  .solo-js { display: none; }
+  .js .solo-js { display: inline-block; }
+  .js .senza-js { display: none; }
+  .gruppo-fronte { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.6rem; }
+  .avviso { display: none; font-family: var(--f-mano); color: var(--grigio); }
+  .js .avviso { display: inline; }
+  .interruttore, .pulsante { font: inherit; font-weight: 500; min-height: 44px; padding: 0.45rem 0.9rem; cursor: pointer;
     background: var(--carta); color: var(--inchiostro); border: 2px solid var(--inchiostro); border-radius: 2rem; position: relative; }
+  .interruttore { padding-left: 2.1rem; }
   .interruttore::before { content: ""; position: absolute; left: 0.6rem; top: 50%; width: 1rem; height: 1rem; margin-top: -0.5rem;
     border: 2px solid var(--inchiostro); border-radius: 50%; background: transparent; }
   .interruttore[aria-pressed="true"] { background: var(--ocra); }
   .interruttore[aria-pressed="true"]::before { background: var(--inchiostro); }
+  .interruttore[aria-disabled="true"] { border-style: dashed; color: var(--grigio); cursor: not-allowed; background: transparent; }
+  .interruttore[aria-disabled="true"]::before { border-color: var(--grigio); background: transparent; }
+  .pulsante { border-radius: 4px; }
+  .pulsante:hover, .interruttore:not([aria-disabled="true"]):hover { background: var(--ocra); }
   .nota-accessibile { text-align: center; font-size: 0.9rem; margin: 0.5rem 0 0; color: var(--grigio); }
   .nota-accessibile a { color: var(--inchiostro); }
+
+  /* tutto schermo: solo la pagina e, sotto, le frecce. Con l'API Fullscreen quando c'è,
+     altrimenti (iPhone) la stessa vista sopra il resto della finestra */
+  .schermo .sfogliatore { position: fixed; inset: 0; z-index: 50; max-width: none; margin: 0; padding: 0.5rem;
+    background: var(--carta); display: flex; flex-direction: column; overflow: auto; }
+  .schermo .sfogliatore .pagina-corrente { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .schermo .intestazione, .schermo .sfoglia, .schermo .strumenti, .schermo .nota-accessibile { display: none; }
+  .schermo .palco { --alto: calc(100svh - 5.5rem); margin: 0; }
+  .schermo .barra-schermo { display: flex !important; justify-content: center; align-items: center; gap: 1rem; padding: 0.5rem 0 0.25rem; }
+  .schermo body { overflow: hidden; }
+  .barra-schermo button { font: inherit; font-weight: 500; cursor: pointer; color: var(--inchiostro); background: var(--carta);
+    border: 2px solid var(--inchiostro); min-height: 48px; }
+  .barra-schermo .freccia { font-size: 1.6rem; line-height: 1; width: 4.5rem; border-radius: 2rem; }
+  .barra-schermo .freccia:hover, .barra-schermo .esci:hover { background: var(--ocra); }
+  .barra-schermo .freccia:disabled { border-style: dashed; color: var(--grigio); cursor: default; background: transparent; }
+  .barra-schermo .esci { padding: 0.4rem 0.9rem; border-radius: 4px; font-size: 0.9rem; }
 </style>
