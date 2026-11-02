@@ -92,7 +92,7 @@ Un interruttore nello sfogliatore («Originale a fronte») mostra accanto alla t
 Annotate man mano, come chiesto, al posto di chiedere a ogni passo.
 
 - **Comandi**: `python3 strumenti/esporta_web.py` (immagini, dati, caratteri, logo; salta ciò che è già aggiornato), poi in `sito/`: `npm run dev`, `npm run build`, `npx wrangler deploy`. Gli script vogliono Python ≥ 3.10 (il `python3` di sistema del Mac è il 3.9): si usa `.venv/` con Python 3.13. Astro 7 vuole Node ≥ 22.23.4.
-- **Indirizzo provvisorio**: https://principiadiscordia-it.mauro-be5.workers.dev (impostato come `site` in `sito/astro.config.mjs`; si cambia lì, o con la variabile `SITO_URL`, quando arriva il dominio).
+- **Indirizzo**: dal 2 novembre 2026 https://principiadiscordia.hermanfenderson.com (`site` in `sito/astro.config.mjs`, o la variabile `SITO_URL`); prima, provvisoriamente, https://principiadiscordia-it.mauro-be5.workers.dev.
 - **Repository pubblico** citato nel piè di pagina di ogni pagina, in home, in «Scarica» (i sorgenti della CC BY-SA, e il PDF di stampa che non sta negli asset) e nei crediti.
 - **Contatto** per le segnalazioni di accessibilità: le issue di GitHub, non un indirizzo personale (il traduttore è Herman Fenderson).
 - **Indirizzi**: `libro/pagine-web.yaml`; `/libro/` è l'indice, «Sfoglia» porta a `/libro/occhiello/`. Titoli propri solo per occhiello, colophon e frontespizio; le altre pagine senza numero di Hill si chiamano «<parte>, pagina N di M».
@@ -120,7 +120,11 @@ Annotate man mano, come chiesto, al posto di chiedere a ogni passo.
 - **Dati strutturati** (JSON-LD): in home `WebSite` + `Book` (autori, traduttore, opera tradotta, licenza, gratis, PDF ed EPUB come `workExample`, metadati di accessibilità); nelle pagine del libro `BreadcrumbList` (home › indice › pagina).
 - I vecchi indirizzi `.php` rimandano con 301 al clone storico: quando il dominio passerà al nuovo sito, i link accumulati negli anni continueranno a valere.
 
-### Il giorno del cambio di dominio
+### Il cambio di dominio (fatto il 2 novembre 2026)
+
+Mauro ha collegato principiadiscordia.hermanfenderson.com al Worker; `site` in `sito/astro.config.mjs` ora è il dominio, quindi indicizzazione e sitemap sono attive. Il sottodominio workers.dev serve ancora gli stessi file: i canonical puntano al dominio, quindi non fa doppione; volendo, si spegne con `"workers_dev": false` in `sito/wrangler.jsonc`. Da fare a mano: registrare la sitemap in Google Search Console e Bing Webmaster Tools; attivare in Cloudflare «Always Use HTTPS» (oggi `http://` risponde senza rimandare a `https://`).
+
+Promemoria dei passi, per un eventuale dominio futuro:
 
 1. In `sito/astro.config.mjs` mettere `site: 'https://principiadiscordia.hermanfenderson.com'` (o lanciare la build con `SITO_URL=...`): robots.txt, canonical, sitemap e `noindex` si aggiornano da soli.
 2. Collegare il dominio al Worker `principiadiscordia-it` (Custom Domain in Cloudflare) e, se si vuole, mettere `"workers_dev": false` in `sito/wrangler.jsonc`.

@@ -3,8 +3,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // indirizzo pubblico: per ora il sottodominio workers.dev (il dominio vero arriverà più avanti)
-  site: process.env.SITO_URL || 'https://principiadiscordia-it.mauro-be5.workers.dev',
+  // indirizzo pubblico (dal 2 novembre 2026). Con un indirizzo *.workers.dev il sito non si fa indicizzare.
+  site: process.env.SITO_URL || 'https://principiadiscordia.hermanfenderson.com',
   trailingSlash: 'always',
   // la compressione dell'HTML toglieva lo spazio tra il testo e un link a capo («licenzaCreative»)
   compressHTML: false,
