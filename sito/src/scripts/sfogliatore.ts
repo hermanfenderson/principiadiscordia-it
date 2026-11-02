@@ -155,10 +155,27 @@ document.addEventListener('click', (e) => {
   sincronizza();
 });
 
+// ---- menu della pagina (<details>): si chiude con Esc, cliccando fuori o scegliendo «Tutto schermo»
+
+const menu = () => corrente()?.querySelector<HTMLDetailsElement>('.menu-pagina') ?? null;
+function chiudiMenu(fuoco = false) {
+  const m = menu();
+  if (!m?.open) return false;
+  m.open = false;
+  if (fuoco) m.querySelector('summary')?.focus();
+  return true;
+}
+document.addEventListener('click', (e) => {
+  const t = e.target as HTMLElement;
+  if (!t.closest('.menu-pagina') || t.closest('[data-azione="schermo"]')) chiudiMenu();
+});
+
 // ---- tastiera
+
 
 document.addEventListener('keydown', (e) => {
   if (!sfogliatore || e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || campoAttivo(e.target)) return;
+  if (e.key === 'Escape' && chiudiMenu(true)) { e.preventDefault(); return; }
   const c = corrente();
   const premi = (azione: string) => (c?.querySelector(`[data-azione="${azione}"]`) as HTMLElement | null)?.click();
   switch (e.key) {

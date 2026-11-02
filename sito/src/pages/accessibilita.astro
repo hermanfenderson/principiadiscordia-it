@@ -4,6 +4,7 @@ import { CONTATTO } from '../config/sito';
 ---
 <Base titolo="Accessibilità" descrizione="Come leggere i Principia Discordia con uno screen reader o solo con la tastiera: descrizioni, testo completo di ogni pagina, EPUB accessibile.">
   <div class="foglio">
+    <p class="torna"><a data-torna href="/libro/copertina/"><span aria-hidden="true">←</span> Torna al libro</a></p>
     <h1 class="titolo-riccio">Accessibilità</h1>
     <p>I <em>Principia Discordia</em> sono un collage: dattiloscritti, timbri, ritagli, scritte a mano e disegni.
       Ogni pagina del libro, qui, è un'immagine. Ma nessuna pagina è solo un'immagine: <strong>ogni pagina ha
@@ -19,7 +20,8 @@ import { CONTATTO } from '../config/sito';
     <p>Descrizione e testo sono collegati all'immagine e si trovano subito dopo, sotto il titolo
       «Descrizione e testo della pagina». Sono nascosti alla vista, non agli screen reader:
       chi guarda la pagina vede solo la tavola.</p>
-    <p>Con l'interruttore «Originale a fronte» si vede anche la pagina inglese dell'edizione del 1980; dove esiste,
+    <p>Gli strumenti di ogni pagina sono nel menu ☰ accanto al titolo, che lo screen reader annuncia come
+      «Strumenti della pagina». Con l'interruttore «Originale a fronte» si vede anche la pagina inglese dell'edizione del 1980; dove esiste,
       c'è anche il suo testo inglese (dalle trascrizioni di Wikisource), marcato come inglese. Quando l'interruttore
       è acceso, lo screen reader incontra prima l'originale, annunciato come «Originale inglese», poi la traduzione.
       Senza JavaScript, al posto dell'interruttore c'è il link «Vedi l'originale inglese».</p>
@@ -40,17 +42,17 @@ import { CONTATTO } from '../config/sito';
       </tbody>
     </table>
     <p>I tasti non fanno nulla mentre si scrive in un campo, né insieme a <kbd>Ctrl</kbd>, <kbd>Alt</kbd> o <kbd>Cmd</kbd>.
-      Tutto si può fare anche con i link «Precedente», «Successiva» e «Indice» e con i pulsanti sotto la pagina,
-      raggiungibili con <kbd>Tab</kbd>. Il primo link di ogni pagina, «Salta al contenuto», porta oltre il menu.</p>
+      Tutto si può fare anche con i link «Precedente», «Successiva» e «Indice» e con quelli del menu ☰,
+      raggiungibili con <kbd>Tab</kbd>; il menu si chiude con <kbd>Esc</kbd>. Il primo link di ogni pagina, «Salta al contenuto», porta oltre il menu.</p>
 
     <h2>Senza JavaScript, sul telefono, con lo zoom</h2>
     <ul>
       <li>Il sito funziona anche senza JavaScript: ogni pagina del libro ha il suo indirizzo e i suoi link.
         JavaScript aggiunge i tasti, lo scorrimento col dito, la doppia pagina e il precaricamento.</li>
       <li>Sul telefono si sfoglia scorrendo col dito a destra e a sinistra; lo zoom con due dita non è bloccato.</li>
-      <li>«Tutto schermo» mostra solo la pagina, con due frecce sotto per sfogliare. Lì si sfoglia senza ricaricare,
+      <li>«Tutto schermo» mostra solo la pagina, con due frecce ai lati (sul telefono sotto) per sfogliare. Lì si sfoglia senza ricaricare,
         e lo screen reader annuncia il numero della pagina nuova.</li>
-      <li>«Apri a piena risoluzione», sotto ogni pagina, apre la tavola alla massima risoluzione, per ingrandirla.</li>
+      <li>«Apri a piena risoluzione», nel menu ☰ di ogni pagina, apre la tavola alla massima risoluzione, per ingrandirla.</li>
       <li>Se nel sistema è attiva la riduzione del movimento, non ci sono animazioni.</li>
     </ul>
 
@@ -66,10 +68,29 @@ import { CONTATTO } from '../config/sito';
     <h2>Segnalare un problema</h2>
     <p>Se qualcosa non funziona con il tuo screen reader, la tua tastiera o il tuo telefono, o se una descrizione è sbagliata,
       scrivilo nelle <a href={CONTATTO}>segnalazioni del progetto su GitHub</a>.</p>
+    <p class="torna in-fondo"><a data-torna href="/libro/copertina/"><span aria-hidden="true">←</span> Torna al libro</a></p>
   </div>
 </Base>
 
+<script>
+  // «Torna»: se si arriva da una pagina del libro, si torna a quella
+  try {
+    const da = document.referrer ? new URL(document.referrer) : null;
+    if (da && da.origin === location.origin && da.pathname.startsWith('/libro/') && da.pathname !== '/libro/') {
+      for (const a of document.querySelectorAll<HTMLAnchorElement>('[data-torna]')) {
+        a.href = da.pathname + da.search;
+        a.lastChild!.textContent = ' Torna alla pagina';
+      }
+    }
+  } catch { /* referrer illeggibile: resta «Torna al libro» */ }
+</script>
+
 <style>
+  .torna { font-family: var(--f-ui); font-weight: 500; margin: 0 0 0.5rem; }
+  .torna.in-fondo { margin: 2rem 0 0; }
+  .torna a { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 44px; padding: 0.3rem 0.8rem;
+    border: 2px solid var(--inchiostro); text-decoration: none; background: var(--carta); }
+  .torna a:hover { background: var(--ocra); }
   table { border-collapse: collapse; width: 100%; font-family: var(--f-ui); }
   th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--inchiostro); vertical-align: top; }
   th { border-bottom-width: 2px; }

@@ -69,6 +69,26 @@ const altOriginale = o
       data-originale={o ? 'si' : 'no'}
     >
       <div class="intestazione">
+        <details class="menu-pagina">
+          <summary><span class="hamburger" aria-hidden="true"><span></span></span><span class="solo-lettori">Strumenti della pagina</span></summary>
+          <div class="pannello">
+            <ul class="strumenti">
+              <li class="gruppo-fronte">
+                <button type="button" class="interruttore solo-js" data-azione="a-fronte" aria-pressed="false"
+                  aria-disabled={o ? undefined : 'true'} aria-describedby={o ? undefined : 'senza-originale'}>Originale a fronte</button>
+                {!o && <span id="senza-originale" class="avviso">{p.avviso}</span>}
+                {o && <a class="senza-js" href={`/libro/${p.slug}/originale/`}>Vedi l'originale inglese</a>}
+              </li>
+              <li class="solo-js solo-largo"><button type="button" class="interruttore" data-azione="doppia" aria-pressed="false">Doppia pagina</button></li>
+              <li class="solo-js"><button type="button" class="pulsante" data-azione="schermo">Tutto schermo</button></li>
+              <li><a href={p.immagine.piena}>Apri a piena risoluzione<span class="solo-lettori"> (immagine JPEG)</span></a></li>
+            </ul>
+            <p class="nota-accessibile">
+              Ogni pagina ha descrizione e testo completo per chi usa uno screen reader.
+              <a href="/accessibilita/">Accessibilità e tasti</a>
+            </p>
+          </div>
+        </details>
         <h1 class="titolo-pagina">
           <span class="numero">{p.titolo}</span>
           {sottotitolo && <span class="sottotitolo">{sottotitolo}</span>}
@@ -116,23 +136,6 @@ const altOriginale = o
                 : <span class="vai succ spento">Fine del libro</span>}
       </nav>
 
-      <div class="strumenti">
-        <span class="gruppo-fronte">
-          <button type="button" class="interruttore solo-js" data-azione="a-fronte" aria-pressed="false"
-            aria-disabled={o ? undefined : 'true'} aria-describedby={o ? undefined : 'senza-originale'}>Originale a fronte</button>
-          {!o && <span id="senza-originale" class="avviso">{p.avviso}</span>}
-        </span>
-        {o && <a class="senza-js" href={`/libro/${p.slug}/originale/`}>Vedi l'originale inglese</a>}
-        <button type="button" class="interruttore solo-js solo-largo" data-azione="doppia" aria-pressed="false">Doppia pagina</button>
-        <button type="button" class="pulsante solo-js" data-azione="schermo">Tutto schermo</button>
-        <a href={p.immagine.piena}>Apri a piena risoluzione<span class="solo-lettori"> (immagine JPEG)</span></a>
-      </div>
-
-      <p class="nota-accessibile">
-        Ogni pagina ha descrizione e testo completo per chi usa uno screen reader.
-        <a href="/accessibilita/">Accessibilità e tasti</a>
-      </p>
-
       {o?.testo && (
         <section id="testo-originale" class="solo-lettori testo-originale" aria-labelledby="testo-originale-titolo">
           <h2 id="testo-originale-titolo">Originale inglese: testo della pagina</h2>
@@ -165,7 +168,24 @@ const altOriginale = o
 <style is:global>
   .con-sfogliatore .piede { font-size: 0.9rem; }
   .sfogliatore { max-width: 100rem; margin: 0 auto; padding: 0.5rem 0.75rem 1.5rem; font-family: var(--f-ui); }
-  .intestazione { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 0 1rem; text-align: center; }
+  .intestazione { display: flex; flex-wrap: wrap; align-items: center; gap: 0 0.75rem; position: relative; }
+
+  /* menu della pagina: <details>, si apre e si chiude anche senza JavaScript */
+  .menu-pagina > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    width: 44px; height: 44px; border: 2px solid var(--inchiostro); border-radius: 4px; background: var(--carta); }
+  .menu-pagina > summary::-webkit-details-marker { display: none; }
+  .menu-pagina > summary:hover, .menu-pagina[open] > summary { background: var(--ocra); }
+  .hamburger, .hamburger::before, .hamburger::after, .hamburger > span { display: block; width: 20px; height: 2px; background: var(--inchiostro); }
+  .hamburger { position: relative; background: none; }
+  .hamburger > span { position: absolute; top: 0; }
+  .hamburger::before, .hamburger::after { content: ""; position: absolute; }
+  .hamburger::before { top: -7px; }
+  .hamburger::after { top: 7px; }
+  .menu-pagina[open] .hamburger > span { opacity: 0; }
+  .menu-pagina[open] .hamburger::before { top: 0; transform: rotate(45deg); }
+  .menu-pagina[open] .hamburger::after { top: 0; transform: rotate(-45deg); }
+  .pannello { position: absolute; z-index: 20; top: calc(100% + 0.35rem); left: 0; width: min(22rem, calc(100vw - 1.5rem));
+    padding: 0.9rem 1rem; background: var(--carta); border: 2px solid var(--inchiostro); box-shadow: 0 4px 16px rgb(20 18 16 / 0.3); }
   .titolo-pagina { margin: 0.25rem 0; font-size: 1.15rem; font-weight: 500; line-height: 1.3; }
   .titolo-pagina .numero { font-family: var(--f-macchina); font-weight: 500; }
   .titolo-pagina .sottotitolo::before { content: " — "; }
@@ -230,7 +250,7 @@ const altOriginale = o
     .vai.indice { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
   }
 
-  .strumenti { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.6rem 1.25rem; margin: 0.9rem 0 0.25rem; font-size: 0.95rem; }
+  .strumenti { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 0.6rem; font-size: 0.95rem; }
   .solo-js { display: none; }
   .js .solo-js { display: inline-block; }
   .js .senza-js { display: none; }
@@ -248,7 +268,7 @@ const altOriginale = o
   .interruttore[aria-disabled="true"]::before { border-color: var(--grigio); background: transparent; }
   .pulsante { border-radius: 4px; }
   .pulsante:hover, .interruttore:not([aria-disabled="true"]):hover { background: var(--ocra); }
-  .nota-accessibile { text-align: center; font-size: 0.9rem; margin: 0.5rem 0 0; color: var(--grigio); }
+  .nota-accessibile { font-size: 0.9rem; margin: 0.9rem 0 0; padding-top: 0.7rem; border-top: 1px solid var(--grigio); color: var(--grigio); }
   .nota-accessibile a { color: var(--inchiostro); }
 
   /* tutto schermo: il foglio a tutta altezza, frecce piccole ai lati, «Esci» in un angolo.
