@@ -10,3 +10,19 @@ __pycache__/
 *.pyc
 principia-discordia-anteprima.pdf
 principia-discordia-con-copertina.pdf
+
+# ambiente Python locale (Python >= 3.10)
+.venv/
+
+# sito: dipendenze, build e asset rigenerati da strumenti/esporta_web.py
+sito/node_modules/
+sito/dist/
+sito/.astro/
+sito/.wrangler/
+sito/public/tavole/
+sito/public/originale/
+sito/public/copertina/
+sito/public/scarica/
+sito/public/font/
+sito/public/cao/
+sito/src/data/pagine.json

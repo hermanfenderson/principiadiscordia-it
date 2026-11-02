@@ -1,0 +1,18 @@
+{
+  "name": "principiadiscordia-it",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "esporta": "cd .. && .venv/bin/python strumenti/esporta_web.py",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy"
+  },
+  "dependencies": {
+    "astro": "^7.4.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.1"
+  }
+}

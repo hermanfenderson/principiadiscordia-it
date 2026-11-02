@@ -1,0 +1,61 @@
+# Indirizzi delle pagine sul sito: tavola -> /libro/<indirizzo>/
+# Scritta una volta e da NON cambiare più: sono indirizzi citabili.
+# Le pagine con numero di Hill (p013…p090) usano quel numero (-00002 … 00075) e non stanno qui:
+# esporta_web.py lo prende da `pagina_originale` in testo/accessibile/<tavola>.md.
+# Se si aggiunge una tavola nuova, le si dà un indirizzo nuovo; quelli vecchi restano.
+
+indirizzi:
+  occhiello: occhiello
+  colophon-1: colophon
+  frontespizio: frontespizio
+  pre-1: prefazione-alla-prefazione-1
+  pre-2: prefazione-alla-prefazione-2
+  pre-3: prefazione-alla-prefazione-3
+  pre-4: prefazione-alla-prefazione-4
+  p005: prefazione-editore
+  p007: contenuto
+  p009: introduzione-1
+  p010: introduzione-2
+  p011: introduzione-3
+  p091: ghiandola-pineale
+  p092: parole-degli-illuminati
+  p093: intervista-1
+  p094: intervista-2
+  p095: intervista-3
+  p096: intervista-4
+  p097: intervista-5
+  p098: intervista-6
+  p099: intervista-7
+  p100: intervista-8
+  p101: intervista-9
+  p102: intervista-10
+  p103: quinta-edizione-1
+  p104: quinta-edizione-2
+  p105: collage
+  ndt-1: note-1
+  ndt-2: note-2
+  ndt-3: note-3
+  fine-herman: herman-fenderson
+
+# Parti del libro per l'indice del sito: titolo e tavola da cui comincia.
+# Sotto la Quarta Edizione l'indice mette anche le voci dell'indice originale (pagina 00002).
+sezioni:
+  - {tavola: occhiello, titolo: "Apertura dell'edizione italiana"}
+  - {tavola: pre-1, titolo: "Prefazione alla prefazione"}
+  - {tavola: p005, titolo: "Prefazione alla nuova edizione Loompanics"}
+  - {tavola: p007, titolo: "Contenuto di questa edizione"}
+  - {tavola: p009, titolo: "Introduzione di Robert Anton Wilson"}
+  - {tavola: p013, titolo: "Principia Discordia, Quarta Edizione", indice_originale: true}
+  - {tavola: p091, titolo: "Ultime pagine della Quarta Edizione"}
+  - {tavola: p093, titolo: "Postfazione: intervista della Cabala Norton a Greg Hill"}
+  - {tavola: p103, titolo: "Quinta Edizione"}
+  - {tavola: p105, titolo: "Collage di Greg Hill"}
+  - {tavola: ndt-1, titolo: "Note del traduttore"}
+  - {tavola: fine-herman, titolo: "Chi (non) è Herman Fenderson"}
+
+# Titoli propri di alcune pagine senza numero di Hill (gli altri: «<parte>, pagina N di M»).
+# I titoli si possono cambiare; gli indirizzi no.
+titoli:
+  occhiello: Occhiello
+  colophon-1: Colophon
+  frontespizio: Frontespizio

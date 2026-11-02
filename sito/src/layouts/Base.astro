@@ -1,0 +1,92 @@
+---
+import '../styles/globale.css';
+import { TITOLO, DESCRIZIONE, REPOSITORY, LICENZA } from '../config/sito';
+
+interface Props {
+  titolo?: string;         // titolo della pagina (senza il nome del sito)
+  descrizione?: string;
+  sezione?: string;        // voce di menu corrente
+  classe?: string;         // classe sul <body>
+}
+const { titolo, descrizione = DESCRIZIONE, sezione, classe } = Astro.props;
+const titoloCompleto = titolo ? `${titolo} · ${TITOLO}` : TITOLO;
+const canonico = new URL(Astro.url.pathname, Astro.site);
+const social = new URL('/copertina/social.jpg', Astro.site);
+const menu = [
+  { href: '/libro/occhiello/', nome: 'Sfoglia', id: 'libro' },
+  { href: '/libro/', nome: 'Indice', id: 'indice' },
+  { href: '/scarica/', nome: 'Scarica', id: 'scarica' },
+  { href: '/compra/', nome: 'Compra', id: 'compra' },
+  { href: '/storico/', nome: 'Il vecchio sito', id: 'storico' },
+];
+---
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titoloCompleto}</title>
+    <meta name="description" content={descrizione} />
+    <link rel="canonical" href={canonico} />
+    <link rel="icon" href="/cao/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/cao/apple-touch-icon.png" />
+    <meta name="theme-color" content="#d0920c" />
+    <meta property="og:type" content="book" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:site_name" content={TITOLO} />
+    <meta property="og:title" content={titoloCompleto} />
+    <meta property="og:description" content={descrizione} />
+    <meta property="og:url" content={canonico} />
+    <meta property="og:image" content={social} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="La copertina ocra dei Principia Discordia, edizione italiana tradotta da Herman Fenderson." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preload" href="/font/jost-500.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/font/mysteryquest.woff2" as="font" type="font/woff2" crossorigin />
+    <slot name="testa" />
+  </head>
+  <body class={classe}>
+    <a class="salta" href="#contenuto">Salta al contenuto</a>
+    <header class="testata">
+      <div class="testata-dentro">
+        <a class="marchio" href="/">
+          <img src="/cao/cao.png" alt="" width="42" height="42" />
+          <span>
+            <span class="marchio-nome">Principia Discordia</span>
+            <span class="marchio-sotto">Edizione italiana</span>
+          </span>
+        </a>
+        <nav class="menu" aria-label="Principale">
+          <ul>
+            {menu.map((m) => (
+              <li><a href={m.href} aria-current={sezione === m.id ? 'page' : undefined}>{m.nome}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="contenuto" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="piede">
+      <div class="piede-dentro">
+        <nav aria-label="Piè di pagina">
+          <ul>
+            <li><a href="/accessibilita/">Accessibilità</a></li>
+            <li><a href="/crediti/">Crediti</a></li>
+            <li><a href="/scarica/">Scarica PDF ed EPUB</a></li>
+            <li><a href="/storico/">Il vecchio sito</a></li>
+            <li><a href={REPOSITORY}>Sorgenti su GitHub</a></li>
+          </ul>
+        </nav>
+        <p>
+          Traduzione di Herman Fenderson, con licenza
+          <a href={LICENZA} rel="license">Creative Commons Attribuzione – Condividi allo stesso modo 4.0</a>.
+          Testo originale: Ⓚ All Rites Reversed — Ristampa quel che ti pare.
+          <span class="fnord" aria-hidden="true">fnord</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

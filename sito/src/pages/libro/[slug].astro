@@ -1,0 +1,149 @@
+---
+// Lo sfogliatore: una pagina del libro per indirizzo, completa anche senza JavaScript.
+import Base from '../../layouts/Base.astro';
+import Immagine from '../../components/Immagine.astro';
+import dati from '../../data/pagine.json';
+
+export function getStaticPaths() {
+  return dati.pagine.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+type Pagina = (typeof dati.pagine)[number];
+const { p } = Astro.props as { p: Pagina };
+const per = Object.fromEntries(dati.pagine.map((q) => [q.slug, q]));
+const compagna = p.compagna ? per[p.compagna] : null;
+const prima = dati.pagine[0].slug;
+const ultima = dati.pagine[dati.pagine.length - 1].slug;
+const totale = dati.libro.pagine;
+const url = (s: string | null) => (s ? `/libro/${s}/` : undefined);
+const sottotitolo = p.voce && p.hill ? p.voce : p.hill ? p.sezione : null;
+const SIZES = '(min-width: 60rem) min(46vw, calc((100svh - 11rem) * 0.62)), min(100vw, calc((100svh - 11rem) * 0.62))';
+const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
+---
+<Base titolo={p.titolo + (sottotitolo ? ` — ${sottotitolo}` : '')} descrizione={p.alt} sezione="libro" classe="con-sfogliatore">
+  <Fragment slot="testa">
+    <script is:inline>
+      try { if (localStorage.getItem('pd-doppia') === '1') document.documentElement.classList.add('doppia'); } catch (e) {}
+    </script>
+    {p.succ && <link rel="prefetch" href={url(p.succ)} />}
+  </Fragment>
+
+  <div
+    class="sfogliatore"
+    data-prec={url(p.prec)} data-succ={url(p.succ)}
+    data-prec-doppia={url(p.prec_doppia)} data-succ-doppia={url(p.succ_doppia)}
+    data-prima={url(prima)} data-ultima={url(ultima)}
+    data-succ-avif={p.succ ? per[p.succ].immagine.avif : undefined}
+    data-sizes={SIZES}
+  >
+    <div class="intestazione">
+      <h1 class="titolo-pagina">
+        <span class="numero">{p.titolo}</span>
+        {sottotitolo && <span class="sottotitolo">{sottotitolo}</span>}
+      </h1>
+      <p class="posizione">pagina {p.numero} di {totale} dell'edizione italiana</p>
+    </div>
+
+    <div class={`palco lato-${p.lato}`}>
+      {p.lato === 'destra' && (
+        compagna ? (
+          <a class="compagna" href={url(compagna.slug)}>
+            <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
+          </a>
+        ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
+      )}
+      <figure class="corrente">
+        <Immagine img={p.immagine} alt={p.alt} sizes={SIZES} prioritaria descrittaDa="testo-pagina" />
+      </figure>
+      {p.lato === 'sinistra' && (
+        compagna ? (
+          <a class="compagna" href={url(compagna.slug)}>
+            <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
+          </a>
+        ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
+      )}
+    </div>
+
+    <nav class="sfoglia" aria-label="Sfoglia il libro">
+      {p.prec ? <a class="vai prec" href={url(p.prec)} rel="prev"><span aria-hidden="true">←</span> Precedente</a>
+              : <span class="vai prec spento">Inizio del libro</span>}
+      <a class="vai indice" href="/libro/">Indice</a>
+      {p.succ ? <a class="vai succ" href={url(p.succ)} rel="next">Successiva <span aria-hidden="true">→</span></a>
+              : <span class="vai succ spento">Fine del libro</span>}
+    </nav>
+
+    <div class="strumenti">
+      <button type="button" class="interruttore solo-largo" id="doppia" aria-pressed="false" hidden>
+        Doppia pagina
+      </button>
+      <a href={p.immagine.piena}>Apri a piena risoluzione<span class="solo-lettori"> (immagine JPEG)</span></a>
+    </div>
+
+    <p class="nota-accessibile">
+      Ogni pagina ha descrizione e testo completo per chi usa uno screen reader.
+      <a href="/accessibilita/">Accessibilità e tasti</a>
+    </p>
+
+    <section id="testo-pagina" class="solo-lettori" aria-labelledby="testo-pagina-titolo">
+      <h2 id="testo-pagina-titolo">Descrizione e testo della pagina</h2>
+      <h3>Descrizione dell'immagine</h3>
+      <Fragment set:html={p.descrizione} />
+      <h3>Testo della pagina</h3>
+      <div class="testo"><Fragment set:html={p.testo} /></div>
+    </section>
+  </div>
+</Base>
+
+<script>
+  import '../../scripts/sfogliatore';
+</script>
+
+<style is:global>
+  .con-sfogliatore .piede { font-size: 0.9rem; }
+  .sfogliatore { max-width: 100rem; margin: 0 auto; padding: 0.5rem 0.75rem 1.5rem; font-family: var(--f-ui); }
+  .intestazione { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 0 1rem; text-align: center; }
+  .titolo-pagina { margin: 0.25rem 0; font-size: 1.15rem; font-weight: 500; line-height: 1.3; }
+  .titolo-pagina .numero { font-family: var(--f-macchina); font-weight: 500; }
+  .titolo-pagina .sottotitolo::before { content: " — "; }
+  .posizione { margin: 0; font-size: 0.85rem; color: var(--grigio); }
+
+  .palco { display: flex; justify-content: center; align-items: flex-start; gap: 0; margin: 0.5rem 0; }
+  .palco picture, .palco img { display: block; }
+  .palco .corrente { margin: 0; }
+  .palco img {
+    width: auto; max-width: 100%;
+    max-height: max(22rem, calc(100svh - 11rem));
+    background: #fff;
+    box-shadow: 0 1px 0 var(--inchiostro), 0 2px 10px rgb(20 18 16 / 0.25);
+  }
+  .compagna { display: none; }
+
+  /* doppia pagina, solo su schermi larghi: pari a sinistra, dispari a destra */
+  @media (min-width: 60rem) {
+    .doppia .palco .compagna { display: block; flex: 0 1 auto; }
+    .doppia .palco .compagna.vuota { height: max(22rem, calc(100svh - 11rem)); background: transparent; }
+    .doppia .palco > * { max-width: 50%; }
+    .doppia .palco img { box-shadow: 0 2px 10px rgb(20 18 16 / 0.25); }
+    .doppia .palco .compagna:hover img { outline: 2px solid var(--inchiostro); }
+  }
+  @media not (min-width: 60rem) { .solo-largo { display: none !important; } }
+
+  .sfoglia { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 0.5rem;
+    max-width: 40rem; margin: 0.5rem auto 0; }
+  .vai { font-weight: 500; text-decoration: none; padding: 0.55rem 0.9rem; border: 2px solid var(--inchiostro);
+    background: var(--carta); min-height: 44px; display: inline-flex; align-items: center; gap: 0.4rem; }
+  .vai:hover { background: var(--ocra); }
+  .vai.prec { justify-self: start; }
+  .vai.succ { justify-self: end; }
+  .vai.spento { border-style: dashed; color: var(--grigio); background: transparent; }
+  .vai.indice { border-color: transparent; text-decoration: underline; }
+
+  .strumenti { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.5rem 1.25rem; margin: 0.9rem 0 0.25rem; font-size: 0.95rem; }
+  .interruttore { font: inherit; font-weight: 500; min-height: 44px; padding: 0.45rem 0.9rem 0.45rem 2.1rem; cursor: pointer;
+    background: var(--carta); color: var(--inchiostro); border: 2px solid var(--inchiostro); border-radius: 2rem; position: relative; }
+  .interruttore::before { content: ""; position: absolute; left: 0.6rem; top: 50%; width: 1rem; height: 1rem; margin-top: -0.5rem;
+    border: 2px solid var(--inchiostro); border-radius: 50%; background: transparent; }
+  .interruttore[aria-pressed="true"] { background: var(--ocra); }
+  .interruttore[aria-pressed="true"]::before { background: var(--inchiostro); }
+  .nota-accessibile { text-align: center; font-size: 0.9rem; margin: 0.5rem 0 0; color: var(--grigio); }
+  .nota-accessibile a { color: var(--inchiostro); }
+</style>

@@ -1,0 +1,75 @@
+---
+// Indice: le parti del libro con le miniature delle pagine; sotto la Quarta Edizione
+// anche le voci dell'indice originale di pagina 00002.
+import Base from '../../layouts/Base.astro';
+import Immagine from '../../components/Immagine.astro';
+import dati from '../../data/pagine.json';
+
+const per = Object.fromEntries(dati.pagine.map((p) => [p.slug, p]));
+const idSezione = (i: number) => `parte-${i + 1}`;
+---
+<Base titolo="Indice" descrizione="Indice dei Principia Discordia, edizione italiana: tutte le pagine del libro con le miniature e le voci dell'indice originale." sezione="indice">
+  <div class="indice">
+    <h1 class="titolo-riccio">Indice</h1>
+    <p class="introduzione">
+      Le {dati.pagine.length} pagine del libro (senza le pagine bianche), divise nelle loro parti.
+      <a href={`/libro/${dati.pagine[0].slug}/`}>Comincia dalla prima pagina</a>.
+    </p>
+
+    <nav aria-labelledby="parti-titolo" class="parti">
+      <h2 id="parti-titolo">Le parti del libro</h2>
+      <ol>
+        {dati.sezioni.map((s, i) => (
+          <li><a href={`#${idSezione(i)}`}>{s.titolo}</a></li>
+        ))}
+      </ol>
+    </nav>
+
+    {dati.sezioni.map((s, i) => (
+      <section aria-labelledby={idSezione(i)} class="parte">
+        <h2 id={idSezione(i)}>{s.titolo}</h2>
+        {s.voci.length > 0 && (
+          <div class="voci">
+            <h3>Dall'indice originale <span class="nota-mano">(pagina 00002)</span></h3>
+            <ol>
+              {s.voci.map((v) => (
+                <li><a href={`/libro/${v.slug}/`}><span class="hill">{v.hill}</span> {v.titolo}</a></li>
+              ))}
+            </ol>
+            <h3>Tutte le pagine</h3>
+          </div>
+        )}
+        <ol class="miniature">
+          {s.pagine.map((slug) => {
+            const p = per[slug];
+            return (
+              <li>
+                <a href={`/libro/${p.slug}/`}>
+                  <Immagine img={p.immagine} alt="" sizes="9rem" />
+                  <span class="etichetta">{!p.hill && <span class="solo-lettori">{s.titolo}, </span>}{p.hill ?? (p.titolo.startsWith(s.titolo + ', ') ? p.titolo.slice(s.titolo.length + 2) : p.titolo !== s.titolo ? p.titolo : 'unica pagina')}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .indice { max-width: 72rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .introduzione { font-family: var(--f-ui); max-width: 40rem; }
+  h2 { font-family: var(--f-ui); font-size: 1.4rem; margin: 2.25rem 0 0.75rem; padding-bottom: 0.2rem; border-bottom: 2px solid var(--inchiostro); }
+  h3 { font-family: var(--f-ui); font-size: 1.05rem; margin: 1rem 0 0.5rem; }
+  .parti ol { font-family: var(--f-ui); columns: 2 18rem; padding-left: 1.5rem; }
+  .parti li { margin: 0.2rem 0; }
+  .voci ol { list-style: none; padding: 0; columns: 3 16rem; column-gap: 2rem; font-size: 0.95rem; }
+  .voci li { break-inside: avoid; margin: 0.15rem 0; }
+  .hill { font-weight: 500; }
+  .miniature { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr)); gap: 1rem; }
+  .miniature a { display: block; text-decoration: none; font-family: var(--f-ui); font-size: 0.9rem; text-align: center; padding: 0.35rem; }
+  .miniature a:hover { background: var(--ocra); }
+  .miniature img { display: block; width: 100%; height: auto; background: #fff; box-shadow: 0 1px 6px rgb(20 18 16 / 0.25); }
+  .etichetta { display: block; margin-top: 0.35rem; font-weight: 500; }
+</style>

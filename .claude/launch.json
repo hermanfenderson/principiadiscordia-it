@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "sito", "runtimeExecutable": "npm", "runtimeArgs": ["--prefix", "sito", "run", "dev", "--", "--port", "4321"], "port": 4321 },
+    { "name": "sito-dist", "runtimeExecutable": "npm", "runtimeArgs": ["--prefix", "sito", "run", "preview", "--", "--port", "4322"], "port": 4322 }
+  ]
+}

@@ -3,3 +3,5 @@ numpy
 pyyaml
 img2pdf
 markdown
+fonttools
+brotli

@@ -1,0 +1,14 @@
+// Worker con asset statici (niente codice, niente R2): vedi docs/sito.md, «Architettura».
+// Pubblicazione:  npm run esporta && npm run deploy
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "principiadiscordia-it",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
