@@ -19,7 +19,11 @@ const sottotitolo = p.voce && p.hill ? p.voce : p.hill ? p.sezione : null;
 const SIZES = '(min-width: 60rem) min(46vw, calc((100svh - 11rem) * 0.62)), min(100vw, calc((100svh - 11rem) * 0.62))';
 // nel tutto schermo lo script mette questi sizes: l'immagine prende la larghezza di sizes
 const SIZES_SCHERMO = '(min-width: 60rem) min(46vw, calc((100svh - 0.5rem) * 0.62)), min(100vw, calc((100svh - 3.5rem) * 0.62))';
-const proporzione = `${p.immagine.larghezza} / ${p.immagine.altezza}`;
+// le tavole hanno il testo quasi a filo: sul sito stanno su un foglio con un margine bianco ai lati
+// (MARGINE per lato, in frazione della larghezza della tavola), come nel libro A5; copertina e quarta no
+const MARGINE = 0.07;
+const foglio = (q: { slug: string }) => (['copertina', 'quarta'].includes(q.slug) ? undefined : 'su-foglio');
+const proporzione = `${p.immagine.larghezza * (1 + 2 * MARGINE)} / ${p.immagine.altezza}`;
 const o = p.originale;
 const ass = (x: string) => new URL(x, Astro.site).href;
 const briciole = {
@@ -88,17 +92,17 @@ const altOriginale = o
         {p.lato === 'destra' && (
           compagna ? (
             <a class="compagna" href={url(compagna.slug)}>
-              <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
+              <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} classe={foglio(compagna)} />
             </a>
           ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
         )}
         <figure class="corrente" aria-label={o ? 'Traduzione italiana' : undefined}>
-          <Immagine img={p.immagine} alt={p.alt} sizes={SIZES} prioritaria descrittaDa="testo-pagina" />
+          <Immagine img={p.immagine} alt={p.alt} sizes={SIZES} prioritaria descrittaDa="testo-pagina" classe={foglio(p)} />
         </figure>
         {p.lato === 'sinistra' && (
           compagna ? (
             <a class="compagna" href={url(compagna.slug)}>
-              <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} />
+              <Immagine img={compagna.immagine} alt={`${compagna.titolo} (pagina a fronte): ${compagna.alt}`} sizes={SIZES} classe={foglio(compagna)} />
             </a>
           ) : <div class="compagna vuota" aria-hidden="true" style={`aspect-ratio: ${proporzione}`}></div>
         )}
@@ -171,11 +175,15 @@ const altOriginale = o
   .palco { --alto: max(22rem, calc(100svh - 11rem)); --largo: calc(100vw - 1.5rem); display: flex; justify-content: center; align-items: flex-start; gap: 0; margin: 0.5rem 0; }
   .palco picture, .palco img { display: block; }
   .palco figure { margin: 0; }
+  /* --w: larghezza della tavola; --m: margine bianco per lato (in frazione di --w), solo sui fogli */
   .palco img {
-    width: min(var(--largo), calc(var(--alto) * var(--r, 0.62))); height: auto; max-width: none;
+    --w: min(calc(var(--largo) / (1 + 2 * var(--m, 0))), calc(var(--alto) * var(--r, 0.62)));
+    box-sizing: content-box; width: var(--w); padding: 0 calc(var(--w) * var(--m, 0));
+    height: auto; max-width: none;
     background: #fff;
     box-shadow: 0 1px 0 var(--inchiostro), 0 2px 10px rgb(20 18 16 / 0.25);
   }
+  .palco .su-foglio img { --m: 0.07; }
   .compagna, .originale { display: none; }
 
   /* doppia pagina, solo su schermi larghi: pari a sinistra, dispari a destra */
@@ -195,12 +203,12 @@ const altOriginale = o
   .originale .etichetta { font-family: var(--f-timbro); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
     color: var(--rosso-timbro); border: 2px solid currentColor; padding: 0 0.5rem; border-radius: 3px; }
   .originale .fonte { font-size: 0.85rem; text-align: center; margin: 0.35rem 0 0; }
-  .originale img { --alto-o: calc(var(--alto) - 3.5rem); width: min(var(--largo), calc(var(--alto-o) * var(--r, 0.62))); }
+  .originale img { --alto-o: calc(var(--alto) - 3.5rem); --w: min(calc(var(--largo) / (1 + 2 * var(--m, 0))), calc(var(--alto-o) * var(--r, 0.62))); }
   @media (min-width: 60rem) {
     .a-fronte .palco.ha-originale { gap: 1.25rem; }
     .a-fronte .palco.ha-originale { --largo: calc(50vw - 1.5rem); }
     .a-fronte .palco.ha-originale .corrente { padding-top: 1.85rem; }
-    .a-fronte .palco.ha-originale .corrente img { width: min(var(--largo), calc((var(--alto) - 3.5rem) * var(--r, 0.62))); }
+    .a-fronte .palco.ha-originale .corrente img { --w: min(calc(var(--largo) / (1 + 2 * var(--m, 0))), calc((var(--alto) - 3.5rem) * var(--r, 0.62))); }
   }
   @media not (min-width: 60rem) {
     .a-fronte .palco.ha-originale .corrente { display: none; }
@@ -216,6 +224,11 @@ const altOriginale = o
   .vai.succ { justify-self: end; }
   .vai.spento { border-style: dashed; color: var(--grigio); background: transparent; }
   .vai.indice { border-color: transparent; text-decoration: underline; }
+  /* telefoni stretti: «Indice» sotto, così Precedente e Successiva non escono dallo schermo */
+  @media (max-width: 26rem) {
+    .sfoglia { grid-template-columns: 1fr 1fr; }
+    .vai.indice { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
+  }
 
   .strumenti { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.6rem 1.25rem; margin: 0.9rem 0 0.25rem; font-size: 0.95rem; }
   .solo-js { display: none; }
@@ -249,7 +262,7 @@ const altOriginale = o
   @media (min-width: 60rem) { .schermo.doppia .palco, .schermo.a-fronte .palco.ha-originale { --largo: calc(50vw - 3.5rem); } }
   .schermo .originale figcaption { position: absolute; margin: 0; padding: 0.2rem; }
   .schermo .originale { position: relative; }
-  .schermo .originale img, .schermo.a-fronte .palco.ha-originale .corrente img { width: min(var(--largo), calc(var(--alto) * var(--r, 0.62))); }
+  .schermo .originale img, .schermo.a-fronte .palco.ha-originale .corrente img { --w: min(calc(var(--largo) / (1 + 2 * var(--m, 0))), calc(var(--alto) * var(--r, 0.62))); }
   .schermo.a-fronte .palco.ha-originale .corrente { padding-top: 0; }
   .schermo body { overflow: hidden; }
   .schermo .barra-schermo { display: block !important; }
