@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { CARTACEO, EBOOK, type Negozio } from '../config/compra';
+const gruppi: [string, Negozio[]][] = [['Il libro di carta', CARTACEO], ["L'ebook", EBOOK]];
+const inArrivo = [...CARTACEO, ...EBOOK].some((n) => !n.href);
+---
+<Base titolo="Compra il libro" descrizione="Dove comprare i Principia Discordia in italiano: cartaceo in brossura A5 ed ebook." sezione="compra">
+  <div class="foglio">
+    <p class="timbro">Compra</p>
+    <h1 class="titolo-riccio">Compra il libro</h1>
+    <p>Il libro è libero, e lo resta: lo puoi <a href="/scarica/">scaricare gratis</a>.
+      Ma comprarlo è un buon modo di disordinare: un oggetto di carta da lasciare sul comodino
+      di qualcuno, da regalare a chi non se lo aspetta, da dimenticare in treno.</p>
+    <p>Brossura A5 (148 × 210 mm), interni in bianco e nero su carta crema, copertina ocra.</p>
+    {inArrivo && <p class="nota-mano">Il libro sta per arrivare nelle librerie: i collegamenti compariranno qui.</p>}
+    {gruppi.map(([titolo, negozi]) => (
+      <section>
+        <h2>{titolo}</h2>
+        <ul class="negozi">
+          {negozi.map((n) => (
+            <li>
+              {n.href ? <a href={n.href}>{n.nome}</a> : <span class="nome">{n.nome}</span>}
+              <span class="formati">{n.formati}{!n.href && ' · in arrivo'}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  h2 { margin-top: 2rem; }
+  .negozi { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.75rem; }
+  .negozi li { background: #fff; border: 2px solid var(--inchiostro); padding: 0.6rem 0.9rem; display: flex; flex-direction: column; font-family: var(--f-ui); }
+  .negozi a, .nome { font-weight: 700; font-size: 1.1rem; }
+  .formati { color: var(--grigio); font-size: 0.95rem; }
+</style>

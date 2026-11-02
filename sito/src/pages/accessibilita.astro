@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import { CONTATTO } from '../config/sito';
+---
+<Base titolo="Accessibilità" descrizione="Come leggere i Principia Discordia con uno screen reader o solo con la tastiera: descrizioni, testo completo di ogni pagina, EPUB accessibile.">
+  <div class="foglio">
+    <h1 class="titolo-riccio">Accessibilità</h1>
+    <p>I <em>Principia Discordia</em> sono un collage: dattiloscritti, timbri, ritagli, scritte a mano e disegni.
+      Ogni pagina del libro, qui, è un'immagine. Ma nessuna pagina è solo un'immagine: <strong>ogni pagina ha
+      una descrizione e il testo completo, in ordine di lettura, per chi usa uno screen reader</strong>.</p>
+
+    <h2>Cosa c'è in ogni pagina dello sfogliatore</h2>
+    <ul>
+      <li><strong>Un testo alternativo</strong> breve sull'immagine della pagina, che dice di che pagina si tratta.</li>
+      <li><strong>Una descrizione</strong> dell'immagine: come è fatta la pagina, i disegni, i timbri, le scritte a mano.</li>
+      <li><strong>Il testo della pagina</strong> in ordine di lettura, con i titoli come titoli veri, i versi a capo
+        e le parole in inglese, latino, greco o tedesco marcate nella loro lingua, perché la sintesi vocale le pronunci bene.</li>
+    </ul>
+    <p>Descrizione e testo sono collegati all'immagine e si trovano subito dopo, sotto il titolo
+      «Descrizione e testo della pagina». Sono nascosti alla vista, non agli screen reader:
+      chi guarda la pagina vede solo la tavola.</p>
+    <p>Con l'interruttore «Originale a fronte» si vede anche la pagina inglese dell'edizione del 1980; dove esiste,
+      c'è anche il suo testo inglese (dalle trascrizioni di Wikisource), marcato come inglese.</p>
+
+    <h2>Tastiera</h2>
+    <table>
+      <caption class="solo-lettori">Tasti dello sfogliatore</caption>
+      <thead><tr><th scope="col">Tasto</th><th scope="col">Cosa fa</th></tr></thead>
+      <tbody>
+        <tr><td><kbd>→</kbd> freccia destra</td><td>pagina successiva</td></tr>
+        <tr><td><kbd>←</kbd> freccia sinistra</td><td>pagina precedente</td></tr>
+        <tr><td><kbd>Inizio</kbd> (<kbd>Home</kbd>)</td><td>prima pagina del libro</td></tr>
+        <tr><td><kbd>Fine</kbd> (<kbd>End</kbd>)</td><td>ultima pagina del libro</td></tr>
+        <tr><td><kbd>O</kbd></td><td>accende e spegne l'«Originale a fronte»</td></tr>
+        <tr><td><kbd>D</kbd></td><td>accende e spegne la doppia pagina (solo su schermi larghi)</td></tr>
+      </tbody>
+    </table>
+    <p>I tasti non fanno nulla mentre si scrive in un campo, né insieme a <kbd>Ctrl</kbd>, <kbd>Alt</kbd> o <kbd>Cmd</kbd>.
+      Tutto si può fare anche con i link «Precedente», «Successiva» e «Indice» e con i pulsanti sotto la pagina,
+      raggiungibili con <kbd>Tab</kbd>. Il primo link di ogni pagina, «Salta al contenuto», porta oltre il menu.</p>
+
+    <h2>Senza JavaScript, sul telefono, con lo zoom</h2>
+    <ul>
+      <li>Il sito funziona anche senza JavaScript: ogni pagina del libro ha il suo indirizzo e i suoi link.
+        JavaScript aggiunge i tasti, lo scorrimento col dito, la doppia pagina e il precaricamento.</li>
+      <li>Sul telefono si sfoglia scorrendo col dito a destra e a sinistra; lo zoom con due dita non è bloccato.</li>
+      <li>«Apri a piena risoluzione», sotto ogni pagina, apre la tavola alla massima risoluzione, per ingrandirla.</li>
+      <li>Se nel sistema è attiva la riduzione del movimento, non ci sono animazioni.</li>
+    </ul>
+
+    <h2>L'EPUB</h2>
+    <p>L'<a href="/scarica/">EPUB</a> ha le stesse descrizioni e gli stessi testi, l'indice, i numeri delle pagine stampate,
+      i punti di riferimento e i metadati di accessibilità. È controllato con EPUBCheck e DAISY Ace.</p>
+
+    <h2>Obiettivo e limiti</h2>
+    <p>L'obiettivo è il livello AA delle linee guida WCAG 2.2. Le descrizioni le ha scritte il traduttore: possono
+      sbagliare o dimenticare qualcosa. <a href="/storico/">Il vecchio sito</a> è conservato com'era, come documento storico,
+      e non è stato rifatto per l'accessibilità: il testo della traduzione è comunque tutto nello sfogliatore.</p>
+
+    <h2>Segnalare un problema</h2>
+    <p>Se qualcosa non funziona con il tuo screen reader, la tua tastiera o il tuo telefono, o se una descrizione è sbagliata,
+      scrivilo nelle <a href={CONTATTO}>segnalazioni del progetto su GitHub</a>.</p>
+  </div>
+</Base>
+
+<style>
+  table { border-collapse: collapse; width: 100%; font-family: var(--f-ui); }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--inchiostro); vertical-align: top; }
+  th { border-bottom-width: 2px; }
+  kbd { font-family: var(--f-macchina); border: 1px solid var(--inchiostro); border-bottom-width: 2px; border-radius: 3px; padding: 0 0.3rem; background: #fff; }
+</style>

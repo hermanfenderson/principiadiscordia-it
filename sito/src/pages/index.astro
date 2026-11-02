@@ -1,10 +1,117 @@
 ---
-// Home provvisoria (fase a): la home vera arriva nella fase b.
 import Base from '../layouts/Base.astro';
+import Immagine from '../components/Immagine.astro';
+import dati from '../data/pagine.json';
+import { REPOSITORY, LICENZA } from '../config/sito';
+
+const { libro, copertina } = dati;
+const paragrafi = libro.presentazione.split(/\n\s*\n/).map((s) => s.trim()).filter(Boolean);
+const pdf = dati.scarica.find((s) => s.tipo === 'pdf');
+const epub = dati.scarica.find((s) => s.tipo === 'epub');
+const mib = (b?: number) => (b ? (b / 2 ** 20).toLocaleString('it-IT', { maximumFractionDigits: 1 }) + ' MB' : '');
+const prima = dati.pagine[0].slug;
 ---
 <Base>
-  <div class="foglio">
-    <h1 class="titolo-riccio">Principia Discordia</h1>
-    <p><a href="/libro/occhiello/">Sfoglia il libro</a> · <a href="/libro/">Indice</a></p>
+  <div class="home">
+    <section class="apertura" aria-labelledby="titolo">
+      <div class="copertina">
+        <Immagine img={copertina} sizes="(min-width: 50rem) 22rem, 70vw" prioritaria
+          alt="La copertina: su fondo ocra il titolo Principia Discordia in caratteri a riccioli, «ovvero Come trovai la Dea e Cosa le feci Quando la trovai», la croce e la statua dell'originale, «Edizione italiana, traduzione, prefazione alla prefazione e note di Herman Fenderson»." />
+      </div>
+      <div class="titoli">
+        <p class="autore">Malaclypse il Giovane</p>
+        <h1 id="titolo" class="titolo-riccio">Principia Discordia</h1>
+        <p class="sottotitolo">ovvero Come trovai la Dea e Cosa le feci Quando la trovai</p>
+        <p class="edizione">Edizione italiana · tradotta da <strong>Herman Fenderson</strong></p>
+        <ul class="azioni">
+          <li><a class="bollo" href={`/libro/${prima}/`}>Sfoglia il libro</a></li>
+          <li><a class="bollo" href="/scarica/">Scarica gratis</a></li>
+          <li><a class="bollo" href="/compra/">Compra</a></li>
+        </ul>
+        <p class="accessibile">
+          Ogni pagina ha descrizione e testo completo per chi usa uno screen reader:
+          <a href="/accessibilita/">cosa c'è e come si usa</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="presentazione" aria-labelledby="presentazione-titolo">
+      <h2 id="presentazione-titolo" class="solo-lettori">Il libro</h2>
+      {paragrafi.map((t) => <p>{t}</p>)}
+      <blockquote class="citazione">
+        {libro.citazione.map((r) => <p>{r.replace(/^--\s*/, '— ')}</p>)}
+        <footer>{libro.fonte_citazione}</footer>
+      </blockquote>
+    </section>
+
+    <section class="riquadri" aria-label="Leggere, scaricare, comprare">
+      <div class="riquadro">
+        <h2>Sfoglialo</h2>
+        <p>Le {dati.pagine.length} pagine, una per indirizzo, ricomposte in italiano sul collage originale.
+          Con l'interruttore «Originale a fronte» accanto a ogni pagina c'è quella inglese dell'edizione Loompanics.</p>
+        <p><a href={`/libro/${prima}/`}>Dalla prima pagina</a> · <a href="/libro/">dall'indice</a> · <a href="/libro/00001/">dalla pagina 00001</a></p>
+      </div>
+      <div class="riquadro">
+        <h2>Scaricalo</h2>
+        <p>Gratis, in PDF{pdf && ` (${mib(pdf.byte)})`} ed EPUB accessibile{epub && ` (${mib(epub.byte)})`}.
+          Il libro è libero: copialo, stampalo, regalalo.</p>
+        <p><a href="/scarica/">Vai agli scaricamenti</a></p>
+      </div>
+      <div class="riquadro">
+        <h2>Compralo</h2>
+        <p>Il libro è libero, ma comprarlo è un buon modo di disordinare: in brossura A5 su carta crema, o come ebook.</p>
+        <p><a href="/compra/">Dove trovarlo</a></p>
+      </div>
+    </section>
+
+    <section class="licenza" aria-labelledby="licenza-titolo">
+      <h2 id="licenza-titolo"><span class="timbro">Ⓚ All Rites Reversed</span></h2>
+      <p class="nota-mano">Ristampa quel che ti pare.</p>
+      <p>La traduzione di Herman Fenderson è distribuita con licenza
+        <a href={LICENZA} rel="license">Creative Commons Attribuzione – Condividi allo stesso modo 4.0</a>.
+        Tavole, testi, caratteri e programmi con cui è fatto il libro (e questo sito) sono
+        <a href={REPOSITORY}>pubblici su GitHub</a>.
+        La traduzione è nata anni fa su questo stesso sito: <a href="/storico/">il vecchio sito</a> è ancora qui, com'era.</p>
+    </section>
   </div>
 </Base>
+
+<style>
+  .home { max-width: 68rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+  .apertura { display: grid; grid-template-columns: minmax(0, 22rem) minmax(0, 1fr); gap: 2.5rem; align-items: center; }
+  .copertina :global(img) { display: block; width: 100%; height: auto; box-shadow: 0 3px 18px rgb(20 18 16 / 0.35); transform: rotate(-1.2deg); }
+  .titoli { font-family: var(--f-ui); }
+  .autore { margin: 0; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .titoli h1 { margin: 0.2rem 0 0.4rem; font-size: clamp(2.8rem, 8vw, 5rem); }
+  .sottotitolo { font-family: var(--f-titolo); font-size: clamp(1.3rem, 3vw, 1.8rem); margin: 0 0 0.75rem; line-height: 1.2; }
+  .edizione { font-size: 1.1rem; margin: 0 0 1.5rem; }
+  .azioni { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 1.25rem; }
+  /* bollo: il riquadro è storto, la scritta resta dritta */
+  .bollo { position: relative; display: inline-block; padding: 0.6rem 1.1rem; min-height: 44px;
+    font-family: var(--f-timbro); font-weight: 600; font-size: 1.15rem; letter-spacing: 0.07em; text-transform: uppercase;
+    text-decoration: none; color: var(--inchiostro); background: var(--ocra); }
+  .bollo::before { content: ""; position: absolute; inset: -4px; border: 3px solid var(--inchiostro); border-radius: 5px;
+    transform: rotate(-2deg); pointer-events: none; }
+  .azioni li:nth-child(2) .bollo::before { transform: rotate(1.5deg); }
+  .azioni li:nth-child(3) .bollo::before { transform: rotate(-0.8deg); }
+  .bollo:hover { background: var(--inchiostro); color: var(--carta); }
+  .accessibile { font-size: 0.98rem; max-width: 34rem; }
+
+  .presentazione { max-width: var(--larghezza-testo); margin: 3rem auto 0; }
+  .citazione { margin: 2rem 0 0; padding: 1rem 1.25rem; border-left: 4px solid var(--ocra); background: #fff; }
+  .citazione p { margin: 0.3rem 0; }
+  .citazione footer { font-family: var(--f-mano); margin-top: 0.5rem; }
+
+  .riquadri { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.5rem; margin: 3rem 0 0; }
+  .riquadro { background: #fff; border: 2px solid var(--inchiostro); padding: 1rem 1.25rem; }
+  .riquadro h2 { font-family: var(--f-timbro); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 0.5rem; }
+
+  .licenza { max-width: var(--larghezza-testo); margin: 3rem auto 0; text-align: center; }
+  .licenza h2 { margin: 0; font-size: 1.4rem; }
+  .licenza .nota-mano { font-size: 1.4rem; margin: 0.5rem 0 1rem; }
+
+  @media (max-width: 50rem) {
+    .apertura { grid-template-columns: 1fr; gap: 1.5rem; }
+    .copertina { max-width: 18rem; margin: 0 auto; }
+  }
+</style>

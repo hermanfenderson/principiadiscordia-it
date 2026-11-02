@@ -169,6 +169,9 @@ FONT_WEB = {  # file in strumenti/font/ -> nome del WOFF2 servito dal sito
     "Kalam-Regular.ttf": "kalam.woff2",
     "Oswald-VF.ttf": "oswald.woff2",
 }
+# caratteri con un Reserved Font Name ("Mystery Quest", "Plex"): per la OFL un sottoinsieme sarebbe una
+# versione modificata, che non può portare quel nome; per questi si fa solo la conversione in WOFF2
+SENZA_RIDUZIONE = {"MysteryQuest-Regular.ttf", "IBMPlexMono-Regular.ttf", "IBMPlexMono-Italic.ttf", "IBMPlexMono-Medium.ttf"}
 UNICODE_WEB = "U+0000-024F,U+02C6-02DD,U+1E00-1EFF,U+2000-206F,U+20AC,U+2116,U+2122,U+2190-2193,U+2212,U+25CF,U+FB01-FB02"
 
 
@@ -180,6 +183,12 @@ def font_web() -> None:
     for sorgente, nome in FONT_WEB.items():
         src, dest = RADICE / "strumenti" / "font" / sorgente, cartella / nome
         if aggiornato(dest, src):
+            continue
+        if sorgente in SENZA_RIDUZIONE:
+            from fontTools.ttLib import TTFont
+            f = TTFont(src)
+            f.flavor = "woff2"
+            f.save(dest)
             continue
         subset.main([str(src), f"--unicodes={UNICODE_WEB}", "--flavor=woff2", "--layout-features=*",
                      f"--output-file={dest}"])

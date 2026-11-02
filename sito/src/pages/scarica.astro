@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import dati from '../data/pagine.json';
+import { REPOSITORY, LICENZA } from '../config/sito';
+
+const mib = (b: number) => (b / 2 ** 20).toLocaleString('it-IT', { maximumFractionDigits: 1 }) + ' MB';
+const pdf = dati.scarica.find((s) => s.tipo === 'pdf')!;
+const epub = dati.scarica.find((s) => s.tipo === 'epub')!;
+---
+<Base titolo="Scarica il libro" descrizione="Scarica gratis i Principia Discordia in italiano: PDF con copertina ed EPUB accessibile. Licenza CC BY-SA 4.0." sezione="scarica">
+  <div class="foglio">
+    <p class="timbro">Gratis</p>
+    <h1 class="titolo-riccio">Scarica il libro</h1>
+    <p>Il libro è libero: puoi scaricarlo, leggerlo, stamparlo, copiarlo e regalarlo. Se ti piace,
+      <a href="/compra/">compralo</a> o, meglio ancora, ristampalo.</p>
+
+    <ul class="file">
+      <li>
+        <h2>PDF</h2>
+        <p>Tutte le {dati.libro.pagine} pagine con la copertina, alla risoluzione adatta allo schermo (150 punti per pollice).
+          Le pagine sono immagini: per leggerlo con uno screen reader scegli l'EPUB.</p>
+        <p><a class="scarica" href={pdf.href} download>Scarica il PDF <span class="peso">({mib(pdf.byte)})</span></a></p>
+      </li>
+      <li>
+        <h2>EPUB accessibile</h2>
+        <p>EPUB 3 a impaginazione fissa: una tavola per pagina, come nel libro, con la descrizione e il testo
+          di ogni pagina per gli screen reader, l'indice (con le voci dell'indice originale) e i numeri delle pagine stampate.
+          Si legge bene con Apple Libri, Thorium Reader, Kobo e le app che supportano l'impaginazione fissa.</p>
+        <p><a class="scarica" href={epub.href} download>Scarica l'EPUB <span class="peso">({mib(epub.byte)})</span></a></p>
+      </li>
+    </ul>
+
+    <h2>Licenza</h2>
+    <p>Traduzione di Herman Fenderson, con licenza
+      <a href={LICENZA} rel="license">Creative Commons Attribuzione – Condividi allo stesso modo 4.0</a>:
+      puoi ristampare e modificare quel che ti pare, purché citi la fonte e condivida allo stesso modo.
+      Il testo originale porta la nota «Ⓚ All Rites Reversed — reprint what you like».</p>
+
+    <h2>Il PDF per la stampa e i sorgenti</h2>
+    <p>Il PDF per la tipografia (A5, 360 punti per pollice) è troppo grande per questo sito, ma si rigenera
+      da sé: tavole, testi, caratteri e programmi sono nel <a href={REPOSITORY}>repository pubblico su GitHub</a>,
+      con le istruzioni.</p>
+  </div>
+</Base>
+
+<style>
+  .file { list-style: none; padding: 0; margin: 2rem 0; display: grid; gap: 1.25rem; }
+  .file li { background: #fff; border: 2px solid var(--inchiostro); padding: 0.75rem 1.25rem; }
+  .file h2 { margin: 0.25rem 0 0.25rem; font-family: var(--f-timbro); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+  .scarica { display: inline-block; font-family: var(--f-ui); font-weight: 700; padding: 0.55rem 1rem; min-height: 44px;
+    background: var(--ocra); color: var(--inchiostro); border: 2px solid var(--inchiostro); text-decoration: none; }
+  .scarica:hover { background: var(--inchiostro); color: var(--carta); }
+  .peso { font-weight: 400; }
+</style>

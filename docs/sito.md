@@ -86,3 +86,20 @@ Un interruttore nello sfogliatore («Originale a fronte») mostra accanto alla t
 - Metadati: titolo "Principia Discordia — Edizione italiana", descrizione, Open Graph con la prima di copertina, `lang="it"`.
 - Nessun tracciamento invasivo; se servono statistiche, Cloudflare Web Analytics.
 - Verifiche prima della pubblicazione: navigazione solo da tastiera, VoiceOver (macOS/iOS) e NVDA, Lighthouse/axe senza errori, pagina leggibile senza JavaScript, peso delle immagini.
+
+## Scelte fatte durante la costruzione (novembre 2026)
+
+Annotate man mano, come chiesto, al posto di chiedere a ogni passo.
+
+- **Comandi**: `python3 strumenti/esporta_web.py` (immagini, dati, caratteri, logo; salta ciò che è già aggiornato), poi in `sito/`: `npm run dev`, `npm run build`, `npx wrangler deploy`. Gli script vogliono Python ≥ 3.10 (il `python3` di sistema del Mac è il 3.9): si usa `.venv/` con Python 3.13. Astro 7 vuole Node ≥ 22.23.4.
+- **Indirizzo provvisorio**: https://principiadiscordia-it.mauro-be5.workers.dev (impostato come `site` in `sito/astro.config.mjs`; si cambia lì, o con la variabile `SITO_URL`, quando arriva il dominio).
+- **Repository pubblico** citato nel piè di pagina di ogni pagina, in home, in «Scarica» (i sorgenti della CC BY-SA, e il PDF di stampa che non sta negli asset) e nei crediti.
+- **Contatto** per le segnalazioni di accessibilità: le issue di GitHub, non un indirizzo personale (il traduttore è Herman Fenderson).
+- **Indirizzi**: `libro/pagine-web.yaml`; `/libro/` è l'indice, «Sfoglia» porta a `/libro/occhiello/`. Titoli propri solo per occhiello, colophon e frontespizio; le altre pagine senza numero di Hill si chiamano «<parte>, pagina N di M».
+- **Immagini**: larghezze 300 (miniature), 600, 1000, 1400 in AVIF e JPEG, più `-piena.jpg` (1827 px, la risoluzione delle tavole). Le AVIF si salvano in RGB: quelle monocromatiche (4:0:0) non si vedevano nel browser. Circa 110 kB per una pagina vista a schermo.
+- **Navigazione**: niente router lato client; ogni pagina è un documento vero, con precaricamento della successiva e transizioni tra documenti (`@view-transition`) solo senza `prefers-reduced-motion`. Così lo screen reader annuncia il titolo nuovo da sé, e non serve un'area `aria-live`.
+- **Doppia pagina**: la pagina compagna è nel codice HTML ma nascosta (si carica solo quando serve); in doppia pagina è un link alla sua pagina con il suo alt. Le pagine bianche lasciano uno spazio vuoto, così ogni pagina resta sul suo lato. Tasto `D`.
+- **Caratteri**: WOFF2 ridotti all'alfabeto latino, tranne MysteryQuest e IBM Plex Mono, che hanno un «Reserved Font Name»: per la OFL un sottoinsieme sarebbe una versione modificata, quindi solo conversione di formato. Licenze servite accanto ai file in `/font/`.
+- **Logo e favicon**: il Sacro Cao ritagliato dalla scansione (PDF 18), cerchio ricavato in automatico (`sacro_cao()` in `esporta_web.py`).
+- **Timbri e storture**: i riquadri dei pulsanti-timbro sono storti, le scritte restano dritte; la copertina in home è appena ruotata. Il «fnord» del piè di pagina compare solo selezionando il testo ed è `aria-hidden`.
+- **Compra**: i negozi sono in `sito/src/config/compra.ts`; senza `href` compaiono come «in arrivo», senza link finti.

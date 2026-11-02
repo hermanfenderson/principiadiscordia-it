@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { REPOSITORY, LICENZA } from '../config/sito';
+const COMMONS = 'https://commons.wikimedia.org/wiki/File:Principia_Discordia_(Loompanics_Unlimited_edition).pdf';
+const INDICE_WS = 'https://en.wikisource.org/wiki/Index:Principia_Discordia_(Loompanics_Unlimited_edition).pdf';
+const font = [
+  ['MysteryQuest', 'titoli', 'Font Diner'],
+  ['Jost', 'interfaccia', 'Owen Earl (indestructible type*)'],
+  ['IBM Plex Mono', 'testi e numeri di pagina', 'IBM'],
+  ['Kalam', 'note a mano', 'Indian Type Foundry'],
+  ['Oswald', 'timbri', 'Vernon Adams e altri'],
+];
+---
+<Base titolo="Crediti" descrizione="Chi ha fatto i Principia Discordia, chi li ha tradotti e da dove vengono scansione, trascrizioni e caratteri.">
+  <div class="foglio">
+    <h1 class="titolo-riccio">Crediti</h1>
+
+    <h2>Il libro</h2>
+    <p><em>Principia Discordia, ovvero Come trovai la Dea e Cosa le feci Quando la trovai</em>, la Magnum Opiate di
+      Malaclypse il Giovane (Gregory Hill), con materiale di Lord Omar Khayyam Ravenhurst (Kerry Thornley).
+      Introduzione di Robert Anton Wilson. Edizione Loompanics Unlimited, Port Townsend (Washington), 1980, che riunisce
+      la Quarta Edizione (Rip-Off Press, San Francisco, 1970), la postfazione di Greg Hill e la Quinta Edizione.</p>
+    <p>Testo originale: «Ⓚ All Rites Reversed — reprint what you like». L'edizione Loompanics è considerata
+      di pubblico dominio negli Stati Uniti, perché pubblicata senza nota di copyright e mai registrata.</p>
+
+    <h2>La traduzione</h2>
+    <p>Traduzione italiana, prefazione alla prefazione e note del traduttore di Herman Fenderson, apprendista patafisico,
+      con licenza <a href={LICENZA} rel="license">Creative Commons Attribuzione – Condividi allo stesso modo 4.0</a>.
+      Le pagine sono ricomposte in italiano sulla scansione dell'originale: illustrazioni, timbri e ritagli sono quelli di Hill,
+      le scritte sono rifatte con caratteri a licenza libera.</p>
+
+    <h2>La scansione e il testo inglese</h2>
+    <ul>
+      <li>Scansione dell'edizione Loompanics del 1980:
+        <a href={COMMONS} lang="en">Principia Discordia (Loompanics Unlimited edition).pdf</a> su Wikimedia Commons, pubblico dominio.
+        Da qui vengono le pagine dell'«Originale a fronte» e la base di tutte le tavole italiane.</li>
+      <li>Testo inglese dell'«Originale a fronte»: trascrizioni dei volontari di Wikisource
+        (<a href={INDICE_WS} lang="en">Index:Principia Discordia (Loompanics Unlimited edition).pdf</a>),
+        con licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC BY-SA 4.0</a>.
+        Ogni pagina rimanda alla pagina di Wikisource da cui viene il testo, con la cronologia degli autori.</li>
+    </ul>
+
+    <h2>I caratteri</h2>
+    <p>Tutti a licenza libera (SIL Open Font License), gli stessi usati nelle tavole del libro:</p>
+    <ul>
+      {font.map(([nome, uso, autore]) => <li><strong>{nome}</strong> ({uso}), di {autore}</li>)}
+    </ul>
+    <p>Le licenze sono accanto ai file, nel repository e in <a href="/font/OFL-jost.txt">/font/</a>.</p>
+
+    <h2>Il sito</h2>
+    <p>Sito statico fatto con <a href="https://astro.build/">Astro</a> e servito da Cloudflare, senza tracciamento.
+      Tutto quello che serve per rifare libro, ebook e sito (tavole, testi, caratteri, programmi) è nel
+      <a href={REPOSITORY}>repository pubblico su GitHub</a>: le segnalazioni e le correzioni sono benvenute
+      nelle <a href={REPOSITORY + '/issues'}>issue</a>.</p>
+    <p>La traduzione è nata anni fa sul vecchio sito, che si può ancora visitare com'era: <a href="/storico/">il vecchio sito</a>.
+      Il vecchio sito, a ogni pagina, aveva il bottone «In inglese!»: l'«Originale a fronte» ne è l'erede.</p>
+  </div>
+</Base>
