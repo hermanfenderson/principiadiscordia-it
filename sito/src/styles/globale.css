@@ -2,11 +2,12 @@
    Ocra Loompanics, carta, inchiostro; i caratteri del libro. Contrasto AA ovunque:
    inchiostro su ocra ≈ 7:1, inchiostro su carta ≈ 17:1; il bianco sull'ocra NON si usa per il testo. */
 
-@font-face { font-family: "MysteryQuest"; src: url("/font/mysteryquest.woff2") format("woff2"); font-display: swap; }
-@font-face { font-family: "Jost"; src: url("/font/jost-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "Jost"; src: url("/font/jost-500.woff2") format("woff2"); font-weight: 500; font-display: swap; }
-@font-face { font-family: "Jost"; src: url("/font/jost-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
-@font-face { font-family: "Jost"; src: url("/font/jost-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; font-display: swap; }
+/* Jost e MysteryQuest, precaricati: «optional» evita che la pagina salti quando arrivano */
+@font-face { font-family: "MysteryQuest"; src: url("/font/mysteryquest.woff2") format("woff2"); font-display: optional; }
+@font-face { font-family: "Jost"; src: url("/font/jost-400.woff2") format("woff2"); font-weight: 400; font-display: optional; }
+@font-face { font-family: "Jost"; src: url("/font/jost-500.woff2") format("woff2"); font-weight: 500; font-display: optional; }
+@font-face { font-family: "Jost"; src: url("/font/jost-700.woff2") format("woff2"); font-weight: 700; font-display: optional; }
+@font-face { font-family: "Jost"; src: url("/font/jost-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; font-display: optional; }
 @font-face { font-family: "Plex Mono"; src: url("/font/plexmono-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Plex Mono"; src: url("/font/plexmono-500.woff2") format("woff2"); font-weight: 500 700; font-display: swap; }
 @font-face { font-family: "Plex Mono"; src: url("/font/plexmono-italic.woff2") format("woff2"); font-style: italic; font-display: swap; }

@@ -23,5 +23,6 @@ const { img, alt, sizes, prioritaria = false, descrittaDa, classe } = Astro.prop
     fetchpriority={prioritaria ? 'high' : undefined}
     decoding="async"
     aria-describedby={descrittaDa}
+    style={`--r: ${img.larghezza / img.altezza}`}
   />
 </picture>
