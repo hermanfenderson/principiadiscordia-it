@@ -13,6 +13,8 @@ Progetto del nuovo sito dell'edizione italiana. Da costruire in una sessione di 
 ## Architettura
 
 - **Sito statico** generato in fase di build, servito da un **Cloudflare Worker con Static Assets** (wrangler). Niente server, niente database.
+- **Deploy** (deciso il 2 novembre 2026): Worker di nome **`principiadiscordia-it`** sull'account Cloudflare di Mauro, pubblicato per ora sul sottodominio `workers.dev`. Il collegamento a un dominio vero si fa più avanti, su sua indicazione: fino ad allora il vecchio sito su principiadiscordia.hermanfenderson.com resta com'è.
+- **Autonomia**: Mauro preferisce non essere coinvolto a ogni passo. Si procede da soli, scegliendo in modo ragionevole e annotando le scelte; si chiede solo per ciò che non si può annullare o che tocca il dominio e il vecchio sito.
 - **Niente bucket R2.** Le immagini stanno negli asset statici: 109 tavole in due o tre misure sono qualche centinaio di file, ben sotto i limiti (20.000 file per versione sul piano Free, **25 MiB per file**).
 - Conseguenza del limite dei 25 MiB: il PDF da scaricare è la versione per lo schermo (circa 19 MB, 150 dpi, come `build/libro/principia-discordia-con-copertina.pdf`), **non** il PDF di stampa a 360 dpi (circa 68 MB). Anche l'EPUB deve stare sotto i 25 MiB. Se un giorno servissero file più grandi: GitHub Releases o, solo allora, R2.
 - Generatore: **Astro** in output statico (deciso; è lo strumento che Mauro usa anche per gli altri suoi siti). Il sito vive in una cartella `sito/` di questo repository. Cloudflare non esegue PHP: tutto, compreso il clone del vecchio sito, è HTML statico (più JavaScript dove serve).
