@@ -9,6 +9,12 @@ bianca 0,002252 pollici per pagina, crema 0,0025): da ricontrollare col calcolat
 
 Uso:
   python3 strumenti/copertina.py --pagine 130 --carta crema --variante ocra
+  python3 strumenti/copertina.py --pagine 114 --piattaforma streetlib --dorso-mm 9
+Con --piattaforma streetlib: abbondanza 0,20", testi a 0,6" dai bordi (la tavola della prima
+viene ridotta perché l'inchiostro stia nell'area sicura), nessun riquadro per il codice a barre
+(lo stampa StreetLib: resta libera la zona in basso a destra della quarta, 2,16 x 1,57 pollici),
+e in più un PDF CMYK senza profilo incorporato (build/copertina/copertina-<variante>-streetlib.pdf).
+Il dorso si prende dal calcolatore StreetLib (--dorso-mm).
 Uscita: build/copertina/copertina-<variante>.png (300 dpi) e un'anteprima ridotta.
 """
 import argparse
@@ -120,15 +126,20 @@ def main():
     ap.add_argument("--carta", choices=SPESSORE_CARTA, default="crema")
     ap.add_argument("--variante", choices=VARIANTI, default="ocra")
     ap.add_argument("--formato", choices=FORMATI, default="a5")
+    ap.add_argument("--piattaforma", choices=["kdp", "streetlib"], default="kdp")
+    ap.add_argument("--dorso-mm", type=float, help="larghezza del dorso dal calcolatore della piattaforma")
     ap.add_argument("--prima", choices=["disegno", "spirale"], default="disegno",
                     help="disegno: il frontespizio di Hill (p013) col timbro; spirale: la copertina Loompanics (p001) con l'etichetta")
     args = ap.parse_args()
-    global LARGHEZZA, ALTEZZA
+    global LARGHEZZA, ALTEZZA, ABBONDANZA
     LARGHEZZA, ALTEZZA = FORMATI[args.formato]
+    streetlib = args.piattaforma == "streetlib"
+    if streetlib:
+        ABBONDANZA = 0.20
 
     testi = yaml.safe_load((RADICE / "libro" / "copertina.yaml").read_text(encoding="utf-8"))
     carta = VARIANTI[args.variante]
-    dorso = px(args.pagine * SPESSORE_CARTA[args.carta])
+    dorso = px(args.dorso_mm / 25.4) if args.dorso_mm else px(args.pagine * SPESSORE_CARTA[args.carta])
     W = px(ABBONDANZA) * 2 + px(LARGHEZZA) * 2 + dorso
     H = px(ALTEZZA + 2 * ABBONDANZA)
     tela = Image.new("RGB", (W, H), carta)
@@ -137,15 +148,28 @@ def main():
     x_dorso = x_quarta + px(LARGHEZZA)
     x_prima = x_dorso + dorso
     y0 = px(ABBONDANZA)
-    margine = px(0.375)
+    margine = px(0.6 if streetlib else 0.375)
 
     # ---- prima
     alt = px(ALTEZZA - 0.25)  # tutta la pagina dentro l'area sicura (0,125 pollici dal taglio), centrata
     if args.prima == "disegno":
         # il frontespizio italiano di Hill (tavola p013), ricomposto secondo libro/copertina.yaml
         front = frontespizio(testi["prima"])
-        front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
-        tela.paste(tinta(front, carta), (x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)))
+        if streetlib:
+            # l'inchiostro (non la tavola intera) deve stare a 0,6" dai bordi: si riduce e si centra
+            import numpy as np
+            a = np.asarray(front.convert("L")) < 128
+            righe, colonne = np.where(a.sum(1) > 2)[0], np.where(a.sum(0) > 2)[0]
+            bx0_, by0_, bx1_, by1_ = colonne[0], righe[0], colonne[-1], righe[-1]
+            k = min((px(LARGHEZZA) - 2 * margine) / (bx1_ - bx0_), (px(ALTEZZA) - 2 * margine) / (by1_ - by0_))
+            front = front.resize((round(front.width * k), round(front.height * k)), Image.LANCZOS)
+            cx_ink, cy_ink = (bx0_ + bx1_) / 2 * k, (by0_ + by1_) / 2 * k
+            tela.paste(tinta(front, carta), (round(x_prima + px(LARGHEZZA) / 2 - cx_ink),
+                                             round(y0 + px(ALTEZZA) / 2 - cy_ink)))
+            print(f"prima: tavola p013 al {k * 360 / DPI * 100:.0f}% della grandezza originale")
+        else:
+            front = front.resize((round(front.width * alt / front.height), alt), Image.LANCZOS)
+            tela.paste(tinta(front, carta), (x_prima + (px(LARGHEZZA) - front.width) // 2, y0 + px(0.125)))
         # timbro del traduttore in diagonale, nello stile di "NON E' POSTA SPAZZATURA" (se previsto)
         if testi["prima"].get("timbro"):
             t = testi["prima"]["timbro"]
@@ -209,7 +233,7 @@ def main():
     blocco(d, x + ls + 40, y + 30, q["traduttore"], font("OldStandard-Italic.ttf", 41), larghezza - ls - 40, 51)
     # piede: licenza a sinistra, spazio per il codice a barre KDP a destra (2 x 1,2 pollici)
     yb = y0 + px(ALTEZZA) - margine
-    bx0, by0 = x + larghezza - px(2.0), yb - px(1.2)
+    bx0, by0 = (x + larghezza - px(2.16), yb - px(1.57)) if streetlib else (x + larghezza - px(2.0), yb - px(1.2))
     fp = font("Jost-Regular.ttf", 34)
     # piede allineato in basso: l'ultima riga sulla stessa linea del fondo del riquadro
     righe_piede = [a_capo(r, fp, bx0 - x - 40) for r in q["piede"]]
@@ -224,12 +248,13 @@ def main():
     # versione per lo schermo (sito, PDF da sfogliare, EPUB): senza il riquadro del codice a barre,
     # tutta ocra; quella per la stampa tiene il riquadro bianco dove KDP/StreetLib mettono l'ISBN
     schermo = tela.copy()
-    d.rectangle([bx0, by0, x + larghezza, yb], fill=(255, 255, 255), outline=(170, 170, 170), width=2)
-    testo(d, ((bx0 + x + larghezza) // 2, (by0 + yb) // 2), "codice a barre", font("Jost-Regular.ttf", 28), "mm", (150, 150, 150))
+    if not streetlib:  # StreetLib stampa da sé il codice a barre: niente riquadro
+      d.rectangle([bx0, by0, x + larghezza, yb], fill=(255, 255, 255), outline=(170, 170, 170), width=2)
+      testo(d, ((bx0 + x + larghezza) // 2, (by0 + yb) // 2), "codice a barre", font("Jost-Regular.ttf", 28), "mm", (150, 150, 150))
 
     uscita = RADICE / "build" / "copertina"
     uscita.mkdir(parents=True, exist_ok=True)
-    nome = f"copertina-{args.variante}" + ("" if args.prima == "disegno" else f"-{args.prima}")
+    nome = f"copertina-{args.variante}" + ("" if args.prima == "disegno" else f"-{args.prima}") + ("-streetlib" if streetlib else "")
     tela.save(uscita / f"{nome}.png", dpi=(DPI, DPI))
     schermo.save(uscita / f"{nome}-schermo.png", dpi=(DPI, DPI))
     anteprima = tela.copy()
@@ -238,7 +263,39 @@ def main():
         da.line([(xx, 0), (xx, H)], fill=(200, 60, 60), width=3)
     da.rectangle([px(ABBONDANZA), px(ABBONDANZA), W - px(ABBONDANZA), H - px(ABBONDANZA)], outline=(60, 120, 200), width=3)
     anteprima.resize((W // 2, H // 2), Image.LANCZOS).save(uscita / f"{nome}-anteprima.png")
+
+    # prima di copertina per l'ebook: solo la prima, senza abbondanza, JPG RGB di almeno 1875 x 2500 px
+    pe = schermo.crop((x_prima, y0, x_prima + px(LARGHEZZA), y0 + px(ALTEZZA)))
+    pe = pe.resize((1875, round(1875 * pe.height / pe.width)), Image.LANCZOS)
+    pe.save(uscita / f"{nome}-prima-ebook.jpg", quality=92, dpi=(DPI, DPI))
+
+    if streetlib:
+        pdf_cmyk(tela, uscita / f"{nome}.pdf")
     print(uscita / f"{nome}.png", f"{W}x{H}px, dorso {dorso}px")
+
+
+def pdf_cmyk(tela: Image.Image, pdf: Path):
+    """PDF a una pagina in CMYK, senza profilo incorporato (come chiede StreetLib).
+    Conversione colorimetrica sRGB -> FOGRA39 (carta patinata) se il profilo c'è, altrimenti
+    il CMYK predefinito di Ghostscript."""
+    import img2pdf
+    from PIL import ImageCms
+    candidati = [Path(p) for p in (
+        "/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/FOGRA39L_coated.icc",
+        "/Library/ColorSync/Profiles/CoatedFOGRA39.icc",
+        "/System/Library/ColorSync/Profiles/Generic CMYK Profile.icc",
+        "/usr/share/color/icc/ghostscript/default_cmyk.icc",
+    )]
+    profilo = next((p for p in candidati if p.exists()), None)
+    if profilo is None:
+        sys.exit("nessun profilo CMYK trovato per la conversione")
+    cmyk = ImageCms.profileToProfile(tela, ImageCms.createProfile("sRGB"), str(profilo),
+                                     renderingIntent=ImageCms.Intent.RELATIVE_COLORIMETRIC,
+                                     outputMode="CMYK", flags=ImageCms.Flags.BLACKPOINTCOMPENSATION)
+    jpg = pdf.with_suffix(".cmyk.jpg")
+    cmyk.save(jpg, quality=95, dpi=(DPI, DPI))   # senza icc_profile
+    pdf.write_bytes(img2pdf.convert(str(jpg), layout_fun=img2pdf.get_fixed_dpi_layout_fun((DPI, DPI))))
+    print(pdf, "profilo di conversione:", profilo.name)
 
 
 if __name__ == "__main__":
