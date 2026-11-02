@@ -8,7 +8,7 @@ in sorgenti/vecchio-sito/, che sta in git: così il clone si rifà anche quando 
 non ci sarà più.
 
 Produce:
-  sito/public/storico/              home del clone e libro/<N>/index.html, immagini, CSS
+  sito/public/storico/              libro/<N>/index.html, immagini, CSS (/storico/ porta a libro/0/)
   sito/public/_redirects            /libro/<N>.php e /index.php -> pagine del clone (301)
 
 Uso:
@@ -89,7 +89,7 @@ def corrispondenze() -> dict[int, str]:
 
 def riscrivi(h: str, n: int, nuova: str | None) -> str:
     h = re.sub(r'href="(\d+)\.php"', r'href="/storico/libro/\1/"', h)
-    h = h.replace('href="../index.php"', 'href="/storico/"')
+    h = h.replace('href="../index.php"', 'href="/"')   # «Chiudi il libro»: alla home del sito nuovo
     h = re.sub(r'(?i)(src=")(?!http)([^"]+)"', r'\1/storico/libro/\2"', h)
     h = re.sub(r'(?i)HREF="bookstyle\.css"', 'HREF="/storico/libro/bookstyle.css"', h)
     h = re.sub(r"window\.location\.href = \"(\d+)\.php\"", r'window.location.href = "/storico/libro/\1/"', h)
@@ -138,21 +138,10 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(riscrivi(h, n, nuove.get(n)), encoding="utf-8")
 
-    # la vecchia home: rimandava subito a libro/0.php
-    (USCITA / "index.html").write_text(f"""<!DOCTYPE html>
-<html lang="it">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Principia Discordia (vecchio sito)</title>
-<link rel="stylesheet" href="/storico/libro/bookstyle.css"></head>
-<body bgcolor="#f1e18d">
-{AVVISO.format(nuova="")}
-<p>In queste pagine, finalmente, il progetto di traduzione in italiano dei Principia Discordia. </p>
-<p>Vai <a href="/storico/libro/0/">qui</a> </p>
-</body></html>
-""", encoding="utf-8")
-
     righe = ["# Vecchi indirizzi del sito PHP (generato da strumenti/clona_storico.py): verso il clone storico",
-             "/index.php /storico/ 301"]
+             "/index.php /storico/libro/0/ 301",
+             "/storico /storico/libro/0/ 301",
+             "/storico/ /storico/libro/0/ 301"]
     righe += [f"/libro/{n}.php /storico/libro/{n}/ 301" for n in sorted(pagine)]
     REDIRECTS.write_text("\n".join(righe) + "\n", encoding="utf-8")
 
