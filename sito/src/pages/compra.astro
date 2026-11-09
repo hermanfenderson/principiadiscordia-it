@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { CARTACEO, EBOOK, type Negozio } from '../config/compra';
 const gruppi: [string, Negozio[]][] = [['Il libro di carta', CARTACEO], ["L'ebook", EBOOK]];
 const inArrivo = [...CARTACEO, ...EBOOK].some((n) => !n.href);
+const giaInVendita = [...CARTACEO, ...EBOOK].some((n) => n.href);
 ---
 <Base titolo="Compra il libro" descrizione="Dove comprare i Principia Discordia in italiano: cartaceo in brossura A5 ed ebook." sezione="compra">
   <div class="foglio">
@@ -12,7 +13,7 @@ const inArrivo = [...CARTACEO, ...EBOOK].some((n) => !n.href);
       Ma comprarlo è un buon modo di disordinare: un oggetto di carta da lasciare sul comodino
       di qualcuno, da regalare a chi non se lo aspetta, da dimenticare in treno.</p>
     <p>Brossura A5 (148 × 210 mm), interni in bianco e nero su carta crema, copertina ocra.</p>
-    {inArrivo && <p class="nota-mano">Il libro sta per arrivare nelle librerie: i collegamenti compariranno qui.</p>}
+    {inArrivo && <p class="nota-mano">{giaInVendita ? 'Negli altri negozi sta arrivando' : 'Il libro sta per arrivare nelle librerie'}: i collegamenti compariranno qui.</p>}
     {gruppi.map(([titolo, negozi]) => (
       <section>
         <h2>{titolo}</h2>
