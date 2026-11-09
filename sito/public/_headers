@@ -11,3 +11,7 @@
 
 /originale/*
   Cache-Control: public, max-age=604800
+
+# il clone del vecchio sito resta navigabile ma non si indicizza: la versione da cercare è /libro/
+/storico/*
+  X-Robots-Tag: noindex
