@@ -13,6 +13,7 @@ export const CARTACEO: Negozio[] = [
 export const EBOOK: Negozio[] = [
   { nome: 'Amazon Kindle', formati: 'ebook', href: 'https://www.amazon.it/dp/B0HR4D38YY' },
   { nome: 'Kobo', formati: 'ebook EPUB' },
-  { nome: 'IBS e laFeltrinelli', formati: 'ebook EPUB' },
+  { nome: 'IBS', formati: 'ebook EPUB', href: 'https://www.ibs.it/principia-discordia-ebook-malaclypse-il-giovane-lord-omar-khayyam-ravenhurst/e/9791224751274' },
+  { nome: 'laFeltrinelli', formati: 'ebook EPUB', href: 'https://www.lafeltrinelli.it/principia-discordia-ebook-malaclypse-il-giovane-lord-omar-khayyam-ravenhurst/e/9791224751274' },
   { nome: 'Apple Books', formati: 'ebook EPUB' },
 ];

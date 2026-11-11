@@ -16,6 +16,7 @@ pagine: 114
 prezzo_cartaceo: "9,00 EUR"   # StreetLib, dal 2 novembre 2026
 isbn_cartaceo: "979-12-247-4845-8"   # assegnato da StreetLib il 2 novembre 2026
 prezzo_ebook: "0,99 EUR"   # StreetLib, EPUB a layout fisso, senza protezione
+isbn_ebook: "979-12-247-5127-4"   # dalle schede di IBS e laFeltrinelli, 11 novembre 2026
 parole_chiave: [Discordianesimo, Eris, Discordia, Illuminatus, controcultura, Robert Anton Wilson, Greg Hill, Kerry Thornley, caos, satira religiosa]
 # KDP: per i titoli di pubblico dominio tradotti chiede l'etichetta "(Translated)" nel campo titolo,
 # e traduttore e autore originale tra i contributori.
