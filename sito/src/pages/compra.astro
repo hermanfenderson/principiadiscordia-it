@@ -1,8 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
-import { CARTACEO, EBOOK, type Negozio } from '../config/compra';
+import { CARTACEO, EBOOK, ISBN_CARTACEO, type Negozio } from '../config/compra';
 const gruppi: [string, Negozio[]][] = [['Il libro di carta', CARTACEO], ["L'ebook", EBOOK]];
-const inArrivo = [...CARTACEO, ...EBOOK].some((n) => !n.href);
+const inArrivo = [...CARTACEO, ...EBOOK].some((n) => !n.href && !n.dove);
 const giaInVendita = [...CARTACEO, ...EBOOK].some((n) => n.href);
 ---
 <Base titolo="Compra il libro" descrizione="Dove comprare i Principia Discordia in italiano: cartaceo in brossura A5 ed ebook." sezione="compra">
@@ -21,12 +21,18 @@ const giaInVendita = [...CARTACEO, ...EBOOK].some((n) => n.href);
           {negozi.map((n) => (
             <li>
               {n.href ? <a href={n.href}>{n.nome}</a> : <span class="nome">{n.nome}</span>}
-              <span class="formati">{n.formati}{!n.href && ' · in arrivo'}</span>
+              <span class="formati">{n.formati}{n.dove ? ` · ${n.dove}` : !n.href && ' · in arrivo'}</span>
             </li>
           ))}
         </ul>
+        {negozi === CARTACEO && (
+          <p>E su ordinazione in tutte le librerie: basta chiederlo con l'ISBN <span class="isbn">{ISBN_CARTACEO}</span>.</p>
+        )}
       </section>
     ))}
+    {CARTACEO.length === 5 && EBOOK.length === 5 && (
+      <p class="legge nota-mano">Cinque posti per la carta, cinque per l'ebook: la Legge dei Cinque è rispettata.</p>
+    )}
   </div>
 </Base>
 
@@ -36,4 +42,6 @@ const giaInVendita = [...CARTACEO, ...EBOOK].some((n) => n.href);
   .negozi li { background: #fff; border: 2px solid var(--inchiostro); padding: 0.6rem 0.9rem; display: flex; flex-direction: column; font-family: var(--f-ui); }
   .negozi a, .nome { font-weight: 700; font-size: 1.1rem; }
   .formati { color: var(--grigio); font-size: 0.95rem; }
+  .isbn { font-family: var(--f-macchina); white-space: nowrap; }
+  .legge { font-size: 1.3rem; margin-top: 2rem; text-align: center; }
 </style>
