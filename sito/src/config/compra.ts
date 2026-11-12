@@ -14,5 +14,5 @@ export const EBOOK: Negozio[] = [
   { nome: 'Kobo', formati: 'ebook EPUB', href: 'https://www.kobo.com/it/it/ebook/principia-discordia-3' },
   { nome: 'IBS', formati: 'ebook EPUB', href: 'https://www.ibs.it/principia-discordia-ebook-malaclypse-il-giovane-lord-omar-khayyam-ravenhurst/e/9791224751274' },
   { nome: 'laFeltrinelli', formati: 'ebook EPUB', href: 'https://www.lafeltrinelli.it/principia-discordia-ebook-malaclypse-il-giovane-lord-omar-khayyam-ravenhurst/e/9791224751274' },
-  { nome: 'Apple Books', formati: 'ebook EPUB' },
+  { nome: 'Apple Books', formati: 'ebook EPUB', href: 'https://books.apple.com/it/book/principia-discordia/id6833276283' },
 ];
